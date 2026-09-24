@@ -1,0 +1,148 @@
+[
+  {
+    "id": "skeletal",
+    "names": {
+      "tr": { "value": "İskelet sistemi", "status": "unverified" },
+      "la": { "value": "Systema skeletale", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Skeletal system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#E3D9C6",
+    "layerOrder": 12,
+    "description": "Kemikler, bölümleri, belirgin yüzey işaretleri, çıkıntılar, çukurlar, delikler ve kanallar."
+  },
+  {
+    "id": "articular",
+    "names": {
+      "tr": { "value": "Eklem sistemi", "status": "unverified" },
+      "la": { "value": "Systema articulare", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Articular system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#8FAECB",
+    "layerOrder": 11,
+    "description": "Eklem yüzleri, kapsüller, bağlar, kıkırdaklar, menisküsler, diskler ve ilgili yardımcı yapılar."
+  },
+  {
+    "id": "muscular",
+    "names": {
+      "tr": { "value": "Kas sistemi", "status": "unverified" },
+      "la": { "value": "Systema musculare", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Muscular system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#A34A3B",
+    "layerOrder": 1,
+    "description": "Yüzeyel ve derin kaslar, kas grupları, tendonlar, aponevrozlar, fasyalar ve ilgili kompartımanlar."
+  },
+  {
+    "id": "cardiovascular",
+    "names": {
+      "tr": { "value": "Dolaşım sistemi", "status": "unverified" },
+      "la": { "value": "Systema cardiovasculare", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Cardiovascular system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#D32F2F",
+    "layerOrder": 3,
+    "description": "Kalbin dış ve iç anatomisi, boşlukları, kapakları, büyük damarlar, koroner dolaşım, bölgesel arterler ve venler."
+  },
+  {
+    "id": "lymphatic",
+    "names": {
+      "tr": { "value": "Lenfatik sistem", "status": "unverified" },
+      "la": { "value": "Systema lymphoideum", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Lymphoid system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#6FA83A",
+    "layerOrder": 2,
+    "description": "Lenf damarları, lenf düğümü grupları, ana lenf yolları ve ilgili organlar.",
+    "note": "Uygulama kimliği 'lymphatic'; Latince/İngilizce adlar TA'daki sistem başlığına göre yazıldı ve TA2 ile karşılaştırılmadı."
+  },
+  {
+    "id": "nervous",
+    "names": {
+      "tr": { "value": "Sinir sistemi", "status": "unverified" },
+      "la": { "value": "Systema nervosum", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Nervous system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#E8B923",
+    "layerOrder": 4,
+    "description": "Beyin, beyincik, beyin sapı, omurilik, zarlar, ventriküler sistem, kraniyal ve spinal sinirler, pleksuslar, periferik sinirler ve otonom yapılar."
+  },
+  {
+    "id": "respiratory",
+    "names": {
+      "tr": { "value": "Solunum sistemi", "status": "unverified" },
+      "la": { "value": "Systema respiratorium", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Respiratory system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#E891A6",
+    "layerOrder": 6,
+    "description": "Üst ve alt solunum yolları, akciğerler, loblar, segmentler, plevra ve solunumla ilişkili kaslar."
+  },
+  {
+    "id": "digestive",
+    "names": {
+      "tr": { "value": "Sindirim sistemi", "status": "unverified" },
+      "la": { "value": "Systema digestorium", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Digestive system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#C98B4F",
+    "layerOrder": 7,
+    "description": "Ağız boşluğu, dişler, dil, tükürük bezleri, sindirim kanalı, karaciğer, safra yolları, pankreas, periton ve ilgili bağlantılar.",
+    "note": "İngilizce karşılık TA sürümleri arasında farklı olabilir (ör. 'Alimentary system'); TA2 ile karşılaştırılmalı."
+  },
+  {
+    "id": "urinary",
+    "names": {
+      "tr": { "value": "Üriner sistem", "status": "unverified" },
+      "la": { "value": "Systema urinarium", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Urinary system", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#C9A227",
+    "layerOrder": 8,
+    "description": "Böbrekler ve iç anatomileri, toplayıcı sistem, üreterler, mesane ve üretra."
+  },
+  {
+    "id": "reproductive",
+    "names": {
+      "tr": { "value": "Üreme sistemi", "status": "unverified" },
+      "la": { "value": "Systemata genitalia", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Genital systems", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#A866AE",
+    "layerOrder": 9,
+    "description": "Kadın ve erkek iç ve dış genital yapıları, destekleyici bağlar, kanallar ve ilgili bezler.",
+    "note": "Uygulama kimliği 'reproductive'; TA kadın ve erkek genital sistemlerini ayrı başlıklarla verir. Adlar TA2 ile karşılaştırılmadı."
+  },
+  {
+    "id": "endocrine",
+    "names": {
+      "tr": { "value": "Endokrin bezler", "status": "unverified" },
+      "la": { "value": "Glandulae endocrinae", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Endocrine glands", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#26A69A",
+    "layerOrder": 10,
+    "description": "Endokrin bezler ve anatomik yerleşimleri."
+  },
+  {
+    "id": "sensory",
+    "names": {
+      "tr": { "value": "Duyu organları", "status": "unverified" },
+      "la": { "value": "Organa sensuum", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Sense organs", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#5C6BC0",
+    "layerOrder": 5,
+    "description": "Göz, orbita, göz kasları, gözyaşı sistemi; dış, orta ve iç kulak; koku ve tatla ilişkili yapılar."
+  },
+  {
+    "id": "integumentary",
+    "names": {
+      "tr": { "value": "Deri ve deri ekleri", "status": "unverified" },
+      "la": { "value": "Integumentum commune", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Integument", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "color": "#E3AE8F",
+    "layerOrder": 0,
+    "description": "Deri katmanları, deri altı doku ve uygun ayrıntı ölçeğinde deri ekleri."
+  }
+]

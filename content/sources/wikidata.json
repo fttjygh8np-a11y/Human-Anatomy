@@ -1,0 +1,19 @@
+{
+  "id": "src:wikidata",
+  "type": "dataset",
+  "citation": "Wikidata. Wikimedia Foundation.",
+  "shortLabel": "Wikidata",
+  "url": "https://www.wikidata.org/",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "notes": "Wikidata yapılandırılmış verisi CC0 ile yayımlanır; bu oturumda lisans sayfası açılıp okunmadı (verifiedAt boş)."
+  },
+  "usedFor": ["identifiers", "cross-references (planlanan)"],
+  "notes": "Yalnızca kimlik eşleştirme ve çapraz başvuru için. Wikidata etiketleri (özellikle Türkçe etiketler) topluluk tarafından düzenlenir; anatomik ad veya açıklama için tek başına doğrulama kaynağı sayılmaz."
+}
