@@ -1,0 +1,10 @@
+# Raw third-party source data (fetched by scripts, see docs)
+vendor/
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+.vite/
