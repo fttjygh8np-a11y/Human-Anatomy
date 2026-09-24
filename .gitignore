@@ -15,3 +15,6 @@ playwright-report/
 
 # Üretilen modeller (npm run models:build ile yeniden oluşturulur)
 public/models/bp3d/
+
+# Derlenmiş içerik (npm run content:build ile üretilir)
+public/data/
