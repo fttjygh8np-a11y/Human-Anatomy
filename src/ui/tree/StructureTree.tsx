@@ -7,6 +7,7 @@ import { useState, type KeyboardEvent, type ReactNode } from 'react'
 import type { RegionRecord, Structure, StructureId, SystemId, VisibilityMode } from '../../core/schema.ts'
 import { HIDDEN_REASON_LABEL, resolveVisibility } from '../../state/visibility.ts'
 import { useScene, useServices } from '../services.tsx'
+import { isSystemOn } from '../systems.ts'
 
 const NEXT_MODE: Record<VisibilityMode, VisibilityMode> = { visible: 'ghost', ghost: 'hidden', hidden: 'visible' }
 const MODE_ICON: Record<VisibilityMode | 'absent', string> = { visible: '●', ghost: '◐', hidden: '○', absent: '·' }
@@ -152,7 +153,7 @@ function StructureRow({ s, level, childrenOf }: { s: Structure; level: number; c
 
 export function SystemTree() {
   const { index, store } = useServices()
-  const systemVisibility = useScene((st) => st.scene.systemVisibility)
+  const scene = useScene((st) => st.scene)
   const systems = [...index.bundle.systems].sort((a, b) => a.layerOrder - b.layerOrder)
   const childrenOf = (id: StructureId) => index.childrenOf(id)
 
@@ -161,7 +162,7 @@ export function SystemTree() {
     <ul role="tree" aria-label="Sistemlere göre yapılar" className="tree" onKeyDown={onTreeKeyDown}>
       {systems.map((sys) => {
         const roots = index.systemRoots(sys.id)
-        const on = systemVisibility[sys.id] !== false
+        const on = isSystemOn(scene, sys.id)
         return (
           <TreeRow
             key={sys.id}
@@ -174,7 +175,7 @@ export function SystemTree() {
               </>
             }
             actions={
-              <label className="sys-toggle" title={on ? 'Sistemi gizle' : 'Sistemi göster'}>
+              <label className="sys-toggle" title={on ? 'Sistemi kapat' : 'Sistemi aç (modelleri yükler)'}>
                 <input
                   type="checkbox"
                   tabIndex={-1}
