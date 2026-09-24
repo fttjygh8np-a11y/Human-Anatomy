@@ -50,6 +50,7 @@ export type EngineEvent =
   | { type: 'context-restored' }
   | { type: 'unsupported'; reason: string }
   | { type: 'orientation'; orientation: ScreenOrientation }
+  /** First frame showing loaded content; `ms` = performance.now() (since navigation start). */
   | { type: 'first-frame'; ms: number }
 
 export interface LabelOptions {
@@ -64,7 +65,12 @@ export interface ViewerEngine {
   mount(container: HTMLElement): void
   dispose(): void
 
-  /** Load an asset GLB (idempotent). Resolves when meshes are in the scene. */
+  /**
+   * Load an asset GLB (idempotent). Resolves when meshes are in the scene. The engine adds the
+   * asset id to the store's `scene.loadedAssets` on success and removes it on unload/dispose
+   * (other ids in that list are left untouched). Rejects with an AbortError when unloaded
+   * while loading; failures are also reported as 'asset-error' events.
+   */
   loadAsset(asset: ModelAsset): Promise<void>
   unloadAsset(assetId: string): void
   isAssetLoaded(assetId: string): boolean
@@ -76,7 +82,12 @@ export interface ViewerEngine {
   getCameraState(): CameraState
   setCameraState(state: CameraState, opts?: { animate?: boolean }): void
 
-  /** Temporary emphasis (does not change scene state / undo history). */
+  /**
+   * Temporary emphasis (does not change scene state / undo history).
+   * Each style keeps its own set: a call with a style replaces that style's ids (empty ids
+   * clear it); `style = null` removes the given ids from every style, or clears all when
+   * `ids` is empty. Overlaps resolve quiz_wrong > quiz_correct > quiz_target > lesson > relation.
+   */
   setHighlight(ids: StructureId[], style: HighlightStyle | null): void
   setLabelOptions(opts: LabelOptions): void
   setQuality(level: QualityLevel): void
