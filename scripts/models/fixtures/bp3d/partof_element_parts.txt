@@ -1,0 +1,8 @@
+# SYNTHETIC TEST FIXTURE - not BodyParts3D data (ids FMA99xxxxx / FJ90xx are fictitious)
+concept_id	concept_name	element_file_id
+FMA9900001	left humerus	FJ9001
+FMA9900101	skeleton of left upper limb	FJ9001
+FMA9900100	skeletal system	FJ9001
+FMA9900002	right humerus	FJ9002
+FMA9900011	left kidney	FJ9011
+FMA9900012	right kidney	FJ9012

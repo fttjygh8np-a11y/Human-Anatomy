@@ -1,0 +1,5 @@
+# SYNTHETIC TEST FIXTURE - not BodyParts3D data; no header row and CHILD column first, to exercise direction inference
+FMA9900003	left femur	FMA9900200	bone organ
+FMA9900005	sternum	FMA9900200	bone organ
+FMA9900009	right biceps brachii	FMA9900201	skeletal muscle organ
+FMA9900200	bone organ	FMA9900300	organ
