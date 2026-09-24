@@ -1,0 +1,18 @@
+{
+  "id": "src:uberon",
+  "type": "ontology",
+  "citation": "Uberon multi-species anatomy ontology. OBO Foundry.",
+  "shortLabel": "UBERON",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "notes": "Lisans bilgisi (CC BY 3.0) OBO Foundry kayıtlarında böyle bildirilir, ancak bu oturumda birincil kaynaktan okunmadı (verifiedAt boş)."
+  },
+  "usedFor": ["identifiers (uberon:)", "cross-references (planlanan)"],
+  "notes": "FMA karşılığı olmayan yapılar için uberon: kimlikleri kullanılabilir. Resmî sayfa adresi (OBO Foundry ontoloji sayfası ve proje sayfası) bu oturumda erişilemediği için url alanına yazılmadı. Kullanılan sürüm eşleştirme yapılırken kaydedilmelidir."
+}

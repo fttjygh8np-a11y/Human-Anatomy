@@ -1,0 +1,19 @@
+{
+  "id": "src:bodyparts3d",
+  "type": "model_library",
+  "citation": "BodyParts3D. Database Center for Life Science (DBCLS), Japonya.",
+  "shortLabel": "BodyParts3D (DBCLS)",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "BodyParts3D, © Database Center for Life Science (DBCLS)",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": true,
+    "nonCommercial": false,
+    "notes": "İki farklı lisans beyanı var ve ikisi de kayıt altında tutuluyor: (1) Lisans sayfası (2025-02-27 tarihli) CC BY 4.0 (Creative Commons Attribution 4.0 International) bildiriyor; (2) indirilen OBJ dosyalarının başlıkları CC BY-SA 2.1 JP (https://creativecommons.org/licenses/by-sa/2.1/jp/) bildiriyor. Bu iki bilgi model hattı modülünden aktarıldı; içerik modülü bu oturumda birincil kaynağı açıp okuyamadı (ağ erişimi kısıtlı), bu yüzden verifiedAt boş bırakıldı. Çelişki giderilene kadar ihtiyatlı yaklaşım: türetilmiş modeller atıfla ve aynı koşullarla (ShareAlike) paylaşılır; shareAlike bu nedenle true. Atıf metni lisans sayfasındaki ifadeyle karşılaştırılıp düzeltilmeli."
+  },
+  "usedFor": ["geometry", "names:en (doğrulanmamış)", "fma-mapping"],
+  "notes": "Resmî sayfa adresleri bu oturumda erişilemediği için url alanı boş bırakıldı. Aday adresler (doğrulanmadı): Life Science Database Archive'daki BodyParts3D sayfaları (https://dbarchive.biosciencedbc.jp/en/bodyparts3d/ altında) ve tarihî proje sayfası https://lifesciencedb.jp/bp3d/. Veri sürümü ve indirme tarihi model hattının kayıtlarından (model kataloğu) alınmalı. BodyParts3D İngilizce adları terminoloji standardı değildir; TA2 ile karşılaştırılmadan 'doğrulandı' sayılmaz."
+}

@@ -1,0 +1,1477 @@
+{
+  "generatedAt": "2026-09-24T23:36:39.346Z",
+  "contentVersion": "5f679e06d9ad4d60",
+  "totals": {
+    "total": 32,
+    "done": {
+      "inventory": 0,
+      "model": 0,
+      "labels": 0,
+      "content": 0,
+      "license": 0,
+      "review": 0,
+      "complete": 0
+    },
+    "labelsPresent": 0
+  },
+  "bySystem": [
+    {
+      "key": "skeletal",
+      "label": "İskelet sistemi",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 0,
+          "model": 0,
+          "labels": 0,
+          "content": 0,
+          "license": 0,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 0
+      }
+    }
+  ],
+  "byRegion": [
+    {
+      "key": "upper_limb",
+      "label": "Üst ekstremite",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 0,
+          "model": 0,
+          "labels": 0,
+          "content": 0,
+          "license": 0,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 0
+      }
+    }
+  ],
+  "byLevel": [
+    {
+      "key": "basic",
+      "label": "basic",
+      "counts": {
+        "total": 18,
+        "done": {
+          "inventory": 0,
+          "model": 0,
+          "labels": 0,
+          "content": 0,
+          "license": 0,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 0
+      }
+    },
+    {
+      "key": "intermediate",
+      "label": "intermediate",
+      "counts": {
+        "total": 14,
+        "done": {
+          "inventory": 0,
+          "model": 0,
+          "labels": 0,
+          "content": 0,
+          "license": 0,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 0
+      }
+    }
+  ],
+  "matrix": [
+    {
+      "system": "skeletal",
+      "region": "upper_limb",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 0,
+          "model": 0,
+          "labels": 0,
+          "content": 0,
+          "license": 0,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 0
+      }
+    }
+  ],
+  "targets": [
+    {
+      "targetId": "hedef:upper_limb.skeletal.clavicle",
+      "structureId": null,
+      "name": "Clavicula",
+      "nameEn": "Clavicle",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "shoulder",
+      "regionLabel": "Omuz kuşağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.scapula",
+      "structureId": null,
+      "name": "Scapula",
+      "nameEn": "Scapula",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "shoulder",
+      "regionLabel": "Omuz kuşağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.humerus",
+      "structureId": null,
+      "name": "Humerus",
+      "nameEn": "Humerus",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "arm",
+      "regionLabel": "Kol",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.radius",
+      "structureId": null,
+      "name": "Radius",
+      "nameEn": "Radius",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "forearm",
+      "regionLabel": "Önkol",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.ulna",
+      "structureId": null,
+      "name": "Ulna",
+      "nameEn": "Ulna",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "forearm",
+      "regionLabel": "Önkol",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.scaphoid",
+      "structureId": null,
+      "name": "Os scaphoideum",
+      "nameEn": "Scaphoid",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.lunate",
+      "structureId": null,
+      "name": "Os lunatum",
+      "nameEn": "Lunate",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.triquetrum",
+      "structureId": null,
+      "name": "Os triquetrum",
+      "nameEn": "Triquetrum",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.pisiform",
+      "structureId": null,
+      "name": "Os pisiforme",
+      "nameEn": "Pisiform",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.trapezium",
+      "structureId": null,
+      "name": "Os trapezium",
+      "nameEn": "Trapezium",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.trapezoid",
+      "structureId": null,
+      "name": "Os trapezoideum",
+      "nameEn": "Trapezoid",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.capitate",
+      "structureId": null,
+      "name": "Os capitatum",
+      "nameEn": "Capitate",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.hamate",
+      "structureId": null,
+      "name": "Os hamatum",
+      "nameEn": "Hamate",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_1",
+      "structureId": null,
+      "name": "First metacarpal",
+      "nameEn": "First metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_2",
+      "structureId": null,
+      "name": "Second metacarpal",
+      "nameEn": "Second metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_3",
+      "structureId": null,
+      "name": "Third metacarpal",
+      "nameEn": "Third metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_4",
+      "structureId": null,
+      "name": "Fourth metacarpal",
+      "nameEn": "Fourth metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_5",
+      "structureId": null,
+      "name": "Fifth metacarpal",
+      "nameEn": "Fifth metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_thumb",
+      "structureId": null,
+      "name": "Proximal phalanx of thumb",
+      "nameEn": "Proximal phalanx of thumb",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_thumb",
+      "structureId": null,
+      "name": "Distal phalanx of thumb",
+      "nameEn": "Distal phalanx of thumb",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_index",
+      "structureId": null,
+      "name": "Proximal phalanx of index finger",
+      "nameEn": "Proximal phalanx of index finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_index",
+      "structureId": null,
+      "name": "Middle phalanx of index finger",
+      "nameEn": "Middle phalanx of index finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_index",
+      "structureId": null,
+      "name": "Distal phalanx of index finger",
+      "nameEn": "Distal phalanx of index finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_middle",
+      "structureId": null,
+      "name": "Proximal phalanx of middle finger",
+      "nameEn": "Proximal phalanx of middle finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_middle",
+      "structureId": null,
+      "name": "Middle phalanx of middle finger",
+      "nameEn": "Middle phalanx of middle finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_middle",
+      "structureId": null,
+      "name": "Distal phalanx of middle finger",
+      "nameEn": "Distal phalanx of middle finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_ring",
+      "structureId": null,
+      "name": "Proximal phalanx of ring finger",
+      "nameEn": "Proximal phalanx of ring finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_ring",
+      "structureId": null,
+      "name": "Middle phalanx of ring finger",
+      "nameEn": "Middle phalanx of ring finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_ring",
+      "structureId": null,
+      "name": "Distal phalanx of ring finger",
+      "nameEn": "Distal phalanx of ring finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_little",
+      "structureId": null,
+      "name": "Proximal phalanx of little finger",
+      "nameEn": "Proximal phalanx of little finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_little",
+      "structureId": null,
+      "name": "Middle phalanx of little finger",
+      "nameEn": "Middle phalanx of little finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_little",
+      "structureId": null,
+      "name": "Distal phalanx of little finger",
+      "nameEn": "Distal phalanx of little finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": false,
+      "model": "none",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "missing"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "no_model",
+      "review": {
+        "text": "none",
+        "labels": "none",
+        "geometry": "none",
+        "relations": "none"
+      },
+      "done": {
+        "inventory": false,
+        "model": false,
+        "labels": false,
+        "content": false,
+        "license": false,
+        "review": false,
+        "complete": false
+      }
+    }
+  ],
+  "untargetedStructures": {
+    "total": 0,
+    "bySystem": {}
+  },
+  "assets": {
+    "total": 0,
+    "anatomical": 0,
+    "schematic": 0,
+    "nodes": 0,
+    "orphanNodes": 0,
+    "structuresWithModel": 0
+  },
+  "reviews": {
+    "total": 0,
+    "byStatus": {},
+    "byRole": {}
+  },
+  "automated": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

@@ -1,0 +1,559 @@
+[
+  {
+    "id": "hedef:upper_limb.skeletal.clavicle",
+    "system": "skeletal",
+    "region": "shoulder",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Clavicle",
+      "la": "Clavicula"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.scapula",
+    "system": "skeletal",
+    "region": "shoulder",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Scapula",
+      "la": "Scapula"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.humerus",
+    "system": "skeletal",
+    "region": "arm",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Humerus",
+      "la": "Humerus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.radius",
+    "system": "skeletal",
+    "region": "forearm",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Radius",
+      "la": "Radius"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.ulna",
+    "system": "skeletal",
+    "region": "forearm",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Ulna",
+      "la": "Ulna"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.scaphoid",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Scaphoid",
+      "la": "Os scaphoideum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.lunate",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Lunate",
+      "la": "Os lunatum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.triquetrum",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Triquetrum",
+      "la": "Os triquetrum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.pisiform",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Pisiform",
+      "la": "Os pisiforme"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.trapezium",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Trapezium",
+      "la": "Os trapezium"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.trapezoid",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Trapezoid",
+      "la": "Os trapezoideum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.capitate",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Capitate",
+      "la": "Os capitatum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.hamate",
+    "system": "skeletal",
+    "region": "wrist",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Hamate",
+      "la": "Os hamatum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.metacarpal_1",
+    "system": "skeletal",
+    "region": "metacarpus",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "First metacarpal"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.metacarpal_2",
+    "system": "skeletal",
+    "region": "metacarpus",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Second metacarpal"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.metacarpal_3",
+    "system": "skeletal",
+    "region": "metacarpus",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Third metacarpal"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.metacarpal_4",
+    "system": "skeletal",
+    "region": "metacarpus",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fourth metacarpal"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.metacarpal_5",
+    "system": "skeletal",
+    "region": "metacarpus",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fifth metacarpal"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_proximal_thumb",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of thumb"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_distal_thumb",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of thumb"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_proximal_index",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of index finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_middle_index",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of index finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_distal_index",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of index finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_proximal_middle",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of middle finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_middle_middle",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of middle finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_distal_middle",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of middle finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_proximal_ring",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of ring finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_middle_ring",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of ring finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_distal_ring",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of ring finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_proximal_little",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of little finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_middle_little",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of little finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  },
+  {
+    "id": "hedef:upper_limb.skeletal.phalanx_distal_little",
+    "system": "skeletal",
+    "region": "fingers",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of little finger"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:fipat-ta2",
+        "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
+      }
+    ]
+  }
+]
