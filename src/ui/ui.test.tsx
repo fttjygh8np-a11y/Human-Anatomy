@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { act, cleanup, fireEvent, render, screen } from '@testing-library/react'
+import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 import { assetSchema, structureSchema } from '../core/schema.ts'
 import { createContentIndex } from '../data/contentIndex.ts'
@@ -7,6 +7,7 @@ import type { ContentBundle } from '../data/types.ts'
 import { createSceneStore } from '../state/sceneStore.ts'
 import { DEFAULT_SETTINGS } from '../user/types.ts'
 import { InfoPanel } from './info/InfoPanel.tsx'
+import { QuizPanel } from './quiz/QuizPanel.tsx'
 import { ServicesContext, type Services } from './services.tsx'
 import { SceneToolbar } from './toolbar/SceneToolbar.tsx'
 import { SystemTree } from './tree/StructureTree.tsx'
@@ -73,6 +74,7 @@ function setup() {
       <SceneToolbar />
       <SystemTree />
       <InfoPanel />
+      <QuizPanel />
     </ServicesContext.Provider>,
   )
   return store
@@ -84,7 +86,7 @@ describe('UI shell', () => {
   it('expands the system tree and shows the selected structure without inventing content', () => {
     const store = setup()
     expect(screen.getByText(/Bilgi görmek için/)).toBeTruthy()
-    fireEvent.click(screen.getByText('İskelet sistemi'))
+    fireEvent.click(within(screen.getByRole('tree')).getByText('İskelet sistemi'))
     fireEvent.click(screen.getByText('Grup'))
     expect(store.getState().scene.selected).toEqual(['ax:group'])
     expect(screen.getByRole('heading', { level: 2, name: 'Grup' })).toBeTruthy()
@@ -100,5 +102,11 @@ describe('UI shell', () => {
     expect(store.getState().scene.visibility['ax:part']).toBe('hidden')
     fireEvent.click(screen.getByRole('button', { name: 'Geri al: Gizle' }))
     expect(store.getState().scene.visibility['ax:part']).toBeUndefined()
+  })
+
+  it('refuses to generate questions from unsourced names and says why', async () => {
+    setup()
+    fireEvent.click(screen.getByRole('button', { name: 'Başlat' }))
+    expect(await screen.findByText('Bu ayarlarla soru üretilemedi.')).toBeTruthy()
   })
 })
