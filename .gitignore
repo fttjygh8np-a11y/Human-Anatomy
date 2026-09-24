@@ -12,3 +12,6 @@ playwright-report/
 # Ajan çalışma ağaçları
 .claude/worktrees/
 .claude/settings.local.json
+
+# Üretilen modeller (npm run models:build ile yeniden oluşturulur)
+public/models/bp3d/
