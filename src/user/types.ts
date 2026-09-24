@@ -70,4 +70,11 @@ export interface UserDataStore {
   exportAll(): Promise<UserExport>
   importAll(data: unknown, mode: 'merge' | 'replace'): Promise<{ imported: number }>
   deleteAll(): Promise<void>
+  /**
+   * false when IndexedDB is unavailable (e.g. private browsing) and data only lives in
+   * memory for this session — the UI should say so. Undefined for stores that predate it.
+   */
+  readonly persistent?: boolean
+  /** Releases the underlying connection (tests, upgrades from another tab). */
+  close?(): void
 }
