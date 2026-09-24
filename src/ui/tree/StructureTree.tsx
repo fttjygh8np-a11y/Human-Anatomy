@@ -4,7 +4,7 @@
  * toggle showing the effective state (incl. why a structure is hidden).
  */
 import { useState, type KeyboardEvent, type ReactNode } from 'react'
-import type { RegionRecord, Structure, StructureId, SystemId, VisibilityMode } from '../../core/schema.ts'
+import { SYSTEM_IDS, type RegionRecord, type Structure, type StructureId, type SystemId, type VisibilityMode } from '../../core/schema.ts'
 import { HIDDEN_REASON_LABEL, resolveVisibility } from '../../state/visibility.ts'
 import { useScene, useServices } from '../services.tsx'
 import { isSystemOn } from '../systems.ts'
@@ -154,7 +154,7 @@ function StructureRow({ s, level, childrenOf }: { s: Structure; level: number; c
 export function SystemTree() {
   const { index, store } = useServices()
   const scene = useScene((st) => st.scene)
-  const systems = [...index.bundle.systems].sort((a, b) => a.layerOrder - b.layerOrder)
+  const systems = [...index.bundle.systems].sort((a, b) => SYSTEM_IDS.indexOf(a.id) - SYSTEM_IDS.indexOf(b.id))
   const childrenOf = (id: StructureId) => index.childrenOf(id)
 
   if (systems.length === 0) return <p className="muted">Henüz sistem tanımı yüklenmedi.</p>
