@@ -2,10 +2,9 @@
  * npm run content:terms
  *
  * Adds sourced Latin (TA2) and, where confirmed, Turkish (TDK) names to inventory structures
- * and creates generic records for scope targets. Network snapshots are cached in
+ * (including the generic concepts created by content:inventory). Network snapshots are cached in
  * vendor/terminology/ (gitignored) with URL, date and sha256; re-runs use the cache unless
- * --refresh is given. Output: content/structures/terminoloji/adlar.json (generated overlay)
- * and structureId links in content/scope/*.json.
+ * --refresh is given. Output: content/structures/terminoloji/adlar.json (generated overlay).
  *
  * Behind an HTTPS proxy run with NODE_USE_ENV_PROXY=1 (Node >= 22.21).
  */
@@ -14,10 +13,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import vm from 'node:vm'
 import {
-  TA2_SOURCE,
-  TDK_SOURCE,
   buildOverlay,
-  capitalizeTr,
   indexTa2,
   matchTa2,
   normalizeEn,
@@ -166,20 +162,8 @@ async function main() {
     const hit = idx.byEn.get(normalizeEn(en))
     return hit && hit.size === 1 ? [...hit][0]! : undefined
   }
-  const scopeDir = join(CONTENT_DIR, 'scope')
-  const scopeFiles = (await readdir(scopeDir)).filter((f) => f.endsWith('.json')).sort()
-  const scope: { file: string; targets: Record<string, unknown>[] }[] = []
-  for (const f of scopeFiles) scope.push({ file: f, targets: JSON.parse(await readFile(join(scopeDir, f), 'utf8')) })
-  const scopeTa2 = new Map<string, number>()
-  for (const { targets } of scope)
-    for (const t of targets) {
-      const en = (t.name as { en: string }).en
-      const id = ta2ForEn(en) ?? ta2ForEn(`${en} bone`)
-      if (id !== undefined) scopeTa2.set(t.id as string, id)
-    }
-
   const fmas = inventory.map((s) => s.externalIds.fma).filter((x): x is string => !!x)
-  const wd = await loadWikidata(fmas, [...new Set(scopeTa2.values())])
+  const wd = await loadWikidata(fmas, [])
   const fmaToTa2 = new Map(Object.entries(wd.data.fmaToTa2))
 
   // Turkish names confirmed in TDK, keyed by TA2 id.
@@ -215,72 +199,13 @@ async function main() {
     overlays.push(buildOverlay(s, m, tr, { ta2Url: ta2.url, date: ta2.retrievedAt }))
   }
 
-  // Generic records for scope targets, linked to their sided instances.
   const overlayById = new Map(overlays.map((o) => [o.id as string, o]))
-  let linked = 0
-  for (const { file, targets } of scope) {
-    let changed = false
-    for (const t of targets) {
-      const ta2Id = scopeTa2.get(t.id as string)
-      if (ta2Id === undefined) {
-        console.warn(`  ! Kapsam hedefi TA2'de bulunamadı: ${t.id as string}`)
-        continue
-      }
-      const fmaIds = wd.data.ta2ToFma[String(ta2Id)] ?? []
-      if (fmaIds.length !== 1) {
-        console.warn(`  ! ${t.id as string}: TA2 ${ta2Id} için Wikidata'da ${fmaIds.length} FMA kimliği var; genel kayıt oluşturulmadı.`)
-        continue
-      }
-      const genericId = `fma:${fmaIds[0]}`
-      const instances = inventory.filter((s) => matched.get(s.id) === ta2Id && (s.laterality === 'right' || s.laterality === 'left'))
-      if (instances.length === 0) continue
-      const term = idx.byId.get(ta2Id)!
-      const tr = trByTa2.get(ta2Id)
-      const first = instances[0]!
-      const generic: Record<string, unknown> = {
-        id: genericId,
-        schemaVersion: 1,
-        kind: t.kind,
-        names: {
-          en: { value: capitalizeTr(term.term.en ?? (t.name as { en: string }).en), status: 'unverified', sources: [{ sourceId: TA2_SOURCE, locator: `TA2 ID ${ta2Id}` }] },
-          la: { value: term.term.la, status: 'unverified', sources: [{ sourceId: TA2_SOURCE, locator: `TA2 ID ${ta2Id}` }] },
-          ...(tr
-            ? { tr: { value: capitalizeTr(tr.madde), status: 'unverified', sources: [{ sourceId: TDK_SOURCE, locator: `madde "${tr.madde}" (madde_id ${tr.maddeId})`, note: `TDK tanımı: "${tr.definition}".` }] } }
-            : {}),
-        },
-        externalIds: { fma: fmaIds[0], ta2: String(ta2Id) },
-        systems: first.systems,
-        regions: [t.region],
-        regionBasis: 'authored',
-        laterality: 'paired_generic',
-        detailLevel: t.level,
-        provenance: {
-          createdBy: 'author:ai-draft',
-          createdAt: today,
-          updatedAt: today,
-          notes: `Kapsam hedefi ${t.id as string} için genel (taraf belirtmeyen) kavram. FMA kimliği Wikidata'daki TA2 ${ta2Id} bağlantısından alındı. Sağ/sol örnekler: ${instances.map((i) => i.id).join(', ')}.`,
-        },
-      }
-      overlayById.set(genericId, generic)
-      for (const inst of instances) {
-        const o = overlayById.get(inst.id)
-        if (o) o.genericId = genericId
-      }
-      if (t.structureId !== genericId) {
-        t.structureId = genericId
-        changed = true
-      }
-      linked++
-    }
-    if (changed) await writeFile(join(scopeDir, file), prettyJson(targets))
-  }
-
   const out = [...overlayById.values()].sort((a, b) => ((a.id as string) < (b.id as string) ? -1 : 1))
   const outDir = join(CONTENT_DIR, 'structures', 'terminoloji')
   await mkdir(outDir, { recursive: true })
   await writeFile(join(outDir, 'adlar.json'), prettyJson(out))
   console.log(
-    `${matched.size}/${inventory.length} yapıya TA2 Latince adı, ${trCount} yapıya TDK Türkçe adı eklendi; ${linked} kapsam hedefi genel kayda bağlandı.\n` +
+    `${matched.size}/${inventory.length} yapıya TA2 Latince adı, ${trCount} yapıya TDK Türkçe adı eklendi.\n` +
       'Tüm adlar "doğrulanmadı" durumundadır; uzman incelemesi gerekir (docs/uzman-inceleme.md).',
   )
 }

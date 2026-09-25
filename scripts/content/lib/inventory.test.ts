@@ -120,3 +120,38 @@ describe('helpers', () => {
     expect(sideKey('test')).toBeNull()
   })
 })
+
+describe('generic concepts from the is-a list', () => {
+  const parsedEls = (items: unknown[]) => parseElements(items).elements
+  const names = new Map([
+    ['900100', 'test bone'],
+    ['900200', 'unrelated parent'],
+  ])
+  const pair = [
+    el({ elementId: 'FJR', fmaId: '900001', nameEn: 'Right test bone', isaParents: ['fma:900100'] }),
+    el({ elementId: 'FJL', fmaId: '900002', nameEn: 'Left test bone', isaParents: ['fma:900100'] }),
+  ]
+
+  it('creates a side-less record, links both sides and inherits the scope level', () => {
+    const { records } = buildInventory(parsedEls(pair), { today: TODAY, conceptNames: names, levelHints: new Map([['fma:900100', 'basic']]) })
+    const generic = records.find((r) => r.id === 'fma:900100')!
+    expect(generic.laterality).toBe('paired_generic')
+    expect(generic.names.en.value).toBe('Test bone')
+    expect(generic.detailLevel).toBe('basic')
+    for (const id of ['fma:900001', 'fma:900002']) {
+      const r = records.find((x) => x.id === id)!
+      expect(r.genericId).toBe('fma:900100')
+      expect(r.detailLevel).toBe('basic')
+    }
+    for (const r of records) expect(structureSchema.safeParse(r).success).toBe(true)
+  })
+
+  it('defaults unassigned levels to advanced and ignores is-a parents with another name', () => {
+    const els = [el({ elementId: 'FJR', fmaId: '900001', nameEn: 'Right test bone', isaParents: ['fma:900200'] })]
+    const { records } = buildInventory(parsedEls(els), { today: TODAY, conceptNames: names })
+    expect(records.map((r) => r.id)).toEqual(['fma:900001'])
+    expect(records[0]!.genericId).toBeUndefined()
+    expect(records[0]!.detailLevel).toBe('advanced')
+  })
+})
+

@@ -46,6 +46,7 @@ export const ELEMENT_FIELD_ALIASES = {
   laterality: ['laterality', 'side'],
   regions: ['regions', 'region'],
   kind: ['kind'],
+  isaParents: ['isaParents', 'isa_parents', 'isa'],
 } as const
 
 const SYSTEM_ALIASES: Record<string, SystemId> = {
@@ -87,6 +88,8 @@ export interface Bp3dElement {
   laterality?: Laterality
   regions?: string[]
   kind?: StructureKind
+  /** Direct is-a parents in BodyParts3D (FMA digits), e.g. "Right humerus" is-a "Humerus". */
+  isaParents?: string[]
 }
 
 function pick(obj: Record<string, unknown>, keys: readonly string[]): unknown {
@@ -152,6 +155,10 @@ export function parseElements(raw: unknown, file = ELEMENTS_FILE): { elements: B
       return
     }
     const el: Bp3dElement = { elementId, fmaId, nameEn, systems }
+    const isa = toList(pick(item, ELEMENT_FIELD_ALIASES.isaParents))
+      .map(normalizeFmaId)
+      .filter((x): x is string => x !== null)
+    if (isa.length > 0) el.isaParents = [...new Set(isa)]
     const chunk = pick(item, ELEMENT_FIELD_ALIASES.chunk)
     if (typeof chunk === 'string' && chunk.trim()) el.chunk = chunk.trim()
     let latRaw = pick(item, ELEMENT_FIELD_ALIASES.laterality)
@@ -230,9 +237,21 @@ export interface InventoryOptions {
   existing?: readonly unknown[]
   /** Region ids known to the taxonomy; chunk/region values outside it are dropped. */
   knownRegions?: ReadonlySet<string>
-  /** Detail level per structure id from linked scope targets. */
+  /** Detail level per structure id from linked scope targets (applies to sided instances too). */
   levelHints?: ReadonlyMap<string, DetailLevel>
+  /** English names of FMA concepts from the BodyParts3D relation lists (FMA digits -> name). */
+  conceptNames?: ReadonlyMap<string, string>
 }
+
+/** Name of a sided instance without its side word ("Proximal phalanx of right thumb" -> "proximal phalanx of thumb"). */
+export function sidelessName(nameEn: string): string | null {
+  const key = sideKey(nameEn)
+  return key === null ? null : key.replace('*', ' ').replace(/\s+/g, ' ').trim()
+}
+
+export const UNASSIGNED_LEVEL: DetailLevel = 'advanced'
+const LEVEL_NOTE_UNASSIGNED = `Ayrıntı düzeyi: atanmadı (varsayılan ${UNASSIGNED_LEVEL}; temel/orta düzey sınavlara girmez).`
+const LEVEL_NOTE_SCOPE = 'Ayrıntı düzeyi: kapsam hedefinden alındı.'
 
 export function buildInventory(elements: readonly Bp3dElement[], opts: InventoryOptions): { records: StructureInput[]; issues: Issue[] } {
   const issues: Issue[] = []
@@ -294,7 +313,7 @@ export function buildInventory(elements: readonly Bp3dElement[], opts: Inventory
       `Tür: ${kindBasis}.`,
       `Taraf: ${latBasis}.`,
       `Bölge: ${regions.length > 0 ? 'model parçasından (chunk) türetildi' : 'atanmadı'}.`,
-      `Ayrıntı düzeyi: ${level ? 'kapsam hedefinden alındı' : 'atanmadı (varsayılan basic)'}.`,
+      level ? LEVEL_NOTE_SCOPE : LEVEL_NOTE_UNASSIGNED,
       'Cinsiyet atanmadı (varsayılan both).',
     ].join(' ')
 
@@ -310,7 +329,7 @@ export function buildInventory(elements: readonly Bp3dElement[], opts: Inventory
       regions,
       regionBasis: regions.length > 0 ? 'derived_from_geometry' : 'unassigned',
       laterality,
-      detailLevel: level ?? 'basic',
+      detailLevel: level ?? UNASSIGNED_LEVEL,
       review: { text: 'draft', labels: 'draft', geometry: 'draft', relations: 'draft' },
       provenance: { createdBy: 'import:bodyparts3d', createdAt: opts.today, updatedAt: opts.today, notes },
     }
@@ -318,9 +337,89 @@ export function buildInventory(elements: readonly Bp3dElement[], opts: Inventory
   }
 
   linkCounterparts(records, issues)
+  addGenericConcepts(records, groups, opts)
   keepStableDates(records, opts.existing ?? [])
   records.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
   return { records: records.map(orderKeys), issues }
+}
+
+/**
+ * Generic (side-less) concepts of right/left instances, from the BodyParts3D is-a list:
+ * "Right humerus" is-a "Humerus" (FMA13303). The generic record has no model of its own; it
+ * groups both sides. Linked only when the concept name equals the instance name without its
+ * side word, so an unrelated is-a parent is never used.
+ */
+function addGenericConcepts(records: StructureInput[], groups: ReadonlyMap<string, readonly Bp3dElement[]>, opts: InventoryOptions): void {
+  const names = opts.conceptNames ?? new Map<string, string>()
+  const byId = new Map(records.map((r) => [r.id, r]))
+  const instancesOf = new Map<string, StructureInput[]>()
+  for (const r of records) {
+    if (r.laterality !== 'right' && r.laterality !== 'left') continue
+    const fma = r.externalIds?.fma
+    const parents = [...new Set((groups.get(fma ?? '') ?? []).flatMap((e) => e.isaParents ?? []))]
+    if (parents.length !== 1) continue
+    const p = parents[0]!
+    // A concept that has its own model (e.g. an unpaired vessel) is not a side-less grouping.
+    const own = byId.get(`fma:${p}`)
+    if (own && own.laterality !== 'paired_generic') continue
+    const conceptName = names.get(p)
+    const sideless = sidelessName(r.names.en.value)
+    if (!conceptName || !sideless || conceptName.toLowerCase().replace(/\s+/g, ' ').trim() !== sideless) continue
+    r.genericId = `fma:${p}`
+    const list = instancesOf.get(p) ?? []
+    list.push(r)
+    instancesOf.set(p, list)
+  }
+  for (const [p, instances] of instancesOf) {
+    const id = `fma:${p}`
+    const first = instances[0]!
+    const hint = opts.levelHints?.get(id)
+    const existing = byId.get(id)
+    if (!existing) {
+      const name = names.get(p)!
+      const regions = [...new Set(instances.flatMap((i) => i.regions ?? []))].sort()
+      const rec: StructureInput = {
+        id,
+        schemaVersion: 1,
+        kind: first.kind,
+        names: {
+          en: {
+            value: name.charAt(0).toUpperCase() + name.slice(1),
+            status: 'unverified',
+            sources: [{ sourceId: BP3D_SOURCE_ID, locator: `isa_inclusion_relation_list.txt (FMA${p})` }],
+          },
+        },
+        externalIds: { fma: p },
+        systems: first.systems,
+        regions,
+        regionBasis: regions.length > 0 ? 'derived_from_geometry' : 'unassigned',
+        laterality: 'paired_generic',
+        detailLevel: hint ?? UNASSIGNED_LEVEL,
+        review: { text: 'draft', labels: 'draft', geometry: 'draft', relations: 'draft' },
+        provenance: {
+          createdBy: 'import:bodyparts3d',
+          createdAt: opts.today,
+          updatedAt: opts.today,
+          notes: [
+            `Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde ${instances.map((i) => i.id).join(', ')} kayıtlarının üst kavramı.`,
+            'Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir.',
+            'İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı.',
+            hint ? LEVEL_NOTE_SCOPE : LEVEL_NOTE_UNASSIGNED,
+          ].join(' '),
+        },
+      }
+      records.push(rec)
+      byId.set(id, rec)
+    }
+    // Instances inherit the generic concept's scope level unless they have their own.
+    if (hint) {
+      for (const i of instances) {
+        if (opts.levelHints?.get(i.id)) continue
+        i.detailLevel = hint
+        i.provenance.notes = (i.provenance.notes ?? '').replace(LEVEL_NOTE_UNASSIGNED, 'Ayrıntı düzeyi: genel kavramın kapsam hedefinden alındı.')
+      }
+    }
+  }
 }
 
 /** Fixed key order so inventory files read naturally and diff cleanly. */

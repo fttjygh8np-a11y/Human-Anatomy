@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T00:17:53.394Z",
-  "contentVersion": "55cb971577405f0b",
+  "generatedAt": "2026-09-25T00:28:21.519Z",
+  "contentVersion": "d991c194c42b84a5",
   "totals": {
     "total": 32,
     "done": {
-      "inventory": 14,
-      "model": 14,
+      "inventory": 32,
+      "model": 32,
       "labels": 0,
       "content": 0,
-      "license": 14,
+      "license": 32,
       "review": 0,
       "complete": 0
     },
@@ -21,11 +21,11 @@
       "counts": {
         "total": 32,
         "done": {
-          "inventory": 14,
-          "model": 14,
+          "inventory": 32,
+          "model": 32,
           "labels": 0,
           "content": 0,
-          "license": 14,
+          "license": 32,
           "review": 0,
           "complete": 0
         },
@@ -40,11 +40,11 @@
       "counts": {
         "total": 32,
         "done": {
-          "inventory": 14,
-          "model": 14,
+          "inventory": 32,
+          "model": 32,
           "labels": 0,
           "content": 0,
-          "license": 14,
+          "license": 32,
           "review": 0,
           "complete": 0
         },
@@ -59,11 +59,11 @@
       "counts": {
         "total": 18,
         "done": {
-          "inventory": 14,
-          "model": 14,
+          "inventory": 18,
+          "model": 18,
           "labels": 0,
           "content": 0,
-          "license": 14,
+          "license": 18,
           "review": 0,
           "complete": 0
         },
@@ -76,11 +76,11 @@
       "counts": {
         "total": 14,
         "done": {
-          "inventory": 0,
-          "model": 0,
+          "inventory": 14,
+          "model": 14,
           "labels": 0,
           "content": 0,
-          "license": 0,
+          "license": 14,
           "review": 0,
           "complete": 0
         },
@@ -95,11 +95,11 @@
       "counts": {
         "total": 32,
         "done": {
-          "inventory": 14,
-          "model": 14,
+          "inventory": 32,
+          "model": 32,
           "labels": 0,
           "content": 0,
-          "license": 14,
+          "license": 32,
           "review": 0,
           "complete": 0
         },
@@ -695,7 +695,7 @@
     },
     {
       "targetId": "hedef:upper_limb.skeletal.metacarpal_1",
-      "structureId": null,
+      "structureId": "fma:23899",
       "name": "First metacarpal",
       "nameEn": "First metacarpal",
       "system": "skeletal",
@@ -705,39 +705,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.metacarpal_2",
-      "structureId": null,
+      "structureId": "fma:23900",
       "name": "Second metacarpal",
       "nameEn": "Second metacarpal",
       "system": "skeletal",
@@ -747,32 +750,35 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
@@ -824,7 +830,7 @@
     },
     {
       "targetId": "hedef:upper_limb.skeletal.metacarpal_4",
-      "structureId": null,
+      "structureId": "fma:23902",
       "name": "Fourth metacarpal",
       "nameEn": "Fourth metacarpal",
       "system": "skeletal",
@@ -834,39 +840,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.metacarpal_5",
-      "structureId": null,
+      "structureId": "fma:23903",
       "name": "Fifth metacarpal",
       "nameEn": "Fifth metacarpal",
       "system": "skeletal",
@@ -876,39 +885,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_thumb",
-      "structureId": null,
+      "structureId": "fma:23918",
       "name": "Proximal phalanx of thumb",
       "nameEn": "Proximal phalanx of thumb",
       "system": "skeletal",
@@ -918,39 +930,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_distal_thumb",
-      "structureId": null,
+      "structureId": "fma:23945",
       "name": "Distal phalanx of thumb",
       "nameEn": "Distal phalanx of thumb",
       "system": "skeletal",
@@ -960,39 +975,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_index",
-      "structureId": null,
+      "structureId": "fma:23919",
       "name": "Proximal phalanx of index finger",
       "nameEn": "Proximal phalanx of index finger",
       "system": "skeletal",
@@ -1002,39 +1020,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_middle_index",
-      "structureId": null,
+      "structureId": "fma:23933",
       "name": "Middle phalanx of index finger",
       "nameEn": "Middle phalanx of index finger",
       "system": "skeletal",
@@ -1044,39 +1065,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_distal_index",
-      "structureId": null,
+      "structureId": "fma:23946",
       "name": "Distal phalanx of index finger",
       "nameEn": "Distal phalanx of index finger",
       "system": "skeletal",
@@ -1086,39 +1110,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_middle",
-      "structureId": null,
+      "structureId": "fma:23920",
       "name": "Proximal phalanx of middle finger",
       "nameEn": "Proximal phalanx of middle finger",
       "system": "skeletal",
@@ -1128,39 +1155,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_middle_middle",
-      "structureId": null,
+      "structureId": "fma:23934",
       "name": "Middle phalanx of middle finger",
       "nameEn": "Middle phalanx of middle finger",
       "system": "skeletal",
@@ -1170,39 +1200,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_distal_middle",
-      "structureId": null,
+      "structureId": "fma:23947",
       "name": "Distal phalanx of middle finger",
       "nameEn": "Distal phalanx of middle finger",
       "system": "skeletal",
@@ -1212,39 +1245,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_ring",
-      "structureId": null,
+      "structureId": "fma:23921",
       "name": "Proximal phalanx of ring finger",
       "nameEn": "Proximal phalanx of ring finger",
       "system": "skeletal",
@@ -1254,39 +1290,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_middle_ring",
-      "structureId": null,
+      "structureId": "fma:23935",
       "name": "Middle phalanx of ring finger",
       "nameEn": "Middle phalanx of ring finger",
       "system": "skeletal",
@@ -1296,39 +1335,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_distal_ring",
-      "structureId": null,
+      "structureId": "fma:23948",
       "name": "Distal phalanx of ring finger",
       "nameEn": "Distal phalanx of ring finger",
       "system": "skeletal",
@@ -1338,39 +1380,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_little",
-      "structureId": null,
+      "structureId": "fma:23922",
       "name": "Proximal phalanx of little finger",
       "nameEn": "Proximal phalanx of little finger",
       "system": "skeletal",
@@ -1380,39 +1425,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_middle_little",
-      "structureId": null,
+      "structureId": "fma:23936",
       "name": "Middle phalanx of little finger",
       "nameEn": "Middle phalanx of little finger",
       "system": "skeletal",
@@ -1422,39 +1470,42 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.phalanx_distal_little",
-      "structureId": null,
+      "structureId": "fma:23949",
       "name": "Distal phalanx of little finger",
       "nameEn": "Distal phalanx of little finger",
       "system": "skeletal",
@@ -1464,53 +1515,56 @@
       "topRegion": "upper_limb",
       "level": "intermediate",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
         "la": "missing",
-        "en": "missing"
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     }
   ],
   "untargetedStructures": {
-    "total": 1567,
+    "total": 2118,
     "bySystem": {
-      "skeletal": 235,
-      "digestive": 118,
-      "cardiovascular": 580,
-      "respiratory": 79,
-      "muscular": 385,
-      "endocrine": 3,
-      "urinary": 6,
-      "reproductive": 10,
-      "articular": 16,
-      "nervous": 111,
-      "sensory": 18,
+      "skeletal": 270,
+      "digestive": 138,
+      "cardiovascular": 784,
+      "muscular": 570,
+      "respiratory": 119,
+      "endocrine": 4,
+      "urinary": 8,
+      "reproductive": 13,
+      "sensory": 28,
+      "articular": 22,
+      "nervous": 155,
       "integumentary": 3,
-      "lymphatic": 3
+      "lymphatic": 4
     }
   },
   "assets": {

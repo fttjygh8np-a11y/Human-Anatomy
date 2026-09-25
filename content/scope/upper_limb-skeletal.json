@@ -149,7 +149,8 @@
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
     ],
-    "structureId": "fma:23715"
+    "structureId": "fma:23715",
+    "notes": "BodyParts3D is-a listesinde \"triquetral\" (FMA23715) adıyla geçer; bağlantı elle kuruldu."
   },
   {
     "id": "hedef:upper_limb.skeletal.pisiform",
@@ -261,7 +262,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23899"
   },
   {
     "id": "hedef:upper_limb.skeletal.metacarpal_2",
@@ -278,7 +280,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23900"
   },
   {
     "id": "hedef:upper_limb.skeletal.metacarpal_3",
@@ -313,7 +316,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23902"
   },
   {
     "id": "hedef:upper_limb.skeletal.metacarpal_5",
@@ -330,7 +334,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23903"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_proximal_thumb",
@@ -347,7 +352,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23918"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_distal_thumb",
@@ -364,7 +370,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23945"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_proximal_index",
@@ -381,7 +388,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23919"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_middle_index",
@@ -398,7 +406,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23933"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_distal_index",
@@ -415,7 +424,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23946"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_proximal_middle",
@@ -432,7 +442,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23920"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_middle_middle",
@@ -449,7 +460,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23934"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_distal_middle",
@@ -466,7 +478,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23947"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_proximal_ring",
@@ -483,7 +496,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23921"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_middle_ring",
@@ -500,7 +514,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23935"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_distal_ring",
@@ -517,7 +532,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23948"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_proximal_little",
@@ -534,7 +550,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23922"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_middle_little",
@@ -551,7 +568,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23936"
   },
   {
     "id": "hedef:upper_limb.skeletal.phalanx_distal_little",
@@ -568,6 +586,7 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23949"
   }
 ]

@@ -27,7 +27,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -37,8 +37,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1793, FJ1794). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1793, FJ1794). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -70,7 +70,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:258716",
-    "detailLevel": "basic",
+    "genericId": "fma:62007",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -80,8 +81,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1827). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1827). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -113,7 +114,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:258714",
-    "detailLevel": "basic",
+    "genericId": "fma:62007",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -123,8 +125,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1782). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1782). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -156,7 +158,7 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:260794",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -166,8 +168,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1806). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1806). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -199,7 +201,7 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:260791",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -209,8 +211,90 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1758). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1758). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:50863",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Optic nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA50863)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "50863"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:50878, fma:50875 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:50865",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Trochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA50865)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "50865"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:50882, fma:50881 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -242,7 +326,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:50878",
-    "detailLevel": "basic",
+    "genericId": "fma:50863",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -252,8 +337,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1364, FJ1819). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1364, FJ1819). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -285,7 +370,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:50875",
-    "detailLevel": "basic",
+    "genericId": "fma:50863",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -295,8 +381,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1313, FJ1772). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1313, FJ1772). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -328,7 +414,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:50882",
-    "detailLevel": "basic",
+    "genericId": "fma:50865",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -338,8 +425,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1381). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1381). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -371,7 +458,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:50881",
-    "detailLevel": "basic",
+    "genericId": "fma:50865",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -381,8 +469,90 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1330). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1330). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52572",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Superior branch of oculomotor nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52572)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52572"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52575, fma:52574 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:52573",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Inferior branch of oculomotor nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52573)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52573"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52577, fma:52576 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -414,7 +584,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:52575",
-    "detailLevel": "basic",
+    "genericId": "fma:52572",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -424,8 +595,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1372). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1372). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -457,7 +628,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:52574",
-    "detailLevel": "basic",
+    "genericId": "fma:52572",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -467,8 +639,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1321). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1321). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -500,7 +672,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:52577",
-    "detailLevel": "basic",
+    "genericId": "fma:52573",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -510,8 +683,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1344). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1344). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -543,7 +716,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:52576",
-    "detailLevel": "basic",
+    "genericId": "fma:52573",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -553,8 +727,47 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1293). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1293). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52621",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Ophthalmic nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52621)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52621"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52623, fma:52622 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -584,7 +797,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:52623",
-    "detailLevel": "basic",
+    "genericId": "fma:52621",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -594,8 +808,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1363). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1363). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -625,7 +839,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:52622",
-    "detailLevel": "basic",
+    "genericId": "fma:52621",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -635,8 +850,49 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1312). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1312). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52628",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Lacrimal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52628)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52628"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52630, fma:52629 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -668,7 +924,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:52630",
-    "detailLevel": "basic",
+    "genericId": "fma:52628",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -678,8 +935,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1351). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1351). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -711,7 +968,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:52629",
-    "detailLevel": "basic",
+    "genericId": "fma:52628",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -721,8 +979,49 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1300). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1300). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52638",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Frontal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52638)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52638"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52640, fma:52639 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -754,7 +1053,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:52640",
-    "detailLevel": "basic",
+    "genericId": "fma:52638",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -764,8 +1064,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1341). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1341). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -797,7 +1097,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:52639",
-    "detailLevel": "basic",
+    "genericId": "fma:52638",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -807,8 +1108,47 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1290). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1290). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52642",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Supratrochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52642)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52642"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52644, fma:52643 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -838,7 +1178,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:52644",
-    "detailLevel": "basic",
+    "genericId": "fma:52642",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -848,8 +1189,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1377). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1377). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -879,7 +1220,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:52643",
-    "detailLevel": "basic",
+    "genericId": "fma:52642",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -889,8 +1231,49 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1326). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1326). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52655",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Supra-orbital nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52655)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52655"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52657, fma:52656 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -922,7 +1305,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:52657",
-    "detailLevel": "basic",
+    "genericId": "fma:52655",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -932,8 +1316,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1376). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1376). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -965,7 +1349,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:52656",
-    "detailLevel": "basic",
+    "genericId": "fma:52655",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -975,8 +1360,47 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1325). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1325). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52668",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Nasociliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52668)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52668"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52670, fma:52669 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1006,7 +1430,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:52670",
-    "detailLevel": "basic",
+    "genericId": "fma:52668",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1016,8 +1441,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1361). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1361). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1047,7 +1472,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:52669",
-    "detailLevel": "basic",
+    "genericId": "fma:52668",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1057,8 +1483,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1310). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1310). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1087,7 +1513,7 @@
     "regions": [],
     "regionBasis": "unassigned",
     "laterality": "right",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1097,8 +1523,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1362). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1362). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1127,7 +1553,7 @@
     "regions": [],
     "regionBasis": "unassigned",
     "laterality": "left",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1137,8 +1563,47 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1311). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1311). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52675",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Anterior ethmoidal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52675)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52675"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52677, fma:52676 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1168,7 +1633,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:52677",
-    "detailLevel": "basic",
+    "genericId": "fma:52675",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1178,8 +1644,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1333). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1333). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1209,7 +1675,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:52676",
-    "detailLevel": "basic",
+    "genericId": "fma:52675",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1219,8 +1686,86 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1283). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1283). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52691",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Long ciliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52691)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52691"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:82735, fma:82734 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:52693",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Infratrochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52693)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52693"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52699, fma:52698 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1250,7 +1795,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:52699",
-    "detailLevel": "basic",
+    "genericId": "fma:52693",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1260,8 +1806,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1347). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1347). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1291,7 +1837,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:52698",
-    "detailLevel": "basic",
+    "genericId": "fma:52693",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1301,8 +1848,47 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1296). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1296). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52714",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Posterior ethmoidal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA52714)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52714"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:52716, fma:52715 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1332,7 +1918,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:52716",
-    "detailLevel": "basic",
+    "genericId": "fma:52714",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1342,8 +1929,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1366). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1366). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1373,7 +1960,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:52715",
-    "detailLevel": "basic",
+    "genericId": "fma:52714",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1383,8 +1971,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1315). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1315). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1414,7 +2002,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:53550",
-    "detailLevel": "basic",
+    "genericId": "fma:6964",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1424,8 +2013,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1339). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1339). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1455,7 +2044,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:53549",
-    "detailLevel": "basic",
+    "genericId": "fma:6964",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1465,8 +2055,656 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1288). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1288). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:61833",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Caudate nucleus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61833)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61833"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72827, fma:72826 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61834",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Putamen",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61834)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61834"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72829, fma:72828 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61835",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Globus pallidus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61835)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61835"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72831, fma:72830 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61841",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Amygdala",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61841)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61841"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72833, fma:72832 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61857",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Superior frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61857)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61857"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72654, fma:72653 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61859",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Middle frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61859)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61859"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72656, fma:72655 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61860",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Inferior frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61860)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61860"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72658, fma:72657 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61894",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Precentral gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61894)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61894"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72662, fma:72661 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61896",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Postcentral gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61896)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61896"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72666, fma:72665 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61897",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Supramarginal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61897)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61897"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72668, fma:72667 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61898",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Angular gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61898)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61898"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72670, fma:72669 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61899",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Superior parietal lobule",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61899)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61899"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72672, fma:72671 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61906",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Middle temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61906)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61906"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72686, fma:72685 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61907",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Inferior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61907)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61907"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72688, fma:72687 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61908",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Fusiform gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61908)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61908"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72690, fma:72689 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61918",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Parahippocampal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61918)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61918"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72706, fma:72705 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1497,7 +2735,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1507,8 +2745,88 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1755, FJ1803). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1755, FJ1803). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:61950",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Internal capsule",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61950)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61950"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72907, fma:72906 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:61965",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Fornix of forebrain",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA61965)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61965"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72925, fma:72924 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1537,7 +2855,7 @@
     "regions": [],
     "regionBasis": "unassigned",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1547,8 +2865,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1741). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1741). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1579,7 +2897,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1589,8 +2907,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1770, FJ1817). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1770, FJ1817). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1621,7 +2939,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1631,8 +2949,49 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1769, FJ1831). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1769, FJ1831). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62007",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Thalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA62007)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62007"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:258716, fma:258714 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1663,7 +3022,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1673,8 +3032,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1760, FJ1808). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1760, FJ1808). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1705,7 +3064,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1715,8 +3074,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1743). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1743). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1747,7 +3106,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1757,8 +3116,49 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1795). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1795). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62080",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Stria medullaris of thalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA62080)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62080"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:73414, fma:73413 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1789,7 +3189,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1799,8 +3199,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1780, FJ1828). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1780, FJ1828). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1831,7 +3231,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1841,8 +3241,254 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1774, FJ1821). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1774, FJ1821). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62403",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Superior colliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA62403)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62403"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:73423, fma:73422 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:62404",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Inferior colliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA62404)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62404"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:73435, fma:73434 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:62434",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Cingulate gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA62434)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62434"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72718, fma:72717 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:62493",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hippocampus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA62493)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62493"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72714, fma:72713 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:67325",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Occipital lobe",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA67325)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "67325"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72976, fma:72975 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:67329",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Insula",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA67329)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "67329"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72978, fma:72977 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1873,7 +3519,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1883,8 +3529,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1775, FJ1822). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1775, FJ1822). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -1915,7 +3561,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1925,8 +3571,47 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1781, FJ1830). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1781, FJ1830). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:6964",
+    "schemaVersion": 1,
+    "kind": "ganglion",
+    "names": {
+      "en": {
+        "value": "Ciliary ganglion",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA6964)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "6964"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:53550, fma:53549 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1955,7 +3640,7 @@
     "regions": [],
     "regionBasis": "unassigned",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -1965,8 +3650,90 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1319, FJ1370). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1319, FJ1370). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70701",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Anterior part of superior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA70701)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70701"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72801, fma:72800 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:70703",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Posterior part of superior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA70703)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70703"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72805, fma:72804 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -1998,7 +3765,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72654",
-    "detailLevel": "basic",
+    "genericId": "fma:61857",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2008,8 +3776,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1834). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1834). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2041,7 +3809,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72653",
-    "detailLevel": "basic",
+    "genericId": "fma:61857",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2051,8 +3820,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1833). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1833). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2084,7 +3853,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72656",
-    "detailLevel": "basic",
+    "genericId": "fma:61859",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2094,8 +3864,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1788). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1788). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2127,7 +3897,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72655",
-    "detailLevel": "basic",
+    "genericId": "fma:61859",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2137,8 +3908,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1787). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1787). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2170,7 +3941,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72658",
-    "detailLevel": "basic",
+    "genericId": "fma:61860",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2180,8 +3952,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1745). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1745). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2213,7 +3985,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72657",
-    "detailLevel": "basic",
+    "genericId": "fma:61860",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2223,8 +3996,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1744). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1744). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2256,7 +4029,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72662",
-    "detailLevel": "basic",
+    "genericId": "fma:61894",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2266,8 +4040,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1801). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1801). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2299,7 +4073,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72661",
-    "detailLevel": "basic",
+    "genericId": "fma:61894",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2309,8 +4084,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1800). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1800). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2342,7 +4117,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72666",
-    "detailLevel": "basic",
+    "genericId": "fma:61896",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2352,8 +4128,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1798). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1798). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2385,7 +4161,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72665",
-    "detailLevel": "basic",
+    "genericId": "fma:61896",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2395,8 +4172,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1797). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1797). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2428,7 +4205,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72668",
-    "detailLevel": "basic",
+    "genericId": "fma:61897",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2438,8 +4216,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1842). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1842). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2471,7 +4249,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72667",
-    "detailLevel": "basic",
+    "genericId": "fma:61897",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2481,8 +4260,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1841). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1841). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2514,7 +4293,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72670",
-    "detailLevel": "basic",
+    "genericId": "fma:61898",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2524,8 +4304,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1733). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1733). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2557,7 +4337,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72669",
-    "detailLevel": "basic",
+    "genericId": "fma:61898",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2567,8 +4348,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1732). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1732). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2600,7 +4381,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72672",
-    "detailLevel": "basic",
+    "genericId": "fma:61899",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2610,8 +4392,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1836). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1836). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2643,7 +4425,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72671",
-    "detailLevel": "basic",
+    "genericId": "fma:61899",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2653,8 +4436,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1835). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1835). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2686,7 +4469,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72686",
-    "detailLevel": "basic",
+    "genericId": "fma:61906",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2696,8 +4480,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1790). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1790). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2729,7 +4513,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72685",
-    "detailLevel": "basic",
+    "genericId": "fma:61906",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2739,8 +4524,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1789). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1789). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2772,7 +4557,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72688",
-    "detailLevel": "basic",
+    "genericId": "fma:61907",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2782,8 +4568,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1747). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1747). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2815,7 +4601,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72687",
-    "detailLevel": "basic",
+    "genericId": "fma:61907",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2825,8 +4612,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1746). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1746). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2858,7 +4645,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72690",
-    "detailLevel": "basic",
+    "genericId": "fma:61908",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2868,8 +4656,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1784). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1784). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2901,7 +4689,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72689",
-    "detailLevel": "basic",
+    "genericId": "fma:61908",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2911,8 +4700,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1783). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1783). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2944,7 +4733,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72706",
-    "detailLevel": "basic",
+    "genericId": "fma:61918",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2954,8 +4744,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1786). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1786). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -2987,7 +4777,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72705",
-    "detailLevel": "basic",
+    "genericId": "fma:61918",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -2997,8 +4788,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1785). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1785). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3030,7 +4821,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72714",
-    "detailLevel": "basic",
+    "genericId": "fma:62493",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3040,8 +4832,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1807). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1807). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3073,7 +4865,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72713",
-    "detailLevel": "basic",
+    "genericId": "fma:62493",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3083,8 +4876,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1759). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1759). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3116,7 +4909,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72718",
-    "detailLevel": "basic",
+    "genericId": "fma:62434",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3126,8 +4920,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1740). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1740). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3159,7 +4953,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72717",
-    "detailLevel": "basic",
+    "genericId": "fma:62434",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3169,8 +4964,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1739). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1739). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3202,7 +4997,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72801",
-    "detailLevel": "basic",
+    "genericId": "fma:70701",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3212,8 +5008,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1838). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1838). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3245,7 +5041,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72800",
-    "detailLevel": "basic",
+    "genericId": "fma:70701",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3255,8 +5052,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1837). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1837). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3288,7 +5085,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72805",
-    "detailLevel": "basic",
+    "genericId": "fma:70703",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3298,8 +5096,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1840). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1840). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3331,7 +5129,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72804",
-    "detailLevel": "basic",
+    "genericId": "fma:70703",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3341,8 +5140,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1839). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1839). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3372,7 +5171,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:72827",
-    "detailLevel": "basic",
+    "genericId": "fma:61833",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3382,8 +5182,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1802). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1802). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3413,7 +5213,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:72826",
-    "detailLevel": "basic",
+    "genericId": "fma:61833",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3423,8 +5224,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1754). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1754). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3454,7 +5255,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:72829",
-    "detailLevel": "basic",
+    "genericId": "fma:61834",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3464,8 +5266,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1823). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1823). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3495,7 +5297,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:72828",
-    "detailLevel": "basic",
+    "genericId": "fma:61834",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3505,8 +5308,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1776). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1776). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3536,7 +5339,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:72831",
-    "detailLevel": "basic",
+    "genericId": "fma:61835",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3546,8 +5350,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1805). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1805). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3577,7 +5381,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:72830",
-    "detailLevel": "basic",
+    "genericId": "fma:61835",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3587,8 +5392,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1757). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1757). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3618,7 +5423,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:72833",
-    "detailLevel": "basic",
+    "genericId": "fma:61841",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3628,8 +5434,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1829). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1829). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3659,7 +5465,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:72832",
-    "detailLevel": "basic",
+    "genericId": "fma:61841",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3669,8 +5476,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1753). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1753). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3702,7 +5509,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72907",
-    "detailLevel": "basic",
+    "genericId": "fma:61950",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3712,8 +5520,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1751). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1751). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3745,7 +5553,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72906",
-    "detailLevel": "basic",
+    "genericId": "fma:61950",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3755,8 +5564,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1750). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1750). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3786,7 +5595,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:72925",
-    "detailLevel": "basic",
+    "genericId": "fma:61965",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3796,8 +5606,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1804). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1804). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3827,7 +5637,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:72924",
-    "detailLevel": "basic",
+    "genericId": "fma:61965",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3837,8 +5648,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1756). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1756). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3870,7 +5681,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72976",
-    "detailLevel": "basic",
+    "genericId": "fma:67325",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3880,8 +5692,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1792). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1792). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3913,7 +5725,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72975",
-    "detailLevel": "basic",
+    "genericId": "fma:67325",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3923,8 +5736,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1791). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1791). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3956,7 +5769,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:72978",
-    "detailLevel": "basic",
+    "genericId": "fma:67329",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3966,8 +5780,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1749). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1749). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3999,7 +5813,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:72977",
-    "detailLevel": "basic",
+    "genericId": "fma:67329",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4009,8 +5824,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1748). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1748). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4042,7 +5857,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:73414",
-    "detailLevel": "basic",
+    "genericId": "fma:62080",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4052,8 +5868,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1824). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1824). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4085,7 +5901,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:73413",
-    "detailLevel": "basic",
+    "genericId": "fma:62080",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4095,8 +5912,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1777). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1777). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4128,7 +5945,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:73423",
-    "detailLevel": "basic",
+    "genericId": "fma:62403",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4138,8 +5956,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1826). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1826). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4171,7 +5989,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:73422",
-    "detailLevel": "basic",
+    "genericId": "fma:62403",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4181,8 +6000,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1779). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1779). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4214,7 +6033,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:73435",
-    "detailLevel": "basic",
+    "genericId": "fma:62404",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4224,8 +6044,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1810). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1810). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4257,7 +6077,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:73434",
-    "detailLevel": "basic",
+    "genericId": "fma:62404",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4267,8 +6088,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1762). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1762). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4299,7 +6120,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4309,8 +6130,49 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ3094). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3094). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78448",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lateral ventricle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA78448)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78448"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:78450, fma:78449 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
     }
   },
   {
@@ -4342,7 +6204,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "counterpartId": "fma:78450",
-    "detailLevel": "basic",
+    "genericId": "fma:78448",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4352,8 +6215,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1814). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1814). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4385,7 +6248,8 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "counterpartId": "fma:78449",
-    "detailLevel": "basic",
+    "genericId": "fma:78448",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4395,8 +6259,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1767). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1767). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4427,7 +6291,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4437,8 +6301,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1730). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1730). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4469,7 +6333,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4479,8 +6343,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1738). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1738). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4511,7 +6375,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4521,8 +6385,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1731). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1731). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4553,7 +6417,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4563,8 +6427,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1737). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1737). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4594,7 +6458,8 @@
     "regionBasis": "unassigned",
     "laterality": "right",
     "counterpartId": "fma:82735",
-    "detailLevel": "basic",
+    "genericId": "fma:52691",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4604,8 +6469,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1369). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1369). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4635,7 +6500,8 @@
     "regionBasis": "unassigned",
     "laterality": "left",
     "counterpartId": "fma:82734",
-    "detailLevel": "basic",
+    "genericId": "fma:52691",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4645,8 +6511,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1318). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1318). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -4675,7 +6541,7 @@
     "regions": [],
     "regionBasis": "unassigned",
     "laterality": "not_applicable",
-    "detailLevel": "basic",
+    "detailLevel": "advanced",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -4685,8 +6551,8 @@
     "provenance": {
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
-      "updatedAt": "2026-09-24",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1742). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1742). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   }
 ]

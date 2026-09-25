@@ -13,8 +13,8 @@
  *
  * Options (for tests and dry runs): --elements <file>  --content-dir <dir>
  */
-import { readdir, rm } from 'node:fs/promises'
-import { join, resolve } from 'node:path'
+import { readFile, readdir, rm, writeFile } from 'node:fs/promises'
+import { dirname, join, resolve } from 'node:path'
 import { structureSchema, type DetailLevel } from '../../src/core/schema.ts'
 import { formatIssueReport, formatZodError, safeParseTr, summarize } from './lib/issues.ts'
 import { ELEMENTS_FILE, buildInventory, groupBySystem, parseElements } from './lib/inventory.ts'
@@ -59,8 +59,43 @@ async function main(): Promise<number> {
     }
   }
 
+  // FMA concept names from the BodyParts3D relation lists (parent/child id + name columns).
+  const conceptNames = new Map<string, string>()
+  for (const f of ['isa_inclusion_relation_list.txt', 'partof_inclusion_relation_list.txt']) {
+    const text = await readFile(join(dirname(elementsPath), f), 'utf8').catch(() => '')
+    for (const line of text.split(/\r?\n/).slice(1)) {
+      const [pid, pname, cid, cname] = line.split('\t')
+      for (const [id, name] of [[pid, pname], [cid, cname]] as const) {
+        const m = /^FMA(\d+)$/.exec(id?.trim() ?? '')
+        if (m && name?.trim() && !conceptNames.has(m[1]!)) conceptNames.set(m[1]!, name.trim())
+      }
+    }
+  }
+
   const today = new Date().toISOString().slice(0, 10)
-  const { records, issues } = buildInventory(parsed.elements, { today, existing, knownRegions: regionIds, levelHints })
+  const opts = { today, existing, knownRegions: regionIds, levelHints, conceptNames }
+  let { records, issues } = buildInventory(parsed.elements, opts)
+
+  // Link scope targets without a structure to the generic concept of the same English name.
+  const norm = (x: string) => x.toLowerCase().replace(/[-–]/g, ' ').replace(/\s+/g, ' ').trim()
+  const generics = new Map(records.filter((r) => r.laterality === 'paired_generic').map((r) => [norm(r.names.en.value), r.id]))
+  let newLinks = 0
+  for (const f of content.files.filter((x) => x.path.startsWith('scope/'))) {
+    const targets = f.data as Record<string, unknown>[]
+    let changed = false
+    for (const t of targets) {
+      if (typeof t.structureId === 'string') continue
+      const en = norm((t.name as { en: string }).en)
+      const id = generics.get(en) ?? generics.get(`${en} bone`)
+      if (!id) continue
+      t.structureId = id
+      if (typeof t.level === 'string') levelHints.set(id, t.level as DetailLevel)
+      changed = true
+      newLinks++
+    }
+    if (changed) await writeFile(join(contentDir, f.path), prettyJson(targets))
+  }
+  if (newLinks > 0) ({ records, issues } = buildInventory(parsed.elements, opts))
   const allIssues = [...parsed.issues, ...issues]
 
   // Every generated record must be a valid structure (guards against format drift).
@@ -91,6 +126,7 @@ async function main(): Promise<number> {
   const sided = records.filter((r) => r.laterality === 'right' || r.laterality === 'left').length
   const paired = records.filter((r) => r.counterpartId).length
   console.log(`Yapı envanteri güncellendi: ${records.length} taslak kayıt (${parsed.elements.length} BodyParts3D öğesinden) → ${repoRelative(inventoryDir)}/`)
+  console.log(`  Genel (taraf belirtmeyen) kavram: ${records.filter((r) => r.laterality === 'paired_generic').length}. Yeni bağlanan kapsam hedefi: ${newLinks}.`)
   console.log(`  Sistemler: ${[...groups].map(([s, l]) => `${s} ${l.length}`).join(', ') || '—'}`)
   console.log(`  Sağ/sol kayıt: ${sided}, karşı tarafı eşleşen: ${paired}. Bölgesi atanmamış: ${records.filter((r) => (r.regions ?? []).length === 0).length}.`)
   if (removed > 0) console.log(`  ${removed} eski envanter dosyası kaldırıldı.`)

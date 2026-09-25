@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `55cb971577405f0b` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `d991c194c42b84a5` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -10,11 +10,11 @@ Kapsam matrisindeki toplam hedef yapı: **32**. Tamamlanmış: **0/32 (%0)**.
 
 | Boyut | Tamamlanan |
 |---|---:|
-| Envanter kaydı | 14/32 (%44) |
-| 3B anatomik model | 14/32 (%44) |
+| Envanter kaydı | 32/32 (%100) |
+| 3B anatomik model | 32/32 (%100) |
 | TR/LA/EN adlar | 0/32 (%0) |
 | Bilgi kartı içeriği | 0/32 (%0) |
-| Model lisansı doğrulanmış | 14/32 (%44) |
+| Model lisansı doğrulanmış | 32/32 (%100) |
 | Uzman incelemesi | 0/32 (%0) |
 | Tamamlanmış | 0/32 (%0) |
 | _Adlar üç dilde mevcut (doğrulanmamış dahil)_ | 4/32 (%13) |
@@ -33,20 +33,20 @@ Boyutların tanımı:
 
 | Sistem | Hedef | Envanter kaydı | 3B anatomik model | TR/LA/EN adlar | Bilgi kartı içeriği | Model lisansı doğrulanmış | Uzman incelemesi | Tamamlanmış |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| İskelet sistemi | 32 | 14/32 (%44) | 14/32 (%44) | 0/32 (%0) | 0/32 (%0) | 14/32 (%44) | 0/32 (%0) | 0/32 (%0) |
+| İskelet sistemi | 32 | 32/32 (%100) | 32/32 (%100) | 0/32 (%0) | 0/32 (%0) | 32/32 (%100) | 0/32 (%0) | 0/32 (%0) |
 
 ## Bölgeye göre (üst düzey bölge)
 
 | Bölge | Hedef | Envanter kaydı | 3B anatomik model | TR/LA/EN adlar | Bilgi kartı içeriği | Model lisansı doğrulanmış | Uzman incelemesi | Tamamlanmış |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Üst ekstremite | 32 | 14/32 (%44) | 14/32 (%44) | 0/32 (%0) | 0/32 (%0) | 14/32 (%44) | 0/32 (%0) | 0/32 (%0) |
+| Üst ekstremite | 32 | 32/32 (%100) | 32/32 (%100) | 0/32 (%0) | 0/32 (%0) | 32/32 (%100) | 0/32 (%0) | 0/32 (%0) |
 
 ## Ayrıntı düzeyine göre
 
 | Düzey | Hedef | Envanter kaydı | 3B anatomik model | TR/LA/EN adlar | Bilgi kartı içeriği | Model lisansı doğrulanmış | Uzman incelemesi | Tamamlanmış |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Temel | 18 | 14/18 (%78) | 14/18 (%78) | 0/18 (%0) | 0/18 (%0) | 14/18 (%78) | 0/18 (%0) | 0/18 (%0) |
-| Orta | 14 | 0/14 (%0) | 0/14 (%0) | 0/14 (%0) | 0/14 (%0) | 0/14 (%0) | 0/14 (%0) | 0/14 (%0) |
+| Temel | 18 | 18/18 (%100) | 18/18 (%100) | 0/18 (%0) | 0/18 (%0) | 18/18 (%100) | 0/18 (%0) | 0/18 (%0) |
+| Orta | 14 | 14/14 (%100) | 14/14 (%100) | 0/14 (%0) | 0/14 (%0) | 14/14 (%100) | 0/14 (%0) | 0/14 (%0) |
 
 ## Sistem × bölge matrisi (tamamlanan / hedef)
 
@@ -73,29 +73,29 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Os trapezoideum (Trapezoid) | İskelet sistemi | El bileği | Temel | `fma:23724` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os capitatum (Capitate) | İskelet sistemi | El bileği | Temel | `fma:23727` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os hamatum (Hamate) | İskelet sistemi | El bileği | Temel | `fma:23730` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| First metacarpal | İskelet sistemi | El tarağı | Temel | yok | yok | — | — | — | summary, description, location | — | — |
-| Second metacarpal | İskelet sistemi | El tarağı | Temel | yok | yok | — | — | — | summary, description, location | — | — |
+| First metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23899` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Second metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23900` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Third metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23901` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth metacarpal | İskelet sistemi | El tarağı | Temel | yok | yok | — | — | — | summary, description, location | — | — |
-| Fifth metacarpal | İskelet sistemi | El tarağı | Temel | yok | yok | — | — | — | summary, description, location | — | — |
-| Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Middle phalanx of index finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Distal phalanx of index finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Proximal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Middle phalanx of middle finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Distal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Proximal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Middle phalanx of ring finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Distal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Proximal phalanx of little finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Middle phalanx of little finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
-| Distal phalanx of little finger | İskelet sistemi | El parmakları | Orta | yok | yok | — | — | — | summary, description, location | — | — |
+| Fourth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23902` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23903` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23918` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23945` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23919` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23933` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23946` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23920` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23934` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23947` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23921` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23935` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23948` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23922` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23936` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23949` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 
 ## Kapsam hedefi olmayan yapılar
 
-1567 yapı kaydı henüz bir kapsam hedefine bağlı değil (skeletal: 235, digestive: 118, cardiovascular: 580, respiratory: 79, muscular: 385, endocrine: 3, urinary: 6, reproductive: 10, articular: 16, nervous: 111, sensory: 18, integumentary: 3, lymphatic: 3). Bunlar tamamlanma oranına katılmaz.
+2118 yapı kaydı henüz bir kapsam hedefine bağlı değil (skeletal: 270, digestive: 138, cardiovascular: 784, muscular: 570, respiratory: 119, endocrine: 4, urinary: 8, reproductive: 13, sensory: 28, articular: 22, nervous: 155, integumentary: 3, lymphatic: 4). Bunlar tamamlanma oranına katılmaz.
 
 ## 3B model varlıkları
 
