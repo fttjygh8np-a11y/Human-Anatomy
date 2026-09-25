@@ -69,12 +69,31 @@ export function Notes({ id }: { id: StructureId }) {
   )
 }
 
+/** Public issue tracker of the project; reports can be sent there without any backend. */
+const ISSUE_URL = 'https://github.com/fttjygh8np-a11y/Human-Anatomy/issues/new'
+
+function issueLink(p: { id: StructureId; name: string; category: ErrorReport['category']; description: string; contentVersion: string }): string {
+  const body = [
+    `**Yapı:** ${p.name} (\`${p.id}\`)`,
+    `**Tür:** ${CATEGORY_LABEL[p.category]}`,
+    `**İçerik sürümü:** \`${p.contentVersion}\``,
+    '',
+    '**Açıklama:**',
+    p.description,
+    '',
+    '_Uygulamadaki "Hata bildir" formundan oluşturuldu. Kişisel veri eklemeyin._',
+  ].join('\n')
+  const q = new URLSearchParams({ title: `[Hata] ${p.name}: ${CATEGORY_LABEL[p.category]}`, body, labels: 'içerik-hatası' })
+  return `${ISSUE_URL}?${q.toString()}`
+}
+
 export function ErrorReportForm({ id }: { id: StructureId }) {
   const { user, store, index } = useServices()
   const [open, setOpen] = useState(false)
   const [category, setCategory] = useState<ErrorReport['category']>('label')
   const [description, setDescription] = useState('')
   const [status, setStatus] = useState('')
+  const [sent, setSent] = useState<string | null>(null)
 
   if (!user) return null
   const submit = async () => {
@@ -88,9 +107,10 @@ export function ErrorReportForm({ id }: { id: StructureId }) {
       contentVersion: index.bundle.manifest.contentVersion,
       view: store.getState().scene,
     })
+    setSent(issueLink({ id, name: index.displayName(id), category, description: d, contentVersion: index.bundle.manifest.contentVersion }))
     setDescription('')
     setOpen(false)
-    setStatus('Bildiriminiz kaydedildi. Ayarlar > Hata bildirimlerim bölümünden dışa aktarıp içerik ekibine iletebilirsiniz.')
+    setStatus('Bildiriminiz bu tarayıcıya kaydedildi.')
   }
 
   return (
@@ -126,6 +146,15 @@ export function ErrorReportForm({ id }: { id: StructureId }) {
       <p role="status" className="small">
         {status}
       </p>
+      {sent && (
+        <p className="small">
+          İçerik ekibine iletmek için:{' '}
+          <a href={sent} target="_blank" rel="noreferrer noopener">
+            GitHub'da bildir
+          </a>{' '}
+          (GitHub hesabı gerekir; bildirim herkese açık olur). Ya da Ayarlar › Hata bildirimlerim bölümünden JSON olarak dışa aktarın.
+        </p>
+      )}
     </section>
   )
 }

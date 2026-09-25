@@ -1,5 +1,53 @@
 [
   {
+    "id": "fma:10014",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica IX",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:10037",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica X",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:10059",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica XI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:10419",
     "names": {
       "la": {
@@ -737,6 +785,54 @@
     }
   },
   {
+    "id": "fma:12521",
+    "names": {
+      "la": {
+        "value": "vertebra cervicalis III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1032",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra cervicalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:12522",
+    "names": {
+      "la": {
+        "value": "vertebra cervicalis IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1032",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra cervicalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:12523",
+    "names": {
+      "la": {
+        "value": "vertebra cervicalis V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1032",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra cervicalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:12524",
     "names": {
       "la": {
@@ -820,6 +916,86 @@
     ],
     "externalIds": {
       "ta2": "1057"
+    }
+  },
+  {
+    "id": "fma:13072",
+    "names": {
+      "la": {
+        "value": "vertebra lumbalis I",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1068",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra lumbalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13073",
+    "names": {
+      "la": {
+        "value": "vertebra lumbalis II",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1068",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra lumbalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13074",
+    "names": {
+      "la": {
+        "value": "vertebra lumbalis III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1068",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra lumbalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13075",
+    "names": {
+      "la": {
+        "value": "vertebra lumbalis IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1068",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra lumbalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13076",
+    "names": {
+      "la": {
+        "value": "vertebra lumbalis V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1068",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra lumbalis\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -2825,6 +3001,17 @@
   {
     "id": "fma:14337",
     "names": {
+      "la": {
+        "value": "venae hepaticae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4994",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4994, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
       "tr": {
         "value": "Karaciğer damarı",
         "status": "unverified",
@@ -2836,6 +3023,9 @@
           }
         ]
       }
+    },
+    "externalIds": {
+      "ta2": "4994"
     }
   },
   {
@@ -3257,6 +3447,25 @@
     },
     "externalIds": {
       "ta2": "4206"
+    }
+  },
+  {
+    "id": "fma:14735",
+    "names": {
+      "la": {
+        "value": "arteriae lumbales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4208",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4208, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4208"
     }
   },
   {
@@ -4011,6 +4220,25 @@
     }
   },
   {
+    "id": "fma:14809",
+    "names": {
+      "la": {
+        "value": "arteriae ileales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4257",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4257, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4257"
+    }
+  },
+  {
     "id": "fma:14810",
     "names": {
       "la": {
@@ -4046,6 +4274,25 @@
     },
     "externalIds": {
       "ta2": "4264"
+    }
+  },
+  {
+    "id": "fma:14812",
+    "names": {
+      "la": {
+        "value": "truncus coeliacus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4211",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4211, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4211"
     }
   },
   {
@@ -4414,6 +4661,25 @@
     }
   },
   {
+    "id": "fma:15370",
+    "names": {
+      "la": {
+        "value": "venae lumbales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4993",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4993, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4993"
+    }
+  },
+  {
     "id": "fma:15390",
     "names": {
       "la": {
@@ -4560,6 +4826,25 @@
     }
   },
   {
+    "id": "fma:15395",
+    "names": {
+      "la": {
+        "value": "venae sigmoideae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5129",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5129, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5129"
+    }
+  },
+  {
     "id": "fma:15397",
     "names": {
       "la": {
@@ -4611,6 +4896,25 @@
     ],
     "externalIds": {
       "ta2": "5116"
+    }
+  },
+  {
+    "id": "fma:15398",
+    "names": {
+      "la": {
+        "value": "venae pancreaticoduodenales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5118",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5118, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5118"
     }
   },
   {
@@ -4697,6 +5001,25 @@
     ],
     "externalIds": {
       "ta2": "5111"
+    }
+  },
+  {
+    "id": "fma:15405",
+    "names": {
+      "la": {
+        "value": "venae ileales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5115",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5115, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5115"
     }
   },
   {
@@ -4984,6 +5307,25 @@
     ],
     "externalIds": {
       "ta2": "1071"
+    }
+  },
+  {
+    "id": "fma:16549",
+    "names": {
+      "la": {
+        "value": "mesoappendix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3749",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3749, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3749"
     }
   },
   {
@@ -5772,6 +6114,234 @@
     },
     "externalIds": {
       "ta2": "5023"
+    }
+  },
+  {
+    "id": "fma:18905",
+    "names": {
+      "la": {
+        "value": "venae sacrales laterales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5028",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5028, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5028"
+    }
+  },
+  {
+    "id": "fma:18906",
+    "names": {
+      "la": {
+        "value": "venae sacrales laterales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5028",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5028, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5028"
+    }
+  },
+  {
+    "id": "fma:18907",
+    "names": {
+      "la": {
+        "value": "venae sacrales laterales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5028",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5028, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5028"
+    }
+  },
+  {
+    "id": "fma:18908",
+    "names": {
+      "la": {
+        "value": "venae gluteae superiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5025",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5025, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5025"
+    }
+  },
+  {
+    "id": "fma:18909",
+    "names": {
+      "la": {
+        "value": "venae gluteae superiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5025",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5025, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5025"
+    }
+  },
+  {
+    "id": "fma:18910",
+    "names": {
+      "la": {
+        "value": "venae gluteae superiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5025",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5025, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5025"
+    }
+  },
+  {
+    "id": "fma:18911",
+    "names": {
+      "la": {
+        "value": "venae gluteae inferiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5026",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5026, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5026"
+    }
+  },
+  {
+    "id": "fma:18912",
+    "names": {
+      "la": {
+        "value": "venae gluteae inferiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5026",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5026, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5026"
+    }
+  },
+  {
+    "id": "fma:18913",
+    "names": {
+      "la": {
+        "value": "venae gluteae inferiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5026",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5026, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5026"
+    }
+  },
+  {
+    "id": "fma:18914",
+    "names": {
+      "la": {
+        "value": "venae obturatoriae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5027",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5027, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5027"
+    }
+  },
+  {
+    "id": "fma:18915",
+    "names": {
+      "la": {
+        "value": "venae obturatoriae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5027",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5027, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5027"
+    }
+  },
+  {
+    "id": "fma:18916",
+    "names": {
+      "la": {
+        "value": "venae obturatoriae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5027",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5027, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5027"
     }
   },
   {
@@ -12110,6 +12680,102 @@
     }
   },
   {
+    "id": "fma:22863",
+    "names": {
+      "la": {
+        "value": "arteriae metacarpeae palmares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4653",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4653, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteriae metacarpales palmares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4653"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4653"
+    }
+  },
+  {
+    "id": "fma:22864",
+    "names": {
+      "la": {
+        "value": "arteriae metacarpeae palmares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4653",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4653, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteriae metacarpales palmares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4653"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4653"
+    }
+  },
+  {
+    "id": "fma:22865",
+    "names": {
+      "la": {
+        "value": "arteriae metacarpeae palmares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4653",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4653, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteriae metacarpales palmares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4653"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4653"
+    }
+  },
+  {
     "id": "fma:22872",
     "names": {
       "la": {
@@ -12329,6 +12995,248 @@
     }
   },
   {
+    "id": "fma:22919",
+    "names": {
+      "la": {
+        "value": "venae metacarpeae palmares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4990",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4990, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae metacarpales palmares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4990"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4990"
+    }
+  },
+  {
+    "id": "fma:22920",
+    "names": {
+      "la": {
+        "value": "venae metacarpeae palmares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4990",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4990, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae metacarpales palmares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4990"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4990"
+    }
+  },
+  {
+    "id": "fma:22921",
+    "names": {
+      "la": {
+        "value": "venae metacarpeae palmares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4990",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4990, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae metacarpales palmares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4990"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4990"
+    }
+  },
+  {
+    "id": "fma:22947",
+    "names": {
+      "la": {
+        "value": "venae radiales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4988",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4988, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4988"
+    }
+  },
+  {
+    "id": "fma:22948",
+    "names": {
+      "la": {
+        "value": "venae radiales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4988",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4988, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4988"
+    }
+  },
+  {
+    "id": "fma:22949",
+    "names": {
+      "la": {
+        "value": "venae radiales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4988",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4988, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4988"
+    }
+  },
+  {
+    "id": "fma:22950",
+    "names": {
+      "la": {
+        "value": "venae ulnares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4985",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4985, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4985"
+    }
+  },
+  {
+    "id": "fma:22951",
+    "names": {
+      "la": {
+        "value": "venae ulnares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4985",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4985, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4985"
+    }
+  },
+  {
+    "id": "fma:22952",
+    "names": {
+      "la": {
+        "value": "venae ulnares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4985",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4985, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4985"
+    }
+  },
+  {
+    "id": "fma:22954",
+    "names": {
+      "la": {
+        "value": "venae metacarpeae dorsales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4969",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4969, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae metacarpales dorsales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4969"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4969"
+    }
+  },
+  {
     "id": "fma:22963",
     "names": {
       "la": {
@@ -12482,6 +13390,120 @@
     }
   },
   {
+    "id": "fma:23065",
+    "names": {
+      "la": {
+        "value": "ramus acromialis arteriae thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4620",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4620, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4620"
+    }
+  },
+  {
+    "id": "fma:23067",
+    "names": {
+      "la": {
+        "value": "ramus deltoideus arteriae thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4623",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4623, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4623"
+    }
+  },
+  {
+    "id": "fma:23068",
+    "names": {
+      "la": {
+        "value": "ramus acromialis arteriae thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4620",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4620, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4620"
+    }
+  },
+  {
+    "id": "fma:23069",
+    "names": {
+      "la": {
+        "value": "ramus acromialis arteriae thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4620",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4620, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4620"
+    }
+  },
+  {
+    "id": "fma:23072",
+    "names": {
+      "la": {
+        "value": "ramus deltoideus arteriae thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4623",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4623, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4623"
+    }
+  },
+  {
+    "id": "fma:23073",
+    "names": {
+      "la": {
+        "value": "ramus deltoideus arteriae thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4623",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4623, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4623"
+    }
+  },
+  {
     "id": "fma:23083",
     "names": {
       "la": {
@@ -12522,6 +13544,54 @@
     ],
     "externalIds": {
       "ta2": "2286"
+    }
+  },
+  {
+    "id": "fma:230984",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:230986",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:230988",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -13350,6 +14420,374 @@
     }
   },
   {
+    "id": "fma:23918",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 151",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"pollex\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23919",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23920",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23921",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23922",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23933",
+    "names": {
+      "la": {
+        "value": "phalanx media indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23934",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23935",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23936",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23938",
+    "names": {
+      "la": {
+        "value": "phalanx media indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23940",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23942",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23944",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23945",
+    "names": {
+      "la": {
+        "value": "phalanx distalis pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 151",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"pollex\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23946",
+    "names": {
+      "la": {
+        "value": "phalanx distalis indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23947",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23948",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23949",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23951",
+    "names": {
+      "la": {
+        "value": "phalanx distalis pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 151",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"pollex\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23953",
+    "names": {
+      "la": {
+        "value": "phalanx distalis indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23955",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23957",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23959",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:24435",
     "names": {
       "la": {
@@ -13797,6 +15235,230 @@
     },
     "externalIds": {
       "ta2": "1259"
+    }
+  },
+  {
+    "id": "fma:24450",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 151",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"pollex\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24451",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24452",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24453",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24454",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24455",
+    "names": {
+      "la": {
+        "value": "phalanx media indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24456",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24457",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24458",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1278 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24459",
+    "names": {
+      "la": {
+        "value": "phalanx distalis pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 151",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"pollex\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24460",
+    "names": {
+      "la": {
+        "value": "phalanx distalis indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24461",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24462",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24463",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1279 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -16949,6 +18611,582 @@
     }
   },
   {
+    "id": "fma:32618",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32619",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32620",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32621",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32623",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32624",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32625",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32627",
+    "names": {
+      "la": {
+        "value": "phalanx distalis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 171",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"hallux\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32628",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32629",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32630",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32631",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32634",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32635",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32636",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32637",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32638",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32639",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32640",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32641",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32642",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32643",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32644",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32645",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32646",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32647",
+    "names": {
+      "la": {
+        "value": "phalanx media digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1511 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx media pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32650",
+    "names": {
+      "la": {
+        "value": "phalanx distalis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 171",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"hallux\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32651",
+    "names": {
+      "la": {
+        "value": "phalanx distalis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 171",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"hallux\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32652",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32653",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti secundi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 172",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus secundus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32654",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32655",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti tertii pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 173",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus tertius pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32656",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32657",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti quarti pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 174",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus quartus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32658",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32659",
+    "names": {
+      "la": {
+        "value": "phalanx distalis digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1512 + TA2 ID 175",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx distalis pedis\" ve parmak terimi \"digitus minimus pedis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:33581",
     "names": {
       "la": {
@@ -17745,6 +19983,68 @@
     }
   },
   {
+    "id": "fma:37383",
+    "names": {
+      "la": {
+        "value": "flexor digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2530, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor digiti minimi brevis manus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530"
+          }
+        ]
+      },
+      {
+        "value": "flexor digiti minimi brevis muscle of hand",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2530"
+    }
+  },
+  {
+    "id": "fma:37384",
+    "names": {
+      "la": {
+        "value": "musculus opponens digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2531",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2531, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2531"
+    }
+  },
+  {
     "id": "fma:37386",
     "names": {
       "la": {
@@ -18041,6 +20341,130 @@
     }
   },
   {
+    "id": "fma:37398",
+    "names": {
+      "la": {
+        "value": "flexor digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2530, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor digiti minimi brevis manus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530"
+          }
+        ]
+      },
+      {
+        "value": "flexor digiti minimi brevis muscle of hand",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2530"
+    }
+  },
+  {
+    "id": "fma:37399",
+    "names": {
+      "la": {
+        "value": "flexor digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2530, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor digiti minimi brevis manus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530"
+          }
+        ]
+      },
+      {
+        "value": "flexor digiti minimi brevis muscle of hand",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2530"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2530"
+    }
+  },
+  {
+    "id": "fma:37400",
+    "names": {
+      "la": {
+        "value": "musculus opponens digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2531",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2531, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2531"
+    }
+  },
+  {
+    "id": "fma:37401",
+    "names": {
+      "la": {
+        "value": "musculus opponens digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2531",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2531, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2531"
+    }
+  },
+  {
     "id": "fma:37448",
     "names": {
       "la": {
@@ -18210,6 +20634,49 @@
     ],
     "externalIds": {
       "ta2": "2684"
+    }
+  },
+  {
+    "id": "fma:37455",
+    "names": {
+      "la": {
+        "value": "flexor digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2682, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor digiti minimi brevis pedis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682"
+          }
+        ]
+      },
+      {
+        "value": "flexor digiti minimi brevis muscle of foot",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2682"
     }
   },
   {
@@ -18554,6 +21021,92 @@
     ],
     "externalIds": {
       "ta2": "2684"
+    }
+  },
+  {
+    "id": "fma:37471",
+    "names": {
+      "la": {
+        "value": "flexor digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2682, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor digiti minimi brevis pedis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682"
+          }
+        ]
+      },
+      {
+        "value": "flexor digiti minimi brevis muscle of foot",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2682"
+    }
+  },
+  {
+    "id": "fma:37472",
+    "names": {
+      "la": {
+        "value": "flexor digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2682, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor digiti minimi brevis pedis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682"
+          }
+        ]
+      },
+      {
+        "value": "flexor digiti minimi brevis muscle of foot",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2682"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2682"
     }
   },
   {
@@ -23085,6 +25638,54 @@
     }
   },
   {
+    "id": "fma:43252",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 171",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"hallux\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:43253",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 171",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"hallux\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:43254",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1510 + TA2 ID 171",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis pedis\" ve parmak terimi \"hallux\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:43882",
     "names": {
       "la": {
@@ -24006,6 +26607,38 @@
     }
   },
   {
+    "id": "fma:43956",
+    "names": {
+      "la": {
+        "value": "arteriae metatarseae plantares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4739",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4739, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteriae metatarsales plantares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4739"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4739"
+    }
+  },
+  {
     "id": "fma:44248",
     "names": {
       "la": {
@@ -24082,6 +26715,70 @@
     }
   },
   {
+    "id": "fma:44325",
+    "names": {
+      "la": {
+        "value": "venae circumflexae mediales femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5056",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5056, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae circumflexae femoris mediales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5056"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5056"
+    }
+  },
+  {
+    "id": "fma:44326",
+    "names": {
+      "la": {
+        "value": "venae circumflexae laterales femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5057",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5057, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae circumflexae femoris laterales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5057"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5057"
+    }
+  },
+  {
     "id": "fma:44327",
     "names": {
       "la": {
@@ -24136,6 +26833,44 @@
     },
     "externalIds": {
       "ta2": "5072"
+    }
+  },
+  {
+    "id": "fma:44331",
+    "names": {
+      "la": {
+        "value": "venae tibiales anteriores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5075",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5075, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5075"
+    }
+  },
+  {
+    "id": "fma:44332",
+    "names": {
+      "la": {
+        "value": "venae tibiales posteriores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5077",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5077, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5077"
     }
   },
   {
@@ -24235,6 +26970,82 @@
     }
   },
   {
+    "id": "fma:44336",
+    "names": {
+      "la": {
+        "value": "venae tibiales anteriores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5075",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5075, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5075"
+    }
+  },
+  {
+    "id": "fma:44337",
+    "names": {
+      "la": {
+        "value": "venae tibiales anteriores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5075",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5075, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5075"
+    }
+  },
+  {
+    "id": "fma:44338",
+    "names": {
+      "la": {
+        "value": "venae tibiales posteriores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5077",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5077, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5077"
+    }
+  },
+  {
+    "id": "fma:44339",
+    "names": {
+      "la": {
+        "value": "venae tibiales posteriores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5077",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5077, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5077"
+    }
+  },
+  {
     "id": "fma:44340",
     "names": {
       "la": {
@@ -24289,6 +27100,100 @@
     },
     "externalIds": {
       "ta2": "5088"
+    }
+  },
+  {
+    "id": "fma:44504",
+    "names": {
+      "la": {
+        "value": "venae metatarseae plantares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5083",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5083, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae metatarsales plantares",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5083"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5083"
+    }
+  },
+  {
+    "id": "fma:44558",
+    "names": {
+      "la": {
+        "value": "venae fibulares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5078, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae peroneae",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078"
+          }
+        ]
+      },
+      {
+        "value": "peroneal veins",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5078"
+    }
+  },
+  {
+    "id": "fma:44559",
+    "names": {
+      "la": {
+        "value": "venae geniculares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5074",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5074, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5074"
     }
   },
   {
@@ -24378,6 +27283,258 @@
     },
     "externalIds": {
       "ta2": "5088"
+    }
+  },
+  {
+    "id": "fma:44885",
+    "names": {
+      "la": {
+        "value": "venae fibulares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5078, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae peroneae",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078"
+          }
+        ]
+      },
+      {
+        "value": "peroneal veins",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5078"
+    }
+  },
+  {
+    "id": "fma:44886",
+    "names": {
+      "la": {
+        "value": "venae fibulares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5078, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae peroneae",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078"
+          }
+        ]
+      },
+      {
+        "value": "peroneal veins",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5078"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5078"
+    }
+  },
+  {
+    "id": "fma:44887",
+    "names": {
+      "la": {
+        "value": "venae geniculares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5074",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5074, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5074"
+    }
+  },
+  {
+    "id": "fma:44888",
+    "names": {
+      "la": {
+        "value": "venae geniculares",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5074",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5074, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5074"
+    }
+  },
+  {
+    "id": "fma:44918",
+    "names": {
+      "la": {
+        "value": "venae circumflexae mediales femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5056",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5056, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae circumflexae femoris mediales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5056"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5056"
+    }
+  },
+  {
+    "id": "fma:44919",
+    "names": {
+      "la": {
+        "value": "venae circumflexae mediales femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5056",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5056, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae circumflexae femoris mediales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5056"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5056"
+    }
+  },
+  {
+    "id": "fma:44920",
+    "names": {
+      "la": {
+        "value": "venae circumflexae laterales femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5057",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5057, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae circumflexae femoris laterales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5057"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5057"
+    }
+  },
+  {
+    "id": "fma:44922",
+    "names": {
+      "la": {
+        "value": "venae circumflexae laterales femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5057",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5057, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae circumflexae femoris laterales",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5057"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5057"
     }
   },
   {
@@ -25924,6 +29081,120 @@
     }
   },
   {
+    "id": "fma:46576",
+    "names": {
+      "la": {
+        "value": "musculus cricoarytenoideus posterior",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2196",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2196, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2196"
+    }
+  },
+  {
+    "id": "fma:46577",
+    "names": {
+      "la": {
+        "value": "musculus cricoarytenoideus posterior",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2196",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2196, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2196"
+    }
+  },
+  {
+    "id": "fma:46578",
+    "names": {
+      "la": {
+        "value": "musculus cricoarytenoideus posterior",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2196",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2196, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2196"
+    }
+  },
+  {
+    "id": "fma:46579",
+    "names": {
+      "la": {
+        "value": "musculus cricoarytendoideus lateralis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2198",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2198, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2198"
+    }
+  },
+  {
+    "id": "fma:46580",
+    "names": {
+      "la": {
+        "value": "musculus cricoarytendoideus lateralis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2198",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2198, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2198"
+    }
+  },
+  {
+    "id": "fma:46581",
+    "names": {
+      "la": {
+        "value": "musculus cricoarytendoideus lateralis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2198",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2198, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2198"
+    }
+  },
+  {
     "id": "fma:46582",
     "names": {
       "la": {
@@ -25997,6 +29268,102 @@
     },
     "externalIds": {
       "ta2": "2203"
+    }
+  },
+  {
+    "id": "fma:46588",
+    "names": {
+      "la": {
+        "value": "musculus thyreoarytenoideus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2199",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2199, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus thyroarytenoideus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2199"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2199"
+    }
+  },
+  {
+    "id": "fma:46589",
+    "names": {
+      "la": {
+        "value": "musculus thyreoarytenoideus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2199",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2199, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus thyroarytenoideus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2199"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2199"
+    }
+  },
+  {
+    "id": "fma:46590",
+    "names": {
+      "la": {
+        "value": "musculus thyreoarytenoideus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2199",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2199, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus thyroarytenoideus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2199"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2199"
     }
   },
   {
@@ -27508,6 +30875,63 @@
     }
   },
   {
+    "id": "fma:4729",
+    "names": {
+      "la": {
+        "value": "venae thoracicae internae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4786",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4786, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4786"
+    }
+  },
+  {
+    "id": "fma:4731",
+    "names": {
+      "la": {
+        "value": "venae epigastricae superiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4787",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4787, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4787"
+    }
+  },
+  {
+    "id": "fma:4732",
+    "names": {
+      "la": {
+        "value": "venae musculophrenicae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4789",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4789, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4789"
+    }
+  },
+  {
     "id": "fma:4751",
     "names": {
       "la": {
@@ -27611,6 +31035,25 @@
     }
   },
   {
+    "id": "fma:4758",
+    "names": {
+      "la": {
+        "value": "venae thoracicae internae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4786",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4786, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4786"
+    }
+  },
+  {
     "id": "fma:4761",
     "names": {
       "la": {
@@ -27711,6 +31154,82 @@
     },
     "externalIds": {
       "ta2": "4953"
+    }
+  },
+  {
+    "id": "fma:4771",
+    "names": {
+      "la": {
+        "value": "venae epigastricae superiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4787",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4787, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4787"
+    }
+  },
+  {
+    "id": "fma:4772",
+    "names": {
+      "la": {
+        "value": "venae musculophrenicae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4789",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4789, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4789"
+    }
+  },
+  {
+    "id": "fma:4785",
+    "names": {
+      "la": {
+        "value": "venae epigastricae superiores",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4787",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4787, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4787"
+    }
+  },
+  {
+    "id": "fma:4786",
+    "names": {
+      "la": {
+        "value": "venae musculophrenicae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4789",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4789, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4789"
     }
   },
   {
@@ -28407,6 +31926,63 @@
     },
     "externalIds": {
       "ta2": "2044"
+    }
+  },
+  {
+    "id": "fma:49065",
+    "names": {
+      "la": {
+        "value": "trochlea musculi obliqui superioris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2049",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2049, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2049"
+    }
+  },
+  {
+    "id": "fma:49067",
+    "names": {
+      "la": {
+        "value": "trochlea musculi obliqui superioris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2049",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2049, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2049"
+    }
+  },
+  {
+    "id": "fma:49068",
+    "names": {
+      "la": {
+        "value": "trochlea musculi obliqui superioris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2049",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2049, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2049"
     }
   },
   {
@@ -31204,6 +34780,63 @@
     }
   },
   {
+    "id": "fma:52655",
+    "names": {
+      "la": {
+        "value": "nervus supraorbitalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6200",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6200, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6200"
+    }
+  },
+  {
+    "id": "fma:52656",
+    "names": {
+      "la": {
+        "value": "nervus supraorbitalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6200",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6200, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6200"
+    }
+  },
+  {
+    "id": "fma:52657",
+    "names": {
+      "la": {
+        "value": "nervus supraorbitalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6200",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6200, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6200"
+    }
+  },
+  {
     "id": "fma:52668",
     "names": {
       "la": {
@@ -31354,6 +34987,25 @@
     ],
     "externalIds": {
       "ta2": "6208"
+    }
+  },
+  {
+    "id": "fma:52691",
+    "names": {
+      "la": {
+        "value": "nervi ciliares longi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6206",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6206, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6206"
     }
   },
   {
@@ -34975,6 +38627,25 @@
     }
   },
   {
+    "id": "fma:61965",
+    "names": {
+      "la": {
+        "value": "fornix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5633",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5633, İngilizce adın \"A of B\" biçimiyle bulundu: A terimi TA2 hiyerarşisinde B'nin altında yer alıyor."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5633"
+    }
+  },
+  {
     "id": "fma:61970",
     "names": {
       "la": {
@@ -35754,6 +39425,22 @@
     }
   },
   {
+    "id": "fma:65470",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 151",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"pollex\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:66241",
     "names": {
       "la": {
@@ -35870,6 +39557,17 @@
   {
     "id": "fma:66326",
     "names": {
+      "la": {
+        "value": "arteriae pulmonales",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4074",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4074, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
       "tr": {
         "value": "Pulmoner arter",
         "status": "unverified",
@@ -35881,6 +39579,9 @@
           }
         ]
       }
+    },
+    "externalIds": {
+      "ta2": "4074"
     }
   },
   {
@@ -35900,6 +39601,22 @@
     },
     "externalIds": {
       "ta2": "4160"
+    }
+  },
+  {
+    "id": "fma:66791",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti minimi manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 155",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus minimus manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -36120,6 +39837,784 @@
     },
     "externalIds": {
       "ta2": "4078"
+    }
+  },
+  {
+    "id": "fma:68211",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis apicalis pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3239",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3239, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus I pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3239"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 1 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3239"
+          }
+        ]
+      },
+      {
+        "value": "b1",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3239"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3239"
+    }
+  },
+  {
+    "id": "fma:68212",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis anterior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3241",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3241, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus III pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3241"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 3 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3241"
+          }
+        ]
+      },
+      {
+        "value": "b3",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3241"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3241"
+    }
+  },
+  {
+    "id": "fma:68213",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis posterior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3240",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3240, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus II pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3240"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 2 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3240"
+          }
+        ]
+      },
+      {
+        "value": "b2",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3240"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3240"
+    }
+  },
+  {
+    "id": "fma:68216",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis superior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3247",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3247, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus VI pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3247"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 6 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3247"
+          }
+        ]
+      },
+      {
+        "value": "b6",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3247"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3247"
+    }
+  },
+  {
+    "id": "fma:68218",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis medialis pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3248",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3248, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus VII pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3248"
+          }
+        ]
+      },
+      {
+        "value": "bronchus cardiacus pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3248"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 7 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3248"
+          }
+        ]
+      },
+      {
+        "value": "b7",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3248"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3248"
+    }
+  },
+  {
+    "id": "fma:68220",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis lateralis pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3250",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3250, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus IX pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3250"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 9 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3250"
+          }
+        ]
+      },
+      {
+        "value": "b9",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3250"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3250"
+    }
+  },
+  {
+    "id": "fma:68221",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis posterior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3251",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3251, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus X pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3251"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 10 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3251"
+          }
+        ]
+      },
+      {
+        "value": "b10",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3251"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3251"
+    }
+  },
+  {
+    "id": "fma:68222",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis anterior pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3255",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3255, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus III pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3255"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 3 of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3255"
+          }
+        ]
+      },
+      {
+        "value": "b3",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3255"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3255"
+    }
+  },
+  {
+    "id": "fma:68228",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis superior pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3259",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3259, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus VI pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3259"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 6 of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3259"
+          }
+        ]
+      },
+      {
+        "value": "b6",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3259"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3259"
+    }
+  },
+  {
+    "id": "fma:68230",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis medialis pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3260",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3260, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus VII pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3260"
+          }
+        ]
+      },
+      {
+        "value": "bronchus cardiacus pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3260"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 7 of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3260"
+          }
+        ]
+      },
+      {
+        "value": "b7",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3260"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3260"
+    }
+  },
+  {
+    "id": "fma:68231",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis anterior pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3262",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3262, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus VIII pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3262"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 8 of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3262"
+          }
+        ]
+      },
+      {
+        "value": "b8",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3262"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3262"
+    }
+  },
+  {
+    "id": "fma:68232",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis lateralis pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3263",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3263, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus IX pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3263"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 9 of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3263"
+          }
+        ]
+      },
+      {
+        "value": "b9",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3263"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3263"
+    }
+  },
+  {
+    "id": "fma:68233",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis posterior pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3264",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3264, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus X pulmonis sinistri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3264"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 10 of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3264"
+          }
+        ]
+      },
+      {
+        "value": "b10",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3264"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3264"
+    }
+  },
+  {
+    "id": "fma:68321",
+    "names": {
+      "la": {
+        "value": "bronchus segmentalis basalis anterior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3249",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3249, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bronchus VIII pulmonis dextri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3249"
+          }
+        ]
+      },
+      {
+        "value": "bronchus 8 of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3249"
+          }
+        ]
+      },
+      {
+        "value": "b8",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3249"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3249"
     }
   },
   {
@@ -36445,6 +40940,25 @@
     },
     "externalIds": {
       "ta2": "4674"
+    }
+  },
+  {
+    "id": "fma:7041",
+    "names": {
+      "la": {
+        "value": "nervi ciliares breves",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6664",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6664, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6664"
     }
   },
   {
@@ -36969,9 +41483,9 @@
         "status": "unverified",
         "sources": [
           {
-            "sourceId": "src:wikidata",
-            "locator": "Q173710 (Türkçe etiket)",
-            "note": "Topluluk tarafından düzenlenen Wikidata etiketi; Türkçe Vikipedi maddesi: \"Yemek borusu\". TDK'da anatomi/tıp anlamlı madde bulunamadığı için ikinci kaynak olarak kullanıldı."
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"yemek borusu\" (madde_id 42014)",
+            "note": "TDK tanımı: \"Besinleri ağızdan mideye ulaştıran, kasla çevrili, içi mukoza ile kaplı kanal\". TA2 2887 (oesophagus) karşılığı olarak seçildi."
           }
         ]
       }
@@ -37194,6 +41708,54 @@
     },
     "externalIds": {
       "ta2": "7041"
+    }
+  },
+  {
+    "id": "fma:71908",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti medii manus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 153",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus medius manus\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:71915",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis indicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 152",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"index\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:71916",
+    "names": {
+      "la": {
+        "value": "phalanx proximalis digiti anularis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1277 + TA2 ID 154",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"phalanx proximalis manus\" ve parmak terimi \"digitus anularis\" birleştirildi (parmak adı tamlayan hâlinde). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -39296,6 +43858,44 @@
     }
   },
   {
+    "id": "fma:72924",
+    "names": {
+      "la": {
+        "value": "fornix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5633",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5633, İngilizce adın \"A of B\" biçimiyle bulundu: A terimi TA2 hiyerarşisinde B'nin altında yer alıyor. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5633"
+    }
+  },
+  {
+    "id": "fma:72925",
+    "names": {
+      "la": {
+        "value": "fornix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5633",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5633, İngilizce adın \"A of B\" biçimiyle bulundu: A terimi TA2 hiyerarşisinde B'nin altında yer alıyor. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5633"
+    }
+  },
+  {
     "id": "fma:72975",
     "names": {
       "la": {
@@ -39808,6 +44408,76 @@
     }
   },
   {
+    "id": "fma:7638",
+    "names": {
+      "la": {
+        "value": "costa III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:76767",
+    "names": {
+      "la": {
+        "value": "venae anteriores cordis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4168",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4168, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "venae ventriculi dextri anteriores",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4168"
+          }
+        ]
+      },
+      {
+        "value": "venae cardiacae anteriores",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4168"
+          }
+        ]
+      },
+      {
+        "value": "anterior veins of right ventricle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4168"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4168"
+    }
+  },
+  {
     "id": "fma:77064",
     "names": {
       "la": {
@@ -40013,6 +44683,22 @@
     }
   },
   {
+    "id": "fma:7749",
+    "names": {
+      "la": {
+        "value": "costa IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:77498",
     "names": {
       "la": {
@@ -40061,6 +44747,22 @@
     ],
     "externalIds": {
       "ta2": "4976"
+    }
+  },
+  {
+    "id": "fma:7776",
+    "names": {
+      "la": {
+        "value": "costa V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -40163,6 +44865,22 @@
     ],
     "externalIds": {
       "ta2": "4976"
+    }
+  },
+  {
+    "id": "fma:7830",
+    "names": {
+      "la": {
+        "value": "costa VII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -40431,6 +45149,38 @@
     }
   },
   {
+    "id": "fma:7909",
+    "names": {
+      "la": {
+        "value": "costa III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7957",
+    "names": {
+      "la": {
+        "value": "costa IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:79658",
     "names": {
       "la": {
@@ -40533,6 +45283,485 @@
     ],
     "externalIds": {
       "ta2": "1111"
+    }
+  },
+  {
+    "id": "fma:8039",
+    "names": {
+      "la": {
+        "value": "costa III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8066",
+    "names": {
+      "la": {
+        "value": "costa V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8093",
+    "names": {
+      "la": {
+        "value": "costa V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8120",
+    "names": {
+      "la": {
+        "value": "costa VIII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8147",
+    "names": {
+      "la": {
+        "value": "costa VI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8148",
+    "names": {
+      "la": {
+        "value": "costa IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8175",
+    "names": {
+      "la": {
+        "value": "costa VI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8202",
+    "names": {
+      "la": {
+        "value": "costa VI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8229",
+    "names": {
+      "la": {
+        "value": "costa VII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8256",
+    "names": {
+      "la": {
+        "value": "costa VII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:82734",
+    "names": {
+      "la": {
+        "value": "nervi ciliares longi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6206",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6206, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6206"
+    }
+  },
+  {
+    "id": "fma:82735",
+    "names": {
+      "la": {
+        "value": "nervi ciliares longi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6206",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6206, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6206"
+    }
+  },
+  {
+    "id": "fma:8283",
+    "names": {
+      "la": {
+        "value": "costa VIII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8310",
+    "names": {
+      "la": {
+        "value": "costa VIII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8337",
+    "names": {
+      "la": {
+        "value": "costa IX",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8364",
+    "names": {
+      "la": {
+        "value": "costa IX",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8391",
+    "names": {
+      "la": {
+        "value": "costa IX",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8418",
+    "names": {
+      "la": {
+        "value": "costa X",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8445",
+    "names": {
+      "la": {
+        "value": "costa X",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8472",
+    "names": {
+      "la": {
+        "value": "costa X",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8499",
+    "names": {
+      "la": {
+        "value": "costa XI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8515",
+    "names": {
+      "la": {
+        "value": "costa XII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8531",
+    "names": {
+      "la": {
+        "value": "costa XI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8532",
+    "names": {
+      "la": {
+        "value": "costa XI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8533",
+    "names": {
+      "la": {
+        "value": "costa XII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:8534",
+    "names": {
+      "la": {
+        "value": "costa XII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1118",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"costa\" terimine kaburga numarası (Roma rakamı) eklendi. https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:86033",
+    "names": {
+      "la": {
+        "value": "musculus opponens digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2681",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2681, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2681"
+    }
+  },
+  {
+    "id": "fma:86034",
+    "names": {
+      "la": {
+        "value": "musculus opponens digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2681",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2681, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2681"
+    }
+  },
+  {
+    "id": "fma:86035",
+    "names": {
+      "la": {
+        "value": "musculus opponens digiti minimi pedis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2681",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2681, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2681"
     }
   },
   {
@@ -40959,6 +46188,54 @@
     ],
     "externalIds": {
       "ta2": "1063"
+    }
+  },
+  {
+    "id": "fma:9187",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica II",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9209",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9248",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {
@@ -41406,6 +46683,70 @@
     },
     "externalIds": {
       "ta2": "2315"
+    }
+  },
+  {
+    "id": "fma:9922",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9945",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica VI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9968",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica VII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9991",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica VIII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
     }
   },
   {

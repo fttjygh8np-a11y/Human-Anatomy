@@ -828,6 +828,9 @@ label {
   border: none;
   color: var(--text);
 }
+.name-en {
+  font-style: italic;
+}
 .tree-label {
   flex: 1;
   cursor: pointer;
@@ -1182,6 +1185,36 @@ table.compare td {
 }
 
 /* Settings */
+.notice {
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--warn) 45%, transparent);
+  background: color-mix(in srgb, var(--warn) 10%, transparent);
+}
+.source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+.source-list p {
+  margin: 4px 0 0;
+}
+.source-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.source-head .badge:first-of-type {
+  margin-inline-start: 8px;
+}
+a.badge {
+  text-decoration: none;
+  color: var(--accent);
+}
 .settings-panel fieldset {
   display: grid;
   justify-items: start;

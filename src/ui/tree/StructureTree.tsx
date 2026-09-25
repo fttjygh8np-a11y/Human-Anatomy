@@ -113,6 +113,7 @@ function StructureRow({ s, level, childrenOf }: { s: Structure; level: number; c
   const vis = resolveVisibility(s.id, scene, index)
   const kids = childrenOf(s.id)
   const name = index.displayName(s.id, settings.nameLanguage)
+  const nameLang = index.nameLanguage(s.id, settings.nameLanguage)
   const stateText = vis.reason ? `${MODE_TEXT[vis.mode]}: ${HIDDEN_REASON_LABEL[vis.reason]}` : MODE_TEXT[vis.mode]
 
   const select = () => {
@@ -132,7 +133,15 @@ function StructureRow({ s, level, childrenOf }: { s: Structure; level: number; c
       hasChildren={kids.length > 0}
       selected={scene.selected.includes(s.id)}
       onActivate={select}
-      label={<span className={vis.mode === 'absent' ? 'muted' : undefined}>{name}</span>}
+      label={
+        <span
+          className={[vis.mode === 'absent' ? 'muted' : '', nameLang === 'en' ? 'name-en' : ''].filter(Boolean).join(' ') || undefined}
+          lang={nameLang === 'tr' ? undefined : nameLang}
+          title={nameLang === 'en' ? 'Türkçe ve Latince adı henüz eklenmedi (İngilizce ad gösteriliyor)' : undefined}
+        >
+          {name}
+        </span>
+      }
       actions={
         <button
           type="button"

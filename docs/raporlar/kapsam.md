@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `c861a8080c1066fb` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `ecbebc553f16a107` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -66,22 +66,22 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Hedef | Sistem | Bölge | Düzey | Envanter | Model | TR | LA | EN | Eksik içerik | Lisans | İnceleme |
 |---|---|---|---|---|---|:-:|:-:|:-:|---|---|---|
 | Vertebra thoracica prima (First thoracic vertebra) | İskelet sistemi | Sırt | Orta | `fma:9165` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Second thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9187` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Third thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9209` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9248` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fifth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9922` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Sixth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9945` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Seventh thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9968` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Eighth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9991` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Ninth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10014` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Tenth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10037` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Eleventh thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10059` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Second thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9187` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Third thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9209` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fourth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9248` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9922` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Sixth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9945` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Seventh thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9968` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Eighth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:9991` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Ninth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10014` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Tenth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10037` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Eleventh thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10059` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Twelfth thoracic vertebra | İskelet sistemi | Sırt | Orta | `fma:10081` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| First lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13072` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Second lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13073` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Third lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13074` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13075` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fifth lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13076` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| First lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13072` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Second lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13073` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Third lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13074` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fourth lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13075` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth lumbar vertebra | İskelet sistemi | Sırt | Orta | `fma:13076` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os sacrum (Sacrum) | İskelet sistemi | Sırt | Temel | `fma:16202` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os frontale (Frontal bone) | İskelet sistemi | Baş | Temel | `fma:52734` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os parietale (Parietal bone) | İskelet sistemi | Baş | Temel | `fma:9613` | var (sağ ✓, sol ✓) | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -114,27 +114,27 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Third metatarsal bone | İskelet sistemi | Alt ekstremite | Temel | `fma:24504` | var (sağ ✓, sol ✓) | ? | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Fourth metatarsal bone | İskelet sistemi | Alt ekstremite | Temel | `fma:24505` | var (sağ ✓, sol ✓) | ? | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os quintum metatarsi (Fifth metatarsal bone) | İskelet sistemi | Alt ekstremite | Temel | `fma:24506` | var (sağ ✓, sol ✓) | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of big toe | İskelet sistemi | Alt ekstremite | Orta | `fma:43252` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of big toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32627` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of second toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32618` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of second toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32623` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of second toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32628` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of third toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32619` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of third toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32624` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of third toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32629` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of fourth toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32620` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of fourth toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32625` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of fourth toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32630` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of little toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32621` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of little toe | İskelet sistemi | Alt ekstremite | Orta | `fma:230984` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of little toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32631` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of big toe | İskelet sistemi | Alt ekstremite | Orta | `fma:43252` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of big toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32627` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of second toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32618` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of second toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32623` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of second toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32628` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of third toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32619` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of third toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32624` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of third toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32629` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of fourth toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32620` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of fourth toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32625` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of fourth toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32630` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of little toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32621` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of little toe | İskelet sistemi | Alt ekstremite | Orta | `fma:230984` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of little toe | İskelet sistemi | Alt ekstremite | Orta | `fma:32631` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Sesamoid bone of foot | İskelet sistemi | Alt ekstremite | Orta | `fma:45096` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os hyoideum (Hyoid bone) | İskelet sistemi | Boyun | Temel | `fma:52749` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Atlas | İskelet sistemi | Boyun | Temel | `fma:12519` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Axis | İskelet sistemi | Boyun | Temel | `fma:12520` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Third cervical vertebra | İskelet sistemi | Boyun | Orta | `fma:12521` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth cervical vertebra | İskelet sistemi | Boyun | Orta | `fma:12522` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fifth cervical vertebra | İskelet sistemi | Boyun | Orta | `fma:12523` | var | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Third cervical vertebra | İskelet sistemi | Boyun | Orta | `fma:12521` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fourth cervical vertebra | İskelet sistemi | Boyun | Orta | `fma:12522` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth cervical vertebra | İskelet sistemi | Boyun | Orta | `fma:12523` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Vertebra cervicalis VI (Sixth cervical vertebra) | İskelet sistemi | Boyun | Orta | `fma:12524` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Vertebra prominens (Seventh cervical vertebra) | İskelet sistemi | Boyun | Temel | `fma:12525` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Manubrium sterni (Manubrium) | İskelet sistemi | Toraks | Temel | `fma:7486` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -142,16 +142,16 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Processus xiphoideus (Xiphoid process) | İskelet sistemi | Toraks | Temel | `fma:7488` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Costa prima (First rib) | İskelet sistemi | Toraks | Temel | `fma:7597` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Costa secunda (Second rib) | İskelet sistemi | Toraks | Temel | `fma:7620` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Third rib | İskelet sistemi | Toraks | Temel | `fma:7638` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth rib | İskelet sistemi | Toraks | Temel | `fma:7749` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fifth rib | İskelet sistemi | Toraks | Temel | `fma:7776` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Sixth rib | İskelet sistemi | Toraks | Temel | `fma:8147` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Seventh rib | İskelet sistemi | Toraks | Temel | `fma:7830` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Eighth rib | İskelet sistemi | Toraks | Temel | `fma:8120` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Ninth rib | İskelet sistemi | Toraks | Temel | `fma:8337` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Tenth rib | İskelet sistemi | Toraks | Temel | `fma:8418` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Eleventh rib | İskelet sistemi | Toraks | Temel | `fma:8499` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Twelfth rib | İskelet sistemi | Toraks | Temel | `fma:8515` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Third rib | İskelet sistemi | Toraks | Temel | `fma:7638` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fourth rib | İskelet sistemi | Toraks | Temel | `fma:7749` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth rib | İskelet sistemi | Toraks | Temel | `fma:7776` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Sixth rib | İskelet sistemi | Toraks | Temel | `fma:8147` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Seventh rib | İskelet sistemi | Toraks | Temel | `fma:7830` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Eighth rib | İskelet sistemi | Toraks | Temel | `fma:8120` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Ninth rib | İskelet sistemi | Toraks | Temel | `fma:8337` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Tenth rib | İskelet sistemi | Toraks | Temel | `fma:8418` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Eleventh rib | İskelet sistemi | Toraks | Temel | `fma:8499` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Twelfth rib | İskelet sistemi | Toraks | Temel | `fma:8515` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Clavicula (Clavicle) | İskelet sistemi | Omuz kuşağı | Temel | `fma:13321` | var (sağ ✓, sol ✓) | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Scapula | İskelet sistemi | Omuz kuşağı | Temel | `fma:13394` | var (sağ ✓, sol ✓) | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Humerus | İskelet sistemi | Kol | Temel | `fma:13303` | var (sağ ✓, sol ✓) | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -170,20 +170,20 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Third metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23901` | var (sağ ✓, sol ✓) | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Fourth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23902` | var (sağ ✓, sol ✓) | ? | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Fifth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23903` | var (sağ ✓, sol ✓) | ? | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23918` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23945` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23919` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23933` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23946` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23920` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23934` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23947` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23921` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23935` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23948` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23922` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23936` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23949` | var (sağ ✓, sol ✓) | — | — | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23918` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23945` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23919` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23933` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23946` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23920` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23934` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23947` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23921` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23935` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23948` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23922` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23936` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23949` | var (sağ ✓, sol ✓) | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 
 ## Kapsam hedefi olmayan yapılar
 
@@ -196,4 +196,4 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 ## İnsan incelemesi ve otomatik kontroller (ayrı ayrı)
 
 - **İnsan inceleme kayıtları:** 0 — henüz hiçbir içerik anatomi uzmanınca incelenmedi.
-- **Otomatik doğrulama (npm run content:validate):** 0 hata, 4 uyarı. Otomatik kontroller uzman incelemesinin yerine geçmez.
+- **Otomatik doğrulama (npm run content:validate):** 0 hata, 5 uyarı. Otomatik kontroller uzman incelemesinin yerine geçmez.

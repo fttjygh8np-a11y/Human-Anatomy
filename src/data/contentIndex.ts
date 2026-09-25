@@ -5,6 +5,16 @@
 import type { RelationType, SceneState, Structure, StructureId, SystemId } from '../core/schema.ts'
 import type { ContentBundle, ContentIndex, NodeRef, RelationView } from './types.ts'
 
+const LATIN_SIDE = /\b(dexter|dextra|dextrum|dextri|dextrae|sinister|sinistra|sinistrum|sinistri|sinistrae)\b/
+
+/** Language of the name actually displayed for `lang` (fallback order: requested → tr → la → en). */
+function nameLanguageOf(s: Structure, lang: 'tr' | 'la' | 'en'): 'tr' | 'la' | 'en' {
+  if (s.names[lang]) return lang
+  if (s.names.tr) return 'tr'
+  if (s.names.la) return 'la'
+  return 'en'
+}
+
 export function createContentIndex(bundle: ContentBundle): ContentIndex {
   const structures = new Map(bundle.structures.map((s) => [s.id, s]))
   const sources = new Map(bundle.sources.map((s) => [s.id, s]))
@@ -134,7 +144,17 @@ export function createContentIndex(bundle: ContentBundle): ContentIndex {
       const s = structures.get(id)
       if (!s) return id
       // Turkish anatomy teaching uses Latin terms, so a missing Turkish name falls back to Latin.
-      return s.names[lang]?.value ?? s.names.tr?.value ?? s.names.la?.value ?? s.names.en.value
+      const used = nameLanguageOf(s, lang)
+      if (used !== 'la') return s.names[used]!.value
+      // TA2 terms are lower case and side-neutral; the side is shown in Turkish after the term.
+      const la = s.names.la!.value
+      const text = la.charAt(0).toUpperCase() + la.slice(1)
+      const sided = s.laterality === 'right' || s.laterality === 'left'
+      return sided && !LATIN_SIDE.test(la) ? `${text} (${s.laterality === 'right' ? 'sağ' : 'sol'})` : text
+    },
+    nameLanguage: (id, lang = 'tr') => {
+      const s = structures.get(id)
+      return s ? nameLanguageOf(s, lang) : 'en'
     },
     reviewsFor: (targetId) => bundle.reviews.filter((r) => r.target.id === targetId),
 

@@ -15,6 +15,8 @@ import { join } from 'node:path'
 import vm from 'node:vm'
 import {
   buildOverlay,
+  deriveLatin,
+  derivedOverlay,
   indexTa2,
   matchTa2,
   normalizeEn,
@@ -215,12 +217,20 @@ async function main() {
   const matched = new Map<string, number>()
   let trCount = 0
   let wdCount = 0
+  let derivedCount = 0
   const excluded = (JSON.parse(await readFile(join(CONTENT_DIR, 'terminology', 'ta2-dislama.json'), 'utf8')) as { yapilar: Record<string, string> }).yapilar
   for (const s of inventory) {
     const m = s.id in excluded ? null : matchTa2(s, idx, fmaToTa2)
     const tdkTr = m ? trByTa2.get(m.term.id) : undefined
-    const o: Record<string, unknown> | undefined = m ? buildOverlay(s, m, tdkTr, { ta2Url: ta2.url, date: ta2.retrievedAt }) : undefined
+    // The exclusion list rejects wrong TA2 links; a rule-derived name does not use that link.
+    const derived = !m ? deriveLatin(s.names.en.value, idx) : null
+    const o: Record<string, unknown> | undefined = m
+      ? buildOverlay(s, m, tdkTr, { ta2Url: ta2.url, date: ta2.retrievedAt })
+      : derived
+        ? derivedOverlay(s, derived, { ta2Url: ta2.url, date: ta2.retrievedAt })
+        : undefined
     if (m) matched.set(s.id, m.term.id)
+    if (derived) derivedCount++
     if (tdkTr) trCount++
     const wd = tdkTr ? undefined : wikidataTr(s)
     if (wd) wdCount++
@@ -236,7 +246,7 @@ async function main() {
   await mkdir(outDir, { recursive: true })
   await writeFile(join(outDir, 'adlar.json'), prettyJson(out))
   console.log(
-    `${matched.size}/${inventory.length} yapıya TA2 Latince adı, ${trCount} yapıya TDK, ${wdCount} yapıya Wikidata Türkçe adı eklendi.\n` +
+    `${matched.size}/${inventory.length} yapıya TA2 Latince adı (${derivedCount} yapıya kurallı türetilmiş Latince ad), ${trCount} yapıya TDK, ${wdCount} yapıya Wikidata Türkçe adı eklendi.\n` +
       'Tüm adlar "doğrulanmadı" durumundadır; uzman incelemesi gerekir (docs/uzman-inceleme.md).',
   )
 }

@@ -86,7 +86,9 @@ describe('contentIndex', () => {
   it('includes sub-regions and falls back to English names', () => {
     expect(idx.structuresInRegion('upper_limb').map((x) => x.id)).toEqual(['ax:leaf1'])
     expect(idx.displayName('ax:leaf1')).toBe('Yaprak bir')
-    expect(idx.displayName('ax:leaf2')).toBe('folium secundum')
+    expect(idx.displayName('ax:leaf2')).toBe('Folium secundum')
+    expect(idx.nameLanguage('ax:leaf2')).toBe('la')
+    expect(idx.nameLanguage('ax:mid')).toBe('en')
     expect(idx.displayName('ax:leaf2', 'en')).toBe('Leaf two')
     expect(idx.displayName('ax:mid')).toBe('Mid')
   })

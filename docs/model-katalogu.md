@@ -1,11 +1,14 @@
 # 3B model kataloğu ve BodyParts3D işlem hattı
 
-> **Durum (2026-09-24):** İşlem hattı (`scripts/models/`) yazıldı ve yalnızca **sentetik test
-> fikstürleriyle** çalıştırılıp test edildi. Gerçek BodyParts3D verisi bu geliştirme ortamında
-> indirilemedi: `dbarchive.biosciencedbc.jp` ağ politikası tarafından engelleniyor (HTTP 403,
-> `x-deny-reason: host_not_allowed`). Bu yüzden depoda **henüz gerçek veriden üretilmiş hiçbir GLB,
-> öğe sayımı, üçgen sayısı, dosya boyutu veya performans ölçümü yoktur.** Aşağıda gerçek veriye dair
-> geçen sayılar önceki bir oturumda arşiv sayfasından okunmuş değerlerdir ve öyle işaretlenmiştir.
+> **Durum (2026-09-25):** İşlem hattı gerçek BodyParts3D 4.0 verisiyle çalıştırıldı.
+>
+> - **Kaynak arşivi:** `isa_BP3D_4.0_obj_99.zip`, sha256 `40665852…c409e`, 2026-09-24'te indirildi.
+> - **Öğeler:** 2234 öğeden 2147'si modele alındı, 87'si atlandı.
+> - **Çıktı:** 70 GLB, toplam yaklaşık 44 MB (`public/models/bp3d/`).
+>
+> Ayrıntılı sayımlar ve denetim sonuçları `vendor/bodyparts3d/build-report.json` dosyasındadır;
+> bu dosya `npm run models:build` ile yeniden üretilir. HRA kadın üreme organları için bkz. son
+> bölüm.
 
 ## 1. Kaynak
 
@@ -24,35 +27,29 @@ için kaynak kaydına **eklenmedi**; eklenmeden önce birincil kaynaktan kontrol
 
 ## 2. Lisans analizi
 
-İki farklı lisans beyanı vardır:
+İki lisans beyanı vardır:
 
-1. **DBCLS lisans sayfası:** CC BY 4.0 (sayfadaki tarih 2025-02-27). Önceki bir oturumda görüldü.
-   Sayfanın tam adresi bu kayda alınmadı ve bu ortamda yeniden açılamadı; bu nedenle kaynak
-   kaydındaki `license.verifiedAt` alanı **boş bırakıldı**.
-2. **OBJ dosya başlıkları:** "BodyParts3D, (C) The Database Center for Life Science licensed under
-   CC Attribution-Share Alike 2.1 Japan". Derleme, her OBJ başlığındaki lisans satırını okur ve
-   `build-report.json → licenseStatements` altında dosya sayısıyla raporlar (gerçek veride henüz
-   çalıştırılmadı).
+1. **DBCLS lisans sayfası** (https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html): CC BY 4.0.
+   - Sayfanın son güncelleme tarihi 2025-02-27; sayfa 2026-09-25'te okundu.
+   - Sayfadaki alıntı `content/sources/bodyparts3d.json → license.verifiedAt` alanında.
+2. **OBJ dosya başlıkları:** 2234 dosyanın tamamında daha eski beyan bulunur: "CC Attribution-Share
+   Alike 2.1 Japan". Sayım `build-report.json → licenseStatements` alanında.
 
-**Karar:** Beyanlar çeliştiği için daha kısıtlayıcı olan (Share-Alike) esas alındı.
+**Karar:** İki beyanla da uyumlu kalmak için türetilmiş GLB dosyaları **CC BY-SA 4.0** olarak ve
+aşağıdaki atıfla dağıtılır.
 
-- Kaynak kaydının lisansı: `CC-BY-SA-2.1-JP` (https://creativecommons.org/licenses/by-sa/2.1/jp/),
-  `shareAlike: true`, `nonCommercial: false`; kullanım, değiştirme ve yeniden dağıtım izinli.
-- Türetilmiş GLB dosyaları **CC BY-SA 4.0** olarak dağıtılır. Gerekçe: CC BY-SA 2.x lisansları
-  uyarlamaların "aynı lisans öğelerine sahip daha sonraki bir sürümle" lisanslanmasına izin verir.
-  Bu, projenin lisans metnini okuma biçimidir; 2.1 Japonya metninde bu hükmün aynen bulunduğu bu
-  ortamda ayrıca doğrulanamadı ve **hukuki inceleme yapılmadı.** Lisans sayfasındaki CC BY 4.0
-  beyanı doğrulanırsa türev lisansı yeniden değerlendirilebilir.
-- Zorunlu atıf metni (değiştirilmeden kullanılır):
-  `BodyParts3D, © The Database Center for Life Science, licensed under CC Attribution-Share Alike 2.1 Japan`
-- Atıf şuralara yazılır: her GLB'nin `asset.copyright` alanı; sahne `extras` alanı (`license`,
-  `licenseUrl`, `sourceId`); kaynak kaydı (`src:bodyparts3d`). Uygulamanın kaynaklar/lisanslar
-  ekranında da gösterilmelidir (arayüz ekibine öneri).
-- Dosyaların internette erişilebilir olması izin olarak kabul edilmedi; izinler yalnızca yukarıdaki
-  açık lisans beyanlarına dayanır.
-
-**Açık iş:** Lisans sayfasının adresi, tarihi ve ilgili cümlesi birincil kaynaktan yeniden okunup
-`license.verifiedAt` alanına (`url`, `date`, `quote`) yazılmalıdır.
+- **Gerekçe:** CC BY-SA 2.x, uyarlamaların aynı lisans öğelerine sahip daha sonraki bir sürümle
+  lisanslanmasına izin verir.
+- **Hukuki inceleme yapılmadı.**
+- **Atıf metni:** `BodyParts3D, © The Database Center for Life Science, licensed under CC Attribution 4.0 International`.
+  OBJ başlıklarındaki eski metin de korunur.
+- **Atfın yazıldığı yerler:**
+  - her GLB'nin `asset.copyright` alanı;
+  - sahne `extras` alanı;
+  - kaynak kaydı `src:bodyparts3d`;
+  - uygulama içinde **Ayarlar › Hakkında ve kaynaklar** bölümü.
+- **İzin dayanağı:** Dosyaların internette erişilebilir olması izin olarak kabul edilmedi; izinler
+  yalnızca yukarıdaki açık lisans beyanlarına dayanır.
 
 ## 3. Koordinat çerçevesi
 

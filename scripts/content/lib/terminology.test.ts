@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildOverlay, indexTa2, matchTa2, usableTrLabel, wikidataTrName, type StructureLike, type Ta2Term } from './terminology.ts'
+import { buildOverlay, deriveLatin, indexTa2, matchTa2, usableTrLabel, wikidataTrName, type StructureLike, type Ta2Term } from './terminology.ts'
 
 // Placeholder terms shaped like the TA2 list (ids and wording are test data, not citations).
 const terms: Ta2Term[] = [
@@ -74,3 +74,52 @@ describe('Wikidata Turkish labels', () => {
   })
 })
 
+
+// Terms below mirror the TA2 list's wording for the rules under test; they are test fixtures.
+describe('TA2 name derivation', () => {
+  const ta2 = indexTa2([
+    { id: 1032, term: { la: 'vertebra cervicalis', en: 'cervical vertebra' } },
+    { id: 1059, term: { la: 'vertebra thoracica', en: 'thoracic vertebra' } },
+    { id: 1118, term: { la: 'costa', en: 'rib' } },
+    { id: 1279, term: { la: 'phalanx distalis manus', en: 'distal phalanx of hand' } },
+    { id: 1278, term: { la: 'phalanx media manus', en: 'middle phalanx of hand' } },
+    { id: 151, term: { la: 'pollex', en: 'thumb' } },
+    { id: 152, term: { la: 'index', en: 'index finger' } },
+    { id: 4211, term: { la: 'truncus coeliacus', en_US: 'celiac trunk', en_GB: 'coeliac trunk' } },
+    { id: 4000, term: { la: 'arteria thoracoacromialis', en: 'thoraco-acromial artery' } },
+    { id: 4001, term: { la: 'ramus deltoideus', en: 'deltoid branch' }, parent: 4000 },
+    { id: 5000, term: { la: 'arteria profunda brachii', en: 'deep artery of arm' } },
+    { id: 5001, term: { la: 'ramus deltoideus', en: 'deltoid branch' }, parent: 5000 },
+    { id: 6000, term: { la: 'venae obturatoriae', en: 'obturator veins' } },
+    { id: 7000, term: { la: 'bronchus segmentalis basalis medialis pulmonis dextri', en: 'medial basal segmental bronchus of right lung' } },
+  ])
+  const s = (en: string, extra: Partial<StructureLike> = {}): StructureLike => ({ id: 'x', names: { en: { value: en } }, laterality: 'unpaired', kind: 'other', externalIds: {}, ...extra })
+
+  it('derives numbered vertebrae and ribs with roman numerals', () => {
+    expect(deriveLatin('Fourth cervical vertebra', ta2)?.la).toBe('vertebra cervicalis IV')
+    expect(deriveLatin('Eighth cervical vertebra', ta2)).toBeNull()
+    expect(deriveLatin('Right seventh rib', ta2)?.la).toBe('costa VII')
+    expect(deriveLatin('First rib', ta2)).toBeNull()
+  })
+
+  it('derives digit-specific phalanges and refuses impossible ones', () => {
+    expect(deriveLatin('Distal phalanx of left index finger', ta2)?.la).toBe('phalanx distalis indicis')
+    expect(deriveLatin('Distal phalanx of thumb', ta2)?.ta2Ids).toEqual([1279, 151])
+    expect(deriveLatin('Middle phalanx of thumb', ta2)).toBeNull()
+  })
+
+  it('reads US/UK English terms and plural group terms', () => {
+    expect(matchTa2(s('Celiac trunk'), ta2, new Map())?.term.id).toBe(4211)
+    expect(matchTa2(s('Right obturator vein', { laterality: 'right', kind: 'vein' }), ta2, new Map())?.term.id).toBe(6000)
+  })
+
+  it('accepts "A of B" only when A is listed under B', () => {
+    const m = matchTa2(s('Deltoid branch of thoraco-acromial artery', { kind: 'artery' }), ta2, new Map())
+    expect(m?.term.id).toBe(4001)
+    expect(m?.basis).toBe('hierarchy')
+  })
+
+  it('reorders sided lung segments to the TA2 form', () => {
+    expect(matchTa2(s('Right medial basal segmental bronchial tree', { laterality: 'right' }), ta2, new Map())?.term.id).toBe(7000)
+  })
+})
