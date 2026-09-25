@@ -216,6 +216,94 @@ Ders adımları ve yazılmış sorular yapılara kimlikle bağlanır ve kaynak g
 sorularda en az iki seçenek ve seçenekler arasında bulunan tek bir doğru cevap olmalıdır. Sorular
 eğitim amaçlıdır; kişisel tanı veya tedavi önerisi içermez.
 
+### Ders ekleme
+
+Dersler `content/lessons/<bölge>.json` dosyalarına dizi olarak yazılır (örnek:
+`content/lessons/ust-ekstremite.json`). Her adım, ekranda gösterilecek yapıları (`show`),
+vurgulanacak yapıları (`focus`), izolasyonu (`isolate`) ve kamera yönünü (`camera`: `anterior`,
+`posterior`, `right`, `left`, `superior`, `inferior`) belirtir. Her adımda en az bir kaynak
+bulunmalıdır. Uygulama dersten çıkınca öğrencinin önceki sahnesini geri yükler.
+
+```json
+{
+  "id": "lesson:ust-ekstremite.1-omuz-kusagi",
+  "title": "Omuz kuşağı: klavikula ve skapula",
+  "level": "basic",
+  "systems": ["skeletal"],
+  "regions": ["upper_limb"],
+  "objectives": [{ "id": "o1", "text": "Omuz kuşağını oluşturan iki kemiği adlandırmak." }],
+  "steps": [
+    {
+      "id": "s1",
+      "title": "Omuz kuşağı",
+      "body": "Kaynaktan kendi sözcüklerinizle yazılmış açıklama.",
+      "focus": ["fma:13322"],
+      "show": ["fma:13322", "fma:13395"],
+      "isolate": false,
+      "camera": "anterior",
+      "sources": [{ "sourceId": "src:openstax-ap2e", "locator": "8.1 The Pectoral Girdle" }]
+    }
+  ],
+  "review": "draft",
+  "provenance": "author:human"
+}
+```
+
+### Soru ekleme
+
+Yapıyı bul, adını söyle ve ilişki soruları çalışma zamanında yapı kayıtlarından otomatik
+üretilir. **Kesit tanıma** ve klinik bağlamlı sorular otomatik üretilmez; bunlar
+`content/questions/<konu>.json` dosyasına elle yazılır (klasör henüz yoktur, ilk soru dosyasıyla
+açılır). `type`: `find`, `name`, `relation`, `section` veya `mcq`.
+
+```json
+{
+  "id": "q:ust-ekstremite.kesit-1",
+  "type": "mcq",
+  "level": "intermediate",
+  "systems": ["skeletal"],
+  "regions": ["upper_limb"],
+  "prompt": "Soru metni",
+  "options": [
+    { "id": "a", "text": "Seçenek A", "structureId": "fma:13303" },
+    { "id": "b", "text": "Seçenek B", "structureId": "fma:23466" }
+  ],
+  "answer": { "optionId": "a" },
+  "explanation": "Yanıttan sonra gösterilecek, kaynaklı açıklama.",
+  "requiresVisible": ["fma:13303", "fma:23466"],
+  "sources": [{ "sourceId": "src:openstax-ap2e", "locator": "Bölüm ve başlık" }],
+  "review": "draft",
+  "provenance": "author:human"
+}
+```
+
+Kimlik biçimleri ve alanların tamamı için `src/core/schema.ts` dosyasındaki `lessonSchema` ve
+`questionSchema` şemalarına bakın. Değişiklikten sonra `npm run content:validate` çalıştırın.
+
+### Yeni 3B model ekleme
+
+1. **Lisans:** Modelin kullanım, değiştirme ve dağıtım izinlerini birincil kaynaktan okuyun.
+   `content/sources/<kaynak>.json` kaydını lisans metninden bir alıntı ve tarih içeren
+   `license.verifiedAt` alanıyla yazın. İnternette erişilebilir olmak izin anlamına gelmez.
+2. **İndirme ve dönüştürme betiği:** `scripts/models/hra/` örneğini izleyin.
+   - İndirilen dosyaları `vendor/<kaynak>/` altında sha256 değeriyle önbelleğe alın.
+   - Koordinatları `anat-gltf-v1` çerçevesine çevirin: +X sol, +Y üst, +Z ön, metre.
+   - GLB'yi `public/models/<kaynak>/` altına yazın.
+   - Varlık kaydını `public/data/assets-<kaynak>.json` dosyasına yazın. Bu kayıt her düğümün
+     yapı kimliğini, köken zincirini (`provenance`) ve lisans kaynağını içerir.
+   - Model tüm vücut modeline hizalı değilse `registeredToBody: false` verin. Uygulama bu
+     modelleri ayrı bir görünümde gösterir.
+3. **Yapı kayıtları:** Modeldeki her seçilebilir nesne için bir yapı kaydı bulunmalıdır. Mevcut
+   bir kaydı (ör. `fma:` kimliği) kullanın ya da `content/structures/<klasör>/` altında yeni kayıt
+   açın. Eşleşmesi kesin olmayan düğümleri dışlayın ve nedenini kaydedin.
+4. `npm run content:build` çalıştırın. `assets-*.json` dosyaları `assets.json` ile birleştirilir;
+   taraf/konum ve eşleşme denetimleri bu adımda yapılır.
+5. [model-katalogu.md](model-katalogu.md) belgesine kaynağı, lisansı ve dönüşüm adımlarını
+   ekleyin. Kurulumda otomatik çalışması için komutu `package.json` içindeki `setup` betiğine
+   ekleyin.
+6. Basit geometrik yer tutucu modeller `representation: "schematic"` olarak işaretlenmelidir. Bu
+   modeller tamamlanmış anatomik içerik sayılmaz.
+
 ## 10. Yapay zekâ taslakları
 
 Yapay zekâ ile üretilen her kayıt `provenance.createdBy: "author:ai-draft"` (ilişki, ders ve

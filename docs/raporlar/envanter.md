@@ -1,6 +1,6 @@
 # Yapı envanteri: sistem × bölge
 
-Oluşturma: 2026-09-25T11:34:50.646Z · içerik sürümü `9e05b5d33fe9a281` · `npm run report:inventory`
+Oluşturma: 2026-09-25T11:43:31.391Z · içerik sürümü `c861a8080c1066fb` · `npm run report:inventory`
 
 > Bu tablo, içerikteki **her yapı kaydını** (BodyParts3D envanteri, HRA kadın üreme yapıları ve
 > genel/taraf belirtmeyen kavramlar) sayar. "Uzman onaylı" sütunu yalnızca adı belirtilmiş bir

@@ -9,12 +9,16 @@ test('not, kayıtlı görünüm ve hata bildirimi yeniden yüklemeden sonra koru
   await searchAndChoose(page, 'kol kemiği', 'Kol kemiği')
   await page.getByLabel('Yeni not').fill('Tuberculum majus')
   await page.getByRole('button', { name: 'Notu kaydet' }).click()
+  await expect(page.locator('ul.notes li')).toHaveCount(1)
   await page.getByRole('button', { name: 'Hata bildir' }).click()
   await page.getByLabel('Hata açıklaması').fill('Deneme bildirimi')
   await page.getByRole('button', { name: 'Gönder' }).click()
+  await expect(page.getByText(/Bildiriminiz kaydedildi/)).toBeVisible()
   await page.getByText(/Kayıtlı görünümler/).click()
   await page.getByLabel('Görünüm adı').fill('Kol')
   await page.getByRole('button', { name: 'Kaydet', exact: true }).click()
+  // Wait for every IndexedDB write to be acknowledged before reloading.
+  await expect(page.getByText('"Kol" kaydedildi.')).toBeVisible()
 
   await page.reload()
   await searchAndChoose(page, 'kol kemiği', 'Kol kemiği')
