@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-25T18:30:03.145Z",
+  "generatedAt": "2026-09-25T18:40:49.215Z",
   "totals": {
     "total": 2359,
     "model": 2246,
     "la": 1733,
     "tr": 434,
-    "content": 222,
+    "content": 251,
     "relations": 964,
     "approved": 0
   },
@@ -15,7 +15,7 @@
       "model": 570,
       "la": 552,
       "tr": 54,
-      "content": 82,
+      "content": 111,
       "relations": 171,
       "approved": 0
     },
@@ -144,7 +144,7 @@
         "model": 98,
         "la": 92,
         "tr": 6,
-        "content": 22,
+        "content": 25,
         "relations": 35,
         "approved": 0
       },
@@ -153,7 +153,7 @@
         "model": 61,
         "la": 59,
         "tr": 0,
-        "content": 0,
+        "content": 15,
         "relations": 9,
         "approved": 0
       },
@@ -162,7 +162,7 @@
         "model": 25,
         "la": 19,
         "tr": 0,
-        "content": 0,
+        "content": 6,
         "relations": 15,
         "approved": 0
       },
@@ -171,7 +171,7 @@
         "model": 15,
         "la": 12,
         "tr": 0,
-        "content": 1,
+        "content": 2,
         "relations": 2,
         "approved": 0
       },
@@ -180,7 +180,7 @@
         "model": 67,
         "la": 64,
         "tr": 27,
-        "content": 9,
+        "content": 12,
         "relations": 13,
         "approved": 0
       },
@@ -189,7 +189,7 @@
         "model": 8,
         "la": 8,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 1,
         "approved": 0
       },

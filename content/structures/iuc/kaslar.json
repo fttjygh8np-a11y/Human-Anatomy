@@ -61,6 +61,259 @@
             "quote": "Siniri: N. musculocutaneus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13109",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Göğüs kafesinin ön üst bölümünde yer alan bu kası, m. pectoralis major kaldırıldığında görebiliyoruz. Ancak üzerindeki kasa oranla çok daha küçük ve incedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Göğüs kafesinin ön üst bölümünde yer alan bu kası, m. pectoralis major kaldırıldığında görebiliyoruz. Ancak üzerindeki kasa oranla çok daha küçük ve incedir."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "3.-5. kaburgaların dış yüzleri.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Başlangıcı: 3.-5. kaburgaların dış yüzleri."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Scapula'nın proc. coracoideus'u.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Sonlanışı: Scapula'nın proc. coracoideus'u."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Scapula'yı öne ve aşağıya çeker. Bu etki daha çok scapula'nın göğüs kafesinde sabitlenmesine yöneliktir. Birlikte kasılan m. serratus anterior ile bu sabitleme fonksiyonu güçlendirilir. Ayrıca omuz sabitlendiğinde kaburgaları yukarı çekerek yardımcı inspirasyon kası olarak da işlev görür. M. pectoralis minor'un kasılması sırasında scapula, cavitas glenoidalis aşağıya dönecek şekilde bir rotasyon olur. M. levator scapulae ve m. rhomboideus'lar da birlikte kasıldığında bu etki daha belirgin olarak ortaya çıkar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "İşlevi: Scapula'yı öne ve aşağıya çeker. Bu etki daha çok scapula'nın göğüs kafesinde sabitlenmesine yöneliktir. Birlikte kasılan m. serratus anterior ile bu sabitleme fonksiyonu güçlendirilir. Ayrıca omuz sabitlendiğinde kaburgaları yukarı çekerek yardımcı inspirasyon kası olarak da işlev görür. M. pectoralis minor'un kasılması sırasında scapula, cavitas glenoidalis aşağıya dönecek şekilde bir rotasyon olur. M. levator scapulae ve m. rhomboideus'lar da birlikte kasıldığında bu etki daha belirgin olarak ortaya çıkar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. pectoralis lateralis ve medialis (plex. brachialis'in sırasıyla fasciculus lateralis ve fasciculus medialis'inin yan dalları)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Siniri: N. pectoralis lateralis ve medialis (plex. brachialis'in sırasıyla fasciculus lateralis ve fasciculus medialis'inin yan dalları)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Göğüs Kasları (Musculi Thoracis) › Yüzeyel Göğüs Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Göğüs Kasları (Musculi Thoracis)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Yüzeyel Göğüs Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13335",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Anterolateral karın kasları arasında en dışta yer alan kastır. Karın cildini ve yüzeyel fasyayı geçtikten sonra karşımıza ilk olarak çıkar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 86",
+            "quote": "Anterolateral karın kasları arasında en dışta yer alan kastır. Karın cildini ve yüzeyel fasyayı geçtikten sonra karşımıza ilk olarak çıkar"
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Son 8 kaburganın (5.-12.) dış yüzlerinden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 86",
+            "quote": "Başlangıcı: Son 8 kaburganın (5.-12.) dış yüzlerinden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Crista iliaca, spina iliaca anterior superior, tuberculum pubicum ve linea alba'da sonlanır. Son iki kaburgadan başlayan kasın arka lifleri crista iliaca'da sonlanırken; kasın ön lifleri, karın ön kısmında m. rectus abdominis kasının lateral kenarına yaklaştıkça geniş bir aponevroz oluşturlar. Aponevrotik lifler m. rectus abdominis kasının ön yüzünü sarıp geçerek orta hatta karşı tarafın aponevrozu ile kaynaşırlar. Orta hatta yer alan bu kaynaşma yerine Linea alba adını verilir (Linea alba'da m. obliquus internus abdominis ve m transversus abdominis'in de her iki taraftan gelen aponevrozları da kaynaşırlar).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 86",
+            "quote": "Sonlanışı: Crista iliaca, spina iliaca anterior superior, tuberculum pubicum ve linea alba'da sonlanır. Son iki kaburgadan başlayan kasın arka lifleri crista iliaca'da sonlanırken; kasın ön lifleri, karın ön kısmında m. rectus abdominis kasının lateral kenarına yaklaştıkça geniş bir aponevroz oluşturlar. Aponevrotik lifler m. rectus abdominis kasının ön yüzünü sarıp geçerek orta hatta karşı tarafın aponevrozu ile kaynaşırlar. Orta hatta yer alan bu kaynaşma yerine Linea alba adını verilir (Linea alba'da m. obliquus internus abdominis ve m transversus abdominis'in de her iki taraftan gelen aponevrozları da kaynaşırlar)."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Nn. intercostales VIII-XII, n. iliohypogastricus ve n. ilioinguinalis.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 87",
+            "quote": "Siniri: Nn. intercostales VIII-XII, n. iliohypogastricus ve n. ilioinguinalis."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Tek taraflı kasıldığında aynı taraftaki omuzu öne getirecek şekilde bir gövde rotasyonu gerçekleşir. Çift taraflı kasıldığında gövdenin öne eğilmesine neden olur. Ayrıca karın içi basıncı arttırmaya yardımcı olur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 87",
+            "quote": "İşlevi: Tek taraflı kasıldığında aynı taraftaki omuzu öne getirecek şekilde bir gövde rotasyonu gerçekleşir. Çift taraflı kasıldığında gövdenin öne eğilmesine neden olur. Ayrıca karın içi basıncı arttırmaya yardımcı olur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Karın ön-yan (antero-lateral) duvar kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 86",
+            "quote": "Karın ön-yan (antero-lateral) duvar kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13341",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Clavicula'nın extremitas sternalis'inden ve manubrium sterni'nin arka yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Başlangıcı: Clavicula'nın extremitas sternalis'inden ve manubrium sterni'nin arka yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Corpus ossis hyoidei'nin alt kenarında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Sonlanışı: Corpus ossis hyoidei'nin alt kenarında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Os hyoideum'u aşağıya çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İşlevi: Os hyoideum'u aşağıya çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Ansa cervicalis'in dalıdır. C1-2-3 spinal sinirin ön dalından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Siniri: Ansa cervicalis'in dalıdır. C1-2-3 spinal sinirin ön dalından gelir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi infrahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Musculi infrahyoidei",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -100,6 +353,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 72",
             "quote": "Siniri: Ansa cervicalis'in dalıdır (C1-2-3 spinal sinirin ön dalından gelir)."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi infrahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Musculi infrahyoidei",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -155,6 +427,25 @@
             "quote": "Siniri: Ansa cervicalis'in dalıdır. (C1-2-3 spinal sinirin ön dalından gelir.)"
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi infrahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Musculi infrahyoidei",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -199,13 +490,512 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: N. subcostalis ve ilk üç lumbal spinal sinirin ön dalları",
+        "value": "Siniri: C1 spinal sinirin ön dalıdır.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 89",
-            "quote": "Siniri: N. subcostalis ve ilk üç lumbal spinal sinirin ön dalları"
+            "locator": "s. 72",
+            "quote": "Siniri: C1 spinal sinirin ön dalıdır."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi infrahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Musculi infrahyoidei",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13373",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. pectoralis major ve m. serratus anterior yüzeyel grup kasların en büyük iki kasıdır. M. pectoralis major göğüs kafesinin ön-üst bölümünde bulunan yelpaze şeklindeki kasdır. Kas üç farklı tutunma noktasından başlar, buna göre de üç parçadan oluşur: Pars clavicularis, pars sternocostalis ve pars abdominalis.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "M. pectoralis major ve m. serratus anterior yüzeyel grup kasların en büyük iki kasıdır. M. pectoralis major göğüs kafesinin ön-üst bölümünde bulunan yelpaze şeklindeki kasdır. Kas üç farklı tutunma noktasından başlar, buna göre de üç parçadan oluşur: Pars clavicularis, pars sternocostalis ve pars abdominalis."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Clavicula'nın 1/2 iç yan bölümü, sternum'un ön yüzü ve buraya tutunan kıkırdak kaburgalar (5 ya da 6 kaburga) ve karın kasları aponevrozundan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Başlangıcı: Clavicula'nın 1/2 iç yan bölümü, sternum'un ön yüzü ve buraya tutunan kıkırdak kaburgalar (5 ya da 6 kaburga) ve karın kasları aponevrozundan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Humerus'un crista tuberculi majoris'inde sonlanır. Bu kas insersiyon noktasında yassı bir kiriş oluşturur. Bu kiriş ön ve arka iki yaprak şeklindedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Sonlanışı: Humerus'un crista tuberculi majoris'inde sonlanır. Bu kas insersiyon noktasında yassı bir kiriş oluşturur. Bu kiriş ön ve arka iki yaprak şeklindedir."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Omuz ekleminin üç ekseninde kola üç temel hareketi yaptırır:",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "İşlevi: Omuz ekleminin üç ekseninde kola üç temel hareketi yaptırır:"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. pectoralis lateralis ve medialis (plexus brachialis'in sırasıyla fasciculus lateralis ve fasciculus medialis'inin yan dalları)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Siniri: N. pectoralis lateralis ve medialis (plexus brachialis'in sırasıyla fasciculus lateralis ve fasciculus medialis'inin yan dalları)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Göğüs Kasları (Musculi Thoracis) › Yüzeyel Göğüs Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Göğüs Kasları (Musculi Thoracis)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Yüzeyel Göğüs Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13374",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. pectoralis major ve m. serratus anterior yüzeyel grup kasların en büyük iki kasıdır. M. pectoralis major göğüs kafesinin ön-üst bölümünde bulunan yelpaze şeklindeki kasdır. Kas üç farklı tutunma noktasından başlar, buna göre de üç parçadan oluşur: Pars clavicularis, pars sternocostalis ve pars abdominalis.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "M. pectoralis major ve m. serratus anterior yüzeyel grup kasların en büyük iki kasıdır. M. pectoralis major göğüs kafesinin ön-üst bölümünde bulunan yelpaze şeklindeki kasdır. Kas üç farklı tutunma noktasından başlar, buna göre de üç parçadan oluşur: Pars clavicularis, pars sternocostalis ve pars abdominalis."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Clavicula'nın 1/2 iç yan bölümü, sternum'un ön yüzü ve buraya tutunan kıkırdak kaburgalar (5 ya da 6 kaburga) ve karın kasları aponevrozundan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Başlangıcı: Clavicula'nın 1/2 iç yan bölümü, sternum'un ön yüzü ve buraya tutunan kıkırdak kaburgalar (5 ya da 6 kaburga) ve karın kasları aponevrozundan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Humerus'un crista tuberculi majoris'inde sonlanır. Bu kas insersiyon noktasında yassı bir kiriş oluşturur. Bu kiriş ön ve arka iki yaprak şeklindedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Sonlanışı: Humerus'un crista tuberculi majoris'inde sonlanır. Bu kas insersiyon noktasında yassı bir kiriş oluşturur. Bu kiriş ön ve arka iki yaprak şeklindedir."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Omuz ekleminin üç ekseninde kola üç temel hareketi yaptırır:",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "İşlevi: Omuz ekleminin üç ekseninde kola üç temel hareketi yaptırır:"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. pectoralis lateralis ve medialis (plexus brachialis'in sırasıyla fasciculus lateralis ve fasciculus medialis'inin yan dalları)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Siniri: N. pectoralis lateralis ve medialis (plexus brachialis'in sırasıyla fasciculus lateralis ve fasciculus medialis'inin yan dalları)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Göğüs Kasları (Musculi Thoracis) › Yüzeyel Göğüs Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Göğüs Kasları (Musculi Thoracis)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Yüzeyel Göğüs Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13379",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Baklava biçimli dörtgen komşu iki kastan aşağıda ve büyük olanıdır. M. trapezius'un derininde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Baklava biçimli dörtgen komşu iki kastan aşağıda ve büyük olanıdır. M. trapezius'un derininde yer alır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "2.-5. göğüs omurlarının processus spinosus'ları ve lig. supraspinale",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Başlangıcı: 2.-5. göğüs omurlarının processus spinosus'ları ve lig. supraspinale"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Scapula'nın margo medialis'i (spina scapulae ile angulus inferior arasında)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Sonlanışı: Scapula'nın margo medialis'i (spina scapulae ile angulus inferior arasında)"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Scapula'yı içyana ve yukarıya çeker. Özellikle alt yarısı angulus inferior'u içyana ve yukarıya çekmek suretiyle, cavitas glenoidalis'i aşağıya döndürecek şekilde scapulaya rotasyon yaptırır (scapula'nın yaklaşık frontal düzlemdeki rotasyonu). Gövdenin eller üzerinde yükseltilmesi hareketinde (şınav çekme) görev alırlar. Scapula'ya yaptırdıkları hareket bakımından m. serratus anterior'un antagonist kasıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "İşlevi: Scapula'yı içyana ve yukarıya çeker. Özellikle alt yarısı angulus inferior'u içyana ve yukarıya çekmek suretiyle, cavitas glenoidalis'i aşağıya döndürecek şekilde scapulaya rotasyon yaptırır (scapula'nın yaklaşık frontal düzlemdeki rotasyonu). Gövdenin eller üzerinde yükseltilmesi hareketinde (şınav çekme) görev alırlar. Scapula'ya yaptırdıkları hareket bakımından m. serratus anterior'un antagonist kasıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. dorsalis scapulae (plex. brachialis'in truncus superior'unun dalı)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Siniri: N. dorsalis scapulae (plex. brachialis'in truncus superior'unun dalı)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Yüzeyel Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Yüzeyel Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13380",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. rhomboideus major'un bir üstünde, m. trapezius'un derininde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "M. rhomboideus major'un bir üstünde, m. trapezius'un derininde yer alır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Son boyun omuru ile 1. göğüs omurunun processus spinosus'ları ve lig. supraspinale",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Başlangıcı: Son boyun omuru ile 1. göğüs omurunun processus spinosus'ları ve lig. supraspinale"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Scapula'nın margo medialis'i",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Sonlanışı: Scapula'nın margo medialis'i"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Scapula'yı içyana ve yukarıya çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "İşlevi: Scapula'yı içyana ve yukarıya çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. dorsalis scapulae (plex. brachialis'in truncus superior'unun dalı)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Siniri: N. dorsalis scapulae (plex. brachialis'in truncus superior'unun dalı)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Yüzeyel Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Yüzeyel Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13385",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Vertebra cervicalis III, IV, V ve VI'nın processus transversus'larının tuberculum anterius'undan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Başlangıcı: Vertebra cervicalis III, IV, V ve VI'nın processus transversus'larının tuberculum anterius'undan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Costa I'in tuberculum musculi scaleni anterioris'i ve sulcus a. subclavia'sının önünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Sonlanışı: Costa I'in tuberculum musculi scaleni anterioris'i ve sulcus a. subclavia'sının önünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Alt ucu sabitken çift taraflı kasıldığında boyuna fleksiyon yaptırır. Tek taraflı kasıldığında kendi tarafına doğru çekip, karşı tarafa rotasyon yaptırır. Üst ucu sabitken kasıldığında costa I'i yukarıya doğru kaldırıp inspirasyona yardımcı olur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Alt ucu sabitken çift taraflı kasıldığında boyuna fleksiyon yaptırır. Tek taraflı kasıldığında kendi tarafına doğru çekip, karşı tarafa rotasyon yaptırır. Üst ucu sabitken kasıldığında costa I'i yukarıya doğru kaldırıp inspirasyona yardımcı olur."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C4-6 spinal sinirlerin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C4-6 spinal sinirlerin ön dallarından gelir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Paravertebral (boyun omurlarının dış yan tarafındaki) kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Paravertebral (boyun omurlarının dış yan tarafındaki) kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13386",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Atlas'ın processus transversus'u ile vertebra cervicalis II, III, IV, V ve VI'nın processus transversus'larının tuberculum posterius'undan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Başlangıcı: Atlas'ın processus transversus'u ile vertebra cervicalis II, III, IV, V ve VI'nın processus transversus'larının tuberculum posterius'undan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Costa I'in üst yüzünde tuberculum m. scaleni anterioris'in arka dış yanına tutunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Sonlanışı: Costa I'in üst yüzünde tuberculum m. scaleni anterioris'in arka dış yanına tutunur."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. scalenus anterior gibi inspirasyona ve boyunun bükülmelerinde yardımcı olur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: M. scalenus anterior gibi inspirasyona ve boyunun bükülmelerinde yardımcı olur."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C3-8 spinal sinirlerin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C3-8 spinal sinirlerin ön dallarından gelir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Paravertebral (boyun omurlarının dış yan tarafındaki) kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Paravertebral (boyun omurlarının dış yan tarafındaki) kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -273,6 +1063,277 @@
             "quote": "Siniri: C6-8 spinal sinirlerin ön dallarından gelir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Paravertebral (boyun omurlarının dış yan tarafındaki) kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Paravertebral (boyun omurlarının dış yan tarafındaki) kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13397",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Göğüs kafesinin yan ve arka duvarında yer alan, büyük bölümü scapula'nın önünde yerleşmiş olduğundan, m. pectoralis major ve m. latissimus dorsi kaldırıldığında dahi tam olarak görülemeyen yassı ve geniş bir kastır. Tarak benzeri kas lifi demetleriyle ilk 9 kaburgaya neredeyse paralel seyreder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Göğüs kafesinin yan ve arka duvarında yer alan, büyük bölümü scapula'nın önünde yerleşmiş olduğundan, m. pectoralis major ve m. latissimus dorsi kaldırıldığında dahi tam olarak görülemeyen yassı ve geniş bir kastır. Tarak benzeri kas lifi demetleriyle ilk 9 kaburgaya neredeyse paralel seyreder."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "İlk 9 kaburganın dış yüzü ve ilgili düzeylerdeki interkostal fasya (ilk demet 1. ve 2. kaburgadan başlar).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Başlangıcı: İlk 9 kaburganın dış yüzü ve ilgili düzeylerdeki interkostal fasya (ilk demet 1. ve 2. kaburgadan başlar)."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Göğüs kafesinin eğriliğine uyarak dışa ve arkaya ilerlerken scapula'nın facies costalis'ini döşer ve margo medialis'inde sonlanır. Birinci demet angulus superior'a, son 5 ya da 6 demet ise güçlü bir şekilde angulus inferior'a tutunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Sonlanışı: Göğüs kafesinin eğriliğine uyarak dışa ve arkaya ilerlerken scapula'nın facies costalis'ini döşer ve margo medialis'inde sonlanır. Birinci demet angulus superior'a, son 5 ya da 6 demet ise güçlü bir şekilde angulus inferior'a tutunur."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Genel olarak scapula'yı öne çekerek sabitlenmesine katkı yapar. Aynı zamanda margo medialis'i dışa çeker ve böylece m. rhomboideus'ların yaptığı etkiye antagonist etki oluşturarak da scapula'nın sabitlenmesini sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "İşlevi: Genel olarak scapula'yı öne çekerek sabitlenmesine katkı yapar. Aynı zamanda margo medialis'i dışa çeker ve böylece m. rhomboideus'ların yaptığı etkiye antagonist etki oluşturarak da scapula'nın sabitlenmesini sağlar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. thoracicus longus (plex. brachialis'in her üç kökünden oluşan dalı)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Siniri: N. thoracicus longus (plex. brachialis'in her üç kökünden oluşan dalı)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Göğüs Kasları (Musculi Thoracis) › Yüzeyel Göğüs Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Göğüs Kasları (Musculi Thoracis)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Yüzeyel Göğüs Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13401",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İnsan vücudunda serratus (testere benzeri dişleri olan) terimiyle adlandırılan üç adet kas vardır. Bunlardan ikisi sırtta yer alır ve yüzeyel grubun en derin katmanını oluştururlar. Diğer bir tanesi görece önde bulunduğundan m. serratus anterior adını alır. Sırtta yer alan ve kaburgalar ile omurga arasında bulunan, diş şeklinde, muskuler bölümleri çok zayıf dört demet halinde olan bu iki kastan biri daha üstte yer aldığı için m. serratus posterior superior adını alır ve m. rhomboideus'ların derininde bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76-77",
+            "quote": "İnsan vücudunda serratus (testere benzeri dişleri olan) terimiyle adlandırılan üç adet kas vardır. Bunlardan ikisi sırtta yer alır ve yüzeyel grubun en derin katmanını oluştururlar. Diğer bir tanesi görece önde bulunduğundan m. serratus anterior adını alır. Sırtta … yer alan ve kaburgalar ile omurga arasında bulunan, diş şeklinde, muskuler bölümleri çok zayıf dört demet halinde olan bu iki kastan biri daha üstte yer aldığı için m. serratus posterior superior adını alır ve m. rhomboideus'ların derininde bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "7. boyun omuru ile ilk 2 ya da 3 göğüs omurunun proc. spinosus'ları ve ilgili düzeydeki lig. supraspinale",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: 7. boyun omuru ile ilk 2 ya da 3 göğüs omurunun proc. spinosus'ları ve ilgili düzeydeki lig. supraspinale"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "2.-5. kaburganın angulus costae'sinin arka tarafında üst kenarları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: 2.-5. kaburganın angulus costae'sinin arka tarafında üst kenarları"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kaburgaları yukarı çekerek inspirasyona yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "İşlevi: Kaburgaları yukarı çekerek inspirasyona yardım eder."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Nn. intercostales I-IV",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Siniri: Nn. intercostales I-IV"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Yüzeyel Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Yüzeyel Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13402",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. latissimus dorsi'nin derininde bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "M. latissimus dorsi'nin derininde bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Son 2 göğüs omuru ile ilk 2 ya da 3 bel omurunun proc. spinosus'ları ve ilgili düzeydeki lig. supraspinale",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: Son 2 göğüs omuru ile ilk 2 ya da 3 bel omurunun proc. spinosus'ları ve ilgili düzeydeki lig. supraspinale"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Son 4 kaburganın angulus costae'sinin arka tarafında alt kenarları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: Son 4 kaburganın angulus costae'sinin arka tarafında alt kenarları"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kaburgaları aşağıya çekerek ekspirasyona yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "İşlevi: Kaburgaları aşağıya çekerek ekspirasyona yardım eder."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Nn. cervicales'in arka dalları (rami dorsales nervi spinales)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Siniri: Nn. cervicales'in arka dalları (rami dorsales nervi spinales)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Yüzeyel Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Yüzeyel Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -317,13 +1378,116 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: C3-8 spinal sinirlerin ön dallarından gelir.",
+        "value": "Siniri: N. accessorius'tur.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 71",
-            "quote": "Siniri: C3-8 spinal sinirlerin ön dallarından gelir."
+            "quote": "Siniri: N. accessorius'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Boynun dış yan tarafında bulunan kas",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Boynun dış yan tarafında bulunan kas",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13410",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Clavicula ile birinci kaburga arasındaki aralıkta yer alan kısa, küçük ve üçgen bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Clavicula ile birinci kaburga arasındaki aralıkta yer alan kısa, küçük ve üçgen bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "İç yanda birinci kıkırdak kostanın os costale sınırı.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Başlangıcı: İç yanda birinci kıkırdak kostanın os costale sınırı."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Dış yanda clavicula'nın alt yüzünün 1/3 orta bölümü.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Sonlanışı: Dış yanda clavicula'nın alt yüzünün 1/3 orta bölümü."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Clavicula'yı aşağıya, içe çeker. Aynı zamanda clavicula altından geçen damar ve sinirleri koruyucu yastık görevi de vardır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "İşlevi: Clavicula'yı aşağıya, içe çeker. Aynı zamanda clavicula altından geçen damar ve sinirleri koruyucu yastık görevi de vardır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. subclavius (plex. brachialis'in truncus superior'unun yan dalı)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "Siniri: N. subclavius (plex. brachialis'in truncus superior'unun yan dalı)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Göğüs Kasları (Musculi Thoracis) › Yüzeyel Göğüs Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Göğüs Kasları (Musculi Thoracis)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Yüzeyel Göğüs Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -379,6 +1543,19 @@
             "quote": "Siniri: N. subcapularis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -432,6 +1609,25 @@
             "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi piriformis)."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -471,6 +1667,97 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 99",
             "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun İçyan Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun İçyan Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22310",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Fossa iliaca'nın üst parçasından, crista iliaca'nın labium internum'undan ve os sacrum'un dış yan parçasından yaygın bir şekilde başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Başlangıcı: Fossa iliaca'nın üst parçasından, crista iliaca'nın labium internum'undan ve os sacrum'un dış yan parçasından yaygın bir şekilde başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Lacuna musculorum'dan geçerek m. psoas major ile birlikte femur'un trochanter minor'ünde sonlanır. Kalça eklemi ile aralarında bursa subtendinea iliaca (bursa iliopectinea) bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Sonlanışı: Lacuna musculorum'dan geçerek m. psoas major ile birlikte femur'un trochanter minor'ünde sonlanır. Kalça eklemi ile aralarında bursa subtendinea iliaca (bursa iliopectinea) bulunur."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. psoas major ile aynıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "İşlevi: M. psoas major ile aynıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. femoralis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Siniri: N. femoralis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Ön grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Ön grup Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -538,6 +1825,25 @@
             "quote": "Siniri: N. gluteus inferior'dur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -601,6 +1907,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 97",
             "quote": "Siniri: N. gluteus superior'dur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -668,6 +1993,25 @@
             "quote": "Siniri: N. gluteus superior'dur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -719,6 +2063,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 98",
             "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi obturatorii interni)."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -774,6 +2137,25 @@
             "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi quadrati femoris)."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -827,6 +2209,25 @@
             "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi quadrati femoris)."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -878,6 +2279,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 98",
             "quote": "Siniri: N. femoralis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun Ön Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun Ön Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -945,6 +2365,25 @@
             "quote": "Siniri: N. tibialis (caput longum'un) ve n. fibularis communis (caput breves'in)'dir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun Arka Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Uyluğun Arka Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -998,6 +2437,25 @@
             "quote": "Siniri: N. tibialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun Arka Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Uyluğun Arka Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1049,6 +2507,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 97",
             "quote": "Siniri: N. gluteus superior'dur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça kemeri Kasları › Arka grup Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalça kemeri Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Arka grup Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1116,6 +2593,25 @@
             "quote": "Siniri: N. tibialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun Arka Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Uyluğun Arka Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1169,6 +2665,25 @@
             "quote": "Siniri: N. femoralis ve n. obturatorius'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun İçyan Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun İçyan Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1220,6 +2735,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 98",
             "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun İçyan Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun İçyan Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1287,6 +2821,25 @@
             "quote": "Siniri: N. obturatorius'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun İçyan Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun İçyan Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1338,6 +2891,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 99",
             "quote": "Siniri: N. obturatorius ve N.fibularis'tir (tuberculum adductorium'da sonlanan en içteki lifler için)."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun İçyan Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun İçyan Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1393,6 +2965,25 @@
             "quote": "Siniri: N. fibularis profundus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Ön Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacağın Ön Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1401,13 +2992,13 @@
     "content": {
       "origin": {
         "status": "present",
-        "value": "Fibula'nın ön yüzünün ortasından ve membrana inte-",
+        "value": "Fibula'nın ön yüzünün ortasından ve membrana interossea'dan başlar.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 99",
-            "quote": "Başlangıcı: Fibula'nın ön yüzünün ortasından ve membrana inte-"
+            "locator": "s. 99-100",
+            "quote": "Başlangıcı: Fibula'nın ön yüzünün ortasından ve membrana inte- … rossea'dan başlar."
           }
         ]
       },
@@ -1444,6 +3035,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 100",
             "quote": "Siniri: N. fibularis superficialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Ön Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacağın Ön Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1497,6 +3107,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 99",
             "quote": "Siniri: N. fibularis profundus'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Ön Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacağın Ön Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1564,6 +3193,25 @@
             "quote": "Siniri: N. tibialis'tir"
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Arka Yüzündeki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Bacağın Arka Yüzündeki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1617,6 +3265,25 @@
             "quote": "Siniri: N. tibialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Arka Yüzündeki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Bacağın Arka Yüzündeki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1668,6 +3335,721 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 101",
             "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Arka Yüzündeki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Bacağın Arka Yüzündeki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22653",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Lig. nuchae'nin alt yarısı, 7.boyun ve ilk 3 ya da 4 göğüs omurunun proc. spinosus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: Lig. nuchae'nin alt yarısı, 7.boyun ve ilk 3 ya da 4 göğüs omurunun proc. spinosus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Linea nuchae superior'un 1/3 dış bölümü ve proc. mastoideus",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: Linea nuchae superior'un 1/3 dış bölümü ve proc. mastoideus"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22681",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "3-6. göğüs omurlarının proc. spinosus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: 3-6. göğüs omurlarının proc. spinosus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "İlk 2 ya da 3 boyun omurunun proc. transversus'ları (tuberculum posterius)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: İlk 2 ya da 3 boyun omurunun proc. transversus'ları (tuberculum posterius)"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Genel işlev çift taraflı kasılmada omurganın ekstansiyonudur. Bu işleve ek olarak bölümlerine göre değişen işlevler söz konusudur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "İşlevi: Genel işlev çift taraflı kasılmada omurganın ekstansiyonudur. Bu işleve ek olarak bölümlerine göre değişen işlevler söz konusudur."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Nn. spinales'in segmental olarak arka dalları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Siniri: Nn. spinales'in segmental olarak arka dalları"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22702",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "M. erector spinae başlangıcı",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: M. erector spinae başlangıcı"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Son 6 ya da 7 kaburganın angulus costae'sinin alt kenarı",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: Son 6 ya da 7 kaburganın angulus costae'sinin alt kenarı"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22703",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "M. erector spinae başlangıcına ek olarak son 6 ya da 7 kaburganın angulus costae'sinin üst kenarı kenarı",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: M. erector spinae başlangıcına ek olarak son 6 ya da 7 kaburganın angulus costae'sinin üst kenarı kenarı"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "İlk 6 kaburganın angulus costae'sinin üst kenarı ve 7. boyun omurunun proc. transversus'u",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: İlk 6 kaburganın angulus costae'sinin üst kenarı ve 7. boyun omurunun proc. transversus'u"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22704",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "3-6. kaburganın angulus costae'si",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Başlangıcı: 3-6. kaburganın angulus costae'si"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "4-6. boyun omurunun proc. transversus'ları (tuberculus posterius)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Sonlanışı: 4-6. boyun omurunun proc. transversus'ları (tuberculus posterius)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22709",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Bel omurlarının proc. transversus'ları ve proc. accessorius'ları ile fascia thoracolumbalis'in derin yaprağı",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: Bel omurlarının proc. transversus'ları ve proc. accessorius'ları ile fascia thoracolumbalis'in derin yaprağı"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Göğüs omurlarının proc. transversus'ları ve son 9 ya da 10 kaburganın angulus costae ile tuberculum costae arası",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: Göğüs omurlarının proc. transversus'ları ve son 9 ya da 10 kaburganın angulus costae ile tuberculum costae arası"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22711",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "İlk 4 ya da 5 göğüs omurunun proc. transversus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: İlk 4 ya da 5 göğüs omurunun proc. transversus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "2-6. boyun omurunun proc. transversus'ları (tuberculus posterius)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: 2-6. boyun omurunun proc. transversus'ları (tuberculus posterius)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22714",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "İlk 4 ya da 5 göğüs omurunun proc. transversus'ları ve son 3 ya da 4 boyun omurunun proc. articularis'leri",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: İlk 4 ya da 5 göğüs omurunun proc. transversus'ları ve son 3 ya da 4 boyun omurunun proc. articularis'leri"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Proc. mastoideus",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: Proc. mastoideus"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22765",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "İlk 2 bel ve son 2 göğüs omurunun proc. spinosus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: İlk 2 bel ve son 2 göğüs omurunun proc. spinosus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "İlk 4-8 göğüs omurunun proc. spinosus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: İlk 4-8 göğüs omurunun proc. spinosus'ları"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22828",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "6-10. göğüs omurunun proc. transversus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: 6-10. göğüs omurunun proc. transversus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Son 2 boyun ve ilk 4 göğüs omurunun proc. spinosus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: Son 2 boyun ve ilk 4 göğüs omurunun proc. spinosus'ları"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22829",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "İlk 5 ya da 6 göğüs omurunun proc. transversus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: İlk 5 ya da 6 göğüs omurunun proc. transversus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "2-5. boyun omurunun proc. spinosus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: 2-5. boyun omurunun proc. spinosus'ları"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22830",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. splenius capitis ve m. longissimus capitis'in derininde yer almasına karşın bu bölgedeki en büyük kastır. Suboksipital kasların da yüzeyünde bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "M. splenius capitis ve m. longissimus capitis'in derininde yer almasına karşın bu bölgedeki en büyük kastır. Suboksipital kasların da yüzeyünde bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "7. boyun ve ilk 6 ya da 7 göğüs omurunun proc. transversus'ları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Başlangıcı: 7. boyun ve ilk 6 ya da 7 göğüs omurunun proc. transversus'ları"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os occipitale (linea nuchae superior ile inferior arası)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 78",
+            "quote": "Sonlanışı: Os occipitale (linea nuchae superior ile inferior arası)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Derin Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 77",
+            "quote": "Derin Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32519",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Boyunda bulunmasına karşın sırt kasları grubunda incelenen ve dört kirişle başlayan bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Boyunda bulunmasına karşın sırt kasları grubunda incelenen ve dört kirişle başlayan bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "İlk dört boyun omurunun processus transversus'ları (tuberculum posterius)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Başlangıcı: İlk dört boyun omurunun processus transversus'ları (tuberculum posterius)"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Scapula'nın margo medialis'inin en üst bölümü (angulus superior ile trigonum scapulae arası)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Sonlanışı: Scapula'nın margo medialis'inin en üst bölümü (angulus superior ile trigonum scapulae arası)"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Scapula'yı yukarı ve içyana çeker. Mm. rhomboidei'ye benzer şekilde scapula'ya cavitas glenoidalis aşağıya dönecek şekilde bir rotasyon yaptırır (scapula'nın yaklaşık frontal düzlemdeki rotasyonu). Scapula, stabilize edilirse boyunu aynı tarafa eğer.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "İşlevi: Scapula'yı yukarı ve içyana çeker. Mm. rhomboidei'ye benzer şekilde scapula'ya cavitas glenoidalis aşağıya dönecek şekilde bir rotasyon yaptırır (scapula'nın yaklaşık frontal düzlemdeki rotasyonu). Scapula, stabilize edilirse boyunu aynı tarafa eğer."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. dorsalis scapulae (plex. brachialis'in truncus superior'unun yan dalı)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Siniri: N. dorsalis scapulae (plex. brachialis'in truncus superior'unun yan dalı)"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Yüzeyel Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Yüzeyel Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1735,6 +4117,19 @@
             "quote": "Siniri: N axillaris'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1774,6 +4169,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 71",
             "quote": "Siniri: C1 spinal sinirinin arka dalı gelir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suboccipitales",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suboccipitales",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1817,6 +4231,25 @@
             "quote": "Siniri: C1 spinal sinirin arka dalı gelir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suboccipitales",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suboccipitales",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1858,6 +4291,25 @@
             "quote": "Siniri: C1 spinal sinirin arka dalından gelir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suboccipitales",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suboccipitales",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -1897,6 +4349,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 71",
             "quote": "Siniri: C1-2 spinal sinirin arka dallarından gelir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suboccipitales",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suboccipitales",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -1952,6 +4423,19 @@
             "quote": "Siniri: N. suprascapularis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2003,6 +4487,19 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 92",
             "quote": "Siniri: N. suprascapularis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2058,6 +4555,19 @@
             "quote": "Siniri: N. subscapularis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2109,6 +4619,19 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 92",
             "quote": "Siniri: N. axillaris'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2176,6 +4699,25 @@
             "quote": "Siniri: N. medianus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El Kasları › Tenar kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "El Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2239,6 +4781,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 95",
             "quote": "Siniri: Caput superficiale, n. medianus, Caput profundum, n. ulnaris tarafından innerve edilir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El Kasları › Tenar kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "El Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2306,6 +4867,25 @@
             "quote": "Siniri: N. medianus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El Kasları › Tenar kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "El Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2369,6 +4949,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 96",
             "quote": "Siniri: N. ulnaris'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El Kasları › Tenar kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "El Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2436,6 +5035,31 @@
             "quote": "Siniri: N. plantaris medialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak Kasları › Ayağın Plantar Tarafındaki Kaslar › Birinci Tabaka Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayağın Plantar Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Birinci Tabaka Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2463,6 +5087,31 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 101",
             "quote": "Sonlanışı: Başparmağın phalanx proximalis'inin her iki yanında"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak Kasları › Ayağın Plantar Tarafındaki Kaslar › Üçüncü Tabaka Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayağın Plantar Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Üçüncü Tabaka Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2504,6 +5153,31 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 101",
             "quote": "Siniri: N. plantaris medialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak Kasları › Ayağın Plantar Tarafındaki Kaslar › Birinci Tabaka Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayağın Plantar Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Birinci Tabaka Kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2559,6 +5233,31 @@
             "quote": "Siniri: N. plantaris lateralis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak Kasları › Ayağın Plantar Tarafındaki Kaslar › İkinci Tabaka Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayağın Plantar Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "İkinci Tabaka Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2610,6 +5309,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 92",
             "quote": "Siniri: N. musculocutaneus'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2677,6 +5395,25 @@
             "quote": "Siniri: N. musculocutaneus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2733,13 +5470,32 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: N. radialis'tir. Humerus ile m. teres major ve m. teres minor arasında oluşan üçgen aralık, m. triceps brachii'nin caput longum'unun, m. teres major'un arkasından, m teres minor'un önünden geçmesiyle ikiye ayrılır. Bunlardan üst sınırını m. teres major'un, alt sınırını m.teres minor'un, dış sınırını humerus'un, iç sınırını m. triceps brachi-",
+        "value": "Siniri: N. radialis'tir.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 92",
-            "quote": "Siniri: N. radialis'tir. Humerus ile m. teres major ve m. teres minor arasında oluşan üçgen aralık, m. triceps brachii'nin caput longum'unun, m. teres major'un arkasından, m teres minor'un önünden geçmesiyle ikiye ayrılır. Bunlardan üst sınırını m. teres major'un, alt sınırını m.teres minor'un, dış sınırını humerus'un, iç sınırını m. triceps brachi-"
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2795,6 +5551,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2846,6 +5621,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 93",
             "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -2901,6 +5695,25 @@
             "quote": "Siniri: N. medianus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -2952,6 +5765,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 93",
             "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3007,6 +5839,25 @@
             "quote": "Siniri: N.medianus."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3058,6 +5909,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 93",
             "quote": "Siniri: N. ulnaris'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3116,13 +5986,32 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: N. medianus'tur. b) Derin Grup:",
+        "value": "Siniri: N. medianus'tur.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 93",
-            "quote": "Siniri: N. medianus'tur. b) Derin Grup:"
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3157,13 +6046,13 @@
       },
       "action": {
         "status": "present",
-        "value": "Öncelikle 4 parmağın phalanx distalis'inin fleksiyonunu sağlar. Phalanx media, phalanx proximalis ve elin fleksiyonuna da yardımcıdır. M. flexor digitorum supericialis ve profundus'un tendonları, parmakların fleksiyonu sırasında kemiklerden uzaklaşmasını engelleyecek şekilde phalanx proximalis'ten itibaren vagina fibrosae di-",
+        "value": "Öncelikle 4 parmağın phalanx distalis'inin fleksiyonunu sağlar. Phalanx media, phalanx proximalis ve elin fleksiyonuna da yardımcıdır. M. flexor digitorum supericialis ve profundus'un tendonları, parmakların fleksiyonu sırasında kemiklerden uzaklaşmasını engelleyecek şekilde phalanx proximalis'ten itibaren vagina fibrosae digitorum manus denilen sağlam osteo-apenorotik bir tünel içinden geçerler.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 93",
-            "quote": "İşlevi: Öncelikle 4 parmağın phalanx distalis›inin fleksiyonunu sağlar. Phalanx media, phalanx proximalis ve elin fleksiyonuna da yardımcıdır. M. flexor digitorum supericialis ve profundus'un tendonları, parmakların fleksiyonu sırasında kemiklerden uzaklaşmasını engelleyecek şekilde phalanx proximalis'ten itibaren vagina fibrosae di-"
+            "locator": "s. 93-94",
+            "quote": "İşlevi: Öncelikle 4 parmağın phalanx distalis›inin fleksiyonunu sağlar. Phalanx media, phalanx proximalis ve elin fleksiyonuna da yardımcıdır. M. flexor digitorum supericialis ve profundus'un tendonları, parmakların fleksiyonu sırasında kemiklerden uzaklaşmasını engelleyecek şekilde phalanx proximalis'ten itibaren vagina fibrosae di- … gitorum manus denilen sağlam osteo-apenorotik bir tünel içinden geçerler."
           }
         ]
       },
@@ -3176,6 +6065,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 94",
             "quote": "Siniri: İç yan bölümünün (burası küçük ve yüzük parmağına giden lifleri içerir) siniri n. ulnaris, Dış yan bölümünün (burası işaret ve orta parmağa giden lifleri içerir) siniri n. medianus'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3231,6 +6139,25 @@
             "quote": "Siniri: N. medianus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Ön bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3282,6 +6209,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 94",
             "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3337,6 +6283,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3388,6 +6353,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 94",
             "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3443,6 +6427,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3496,6 +6499,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3540,13 +6562,32 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: N. radialis'tir. b) Derin Grup:",
+        "value": "Siniri: N. radialis'tir.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 94",
-            "quote": "Siniri: N. radialis'tir. b) Derin Grup:"
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3602,6 +6643,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3653,6 +6713,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 95",
             "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3708,6 +6787,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3759,6 +6857,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 95",
             "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3814,6 +6931,25 @@
             "quote": "Siniri: N. radialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ön kol Kasları › Arka bölge kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Ön kol Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Arka bölge kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -3865,6 +7001,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 99",
             "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uyluk Kasları › Uyluğun İçyan Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluk Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Uyluğun İçyan Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3923,13 +7078,32 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: Venter posterior'u n. facialis tarafından, venter anterior'u n. alveolaris inferior (n. mandibularis) tarafından innerve olur.",
+        "value": "Siniri: Venter posterior'u n. facialis tarafından, venter anterior'u n.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 71",
-            "quote": "Siniri: Venter posterior'u n. facialis tarafından, venter anterior'u n. alveolaris inferior (n. mandibularis) tarafından innerve olur."
+            "quote": "Siniri: Venter posterior'u n. facialis tarafından, venter anterior'u n."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suprahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suprahyoidei",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -3973,6 +7147,25 @@
             "quote": "Siniri: C1-3 spinal sinirlerin ön dallarından gelir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Prevertebral (boyun omurlarının ön tarafındaki) kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Prevertebral (boyun omurlarının ön tarafındaki) kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -4014,6 +7207,25 @@
             "quote": "Siniri: C1-2 spinal sinirin ön dallarından gelir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Prevertebral (boyun omurlarının ön tarafındaki) kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Prevertebral (boyun omurlarının ön tarafındaki) kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -4053,6 +7265,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 71",
             "quote": "Siniri: C1-2 spinal sinirin ön dallarından gelir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Prevertebral (boyun omurlarının ön tarafındaki) kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Prevertebral (boyun omurlarının ön tarafındaki) kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -4120,6 +7351,25 @@
             "quote": "Siniri: N. alveolarisinferior'un bir dalı olan n. mylohyoideus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suprahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suprahyoidei",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -4176,13 +7426,32 @@
       },
       "relationsText": {
         "status": "present",
-        "value": "Siniri: Ansa cervicalis'in dalıdır. C1-2-3 spinal sinirin ön dalından gelir.",
+        "value": "Siniri: C1 spinal sinirin ön dalıdır.",
         "verification": "unverified",
         "sources": [
           {
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 72",
-            "quote": "Siniri: Ansa cervicalis'in dalıdır. C1-2-3 spinal sinirin ön dalından gelir."
+            "quote": "Siniri: C1 spinal sinirin ön dalıdır."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suprahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suprahyoidei",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -4250,6 +7519,25 @@
             "quote": "Siniri: N. tibalis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Arka Yüzündeki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Bacağın Arka Yüzündeki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -4301,6 +7589,25 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 100",
             "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacak Kasları › Bacağın Arka Yüzündeki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Bacak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Bacağın Arka Yüzündeki Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }
@@ -4356,6 +7663,25 @@
             "quote": "Siniri: N. fibularis profundus'tur."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak Kasları › Ayağın Dorsal Tarafındaki Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayak Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayağın Dorsal Tarafındaki Kaslar",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -4409,6 +7735,109 @@
             "quote": "Siniri: N. facialis'tir."
           }
         ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Musculi Colli (Cervicis) - Boyun Kasları › Musculi suprahyoidei",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Musculi Colli (Cervicis) - Boyun Kasları",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Musculi suprahyoidei",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9626",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Adlandırılması şekline göre yapılmış bir kastır. Geometrik şekillerden yamuk benzeri bir görüntüsü olduğundan m. trapezius olarak isimlendirilmiştir. Geniş ve yassıdır. Sırtın üst tarafı ve enseyi sarar. Kas lifleri seyir yönlerine göre üç grupta toplanır: Pars descendens (aşağı inen), pars transversa (enine doğrultuda, yatay) ve pars ascendens (yukarı çıkan, yükselen).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75-76",
+            "quote": "Adlandırılması şekline göre yapılmış bir kastır. Geometrik şekillerden yamuk benzeri bir görüntüsü olduğundan m. trapezius olarak isimlendirilmiştir. Geniş ve yassıdır. Sırtın … üst tarafı ve enseyi sarar. Kas lifleri seyir yönlerine göre üç grupta toplanır: Pars descendens (aşağı inen), pars transversa (enine doğrultuda, yatay) ve pars ascendens (yukarı çıkan, yükselen)."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Linea nuchalis superior'un içyan 1/3'ü, protuberantia occipitalis externa, lig. nuchae, 7. boyun omuru ile bütün göğüs omurlarının processus spinosus'ları ve bunlar arasında bulunan lig. supraspinale.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Başlangıcı: Linea nuchalis superior'un içyan 1/3'ü, protuberantia occipitalis externa, lig. nuchae, 7. boyun omuru ile bütün göğüs omurlarının processus spinosus'ları ve bunlar arasında bulunan lig. supraspinale."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "- Pars ascendens ; clavicula'nın üst yüzünün 1/3 dışyan bölümü, - Pars transversa; acromion ve spina scapulae'nin üst kenarı, - Pars descendens ; spina scapulae'nin içyan ucu",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Sonlanışı: - Pars ascendens ; clavicula'nın üst yüzünün 1/3 dışyan bölümü, - Pars transversa; acromion ve spina scapulae'nin üst kenarı, - Pars descendens ; spina scapulae'nin içyan ucu"
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Pars ascendens scapulayı ve omuzu yukarıya kaldırır (scapula'yı ve omuzu eleve eder), pars transversa scapulayı arkaya ve içyana çeker (retraksiyon ve adduksiyon), pars descendens ise omuzu aşağı çeker (depresyon). Pars descendens omuzda yük taşınması sırasında karşı yönde güç ortaya koyan bölümdür. Pars ascendens, yüksekte bir yere tutunulduğunda gövdenin yukarı çekilmesi (barfiks) hareketine yardımcı olur. Bu bölüm özellikle kolun hareketi sırasında, scapula'ya tutunan diğer kaslarla birlikte bu kemiğin konumunun (rotasyonunun) ayarlanmasına da katkıda bulunur (bkz. M. serratus anterior). Scapula stabilize edilmişse üst lifleri tek taraflı kasılırsa boynu aynı tarafa eğerek, yüzü karşı tarafa çevirir. Üst liflerinin iki taraflı kasılmasında ise başı arkaya çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "İşlevi: Pars ascendens scapulayı ve omuzu yukarıya kaldırır (scapula'yı ve omuzu eleve eder), pars transversa scapulayı arkaya ve içyana çeker (retraksiyon ve adduksiyon), pars descendens ise omuzu aşağı çeker (depresyon). Pars descendens omuzda yük taşınması sırasında karşı yönde güç ortaya koyan bölümdür. Pars ascendens, yüksekte bir yere tutunulduğunda gövdenin yukarı çekilmesi (barfiks) hareketine yardımcı olur. Bu bölüm özellikle kolun hareketi sırasında, scapula'ya tutunan diğer kaslarla birlikte bu kemiğin konumunun (rotasyonunun) ayarlanmasına da katkıda bulunur (bkz. M. serratus anterior). Scapula stabilize edilmişse üst lifleri tek taraflı kasılırsa boynu aynı tarafa eğerek, yüzü karşı tarafa çevirir. Üst liflerinin iki taraflı kasılmasında ise başı arkaya çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Baş kökenli bir kas olmasından dolayı n. accessorius'un pars spinalis'i ile innerve edilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 76",
+            "quote": "Siniri: Baş kökenli bir kas olmasından dolayı n. accessorius'un pars spinalis'i ile innerve edilir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Sırt Kasları (Musculi Dorsi) › Yüzeyel Sırt Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Sırt Kasları (Musculi Dorsi)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 75",
+            "quote": "Yüzeyel Sırt Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
       }
     }
   },
@@ -4460,6 +7889,103 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 92",
             "quote": "Siniri: N. suprascapularis'tir."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omuz Kavşağı Kasları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Omuz Kavşağı Kasları",
+            "note": "Kitaptaki grup başlığı."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9760",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Bu kas, göğüs ön duvarının iç yüzünde genellikle 5 demet şeklinde bulunur. Kas lifleri zayıftır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 83",
+            "quote": "Bu kas, göğüs ön duvarının iç yüzünde genellikle 5 demet şeklinde bulunur. Kas lifleri zayıftır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Sternum'un alt yarısı ve kıkırdak kostalar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 83",
+            "quote": "Başlangıcı: Sternum'un alt yarısı ve kıkırdak kostalar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "2.-6. kıkırdak kosta.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 83",
+            "quote": "Sonlanışı: 2.-6. kıkırdak kosta."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kaburgaları aşağıya çekerek ekspirasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 83",
+            "quote": "İşlevi: Kaburgaları aşağıya çekerek ekspirasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. phrenicus (central parçaları) ve nn. intercostales (crus'ları).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 84",
+            "quote": "Siniri: N. phrenicus (central parçaları) ve nn. intercostales (crus'ları)."
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Göğüs Kasları (Musculi Thoracis) › İnterkostal Kaslar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 81",
+            "quote": "Göğüs Kasları (Musculi Thoracis)",
+            "note": "Kitaptaki grup başlığı."
+          },
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 82",
+            "quote": "İnterkostal Kaslar",
+            "note": "Kitaptaki grup başlığı."
           }
         ]
       }

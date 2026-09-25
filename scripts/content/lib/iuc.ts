@@ -211,21 +211,54 @@ export interface MuscleBlock {
   name: string
   page: number
   fields: MuscleField[]
+  /** Group headings above the muscle, outermost first ("Uyluk Kasları", "Uyluğun Arka Tarafındaki Kaslar"). */
+  section: MuscleLine[]
 }
 
-const MUSCLE_HEADER = /^\s*Mm?\.\s+([a-z][a-z .-]+?)\s*:\s*(.*)$/i
+/**
+ * Group headings of the myology chapters, by level. Only headings that name muscles ("… kasları",
+ * "… Kaslar") count; the numbering and anything after the colon are dropped from the text.
+ */
+const SECTION_LEVELS: RegExp[] = [
+  /^\s*(?![A-Za-z][.)]\s|\d)([A-ZÇĞİÖŞÜ][^.:]*[Kk]as(?:lar|ları)(?:\s*\([^)]*\))?)\s*:?\s*$/, // "Musculi Capitis - Baş Kasları", "Karın arka duvar kasları"
+  /^\s*\d+\.\s+([^:.]*(?:[Kk]as(?:lar|ları)?|Musculi)\b[^:.]*?)\s*:?\s*$/, // "2. Kol Kasları:", "5. Musculi suprahyoidei:", "3. Boynun dış yan tarafında bulunan kas:"
+  /^\s*[A-H][.)]\s+([^:.]*[Kk]as(?:lar|ları)[^:.]*?)\s*(?::.*)?$/, // "A) Ön bölge kasları", "B) İnterkostal Kaslar"
+  /^\s*(?:\d\)|[a-h]\))\s+([^:.]*[Kk]as(?:lar|ları)[^:.]*?)\s*(?::.*)?$/, // "1) Spinotransversal kaslar (…)", "a) Birinci Tabaka Kasları:"
+]
+/** A new chapter (its opener page) resets the headings. */
+const CHAPTER_START = /Bu bölümü alıntıla/
+
+export function sectionHeading(text: string): { level: number; text: string } | null {
+  if (/^\s*[-–•]|^\s*Mm?\.\s/.test(text)) return null
+  for (const [level, re] of SECTION_LEVELS.entries()) {
+    const m = re.exec(text)
+    if (m) return { level, text: m[1]!.trim() }
+  }
+  return null
+}
+
+const MUSCLE_HEADER = /^\s*(?:[a-h][-)]\s*)?Mm?\.\s+([a-z][a-z .-]+?)\s*:\s*(.*)$/i
+/** Trunk chapters put the name alone on its line ("M. latissimus dorsi") and the prose below. */
+const MUSCLE_HEADER_ALONE = /^\s*(?:[a-h][-)]\s*)?Mm?\.\s+([a-z][a-z -]*[a-z])\s*$/
 const MUSCLE_LABEL = /^\s*(Başlangıcı|Sonlanışı|İşlevi|Siniri)\s*:\s*(.*)$/
 /** Lines that end a field: citation-number lines, section headings, enumerations. */
-const MUSCLE_STOP = /^\s*(\d+(\s*,\s*\d+)*\s*,?\s*$|[A-ZÇĞİÖŞÜ0-9][A-ZÇĞİÖŞÜ .-]{3,}:|\d+\.\s|[A-Z]\)\s|BÖLÜM\b)/
+const MUSCLE_STOP = /^\s*(\d+(\s*,\s*\d+)*\s*,?\s*$|[A-ZÇĞİÖŞÜ0-9][A-ZÇĞİÖŞÜ .-]{3,}:|\d+[.)]\s|[A-Z]\)\s|BÖLÜM\b)/
 
 export function parseMuscleBlocks(lines: MuscleLine[]): MuscleBlock[] {
   const blocks: MuscleBlock[] = []
   let cur: MuscleBlock | null = null
   let field: MuscleField | null = null
+  let section: (MuscleLine | undefined)[] = []
   for (const l of lines) {
-    const h = MUSCLE_HEADER.exec(l.text)
+    if (CHAPTER_START.test(l.text)) section = []
+    const s = sectionHeading(l.text)
+    if (s) {
+      section = section.slice(0, s.level)
+      section[s.level] = { text: s.text, page: l.page }
+    }
+    const h = MUSCLE_HEADER.exec(l.text) ?? MUSCLE_HEADER_ALONE.exec(l.text)
     if (h) {
-      cur = { name: h[1]!.trim().toLowerCase(), page: l.page, fields: [] }
+      cur = { name: h[1]!.trim().toLowerCase(), page: l.page, fields: [], section: section.filter((x): x is MuscleLine => !!x) }
       blocks.push(cur)
       field = h[2]?.trim() ? { label: 'summary', lines: [{ text: h[2].trim(), page: l.page }] } : null
       if (field) cur.fields.push(field)
@@ -236,14 +269,21 @@ export function parseMuscleBlocks(lines: MuscleLine[]): MuscleBlock[] {
     if (m) {
       field = { label: m[1] as MuscleLabel, lines: [l] }
       cur.fields.push(field)
+      if (m[1] === 'Siniri' && /[.!?]\s*$/.test(l.text)) field = null
       continue
     }
-    if (MUSCLE_STOP.test(l.text)) {
+    // A field continues on the next page only when its sentence was cut by the page break.
+    const last = field?.lines.at(-1)
+    const stop = MUSCLE_STOP.test(l.text) || s !== null
+    if (stop || (last && last.page !== l.page && /[.!?]\s*$/.test(last.text))) {
       field = null
-      continue
+      if (stop) continue
     }
-    if (field) field.lines.push(l)
-    else if (cur.fields.length === 0) {
+    if (field) {
+      field.lines.push(l)
+      // The nerve is one sentence; the text after it is a new paragraph (e.g. on the axillary spaces).
+      if (field.label === 'Siniri' && /[.!?]\s*$/.test(l.text)) field = null
+    } else if (cur.fields.length === 0) {
       field = { label: 'summary', lines: [l] }
       cur.fields.push(field)
     }

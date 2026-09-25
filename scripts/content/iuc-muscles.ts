@@ -10,7 +10,8 @@
  *
  * Each labelled sentence is taken verbatim (quote + printed page; checked by content:quotecheck):
  * Başlangıcı → origin, Sonlanışı → insertion, İşlevi → action, Siniri → relationsText, an unlabelled
- * first sentence → summary. When the nerve has a structure record, an `innervated_by` relation is
+ * first sentence → summary, and the group headings above the muscle ("Kol Kasları › Ön bölge
+ * kasları") → location. When the nerve has a structure record, an `innervated_by` relation is
  * added too. Muscles are matched to structures through their TA2 Latin term ("M. x" = "musculus x").
  *
  * Output (generated): content/structures/iuc/kaslar.json, content/relations/iuc-kaslar.json.
@@ -29,6 +30,7 @@ const FIRST_PAGE = 64
 const LAST_PAGE = 101
 const LABELS = { 'Başlangıcı': 'origin', 'Sonlanışı': 'insertion', 'İşlevi': 'action', 'Siniri': 'nerve' } as const
 const LABEL = /^\s*(Başlangıcı|Sonlanışı|İşlevi|Siniri)\s*:\s*(.*)$/
+const RUNNING_HEADER = /^\s*(Lokomotor Sistem Anatomisi|Bölüm \d+\.\d+:.*)\s*$/
 
 const clean = (s: string) => s.replace(/›/g, "'").trim()
 const pagesOf = (lines: MuscleLine[]) => {
@@ -45,7 +47,13 @@ async function main(): Promise<number> {
     return 1
   }
   const lines: MuscleLine[] = []
-  for (const p of pages) if (p.printed !== null && p.printed >= FIRST_PAGE && p.printed <= LAST_PAGE) for (const t of p.text.split('\n')) lines.push({ text: t, page: p.printed })
+  for (const p of pages) {
+    if (p.printed === null || p.printed < FIRST_PAGE || p.printed > LAST_PAGE) continue
+    // The page number and running header would cut a field that continues on the next page.
+    const text = p.text.split('\n')
+    const skip = (i: number) => (i === 0 && /^\s*\d+\s*$/.test(text[i]!)) || (i <= 1 && RUNNING_HEADER.test(text[i]!))
+    text.forEach((t, i) => skip(i) || lines.push({ text: t, page: p.printed! }))
+  }
   const blocks = parseMuscleBlocks(lines)
 
   const ta2 = (JSON.parse(await readFile(join(REPO_ROOT, 'vendor', 'terminology', 'ta2.json'), 'utf8')) as { data: Ta2Term[] }).data
@@ -78,8 +86,9 @@ async function main(): Promise<number> {
     let nerve: { name: string; quote: string; locator: string } | undefined
     for (const f of fields) {
       const raw = f.lines.map((l) => l.text).join('\n')
-      const quote = normalizeForQuote(raw)
-      const value = clean(quote.replace(LABEL, '$2'))
+      // A field that runs onto the next page is quoted page by page ("… " marks the page break).
+      const quote = [...new Set(f.lines.map((l) => l.page))].map((pg) => normalizeForQuote(f.lines.filter((l) => l.page === pg).map((l) => l.text).join('\n'))).join(' … ')
+      const value = clean(normalizeForQuote(raw).replace(LABEL, '$2'))
       if (!value) continue
       const src = { sourceId: SOURCE, locator: pagesOf(f.lines), quote }
       const entry = (v: string) => ({ status: 'present', value: v, verification: 'unverified', sources: [src] })
@@ -89,6 +98,16 @@ async function main(): Promise<number> {
         const n = /^N\.\s*([a-z][a-z ]+?)['’›]/i.exec(value)
         if (n) nerve = { name: `nervus ${n[1]!.trim().toLowerCase()}`, quote, locator: src.locator }
       } else contentFields[LABELS[f.label]] ??= entry(value)
+    }
+    // Location: the book's group headings above the muscle ("Uyluk Kasları › Uyluğun Arka
+    // Tarafındaki Kaslar"), each heading quoted on its own page.
+    if (b.section.length > 0) {
+      contentFields.location = {
+        status: 'present',
+        value: b.section.map((h) => clean(h.text)).join(' › '),
+        verification: 'unverified',
+        sources: b.section.map((h) => ({ sourceId: SOURCE, locator: `s. ${h.page}`, quote: normalizeForQuote(h.text), note: 'Kitaptaki grup başlığı.' })),
+      }
     }
     for (const t of targets) {
       overlays.set(t.id, { id: t.id, content: { ...((overlays.get(t.id)?.content as object) ?? {}), ...contentFields } })

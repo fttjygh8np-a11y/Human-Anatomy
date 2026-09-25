@@ -19,11 +19,11 @@ Durum işaretleri: ✅ tamamlandı · 🟡 kısmen / doğrulama bekliyor · ❌ 
 | Latince adı olan (TA2, doğrulanmadı) | 1733 (%73); 133'ü kurallı türetilmiş |
 | Türkçe adı olan (doğrulanmadı) | 434 (%19); 95'i Cerrahpaşa ders kitabından, sayfa ve alıntıyla |
 | Ekranda yalnız İngilizce adı görünen | 588 (Dönem 1–2 hedeflerinde 1) |
-| Kaynaklı açıklaması olan | 176 yapı (özet/açıklama); 103 yapıda Cerrahpaşa kitabından sayfalı alıntı (82 kas: başlangıç, yapışma, işlev, sinir; 21 organ/sinir/kemik kartı) |
+| Kaynaklı açıklaması olan | 190 yapı (özet/açıklama); 132 yapıda Cerrahpaşa kitabından sayfalı alıntı (111 kas: başlangıç, yapışma, işlev, sinir, konum; 21 organ/sinir/kemik kartı) |
 | Kapsam matrisi hedefi | 520 (401'i Cerrahpaşa Dönem 1–2 kitaplarından); tamamlanmış **0** |
-| Kitaptan birebir alıntı (otomatik denetimli) | 875 alıntı, hepsi sayfasında doğrulandı |
+| Kitaptan birebir alıntı (otomatik denetimli) | 1201 alıntı, hepsi sayfasında doğrulandı |
 | Uzman onaylı yapı | **0** |
-| Birim testi / E2E testi | 417/417, 16/16 geçti |
+| Birim testi / E2E testi | 422/422, 16/16 geçti |
 
 v1.0 sürüm kapılarının güncel ölçümü: [raporlar/surum-kapilari.md](raporlar/surum-kapilari.md) (`npm run report:release`).
 
@@ -157,10 +157,14 @@ listesi.
 ## İçerik eksikleri (öncelik sırasıyla)
 
 1. **Uzman incelemesi:** 0/2359. En yüksek öncelik; tamamlanma bu adıma bağlı.
-2. **Açıklamalar:** 82 kasta Cerrahpaşa kitabından başlangıç, yapışma, işlev ve sinir; 21 organ,
+2. **Açıklamalar:** 111 kasta Cerrahpaşa kitabından başlangıç, yapışma, işlev ve sinir, konum
+   olarak da kitaptaki grup başlıkları ("Uyluk Kasları › Uyluğun Arka Tarafındaki Kaslar"); 21 organ,
    sinir ve kemikte özet/açıklama var (otomatik çıkarıldı, alıntılar denetimli; elle incelemede
    uygunsuz bulunanlar `content/terminology/iuc-kart-dislama.json` ile dışlandı). Damarlar, sinirler
-   ve çoğu organ için açıklama hâlâ yok; "konum" alanı neredeyse hiç dolu değil.
+   ve çoğu organ için açıklama ve konum hâlâ yok. Kitap kasları ayrı bir "açıklama" paragrafıyla
+   anlatmadığı için kas kartlarında açıklama alanı çoğunlukla boş; bu yüzden kart kapısı (%23)
+   kaslarda ilerlemiyor. Kitapta anlatılan ama 3B envanterde olmayan kaslar (latissimus dorsi,
+   rectus abdominis, masseter, mimik kaslarının çoğu…) Faz 5'te eklenecek.
    **Eklemler:** BodyParts3D eklemleri ayrı yapı olarak modellemediği için envanterde eklem kaydı
    yok; kitaptaki eklem bilgileri (tip, eklem yüzleri, bağlar, hareket) bu kayıtlar eklenince
    işlenecek. **Kas–sinir ilişkileri:** Kitaptaki "Siniri:" cümleleri okunuyor ama çevresel

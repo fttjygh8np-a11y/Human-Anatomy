@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T18:30:01.809Z",
-  "contentVersion": "715758708bea9cde",
+  "generatedAt": "2026-09-25T18:40:47.838Z",
+  "contentVersion": "9002589e5c7e2636",
   "targets": 520,
   "gates": [
     {
@@ -28,7 +28,7 @@
       "no": 4,
       "name": "Bilgi kartı",
       "target": "Zorunlu alanlar %100, kitaptan alıntılı",
-      "measured": "119/520 (%23) tamam · kitaptan alıntılı alanı olan 80",
+      "measured": "119/520 (%23) tamam · kitaptan alıntılı alanı olan 109",
       "status": "partial"
     },
     {
