@@ -90,6 +90,8 @@ export interface Bp3dElement {
   kind?: StructureKind
   /** Direct is-a parents in BodyParts3D (FMA digits), e.g. "Right humerus" is-a "Humerus". */
   isaParents?: string[]
+  /** Side of the model centroid relative to the body midline (model pipeline check). */
+  observedSide?: 'left' | 'right' | 'midline'
 }
 
 function pick(obj: Record<string, unknown>, keys: readonly string[]): unknown {
@@ -162,9 +164,15 @@ export function parseElements(raw: unknown, file = ELEMENTS_FILE): { elements: B
     const chunk = pick(item, ELEMENT_FIELD_ALIASES.chunk)
     if (typeof chunk === 'string' && chunk.trim()) el.chunk = chunk.trim()
     let latRaw = pick(item, ELEMENT_FIELD_ALIASES.laterality)
-    // Model pipeline shape: { fromName: 'left'|'right'|null, observed, offsetXM }. Only the
-    // name-stated side is a fact about the concept; observed geometry is a check, not a label.
-    if (isPlainObject(latRaw)) latRaw = latRaw.fromName ?? undefined
+    // Model pipeline shape: { fromName: 'left'|'right'|null, observed, offsetXM }. The name-stated
+    // side labels the concept; the observed side is only used when the name states none.
+    let observedSide: Bp3dElement['observedSide']
+    if (isPlainObject(latRaw)) {
+      const o = latRaw.observed
+      if (o === 'left' || o === 'right' || o === 'midline') observedSide = o
+      latRaw = latRaw.fromName ?? undefined
+    }
+    if (observedSide) el.observedSide = observedSide
     if (latRaw !== undefined) {
       const lat = normalizeLateralityValue(latRaw)
       if (lat) el.laterality = lat
@@ -283,8 +291,18 @@ export function buildInventory(elements: readonly Bp3dElement[], opts: Inventory
       latBasis = 'öğe verisinden alındı'
     } else {
       const fromName = lateralityFromEnglishName(nameEn)
-      laterality = fromName ?? 'not_applicable'
-      latBasis = fromName ? 'İngilizce addan türetildi' : 'belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli)'
+      const observed = [...new Set(group.map((e) => e.observedSide).filter((x) => x !== undefined))]
+      if (fromName) {
+        laterality = fromName
+        latBasis = 'İngilizce addan türetildi'
+      } else if (observed.length === 1) {
+        // No side in the name: a model centred on the midline is a midline structure, otherwise unpaired.
+        laterality = observed[0] === 'midline' ? 'midline' : 'unpaired'
+        latBasis = `adda taraf yok; model merkezinin orta hatta ${observed[0] === 'midline' ? 'olmasından' : 'olmamasından'} türetildi (${laterality})`
+      } else {
+        laterality = 'not_applicable'
+        latBasis = 'belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli)'
+      }
     }
 
     const regionSet = new Set<string>()

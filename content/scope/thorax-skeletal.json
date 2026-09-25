@@ -9,7 +9,7 @@
       "en": "Manubrium",
       "la": "Manubrium sterni"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -17,7 +17,7 @@
       }
     ],
     "structureId": "fma:7486",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı. Envanterde bütün sternum için ayrı kayıt yok; sternum manubrium, gövde ve ksifoid çıkıntı olarak üç hedefle izlenir."
+    "notes": "Tek (orta hat) kemik. Envanterde bütün sternum için ayrı kayıt yok; sternum manubrium, gövde ve ksifoid çıkıntı olarak üç hedefle izlenir."
   },
   {
     "id": "hedef:thorax.skeletal.body_of_sternum",
@@ -29,7 +29,7 @@
       "en": "Body of sternum",
       "la": "Corpus sterni"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -37,7 +37,7 @@
       }
     ],
     "structureId": "fma:7487",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:thorax.skeletal.xiphoid_process",
@@ -49,7 +49,7 @@
       "en": "Xiphoid process",
       "la": "Processus xiphoideus"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -57,7 +57,7 @@
       }
     ],
     "structureId": "fma:7488",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:thorax.skeletal.rib_1",

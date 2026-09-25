@@ -9,7 +9,7 @@
       "en": "Hyoid bone",
       "la": "Os hyoideum"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -17,7 +17,7 @@
       }
     ],
     "structureId": "fma:52749",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı. OpenStax 7.1 dil kemiğini kafatasıyla ilişkili ek kemikler arasında sayar, 7.2 ise boynun üst kısmında konumlandırır; bölge olarak boyun seçildi."
+    "notes": "Tek (orta hat) kemik. OpenStax 7.1 dil kemiğini kafatasıyla ilişkili ek kemikler arasında sayar, 7.2 ise boynun üst kısmında konumlandırır; bölge olarak boyun seçildi."
   },
   {
     "id": "hedef:neck.skeletal.atlas",
@@ -29,7 +29,7 @@
       "en": "Atlas",
       "la": "Atlas"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -37,7 +37,7 @@
       }
     ],
     "structureId": "fma:12519",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:neck.skeletal.axis",
@@ -49,7 +49,7 @@
       "en": "Axis",
       "la": "Axis"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -57,7 +57,7 @@
       }
     ],
     "structureId": "fma:12520",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:neck.skeletal.cervical_3",
@@ -68,7 +68,7 @@
     "name": {
       "en": "Third cervical vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -76,7 +76,7 @@
       }
     ],
     "structureId": "fma:12521",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:neck.skeletal.cervical_4",
@@ -87,7 +87,7 @@
     "name": {
       "en": "Fourth cervical vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -95,7 +95,7 @@
       }
     ],
     "structureId": "fma:12522",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:neck.skeletal.cervical_5",
@@ -106,7 +106,7 @@
     "name": {
       "en": "Fifth cervical vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -114,7 +114,7 @@
       }
     ],
     "structureId": "fma:12523",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:neck.skeletal.cervical_6",
@@ -126,7 +126,7 @@
       "en": "Sixth cervical vertebra",
       "la": "Vertebra cervicalis VI"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -134,7 +134,7 @@
       }
     ],
     "structureId": "fma:12524",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:neck.skeletal.cervical_7",
@@ -146,7 +146,7 @@
       "en": "Seventh cervical vertebra",
       "la": "Vertebra prominens"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -154,6 +154,6 @@
       }
     ],
     "structureId": "fma:12525",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   }
 ]

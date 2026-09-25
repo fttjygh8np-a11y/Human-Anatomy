@@ -7402,7 +7402,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -7414,7 +7414,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1547M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1547M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -7444,7 +7444,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -7456,7 +7456,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1548M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1548M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -7879,7 +7879,7 @@
       "thorax"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -7891,7 +7891,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1525M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1525M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -19993,7 +19993,7 @@
       "neck"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -20005,7 +20005,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2809). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2809). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -23079,7 +23079,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -23091,7 +23091,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1550M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1550M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -23121,7 +23121,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -23133,7 +23133,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1552M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1552M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -23364,7 +23364,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -23376,7 +23376,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1549M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1549M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -23406,7 +23406,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -23418,7 +23418,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1553M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1553M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -23616,7 +23616,7 @@
       "back"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -23628,7 +23628,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1543M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1543M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -24045,7 +24045,7 @@
       "thorax"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -24057,7 +24057,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1451M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1451M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -24087,7 +24087,7 @@
       "thorax"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -24099,7 +24099,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1455M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1455M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -24129,7 +24129,7 @@
       "thorax"
     ],
     "regionBasis": "derived_from_geometry",
-    "laterality": "not_applicable",
+    "laterality": "unpaired",
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -24141,7 +24141,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ1454M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1454M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {

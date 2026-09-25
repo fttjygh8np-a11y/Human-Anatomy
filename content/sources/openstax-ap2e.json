@@ -24,9 +24,18 @@
   },
   "usedFor": [
     "content:summary",
+    "content:description",
     "content:location",
+    "content:parts",
     "content:relationsText",
-    "content:clinicalNotes"
+    "content:function",
+    "content:origin",
+    "content:insertion",
+    "content:action",
+    "content:clinicalNotes",
+    "content:variations",
+    "lessons",
+    "scope-basis"
   ],
-  "notes": "Bölümler, openstax/osbooks-anatomy-physiology deposundaki kaynak dosyalardan (modules/m46374: 8.1 The Pectoral Girdle, modules/m46368: 8.2 Bones of the Upper Limb) 2026-09-25'te okundu. Yazar ve yayın yılı bu kaynak dosyalarda yer almadığı için girilmedi."
+  "notes": "Bölüm metinleri openstax/osbooks-anatomy-physiology deposundaki kaynak dosyalardan (collections/anatomy-and-physiology-2e.collection.xml ve modules/<mNNNNN>/index.cnxml) okundu; bölüm numaraları koleksiyondaki sıradan hesaplandı (giriş modülü x.0). Her içerik alanı ilgili bölüm künyesiyle kaynak gösterilir. Yazar ve yayın yılı bu kaynak dosyalarda yer almadığı için girilmedi."
 }

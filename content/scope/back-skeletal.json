@@ -9,7 +9,7 @@
       "en": "First thoracic vertebra",
       "la": "Vertebra thoracica prima"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -17,7 +17,7 @@
       }
     ],
     "structureId": "fma:9165",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_2",
@@ -28,7 +28,7 @@
     "name": {
       "en": "Second thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -36,7 +36,7 @@
       }
     ],
     "structureId": "fma:9187",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_3",
@@ -47,7 +47,7 @@
     "name": {
       "en": "Third thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -55,7 +55,7 @@
       }
     ],
     "structureId": "fma:9209",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_4",
@@ -66,7 +66,7 @@
     "name": {
       "en": "Fourth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -74,7 +74,7 @@
       }
     ],
     "structureId": "fma:9248",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_5",
@@ -85,7 +85,7 @@
     "name": {
       "en": "Fifth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -93,7 +93,7 @@
       }
     ],
     "structureId": "fma:9922",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_6",
@@ -104,7 +104,7 @@
     "name": {
       "en": "Sixth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -112,7 +112,7 @@
       }
     ],
     "structureId": "fma:9945",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_7",
@@ -123,7 +123,7 @@
     "name": {
       "en": "Seventh thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -131,7 +131,7 @@
       }
     ],
     "structureId": "fma:9968",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_8",
@@ -142,7 +142,7 @@
     "name": {
       "en": "Eighth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -150,7 +150,7 @@
       }
     ],
     "structureId": "fma:9991",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_9",
@@ -161,7 +161,7 @@
     "name": {
       "en": "Ninth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -169,7 +169,7 @@
       }
     ],
     "structureId": "fma:10014",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_10",
@@ -180,7 +180,7 @@
     "name": {
       "en": "Tenth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -188,7 +188,7 @@
       }
     ],
     "structureId": "fma:10037",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_11",
@@ -199,7 +199,7 @@
     "name": {
       "en": "Eleventh thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -207,7 +207,7 @@
       }
     ],
     "structureId": "fma:10059",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.thoracic_12",
@@ -218,7 +218,7 @@
     "name": {
       "en": "Twelfth thoracic vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -226,7 +226,7 @@
       }
     ],
     "structureId": "fma:10081",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.lumbar_1",
@@ -237,7 +237,7 @@
     "name": {
       "en": "First lumbar vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -245,7 +245,7 @@
       }
     ],
     "structureId": "fma:13072",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.lumbar_2",
@@ -256,7 +256,7 @@
     "name": {
       "en": "Second lumbar vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -264,7 +264,7 @@
       }
     ],
     "structureId": "fma:13073",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.lumbar_3",
@@ -275,7 +275,7 @@
     "name": {
       "en": "Third lumbar vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -283,7 +283,7 @@
       }
     ],
     "structureId": "fma:13074",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.lumbar_4",
@@ -294,7 +294,7 @@
     "name": {
       "en": "Fourth lumbar vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -302,7 +302,7 @@
       }
     ],
     "structureId": "fma:13075",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.lumbar_5",
@@ -313,7 +313,7 @@
     "name": {
       "en": "Fifth lumbar vertebra"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -321,7 +321,7 @@
       }
     ],
     "structureId": "fma:13076",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+    "notes": "Tek (orta hat) kemik."
   },
   {
     "id": "hedef:back.skeletal.sacrum",
@@ -333,7 +333,7 @@
       "en": "Sacrum",
       "la": "Os sacrum"
     },
-    "laterality": "not_applicable",
+    "laterality": "midline",
     "basis": [
       {
         "sourceId": "src:openstax-ap2e",
@@ -341,6 +341,6 @@
       }
     ],
     "structureId": "fma:16202",
-    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı. Sakrum hem omurganın (7.3) hem pelvisin (8.3) parçasıdır; omurga hedefleriyle birlikte sırt bölgesine konuldu."
+    "notes": "Tek (orta hat) kemik. Sakrum hem omurganın (7.3) hem pelvisin (8.3) parçasıdır; omurga hedefleriyle birlikte sırt bölgesine konuldu."
   }
 ]

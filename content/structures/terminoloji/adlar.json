@@ -1,24 +1,5 @@
 [
   {
-    "id": "fma:10081",
-    "names": {
-      "la": {
-        "value": "vertebra thoracica inferior",
-        "status": "unverified",
-        "sources": [
-          {
-            "sourceId": "src:fipat-ta2",
-            "locator": "TA2 ID 1065",
-            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. FMA 10081 → TA2 1065 eşlemesi Wikidata'dan (P1402/P7173)."
-          }
-        ]
-      }
-    },
-    "externalIds": {
-      "ta2": "1065"
-    }
-  },
-  {
     "id": "fma:10419",
     "names": {
       "la": {

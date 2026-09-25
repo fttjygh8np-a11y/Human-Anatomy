@@ -155,3 +155,16 @@ describe('generic concepts from the is-a list', () => {
   })
 })
 
+describe('laterality from model position', () => {
+  it('uses the observed side only when the name states none', () => {
+    const els = parseElements([
+      el({ elementId: 'FJM', fmaId: '900300', nameEn: 'Test vertebra', laterality: { fromName: null, observed: 'midline', offsetXM: 0 } }),
+      el({ elementId: 'FJU', fmaId: '900301', nameEn: 'Test spleen', laterality: { fromName: null, observed: 'left', offsetXM: 0.1 } }),
+      el({ elementId: 'FJR', fmaId: '900302', nameEn: 'Right test bone', laterality: { fromName: 'right', observed: 'left', offsetXM: 0.1 } }),
+    ]).elements
+    const { records } = buildInventory(els, { today: TODAY })
+    const lat = Object.fromEntries(records.map((r) => [r.id, r.laterality]))
+    expect(lat).toEqual({ 'fma:900300': 'midline', 'fma:900301': 'unpaired', 'fma:900302': 'right' })
+  })
+})
+

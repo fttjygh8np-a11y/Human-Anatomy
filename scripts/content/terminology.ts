@@ -211,8 +211,9 @@ async function main() {
   const matched = new Map<string, number>()
   let trCount = 0
   let wdCount = 0
+  const excluded = (JSON.parse(await readFile(join(CONTENT_DIR, 'terminology', 'ta2-dislama.json'), 'utf8')) as { yapilar: Record<string, string> }).yapilar
   for (const s of inventory) {
-    const m = matchTa2(s, idx, fmaToTa2)
+    const m = s.id in excluded ? null : matchTa2(s, idx, fmaToTa2)
     const tdkTr = m ? trByTa2.get(m.term.id) : undefined
     const o: Record<string, unknown> | undefined = m ? buildOverlay(s, m, tdkTr, { ta2Url: ta2.url, date: ta2.retrievedAt }) : undefined
     if (m) matched.set(s.id, m.term.id)

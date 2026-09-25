@@ -1,0 +1,6 @@
+{
+  "aciklama": "TA2 eşlemesi kullanılmayacak yapılar (npm run content:terms). Her kayıt nedeniyle birlikte tutulur.",
+  "yapilar": {
+    "fma:10081": "Wikidata, 12. göğüs omurunu (FMA10081) TA2'nin daha geniş 'lower thoracic vertebra' (TA2 1065) terimine bağlıyor; bu tekil omurun adı değildir."
+  }
+}
