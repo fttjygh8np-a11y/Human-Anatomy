@@ -1,0 +1,29 @@
+{
+  "id": "src:wikidata",
+  "type": "dataset",
+  "citation": "Wikidata. Wikimedia Foundation.",
+  "shortLabel": "Wikidata",
+  "url": "https://www.wikidata.org/",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "notes": "Yapılandırılmış veri CC0; lisans sayfası 2026-09-25'te okundu (alıntı verifiedAt.quote).",
+    "verifiedAt": {
+      "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "date": "2026-09-25",
+      "quote": "All structured data from the main, Property, Lexeme, and EntitySchema namespaces is available under the Creative Commons CC0 License; text in the other namespaces is available under the Creative Commons Attribution-ShareAlike License"
+    }
+  },
+  "usedFor": [
+    "identifiers",
+    "relations",
+    "names:tr (ikinci kaynak)"
+  ],
+  "notes": "Kimlik eşleştirme (FMA→TA2), anatomik ilişkiler (npm run content:relations) ve TDK'da madde bulunmayan yapılar için Türkçe etiketler (npm run content:terms). Wikidata topluluk tarafından düzenlenir; buradan gelen her ad ve ilişki 'doğrulanmadı' durumundadır ve öğe kimliğiyle (Q…) kaynak gösterilir. Anlık görüntüler vendor/terminology/ altında tarih ve sha256 ile saklanır.",
+  "accessed": "2026-09-25"
+}

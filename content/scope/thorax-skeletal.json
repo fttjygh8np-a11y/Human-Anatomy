@@ -1,0 +1,280 @@
+[
+  {
+    "id": "hedef:thorax.skeletal.manubrium",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Manubrium",
+      "la": "Manubrium sterni"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Sternum"
+      }
+    ],
+    "structureId": "fma:7486",
+    "notes": "Tek (orta hat) kemik. Envanterde bütün sternum için ayrı kayıt yok; sternum manubrium, gövde ve ksifoid çıkıntı olarak üç hedefle izlenir."
+  },
+  {
+    "id": "hedef:thorax.skeletal.body_of_sternum",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Body of sternum",
+      "la": "Corpus sterni"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Sternum"
+      }
+    ],
+    "structureId": "fma:7487",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:thorax.skeletal.xiphoid_process",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Xiphoid process",
+      "la": "Processus xiphoideus"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Sternum"
+      }
+    ],
+    "structureId": "fma:7488",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_1",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "First rib",
+      "la": "Costa prima"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:7597"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_2",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Second rib",
+      "la": "Costa secunda"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:7620"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_3",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Third rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:7638"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_4",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fourth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:7749"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_5",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fifth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:7776"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_6",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Sixth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:8147"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_7",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Seventh rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:7830"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_8",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Eighth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:8120"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_9",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Ninth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:8337"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_10",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Tenth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:8418"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_11",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Eleventh rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:8499"
+  },
+  {
+    "id": "hedef:thorax.skeletal.rib_12",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Twelfth rib"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.4 The Thoracic Cage — Ribs; Rib Classifications"
+      }
+    ],
+    "structureId": "fma:8515"
+  }
+]

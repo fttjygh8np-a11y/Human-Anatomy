@@ -35,4 +35,22 @@ export interface SearchService {
   search(query: string, opts?: SearchOptions): SearchHit[]
   /** Autocomplete suggestions (prefix-oriented). */
   suggest(query: string, limit?: number): SearchHit[]
+  /**
+   * How a query is understood (normalized terms, side words turned into a laterality
+   * filter). Lets the UI show e.g. "Sol taraf filtresi uygulandı". Optional for mocks.
+   */
+  parseQuery?(query: string): ParsedQuery
+}
+
+export interface ParsedQuery {
+  /** Normalized search terms (side words removed). */
+  terms: string[]
+  /**
+   * Laterality implied by side words in the query ("sol"/"left"/"sinister",
+   * "sağ"/"right"/"dexter", ...); null when the query names no side, or when the
+   * side word is the whole query (then it is searched as text).
+   */
+  laterality: Array<'left' | 'right'> | null
+  /** Normalized side words that were removed from the text. */
+  sideTerms: string[]
 }

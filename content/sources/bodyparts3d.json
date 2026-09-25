@@ -1,0 +1,31 @@
+{
+  "id": "src:bodyparts3d",
+  "type": "model_library",
+  "citation": "BodyParts3D. Database Center for Life Science (DBCLS), Japonya.",
+  "shortLabel": "BodyParts3D (DBCLS)",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": true,
+    "nonCommercial": false,
+    "notes": "Lisans sayfası 2026-09-25'te okundu (alıntı verifiedAt.quote alanında): veritabanı CC BY 4.0 ile lisanslı, son güncelleme 2025/02/27. İndirilen 4.0 sürümü OBJ dosyalarının başlıkları ise daha eski CC BY-SA 2.1 JP beyanını taşıyor. Güncel lisans CC BY 4.0 olsa da iki beyanla da uyumlu kalmak için türetilmiş GLB'ler CC BY-SA 4.0 ve yukarıdaki atıf metniyle dağıtılır (shareAlike: true). Hukuki inceleme yapılmadı.",
+    "verifiedAt": {
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "date": "2026-09-25",
+      "quote": "Last updated : 2025/02/27 … The license for this database is specified in the Creative Commons Attribution 4.0 International. If you use data from this database, please be sure attribute this database as follows: \"BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International\"."
+    }
+  },
+  "usedFor": [
+    "geometry",
+    "names:en (doğrulanmamış)",
+    "fma-mapping"
+  ],
+  "notes": "Veri: isa_BP3D_4.0_obj_99.zip ve ilişki dosyaları (https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/), 2026-09-24'te indirildi; sha256 değerleri vendor/bodyparts3d/manifest.json'da. Yalnızca erkek modeli içerir. BodyParts3D İngilizce adları terminoloji standardı değildir; Latince adlar TA2'den ayrıca eklenir.",
+  "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/desc.html",
+  "version": "4.0",
+  "accessed": "2026-09-25"
+}

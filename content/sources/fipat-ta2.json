@@ -1,0 +1,24 @@
+{
+  "id": "src:fipat-ta2",
+  "type": "terminology",
+  "citation": "Federative International Programme for Anatomical Terminology (FIPAT). Terminologia Anatomica, 2. baskı (TA2).",
+  "shortLabel": "TA2 (FIPAT)",
+  "url": "https://fipat.library.dal.ca/",
+  "edition": "2. baskı",
+  "license": {
+    "id": "all-rights-reserved-cite-only",
+    "allowsUse": true,
+    "allowsModification": false,
+    "allowsRedistribution": false,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "notes": "Lisans koşulları bu oturumda birincil kaynaktan okunmadı. Uygulamada yalnızca tekil anatomik terimler atıfla kullanılır; TA2 listesi veya belgelerinin bütünü ya da büyük bölümleri kopyalanıp dağıtılmaz."
+  },
+  "usedFor": [
+    "names:la",
+    "names:en",
+    "scope-basis"
+  ],
+  "notes": "Adlandırmada temel referans (docs/gereksinimler.md §3). Gereksinim belgesinde verilen ön bölüm (front matter) PDF'i: https://fipat.library.dal.ca/wp-content/uploads/2021/08/FIPAT-TA2-Front-Matter.pdf. Yayın yılı, sürüm ve erişim tarihi bu oturumda doğrulanmadı ve bu nedenle girilmedi. Bir terim 'verified' olarak işaretlenirken locator alanına TA2 kimlik numarası (TA2 ID) yazılmalıdır. Terimler 2026-09-25'te OpenAnatomy TA2 Viewer'da (https://ta2viewer.openanatomy.org/) yayımlanan TA2 listesinden (7112 terim) okundu; anlık görüntünün sha256 değeri ve tarihi vendor/terminology/ta2.json'da (npm run content:terms). Her ad TA2 kimlik numarasıyla (locator: 'TA2 ID n') kaynaklanır. Adlar bir anatomi uzmanı tarafından TA2 ile karşılaştırılana kadar 'doğrulanmadı' durumunda kalır.",
+  "accessed": "2026-09-25"
+}

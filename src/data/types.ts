@@ -81,7 +81,7 @@ export interface ContentIndex extends VisibilityGraph {
   structureForNode(assetId: string, node: string): StructureId | undefined
   /** Assets needed to display a structure. */
   assetsFor(id: StructureId): string[]
-  /** Display name in the requested language with graceful fallback (tr -> en). */
+  /** Display name in the requested language with graceful fallback (tr -> la -> en). */
   displayName(id: StructureId, lang?: 'tr' | 'la' | 'en'): string
   /** Review records for a target. */
   reviewsFor(targetId: string): ReviewRecord[]

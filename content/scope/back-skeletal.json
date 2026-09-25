@@ -1,0 +1,346 @@
+[
+  {
+    "id": "hedef:back.skeletal.thoracic_1",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "First thoracic vertebra",
+      "la": "Vertebra thoracica prima"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9165",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_2",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Second thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9187",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_3",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Third thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9209",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_4",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Fourth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9248",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_5",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Fifth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9922",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_6",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Sixth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9945",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_7",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Seventh thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9968",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_8",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Eighth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:9991",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_9",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Ninth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:10014",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_10",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Tenth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:10037",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_11",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Eleventh thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:10059",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.thoracic_12",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Twelfth thoracic vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Thoracic Vertebrae"
+      }
+    ],
+    "structureId": "fma:10081",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.lumbar_1",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "First lumbar vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Lumbar Vertebrae"
+      }
+    ],
+    "structureId": "fma:13072",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.lumbar_2",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Second lumbar vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Lumbar Vertebrae"
+      }
+    ],
+    "structureId": "fma:13073",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.lumbar_3",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Third lumbar vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Lumbar Vertebrae"
+      }
+    ],
+    "structureId": "fma:13074",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.lumbar_4",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Fourth lumbar vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Lumbar Vertebrae"
+      }
+    ],
+    "structureId": "fma:13075",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.lumbar_5",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Fifth lumbar vertebra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Lumbar Vertebrae"
+      }
+    ],
+    "structureId": "fma:13076",
+    "notes": "Tek (orta hat) kemik."
+  },
+  {
+    "id": "hedef:back.skeletal.sacrum",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Sacrum",
+      "la": "Os sacrum"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Sacrum and Coccyx"
+      }
+    ],
+    "structureId": "fma:16202",
+    "notes": "Tek (orta hat) kemik. Sakrum hem omurganın (7.3) hem pelvisin (8.3) parçasıdır; omurga hedefleriyle birlikte sırt bölgesine konuldu."
+  }
+]

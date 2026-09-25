@@ -1,0 +1,464 @@
+[
+  {
+    "id": "lesson:ust-ekstremite.1-omuz-kusagi",
+    "title": "Omuz kuşağı: klavikula ve skapula",
+    "level": "basic",
+    "systems": [
+      "skeletal"
+    ],
+    "regions": [
+      "upper_limb",
+      "shoulder"
+    ],
+    "objectives": [
+      {
+        "id": "o1",
+        "text": "Omuz kuşağını oluşturan iki kemiği adlandırmak."
+      },
+      {
+        "id": "o2",
+        "text": "Klavikula ve skapulanın eklem yaptığı yapıları söylemek."
+      },
+      {
+        "id": "o3",
+        "text": "Skapulanın başlıca kenar, köşe ve çıkıntılarını tanımak."
+      }
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Omuz kuşağı",
+        "body": "Üst ekstremiteyi gövde iskeletine bağlayan omuz kuşağı iki kemikten oluşur: önde klavikula, arkada skapula. Sağ ve sol omuz kuşakları birbirine bağlı değildir; bu, her iki tarafın bağımsız ve geniş hareket etmesini sağlar.",
+        "focus": [
+          "fma:13322",
+          "fma:13395"
+        ],
+        "show": [
+          "fma:13322",
+          "fma:13395",
+          "fma:23130"
+        ],
+        "isolate": false,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s2",
+        "title": "Klavikula",
+        "body": "S biçimli klavikula vücutta yatay uzanan tek uzun kemiktir. Medial (sternal) ucu sternumun manubriumu ile sternoklaviküler eklemi, lateral (akromiyal) ucu skapulanın akromionu ile akromiyoklaviküler eklemi yapar. Sternoklaviküler eklem, üst ekstremite ile aksiyel iskelet arasındaki tek kemik eklemdir.",
+        "focus": [
+          "fma:13322"
+        ],
+        "show": [
+          "fma:13322"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Clavicle"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s3",
+        "title": "Skapula: arka yüz",
+        "body": "Skapula yassı, üçgen bir kemiktir ve kaburgalarla eklem yapmaz. Arka yüzünde spina scapulae uzanır; bunun lateral uzantısı akromiondur. Spinanın üstünde fossa supraspinata, altında fossa infraspinata bulunur.",
+        "focus": [
+          "fma:13395"
+        ],
+        "show": [
+          "fma:13395"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ],
+        "camera": "posterior"
+      },
+      {
+        "id": "s4",
+        "title": "Skapula: ön yüz ve eklem yüzü",
+        "body": "Ön yüzü fossa subscapularis'i oluşturur. Üst-lateral köşedeki sığ cavitas glenoidalis humerus başıyla omuz eklemini yapar. Processus coracoideus öne doğru uzanır ve güçlü bir bağla klavikulaya tutunur.",
+        "focus": [
+          "fma:13395"
+        ],
+        "show": [
+          "fma:13395"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s5",
+        "title": "Omuz kuşağının eklemleri",
+        "body": "Klavikula, akromion ve spina scapulae birlikte boyun, sırt ve omuz kaslarına tutunma sağlayan V biçimli bir hat oluşturur. Humerus başı skapulanın cavitas glenoidalis'iyle omuz eklemini yapar.",
+        "focus": [
+          "fma:13322",
+          "fma:13395",
+          "fma:23130"
+        ],
+        "show": [
+          "fma:13322",
+          "fma:13395",
+          "fma:23130"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle"
+          }
+        ],
+        "camera": "anterior"
+      }
+    ],
+    "review": "draft",
+    "provenance": "author:ai-draft"
+  },
+  {
+    "id": "lesson:ust-ekstremite.2-kol-onkol",
+    "title": "Kol ve önkol kemikleri",
+    "level": "basic",
+    "systems": [
+      "skeletal"
+    ],
+    "regions": [
+      "upper_limb",
+      "arm",
+      "forearm"
+    ],
+    "objectives": [
+      {
+        "id": "o1",
+        "text": "Humerusun proksimal ve distal bölümlerini tanımak."
+      },
+      {
+        "id": "o2",
+        "text": "Ulna ve radiusun önkoldaki konumlarını ayırt etmek."
+      },
+      {
+        "id": "o3",
+        "text": "Dirsek ve radioulnar eklemleri oluşturan yüzeyleri söylemek."
+      }
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Üst ekstremitenin bölgeleri",
+        "body": "Üst ekstremite kol (omuz–dirsek), önkol (dirsek–el bileği) ve el olmak üzere üç bölgeye ayrılır ve her birinde toplam 30 kemik vardır. Kolda humerus, önkolda medialde ulna ve lateralde radius bulunur.",
+        "focus": [
+          "fma:23130",
+          "fma:23467",
+          "fma:23464"
+        ],
+        "show": [
+          "fma:23130",
+          "fma:23467",
+          "fma:23464"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s2",
+        "title": "Humerus: proksimal uç",
+        "body": "Proksimalde yuvarlak caput humeri skapulayla omuz eklemini yapar. Tuberculum majus ve minus kas tutunma yerleridir; aralarındaki sulcus intertubercularis'ten biceps brachii'nin bir tendonu geçer. Collum chirurgicum sık kırık görülen bölgedir.",
+        "focus": [
+          "fma:23130"
+        ],
+        "show": [
+          "fma:23130"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Humerus"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s3",
+        "title": "Humerus: distal uç",
+        "body": "Distalde medialde belirgin epicondylus medialis, lateralde daha küçük epicondylus lateralis bulunur. Trochlea ulna ile, capitulum radius ile eklemleşir; üstlerindeki fossa coronoidea, fossa radialis ve arkadaki fossa olecrani dirsek hareketlerinde önkol kemiklerini karşılar.",
+        "focus": [
+          "fma:23130"
+        ],
+        "show": [
+          "fma:23130"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Humerus"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s4",
+        "title": "Ulna",
+        "body": "Ulna önkolun medial kemiğidir. Proksimaldeki C biçimli incisura trochlearis humerusun trochlea'sıyla dirsek eklemine katılır; arka-üst bölümü dirseğin kemik ucunu yapan olecranondur. Distal ucu karpal kemiklerle doğrudan eklem yapmaz.",
+        "focus": [
+          "fma:23467"
+        ],
+        "show": [
+          "fma:23467",
+          "fma:23464"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Ulna"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s5",
+        "title": "Radius",
+        "body": "Radius önkolun lateral (başparmak tarafı) kemiğidir. Disk biçimli başı capitulum ile dirsek eklemine katılır ve ulnanın incisura radialis'i ile proksimal radioulnar eklemi yapar. Distal ucu skafoid ve lunat ile radiokarpal (el bileği) eklemini oluşturur.",
+        "focus": [
+          "fma:23464"
+        ],
+        "show": [
+          "fma:23467",
+          "fma:23464"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Radius"
+          }
+        ],
+        "camera": "anterior"
+      }
+    ],
+    "review": "draft",
+    "provenance": "author:ai-draft"
+  },
+  {
+    "id": "lesson:ust-ekstremite.3-el-iskeleti",
+    "title": "El bileği ve el kemikleri",
+    "level": "basic",
+    "systems": [
+      "skeletal"
+    ],
+    "regions": [
+      "upper_limb",
+      "hand"
+    ],
+    "objectives": [
+      {
+        "id": "o1",
+        "text": "Sekiz karpal kemiği iki sıra hâlinde lateralden mediale saymak."
+      },
+      {
+        "id": "o2",
+        "text": "Metakarpal kemiklerin numaralandırılmasını açıklamak."
+      },
+      {
+        "id": "o3",
+        "text": "Parmaklardaki falanks sayısını söylemek."
+      }
+    ],
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Proksimal karpal sıra",
+        "body": "El bileğinin proksimal sırası lateralden mediale skafoid, lunat, triquetrum ve pisiformdan oluşur. Radiokarpal ekleme skafoid, lunat ve triquetrum katılır; pisiform triquetrumun ön yüzüyle eklemleşir.",
+        "focus": [
+          "fma:24435",
+          "fma:24437",
+          "fma:24439",
+          "fma:24441"
+        ],
+        "show": [
+          "fma:24435",
+          "fma:24437",
+          "fma:24439",
+          "fma:24441",
+          "fma:24443",
+          "fma:23725",
+          "fma:24446",
+          "fma:24448"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s2",
+        "title": "Distal karpal sıra",
+        "body": "Distal sıra lateralden mediale trapezium, trapezoid, kapitat ve hamattır. Hamatın ön yüzünde belirgin bir kanca (hamulus) vardır. Distal karpal kemikler metakarpal kemiklerle eklem yapar.",
+        "focus": [
+          "fma:24443",
+          "fma:23725",
+          "fma:24446",
+          "fma:24448"
+        ],
+        "show": [
+          "fma:24435",
+          "fma:24437",
+          "fma:24439",
+          "fma:24441",
+          "fma:24443",
+          "fma:23725",
+          "fma:24446",
+          "fma:24448"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s3",
+        "title": "Karpal tünel",
+        "body": "Karpal kemikler U biçimli bir oluk oluşturur; üstünü fleksör retinakulum kapatarak karpal tüneli yapar. Tünel içindeki şişlik, buradan geçen sinirin sıkışmasına (karpal tünel sendromu) yol açabilir.",
+        "focus": [
+          "fma:24435",
+          "fma:24443",
+          "fma:24448",
+          "fma:24441"
+        ],
+        "show": [
+          "fma:24435",
+          "fma:24437",
+          "fma:24439",
+          "fma:24441",
+          "fma:24443",
+          "fma:23725",
+          "fma:24446",
+          "fma:24448"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s4",
+        "title": "Metakarpal kemikler",
+        "body": "Avucu beş metakarpal kemik oluşturur ve başparmaktan başlayarak 1–5 diye numaralanır. Birinci metakarpal diğerlerinden ayrıdır ve serbestçe hareket eder; ikinci ve üçüncü sabittir, dördüncü ve beşinci sınırlı hareket eder.",
+        "focus": [
+          "fma:24464",
+          "fma:24466",
+          "fma:24468",
+          "fma:24470",
+          "fma:24472"
+        ],
+        "show": [
+          "fma:24464",
+          "fma:24466",
+          "fma:24468",
+          "fma:24470",
+          "fma:24472",
+          "fma:24443",
+          "fma:23725",
+          "fma:24446",
+          "fma:24448"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ],
+        "camera": "anterior"
+      },
+      {
+        "id": "s5",
+        "title": "Falankslar",
+        "body": "Parmaklarda toplam 14 falanks vardır. Başparmakta proksimal ve distal olmak üzere iki, diğer parmaklarda proksimal, orta ve distal olmak üzere üçer falanks bulunur. Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir.",
+        "focus": [
+          "fma:24450",
+          "fma:24451",
+          "fma:24452",
+          "fma:24453",
+          "fma:24454",
+          "fma:24455",
+          "fma:24456",
+          "fma:24457",
+          "fma:24458",
+          "fma:24459",
+          "fma:24460",
+          "fma:24461",
+          "fma:24462",
+          "fma:24463"
+        ],
+        "show": [
+          "fma:24464",
+          "fma:24466",
+          "fma:24468",
+          "fma:24470",
+          "fma:24472",
+          "fma:24450",
+          "fma:24451",
+          "fma:24452",
+          "fma:24453",
+          "fma:24454",
+          "fma:24455",
+          "fma:24456",
+          "fma:24457",
+          "fma:24458",
+          "fma:24459",
+          "fma:24460",
+          "fma:24461",
+          "fma:24462",
+          "fma:24463"
+        ],
+        "isolate": true,
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ],
+        "camera": "anterior"
+      }
+    ],
+    "review": "draft",
+    "provenance": "author:ai-draft"
+  }
+]

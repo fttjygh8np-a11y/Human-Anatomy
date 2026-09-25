@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "fma:20289",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lacrimal sac",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA20289)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "20289"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:59546, fma:59545 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:46280",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Superior oblique part of longus colli",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA46280)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46280"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:46284 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:46281",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Inferior oblique part of longus colli",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA46281)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46281"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:46288 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:46284",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Superior oblique part of left longus colli",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1600"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46284",
+      "bp3dRepresentation": "FJ1600"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "genericId": "fma:46280",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1600). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:46288",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Inferior oblique part of left longus colli",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1557"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46288",
+      "bp3dRepresentation": "FJ1557"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "genericId": "fma:46281",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1557). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:49065",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Trochlea of superior oblique",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA49065)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49065"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:49068, fma:49067 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:49067",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Trochlea of right superior oblique",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1380"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49067",
+      "bp3dRepresentation": "FJ1380"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:49068",
+    "genericId": "fma:49065",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1380). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:49068",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Trochlea of left superior oblique",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1329"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49068",
+      "bp3dRepresentation": "FJ1329"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:49067",
+    "genericId": "fma:49065",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1329). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:49143",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Check ligament of lateral rectus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA49143)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49143"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:49145, fma:49144 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:49144",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Check ligament of right lateral rectus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1334"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49144",
+      "bp3dRepresentation": "FJ1334"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:49145",
+    "genericId": "fma:49143",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1334). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:49145",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Check ligament of left lateral rectus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1284"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49145",
+      "bp3dRepresentation": "FJ1284"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:49144",
+    "genericId": "fma:49143",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1284). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:49146",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Check ligament of medial rectus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA49146)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49146"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:49148, fma:49147 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:49147",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Check ligament of right medial rectus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1335"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49147",
+      "bp3dRepresentation": "FJ1335"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:49148",
+    "genericId": "fma:49146",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1335). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:49148",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Check ligament of left medial rectus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1292"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "49148",
+      "bp3dRepresentation": "FJ1292"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:49147",
+    "genericId": "fma:49146",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1292). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:54158",
+    "schemaVersion": 1,
+    "kind": "tendon",
+    "names": {
+      "en": {
+        "value": "Tendon of levator palpebrae superioris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA54158)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "54158"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:54159 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:54159",
+    "schemaVersion": 1,
+    "kind": "tendon",
+    "names": {
+      "en": {
+        "value": "Tendon of right levator palpebrae superioris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1343"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "54159",
+      "bp3dRepresentation": "FJ1343"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "genericId": "fma:54158",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1343). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:58081",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Anterior chamber of right eyeball",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1332"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "58081",
+      "bp3dRepresentation": "FJ1332"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:58082",
+    "genericId": "fma:58078",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1332). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:58245",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lacrimal canaliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA58245)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "58245"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:59583, fma:59582 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:58604",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Optic part of retina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA58604)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "58604"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:58608, fma:58607 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:58607",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Optic part of right retina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1367"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "58607",
+      "bp3dRepresentation": "FJ1367"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:58608",
+    "genericId": "fma:58604",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1367). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:58608",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Optic part of left retina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1316"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "58608",
+      "bp3dRepresentation": "FJ1316"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:58607",
+    "genericId": "fma:58604",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1316). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59402",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lacrimal lake",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA59402)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59402"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:59542, fma:59541 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:59541",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lacrimal lake",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1352"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59541",
+      "bp3dRepresentation": "FJ1352"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:59542",
+    "genericId": "fma:59402",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1352). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59542",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lacrimal lake",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1301"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59542",
+      "bp3dRepresentation": "FJ1301"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:59541",
+    "genericId": "fma:59402",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1301). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59545",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lacrimal sac",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1360"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59545",
+      "bp3dRepresentation": "FJ1360"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:59546",
+    "genericId": "fma:20289",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1360). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59546",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lacrimal sac",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1309"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59546",
+      "bp3dRepresentation": "FJ1309"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:59545",
+    "genericId": "fma:20289",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1309). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59582",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lacrimal canaliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1349"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59582",
+      "bp3dRepresentation": "FJ1349"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:59583",
+    "genericId": "fma:58245",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1349). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59583",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lacrimal canaliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1298"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59583",
+      "bp3dRepresentation": "FJ1298"
+    },
+    "systems": [
+      "sensory"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:59582",
+    "genericId": "fma:58245",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1298). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  }
+]

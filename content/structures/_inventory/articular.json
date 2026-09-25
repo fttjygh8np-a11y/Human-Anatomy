@@ -1,0 +1,932 @@
+[
+  {
+    "id": "fma:23706",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Interosseous membrane of forearm",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA23706)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "23706"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "upper_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:23707, fma:23708 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:23707",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Interosseous membrane of right forearm",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1476"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "23707",
+      "bp3dRepresentation": "FJ1476"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "upper_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:23708",
+    "genericId": "fma:23706",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1476). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:23708",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Interosseous membrane of left forearm",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1476M"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "23708",
+      "bp3dRepresentation": "FJ1476M"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "upper_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:23707",
+    "genericId": "fma:23706",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1476M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:35187",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Interosseous membrane of leg",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA35187)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "35187"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "lower_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:35192, fma:35193 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:35192",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Interosseous membrane of right leg",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1392"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "35192",
+      "bp3dRepresentation": "FJ1392"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "lower_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:35193",
+    "genericId": "fma:35187",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1392). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:35193",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Interosseous membrane of left leg",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1392M"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "35193",
+      "bp3dRepresentation": "FJ1392M"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "lower_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:35192",
+    "genericId": "fma:35187",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1392M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:44248",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Long plantar ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA44248)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "44248"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "lower_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:44249, fma:44250 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:44249",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right long plantar ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1424"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "44249",
+      "bp3dRepresentation": "FJ1424"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "lower_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:44250",
+    "genericId": "fma:44248",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1424). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:44250",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left long plantar ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1424M"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "44250",
+      "bp3dRepresentation": "FJ1424M"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "lower_limb"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:44249",
+    "genericId": "fma:44248",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1424M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55138",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Median thyrohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2790"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55138",
+      "bp3dRepresentation": "FJ2790"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2790). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55139",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Lateral thyrohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55139)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55139"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55141, fma:55140 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55140",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right lateral thyrohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2797"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55140",
+      "bp3dRepresentation": "FJ2797"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55141",
+    "genericId": "fma:55139",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2797). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55141",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left lateral thyrohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2779"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55141",
+      "bp3dRepresentation": "FJ2779"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55140",
+    "genericId": "fma:55139",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2779). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55227",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Hyo-epiglottic ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2771"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55227",
+      "bp3dRepresentation": "FJ2771"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2771). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55230",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Thyro-epiglottic ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2807"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55230",
+      "bp3dRepresentation": "FJ2807"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2807). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55237",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Median cricothyroid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2789"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55237",
+      "bp3dRepresentation": "FJ2789"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2789). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55244",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Vocal ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55244)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55244"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55246, fma:55245 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55245",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right vocal ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2805"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55245",
+      "bp3dRepresentation": "FJ2805"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:55246",
+    "genericId": "fma:55244",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2805). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55246",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left vocal ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2787"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55246",
+      "bp3dRepresentation": "FJ2787"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:55245",
+    "genericId": "fma:55244",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2787). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72308",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Stylohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA72308)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72308"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:72311, fma:72309 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:72309",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right stylohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2764"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72309",
+      "bp3dRepresentation": "FJ2764"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72311",
+    "genericId": "fma:72308",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2764). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72311",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left stylohyoid ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2763"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72311",
+      "bp3dRepresentation": "FJ2763"
+    },
+    "systems": [
+      "articular"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72309",
+    "genericId": "fma:72308",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2763). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  }
+]

@@ -1,0 +1,5836 @@
+[
+  {
+    "id": "fma:10419",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Pancreatic duct",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1896"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "10419",
+      "bp3dRepresentation": "FJ1896"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1896). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:11338",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Ileocecal junction",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2599"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "11338",
+      "bp3dRepresentation": "FJ2599"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2599). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:13365",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Caudate lobe of liver",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2816"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "13365",
+      "bp3dRepresentation": "FJ2816"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2816). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14337",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Hepatic vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA14337)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14337"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:14339, fma:14338 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:14338",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right hepatic vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2416"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14338",
+      "bp3dRepresentation": "FJ2416"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:14339",
+    "genericId": "fma:14337",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2416). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14339",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left hepatic vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2415"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14339",
+      "bp3dRepresentation": "FJ2415"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:14338",
+    "genericId": "fma:14337",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2415). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14539",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Cystic duct",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3080"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14539",
+      "bp3dRepresentation": "FJ3080"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3080). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14542",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Appendix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2565"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14542",
+      "bp3dRepresentation": "FJ2565"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2565). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14544",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Rectum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2571"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14544",
+      "bp3dRepresentation": "FJ2571"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2571). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14545",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Ascending colon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2566"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14545",
+      "bp3dRepresentation": "FJ2566"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2566). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14546",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Transverse colon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2572"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14546",
+      "bp3dRepresentation": "FJ2572"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2572). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14547",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Descending colon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2567"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14547",
+      "bp3dRepresentation": "FJ2567"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2567). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14643",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Mesentery of small intestine",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3396"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14643",
+      "bp3dRepresentation": "FJ3396"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3396). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14647",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Transverse mesocolon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3398"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14647",
+      "bp3dRepresentation": "FJ3398"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3398). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14668",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Common hepatic duct",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3079"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14668",
+      "bp3dRepresentation": "FJ3079"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3079). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14669",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right hepatic duct",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3123"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14669",
+      "bp3dRepresentation": "FJ3123"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:14670",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3123). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14670",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left hepatic duct",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3096"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14670",
+      "bp3dRepresentation": "FJ3096"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:14669",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3096). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14772",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Hepatic artery proper",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3081"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14772",
+      "bp3dRepresentation": "FJ3081"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3081). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14964",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Proximal part of ileum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2574, FJ2575, FJ2585, FJ2596, FJ2600, FJ2601, FJ2602, FJ2603, FJ2604, FJ2605"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14964",
+      "bp3dRepresentation": "FJ2574"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2574, FJ2575, FJ2585, FJ2596, FJ2600, FJ2601, FJ2602, FJ2603, FJ2604, FJ2605). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14965",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Middle part of ileum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2576, FJ2577, FJ2578, FJ2579, FJ2580, FJ2581, FJ2582, FJ2583, FJ2584, FJ2586"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14965",
+      "bp3dRepresentation": "FJ2576"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2576, FJ2577, FJ2578, FJ2579, FJ2580, FJ2581, FJ2582, FJ2583, FJ2584, FJ2586). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:14966",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Distal part of ileum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2587, FJ2588, FJ2589, FJ2590, FJ2591, FJ2592, FJ2593, FJ2594, FJ2595, FJ2597, FJ2598"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14966",
+      "bp3dRepresentation": "FJ2587"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2587, FJ2588, FJ2589, FJ2590, FJ2591, FJ2592, FJ2593, FJ2594, FJ2595, FJ2597, FJ2598). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15042",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Taenia mesocolica",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2569"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15042",
+      "bp3dRepresentation": "FJ2569"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2569). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15043",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Taenia omentalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2570"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15043",
+      "bp3dRepresentation": "FJ2570"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2570). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15044",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Taenia libera",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2568"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15044",
+      "bp3dRepresentation": "FJ2568"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2568). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15414",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1913, FJ2405"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15414",
+      "bp3dRepresentation": "FJ1913"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:15415",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1913, FJ2405). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15415",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1893, FJ2404"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15415",
+      "bp3dRepresentation": "FJ1893"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:15414",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1893, FJ2404). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15420",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Anterior superior segmental branch of right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3073"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15420",
+      "bp3dRepresentation": "FJ3073"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3073). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15421",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Anterior inferior segmental branch of right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3074"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15421",
+      "bp3dRepresentation": "FJ3074"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3074). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15423",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Posterior superior segmental branch of right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3112, FJ3113"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15423",
+      "bp3dRepresentation": "FJ3112"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3112, FJ3113). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15424",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Posterior inferior segmental branch of right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3111"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15424",
+      "bp3dRepresentation": "FJ3111"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3111). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15425",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Caudate lobe branch of left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3124"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15425",
+      "bp3dRepresentation": "FJ3124"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:82706",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3124). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15428",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Medial superior segmental branch of left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3127"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15428",
+      "bp3dRepresentation": "FJ3127"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3127). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15429",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Medial inferior segmental branch of left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3128"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15429",
+      "bp3dRepresentation": "FJ3128"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3128). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15431",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Lateral superior segmental branch of left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3126"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15431",
+      "bp3dRepresentation": "FJ3126"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3126). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15432",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Lateral inferior segmental branch of left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3125"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15432",
+      "bp3dRepresentation": "FJ3125"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3125). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15739",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment II",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2818"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15739",
+      "bp3dRepresentation": "FJ2818"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2818). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15741",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment III",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2819"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15741",
+      "bp3dRepresentation": "FJ2819"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2819). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15742",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment IV",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2820"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15742",
+      "bp3dRepresentation": "FJ2820"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2820). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15743",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment V",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2821"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15743",
+      "bp3dRepresentation": "FJ2821"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2821). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15744",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment VI",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2822"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15744",
+      "bp3dRepresentation": "FJ2822"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2822). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15745",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment VII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2409"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15745",
+      "bp3dRepresentation": "FJ2409"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2409). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15746",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hepatovenous segment VIII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2823, FJ2824"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15746",
+      "bp3dRepresentation": "FJ2823"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2823, FJ2824). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:15800",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Anterior inferior segmental tributary of middle hepatic vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3083, FJ3086"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "15800",
+      "bp3dRepresentation": "FJ3083"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3083, FJ3086). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:16549",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Mesoappendix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3397"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "16549",
+      "bp3dRepresentation": "FJ3397"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3397). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:16981",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Proximal part of jejunum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2606, FJ2617, FJ2622, FJ2623, FJ2624, FJ2625, FJ2626, FJ2627"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "16981",
+      "bp3dRepresentation": "FJ2606"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2606, FJ2617, FJ2622, FJ2623, FJ2624, FJ2625, FJ2626, FJ2627). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:16982",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Middle part of jejunum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2607, FJ2608, FJ2609, FJ2610, FJ2628"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "16982",
+      "bp3dRepresentation": "FJ2607"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2607, FJ2608, FJ2609, FJ2610, FJ2628). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:16983",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Distal part of jejunum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2611, FJ2612, FJ2613, FJ2614, FJ2615, FJ2616, FJ2618, FJ2619, FJ2620, FJ2621"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "16983",
+      "bp3dRepresentation": "FJ2611"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2611, FJ2612, FJ2613, FJ2614, FJ2615, FJ2616, FJ2618, FJ2619, FJ2620, FJ2621). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:46727",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Levator veli palatini",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA46727)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46727"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:46729, fma:46728 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:46728",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right levator veli palatini",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2753"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46728",
+      "bp3dRepresentation": "FJ2753"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:46729",
+    "genericId": "fma:46727",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2753). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:46729",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left levator veli palatini",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2741"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46729",
+      "bp3dRepresentation": "FJ2741"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:46728",
+    "genericId": "fma:46727",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2741). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:46730",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Tensor veli palatini",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA46730)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46730"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:46732, fma:46731 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:46731",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right tensor veli palatini",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2760"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46731",
+      "bp3dRepresentation": "FJ2760"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:46732",
+    "genericId": "fma:46730",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2760). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:46732",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left tensor veli palatini",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2748"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46732",
+      "bp3dRepresentation": "FJ2748"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:46731",
+    "genericId": "fma:46730",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2748). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:46733",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Uvular muscle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2762"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "46733",
+      "bp3dRepresentation": "FJ2762"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2762). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:54640",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Tongue",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2761"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "54640",
+      "bp3dRepresentation": "FJ2761"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2761). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55077",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Pharyngeal raphe",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2749"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55077",
+      "bp3dRepresentation": "FJ2749"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2749). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55093",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Submandibular gland",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55093)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55093"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:59803, fma:59802 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55680",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper lateral secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1280"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55680",
+      "bp3dRepresentation": "FJ1280"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55683",
+    "genericId": "fma:55724",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1280). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55681",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper central secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1279"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55681",
+      "bp3dRepresentation": "FJ1279"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55682",
+    "genericId": "fma:55722",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1279). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55682",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper central secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1265"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55682",
+      "bp3dRepresentation": "FJ1265"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55681",
+    "genericId": "fma:55722",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1265). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55683",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper lateral secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1266"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55683",
+      "bp3dRepresentation": "FJ1266"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55680",
+    "genericId": "fma:55724",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1266). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55686",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower secondary canine tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1274"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55686",
+      "bp3dRepresentation": "FJ1274"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55687",
+    "genericId": "fma:55715",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1274). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55687",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower secondary canine tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1260"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55687",
+      "bp3dRepresentation": "FJ1260"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55686",
+    "genericId": "fma:55715",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1260). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55688",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper second secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1278"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55688",
+      "bp3dRepresentation": "FJ1278"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55691",
+    "genericId": "fma:55802",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1278). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55689",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper first secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1277"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55689",
+      "bp3dRepresentation": "FJ1277"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55690",
+    "genericId": "fma:55801",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1277). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55690",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper first secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1262"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55690",
+      "bp3dRepresentation": "FJ1262"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55689",
+    "genericId": "fma:55801",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1262). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55691",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper second secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1264"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55691",
+      "bp3dRepresentation": "FJ1264"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55688",
+    "genericId": "fma:55802",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1264). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55692",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower second secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1257"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55692",
+      "bp3dRepresentation": "FJ1257"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55695",
+    "genericId": "fma:55804",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1257). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55693",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower first secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1255"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55693",
+      "bp3dRepresentation": "FJ1255"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55694",
+    "genericId": "fma:55803",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1255). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55694",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower first secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1269"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55694",
+      "bp3dRepresentation": "FJ1269"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55693",
+    "genericId": "fma:55803",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1269). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55695",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower second secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1271"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55695",
+      "bp3dRepresentation": "FJ1271"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55692",
+    "genericId": "fma:55804",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1271). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55697",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper second secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1275"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55697",
+      "bp3dRepresentation": "FJ1275"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55700",
+    "genericId": "fma:55812",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1275). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55698",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper first secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1276"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55698",
+      "bp3dRepresentation": "FJ1276"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55699",
+    "genericId": "fma:55811",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1276). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55699",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper first secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1261"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55699",
+      "bp3dRepresentation": "FJ1261"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55698",
+    "genericId": "fma:55811",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1261). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55700",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper second secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1263"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55700",
+      "bp3dRepresentation": "FJ1263"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55697",
+    "genericId": "fma:55812",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1263). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55703",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower second secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1256"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55703",
+      "bp3dRepresentation": "FJ1256"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55706",
+    "genericId": "fma:55815",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1256). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55704",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower first secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1254"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55704",
+      "bp3dRepresentation": "FJ1254"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55705",
+    "genericId": "fma:55814",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1254). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55705",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower first secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1268"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55705",
+      "bp3dRepresentation": "FJ1268"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55704",
+    "genericId": "fma:55814",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1268). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55706",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower second secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1270"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55706",
+      "bp3dRepresentation": "FJ1270"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55703",
+    "genericId": "fma:55815",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1270). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55714",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper secondary canine tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55714)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55714"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55799, fma:55798 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55715",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower secondary canine tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55715)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55715"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55687, fma:55686 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55722",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper central secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55722)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55722"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55682, fma:55681 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55723",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower central secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55723)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55723"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:57143, fma:57142 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55724",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper lateral secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55724)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55724"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55683, fma:55680 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55725",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower lateral secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55725)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55725"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:57141, fma:57140 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55798",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right upper secondary canine tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1281"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55798",
+      "bp3dRepresentation": "FJ1281"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55799",
+    "genericId": "fma:55714",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1281). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55799",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left upper secondary canine tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1267"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55799",
+      "bp3dRepresentation": "FJ1267"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55798",
+    "genericId": "fma:55714",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1267). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55801",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper first secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55801)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55801"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55690, fma:55689 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55802",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper second secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55802)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55802"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55691, fma:55688 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55803",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower first secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55803)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55803"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55693, fma:55694 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55804",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower second secondary premolar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55804)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55804"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55692, fma:55695 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55811",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper first secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55811)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55811"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55699, fma:55698 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55812",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper second secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55812)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55812"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55700, fma:55697 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55814",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower first secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55814)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55814"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55704, fma:55705 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:55815",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower second secondary molar tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA55815)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55815"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55703, fma:55706 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:57140",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower lateral secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1273"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "57140",
+      "bp3dRepresentation": "FJ1273"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:57141",
+    "genericId": "fma:55725",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1273). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:57141",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower lateral secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1259"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "57141",
+      "bp3dRepresentation": "FJ1259"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:57140",
+    "genericId": "fma:55725",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1259). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:57142",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lower central secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1272"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "57142",
+      "bp3dRepresentation": "FJ1272"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:57143",
+    "genericId": "fma:55723",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1272). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:57143",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lower central secondary incisor tooth",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1258"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "57143",
+      "bp3dRepresentation": "FJ1258"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:57142",
+    "genericId": "fma:55723",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1258). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59763",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Gingiva of upper jaw",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1252"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59763",
+      "bp3dRepresentation": "FJ1252"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1252). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59764",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Gingiva of lower jaw",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1253"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59764",
+      "bp3dRepresentation": "FJ1253"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1253). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59791",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Sublingual gland",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA59791)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59791"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:59805, fma:59804 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:59802",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right submandibular gland",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2768"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59802",
+      "bp3dRepresentation": "FJ2768"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:59803",
+    "genericId": "fma:55093",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2768). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59803",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left submandibular gland",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2766"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59803",
+      "bp3dRepresentation": "FJ2766"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:59802",
+    "genericId": "fma:55093",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2766). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59804",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right sublingual gland",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2767"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59804",
+      "bp3dRepresentation": "FJ2767"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:59805",
+    "genericId": "fma:59791",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2767). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:59805",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left sublingual gland",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2765"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "59805",
+      "bp3dRepresentation": "FJ2765"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:59804",
+    "genericId": "fma:59791",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2765). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:63103",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Pancreatic duct tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2630"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "63103",
+      "bp3dRepresentation": "FJ2630"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2630). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:63120",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Parenchyma of pancreas",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2629"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "63120",
+      "bp3dRepresentation": "FJ2629"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2629). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70442",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Anterior superior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3076"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70442",
+      "bp3dRepresentation": "FJ3076"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3076). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70443",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Anterior inferior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3075"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70443",
+      "bp3dRepresentation": "FJ3075"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3075). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70445",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Posterior superior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3115, FJ3116"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70445",
+      "bp3dRepresentation": "FJ3115"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3115, FJ3116). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70446",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Posterior inferior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3114"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70446",
+      "bp3dRepresentation": "FJ3114"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3114). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70447",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Caudate lobe branch of right hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1916, FJ2386"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70447",
+      "bp3dRepresentation": "FJ1916"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:70455",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1916, FJ2386). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70449",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Medial superior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3107"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70449",
+      "bp3dRepresentation": "FJ3107"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3107). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70450",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Medial inferior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3106"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70450",
+      "bp3dRepresentation": "FJ3106"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3106). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70452",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Lateral superior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3091, FJ3093"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70452",
+      "bp3dRepresentation": "FJ3091"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3091, FJ3093). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70453",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Lateral inferior segmental hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3092"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70453",
+      "bp3dRepresentation": "FJ3092"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3092). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70455",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Caudate lobe branch of left hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3077"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70455",
+      "bp3dRepresentation": "FJ3077"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:70447",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3077). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70456",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Trunk of right hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3117"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70456",
+      "bp3dRepresentation": "FJ3117"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:70457",
+    "genericId": "fma:76582",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3117). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:70457",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Trunk of left hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3095"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "70457",
+      "bp3dRepresentation": "FJ3095"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:70456",
+    "genericId": "fma:76582",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3095). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7131",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Esophagus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2563"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7131",
+      "bp3dRepresentation": "FJ2563"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2563). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7148",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Stomach",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2564"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7148",
+      "bp3dRepresentation": "FJ2564"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2564). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71867",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Anterior superior tributary of right hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3071"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71867",
+      "bp3dRepresentation": "FJ3071"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3071). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71868",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Anterior inferior tributary of right hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3072"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71868",
+      "bp3dRepresentation": "FJ3072"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3072). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71869",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Posterior superior tributary of right hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3109, FJ3110"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71869",
+      "bp3dRepresentation": "FJ3109"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3109, FJ3110). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71870",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Posterior inferior tributary of right hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3108"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71870",
+      "bp3dRepresentation": "FJ3108"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3108). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71885",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Medial superior tributary of left hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3104, FJ3105"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71885",
+      "bp3dRepresentation": "FJ3104"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3104, FJ3105). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71886",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Medial inferior tributary of left hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3103"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71886",
+      "bp3dRepresentation": "FJ3103"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3103). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71887",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lateral superior tributary of left hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3088, FJ3090"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71887",
+      "bp3dRepresentation": "FJ3088"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3088, FJ3090). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71888",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lateral inferior tributary of left hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3089"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71888",
+      "bp3dRepresentation": "FJ3089"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3089). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:71889",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Caudate lobe tributary of left hepatic biliary tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1883"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "71889",
+      "bp3dRepresentation": "FJ1883"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1883). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7198",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Pancreas",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1895"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7198",
+      "bp3dRepresentation": "FJ1895"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "midline",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1895). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7202",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Gallbladder",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2817"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7202",
+      "bp3dRepresentation": "FJ2817"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2817). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7206",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Duodenum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2573"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7206",
+      "bp3dRepresentation": "FJ2573"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2573). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:76582",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Trunk of hepatic artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "isa_inclusion_relation_list.txt (FMA76582)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "76582"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:70457, fma:70456 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:82695",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Trunk of right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3122"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "82695",
+      "bp3dRepresentation": "FJ3122"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:82697",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3122). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:82697",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Trunk of left portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3102"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "82697",
+      "bp3dRepresentation": "FJ3102"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:82695",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3102). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:82706",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Caudate lobe branch of right portal vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1914"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "82706",
+      "bp3dRepresentation": "FJ1914"
+    },
+    "systems": [
+      "digestive"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:15425",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-25",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1914). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  }
+]

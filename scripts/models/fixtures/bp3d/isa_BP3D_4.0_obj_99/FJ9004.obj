@@ -1,0 +1,34 @@
+# SYNTHETIC TEST FIXTURE - not BodyParts3D data (mimics the BP3D 4.0 OBJ layout)
+# BodyParts3D, (C) The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan
+# FJ ID: FJ9004
+# FMA ID: FMA9900004
+# English name: fifth thoracic vertebra
+# Japanese name: (not included in fixture)
+v -10 60 40
+v 20 60 40
+v -10 100 40
+v 20 100 40
+v -10 60 70
+v 20 60 70
+v -10 100 70
+v 20 100 70
+vn -0.5145 -0.686 -0.5145
+vn 0.5145 -0.686 -0.5145
+vn -0.5145 0.686 -0.5145
+vn 0.5145 0.686 -0.5145
+vn -0.5145 -0.686 0.5145
+vn 0.5145 -0.686 0.5145
+vn -0.5145 0.686 0.5145
+vn 0.5145 0.686 0.5145
+f 1//1 4//4 2//2
+f 1//1 3//3 4//4
+f 5//5 6//6 8//8
+f 5//5 8//8 7//7
+f 1//1 2//2 6//6
+f 1//1 6//6 5//5
+f 3//3 8//8 4//4
+f 3//3 7//7 8//8
+f 1//1 7//7 3//3
+f 1//1 5//5 7//7
+f 2//2 4//4 8//8
+f 2//2 8//8 6//6

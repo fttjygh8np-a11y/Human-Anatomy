@@ -1,0 +1,8 @@
+# SYNTHETIC TEST FIXTURE - not BodyParts3D data (ids FMA99xxxxx are fictitious)
+parent_id	parent_name	child_id	child_name
+FMA9900100	skeletal system	FMA9900101	skeleton of left upper limb
+FMA9900100	skeletal system	FMA9900102	skeleton of right upper limb
+FMA9900101	skeleton of left upper limb	FMA9900001	left humerus
+FMA9900102	skeleton of right upper limb	FMA9900002	right humerus
+FMA9900110	urinary system	FMA9900011	left kidney
+FMA9900110	urinary system	FMA9900012	right kidney

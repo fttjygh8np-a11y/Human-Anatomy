@@ -1,0 +1,41 @@
+{
+  "id": "src:openstax-ap2e",
+  "type": "open_textbook",
+  "citation": "Anatomy and Physiology 2e. OpenStax, Rice University. https://openstax.org/details/books/anatomy-and-physiology-2e",
+  "shortLabel": "OpenStax A&P 2e",
+  "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+  "edition": "2e",
+  "accessed": "2026-09-25",
+  "license": {
+    "id": "CC-BY-NC-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "attribution": "Anatomy and Physiology 2e, OpenStax (Rice University)",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": true,
+    "nonCommercial": true,
+    "verifiedAt": {
+      "url": "https://raw.githubusercontent.com/openstax/osbooks-anatomy-physiology/main/collections/anatomy-and-physiology-2e.collection.xml",
+      "date": "2026-09-25",
+      "quote": "<md:license url=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</md:license>"
+    },
+    "notes": "Kitap metni uygulamaya kopyalanmaz ve çevrilmez; açıklama alanları kitaptaki olguların Türkçe, kısa ve bağımsız özetleridir ve ilgili bölüm künyesiyle kaynak gösterilir. Metin veya şekil doğrudan kullanılacaksa CC BY-NC-SA 4.0 koşulları (ticari olmayan kullanım, aynı lisansla paylaşım, atıf) geçerlidir."
+  },
+  "usedFor": [
+    "content:summary",
+    "content:description",
+    "content:location",
+    "content:parts",
+    "content:relationsText",
+    "content:function",
+    "content:origin",
+    "content:insertion",
+    "content:action",
+    "content:clinicalNotes",
+    "content:variations",
+    "lessons",
+    "scope-basis"
+  ],
+  "notes": "Bölüm metinleri openstax/osbooks-anatomy-physiology deposundaki kaynak dosyalardan (collections/anatomy-and-physiology-2e.collection.xml ve modules/<mNNNNN>/index.cnxml) okundu; bölüm numaraları koleksiyondaki sıradan hesaplandı (giriş modülü x.0). Her içerik alanı ilgili bölüm künyesiyle kaynak gösterilir. Yazar ve yayın yılı bu kaynak dosyalarda yer almadığı için girilmedi."
+}

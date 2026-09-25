@@ -1,0 +1,166 @@
+[
+  {
+    "id": "head",
+    "names": {
+      "tr": { "value": "Baş", "status": "unverified" },
+      "la": { "value": "Caput", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Head", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 0
+  },
+  {
+    "id": "neck",
+    "names": {
+      "tr": { "value": "Boyun", "status": "unverified" },
+      "la": { "value": "Collum", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Neck", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 1
+  },
+  {
+    "id": "back",
+    "names": {
+      "tr": { "value": "Sırt", "status": "unverified" },
+      "la": { "value": "Dorsum", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Back", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 2
+  },
+  {
+    "id": "thorax",
+    "names": {
+      "tr": { "value": "Toraks", "status": "unverified" },
+      "la": { "value": "Thorax", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Thorax", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 3
+  },
+  {
+    "id": "abdomen",
+    "names": {
+      "tr": { "value": "Karın", "status": "unverified" },
+      "la": { "value": "Abdomen", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Abdomen", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 4
+  },
+  {
+    "id": "pelvis_perineum",
+    "names": {
+      "tr": { "value": "Pelvis ve perine", "status": "unverified" },
+      "en": { "value": "Pelvis and perineum", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 5,
+    "note": "Birleşik uygulama bölgesi. TA'da pelvis ve perineum ayrı terimlerdir; birleşik bölge için Latince ad uydurulmadı."
+  },
+  {
+    "id": "upper_limb",
+    "names": {
+      "tr": { "value": "Üst ekstremite", "status": "unverified" },
+      "la": { "value": "Membrum superius", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Upper limb", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 6,
+    "note": "İlk pilot bölge. Alt bölgeler TA'nın 'insan vücudunun bölümleri' başlığındaki üst ekstremite terimlerine göre yazıldı; TA2 ile karşılaştırılmadı."
+  },
+  {
+    "id": "lower_limb",
+    "names": {
+      "tr": { "value": "Alt ekstremite", "status": "unverified" },
+      "la": { "value": "Membrum inferius", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Lower limb", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 7
+  },
+  {
+    "id": "shoulder",
+    "parentId": "upper_limb",
+    "names": {
+      "tr": { "value": "Omuz kuşağı", "status": "unverified" },
+      "la": { "value": "Cingulum pectorale", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Pectoral girdle", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 0,
+    "note": "Uygulama kimliği 'shoulder'. Omuz çevresi için TA'da başka bölge terimleri de vardır (ör. deltoid bölgesi); alt bölge ayrımı ve sınırı uzmanca teyit edilmeli."
+  },
+  {
+    "id": "axilla",
+    "parentId": "upper_limb",
+    "names": {
+      "tr": { "value": "Koltuk altı", "status": "unverified" },
+      "la": { "value": "Axilla", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Axilla", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 1
+  },
+  {
+    "id": "arm",
+    "parentId": "upper_limb",
+    "names": {
+      "tr": { "value": "Kol", "status": "unverified" },
+      "la": { "value": "Brachium", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Arm", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 2
+  },
+  {
+    "id": "elbow",
+    "parentId": "upper_limb",
+    "names": {
+      "tr": { "value": "Dirsek", "status": "unverified" },
+      "la": { "value": "Cubitus", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Elbow", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 3
+  },
+  {
+    "id": "forearm",
+    "parentId": "upper_limb",
+    "names": {
+      "tr": { "value": "Önkol", "status": "unverified" },
+      "la": { "value": "Antebrachium", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Forearm", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 4
+  },
+  {
+    "id": "hand",
+    "parentId": "upper_limb",
+    "names": {
+      "tr": { "value": "El", "status": "unverified" },
+      "la": { "value": "Manus", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Hand", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 5
+  },
+  {
+    "id": "wrist",
+    "parentId": "hand",
+    "names": {
+      "tr": { "value": "El bileği", "status": "unverified" },
+      "la": { "value": "Carpus", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Wrist", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 0
+  },
+  {
+    "id": "metacarpus",
+    "parentId": "hand",
+    "names": {
+      "tr": { "value": "El tarağı", "status": "unverified" },
+      "la": { "value": "Metacarpus", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Metacarpus", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 1
+  },
+  {
+    "id": "fingers",
+    "parentId": "hand",
+    "names": {
+      "tr": { "value": "El parmakları", "status": "unverified" },
+      "la": { "value": "Digiti manus", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] },
+      "en": { "value": "Fingers including thumb", "status": "unverified", "sources": [{ "sourceId": "src:fipat-ta2" }] }
+    },
+    "order": 2
+  }
+]

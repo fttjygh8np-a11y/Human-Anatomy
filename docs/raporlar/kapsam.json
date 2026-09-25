@@ -1,0 +1,5091 @@
+{
+  "generatedAt": "2026-09-25T11:43:30.696Z",
+  "contentVersion": "c861a8080c1066fb",
+  "totals": {
+    "total": 119,
+    "done": {
+      "inventory": 119,
+      "model": 119,
+      "labels": 0,
+      "content": 119,
+      "license": 119,
+      "review": 0,
+      "complete": 0
+    },
+    "labelsPresent": 46
+  },
+  "bySystem": [
+    {
+      "key": "skeletal",
+      "label": "İskelet sistemi",
+      "counts": {
+        "total": 119,
+        "done": {
+          "inventory": 119,
+          "model": 119,
+          "labels": 0,
+          "content": 119,
+          "license": 119,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 46
+      }
+    }
+  ],
+  "byRegion": [
+    {
+      "key": "head",
+      "label": "Baş",
+      "counts": {
+        "total": 14,
+        "done": {
+          "inventory": 14,
+          "model": 14,
+          "labels": 0,
+          "content": 14,
+          "license": 14,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 14
+      }
+    },
+    {
+      "key": "neck",
+      "label": "Boyun",
+      "counts": {
+        "total": 8,
+        "done": {
+          "inventory": 8,
+          "model": 8,
+          "labels": 0,
+          "content": 8,
+          "license": 8,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 3
+      }
+    },
+    {
+      "key": "back",
+      "label": "Sırt",
+      "counts": {
+        "total": 18,
+        "done": {
+          "inventory": 18,
+          "model": 18,
+          "labels": 0,
+          "content": 18,
+          "license": 18,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 1
+      }
+    },
+    {
+      "key": "thorax",
+      "label": "Toraks",
+      "counts": {
+        "total": 15,
+        "done": {
+          "inventory": 15,
+          "model": 15,
+          "labels": 0,
+          "content": 15,
+          "license": 15,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 1
+      }
+    },
+    {
+      "key": "upper_limb",
+      "label": "Üst ekstremite",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 32,
+          "model": 32,
+          "labels": 0,
+          "content": 32,
+          "license": 32,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 14
+      }
+    },
+    {
+      "key": "lower_limb",
+      "label": "Alt ekstremite",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 32,
+          "model": 32,
+          "labels": 0,
+          "content": 32,
+          "license": 32,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 13
+      }
+    }
+  ],
+  "byLevel": [
+    {
+      "key": "basic",
+      "label": "basic",
+      "counts": {
+        "total": 69,
+        "done": {
+          "inventory": 69,
+          "model": 69,
+          "labels": 0,
+          "content": 69,
+          "license": 69,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 46
+      }
+    },
+    {
+      "key": "intermediate",
+      "label": "intermediate",
+      "counts": {
+        "total": 50,
+        "done": {
+          "inventory": 50,
+          "model": 50,
+          "labels": 0,
+          "content": 50,
+          "license": 50,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 0
+      }
+    }
+  ],
+  "matrix": [
+    {
+      "system": "skeletal",
+      "region": "back",
+      "counts": {
+        "total": 18,
+        "done": {
+          "inventory": 18,
+          "model": 18,
+          "labels": 0,
+          "content": 18,
+          "license": 18,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 1
+      }
+    },
+    {
+      "system": "skeletal",
+      "region": "head",
+      "counts": {
+        "total": 14,
+        "done": {
+          "inventory": 14,
+          "model": 14,
+          "labels": 0,
+          "content": 14,
+          "license": 14,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 14
+      }
+    },
+    {
+      "system": "skeletal",
+      "region": "lower_limb",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 32,
+          "model": 32,
+          "labels": 0,
+          "content": 32,
+          "license": 32,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 13
+      }
+    },
+    {
+      "system": "skeletal",
+      "region": "neck",
+      "counts": {
+        "total": 8,
+        "done": {
+          "inventory": 8,
+          "model": 8,
+          "labels": 0,
+          "content": 8,
+          "license": 8,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 3
+      }
+    },
+    {
+      "system": "skeletal",
+      "region": "thorax",
+      "counts": {
+        "total": 15,
+        "done": {
+          "inventory": 15,
+          "model": 15,
+          "labels": 0,
+          "content": 15,
+          "license": 15,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 1
+      }
+    },
+    {
+      "system": "skeletal",
+      "region": "upper_limb",
+      "counts": {
+        "total": 32,
+        "done": {
+          "inventory": 32,
+          "model": 32,
+          "labels": 0,
+          "content": 32,
+          "license": 32,
+          "review": 0,
+          "complete": 0
+        },
+        "labelsPresent": 14
+      }
+    }
+  ],
+  "targets": [
+    {
+      "targetId": "hedef:back.skeletal.thoracic_1",
+      "structureId": "fma:9165",
+      "name": "Vertebra thoracica prima",
+      "nameEn": "First thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_2",
+      "structureId": "fma:9187",
+      "name": "Second thoracic vertebra",
+      "nameEn": "Second thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_3",
+      "structureId": "fma:9209",
+      "name": "Third thoracic vertebra",
+      "nameEn": "Third thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_4",
+      "structureId": "fma:9248",
+      "name": "Fourth thoracic vertebra",
+      "nameEn": "Fourth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_5",
+      "structureId": "fma:9922",
+      "name": "Fifth thoracic vertebra",
+      "nameEn": "Fifth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_6",
+      "structureId": "fma:9945",
+      "name": "Sixth thoracic vertebra",
+      "nameEn": "Sixth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_7",
+      "structureId": "fma:9968",
+      "name": "Seventh thoracic vertebra",
+      "nameEn": "Seventh thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_8",
+      "structureId": "fma:9991",
+      "name": "Eighth thoracic vertebra",
+      "nameEn": "Eighth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_9",
+      "structureId": "fma:10014",
+      "name": "Ninth thoracic vertebra",
+      "nameEn": "Ninth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_10",
+      "structureId": "fma:10037",
+      "name": "Tenth thoracic vertebra",
+      "nameEn": "Tenth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_11",
+      "structureId": "fma:10059",
+      "name": "Eleventh thoracic vertebra",
+      "nameEn": "Eleventh thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.thoracic_12",
+      "structureId": "fma:10081",
+      "name": "Twelfth thoracic vertebra",
+      "nameEn": "Twelfth thoracic vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.lumbar_1",
+      "structureId": "fma:13072",
+      "name": "First lumbar vertebra",
+      "nameEn": "First lumbar vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.lumbar_2",
+      "structureId": "fma:13073",
+      "name": "Second lumbar vertebra",
+      "nameEn": "Second lumbar vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.lumbar_3",
+      "structureId": "fma:13074",
+      "name": "Third lumbar vertebra",
+      "nameEn": "Third lumbar vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.lumbar_4",
+      "structureId": "fma:13075",
+      "name": "Fourth lumbar vertebra",
+      "nameEn": "Fourth lumbar vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.lumbar_5",
+      "structureId": "fma:13076",
+      "name": "Fifth lumbar vertebra",
+      "nameEn": "Fifth lumbar vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:back.skeletal.sacrum",
+      "structureId": "fma:16202",
+      "name": "Os sacrum",
+      "nameEn": "Sacrum",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "back",
+      "regionLabel": "Sırt",
+      "topRegion": "back",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.frontal",
+      "structureId": "fma:52734",
+      "name": "Os frontale",
+      "nameEn": "Frontal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.parietal",
+      "structureId": "fma:9613",
+      "name": "Os parietale",
+      "nameEn": "Parietal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.temporal",
+      "structureId": "fma:52737",
+      "name": "Os temporale",
+      "nameEn": "Temporal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.occipital",
+      "structureId": "fma:52735",
+      "name": "Os occipitale",
+      "nameEn": "Occipital bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.sphenoid",
+      "structureId": "fma:52736",
+      "name": "Os sphenoideum",
+      "nameEn": "Sphenoid bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.ethmoid",
+      "structureId": "fma:52740",
+      "name": "Os ethmoideum",
+      "nameEn": "Ethmoid",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.maxilla",
+      "structureId": "fma:9711",
+      "name": "Maxilla",
+      "nameEn": "Maxilla",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.palatine",
+      "structureId": "fma:52746",
+      "name": "Os palatinum",
+      "nameEn": "Palatine bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.zygomatic",
+      "structureId": "fma:52747",
+      "name": "Os zygomaticum",
+      "nameEn": "Zygomatic bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.nasal",
+      "structureId": "fma:52745",
+      "name": "Os nasale",
+      "nameEn": "Nasal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.lacrimal",
+      "structureId": "fma:52741",
+      "name": "Os lacrimale",
+      "nameEn": "Lacrimal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.inferior_nasal_concha",
+      "structureId": "fma:54736",
+      "name": "Concha nasalis inferior",
+      "nameEn": "Inferior nasal concha",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.vomer",
+      "structureId": "fma:9710",
+      "name": "Vomer",
+      "nameEn": "Vomer",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:head.skeletal.mandible",
+      "structureId": "fma:52748",
+      "name": "Mandibula",
+      "nameEn": "Mandible",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.hip_bone",
+      "structureId": "fma:16585",
+      "name": "Os coxae",
+      "nameEn": "Hip bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.femur",
+      "structureId": "fma:9611",
+      "name": "Os femoris",
+      "nameEn": "Femur",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.patella",
+      "structureId": "fma:24485",
+      "name": "Patella",
+      "nameEn": "Patella",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.tibia",
+      "structureId": "fma:24476",
+      "name": "Tibia",
+      "nameEn": "Tibia",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.fibula",
+      "structureId": "fma:24479",
+      "name": "Fibula",
+      "nameEn": "Fibula",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.talus",
+      "structureId": "fma:9708",
+      "name": "Os tali",
+      "nameEn": "Talus",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.calcaneus",
+      "structureId": "fma:24496",
+      "name": "Calcaneus",
+      "nameEn": "Calcaneus",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.navicular",
+      "structureId": "fma:24499",
+      "name": "Navicular bone of foot",
+      "nameEn": "Navicular bone of foot",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.cuboid",
+      "structureId": "fma:24527",
+      "name": "Os cuboideum",
+      "nameEn": "Cuboid bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.medial_cuneiform",
+      "structureId": "fma:24518",
+      "name": "Os cuneiforme mediale",
+      "nameEn": "Medial cuneiform bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.intermediate_cuneiform",
+      "structureId": "fma:24519",
+      "name": "Os cuneiforme intermedium",
+      "nameEn": "Intermediate cuneiform bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.lateral_cuneiform",
+      "structureId": "fma:24520",
+      "name": "Os cuneiforme laterale",
+      "nameEn": "Lateral cuneiform bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.metatarsal_1",
+      "structureId": "fma:24502",
+      "name": "Os primum metatarsi",
+      "nameEn": "First metatarsal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.metatarsal_2",
+      "structureId": "fma:24503",
+      "name": "Second metatarsal bone",
+      "nameEn": "Second metatarsal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.metatarsal_3",
+      "structureId": "fma:24504",
+      "name": "Third metatarsal bone",
+      "nameEn": "Third metatarsal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.metatarsal_4",
+      "structureId": "fma:24505",
+      "name": "Fourth metatarsal bone",
+      "nameEn": "Fourth metatarsal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.metatarsal_5",
+      "structureId": "fma:24506",
+      "name": "Os quintum metatarsi",
+      "nameEn": "Fifth metatarsal bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_proximal_big_toe",
+      "structureId": "fma:43252",
+      "name": "Proximal phalanx of big toe",
+      "nameEn": "Proximal phalanx of big toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_distal_big_toe",
+      "structureId": "fma:32627",
+      "name": "Distal phalanx of big toe",
+      "nameEn": "Distal phalanx of big toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_proximal_second_toe",
+      "structureId": "fma:32618",
+      "name": "Proximal phalanx of second toe",
+      "nameEn": "Proximal phalanx of second toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_middle_second_toe",
+      "structureId": "fma:32623",
+      "name": "Middle phalanx of second toe",
+      "nameEn": "Middle phalanx of second toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_distal_second_toe",
+      "structureId": "fma:32628",
+      "name": "Distal phalanx of second toe",
+      "nameEn": "Distal phalanx of second toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_proximal_third_toe",
+      "structureId": "fma:32619",
+      "name": "Proximal phalanx of third toe",
+      "nameEn": "Proximal phalanx of third toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_middle_third_toe",
+      "structureId": "fma:32624",
+      "name": "Middle phalanx of third toe",
+      "nameEn": "Middle phalanx of third toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_distal_third_toe",
+      "structureId": "fma:32629",
+      "name": "Distal phalanx of third toe",
+      "nameEn": "Distal phalanx of third toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_proximal_fourth_toe",
+      "structureId": "fma:32620",
+      "name": "Proximal phalanx of fourth toe",
+      "nameEn": "Proximal phalanx of fourth toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_middle_fourth_toe",
+      "structureId": "fma:32625",
+      "name": "Middle phalanx of fourth toe",
+      "nameEn": "Middle phalanx of fourth toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_distal_fourth_toe",
+      "structureId": "fma:32630",
+      "name": "Distal phalanx of fourth toe",
+      "nameEn": "Distal phalanx of fourth toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_proximal_little_toe",
+      "structureId": "fma:32621",
+      "name": "Proximal phalanx of little toe",
+      "nameEn": "Proximal phalanx of little toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_middle_little_toe",
+      "structureId": "fma:230984",
+      "name": "Middle phalanx of little toe",
+      "nameEn": "Middle phalanx of little toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.phalanx_distal_little_toe",
+      "structureId": "fma:32631",
+      "name": "Distal phalanx of little toe",
+      "nameEn": "Distal phalanx of little toe",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:lower_limb.skeletal.sesamoid_foot",
+      "structureId": "fma:45096",
+      "name": "Sesamoid bone of foot",
+      "nameEn": "Sesamoid bone of foot",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "lower_limb",
+      "regionLabel": "Alt ekstremite",
+      "topRegion": "lower_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.hyoid",
+      "structureId": "fma:52749",
+      "name": "Os hyoideum",
+      "nameEn": "Hyoid bone",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.atlas",
+      "structureId": "fma:12519",
+      "name": "Atlas",
+      "nameEn": "Atlas",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.axis",
+      "structureId": "fma:12520",
+      "name": "Axis",
+      "nameEn": "Axis",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.cervical_3",
+      "structureId": "fma:12521",
+      "name": "Third cervical vertebra",
+      "nameEn": "Third cervical vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.cervical_4",
+      "structureId": "fma:12522",
+      "name": "Fourth cervical vertebra",
+      "nameEn": "Fourth cervical vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.cervical_5",
+      "structureId": "fma:12523",
+      "name": "Fifth cervical vertebra",
+      "nameEn": "Fifth cervical vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.cervical_6",
+      "structureId": "fma:12524",
+      "name": "Vertebra cervicalis VI",
+      "nameEn": "Sixth cervical vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "intermediate",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:neck.skeletal.cervical_7",
+      "structureId": "fma:12525",
+      "name": "Vertebra prominens",
+      "nameEn": "Seventh cervical vertebra",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "neck",
+      "regionLabel": "Boyun",
+      "topRegion": "neck",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.manubrium",
+      "structureId": "fma:7486",
+      "name": "Manubrium sterni",
+      "nameEn": "Manubrium",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.body_of_sternum",
+      "structureId": "fma:7487",
+      "name": "Corpus sterni",
+      "nameEn": "Body of sternum",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.xiphoid_process",
+      "structureId": "fma:7488",
+      "name": "Processus xiphoideus",
+      "nameEn": "Xiphoid process",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "midline",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": null,
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_1",
+      "structureId": "fma:7597",
+      "name": "Costa prima",
+      "nameEn": "First rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_2",
+      "structureId": "fma:7620",
+      "name": "Costa secunda",
+      "nameEn": "Second rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_3",
+      "structureId": "fma:7638",
+      "name": "Third rib",
+      "nameEn": "Third rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_4",
+      "structureId": "fma:7749",
+      "name": "Fourth rib",
+      "nameEn": "Fourth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_5",
+      "structureId": "fma:7776",
+      "name": "Fifth rib",
+      "nameEn": "Fifth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_6",
+      "structureId": "fma:8147",
+      "name": "Sixth rib",
+      "nameEn": "Sixth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_7",
+      "structureId": "fma:7830",
+      "name": "Seventh rib",
+      "nameEn": "Seventh rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_8",
+      "structureId": "fma:8120",
+      "name": "Eighth rib",
+      "nameEn": "Eighth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_9",
+      "structureId": "fma:8337",
+      "name": "Ninth rib",
+      "nameEn": "Ninth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_10",
+      "structureId": "fma:8418",
+      "name": "Tenth rib",
+      "nameEn": "Tenth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_11",
+      "structureId": "fma:8499",
+      "name": "Eleventh rib",
+      "nameEn": "Eleventh rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:thorax.skeletal.rib_12",
+      "structureId": "fma:8515",
+      "name": "Twelfth rib",
+      "nameEn": "Twelfth rib",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "thorax",
+      "regionLabel": "Toraks",
+      "topRegion": "thorax",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.clavicle",
+      "structureId": "fma:13321",
+      "name": "Clavicula",
+      "nameEn": "Clavicle",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "shoulder",
+      "regionLabel": "Omuz kuşağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.scapula",
+      "structureId": "fma:13394",
+      "name": "Scapula",
+      "nameEn": "Scapula",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "shoulder",
+      "regionLabel": "Omuz kuşağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.humerus",
+      "structureId": "fma:13303",
+      "name": "Humerus",
+      "nameEn": "Humerus",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "arm",
+      "regionLabel": "Kol",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.radius",
+      "structureId": "fma:23463",
+      "name": "Radius",
+      "nameEn": "Radius",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "forearm",
+      "regionLabel": "Önkol",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.ulna",
+      "structureId": "fma:23466",
+      "name": "Ulna",
+      "nameEn": "Ulna",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "forearm",
+      "regionLabel": "Önkol",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.scaphoid",
+      "structureId": "fma:23709",
+      "name": "Os scaphoideum",
+      "nameEn": "Scaphoid",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.lunate",
+      "structureId": "fma:23712",
+      "name": "Os lunatum",
+      "nameEn": "Lunate",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.triquetrum",
+      "structureId": "fma:23715",
+      "name": "Os triquetrum",
+      "nameEn": "Triquetrum",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.pisiform",
+      "structureId": "fma:23718",
+      "name": "Os pisiforme",
+      "nameEn": "Pisiform",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.trapezium",
+      "structureId": "fma:23721",
+      "name": "Os trapezium",
+      "nameEn": "Trapezium",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.trapezoid",
+      "structureId": "fma:23724",
+      "name": "Os trapezoideum",
+      "nameEn": "Trapezoid",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.capitate",
+      "structureId": "fma:23727",
+      "name": "Os capitatum",
+      "nameEn": "Capitate",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.hamate",
+      "structureId": "fma:23730",
+      "name": "Os hamatum",
+      "nameEn": "Hamate",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "wrist",
+      "regionLabel": "El bileği",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_1",
+      "structureId": "fma:23899",
+      "name": "First metacarpal",
+      "nameEn": "First metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_2",
+      "structureId": "fma:23900",
+      "name": "Second metacarpal",
+      "nameEn": "Second metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_3",
+      "structureId": "fma:23901",
+      "name": "Third metacarpal",
+      "nameEn": "Third metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_4",
+      "structureId": "fma:23902",
+      "name": "Fourth metacarpal",
+      "nameEn": "Fourth metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.metacarpal_5",
+      "structureId": "fma:23903",
+      "name": "Fifth metacarpal",
+      "nameEn": "Fifth metacarpal",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "metacarpus",
+      "regionLabel": "El tarağı",
+      "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "unverified",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_thumb",
+      "structureId": "fma:23918",
+      "name": "Proximal phalanx of thumb",
+      "nameEn": "Proximal phalanx of thumb",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_thumb",
+      "structureId": "fma:23945",
+      "name": "Distal phalanx of thumb",
+      "nameEn": "Distal phalanx of thumb",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_index",
+      "structureId": "fma:23919",
+      "name": "Proximal phalanx of index finger",
+      "nameEn": "Proximal phalanx of index finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_index",
+      "structureId": "fma:23933",
+      "name": "Middle phalanx of index finger",
+      "nameEn": "Middle phalanx of index finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_index",
+      "structureId": "fma:23946",
+      "name": "Distal phalanx of index finger",
+      "nameEn": "Distal phalanx of index finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_middle",
+      "structureId": "fma:23920",
+      "name": "Proximal phalanx of middle finger",
+      "nameEn": "Proximal phalanx of middle finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_middle",
+      "structureId": "fma:23934",
+      "name": "Middle phalanx of middle finger",
+      "nameEn": "Middle phalanx of middle finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_middle",
+      "structureId": "fma:23947",
+      "name": "Distal phalanx of middle finger",
+      "nameEn": "Distal phalanx of middle finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_ring",
+      "structureId": "fma:23921",
+      "name": "Proximal phalanx of ring finger",
+      "nameEn": "Proximal phalanx of ring finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_ring",
+      "structureId": "fma:23935",
+      "name": "Middle phalanx of ring finger",
+      "nameEn": "Middle phalanx of ring finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_ring",
+      "structureId": "fma:23948",
+      "name": "Distal phalanx of ring finger",
+      "nameEn": "Distal phalanx of ring finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_proximal_little",
+      "structureId": "fma:23922",
+      "name": "Proximal phalanx of little finger",
+      "nameEn": "Proximal phalanx of little finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_middle_little",
+      "structureId": "fma:23936",
+      "name": "Middle phalanx of little finger",
+      "nameEn": "Middle phalanx of little finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:upper_limb.skeletal.phalanx_distal_little",
+      "structureId": "fma:23949",
+      "name": "Distal phalanx of little finger",
+      "nameEn": "Distal phalanx of little finger",
+      "system": "skeletal",
+      "systemLabel": "İskelet sistemi",
+      "region": "fingers",
+      "regionLabel": "El parmakları",
+      "topRegion": "upper_limb",
+      "level": "intermediate",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "missing",
+        "en": "unverified"
+      },
+      "contentMissing": [],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": true,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    }
+  ],
+  "untargetedStructures": {
+    "total": 1964,
+    "bySystem": {
+      "digestive": 138,
+      "skeletal": 79,
+      "cardiovascular": 784,
+      "muscular": 570,
+      "respiratory": 119,
+      "endocrine": 4,
+      "reproductive": 50,
+      "urinary": 8,
+      "sensory": 28,
+      "articular": 22,
+      "nervous": 155,
+      "integumentary": 3,
+      "lymphatic": 4
+    }
+  },
+  "assets": {
+    "total": 72,
+    "anatomical": 72,
+    "schematic": 0,
+    "nodes": 3812,
+    "orphanNodes": 0,
+    "structuresWithModel": 1627
+  },
+  "reviews": {
+    "total": 0,
+    "byStatus": {},
+    "byRole": {}
+  },
+  "automated": {
+    "errors": 0,
+    "warnings": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "src:fma",
+  "type": "ontology",
+  "citation": "Foundational Model of Anatomy (FMA) Ontology. Structural Informatics Group, University of Washington, Seattle.",
+  "shortLabel": "FMA",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "notes": "Lisans bilgisi (CC BY 3.0) ontoloji kayıtlarında yaygın olarak böyle bildirilir, ancak bu oturumda birincil kaynaktan okunmadı (verifiedAt boş). Uygulamada yalnızca FMA kimlikleri ve BodyParts3D üzerinden gelen kavram eşleşmeleri kullanılır."
+  },
+  "usedFor": ["identifiers", "part-of hierarchy (planlanan)"],
+  "notes": "Yapı kimlikleri (fma:<numara>) FMA kavram kimliklerine dayanır. Resmî proje sayfası olarak bilinen adres (http://sig.biostr.washington.edu/projects/fm/) bu oturumda erişilemediği için url alanına yazılmadı. Kullanılan FMA sürümü, eşleşmeyi sağlayan BodyParts3D sürümüne bağlıdır ve model kataloğunda kayıtlı olmalıdır."
+}

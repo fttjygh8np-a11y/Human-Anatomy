@@ -1,0 +1,1704 @@
+[
+  {
+    "id": "fma:14729",
+    "schemaVersion": 1,
+    "kind": "peritoneal_structure",
+    "names": {
+      "en": {
+        "value": "Uterovesical pouch",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_uterovesical_pouch (FMA:14729)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "14729"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_uterovesical_pouch."
+    }
+  },
+  {
+    "id": "fma:17561",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Fundus of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_fundus_of_uterus (FMA:17561)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "17561"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000995"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_fundus_of_uterus."
+    }
+  },
+  {
+    "id": "fma:17752",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Lower uterine segment",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_lower_uterine_segment (FMA:17752)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "17752"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000995"
+    ],
+    "sex": "female",
+    "detailLevel": "advanced",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_lower_uterine_segment."
+    }
+  },
+  {
+    "id": "fma:18489",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Infundibulum of right uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-right v1.2 crosswalk.csv — VH_F_uterine_tube_infundibulum_R (FMA:18489)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18489"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:18490",
+    "parentIds": [
+      "uberon:0001302"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-right v1.2: VH_F_uterine_tube_infundibulum_R."
+    }
+  },
+  {
+    "id": "fma:18490",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Infundibulum of left uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-left v1.2 crosswalk.csv — VH_F_uterine_tube_infundibulum_L (FMA:18490)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18490"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:18489",
+    "parentIds": [
+      "uberon:0001303"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-left v1.2: VH_F_uterine_tube_infundibulum_L."
+    }
+  },
+  {
+    "id": "fma:18491",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Ampulla of right uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-right v1.2 crosswalk.csv — VH_F_ampulla_of_uterine_tube_R (FMA:18491)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18491"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:18492",
+    "parentIds": [
+      "uberon:0001302"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-right v1.2: VH_F_ampulla_of_uterine_tube_R."
+    }
+  },
+  {
+    "id": "fma:18492",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Ampulla of left uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-left v1.2 crosswalk.csv — VH_F_ampulla_of_uterine_tube_L (FMA:18492)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18492"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:18491",
+    "parentIds": [
+      "uberon:0001303"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-left v1.2: VH_F_ampulla_of_uterine_tube_L."
+    }
+  },
+  {
+    "id": "fma:18493",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Isthmus of right uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-right v1.2 crosswalk.csv — VH_F_isthmus_of_fallopian_tube_R (FMA:18493)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18493"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:18494",
+    "parentIds": [
+      "uberon:0001302"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-right v1.2: VH_F_isthmus_of_fallopian_tube_R."
+    }
+  },
+  {
+    "id": "fma:18494",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Isthmus of left uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-left v1.2 crosswalk.csv — VH_F_isthmus_of_fallopian_tube_L (FMA:18494)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18494"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:18493",
+    "parentIds": [
+      "uberon:0001303"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-left v1.2: VH_F_isthmus_of_fallopian_tube_L."
+    }
+  },
+  {
+    "id": "fma:18497",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Fimbria of right uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-right v1.2 crosswalk.csv — VH_F_fibria_of_uterine_tube_R (FMA:18497)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18497"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:18498",
+    "parentIds": [
+      "uberon:0001302"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-right v1.2: VH_F_fibria_of_uterine_tube_R."
+    }
+  },
+  {
+    "id": "fma:18498",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Fimbria of left uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-left v1.2 crosswalk.csv — VH_F_fibria_of_uterine_tube_L (FMA:18498)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "18498"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:18497",
+    "parentIds": [
+      "uberon:0001303"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-left v1.2: VH_F_fibria_of_uterine_tube_L."
+    }
+  },
+  {
+    "id": "fma:19119",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right uterosacral ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_right_uterosacral_ligament (FMA:19119)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19119"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:19120",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_right_uterosacral_ligament."
+    }
+  },
+  {
+    "id": "fma:19120",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left uterosacral ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_left_uterosacral_ligament (FMA:19120)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19120"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:19119",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_left_uterosacral_ligament."
+    }
+  },
+  {
+    "id": "fma:19809",
+    "schemaVersion": 1,
+    "kind": "peritoneal_structure",
+    "names": {
+      "en": {
+        "value": "Right mesosalpinx",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_mesosalpinx_R (FMA:19809)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19809"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:19810",
+    "parentIds": [
+      "uberon:0012332"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_mesosalpinx_R."
+    }
+  },
+  {
+    "id": "fma:19810",
+    "schemaVersion": 1,
+    "kind": "peritoneal_structure",
+    "names": {
+      "en": {
+        "value": "Left mesosalpinx",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_mesosalpinx_L (FMA:19810)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19810"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:19809",
+    "parentIds": [
+      "uberon:0012332"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_mesosalpinx_L."
+    }
+  },
+  {
+    "id": "fma:19817",
+    "schemaVersion": 1,
+    "kind": "peritoneal_structure",
+    "names": {
+      "en": {
+        "value": "Right mesovarium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_mesovarium_R (FMA:19817)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19817"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:19818",
+    "parentIds": [
+      "uberon:0012332"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_mesovarium_R."
+    }
+  },
+  {
+    "id": "fma:19818",
+    "schemaVersion": 1,
+    "kind": "peritoneal_structure",
+    "names": {
+      "en": {
+        "value": "Left mesovarium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_mesovarium_L (FMA:19818)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19818"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:19817",
+    "parentIds": [
+      "uberon:0012332"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_mesovarium_L."
+    }
+  },
+  {
+    "id": "fma:19823",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Suspensory ligament of right ovary",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_suspensory_ligament_of_ovary_R (FMA:19823)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19823"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:19824",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_suspensory_ligament_of_ovary_R."
+    }
+  },
+  {
+    "id": "fma:19824",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Suspensory ligament of left ovary",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_suspensory_ligament_of_ovary_L (FMA:19824)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "19824"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:19823",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_suspensory_ligament_of_ovary_L."
+    }
+  },
+  {
+    "id": "fma:224876",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Anterior wall of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_anterior_wall_of_uterus (FMA:224876)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "224876"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000995"
+    ],
+    "sex": "female",
+    "detailLevel": "advanced",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_anterior_wall_of_uterus."
+    }
+  },
+  {
+    "id": "fma:224878",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "Posterior wall of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_posterior_wall_of_uterus (FMA:224878)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "224878"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000995"
+    ],
+    "sex": "female",
+    "detailLevel": "advanced",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_posterior_wall_of_uterus."
+    }
+  },
+  {
+    "id": "fma:55423",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right ovarian ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_ovarian_ligament_R (FMA:55423)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55423"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:55424",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_ovarian_ligament_R."
+    }
+  },
+  {
+    "id": "fma:55424",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left ovarian ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_ovarian_ligament_L (FMA:55424)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55424"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:55423",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_ovarian_ligament_L."
+    }
+  },
+  {
+    "id": "fma:57789",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Right round ligament of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_right_round_ligament_of_uterus (FMA:57789)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "57789"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "fma:57790",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_right_round_ligament_of_uterus. HRA united-female v1.10'da bu adı taşıyan düğümün geometrisi karşı tarafta (sağ ↔ sol) bulunuyor; taraf denetimi başarısız olduğu için model düğümü derlemeye alınmadı. Otomatik düzeltme yapılmadı; kaynağa bildirilmeli ve uzman incelemesi gerekli."
+    }
+  },
+  {
+    "id": "fma:57790",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Left round ligament of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_left_round_ligament_of_uterus (FMA:57790)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "57790"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "fma:57789",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_left_round_ligament_of_uterus. HRA united-female v1.10'da bu adı taşıyan düğümün geometrisi karşı tarafta (sağ ↔ sol) bulunuyor; taraf denetimi başarısız olduğu için model düğümü derlemeye alınmadı. Otomatik düzeltme yapılmadı; kaynağa bildirilmeli ve uzman incelemesi gerekli."
+    }
+  },
+  {
+    "id": "fma:77064",
+    "schemaVersion": 1,
+    "kind": "ligament",
+    "names": {
+      "en": {
+        "value": "Cardinal ligament",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_cardinal_ligament_of_uterus (FMA:77064)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "77064"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "paired_generic",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_cardinal_ligament_of_uterus. HRA sağ ve sol kardinal bağ düğümlerini aynı taraf belirtmeyen FMA kimliğine (FMA:77064) eşliyor; bu kayıt iki düğümle temsil edilir."
+    }
+  },
+  {
+    "id": "uberon:0000002",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "uterine cervix",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_cervix (UBERON:0000002)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0000002"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000995"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_cervix."
+    }
+  },
+  {
+    "id": "uberon:0000995",
+    "schemaVersion": 1,
+    "kind": "organ",
+    "names": {
+      "en": {
+        "value": "uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_uterus (UBERON:0000995)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0000995"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "basic",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_uterus."
+    }
+  },
+  {
+    "id": "uberon:0000996",
+    "schemaVersion": 1,
+    "kind": "organ",
+    "names": {
+      "en": {
+        "value": "vagina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_vagina (UBERON:0000996)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0000996"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "basic",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_vagina."
+    }
+  },
+  {
+    "id": "uberon:0001302",
+    "schemaVersion": 1,
+    "kind": "organ",
+    "names": {
+      "en": {
+        "value": "right uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-right v1.2 crosswalk.csv — VH_F_fallopian_tube_R (UBERON:0001302)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0001302"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "uberon:0001303",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "basic",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-right v1.2: VH_F_fallopian_tube_R."
+    }
+  },
+  {
+    "id": "uberon:0001303",
+    "schemaVersion": 1,
+    "kind": "organ",
+    "names": {
+      "en": {
+        "value": "left uterine tube",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "fallopian-tube-female-left v1.2 crosswalk.csv — VH_F_fallopian_tube_L (UBERON:0001303)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0001303"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "uberon:0001302",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "basic",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): fallopian-tube-female-left v1.2: VH_F_fallopian_tube_L."
+    }
+  },
+  {
+    "id": "uberon:0002118",
+    "schemaVersion": 1,
+    "kind": "organ",
+    "names": {
+      "en": {
+        "value": "Right ovary",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "ovary-female-right v1.3 crosswalk.csv — VH_F_right_ovary (UBERON:0002118)"
+          },
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_right_ovary (FMA:7213)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0002118",
+      "fma": "7213"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "right",
+    "counterpartId": "uberon:0002119",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "basic",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): ovary-female-right v1.3: VH_F_right_ovary; united-female v1.10: VH_F_right_ovary."
+    }
+  },
+  {
+    "id": "uberon:0002119",
+    "schemaVersion": 1,
+    "kind": "organ",
+    "names": {
+      "en": {
+        "value": "Left ovary",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "ovary-female-left v1.3 crosswalk.csv — VH_F_left_ovary (UBERON:0002119)"
+          },
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_left_ovary (FMA:7214)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0002119",
+      "fma": "7214"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "left",
+    "counterpartId": "uberon:0002118",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "basic",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): ovary-female-left v1.3: VH_F_left_ovary; united-female v1.10: VH_F_left_ovary."
+    }
+  },
+  {
+    "id": "uberon:0009853",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "body of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_body_of_uterus (UBERON:0009853)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0009853"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000995"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_body_of_uterus."
+    }
+  },
+  {
+    "id": "uberon:0012332",
+    "schemaVersion": 1,
+    "kind": "peritoneal_structure",
+    "names": {
+      "en": {
+        "value": "broad ligament of uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "united-female v1.10 crosswalk.csv — VH_F_broad_ligament (UBERON:0012332)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0012332"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "paired_generic",
+    "parentIds": [],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): united-female v1.10: VH_F_broad_ligament."
+    }
+  },
+  {
+    "id": "uberon:0013759",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "internal cervical os",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_internal_cervical_os (UBERON:0013759)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0013759"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000002"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_internal_cervical_os."
+    }
+  },
+  {
+    "id": "uberon:0013760",
+    "schemaVersion": 1,
+    "kind": "organ_part",
+    "names": {
+      "en": {
+        "value": "external cervical os",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:hra",
+            "locator": "uterus-female v1.2 crosswalk.csv — VH_F_external_cervical_os (UBERON:0013760)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "uberon": "0013760"
+    },
+    "systems": [
+      "reproductive"
+    ],
+    "regions": [
+      "pelvis_perineum"
+    ],
+    "regionBasis": "authored",
+    "laterality": "midline",
+    "parentIds": [
+      "uberon:0000002"
+    ],
+    "sex": "female",
+    "detailLevel": "intermediate",
+    "module": "core",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:hra",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "HRA 3B Referans Nesne Kütüphanesi içe aktarımı. İngilizce ad HRA crosswalk.csv dosyasından alındı; terminoloji standardıyla karşılaştırılmadı (doğrulanmadı). Tür, taraf, üst yapı, karşı taraf ve ayrıntı düzeyi bu projede atandı; anatomi uzmanı incelemesi bekliyor. 3B modeli farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine hizalı değildir. Kaynak düğüm(ler): uterus-female v1.2: VH_F_external_cervical_os."
+    }
+  }
+]
