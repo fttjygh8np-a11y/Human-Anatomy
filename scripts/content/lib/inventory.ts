@@ -154,7 +154,10 @@ export function parseElements(raw: unknown, file = ELEMENTS_FILE): { elements: B
     const el: Bp3dElement = { elementId, fmaId, nameEn, systems }
     const chunk = pick(item, ELEMENT_FIELD_ALIASES.chunk)
     if (typeof chunk === 'string' && chunk.trim()) el.chunk = chunk.trim()
-    const latRaw = pick(item, ELEMENT_FIELD_ALIASES.laterality)
+    let latRaw = pick(item, ELEMENT_FIELD_ALIASES.laterality)
+    // Model pipeline shape: { fromName: 'left'|'right'|null, observed, offsetXM }. Only the
+    // name-stated side is a fact about the concept; observed geometry is a check, not a label.
+    if (isPlainObject(latRaw)) latRaw = latRaw.fromName ?? undefined
     if (latRaw !== undefined) {
       const lat = normalizeLateralityValue(latRaw)
       if (lat) el.laterality = lat

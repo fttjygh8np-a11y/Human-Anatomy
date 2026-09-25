@@ -59,7 +59,9 @@ const ASCII_NAME_RE = /^[A-Za-z][A-Za-z0-9 ,.'()\-/]*$/
 
 function parseHeader(commentLines: string[], fileName: string | undefined): ObjHeader {
   let elementId: string | null = null
+  /** FMA id from an explicit key ("Concept ID : FMA59763") — wins over ids found in other lines. */
   let fmaId: string | null = null
+  let looseFma: string | null = null
   let name: string | null = null
   let nameSource: ObjHeader['nameSource'] = null
   let license: string | null = null
@@ -80,6 +82,8 @@ function parseHeader(commentLines: string[], fileName: string | undefined): ObjH
         const m = FJ_RE.exec(value)
         if (m && elementId === null) elementId = m[0]
       }
+      // "Build-up logic : FMA 3.0 is_a" names the FMA release, not the element's concept.
+      if (/^(build up logic|compatibility version|version)$/.test(key)) continue
       if (/^(fma|fma id|fmaid|concept id)$/.test(key)) {
         const m = /(\d+)/.exec(value)
         if (m && fmaId === null) {
@@ -103,8 +107,8 @@ function parseHeader(commentLines: string[], fileName: string | undefined): ObjH
     const fj = FJ_RE.exec(line)
     if (fj && elementId === null) elementId = fj[0]
     const fma = FMA_RE.exec(line)
-    if (fma && fmaId === null) {
-      fmaId = fma[1]!
+    if (fma && looseFma === null) {
+      looseFma = fma[1]!
       seenFma = true
     }
     if (fj || fma) continue
@@ -121,7 +125,7 @@ function parseHeader(commentLines: string[], fileName: string | undefined): ObjH
     const m = FJ_RE.exec(fileName)
     if (m) elementId = m[0]
   }
-  return { elementId, fmaId, name, nameSource, license, comments: commentLines }
+  return { elementId, fmaId: fmaId ?? looseFma, name, nameSource, license, comments: commentLines }
 }
 
 function resolveIndex(raw: string, count: number): number {

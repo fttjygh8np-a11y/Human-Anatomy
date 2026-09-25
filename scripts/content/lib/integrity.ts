@@ -365,8 +365,12 @@ export function checkIntegrity(c: CompiledContent): Issue[] {
     if (!cp || cp.laterality !== 'left') continue
     const xr = meanX(s.id)
     const xl = meanX(cp.id)
+    // A mismatch already recorded as a failed 'centroid-side' automated check stays visible as
+    // a warning instead of blocking the build (it awaits geometry review).
+    const recorded = (x: typeof s) => x.automatedChecks.some((a) => a.check === 'centroid-side' && a.result === 'fail')
+    const known = recorded(s) || recorded(cp)
     if (xr !== undefined && xl !== undefined && xr >= xl)
-      push('error', 'centroid_side', `Sağ yapının model merkezi (x=${xr.toFixed(4)}), sol karşılığı "${cp.id}" (x=${xl.toFixed(4)}) ile aynı hizada ya da ondan daha solda. Kanonik çerçevede +X deneğin soludur; sağ yapının x değeri daha küçük olmalı.`, 'structure', s.id)
+      push(known ? 'warning' : 'error', 'centroid_side', `Sağ yapının model merkezi (x=${xr.toFixed(4)}), sol karşılığı "${cp.id}" (x=${xl.toFixed(4)}) ile aynı hizada ya da ondan daha solda. Kanonik çerçevede +X deneğin soludur; sağ yapının x değeri daha küçük olmalı.`, 'structure', s.id)
   }
 
   // Review records -------------------------------------------------------------

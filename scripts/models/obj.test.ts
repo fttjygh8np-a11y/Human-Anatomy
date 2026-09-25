@@ -82,3 +82,25 @@ describe('parseObj — geometry', () => {
     expect(obj.cornerNormals).toBeNull()
   })
 })
+
+describe('BodyParts3D 4.0 header', () => {
+  it('takes the FMA id from "Concept ID", not from the "Build-up logic : FMA 3.0" line', () => {
+    const text = [
+      '#',
+      '# Compatibility version : 4.0',
+      '# File ID : FJ1252',
+      '# Representation ID : BP5633',
+      '# Build-up logic : FMA 3.0 is_a',
+      '# Concept ID : FMA59763',
+      '# English name : Gingiva of upper jaw',
+      'v 0 0 0',
+      'v 1 0 0',
+      'v 0 1 0',
+      'f 1 2 3',
+    ].join('\n')
+    const m = parseObj(text, { fileName: 'FJ1252.obj' })
+    expect(m.header.fmaId).toBe('59763')
+    expect(m.header.elementId).toBe('FJ1252')
+    expect(m.header.name).toBe('Gingiva of upper jaw')
+  })
+})

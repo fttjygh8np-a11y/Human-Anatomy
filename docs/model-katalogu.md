@@ -236,6 +236,10 @@ npm run models:build -- --strict      # sağ-sol veya eksen denetimi başarısı
 npm run models:build -- --config benim-ayarlarim.json --date 2026-01-15
 ```
 
+Vekil sunucu (HTTPS_PROXY) arkasında Node'un yerleşik `fetch`i vekili varsayılan olarak kullanmaz;
+ağ politikası doğrudan çıkışı engelliyorsa indirmeyi `NODE_USE_ENV_PROXY=1 npm run models:fetch`
+ile çalıştırın (Node ≥ 22.21 / 24).
+
 Diğer seçenekler: `--input`, `--models-out`, `--data-out`, `--inventory-out`, `--url-prefix`
 (`build-models.ts` başlığı); `--base-url`, `--dest`, `--zip-pattern`, `--force-unzip`
 (`fetch-bodyparts3d.ts` başlığı).
