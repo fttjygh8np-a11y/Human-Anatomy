@@ -11,8 +11,8 @@ export interface AnatomiTestHook {
   store: SceneStoreApi
   /** `performance.now()` (ms since navigation start) of the first frame showing models; null until then. */
   firstFrameMs: number | null
-  /** Load durations reported by the engine ('asset-loaded' events). */
-  assetLoads: { assetId: string; ms: number }[]
+  /** 'asset-loaded' events: load duration (`ms`) and `performance.now()` when it finished (`at`). */
+  assetLoads: { assetId: string; ms: number; at: number }[]
 }
 
 declare global {
@@ -36,6 +36,6 @@ export function exposeEngine(engine: ViewerEngine | null, store: SceneStoreApi):
   if (!engine) return
   unsubscribe = engine.on((e) => {
     if (e.type === 'first-frame') hook.firstFrameMs ??= e.ms
-    else if (e.type === 'asset-loaded') hook.assetLoads.push({ assetId: e.assetId, ms: e.ms })
+    else if (e.type === 'asset-loaded') hook.assetLoads.push({ assetId: e.assetId, ms: e.ms, at: performance.now() })
   })
 }
