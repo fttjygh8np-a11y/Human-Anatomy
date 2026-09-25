@@ -198,6 +198,11 @@ export const sourceRefSchema = z.object({
   sourceId,
   /** Chapter/section/page/table or URL fragment within the source. */
   locator: z.string().optional(),
+  /**
+   * Exact passage of the source that supports the value ("…" marks an omission). For sources with
+   * page texts (İÜC books) `npm run content:quotecheck` verifies it on the pages of `locator`.
+   */
+  quote: z.string().min(1).optional(),
   note: z.string().optional(),
 })
 export type SourceRef = z.infer<typeof sourceRefSchema>
