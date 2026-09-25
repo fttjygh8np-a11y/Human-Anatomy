@@ -114,6 +114,264 @@
     }
   },
   {
+    "id": "ax:fma-37380-left",
+    "names": {
+      "la": {
+        "value": "adductor pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2526, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus adductor pollicis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526"
+          }
+        ]
+      },
+      {
+        "value": "adductor pollicis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2526"
+    }
+  },
+  {
+    "id": "ax:fma-37380-right",
+    "names": {
+      "la": {
+        "value": "adductor pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2526, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus adductor pollicis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526"
+          }
+        ]
+      },
+      {
+        "value": "adductor pollicis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2526"
+    }
+  },
+  {
+    "id": "ax:fma-37449-left",
+    "names": {
+      "la": {
+        "value": "flexor brevis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2673, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor hallucis brevis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673"
+          }
+        ]
+      },
+      {
+        "value": "flexor hallucis brevis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2673"
+    }
+  },
+  {
+    "id": "ax:fma-37449-right",
+    "names": {
+      "la": {
+        "value": "flexor brevis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2673, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor hallucis brevis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673"
+          }
+        ]
+      },
+      {
+        "value": "flexor hallucis brevis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2673"
+    }
+  },
+  {
+    "id": "ax:fma-37454-left",
+    "names": {
+      "la": {
+        "value": "adductor hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2676, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus adductor hallucis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676"
+          }
+        ]
+      },
+      {
+        "value": "adductor hallucis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2676"
+    }
+  },
+  {
+    "id": "ax:fma-37454-right",
+    "names": {
+      "la": {
+        "value": "adductor hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2676, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus adductor hallucis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676"
+          }
+        ]
+      },
+      {
+        "value": "adductor hallucis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2676"
+    }
+  },
+  {
     "id": "ax:fma-37688-left",
     "names": {
       "la": {
@@ -149,6 +407,178 @@
     },
     "externalIds": {
       "ta2": "2471"
+    }
+  },
+  {
+    "id": "ax:fma-38450-left",
+    "names": {
+      "la": {
+        "value": "pronator teres",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2478, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus pronator teres",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478"
+          }
+        ]
+      },
+      {
+        "value": "pronator teres muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2478"
+    }
+  },
+  {
+    "id": "ax:fma-38450-right",
+    "names": {
+      "la": {
+        "value": "pronator teres",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2478, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus pronator teres",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478"
+          }
+        ]
+      },
+      {
+        "value": "pronator teres muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2478"
+    }
+  },
+  {
+    "id": "ax:fma-38465-left",
+    "names": {
+      "la": {
+        "value": "flexor ulnaris carpi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2483, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor carpi ulnaris",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483"
+          }
+        ]
+      },
+      {
+        "value": "flexor carpi ulnaris muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2483"
+    }
+  },
+  {
+    "id": "ax:fma-38465-right",
+    "names": {
+      "la": {
+        "value": "flexor ulnaris carpi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2483, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor carpi ulnaris",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483"
+          }
+        ]
+      },
+      {
+        "value": "flexor carpi ulnaris muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2483"
     }
   },
   {
@@ -20786,6 +21216,49 @@
     }
   },
   {
+    "id": "fma:37380",
+    "names": {
+      "la": {
+        "value": "adductor pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2526, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus adductor pollicis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526"
+          }
+        ]
+      },
+      {
+        "value": "adductor pollicis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2526"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2526"
+    }
+  },
+  {
     "id": "fma:37382",
     "names": {
       "la": {
@@ -21354,6 +21827,49 @@
     }
   },
   {
+    "id": "fma:37449",
+    "names": {
+      "la": {
+        "value": "flexor brevis hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2673, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor hallucis brevis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673"
+          }
+        ]
+      },
+      {
+        "value": "flexor hallucis brevis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2673"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2673"
+    }
+  },
+  {
     "id": "fma:37450",
     "names": {
       "la": {
@@ -21480,6 +21996,49 @@
     ],
     "externalIds": {
       "ta2": "2684"
+    }
+  },
+  {
+    "id": "fma:37454",
+    "names": {
+      "la": {
+        "value": "adductor hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2676, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus adductor hallucis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676"
+          }
+        ]
+      },
+      {
+        "value": "adductor hallucis muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2676"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2676"
     }
   },
   {
@@ -22772,6 +23331,49 @@
     }
   },
   {
+    "id": "fma:38450",
+    "names": {
+      "la": {
+        "value": "pronator teres",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2478, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus pronator teres",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478"
+          }
+        ]
+      },
+      {
+        "value": "pronator teres muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2478"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2478"
+    }
+  },
+  {
     "id": "fma:38453",
     "names": {
       "la": {
@@ -23117,6 +23719,49 @@
     },
     "externalIds": {
       "ta2": "2482"
+    }
+  },
+  {
+    "id": "fma:38465",
+    "names": {
+      "la": {
+        "value": "flexor ulnaris carpi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2483, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "musculus flexor carpi ulnaris",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483"
+          }
+        ]
+      },
+      {
+        "value": "flexor carpi ulnaris muscle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2483"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2483"
     }
   },
   {

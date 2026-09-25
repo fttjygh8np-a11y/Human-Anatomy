@@ -3774,6 +3774,27 @@
     "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
   },
   {
+    "id": "hedef:iuc.fma-37380",
+    "structureId": "fma:37380",
+    "system": "muscular",
+    "region": "head",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Adductor pollicis",
+      "la": "adductor pollicis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 95",
+        "quote": "adductor pollicis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
     "id": "hedef:iuc.fma-37448",
     "structureId": "fma:37448",
     "system": "muscular",
@@ -3790,6 +3811,48 @@
         "sourceId": "src:iuc-lokomotor",
         "locator": "s. 101",
         "quote": "abductor hallucis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-37449",
+    "structureId": "fma:37449",
+    "system": "muscular",
+    "region": "head",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Flexor hallucis brevis",
+      "la": "flexor brevis hallucis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 10",
+        "quote": "m. flexor hallucis brevis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-37454",
+    "structureId": "fma:37454",
+    "system": "muscular",
+    "region": "head",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Adductor hallucis",
+      "la": "adductor hallucis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 102",
+        "quote": "adductor hallucis"
       }
     ],
     "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
@@ -3943,6 +4006,27 @@
     "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
   },
   {
+    "id": "hedef:iuc.fma-38450",
+    "structureId": "fma:38450",
+    "system": "muscular",
+    "region": "head",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Pronator teres",
+      "la": "pronator teres"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 93",
+        "quote": "pronator teres"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
     "id": "hedef:iuc.fma-38453",
     "structureId": "fma:38453",
     "system": "muscular",
@@ -3981,6 +4065,27 @@
         "sourceId": "src:iuc-lokomotor",
         "locator": "s. 93",
         "quote": "M. palmaris longus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-38465",
+    "structureId": "fma:38465",
+    "system": "muscular",
+    "region": "head",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Flexor carpi ulnaris",
+      "la": "flexor ulnaris carpi"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 2",
+        "quote": "m. flexor carpi ulnaris"
       }
     ],
     "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."

@@ -29,6 +29,7 @@
     "content:iuc-terms": "node scripts/content/iuc-terms.ts",
     "content:iuc-scope": "node scripts/content/iuc-scope.ts",
     "content:iuc-muscles": "node scripts/content/iuc-muscles.ts",
+    "content:iuc-cards": "node scripts/content/iuc-cards.ts",
     "content:build": "node scripts/content/build-content.ts",
     "content:validate": "node scripts/content/validate-content.ts",
     "content:quotecheck": "node scripts/content/quotecheck.ts",

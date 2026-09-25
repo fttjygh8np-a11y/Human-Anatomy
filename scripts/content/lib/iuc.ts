@@ -195,3 +195,66 @@ export function extractTermPairs(sourceId: string, pages: BookPage[], latinTerms
   }
   return out
 }
+
+// ---- Muscle descriptions ("M. x:" blocks with Başlangıcı / Sonlanışı / İşlevi / Siniri) ----
+
+export type MuscleLabel = 'Başlangıcı' | 'Sonlanışı' | 'İşlevi' | 'Siniri'
+export interface MuscleLine {
+  text: string
+  page: number
+}
+export interface MuscleField {
+  label: MuscleLabel | 'summary'
+  lines: MuscleLine[]
+}
+export interface MuscleBlock {
+  name: string
+  page: number
+  fields: MuscleField[]
+}
+
+const MUSCLE_HEADER = /^\s*Mm?\.\s+([a-z][a-z .-]+?)\s*:\s*(.*)$/i
+const MUSCLE_LABEL = /^\s*(Başlangıcı|Sonlanışı|İşlevi|Siniri)\s*:\s*(.*)$/
+/** Lines that end a field: citation-number lines, section headings, enumerations. */
+const MUSCLE_STOP = /^\s*(\d+(\s*,\s*\d+)*\s*,?\s*$|[A-ZÇĞİÖŞÜ0-9][A-ZÇĞİÖŞÜ .-]{3,}:|\d+\.\s|[A-Z]\)\s|BÖLÜM\b)/
+
+export function parseMuscleBlocks(lines: MuscleLine[]): MuscleBlock[] {
+  const blocks: MuscleBlock[] = []
+  let cur: MuscleBlock | null = null
+  let field: MuscleField | null = null
+  for (const l of lines) {
+    const h = MUSCLE_HEADER.exec(l.text)
+    if (h) {
+      cur = { name: h[1]!.trim().toLowerCase(), page: l.page, fields: [] }
+      blocks.push(cur)
+      field = h[2]?.trim() ? { label: 'summary', lines: [{ text: h[2].trim(), page: l.page }] } : null
+      if (field) cur.fields.push(field)
+      continue
+    }
+    if (!cur) continue
+    const m = MUSCLE_LABEL.exec(l.text)
+    if (m) {
+      field = { label: m[1] as MuscleLabel, lines: [l] }
+      cur.fields.push(field)
+      continue
+    }
+    if (MUSCLE_STOP.test(l.text)) {
+      field = null
+      continue
+    }
+    if (field) field.lines.push(l)
+    else if (cur.fields.length === 0) {
+      field = { label: 'summary', lines: [l] }
+      cur.fields.push(field)
+    }
+  }
+  return blocks
+}
+
+/** Sentences of normalised book text (a sentence ends with . ! ? before a capital letter). */
+export function splitSentences(text: string): string[] {
+  return text
+    .split(/(?<=[.!?])\s+(?=[A-ZÇĞİÖŞÜ])/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0)
+}

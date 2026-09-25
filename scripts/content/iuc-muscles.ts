@@ -20,7 +20,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import type { Structure } from '../../src/core/schema.ts'
 import { CONTENT_DIR, REPO_ROOT, prettyJson } from './lib/io.ts'
-import { latinKey, normalizeForQuote, type BookPage } from './lib/iuc.ts'
+import { latinKey, normalizeForQuote, parseMuscleBlocks, type BookPage, type MuscleLine } from './lib/iuc.ts'
 import { loadContent, pathsFromArgs } from './lib/pipeline.ts'
 import type { Ta2Term } from './lib/terminology.ts'
 
@@ -28,62 +28,10 @@ const SOURCE = 'src:iuc-lokomotor'
 const FIRST_PAGE = 64
 const LAST_PAGE = 101
 const LABELS = { 'Başlangıcı': 'origin', 'Sonlanışı': 'insertion', 'İşlevi': 'action', 'Siniri': 'nerve' } as const
-type Label = keyof typeof LABELS
-
-interface Line {
-  text: string
-  page: number
-}
-interface Field {
-  label: Label | 'summary'
-  lines: Line[]
-}
-interface Block {
-  name: string
-  page: number
-  fields: Field[]
-}
-
-const HEADER = /^\s*Mm?\.\s+([a-z][a-z .-]+?)\s*:\s*(.*)$/i
 const LABEL = /^\s*(Başlangıcı|Sonlanışı|İşlevi|Siniri)\s*:\s*(.*)$/
-/** Lines that end a field: citation-number lines, section headings, enumerations. */
-const STOP = /^\s*(\d+(\s*,\s*\d+)*\s*,?\s*$|[A-ZÇĞİÖŞÜ0-9][A-ZÇĞİÖŞÜ .-]{3,}:|\d+\.\s|[A-Z]\)\s|BÖLÜM\b)/
-
-export function parseMuscleBlocks(lines: Line[]): Block[] {
-  const blocks: Block[] = []
-  let cur: Block | null = null
-  let field: Field | null = null
-  for (const l of lines) {
-    const h = HEADER.exec(l.text)
-    if (h) {
-      cur = { name: h[1]!.trim().toLowerCase(), page: l.page, fields: [] }
-      blocks.push(cur)
-      field = h[2]?.trim() ? { label: 'summary', lines: [{ text: h[2].trim(), page: l.page }] } : null
-      if (field) cur.fields.push(field)
-      continue
-    }
-    if (!cur) continue
-    const m = LABEL.exec(l.text)
-    if (m) {
-      field = { label: m[1] as Label, lines: [l] }
-      cur.fields.push(field)
-      continue
-    }
-    if (STOP.test(l.text)) {
-      field = null
-      continue
-    }
-    if (field) field.lines.push(l)
-    else if (cur.fields.length === 0) {
-      field = { label: 'summary', lines: [l] }
-      cur.fields.push(field)
-    }
-  }
-  return blocks
-}
 
 const clean = (s: string) => s.replace(/›/g, "'").trim()
-const pagesOf = (lines: Line[]) => {
+const pagesOf = (lines: MuscleLine[]) => {
   const ps = [...new Set(lines.map((l) => l.page))]
   return ps.length > 1 ? `s. ${ps[0]}-${ps.at(-1)}` : `s. ${ps[0]}`
 }
@@ -96,7 +44,7 @@ async function main(): Promise<number> {
     console.error('İÜC sayfa metinleri yok; önce "npm run content:iuc" çalıştırın.')
     return 1
   }
-  const lines: Line[] = []
+  const lines: MuscleLine[] = []
   for (const p of pages) if (p.printed !== null && p.printed >= FIRST_PAGE && p.printed <= LAST_PAGE) for (const t of p.text.split('\n')) lines.push({ text: t, page: p.printed })
   const blocks = parseMuscleBlocks(lines)
 

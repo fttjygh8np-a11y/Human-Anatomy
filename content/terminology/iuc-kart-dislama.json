@@ -1,0 +1,15 @@
+{
+  "aciklama": "content:iuc-cards için elle inceleme sonucu: otomatik seçilen cümle yapıyı tanımlamıyorsa yapı burada dışlanır (yapilar) ya da yalnız açıklaması atlanır (yalnizOzet). Gerekçe zorunludur.",
+  "yapilar": {
+    "fma:15900": "Seçilen ilk cümle yalnız apex vesicae'yi anlatıyor; mesanenin tanımı değil.",
+    "fma:22684": "Cümleler a. axillaris'in bağlanmasıyla ilgili; a. circumflexa posterior humeri'yi tanımlamıyor.",
+    "fma:46565": "Cümleler bıngıldaklar (fonticuli cranii) hakkında; kafatasının tanımı değil.",
+    "fma:50028": "Cümleler a. subclavia hakkında; a. cerebri anterior'u tanımlamıyor.",
+    "fma:50544": "Cümleler a. epigastrica superior ve truncus thyrocervicalis hakkında; a. inferior anterior cerebelli'yi tanımlamıyor.",
+    "fma:62004": "Cümle alt motor nöronu tanımlıyor; medulla oblongata'nın tanımı değil.",
+    "fma:79876": "Seçilen metin madde listesi (a-/b-/c-); özet olarak okunamıyor."
+  },
+  "yalnizOzet": {
+    "fma:78467": "Açıklama bir sonraki başlığa (Ventriculus Quartus) taşıyor; yalnız özet cümlesi yapıyı anlatıyor."
+  }
+}

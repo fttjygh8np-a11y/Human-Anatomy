@@ -38,7 +38,8 @@ async function loadMuscleTerms() {
   return {
     resolve: (name: string) => {
       const hit = matchTa2({ id: 'x', names: { en: { value: name } }, laterality: 'unpaired', kind: 'muscle', externalIds: {} }, idx, new Map())
-      if (!hit || !hit.term.term.la?.startsWith('musculus ')) return null
+      // TA2 often gives the bare name as the Latin term and "musculus x" as a synonym ("pronator teres").
+      if (!hit || ![hit.term.term.la, ...(hit.term.synonyms?.la ?? [])].some((la) => la?.startsWith('musculus '))) return null
       const fma = crosswalk[String(hit.term.id)] ?? []
       return { ta2Id: hit.term.id, ...(fma.length === 1 ? { fmaId: fma[0] } : {}) }
     },

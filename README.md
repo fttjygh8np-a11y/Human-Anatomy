@@ -77,6 +77,8 @@ verir, metin modu ve arama çalışmaya devam eder.
 | `npm run content:iuc` | İÜC açık anatomi ders kitaplarını (CC BY 4.0) indirir, sayfa metinlerini çıkarır |
 | `npm run content:iuc-terms` | Kitaplardan elle kabul edilmiş Türkçe–Latince terim çiftlerini yapılara uygular |
 | `npm run content:iuc-scope` | Kitaplarda adı geçen yapılardan Dönem 1–2 kapsam hedeflerini üretir |
+| `npm run content:iuc-muscles` | Kitaptaki kas bloklarından başlangıç, yapışma, işlev ve sinir alanlarını yazar |
+| `npm run content:iuc-cards` | Kitaptaki başlıklı bölümlerden organ, sinir ve kemik kartları için özet ve açıklama yazar |
 | `npm run content:quotecheck` | Kitaptan alınan her alıntının belirtilen sayfada geçtiğini denetler |
 | `npm run report:coverage` | Kapsam raporu → `docs/raporlar/kapsam.md` |
 | `npm run report:inventory` | Sistem × bölge envanter raporu → `docs/raporlar/envanter.md` |

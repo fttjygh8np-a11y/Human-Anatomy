@@ -2310,6 +2310,71 @@
     }
   },
   {
+    "id": "fma:37380",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tenar bölgede derin planda yer alır. Tenar tümsek oluşumuna katılmaz!",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar bölgede derin planda yer alır. Tenar tümsek oluşumuna katılmaz!"
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Caput obliguum'u os capitatum, os metacarpale II ile III 'ün basis metacarpalis'inden ve komşu os carpi'lerden başlar. Caput transversum'u os metacarpale lII'ün ön yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Caput obliguum'u os capitatum, os metacarpale II ile III 'ün basis metacarpalis'inden ve komşu os carpi'lerden başlar. Caput transversum'u os metacarpale lII'ün ön yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "İki başa ait tendonlar birleşerek başparmağın phalanx proximalis'in basis phalangis'inin içyan tarafına tutunarak sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 96",
+            "quote": "Sonlanışı: İki başa ait tendonlar birleşerek başparmağın phalanx proximalis'in basis phalangis'inin içyan tarafına tutunarak sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa adduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 96",
+            "quote": "İşlevi: Başparmağa adduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. ulnaris'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 96",
+            "quote": "Siniri: N. ulnaris'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:37448",
     "content": {
       "summary": {
@@ -2369,6 +2434,35 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 101",
             "quote": "Siniri: N. plantaris medialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37449",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. flexor hallucis longus'un iki yanında bulunan kastır. Başlangıc: Os cuboideum ve os cuneiforme laterale'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "M. flexor hallucis longus'un iki yanında bulunan kastır. Başlangıc: Os cuboideum ve os cuneiforme laterale'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx proximalis'inin her iki yanında",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: Başparmağın phalanx proximalis'inin her iki yanında"
           }
         ]
       }
@@ -2705,6 +2799,59 @@
     }
   },
   {
+    "id": "fma:38450",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "İki başlı bir kastır. Caput humerale, humerus'un epicondylus medialis'inden, Caput ulnare, ulna'nın processus coronoideus'undan başlar. İki başın arasından n. medianus geçer.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: İki başlı bir kastır. Caput humerale, humerus'un epicondylus medialis'inden, Caput ulnare, ulna'nın processus coronoideus'undan başlar. İki başın arasından n. medianus geçer."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Radius gövdesinin ortasında tuberositas pronatoria'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Sonlanışı: Radius gövdesinin ortasında tuberositas pronatoria'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Önkola pronasyon yaptırır ve biraz da fleksiyon'a yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: Önkola pronasyon yaptırır ve biraz da fleksiyon›a yardım eder."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:38453",
     "content": {
       "origin": {
@@ -2858,6 +3005,59 @@
             "sourceId": "src:iuc-lokomotor",
             "locator": "s. 93",
             "quote": "Siniri: N.medianus."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38465",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Caput humerale, humerus'un epicondylus medialis'inden, Caput ulnare, ulna'nın olecranon'unun iç yanından ve ulna'nın arka kenarından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: Caput humerale, humerus'un epicondylus medialis'inden, Caput ulnare, ulna'nın olecranon'unun iç yanından ve ulna'nın arka kenarından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os pisiforme'de sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Sonlanışı: Os pisiforme'de sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ele fleksiyon ve adduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: Ele fleksiyon ve adduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. ulnaris'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Siniri: N. ulnaris'tir."
           }
         ]
       }

@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-25T18:22:00.206Z",
+  "generatedAt": "2026-09-25T18:30:03.145Z",
   "totals": {
-    "total": 2344,
+    "total": 2359,
     "model": 2246,
-    "la": 1718,
+    "la": 1733,
     "tr": 434,
-    "content": 197,
-    "relations": 938,
+    "content": 222,
+    "relations": 964,
     "approved": 0
   },
   "bySystem": {
     "muscular": {
-      "total": 592,
+      "total": 607,
       "model": 570,
-      "la": 537,
+      "la": 552,
       "tr": 54,
-      "content": 78,
-      "relations": 145,
+      "content": 82,
+      "relations": 171,
       "approved": 0
     },
     "skeletal": {
@@ -24,7 +24,7 @@
       "model": 366,
       "la": 296,
       "tr": 165,
-      "content": 119,
+      "content": 121,
       "relations": 208,
       "approved": 0
     },
@@ -33,7 +33,7 @@
       "model": 138,
       "la": 51,
       "tr": 37,
-      "content": 0,
+      "content": 7,
       "relations": 84,
       "approved": 0
     },
@@ -42,7 +42,7 @@
       "model": 784,
       "la": 543,
       "tr": 84,
-      "content": 0,
+      "content": 1,
       "relations": 301,
       "approved": 0
     },
@@ -51,7 +51,7 @@
       "model": 119,
       "la": 41,
       "tr": 9,
-      "content": 0,
+      "content": 1,
       "relations": 87,
       "approved": 0
     },
@@ -60,7 +60,7 @@
       "model": 4,
       "la": 4,
       "tr": 4,
-      "content": 0,
+      "content": 1,
       "relations": 1,
       "approved": 0
     },
@@ -69,7 +69,7 @@
       "model": 45,
       "la": 39,
       "tr": 18,
-      "content": 0,
+      "content": 5,
       "relations": 22,
       "approved": 0
     },
@@ -105,7 +105,7 @@
       "model": 155,
       "la": 152,
       "tr": 48,
-      "content": 0,
+      "content": 4,
       "relations": 79,
       "approved": 0
     },
@@ -131,12 +131,12 @@
   "matrix": {
     "muscular": {
       "head": {
-        "total": 93,
+        "total": 108,
         "model": 81,
-        "la": 93,
+        "la": 108,
         "tr": 0,
-        "content": 3,
-        "relations": 34,
+        "content": 7,
+        "relations": 60,
         "approved": 0
       },
       "upper_limb": {
@@ -290,7 +290,7 @@
         "model": 63,
         "la": 59,
         "tr": 53,
-        "content": 15,
+        "content": 17,
         "relations": 56,
         "approved": 0
       }
@@ -301,7 +301,7 @@
         "model": 64,
         "la": 30,
         "tr": 14,
-        "content": 0,
+        "content": 4,
         "relations": 63,
         "approved": 0
       },
@@ -328,7 +328,7 @@
         "model": 55,
         "la": 12,
         "tr": 17,
-        "content": 0,
+        "content": 1,
         "relations": 5,
         "approved": 0
       },
@@ -346,7 +346,7 @@
         "model": 1,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 1,
         "approved": 0
       },
@@ -355,7 +355,7 @@
         "model": 0,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 0,
         "approved": 0
       }
@@ -384,7 +384,7 @@
         "model": 23,
         "la": 21,
         "tr": 8,
-        "content": 0,
+        "content": 1,
         "relations": 15,
         "approved": 0
       },
@@ -449,7 +449,7 @@
         "model": 113,
         "la": 35,
         "tr": 5,
-        "content": 0,
+        "content": 1,
         "relations": 84,
         "approved": 0
       },
@@ -469,7 +469,7 @@
         "model": 1,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 0,
         "approved": 0
       },
@@ -489,7 +489,7 @@
         "model": 45,
         "la": 39,
         "tr": 18,
-        "content": 0,
+        "content": 5,
         "relations": 22,
         "approved": 0
       }
@@ -578,7 +578,7 @@
         "model": 109,
         "la": 109,
         "tr": 39,
-        "content": 0,
+        "content": 4,
         "relations": 72,
         "approved": 0
       },

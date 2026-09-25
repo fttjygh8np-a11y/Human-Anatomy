@@ -246,6 +246,252 @@
     }
   },
   {
+    "id": "ax:fma-37380-left",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Left adductor pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:46122, fma:46124"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "ax:fma-37380-right",
+    "genericId": "fma:37380",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Oblique head of left adductor pollicis; Transverse head of left adductor pollicis). Kas adı TA2 2526 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-37380-right",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Right adductor pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:46121, fma:46123"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "ax:fma-37380-left",
+    "genericId": "fma:37380",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Oblique head of right adductor pollicis; Transverse head of right adductor pollicis). Kas adı TA2 2526 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-37449-left",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Left flexor hallucis brevis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:45974, fma:45972"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "ax:fma-37449-right",
+    "genericId": "fma:37449",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Lateral head of left flexor hallucis brevis; Medial head of left flexor hallucis brevis). Kas adı TA2 2673 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-37449-right",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Right flexor hallucis brevis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:45973, fma:45971"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "ax:fma-37449-left",
+    "genericId": "fma:37449",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Lateral head of right flexor hallucis brevis; Medial head of right flexor hallucis brevis). Kas adı TA2 2673 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-37454-left",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Left adductor hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:46019, fma:46021"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "ax:fma-37454-right",
+    "genericId": "fma:37454",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Oblique head of left adductor hallucis; Transverse head of left adductor hallucis). Kas adı TA2 2676 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-37454-right",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Right adductor hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:46018, fma:46020"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "ax:fma-37454-left",
+    "genericId": "fma:37454",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Oblique head of right adductor hallucis; Transverse head of right adductor hallucis). Kas adı TA2 2676 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
     "id": "ax:fma-37688-left",
     "schemaVersion": 1,
     "kind": "muscle",
@@ -325,6 +571,170 @@
       "createdAt": "2026-09-25",
       "updatedAt": "2026-09-25",
       "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Lateral head of right triceps brachii; Long head of right triceps brachii; Medial head of right triceps brachii). Kas adı TA2 2471 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-38450-left",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Left pronator teres",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:38561, fma:38563"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "ax:fma-38450-right",
+    "genericId": "fma:38450",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Humeral head of left pronator teres; Ulnar head of left pronator teres). Kas adı TA2 2478 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-38450-right",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Right pronator teres",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:38560, fma:38562"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "ax:fma-38450-left",
+    "genericId": "fma:38450",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Humeral head of right pronator teres; Ulnar head of right pronator teres). Kas adı TA2 2478 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-38465-left",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Left flexor carpi ulnaris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:38618, fma:38620"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "ax:fma-38465-right",
+    "genericId": "fma:38465",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Humeral head of left flexor carpi ulnaris; Ulnar head of left flexor carpi ulnaris). Kas adı TA2 2483 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
+    "id": "ax:fma-38465-right",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Right flexor carpi ulnaris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:38617, fma:38619"
+          }
+        ]
+      }
+    },
+    "externalIds": {},
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "ax:fma-38465-left",
+    "genericId": "fma:38465",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Humeral head of right flexor carpi ulnaris; Ulnar head of right flexor carpi ulnaris). Kas adı TA2 2483 terimiyle eşleşti. Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı. Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
     }
   },
   {
@@ -11230,6 +11640,47 @@
     }
   },
   {
+    "id": "fma:37380",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Adductor pollicis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:46121, fma:46123, fma:46122, fma:46124, fma:46119, fma:46120"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "37380"
+    },
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Oblique head of right adductor pollicis; Transverse head of right adductor pollicis; Oblique head of left adductor pollicis; Transverse head of left adductor pollicis; Oblique head of adductor pollicis; Transverse head of adductor pollicis). Kas adı TA2 2526 terimiyle eşleşti. FMA kimliği TA2 → FMA eşlemesinden (Wikidata, content/terminology/ta2-fma.json). Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
     "id": "fma:37382",
     "schemaVersion": 1,
     "kind": "muscle",
@@ -11922,6 +12373,47 @@
     }
   },
   {
+    "id": "fma:37449",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Flexor hallucis brevis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:45973, fma:45971, fma:45974, fma:45972, fma:45970, fma:45969"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "37449"
+    },
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Lateral head of right flexor hallucis brevis; Medial head of right flexor hallucis brevis; Lateral head of left flexor hallucis brevis; Medial head of left flexor hallucis brevis; Lateral head of flexor hallucis brevis; Medial head of flexor hallucis brevis). Kas adı TA2 2673 terimiyle eşleşti. FMA kimliği TA2 → FMA eşlemesinden (Wikidata, content/terminology/ta2-fma.json). Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
     "id": "fma:37450",
     "schemaVersion": 1,
     "kind": "muscle",
@@ -12038,6 +12530,47 @@
       "createdAt": "2026-09-25",
       "updatedAt": "2026-09-25",
       "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:37465, fma:37466 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:37454",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Adductor hallucis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:46018, fma:46020, fma:46019, fma:46021, fma:46014, fma:46015"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "37454"
+    },
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Oblique head of right adductor hallucis; Transverse head of right adductor hallucis; Oblique head of left adductor hallucis; Transverse head of left adductor hallucis; Oblique head of adductor hallucis; Transverse head of adductor hallucis). Kas adı TA2 2676 terimiyle eşleşti. FMA kimliği TA2 → FMA eşlemesinden (Wikidata, content/terminology/ta2-fma.json). Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
     }
   },
   {
@@ -14535,6 +15068,47 @@
     }
   },
   {
+    "id": "fma:38450",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Pronator teres",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:38560, fma:38562, fma:38561, fma:38563, fma:38558, fma:38559"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "38450"
+    },
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Humeral head of right pronator teres; Ulnar head of right pronator teres; Humeral head of left pronator teres; Ulnar head of left pronator teres; Humeral head of pronator teres; Ulnar head of pronator teres). Kas adı TA2 2478 terimiyle eşleşti. FMA kimliği TA2 → FMA eşlemesinden (Wikidata, content/terminology/ta2-fma.json). Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
+    }
+  },
+  {
     "id": "fma:38453",
     "schemaVersion": 1,
     "kind": "muscle",
@@ -14913,6 +15487,47 @@
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
       "notes": "BodyParts3D içe aktarımı (öğe: FJ1502M). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: sistemden otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: genel kavramın kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:38465",
+    "schemaVersion": 1,
+    "kind": "muscle",
+    "names": {
+      "en": {
+        "value": "Flexor carpi ulnaris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "baş/parça adlarından: fma:38617, fma:38619, fma:38618, fma:38620, fma:38615, fma:38616"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "38465"
+    },
+    "systems": [
+      "muscular"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "paired_generic",
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (Humeral head of right flexor carpi ulnaris; Ulnar head of right flexor carpi ulnaris; Humeral head of left flexor carpi ulnaris; Ulnar head of left flexor carpi ulnaris; Humeral head of flexor carpi ulnaris; Ulnar head of flexor carpi ulnaris). Kas adı TA2 2483 terimiyle eşleşti. FMA kimliği TA2 → FMA eşlemesinden (Wikidata, content/terminology/ta2-fma.json). Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir."
     }
   },
   {
@@ -16706,6 +17321,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:38450"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -16747,6 +17365,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:38450"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -16791,6 +17412,9 @@
     "laterality": "right",
     "counterpartId": "fma:38561",
     "genericId": "fma:38558",
+    "parentIds": [
+      "ax:fma-38450-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -16835,6 +17459,9 @@
     "laterality": "left",
     "counterpartId": "fma:38560",
     "genericId": "fma:38558",
+    "parentIds": [
+      "ax:fma-38450-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -16879,6 +17506,9 @@
     "laterality": "right",
     "counterpartId": "fma:38563",
     "genericId": "fma:38559",
+    "parentIds": [
+      "ax:fma-38450-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -16923,6 +17553,9 @@
     "laterality": "left",
     "counterpartId": "fma:38562",
     "genericId": "fma:38559",
+    "parentIds": [
+      "ax:fma-38450-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -16964,6 +17597,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:38465"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -17005,6 +17641,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:38465"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -17049,6 +17688,9 @@
     "laterality": "right",
     "counterpartId": "fma:38618",
     "genericId": "fma:38615",
+    "parentIds": [
+      "ax:fma-38465-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -17093,6 +17735,9 @@
     "laterality": "left",
     "counterpartId": "fma:38617",
     "genericId": "fma:38615",
+    "parentIds": [
+      "ax:fma-38465-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -17137,6 +17782,9 @@
     "laterality": "right",
     "counterpartId": "fma:38620",
     "genericId": "fma:38616",
+    "parentIds": [
+      "ax:fma-38465-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -17181,6 +17829,9 @@
     "laterality": "left",
     "counterpartId": "fma:38619",
     "genericId": "fma:38616",
+    "parentIds": [
+      "ax:fma-38465-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19082,6 +19733,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:37449"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19123,6 +19777,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:37449"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19167,6 +19824,9 @@
     "laterality": "right",
     "counterpartId": "fma:45972",
     "genericId": "fma:45969",
+    "parentIds": [
+      "ax:fma-37449-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19211,6 +19871,9 @@
     "laterality": "left",
     "counterpartId": "fma:45971",
     "genericId": "fma:45969",
+    "parentIds": [
+      "ax:fma-37449-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19255,6 +19918,9 @@
     "laterality": "right",
     "counterpartId": "fma:45974",
     "genericId": "fma:45970",
+    "parentIds": [
+      "ax:fma-37449-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19299,6 +19965,9 @@
     "laterality": "left",
     "counterpartId": "fma:45973",
     "genericId": "fma:45970",
+    "parentIds": [
+      "ax:fma-37449-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19340,6 +20009,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:37454"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19381,6 +20053,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:37454"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19425,6 +20100,9 @@
     "laterality": "right",
     "counterpartId": "fma:46019",
     "genericId": "fma:46014",
+    "parentIds": [
+      "ax:fma-37454-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19469,6 +20147,9 @@
     "laterality": "left",
     "counterpartId": "fma:46018",
     "genericId": "fma:46014",
+    "parentIds": [
+      "ax:fma-37454-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19513,6 +20194,9 @@
     "laterality": "right",
     "counterpartId": "fma:46021",
     "genericId": "fma:46015",
+    "parentIds": [
+      "ax:fma-37454-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19557,6 +20241,9 @@
     "laterality": "left",
     "counterpartId": "fma:46020",
     "genericId": "fma:46015",
+    "parentIds": [
+      "ax:fma-37454-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19639,6 +20326,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:37380"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19680,6 +20370,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
+    "parentIds": [
+      "fma:37380"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19724,6 +20417,9 @@
     "laterality": "right",
     "counterpartId": "fma:46122",
     "genericId": "fma:46119",
+    "parentIds": [
+      "ax:fma-37380-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19768,6 +20464,9 @@
     "laterality": "left",
     "counterpartId": "fma:46121",
     "genericId": "fma:46119",
+    "parentIds": [
+      "ax:fma-37380-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19812,6 +20511,9 @@
     "laterality": "right",
     "counterpartId": "fma:46124",
     "genericId": "fma:46120",
+    "parentIds": [
+      "ax:fma-37380-right"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -19856,6 +20558,9 @@
     "laterality": "left",
     "counterpartId": "fma:46123",
     "genericId": "fma:46120",
+    "parentIds": [
+      "ax:fma-37380-left"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",

@@ -1,0 +1,640 @@
+[
+  {
+    "id": "fma:13889",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Hipofiz bezi, tuber cinereum'dan aşağı uzanan, sap şeklindeki infundibulum ile hipotalamusa tutunan, yaklaşık 600 mg ağırlığında, oval biçimli bir iç salgı bezidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 69",
+            "quote": "Hipofiz bezi, tuber cinereum'dan aşağı uzanan, sap şeklindeki infundibulum ile hipotalamusa tutunan, yaklaşık 600 mg ağırlığında, oval biçimli bir iç salgı bezidir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Sfenoid kemikte yer alan fossa hypophysialis içinde, üstte diaphragma sellae ile örtülü olarak bulunur. Kadınlarda biraz daha büyük olan ve fibröz bir kapsül ile çevrili bu bez gram başına hesaplanırsa vücudun en fazla kanlanan dokusudur. Alt ön kısmında sinus sphenoidalis, her iki yanda sinus cavernosus ve a. carotis interna, üst ön tarafında chiasma opticum ile yakın komşuluğa sahiptir. Hipofiz bezinin, embriyolojik kökenlerine göre, fonksiyon ve yapıları farklılaşmış olan lobları iki bölümde incelenir. Bezin ön ve arka lobları a. carotis interna'nın farklı dalları ile kanlandırılırlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 69",
+            "quote": "Sfenoid kemikte yer alan fossa hypophysialis içinde, üstte diaphragma sellae ile örtülü olarak bulunur. … Kadınlarda biraz daha büyük olan ve fibröz bir kapsül ile çevrili bu bez gram başına hesaplanırsa vücudun en fazla kanlanan dokusudur. … Alt ön kısmında sinus sphenoidalis, her iki yanda sinus cavernosus ve a. carotis interna, üst ön tarafında chiasma opticum ile yakın komşuluğa sahiptir. … Hipofiz bezinin, embriyolojik kökenlerine göre, fonksiyon ve yapıları farklılaşmış olan lobları iki bölümde incelenir. … Bezin ön ve arka lobları a. carotis interna'nın farklı dalları ile kanlandırılırlar.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:50454",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Arteria basilaris ile a. carotis interna arasındaki arteryel anastomoz sistemidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 39",
+            "quote": "Arteria basilaris ile a. carotis interna arasındaki arteryel anastomoz sistemidir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Bu sisteme a. carotis interna, a. cerebri anterior, a. communicans anterior, a. cerebri posterior ve a. communicans posterior katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 39",
+            "quote": "Bu sisteme a. carotis interna, a. cerebri anterior, a. communicans anterior, a. cerebri posterior ve a. communicans posterior katılır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:50865",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tamamıyla motor bir sinirdir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 49",
+            "quote": "Tamamıyla motor bir sinirdir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Göz küresini hareket ettiren göz kaslarından sadece m. obliquus superior'u innerve eder. Kranial sinirlerin içinde en incesidir. İntraserebral çapraz yapan ve beyin sapının dorsal yüzünden çıkan tek kranial sinirdir. Nuc. nervi trochlearis mesencephalon'da colliculus inferior düzeyinde bulunur. Nükleustan gelen lifler, substantia grisea centralis'in arkasından dolanarak mesencephalon'un arka bölümüne ulaşır ve birbirleri ile çapraz yaptıktan sonra buradan beyin sapını terk eder. N. trochlearis, beyin sapını arkadan öne dolanarak dura mater'i deler ve sinus cavernosus'un içine girer. Sinus cavernosus'un içinde ve dış yan duvarında, CN III'ün hemen altında ilerler.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 49",
+            "quote": "Göz küresini hareket ettiren göz kaslarından sadece m. obliquus superior'u innerve eder. … Kranial sinirlerin içinde en incesidir. … İntraserebral çapraz yapan ve beyin sapının dorsal yüzünden çıkan tek kranial sinirdir. … Nuc. nervi trochlearis mesencephalon'da colliculus inferior düzeyinde bulunur. … Nükleustan gelen lifler, substantia grisea centralis'in arkasından dolanarak mesencephalon'un arka bölümüne ulaşır ve birbirleri ile çapraz yaptıktan sonra buradan beyin sapını terk eder. … N. trochlearis, beyin sapını arkadan öne dolanarak dura mater'i deler ve sinus cavernosus'un içine girer. … Sinus cavernosus'un içinde ve dış yan duvarında, CN III'ün hemen altında ilerler.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53082",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tabanı önde, tepesi arkada, dört duvarı bulunan orbita'nın yöneltisi önden-arkaya ve dıştan- içyan tarafa (posteromedial) doğrudur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 28",
+            "quote": "Tabanı önde, tepesi arkada, dört duvarı bulunan orbita'nın yöneltisi önden-arkaya ve dıştan- içyan tarafa (posteromedial) doğrudur.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Orbita tabanı (Aditus orbitalis): Göz çukurunun (cavitas orbitalis) önde bulunan taban (giriş) kısmıdır. Dört kenarı vardır: a) Margo supraorbitalis: Tamamı os frontale tarafından, b) Margo lateralis: 2/3 alt kısmı os zygomaticum,1/3 üst kısmı os frontale tarafından, c) Margo infraorbitalis: Büyük kısmı dış yanda os zygomaticum, iç yanda kalan küçük bir kısmı ise maxilla tarafından, d) Margo medialis: 2/3 alt kısmı maxilla, 1/3 üst kısmı os frontale tarafından oluşturulur. (1,2,3,4,5,10) Orbita duvarları: Dört duvarı vardır: a)Paries superior: Üst duvarı (tavan) olup, aşağıya doğru bakan konkav şekildedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 28",
+            "quote": "Orbita tabanı (Aditus orbitalis): Göz çukurunun (cavitas orbitalis) önde bulunan taban (giriş) kısmıdır. … Dört kenarı vardır: a) Margo supraorbitalis: Tamamı os frontale tarafından, b) Margo lateralis: 2/3 alt kısmı os zygomaticum,1/3 üst kısmı os frontale tarafından, c) Margo infraorbitalis: Büyük kısmı dış yanda os zygomaticum, iç yanda kalan küçük bir kısmı ise maxilla tarafından, d) Margo medialis: 2/3 alt kısmı maxilla, 1/3 üst kısmı os frontale tarafından oluşturulur. (1,2,3,4,5,10) Orbita duvarları: Dört duvarı vardır: a)Paries superior: Üst duvarı (tavan) olup, aşağıya doğru bakan konkav şekildedir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53083",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tabanı önde, tepesi arkada, dört duvarı bulunan orbita'nın yöneltisi önden-arkaya ve dıştan- içyan tarafa (posteromedial) doğrudur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 28",
+            "quote": "Tabanı önde, tepesi arkada, dört duvarı bulunan orbita'nın yöneltisi önden-arkaya ve dıştan- içyan tarafa (posteromedial) doğrudur.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Orbita tabanı (Aditus orbitalis): Göz çukurunun (cavitas orbitalis) önde bulunan taban (giriş) kısmıdır. Dört kenarı vardır: a) Margo supraorbitalis: Tamamı os frontale tarafından, b) Margo lateralis: 2/3 alt kısmı os zygomaticum,1/3 üst kısmı os frontale tarafından, c) Margo infraorbitalis: Büyük kısmı dış yanda os zygomaticum, iç yanda kalan küçük bir kısmı ise maxilla tarafından, d) Margo medialis: 2/3 alt kısmı maxilla, 1/3 üst kısmı os frontale tarafından oluşturulur. (1,2,3,4,5,10) Orbita duvarları: Dört duvarı vardır: a)Paries superior: Üst duvarı (tavan) olup, aşağıya doğru bakan konkav şekildedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 28",
+            "quote": "Orbita tabanı (Aditus orbitalis): Göz çukurunun (cavitas orbitalis) önde bulunan taban (giriş) kısmıdır. … Dört kenarı vardır: a) Margo supraorbitalis: Tamamı os frontale tarafından, b) Margo lateralis: 2/3 alt kısmı os zygomaticum,1/3 üst kısmı os frontale tarafından, c) Margo infraorbitalis: Büyük kısmı dış yanda os zygomaticum, iç yanda kalan küçük bir kısmı ise maxilla tarafından, d) Margo medialis: 2/3 alt kısmı maxilla, 1/3 üst kısmı os frontale tarafından oluşturulur. (1,2,3,4,5,10) Orbita duvarları: Dört duvarı vardır: a)Paries superior: Üst duvarı (tavan) olup, aşağıya doğru bakan konkav şekildedir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:54640",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Radix linguae (kök), corpus linguae (gövde) ve apex linguae (uç) olarak üç parçaya ayrılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 38",
+            "quote": "Radix linguae (kök), corpus linguae (gövde) ve apex linguae (uç) olarak üç parçaya ayrılır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Dorsum linguae denen üst yüzü ve facies inferior linguae denen alt yüzü vardır. Dorsum linguae ters V harfi şeklinde bir oluk olan sulcus terminalis ile 2/3 ön ve 1/3 arka olmak üzere iki bölüme ayrılır. Bu yüzde, orta hatta bulunan uzunlamasına oluğa sulcus medianus linguae denir; bu oluk dili iki yarıma bölen ve septum linguae adı verilen vertikal, fibröz bölmenin dorsum linguae'deki izidir. Radix linguae sulcus terminalis'in arkasında kalan parçadır. Hyoid kemiğe ve mandibula'ya tutunur. Sulcus terminalis'in tepe noktasında foramen caecum bulunur. Embriyoda burada gelişen tiroid bezi, ductus thyroglossus adı verilen kanal aracılığı ile boyuna iner.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 38",
+            "quote": "Dorsum linguae denen üst yüzü ve facies inferior linguae denen alt yüzü vardır. … Dorsum linguae ters V harfi şeklinde bir oluk olan sulcus terminalis ile 2/3 ön ve 1/3 arka olmak üzere iki bölüme ayrılır. … Bu yüzde, orta hatta bulunan uzunlamasına oluğa sulcus medianus linguae denir; bu oluk dili iki yarıma bölen ve septum linguae adı verilen vertikal, fibröz bölmenin dorsum linguae'deki izidir. … Radix linguae sulcus terminalis'in arkasında kalan parçadır. … Hyoid kemiğe ve mandibula'ya tutunur. … Sulcus terminalis'in tepe noktasında foramen caecum bulunur. … Embriyoda burada gelişen tiroid bezi, ductus thyroglossus adı verilen kanal aracılığı ile boyuna iner.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:62008",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Sulcus hypothalamicus'un altında yer alan diencephalon bölümüdür.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 69",
+            "quote": "Sulcus hypothalamicus'un altında yer alan diencephalon bölümüdür.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Temel görevi homeostasis olarak adlandırılan, vücut iç ortamının dengesinin korunmasıdır. Bu kapsamda vücut ısısının kontrolü, vücut su miktarı dengesi, açlık, tokluk, beslenme, cinsel işlevlerin düzenlenmesi gibi fonksiyonları vardır. Hipotalamus, hipofiz bezinin üreteceği hormonları kontrol ederek, endokrin sistemin çalışmasını etkiler. Artırıcı (salgılatıcı/releasing=RH) ya da azaltıcı (baskılayıcı/inhibiting=IH) hormonları, hipofiz ön lobuna aralarındaki özel kapiller ağ yolu ile gönderir. Supraoptik ve paraventriküler nukleuslarda üretilen antidiüretik hormon (ADH) ve oksitosin adlı hormonları hipofiz arka lobuna sinirler yolu ile doğrudan gönderir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 69",
+            "quote": "Temel görevi homeostasis olarak adlandırılan, vücut iç ortamının dengesinin korunmasıdır. … Bu kapsamda vücut ısısının kontrolü, vücut su miktarı dengesi, açlık, tokluk, beslenme, cinsel işlevlerin düzenlenmesi gibi fonksiyonları vardır. … Hipotalamus, hipofiz bezinin üreteceği hormonları kontrol ederek, endokrin sistemin çalışmasını etkiler. … Artırıcı (salgılatıcı/releasing=RH) ya da azaltıcı (baskılayıcı/inhibiting=IH) hormonları, hipofiz ön lobuna aralarındaki özel kapiller ağ yolu ile gönderir. … Supraoptik ve paraventriküler nukleuslarda üretilen antidiüretik hormon (ADH) ve oksitosin adlı hormonları hipofiz arka lobuna sinirler yolu ile doğrudan gönderir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:62033",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Epiphysis cerebri, beyin yarım kürelerinin arasında, splenium corporis callosi'nin altında olarak ventriculus tertius'un arka ucundan geriye doğru uzanan, konik yapıda, çam kozalağına benzer bir bezdir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 69",
+            "quote": "Epiphysis cerebri, beyin yarım kürelerinin arasında, splenium corporis callosi'nin altında olarak ventriculus tertius'un arka ucundan geriye doğru uzanan, konik yapıda, çam kozalağına benzer bir bezdir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Adını şeklinden alan glandula pinealis, retina üzerine düşen çevresel ışık bilgilerini alıp buna uygun cevaplar üretir. Karanlık ortam bezin aktivasyonunu artırırken, aydınlık azaltır. Pineal bezdeki aktivite artışı, etkilediği iç salgı bezlerinde aktivite azalmasına neden olur. Etkin hormonu seratoninden üretilen melatonin'dir. Bu hormon uyku ritmi, metabolizma, vücut ısısı düzenlenmesi, ruh hali (mood) ve immün sistemde etkilidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 69",
+            "quote": "Adını şeklinden alan glandula pinealis, retina üzerine düşen çevresel ışık bilgilerini alıp buna uygun cevaplar üretir. … Karanlık ortam bezin aktivasyonunu artırırken, aydınlık azaltır. … Pineal bezdeki aktivite artışı, etkilediği iç salgı bezlerinde aktivite azalmasına neden olur. … Etkin hormonu seratoninden üretilen melatonin'dir. … Bu hormon uyku ritmi, metabolizma, vücut ısısı düzenlenmesi, ruh hali (mood) ve immün sistemde etkilidir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7131",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ortalama 25 cm uzunluğunda fibromüsküler bir tüp olan oesophagus, farinks ile mide arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 40",
+            "quote": "Ortalama 25 cm uzunluğunda fibromüsküler bir tüp olan oesophagus, farinks ile mide arasında yer alır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Önde krikoid kıkırdağın alt kenarından, arkada C6 vertebra hizasından başlar, aşağıda abdomende 11. torakal vertebra hizasında sonlanır. Pars cervicalis, pars thoracica ve pars abdominalis olmak üzere üç parçası vardır. Duvar katmanları sindirim kanalının diğer bölümlerindeki gibidir: İçten dışa doğru mukoza, submukoza, sirküler liflerin içerde, longitudinal kas liflerinin dışarda olduğu müsküler katman, pars cervicalis ve pars thoracica'da tunica adventitia, pars abdominalis'te tunica serosa ile sarılıdır. Özofagusun 1/3 üst kısmı çizgili kastan, 1/3 alt kısmı düz kastan, 1/3 orta kısmı çizgili ve düz kas liflerinin karışımından oluşmuştur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 40",
+            "quote": "Önde krikoid kıkırdağın alt kenarından, arkada C6 vertebra hizasından başlar, aşağıda abdomende 11. torakal vertebra hizasında sonlanır. … Pars cervicalis, pars thoracica ve pars abdominalis olmak üzere üç parçası vardır. … Duvar katmanları sindirim kanalının diğer bölümlerindeki gibidir: İçten dışa doğru mukoza, submukoza, sirküler liflerin içerde, longitudinal kas liflerinin dışarda olduğu müsküler katman, pars cervicalis ve pars thoracica'da tunica adventitia, pars abdominalis'te tunica serosa ile sarılıdır. … Özofagusun 1/3 üst kısmı çizgili kastan, 1/3 alt kısmı düz kastan, 1/3 orta kısmı çizgili ve düz kas liflerinin karışımından oluşmuştur.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7197",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Karaciğer vücudun en büyük bezi, en büyük glandüler organı ve deriden sonraki en büyük organı olma özelliğine sahip sindirim sistemi eklenti organıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 47",
+            "quote": "Karaciğer vücudun en büyük bezi, en büyük glandüler organı ve deriden sonraki en büyük organı olma özelliğine sahip sindirim sistemi eklenti organıdır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Yetişkinde yaklaşık 1500 gram ağırlığındadır. Yetişkinlerde vücut ağırlığının yaklaşık %2.5'una gelen bu oran yenidoğanda %5-10 civarındadır. (Yenidoğan döneminde göreceli olarak daha büyüktür.) Safra yapımı başta olmak üzere, pek çok metabolik aktivitesi bulunur. Fonksiyonlarından bazıları glikojen depolanması, karbonhidrat, yağ ve protein metabolizması, kan içindeki bakteri ve yabancı partiküllerin filtrasyonu ve uzaklaştırılması, demir ve bazı vitaminlerin depolanması, bazı ilaç ve hormonların atılmasıdır. Günde yaklaşık 700-1200 ml safra sentezler. Safra, içeriğinde bulunan safra tuzları sayesinde yağları yağları küçük parçacıklar haline getirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 47",
+            "quote": "Yetişkinde yaklaşık 1500 gram ağırlığındadır. … Yetişkinlerde vücut ağırlığının yaklaşık %2.5'una gelen bu oran yenidoğanda %5-10 civarındadır. (Yenidoğan döneminde göreceli olarak daha büyüktür.) Safra yapımı başta olmak üzere, pek çok metabolik aktivitesi bulunur. … Fonksiyonlarından bazıları glikojen depolanması, karbonhidrat, yağ ve protein metabolizması, kan içindeki bakteri ve yabancı partiküllerin filtrasyonu ve uzaklaştırılması, demir ve bazı vitaminlerin depolanması, bazı ilaç ve hormonların atılmasıdır. … Günde yaklaşık 700-1200 ml safra sentezler. … Safra, içeriğinde bulunan safra tuzları sayesinde yağları yağları küçük parçacıklar haline getirir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7200",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Sindirim ve emilimin büyük kısmının gerçekleştiği ince bağırsaklar sindirim kanalının en uzun bölümüdür.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 41",
+            "quote": "Sindirim ve emilimin büyük kısmının gerçekleştiği ince bağırsaklar sindirim kanalının en uzun bölümüdür.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Pilor sfinkterinde başlar, ileoçekal birleşim yerinde sonlanır. Canlıdaki uzunluğu 2 m kadardır. Kadavrada ise kas tonusu ortadan kalktığı için 5-8 m arasında değişir. Lümen çapı ortalama 2,5 cm'dir. Mukozadaki kıvrımlar ve villüslerden ötürü emilim yüzey alanı çok geniştir. Duodenum, jejunum ve ileum olarak üç parçadan oluşur. Jejunum ve ileum abdomenin orta kısmındadır ve kalın barsağın oluşturduğu bir çerçeve içindedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 41",
+            "quote": "Pilor sfinkterinde başlar, ileoçekal birleşim yerinde sonlanır. … Canlıdaki uzunluğu 2 m kadardır. … Kadavrada ise kas tonusu ortadan kalktığı için 5-8 m arasında değişir. … Lümen çapı ortalama 2,5 cm'dir. … Mukozadaki kıvrımlar ve villüslerden ötürü emilim yüzey alanı çok geniştir. … Duodenum, jejunum ve ileum olarak üç parçadan oluşur. … Jejunum ve ileum abdomenin orta kısmındadır ve kalın barsağın oluşturduğu bir çerçeve içindedir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7201",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Sindirim kanalının ince bağırsaktan sonra gelen bölümüdür; ileum'un sonundan başlayıp anüste sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 43",
+            "quote": "Sindirim kanalının ince bağırsaktan sonra gelen bölümüdür; ileum'un sonundan başlayıp anüste sonlanır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Uzunluğu 1,5-2 m olan kalın barsağın görevi ince bağırsaktan gelen içerikteki emilmemiş suyu ve bazı mineralleri absorbe etmek ve emilmeyen maddeleri dışkı olarak dışarı atılıncaya kadar depolamaktır. Kalın barsağın bölümleri caecum ve appendix vermiformis, colon (colon ascendens, colon transversum, colon descendens, colon sigmoideum), rectum, canalis analis'tir. Caecum sağ iliak fossadadır, abdomenin sağ yanında colon ascendens olarak yükselir. Karaciğerin alt yüzüne ulaştığında flexura coli dextra denen dirseği yapıp sola doğru döner ve colon transversum olarak abdomenin sol yanına ulaşır. Burada dalağın altında flexura coli sinistra denen ikinci bir dirsek yaparak aşağı döner.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 43",
+            "quote": "Uzunluğu 1,5-2 m olan kalın barsağın görevi ince bağırsaktan gelen içerikteki emilmemiş suyu ve bazı mineralleri absorbe etmek ve emilmeyen maddeleri dışkı olarak dışarı atılıncaya kadar depolamaktır. … Kalın barsağın bölümleri caecum ve appendix vermiformis, colon (colon ascendens, colon transversum, colon descendens, colon sigmoideum), rectum, canalis analis'tir. … Caecum sağ iliak fossadadır, abdomenin sağ yanında colon ascendens olarak yükselir. … Karaciğerin alt yüzüne ulaştığında flexura coli dextra denen dirseği yapıp sola doğru döner ve colon transversum olarak abdomenin sol yanına ulaşır. … Burada dalağın altında flexura coli sinistra denen ikinci bir dirsek yaparak aşağı döner.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7202",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Safra kesesi karaciğerin viseral yüzünde fossa vesicae biliaris içinde bulunan armut şeklinde, ince duvarlı 7-10 cm uzunluğunda, yaklaşık 50 ml hacimli bir kesedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 49",
+            "quote": "Safra kesesi karaciğerin viseral yüzünde fossa vesicae biliaris içinde bulunan armut şeklinde, ince duvarlı 7-10 cm uzunluğunda, yaklaşık 50 ml hacimli bir kesedir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Görevi karaciğer tarafından devamlı üretilen safrayı öğün aralarında depo ederek konsantre etmektir. Beslenme esnasında yağlı besin içeriğinin duodenum mukozasına teması sonucu kolesistokinin salgılanması ile safra kesesinin kasılması ve safranın duodenuma boşaltılması sağlanır. Komşuluğu duodenum'un birinci bölümü ve colon transversum iledir. Fundus, corpus ve collum bölümleri bulunur. Collum, S şeklinde kıvrılarak aşağı iç yana doğru dönen bölümdür, ductus cysticus'la devam eder. Ductus cysticus da ductus hepaticus communis'e bağlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 50",
+            "quote": "Görevi karaciğer tarafından devamlı üretilen safrayı öğün aralarında depo ederek konsantre etmektir. … Beslenme esnasında yağlı besin içeriğinin duodenum mukozasına teması sonucu kolesistokinin salgılanması ile safra kesesinin kasılması ve safranın duodenuma boşaltılması sağlanır. … Komşuluğu duodenum'un birinci bölümü ve colon transversum iledir. … Fundus, corpus ve collum bölümleri bulunur. … Collum, S şeklinde kıvrılarak aşağı iç yana doğru dönen bölümdür, ductus cysticus'la devam eder. … Ductus cysticus da ductus hepaticus communis'e bağlanır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7206",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İnce barsağın ilk, en kısa, lümeni en geniş ve en hareketsiz bölümüdür.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 41",
+            "quote": "İnce barsağın ilk, en kısa, lümeni en geniş ve en hareketsiz bölümüdür.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Karın arka duvarının üst kısmındadır. Duodenumun anlamı on iki parmak demektir, on iki parmak yan yana iken uzunluğu 25cm kadardır. Duodenumun uzunluğu da 25 cm olduğu için bu ad verilmiştir. Orta hattın sağında pilorla başlayan duodenum, C harfi şeklinde bir kavis çizerek orta hattın solunda jejunumla birleştiği flexura duodenojejunalis'te sonlanır. Duodenum kavsi içine pankreasın başı yerleşir. Sırt üstü yatırılmış kadavrada duodenum göbek seviyesinin yukarısındadır; ayakta duran canlı insanda ise bir vertebra yüksekliği kadar aşağı iner. Proksimal 2,5-3 cm kadarı intraperitonealdir, mide ile birlikte hareket eder. Kalan kısmı sekonder retroperitonealdir. Duodenum dört bölümden oluşur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 41",
+            "quote": "Karın arka duvarının üst kısmındadır. … Duodenumun anlamı on iki parmak demektir, on iki parmak yan yana iken uzunluğu 25cm kadardır. … Duodenumun uzunluğu da 25 cm olduğu için bu ad verilmiştir. … Orta hattın sağında pilorla başlayan duodenum, C harfi şeklinde bir kavis çizerek orta hattın solunda jejunumla birleştiği flexura duodenojejunalis'te sonlanır. … Duodenum kavsi içine pankreasın başı yerleşir. … Sırt üstü yatırılmış kadavrada duodenum göbek seviyesinin yukarısındadır; ayakta duran canlı insanda ise bir vertebra yüksekliği kadar aşağı iner. … Proksimal 2,5-3 cm kadarı intraperitonealdir, mide ile birlikte hareket eder. … Kalan kısmı sekonder retroperitonealdir. … Duodenum dört bölümden oluşur.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7394",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Trachea, erişkinde yaklaşık 10-13 cm uzunluğunda, çapı yaklaşık 1,5-2 cm olan, kıkırdak ve yumuşak dokudan oluşmuş tüp biçiminde bir hava iletim organıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 32",
+            "quote": "Trachea, erişkinde yaklaşık 10-13 cm uzunluğunda, çapı yaklaşık 1,5-2 cm olan, kıkırdak ve yumuşak dokudan oluşmuş tüp biçiminde bir hava iletim organıdır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Trachea, cartilago cricoidea'nın alt kenarından başlar ve iki ana bronşa (bronchus principalis) ayrıldığı yer olan bifurcatio tracheae'de sonlanır. Bifurcatio tracheae'de bulunan, orta hattaki yukarı doğru keskin kenarlı çıkıntıya carina trachea adı verilir. Trachea skeletotopik olarak C6-T5 vertebralar arasında uzanır. Oesophagus'un ön yüzünde bulunan trachea, 16- 20 adet, açıklığı arkaya bakan ve transvers yerleşimli, C şeklinde, hiyalin kıkırdak yapıda doku ve bunları birbirlerine bağlayan fibröz dokudan (ligg. anularia) oluşmuştur. Anular ligamentler soluk alma ve boyun ekstansiyonu sırasında trachea'nın boyunun artmasına olanak sağlarlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 32",
+            "quote": "Trachea, cartilago cricoidea'nın alt kenarından başlar ve iki ana bronşa (bronchus principalis) ayrıldığı yer olan bifurcatio tracheae'de sonlanır. … Bifurcatio tracheae'de bulunan, orta hattaki yukarı doğru keskin kenarlı çıkıntıya carina trachea adı verilir. … Trachea skeletotopik olarak C6-T5 vertebralar arasında uzanır. … Oesophagus'un ön yüzünde bulunan trachea, 16- 20 adet, açıklığı arkaya bakan ve transvers yerleşimli, C şeklinde, hiyalin kıkırdak yapıda doku ve bunları birbirlerine bağlayan fibröz dokudan (ligg. anularia) oluşmuştur. … Anular ligamentler soluk alma ve boyun ekstansiyonu sırasında trachea'nın boyunun artmasına olanak sağlarlar.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:78467",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçüncü ventrikülün dördüncü ventrikülle bağlantısını mesencephalon'da bulunan aqueductus cerebri sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 38",
+            "quote": "Üçüncü ventrikülün dördüncü ventrikülle bağlantısını mesencephalon'da bulunan aqueductus cerebri sağlar.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0000996",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Dışarda labium minus'lar arasındaki vestibulum vagina'dan başlayıp içeride uterus'a kadar uzanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 65",
+            "quote": "Dışarda labium minus'lar arasındaki vestibulum vagina'dan başlayıp içeride uterus'a kadar uzanır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Vagina'nın mukozasında glandüler yapılar yoktur. Islaklık servikal bezlerden ve duvar yapısındaki damarlardan transüdasyon yolu ile sağlanır. İç yüzeyde rugae vaginales adlı enine kıvrımlar bulunur. Vagina ön duvarı alt yarısında carina urethralis vaginae adlı longitudinal bir kabartı bulunur. Erişkinde vagina içi ph (3.5-4.9) Döderlein basilleri sayesinde asidiktir. Vagina, ön tarafında mesane ve urethra, arka tarafında rectum ve canalis analis, yanlarda ise m. levator ani ile komuşudur. Vestibulum vagina'ya açılan dış ağzı ostium vaginae olarak adlandırılır. Ostium vaginae'da yan duvarlar, ostium vaginae üstünde kalan bölümde ise ön-arka duvarlar birbirleri ile temas halindedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 65",
+            "quote": "Vagina'nın mukozasında glandüler yapılar yoktur. … Islaklık servikal bezlerden ve duvar yapısındaki damarlardan transüdasyon yolu ile sağlanır. … İç yüzeyde rugae vaginales adlı enine kıvrımlar bulunur. … Vagina ön duvarı alt yarısında carina urethralis vaginae adlı longitudinal bir kabartı bulunur. … Erişkinde vagina içi ph (3.5-4.9) Döderlein basilleri sayesinde asidiktir. … Vagina, ön tarafında mesane ve urethra, arka tarafında rectum ve canalis analis, yanlarda ise m. levator ani ile komuşudur. … Vestibulum vagina'ya açılan dış ağzı ostium vaginae olarak adlandırılır. … Ostium vaginae'da yan duvarlar, ostium vaginae üstünde kalan bölümde ise ön-arka duvarlar birbirleri ile temas halindedir.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0001302",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Bir ucunda ostium abdominale tubae uterinae olarak adlandırılan deliği olup peritoneal kaviteye açılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Bir ucunda ostium abdominale tubae uterinae olarak adlandırılan deliği olup peritoneal kaviteye açılır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ostium uterinum tubae uterinae olarak adlandırılan diğer deliği ile ise uterus'a açılır. Tuba uterina'nın infundibulum, ampulla, isthmus ve pars intramuralis olmak üzere 4 parçası bulunur. Infundibulum; tuba uterina'nın en periferde yer alan ve en geniş bölümüdür. Infundibulum'un çevresinde fimbriae tubae uterinae olarak isimlendirilen parmak şeklinde uzantılar bulunur. Bu uzantılardan biri diğerlerinden daha uzun ve kalın olup fimbria ovarica olarak adlandırılır. Fimbria ovarica ovarium'un üst ucuna tutunur ve böylelikle ovulasyon sırasında periton boşluğuna atılan ovum'u ostium abdominale tubae deliğinden içeriye yönlendirerek kanalın içine doğru sürükler.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Ostium uterinum tubae uterinae olarak adlandırılan diğer deliği ile ise uterus'a açılır. … Tuba uterina'nın infundibulum, ampulla, isthmus ve pars intramuralis olmak üzere 4 parçası bulunur. … Infundibulum; tuba uterina'nın en periferde yer alan ve en geniş bölümüdür. … Infundibulum'un çevresinde fimbriae tubae uterinae olarak isimlendirilen parmak şeklinde uzantılar bulunur. … Bu uzantılardan biri diğerlerinden daha uzun ve kalın olup fimbria ovarica olarak adlandırılır. … Fimbria ovarica ovarium'un üst ucuna tutunur ve böylelikle ovulasyon sırasında periton boşluğuna atılan ovum'u ostium abdominale tubae deliğinden içeriye yönlendirerek kanalın içine doğru sürükler.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0001303",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Bir ucunda ostium abdominale tubae uterinae olarak adlandırılan deliği olup peritoneal kaviteye açılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Bir ucunda ostium abdominale tubae uterinae olarak adlandırılan deliği olup peritoneal kaviteye açılır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ostium uterinum tubae uterinae olarak adlandırılan diğer deliği ile ise uterus'a açılır. Tuba uterina'nın infundibulum, ampulla, isthmus ve pars intramuralis olmak üzere 4 parçası bulunur. Infundibulum; tuba uterina'nın en periferde yer alan ve en geniş bölümüdür. Infundibulum'un çevresinde fimbriae tubae uterinae olarak isimlendirilen parmak şeklinde uzantılar bulunur. Bu uzantılardan biri diğerlerinden daha uzun ve kalın olup fimbria ovarica olarak adlandırılır. Fimbria ovarica ovarium'un üst ucuna tutunur ve böylelikle ovulasyon sırasında periton boşluğuna atılan ovum'u ostium abdominale tubae deliğinden içeriye yönlendirerek kanalın içine doğru sürükler.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Ostium uterinum tubae uterinae olarak adlandırılan diğer deliği ile ise uterus'a açılır. … Tuba uterina'nın infundibulum, ampulla, isthmus ve pars intramuralis olmak üzere 4 parçası bulunur. … Infundibulum; tuba uterina'nın en periferde yer alan ve en geniş bölümüdür. … Infundibulum'un çevresinde fimbriae tubae uterinae olarak isimlendirilen parmak şeklinde uzantılar bulunur. … Bu uzantılardan biri diğerlerinden daha uzun ve kalın olup fimbria ovarica olarak adlandırılır. … Fimbria ovarica ovarium'un üst ucuna tutunur ve böylelikle ovulasyon sırasında periton boşluğuna atılan ovum'u ostium abdominale tubae deliğinden içeriye yönlendirerek kanalın içine doğru sürükler.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0002118",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ovarium'lar a. iliaca interna ile a. iliaca externa arasında bulunan, pelvis minor'de yer alan fossa ovarica'lara yerleşmiş, grimsi pembe renkte bir çift üreme organıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Ovarium'lar a. iliaca interna ile a. iliaca externa arasında bulunan, pelvis minor'de yer alan fossa ovarica'lara yerleşmiş, grimsi pembe renkte bir çift üreme organıdır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Erkekteki testis'lerin homoloğudur ve steroid yapıda dişi üreme hormonu salgılarlar. Ovarium'ların iki yüzü, iki ucu ve iki kenarı bulunur. Yüzlerine, fascies medialis ve facies lateralis adı verilir. Fascies medialis tuba uterina ile örtülüdür. Uçlarından üstte yer alan extremitas tubaria'ya fimbria ovarica ve ligamentum suspensorium ovarii tutunur. Ligamentum suspensorium ovarii'nin içinde ovarium'un kanlanması ve innervasyonundan sorumlu a. ovarica, v. ovarica ve plexus ovaricus'tan gelen sinir lifleri bulunur. Alt uç olan extremitas uterina'dan ligamentum ovarii proprium başlar. Ligamentum ovarii proprium, ovarium'u uterus'un dış köşenine bağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Erkekteki testis'lerin homoloğudur ve steroid yapıda dişi üreme hormonu salgılarlar. … Ovarium'ların iki yüzü, iki ucu ve iki kenarı bulunur. … Yüzlerine, fascies medialis ve facies lateralis adı verilir. … Fascies medialis tuba uterina ile örtülüdür. … Uçlarından üstte yer alan extremitas tubaria'ya fimbria ovarica ve ligamentum suspensorium ovarii tutunur. … Ligamentum suspensorium ovarii'nin içinde ovarium'un kanlanması ve innervasyonundan sorumlu a. ovarica, v. ovarica ve plexus ovaricus'tan gelen sinir lifleri bulunur. … Alt uç olan extremitas uterina'dan ligamentum ovarii proprium başlar. … Ligamentum ovarii proprium, ovarium'u uterus'un dış köşenine bağlar.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0002119",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ovarium'lar a. iliaca interna ile a. iliaca externa arasında bulunan, pelvis minor'de yer alan fossa ovarica'lara yerleşmiş, grimsi pembe renkte bir çift üreme organıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Ovarium'lar a. iliaca interna ile a. iliaca externa arasında bulunan, pelvis minor'de yer alan fossa ovarica'lara yerleşmiş, grimsi pembe renkte bir çift üreme organıdır.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Erkekteki testis'lerin homoloğudur ve steroid yapıda dişi üreme hormonu salgılarlar. Ovarium'ların iki yüzü, iki ucu ve iki kenarı bulunur. Yüzlerine, fascies medialis ve facies lateralis adı verilir. Fascies medialis tuba uterina ile örtülüdür. Uçlarından üstte yer alan extremitas tubaria'ya fimbria ovarica ve ligamentum suspensorium ovarii tutunur. Ligamentum suspensorium ovarii'nin içinde ovarium'un kanlanması ve innervasyonundan sorumlu a. ovarica, v. ovarica ve plexus ovaricus'tan gelen sinir lifleri bulunur. Alt uç olan extremitas uterina'dan ligamentum ovarii proprium başlar. Ligamentum ovarii proprium, ovarium'u uterus'un dış köşenine bağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Erkekteki testis'lerin homoloğudur ve steroid yapıda dişi üreme hormonu salgılarlar. … Ovarium'ların iki yüzü, iki ucu ve iki kenarı bulunur. … Yüzlerine, fascies medialis ve facies lateralis adı verilir. … Fascies medialis tuba uterina ile örtülüdür. … Uçlarından üstte yer alan extremitas tubaria'ya fimbria ovarica ve ligamentum suspensorium ovarii tutunur. … Ligamentum suspensorium ovarii'nin içinde ovarium'un kanlanması ve innervasyonundan sorumlu a. ovarica, v. ovarica ve plexus ovaricus'tan gelen sinir lifleri bulunur. … Alt uç olan extremitas uterina'dan ligamentum ovarii proprium başlar. … Ligamentum ovarii proprium, ovarium'u uterus'un dış köşenine bağlar.",
+            "note": "Kitaptaki başlıklı bölümden birebir (content:iuc-cards)."
+          }
+        ]
+      }
+    }
+  }
+]

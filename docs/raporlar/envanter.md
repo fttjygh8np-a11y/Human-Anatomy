@@ -1,6 +1,6 @@
 # Yapı envanteri: sistem × bölge
 
-Oluşturma: 2026-09-25T18:22:00.182Z · içerik sürümü `b71d393b30255e74` · `npm run report:inventory`
+Oluşturma: 2026-09-25T18:30:03.121Z · içerik sürümü `715758708bea9cde` · `npm run report:inventory`
 
 > Bu tablo, içerikteki **her yapı kaydını** (BodyParts3D envanteri, HRA kadın üreme yapıları ve
 > genel/taraf belirtmeyen kavramlar) sayar. "Uzman onaylı" sütunu yalnızca adı belirtilmiş bir
@@ -12,23 +12,23 @@ Oluşturma: 2026-09-25T18:22:00.182Z · içerik sürümü `b71d393b30255e74` · 
 
 | Yapı kaydı | 3B model (anatomik) | Latince ad | Türkçe ad | Kaynaklı açıklama | En az 1 ilişki | Uzman onaylı |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2344 | 2246 (%96) | 1718 (%73) | 434 (%19) | 197 (%8) | 938 (%40) | 0 (%0) |
+| 2359 | 2246 (%95) | 1733 (%73) | 434 (%18) | 222 (%9) | 964 (%41) | 0 (%0) |
 
 ## Sistemlere göre
 
 | Sistem | Yapı kaydı | 3B model (anatomik) | Latince ad | Türkçe ad | Kaynaklı açıklama | En az 1 ilişki | Uzman onaylı |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| İskelet sistemi | 375 | 366 (%98) | 296 (%79) | 165 (%44) | 119 (%32) | 208 (%55) | 0 (%0) |
+| İskelet sistemi | 375 | 366 (%98) | 296 (%79) | 165 (%44) | 121 (%32) | 208 (%55) | 0 (%0) |
 | Eklem sistemi | 22 | 22 (%100) | 22 (%100) | 3 (%14) | 0 (%0) | 2 (%9) | 0 (%0) |
-| Kas sistemi | 592 | 570 (%96) | 537 (%91) | 54 (%9) | 78 (%13) | 145 (%24) | 0 (%0) |
-| Dolaşım sistemi | 808 | 784 (%97) | 543 (%67) | 84 (%10) | 0 (%0) | 301 (%37) | 0 (%0) |
+| Kas sistemi | 607 | 570 (%94) | 552 (%91) | 54 (%9) | 82 (%14) | 171 (%28) | 0 (%0) |
+| Dolaşım sistemi | 808 | 784 (%97) | 543 (%67) | 84 (%10) | 1 (%0) | 301 (%37) | 0 (%0) |
 | Lenfatik sistem | 5 | 4 (%80) | 5 (%100) | 2 (%40) | 0 (%0) | 3 (%60) | 0 (%0) |
-| Sinir sistemi | 171 | 155 (%91) | 152 (%89) | 48 (%28) | 0 (%0) | 79 (%46) | 0 (%0) |
-| Solunum sistemi | 127 | 119 (%94) | 41 (%32) | 9 (%7) | 0 (%0) | 87 (%69) | 0 (%0) |
-| Sindirim sistemi | 149 | 138 (%93) | 51 (%34) | 37 (%25) | 0 (%0) | 84 (%56) | 0 (%0) |
+| Sinir sistemi | 171 | 155 (%91) | 152 (%89) | 48 (%28) | 4 (%2) | 79 (%46) | 0 (%0) |
+| Solunum sistemi | 127 | 119 (%94) | 41 (%32) | 9 (%7) | 1 (%1) | 87 (%69) | 0 (%0) |
+| Sindirim sistemi | 149 | 138 (%93) | 51 (%34) | 37 (%25) | 7 (%5) | 84 (%56) | 0 (%0) |
 | Üriner sistem | 8 | 8 (%100) | 8 (%100) | 8 (%100) | 0 (%0) | 0 (%0) | 0 (%0) |
-| Üreme sistemi | 50 | 45 (%90) | 39 (%78) | 18 (%36) | 0 (%0) | 22 (%44) | 0 (%0) |
-| Endokrin bezler | 4 | 4 (%100) | 4 (%100) | 4 (%100) | 0 (%0) | 1 (%25) | 0 (%0) |
+| Üreme sistemi | 50 | 45 (%90) | 39 (%78) | 18 (%36) | 5 (%10) | 22 (%44) | 0 (%0) |
+| Endokrin bezler | 4 | 4 (%100) | 4 (%100) | 4 (%100) | 1 (%25) | 1 (%25) | 0 (%0) |
 | Duyu organları | 30 | 28 (%93) | 18 (%60) | 0 (%0) | 0 (%0) | 6 (%20) | 0 (%0) |
 | Deri ve deri ekleri | 3 | 3 (%100) | 2 (%67) | 2 (%67) | 0 (%0) | 0 (%0) | 0 (%0) |
 
@@ -36,17 +36,17 @@ Oluşturma: 2026-09-25T18:22:00.182Z · içerik sürümü `b71d393b30255e74` · 
 
 | Sistem | Baş | Boyun | Sırt | Toraks | Karın | Pelvis ve perine | Üst ekstremite | Alt ekstremite | Birden çok bölge | Bölgesi atanmamış |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| İskelet sistemi | 68 / 63 / 15 | 13 / 13 / 7 | 1 / 1 / 0 | 87 / 85 / 27 | 10 / 10 / 5 | — | 92 / 92 / 30 | 101 / 100 / 33 | 3 / 2 / 2 | — |
+| İskelet sistemi | 68 / 63 / 17 | 13 / 13 / 7 | 1 / 1 / 0 | 87 / 85 / 27 | 10 / 10 / 5 | — | 92 / 92 / 30 | 101 / 100 / 33 | 3 / 2 / 2 | — |
 | Eklem sistemi | — | 7 / 7 / 0 | — | — | — | — | 3 / 3 / 0 | 6 / 6 / 0 | — | 6 / 6 / 0 |
-| Kas sistemi | 93 / 81 / 3 | 67 / 67 / 9 | 64 / 61 / 0 | 27 / 25 / 0 | 15 / 15 / 1 | 8 / 8 / 0 | 101 / 98 / 22 | 105 / 105 / 20 | 2 / 0 / 0 | 110 / 110 / 23 |
-| Dolaşım sistemi | 50 / 49 / 0 | 8 / 8 / 0 | — | 201 / 184 / 0 | 68 / 68 / 0 | 25 / 25 / 0 | 113 / 112 / 0 | 94 / 92 / 0 | 25 / 23 / 0 | 224 / 223 / 0 |
+| Kas sistemi | 108 / 81 / 7 | 67 / 67 / 9 | 64 / 61 / 0 | 27 / 25 / 0 | 15 / 15 / 1 | 8 / 8 / 0 | 101 / 98 / 22 | 105 / 105 / 20 | 2 / 0 / 0 | 110 / 110 / 23 |
+| Dolaşım sistemi | 50 / 49 / 0 | 8 / 8 / 0 | — | 201 / 184 / 0 | 68 / 68 / 0 | 25 / 25 / 0 | 113 / 112 / 0 | 94 / 92 / 0 | 25 / 23 / 1 | 224 / 223 / 0 |
 | Lenfatik sistem | — | — | — | 4 / 3 / 0 | 1 / 1 / 0 | — | — | — | — | — |
-| Sinir sistemi | 125 / 109 / 0 | — | 1 / 1 / 0 | — | 1 / 1 / 0 | — | — | — | — | 44 / 44 / 0 |
-| Solunum sistemi | — | 6 / 6 / 0 | — | 121 / 113 / 0 | — | — | — | — | — | — |
-| Sindirim sistemi | 56 / 55 / 0 | 1 / 1 / 0 | — | 1 / 1 / 0 | 73 / 64 / 0 | 1 / 1 / 0 | — | — | 1 / 0 / 0 | 16 / 16 / 0 |
+| Sinir sistemi | 125 / 109 / 4 | — | 1 / 1 / 0 | — | 1 / 1 / 0 | — | — | — | — | 44 / 44 / 0 |
+| Solunum sistemi | — | 6 / 6 / 0 | — | 121 / 113 / 1 | — | — | — | — | — | — |
+| Sindirim sistemi | 56 / 55 / 1 | 1 / 1 / 0 | — | 1 / 1 / 1 | 73 / 64 / 4 | 1 / 1 / 0 | — | — | 1 / 0 / 1 | 16 / 16 / 0 |
 | Üriner sistem | — | — | — | — | 6 / 6 / 0 | 2 / 2 / 0 | — | — | — | — |
-| Üreme sistemi | — | — | — | — | — | 50 / 45 / 0 | — | — | — | — |
-| Endokrin bezler | 1 / 1 / 0 | — | — | — | 3 / 3 / 0 | — | — | — | — | — |
+| Üreme sistemi | — | — | — | — | — | 50 / 45 / 5 | — | — | — | — |
+| Endokrin bezler | 1 / 1 / 1 | — | — | — | 3 / 3 / 0 | — | — | — | — | — |
 | Duyu organları | 23 / 21 / 0 | — | — | — | — | — | — | — | — | 7 / 7 / 0 |
 | Deri ve deri ekleri | 1 / 1 / 0 | — | — | — | — | 1 / 1 / 0 | — | — | — | 1 / 1 / 0 |
 
@@ -69,7 +69,7 @@ türetildiği için **modeli bulunmayan yapı türleri envanterde hiç yer almaz
 | Kıkırdak | 29 |
 | Eklem diski / menisküs | 0 |
 | Bursa / kılıf | 0 |
-| Kas | 593 |
+| Kas | 608 |
 | Kas grubu | 0 |
 | Tendon | 7 |
 | Aponevroz | 0 |

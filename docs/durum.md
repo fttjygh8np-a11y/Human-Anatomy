@@ -15,15 +15,15 @@ Durum işaretleri: ✅ tamamlandı · 🟡 kısmen / doğrulama bekliyor · ❌ 
 
 | Ölçüt | Değer |
 |---|---|
-| Yapı kaydı (envanter) | 2326 (BodyParts3D 2289, HRA 37); 75'i parça–bütün listesinden eklenen bütün yapı (kalp, karaciğer, beyin, kafatası…) |
-| Latince adı olan (TA2, doğrulanmadı) | 1700 (%73); 133'ü kurallı türetilmiş |
+| Yapı kaydı (envanter) | 2359 (BodyParts3D 2322, HRA 37); 108'i parçalarından birleştirilen bütün yapı (kalp, karaciğer, kafatası, biceps brachii, pronator teres…) |
+| Latince adı olan (TA2, doğrulanmadı) | 1733 (%73); 133'ü kurallı türetilmiş |
 | Türkçe adı olan (doğrulanmadı) | 434 (%19); 95'i Cerrahpaşa ders kitabından, sayfa ve alıntıyla |
 | Ekranda yalnız İngilizce adı görünen | 588 (Dönem 1–2 hedeflerinde 1) |
-| Kaynaklı açıklaması olan | 119 (yalnızca iskelet sistemi) |
-| Kapsam matrisi hedefi | 350 (231'i Cerrahpaşa Dönem 1–2 kitaplarından); tamamlanmış **0** |
-| Kitaptan birebir alıntı (otomatik denetimli) | 337 alıntı, hepsi sayfasında doğrulandı |
+| Kaynaklı açıklaması olan | 176 yapı (özet/açıklama); 103 yapıda Cerrahpaşa kitabından sayfalı alıntı (82 kas: başlangıç, yapışma, işlev, sinir; 21 organ/sinir/kemik kartı) |
+| Kapsam matrisi hedefi | 520 (401'i Cerrahpaşa Dönem 1–2 kitaplarından); tamamlanmış **0** |
+| Kitaptan birebir alıntı (otomatik denetimli) | 875 alıntı, hepsi sayfasında doğrulandı |
 | Uzman onaylı yapı | **0** |
-| Birim testi / E2E testi | 414/414, 16/16 geçti |
+| Birim testi / E2E testi | 417/417, 16/16 geçti |
 
 v1.0 sürüm kapılarının güncel ölçümü: [raporlar/surum-kapilari.md](raporlar/surum-kapilari.md) (`npm run report:release`).
 
@@ -156,11 +156,17 @@ listesi.
 
 ## İçerik eksikleri (öncelik sırasıyla)
 
-1. **Uzman incelemesi:** 0/2251. En yüksek öncelik; tamamlanma bu adıma bağlı.
-2. **Açıklamalar:** Kaslar, eklemler, organlar, damarlar ve sinirler için kaynaklı açıklama yok
-   (yalnızca 119 iskelet yapısında var). Kaslarda başlangıç, yapışma ve eylem alanları da boş.
-3. **Türkçe adlar:** 1849 yapıda Türkçe ad yok. Mevcut 402 ad doğrulanmadı.
-4. **Latince adlar:** 877 yapıda TA2 eşleşmesi bulunamadı.
+1. **Uzman incelemesi:** 0/2359. En yüksek öncelik; tamamlanma bu adıma bağlı.
+2. **Açıklamalar:** 82 kasta Cerrahpaşa kitabından başlangıç, yapışma, işlev ve sinir; 21 organ,
+   sinir ve kemikte özet/açıklama var (otomatik çıkarıldı, alıntılar denetimli; elle incelemede
+   uygunsuz bulunanlar `content/terminology/iuc-kart-dislama.json` ile dışlandı). Damarlar, sinirler
+   ve çoğu organ için açıklama hâlâ yok; "konum" alanı neredeyse hiç dolu değil.
+   **Eklemler:** BodyParts3D eklemleri ayrı yapı olarak modellemediği için envanterde eklem kaydı
+   yok; kitaptaki eklem bilgileri (tip, eklem yüzleri, bağlar, hareket) bu kayıtlar eklenince
+   işlenecek. **Kas–sinir ilişkileri:** Kitaptaki "Siniri:" cümleleri okunuyor ama çevresel
+   sinirlerin (n. axillaris, n. radialis…) envanter kaydı olmadığından ilişki olarak yazılamıyor.
+3. **Türkçe adlar:** 1925 yapıda Türkçe ad yok. Mevcut 434 ad doğrulanmadı.
+4. **Latince adlar:** 626 yapıda TA2 eşleşmesi bulunamadı.
 5. **Modeller:** Yukarıdaki §2 listesi.
 6. **Dersler ve kesit soruları:** Üst ekstremite dışında ders yok; kesit sorusu yok.
 

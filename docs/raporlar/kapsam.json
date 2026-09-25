@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T18:21:59.537Z",
-  "contentVersion": "b71d393b30255e74",
+  "generatedAt": "2026-09-25T18:30:02.453Z",
+  "contentVersion": "715758708bea9cde",
   "totals": {
-    "total": 515,
+    "total": 520,
     "done": {
-      "inventory": 515,
-      "model": 512,
+      "inventory": 520,
+      "model": 517,
       "labels": 0,
       "content": 119,
-      "license": 513,
+      "license": 518,
       "review": 0,
       "complete": 0
     },
@@ -53,13 +53,13 @@
       "key": "muscular",
       "label": "Kas sistemi",
       "counts": {
-        "total": 113,
+        "total": 118,
         "done": {
-          "inventory": 113,
-          "model": 113,
+          "inventory": 118,
+          "model": 118,
           "labels": 0,
           "content": 0,
-          "license": 113,
+          "license": 118,
           "review": 0,
           "complete": 0
         },
@@ -242,13 +242,13 @@
       "key": "head",
       "label": "Baş",
       "counts": {
-        "total": 102,
+        "total": 107,
         "done": {
-          "inventory": 102,
-          "model": 102,
+          "inventory": 107,
+          "model": 107,
           "labels": 0,
           "content": 14,
-          "license": 102,
+          "license": 107,
           "review": 0,
           "complete": 0
         },
@@ -380,13 +380,13 @@
       "key": "basic",
       "label": "basic",
       "counts": {
-        "total": 465,
+        "total": 470,
         "done": {
-          "inventory": 465,
-          "model": 462,
+          "inventory": 470,
+          "model": 467,
           "labels": 0,
           "content": 69,
-          "license": 463,
+          "license": 468,
           "review": 0,
           "complete": 0
         },
@@ -450,13 +450,13 @@
       "system": "muscular",
       "region": "head",
       "counts": {
-        "total": 11,
+        "total": 16,
         "done": {
-          "inventory": 11,
-          "model": 11,
+          "inventory": 16,
+          "model": 16,
           "labels": 0,
           "content": 0,
-          "license": 11,
+          "license": 16,
           "review": 0,
           "complete": 0
         },
@@ -4079,8 +4079,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -10307,6 +10305,50 @@
       }
     },
     {
+      "targetId": "hedef:iuc.fma-37380",
+      "structureId": "fma:37380",
+      "name": "adductor pollicis",
+      "nameEn": "Adductor pollicis",
+      "system": "muscular",
+      "systemLabel": "Kas sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [
+        "description",
+        "location"
+      ],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": false,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
       "targetId": "hedef:iuc.fma-37448",
       "structureId": "fma:37448",
       "name": "abductor hallucis",
@@ -10332,6 +10374,100 @@
       "contentMissing": [
         "description",
         "location"
+      ],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": false,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:iuc.fma-37449",
+      "structureId": "fma:37449",
+      "name": "flexor brevis hallucis",
+      "nameEn": "Flexor hallucis brevis",
+      "system": "muscular",
+      "systemLabel": "Kas sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [
+        "description",
+        "location",
+        "origin",
+        "action"
+      ],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": false,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:iuc.fma-37454",
+      "structureId": "fma:37454",
+      "name": "adductor hallucis",
+      "nameEn": "Adductor hallucis",
+      "system": "muscular",
+      "systemLabel": "Kas sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location",
+        "origin",
+        "insertion",
+        "action"
       ],
       "license": "verified",
       "review": {
@@ -10655,6 +10791,51 @@
       }
     },
     {
+      "targetId": "hedef:iuc.fma-38450",
+      "structureId": "fma:38450",
+      "name": "pronator teres",
+      "nameEn": "Pronator teres",
+      "system": "muscular",
+      "systemLabel": "Kas sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": false,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
       "targetId": "hedef:iuc.fma-38453",
       "structureId": "fma:38453",
       "name": "Pronator quadratus kası",
@@ -10709,6 +10890,51 @@
       "region": "upper_limb",
       "regionLabel": "Üst ekstremite",
       "topRegion": "upper_limb",
+      "level": "basic",
+      "laterality": "paired_generic",
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
+      "names": {
+        "tr": "missing",
+        "la": "unverified",
+        "en": "unverified"
+      },
+      "contentMissing": [
+        "summary",
+        "description",
+        "location"
+      ],
+      "license": "verified",
+      "review": {
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
+      },
+      "done": {
+        "inventory": true,
+        "model": true,
+        "labels": false,
+        "content": false,
+        "license": true,
+        "review": false,
+        "complete": false
+      }
+    },
+    {
+      "targetId": "hedef:iuc.fma-38465",
+      "structureId": "fma:38465",
+      "name": "flexor ulnaris carpi",
+      "nameEn": "Flexor carpi ulnaris",
+      "system": "muscular",
+      "systemLabel": "Kas sistemi",
+      "region": "head",
+      "regionLabel": "Baş",
+      "topRegion": "head",
       "level": "basic",
       "laterality": "paired_generic",
       "inventory": true,
@@ -13330,8 +13556,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -13891,8 +14115,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -14113,8 +14335,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -14155,8 +14375,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -14323,8 +14541,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -15943,8 +16159,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -16069,8 +16283,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17116,8 +17328,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17287,8 +17497,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17371,8 +17579,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17413,8 +17619,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17455,8 +17659,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17542,8 +17744,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -18388,8 +18588,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -18736,7 +18934,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
         "description",
         "location"
       ],
@@ -19564,8 +19761,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -19606,8 +19801,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -19648,8 +19841,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -19690,8 +19881,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -19732,8 +19921,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
