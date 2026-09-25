@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `5f679e06d9ad4d60` · 2026-09-24.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `b6e75b9be55ba588` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -95,13 +95,13 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 
 ## Kapsam hedefi olmayan yapılar
 
-Yok.
+1595 yapı kaydı henüz bir kapsam hedefine bağlı değil (skeletal: 263, digestive: 118, cardiovascular: 580, respiratory: 79, muscular: 385, endocrine: 3, urinary: 6, reproductive: 10, articular: 16, nervous: 111, sensory: 18, integumentary: 3, lymphatic: 3). Bunlar tamamlanma oranına katılmaz.
 
 ## 3B model varlıkları
 
-0 varlık (0 anatomik, 0 şematik), 0 düğüm; modeli olan yapı: 0; envanterde karşılığı olmayan düğüm: 0.
+70 varlık (70 anatomik, 0 şematik), 3779 düğüm; modeli olan yapı: 1595; envanterde karşılığı olmayan düğüm: 0.
 
 ## İnsan incelemesi ve otomatik kontroller (ayrı ayrı)
 
 - **İnsan inceleme kayıtları:** 0 — henüz hiçbir içerik anatomi uzmanınca incelenmedi.
-- **Otomatik doğrulama (npm run content:validate):** 0 hata, 0 uyarı. Otomatik kontroller uzman incelemesinin yerine geçmez.
+- **Otomatik doğrulama (npm run content:validate):** 0 hata, 5 uyarı. Otomatik kontroller uzman incelemesinin yerine geçmez.

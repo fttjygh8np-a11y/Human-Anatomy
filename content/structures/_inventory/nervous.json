@@ -1,0 +1,4692 @@
+[
+  {
+    "id": "fma:256194",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Orbital gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1793, FJ1794"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "256194",
+      "bp3dRepresentation": "FJ1793"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1793, FJ1794). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:258714",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right thalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1827"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "258714",
+      "bp3dRepresentation": "FJ1827"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:258716",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1827). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:258716",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left thalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1782"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "258716",
+      "bp3dRepresentation": "FJ1782"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:258714",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1782). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:260791",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "White matter of right cerebral hemisphere",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1806"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "260791",
+      "bp3dRepresentation": "FJ1806"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:260794",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1806). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:260794",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "White matter of left cerebral hemisphere",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1758"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "260794",
+      "bp3dRepresentation": "FJ1758"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:260791",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1758). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:50875",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right optic nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1364, FJ1819"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "50875",
+      "bp3dRepresentation": "FJ1364"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:50878",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1364, FJ1819). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:50878",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left optic nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1313, FJ1772"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "50878",
+      "bp3dRepresentation": "FJ1313"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:50875",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1313, FJ1772). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:50881",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right trochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1381"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "50881",
+      "bp3dRepresentation": "FJ1381"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:50882",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1381). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:50882",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left trochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1330"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "50882",
+      "bp3dRepresentation": "FJ1330"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:50881",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1330). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52574",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Superior branch of right oculomotor nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1372"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52574",
+      "bp3dRepresentation": "FJ1372"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:52575",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1372). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52575",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Superior branch of left oculomotor nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1321"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52575",
+      "bp3dRepresentation": "FJ1321"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:52574",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1321). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52576",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Inferior branch of right oculomotor nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1344"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52576",
+      "bp3dRepresentation": "FJ1344"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:52577",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1344). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52577",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Inferior branch of left oculomotor nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1293"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52577",
+      "bp3dRepresentation": "FJ1293"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:52576",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1293). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52622",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right ophthalmic nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1363"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52622",
+      "bp3dRepresentation": "FJ1363"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:52623",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1363). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52623",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left ophthalmic nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1312"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52623",
+      "bp3dRepresentation": "FJ1312"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:52622",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1312). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52629",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right lacrimal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1351"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52629",
+      "bp3dRepresentation": "FJ1351"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:52630",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1351). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52630",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left lacrimal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1300"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52630",
+      "bp3dRepresentation": "FJ1300"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:52629",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1300). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52639",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right frontal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1341"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52639",
+      "bp3dRepresentation": "FJ1341"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:52640",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1341). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52640",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left frontal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1290"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52640",
+      "bp3dRepresentation": "FJ1290"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:52639",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1290). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52643",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right supratrochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1377"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52643",
+      "bp3dRepresentation": "FJ1377"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:52644",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1377). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52644",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left supratrochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1326"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52644",
+      "bp3dRepresentation": "FJ1326"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:52643",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1326). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52656",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right supra-orbital nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1376"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52656",
+      "bp3dRepresentation": "FJ1376"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:52657",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1376). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52657",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left supra-orbital nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1325"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52657",
+      "bp3dRepresentation": "FJ1325"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:52656",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1325). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52669",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right nasociliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1361"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52669",
+      "bp3dRepresentation": "FJ1361"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:52670",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1361). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52670",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left nasociliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1310"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52670",
+      "bp3dRepresentation": "FJ1310"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:52669",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1310). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52673",
+    "schemaVersion": 1,
+    "kind": "ganglion",
+    "names": {
+      "en": {
+        "value": "Communicating branch of right nasociliary nerve with right ciliary ganglion",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1362"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52673",
+      "bp3dRepresentation": "FJ1362"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1362). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52674",
+    "schemaVersion": 1,
+    "kind": "ganglion",
+    "names": {
+      "en": {
+        "value": "Communicating branch of left nasociliary nerve with left ciliary ganglion",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1311"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52674",
+      "bp3dRepresentation": "FJ1311"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1311). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52676",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right anterior ethmoidal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1333"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52676",
+      "bp3dRepresentation": "FJ1333"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:52677",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1333). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52677",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left anterior ethmoidal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1283"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52677",
+      "bp3dRepresentation": "FJ1283"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:52676",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1283). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52698",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right infratrochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1347"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52698",
+      "bp3dRepresentation": "FJ1347"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:52699",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1347). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52699",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left infratrochlear nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1296"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52699",
+      "bp3dRepresentation": "FJ1296"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:52698",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1296). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52715",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right posterior ethmoidal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1366"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52715",
+      "bp3dRepresentation": "FJ1366"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:52716",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1366). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:52716",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left posterior ethmoidal nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1315"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "52716",
+      "bp3dRepresentation": "FJ1315"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:52715",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1315). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:53549",
+    "schemaVersion": 1,
+    "kind": "ganglion",
+    "names": {
+      "en": {
+        "value": "Right ciliary ganglion",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1339"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "53549",
+      "bp3dRepresentation": "FJ1339"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:53550",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1339). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:53550",
+    "schemaVersion": 1,
+    "kind": "ganglion",
+    "names": {
+      "en": {
+        "value": "Left ciliary ganglion",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1288"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "53550",
+      "bp3dRepresentation": "FJ1288"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:53549",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1288). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:61934",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Choroid plexus of cerebral hemisphere",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1755, FJ1803"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61934",
+      "bp3dRepresentation": "FJ1755"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1755, FJ1803). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:61970",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Commissure of fornix of forebrain",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1741"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61970",
+      "bp3dRepresentation": "FJ1741"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1741). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:61993",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Midbrain",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1770, FJ1817"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "61993",
+      "bp3dRepresentation": "FJ1770"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1770, FJ1817). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62004",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Medulla oblongata",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1769, FJ1831"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62004",
+      "bp3dRepresentation": "FJ1769"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1769, FJ1831). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62008",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Hypothalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1760, FJ1808"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62008",
+      "bp3dRepresentation": "FJ1760"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1760, FJ1808). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62032",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Habenula",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1743"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62032",
+      "bp3dRepresentation": "FJ1743"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1743). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62033",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Pineal body",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1795"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62033",
+      "bp3dRepresentation": "FJ1795"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1795). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62327",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Tuber cinereum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1780, FJ1828"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62327",
+      "bp3dRepresentation": "FJ1780"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1780, FJ1828). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:62394",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Peduncle of midbrain",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1774, FJ1821"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "62394",
+      "bp3dRepresentation": "FJ1774"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1774, FJ1821). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:67943",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Pons",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1775, FJ1822"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "67943",
+      "bp3dRepresentation": "FJ1775"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1775, FJ1822). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:67944",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Cerebellum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1781, FJ1830"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "67944",
+      "bp3dRepresentation": "FJ1781"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1781, FJ1830). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7041",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Short ciliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1319, FJ1370"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7041",
+      "bp3dRepresentation": "FJ1319"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1319, FJ1370). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72653",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right superior frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1834"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72653",
+      "bp3dRepresentation": "FJ1834"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72654",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1834). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72654",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left superior frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1833"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72654",
+      "bp3dRepresentation": "FJ1833"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72653",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1833). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72655",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right middle frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1788"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72655",
+      "bp3dRepresentation": "FJ1788"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72656",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1788). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72656",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left middle frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1787"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72656",
+      "bp3dRepresentation": "FJ1787"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72655",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1787). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72657",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right inferior frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1745"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72657",
+      "bp3dRepresentation": "FJ1745"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72658",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1745). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72658",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left inferior frontal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1744"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72658",
+      "bp3dRepresentation": "FJ1744"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72657",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1744). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72661",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right precentral gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1801"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72661",
+      "bp3dRepresentation": "FJ1801"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72662",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1801). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72662",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left precentral gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1800"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72662",
+      "bp3dRepresentation": "FJ1800"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72661",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1800). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72665",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right postcentral gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1798"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72665",
+      "bp3dRepresentation": "FJ1798"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72666",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1798). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72666",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left postcentral gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1797"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72666",
+      "bp3dRepresentation": "FJ1797"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72665",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1797). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72667",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right supramarginal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1842"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72667",
+      "bp3dRepresentation": "FJ1842"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72668",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1842). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72668",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left supramarginal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1841"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72668",
+      "bp3dRepresentation": "FJ1841"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72667",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1841). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72669",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right angular gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1733"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72669",
+      "bp3dRepresentation": "FJ1733"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72670",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1733). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72670",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left angular gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1732"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72670",
+      "bp3dRepresentation": "FJ1732"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72669",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1732). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72671",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right superior parietal lobule",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1836"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72671",
+      "bp3dRepresentation": "FJ1836"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72672",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1836). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72672",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left superior parietal lobule",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1835"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72672",
+      "bp3dRepresentation": "FJ1835"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72671",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1835). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72685",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right middle temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1790"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72685",
+      "bp3dRepresentation": "FJ1790"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72686",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1790). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72686",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left middle temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1789"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72686",
+      "bp3dRepresentation": "FJ1789"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72685",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1789). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72687",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right inferior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1747"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72687",
+      "bp3dRepresentation": "FJ1747"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72688",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1747). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72688",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left inferior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1746"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72688",
+      "bp3dRepresentation": "FJ1746"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72687",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1746). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72689",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right fusiform gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1784"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72689",
+      "bp3dRepresentation": "FJ1784"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72690",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1784). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72690",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left fusiform gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1783"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72690",
+      "bp3dRepresentation": "FJ1783"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72689",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1783). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72705",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right parahippocampal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1786"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72705",
+      "bp3dRepresentation": "FJ1786"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72706",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1786). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72706",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left parahippocampal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1785"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72706",
+      "bp3dRepresentation": "FJ1785"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72705",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1785). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72713",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right hippocampus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1807"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72713",
+      "bp3dRepresentation": "FJ1807"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72714",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1807). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72714",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left hippocampus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1759"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72714",
+      "bp3dRepresentation": "FJ1759"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72713",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1759). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72717",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right cingulate gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1740"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72717",
+      "bp3dRepresentation": "FJ1740"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72718",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1740). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72718",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left cingulate gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1739"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72718",
+      "bp3dRepresentation": "FJ1739"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72717",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1739). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72800",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Anterior part of right superior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1838"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72800",
+      "bp3dRepresentation": "FJ1838"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72801",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1838). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72801",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Anterior part of left superior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1837"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72801",
+      "bp3dRepresentation": "FJ1837"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72800",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1837). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72804",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Posterior part of right superior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1840"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72804",
+      "bp3dRepresentation": "FJ1840"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72805",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1840). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72805",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Posterior part of left superior temporal gyrus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1839"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72805",
+      "bp3dRepresentation": "FJ1839"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72804",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1839). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72826",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right caudate nucleus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1802"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72826",
+      "bp3dRepresentation": "FJ1802"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:72827",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1802). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72827",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left caudate nucleus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1754"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72827",
+      "bp3dRepresentation": "FJ1754"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:72826",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1754). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72828",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right putamen",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1823"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72828",
+      "bp3dRepresentation": "FJ1823"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:72829",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1823). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72829",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left putamen",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1776"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72829",
+      "bp3dRepresentation": "FJ1776"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:72828",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1776). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72830",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right globus pallidus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1805"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72830",
+      "bp3dRepresentation": "FJ1805"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:72831",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1805). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72831",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left globus pallidus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1757"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72831",
+      "bp3dRepresentation": "FJ1757"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:72830",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1757). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72832",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right amygdala",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1829"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72832",
+      "bp3dRepresentation": "FJ1829"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:72833",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1829). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72833",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left amygdala",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1753"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72833",
+      "bp3dRepresentation": "FJ1753"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:72832",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1753). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72906",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right internal capsule",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1751"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72906",
+      "bp3dRepresentation": "FJ1751"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72907",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1751). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72907",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left internal capsule",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1750"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72907",
+      "bp3dRepresentation": "FJ1750"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72906",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1750). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72924",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right fornix of forebrain",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1804"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72924",
+      "bp3dRepresentation": "FJ1804"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:72925",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1804). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72925",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left fornix of forebrain",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1756"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72925",
+      "bp3dRepresentation": "FJ1756"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:72924",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1756). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72975",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right occipital lobe",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1792"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72975",
+      "bp3dRepresentation": "FJ1792"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72976",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1792). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72976",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left occipital lobe",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1791"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72976",
+      "bp3dRepresentation": "FJ1791"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72975",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1791). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72977",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right insula",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1749"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72977",
+      "bp3dRepresentation": "FJ1749"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:72978",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1749). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:72978",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left insula",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1748"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "72978",
+      "bp3dRepresentation": "FJ1748"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:72977",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1748). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:73413",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right stria medullaris of thalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1824"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "73413",
+      "bp3dRepresentation": "FJ1824"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:73414",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1824). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:73414",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left stria medullaris of thalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1777"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "73414",
+      "bp3dRepresentation": "FJ1777"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:73413",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1777). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:73422",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right superior colliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1826"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "73422",
+      "bp3dRepresentation": "FJ1826"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:73423",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1826). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:73423",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left superior colliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1779"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "73423",
+      "bp3dRepresentation": "FJ1779"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:73422",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1779). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:73434",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right inferior colliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1810"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "73434",
+      "bp3dRepresentation": "FJ1810"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:73435",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1810). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:73435",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left inferior colliculus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1762"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "73435",
+      "bp3dRepresentation": "FJ1762"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:73434",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1762). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:76903",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left duct of caudate lobe of liver",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3094"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "76903",
+      "bp3dRepresentation": "FJ3094"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "abdomen"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3094). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78449",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lateral ventricle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1814"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78449",
+      "bp3dRepresentation": "FJ1814"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:78450",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1814). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78450",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lateral ventricle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1767"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78450",
+      "bp3dRepresentation": "FJ1767"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:78449",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1767). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78454",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Third ventricle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1730"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78454",
+      "bp3dRepresentation": "FJ1730"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1730). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78467",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Cerebral aqueduct",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1738"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78467",
+      "bp3dRepresentation": "FJ1738"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1738). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78469",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Fourth ventricle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1731"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78469",
+      "bp3dRepresentation": "FJ1731"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "head"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1731). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:78497",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Central canal of spinal cord",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1737"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "78497",
+      "bp3dRepresentation": "FJ1737"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [
+      "back"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1737). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:82734",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Right long ciliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1369"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "82734",
+      "bp3dRepresentation": "FJ1369"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "right",
+    "counterpartId": "fma:82735",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1369). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:82735",
+    "schemaVersion": 1,
+    "kind": "nerve",
+    "names": {
+      "en": {
+        "value": "Left long ciliary nerve",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1318"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "82735",
+      "bp3dRepresentation": "FJ1318"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "left",
+    "counterpartId": "fma:82734",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1318). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:86464",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Corpus callosum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ1742"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "86464",
+      "bp3dRepresentation": "FJ1742"
+    },
+    "systems": [
+      "nervous"
+    ],
+    "regions": [],
+    "regionBasis": "unassigned",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ1742). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: atanmadı. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  }
+]

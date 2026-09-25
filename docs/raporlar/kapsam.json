@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T23:36:39.346Z",
-  "contentVersion": "5f679e06d9ad4d60",
+  "generatedAt": "2026-09-25T00:01:21.369Z",
+  "contentVersion": "b6e75b9be55ba588",
   "totals": {
     "total": 32,
     "done": {
@@ -1454,16 +1454,30 @@
     }
   ],
   "untargetedStructures": {
-    "total": 0,
-    "bySystem": {}
+    "total": 1595,
+    "bySystem": {
+      "skeletal": 263,
+      "digestive": 118,
+      "cardiovascular": 580,
+      "respiratory": 79,
+      "muscular": 385,
+      "endocrine": 3,
+      "urinary": 6,
+      "reproductive": 10,
+      "articular": 16,
+      "nervous": 111,
+      "sensory": 18,
+      "integumentary": 3,
+      "lymphatic": 3
+    }
   },
   "assets": {
-    "total": 0,
-    "anatomical": 0,
+    "total": 70,
+    "anatomical": 70,
     "schematic": 0,
-    "nodes": 0,
+    "nodes": 3779,
     "orphanNodes": 0,
-    "structuresWithModel": 0
+    "structuresWithModel": 1595
   },
   "reviews": {
     "total": 0,
@@ -1472,6 +1486,6 @@
   },
   "automated": {
     "errors": 0,
-    "warnings": 0
+    "warnings": 5
   }
 }

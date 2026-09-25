@@ -1,0 +1,98 @@
+[
+  {
+    "id": "fma:21385",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ3637 ↔ FJ3426 (fma:21386). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:21386",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ3426 ↔ FJ3637 (fma:21385). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:4843",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ3589 ↔ FJ3493 (fma:4950). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:4950",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ3493 ↔ FJ3589 (fma:4843). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:37388",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ1469M ↔ FJ1469 (fma:37389). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:37389",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ1469 ↔ FJ1469M (fma:37388). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:46633",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ2742 ↔ FJ2754 (fma:46634). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  },
+  {
+    "id": "fma:46634",
+    "automatedChecks": [
+      {
+        "check": "centroid-side",
+        "tool": "scripts/content/validate-content.ts",
+        "date": "2026-09-24",
+        "result": "fail",
+        "details": "Sağ/sol çiftinin model merkezleri ad ile belirtilen tarafla çelişiyor (sağ örneğin x değeri sol karşılığından küçük değil; +X deneğin solu). Model öğeleri: FJ2754 ↔ FJ2742 (fma:46633). Otomatik düzeltme yapılmadı; geometri uzman tarafından incelenmeli."
+      }
+    ]
+  }
+]

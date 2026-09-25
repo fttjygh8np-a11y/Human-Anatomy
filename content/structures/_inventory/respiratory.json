@@ -1,0 +1,3350 @@
+[
+  {
+    "id": "fma:13279",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Left anterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2902, FJ2904, FJ2905, FJ2906, FJ2907, FJ2908, FJ2909, FJ2910"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "13279",
+      "bp3dRepresentation": "FJ2902"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:8620",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2902, FJ2904, FJ2905, FJ2906, FJ2907, FJ2908, FJ2909, FJ2910). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:13295",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Diaphragm",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3131"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "13295",
+      "bp3dRepresentation": "FJ3131"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3131). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55099",
+    "schemaVersion": 1,
+    "kind": "cartilage",
+    "names": {
+      "en": {
+        "value": "Thyroid cartilage",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2808"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55099",
+      "bp3dRepresentation": "FJ2808"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2808). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55113",
+    "schemaVersion": 1,
+    "kind": "cartilage",
+    "names": {
+      "en": {
+        "value": "Right arytenoid cartilage",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2792"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55113",
+      "bp3dRepresentation": "FJ2792"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:55114",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2792). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55114",
+    "schemaVersion": 1,
+    "kind": "cartilage",
+    "names": {
+      "en": {
+        "value": "Left arytenoid cartilage",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2775"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55114",
+      "bp3dRepresentation": "FJ2775"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:55113",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2775). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:55130",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Epiglottis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2770"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "55130",
+      "bp3dRepresentation": "FJ2770"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2770). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68197",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Right upper lobar artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2973"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68197",
+      "bp3dRepresentation": "FJ2973"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2973). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68211",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right apical segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2454, FJ2520, FJ2521, FJ2522, FJ2523, FJ2524, FJ2525, FJ2526"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68211",
+      "bp3dRepresentation": "FJ2454"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68223",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2454, FJ2520, FJ2521, FJ2522, FJ2523, FJ2524, FJ2525, FJ2526). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68212",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right anterior segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2453, FJ2509, FJ2510, FJ2511, FJ2512, FJ2513, FJ2514"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68212",
+      "bp3dRepresentation": "FJ2453"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68222",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2453, FJ2509, FJ2510, FJ2511, FJ2512, FJ2513, FJ2514). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68213",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right posterior segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2458, FJ2515, FJ2516, FJ2517, FJ2518, FJ2519"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68213",
+      "bp3dRepresentation": "FJ2458"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68225",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2458, FJ2515, FJ2516, FJ2517, FJ2518, FJ2519). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68214",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Medial segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2451, FJ2506, FJ2507, FJ2508"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68214",
+      "bp3dRepresentation": "FJ2451"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2451, FJ2506, FJ2507, FJ2508). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68215",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lateral segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2449, FJ2503, FJ2504, FJ2505"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68215",
+      "bp3dRepresentation": "FJ2449"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2449, FJ2503, FJ2504, FJ2505). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68216",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right superior segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2459, FJ2495, FJ2496, FJ2497, FJ2498, FJ2499, FJ2500, FJ2501, FJ2502"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68216",
+      "bp3dRepresentation": "FJ2459"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68228",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2459, FJ2495, FJ2496, FJ2497, FJ2498, FJ2499, FJ2500, FJ2501, FJ2502). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68218",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right medial basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2456, FJ2488"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68218",
+      "bp3dRepresentation": "FJ2456"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68230",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2456, FJ2488). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68220",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lateral basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2455, FJ2490, FJ2491, FJ2492"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68220",
+      "bp3dRepresentation": "FJ2455"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68232",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2455, FJ2490, FJ2491, FJ2492). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68221",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right posterior basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2457, FJ2470, FJ2481, FJ2486, FJ2487, FJ2489"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68221",
+      "bp3dRepresentation": "FJ2457"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68233",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2457, FJ2470, FJ2481, FJ2486, FJ2487, FJ2489). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68222",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left anterior segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2443, FJ2467, FJ2468, FJ2469, FJ2471, FJ2472, FJ2473, FJ2474"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68222",
+      "bp3dRepresentation": "FJ2443"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68212",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2443, FJ2467, FJ2468, FJ2469, FJ2471, FJ2472, FJ2473, FJ2474). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68223",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left apical segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2444, FJ2460, FJ2461, FJ2462, FJ2463, FJ2464"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68223",
+      "bp3dRepresentation": "FJ2444"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68211",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2444, FJ2460, FJ2461, FJ2462, FJ2463, FJ2464). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68225",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left posterior segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2447, FJ2465, FJ2466"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68225",
+      "bp3dRepresentation": "FJ2447"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68213",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2447, FJ2465, FJ2466). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68226",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Superior lingular bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2476, FJ2477, FJ2478, FJ2540"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68226",
+      "bp3dRepresentation": "FJ2476"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2476, FJ2477, FJ2478, FJ2540). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68227",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Inferior lingular bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2441, FJ2475"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68227",
+      "bp3dRepresentation": "FJ2441"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2441, FJ2475). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68228",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left superior segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2448, FJ2479, FJ2480, FJ2482, FJ2483, FJ2484, FJ2485"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68228",
+      "bp3dRepresentation": "FJ2448"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68216",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2448, FJ2479, FJ2480, FJ2482, FJ2483, FJ2484, FJ2485). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68230",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left medial basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2442, FJ2537"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68230",
+      "bp3dRepresentation": "FJ2442"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68218",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2442, FJ2537). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68231",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left anterior basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2535, FJ2536, FJ2538"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68231",
+      "bp3dRepresentation": "FJ2535"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68321",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2535, FJ2536, FJ2538). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68232",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lateral basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2445, FJ2532, FJ2533, FJ2534"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68232",
+      "bp3dRepresentation": "FJ2445"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68220",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2445, FJ2532, FJ2533, FJ2534). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68233",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left posterior basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2446, FJ2527, FJ2528, FJ2529, FJ2530, FJ2531"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68233",
+      "bp3dRepresentation": "FJ2446"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:68221",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2446, FJ2527, FJ2528, FJ2529, FJ2530, FJ2531). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68321",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right anterior basal segmental bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2452, FJ2493, FJ2494"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68321",
+      "bp3dRepresentation": "FJ2452"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:68231",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2452, FJ2493, FJ2494). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68418",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right main bronchus proper",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2539"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68418",
+      "bp3dRepresentation": "FJ2539"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2539). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68662",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Apical part of right apical segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2967, FJ3015, FJ3016, FJ3017"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68662",
+      "bp3dRepresentation": "FJ2967"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2967, FJ3015, FJ3016, FJ3017). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68665",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Anterior part of right apical segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2978, FJ2989, FJ3000, FJ3011"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68665",
+      "bp3dRepresentation": "FJ2978"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2978, FJ2989, FJ3000, FJ3011). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68670",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Apical part of right posterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2968, FJ2969, FJ3018"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68670",
+      "bp3dRepresentation": "FJ2968"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2968, FJ2969, FJ3018). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68673",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Posterior part of right posterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2970, FJ2971, FJ2972"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68673",
+      "bp3dRepresentation": "FJ2970"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2970, FJ2971, FJ2972). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68677",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Posterior branch of right anterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2974, FJ2980, FJ2981"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68677",
+      "bp3dRepresentation": "FJ2974"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2974, FJ2980, FJ2981). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68683",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Anterior branch of right anterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2975, FJ2976, FJ2977, FJ2979"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68683",
+      "bp3dRepresentation": "FJ2975"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2975, FJ2976, FJ2977, FJ2979). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68690",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Posterior branch of lateral segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2983, FJ2984"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68690",
+      "bp3dRepresentation": "FJ2983"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2983, FJ2984). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68691",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Anterior branch of lateral segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2982, FJ2985"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68691",
+      "bp3dRepresentation": "FJ2982"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2982, FJ2985). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68693",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Superior branch of medial segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2986, FJ2990"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68693",
+      "bp3dRepresentation": "FJ2986"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2986, FJ2990). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68694",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Inferior branch of medial segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2987, FJ2988"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68694",
+      "bp3dRepresentation": "FJ2987"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2987, FJ2988). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68706",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Medial branch of right superior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2994, FJ2995, FJ2996"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68706",
+      "bp3dRepresentation": "FJ2994"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2994, FJ2995, FJ2996). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68709",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Superior branch of right superior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2997, FJ2998, FJ2999"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68709",
+      "bp3dRepresentation": "FJ2997"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2997, FJ2998, FJ2999). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68712",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Lateral branch of right superior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2991, FJ2992, FJ2993"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68712",
+      "bp3dRepresentation": "FJ2991"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2991, FJ2992, FJ2993). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68723",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Basal branch of right anterior basal segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3002, FJ3003"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68723",
+      "bp3dRepresentation": "FJ3002"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3002, FJ3003). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68725",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Lateral branch of right anterior basal segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3001"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68725",
+      "bp3dRepresentation": "FJ3001"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3001). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68728",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Lateral branch of right lateral basal segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3004, FJ3005, FJ3006, FJ3007"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68728",
+      "bp3dRepresentation": "FJ3004"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3004, FJ3005, FJ3006, FJ3007). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68735",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Accessory subsuperior branch of right posterior basal segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3009, FJ3010"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68735",
+      "bp3dRepresentation": "FJ3009"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3009, FJ3010). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68738",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Laterobasal branch of right posterior basal segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3013, FJ3014"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68738",
+      "bp3dRepresentation": "FJ3013"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3013, FJ3014). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68741",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Mediobasal branch of right posterior basal segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3008, FJ3012"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68741",
+      "bp3dRepresentation": "FJ3008"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3008, FJ3012). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68880",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Trunk of right apical segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3031"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68880",
+      "bp3dRepresentation": "FJ3031"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3031). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68921",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Anterior part of right apical segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3042, FJ3053"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68921",
+      "bp3dRepresentation": "FJ3042"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3042, FJ3053). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68926",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Superior part of right anterior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3027"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68926",
+      "bp3dRepresentation": "FJ3027"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3027). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68928",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Inferior part of right anterior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3021"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68928",
+      "bp3dRepresentation": "FJ3021"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3021). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68944",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Posterior part of lateral segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3037, FJ3038, FJ3039"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68944",
+      "bp3dRepresentation": "FJ3037"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3037, FJ3038, FJ3039). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68945",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Anterior part of lateral segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3034, FJ3035, FJ3036"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68945",
+      "bp3dRepresentation": "FJ3034"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3034, FJ3035, FJ3036). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68982",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Superior part of medial segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3030"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68982",
+      "bp3dRepresentation": "FJ3030"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3030). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:68983",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Inferior part of medial segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3032, FJ3033"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "68983",
+      "bp3dRepresentation": "FJ3032"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3032, FJ3033). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7394",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Trachea",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2541"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7394",
+      "bp3dRepresentation": "FJ2541"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2541). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7396",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left main bronchus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2450"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7396",
+      "bp3dRepresentation": "FJ2450"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2450). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8620",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Right anterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2041, FJ2044"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8620",
+      "bp3dRepresentation": "FJ2041"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:13279",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2041, FJ2044). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8634",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Left apical segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2915, FJ2916, FJ2917, FJ2918"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8634",
+      "bp3dRepresentation": "FJ2915"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2915, FJ2916, FJ2917, FJ2918). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8635",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Left posterior segmental artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2911, FJ2912, FJ2913"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8635",
+      "bp3dRepresentation": "FJ2911"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2911, FJ2912, FJ2913). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8639",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Superior lingular artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2898, FJ2899, FJ2900, FJ2901"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8639",
+      "bp3dRepresentation": "FJ2898"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2898, FJ2899, FJ2900, FJ2901). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8640",
+    "schemaVersion": 1,
+    "kind": "artery",
+    "names": {
+      "en": {
+        "value": "Inferior lingular artery",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2896, FJ2897"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8640",
+      "bp3dRepresentation": "FJ2896"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2896, FJ2897). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8662",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right anterior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3028, FJ3029"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8662",
+      "bp3dRepresentation": "FJ3028"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:8667",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3028, FJ3029). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8663",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right posterior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3022, FJ3023, FJ3024, FJ3025, FJ3026, FJ3069, FJ3070"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8663",
+      "bp3dRepresentation": "FJ3022"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:9438",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3022, FJ3023, FJ3024, FJ3025, FJ3026, FJ3069, FJ3070). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8667",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left anterior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2930, FJ2931, FJ2932"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8667",
+      "bp3dRepresentation": "FJ2930"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:8662",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2930, FJ2931, FJ2932). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8668",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Superior lingular vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2937, FJ2938"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8668",
+      "bp3dRepresentation": "FJ2937"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2937, FJ2938). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8669",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Inferior lingular vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2934, FJ2935"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8669",
+      "bp3dRepresentation": "FJ2934"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2934, FJ2935). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8670",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right superior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3050, FJ3051, FJ3052, FJ3063, FJ3065, FJ3066"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8670",
+      "bp3dRepresentation": "FJ3050"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3050, FJ3051, FJ3052, FJ3063, FJ3065, FJ3066). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8673",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right anterior basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3049, FJ3056"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8673",
+      "bp3dRepresentation": "FJ3049"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:8678",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3049, FJ3056). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8678",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left anterior basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2956, FJ2957, FJ2959, FJ2960"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8678",
+      "bp3dRepresentation": "FJ2956"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:8673",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2956, FJ2957, FJ2959, FJ2960). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:8681",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Apical part of right apical segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3064, FJ3067, FJ3068"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "8681",
+      "bp3dRepresentation": "FJ3064"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3064, FJ3067, FJ3068). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9422",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right medial basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3054, FJ3055"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9422",
+      "bp3dRepresentation": "FJ3054"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3054, FJ3055). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9425",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right lateral basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3059, FJ3060, FJ3061, FJ3062"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9425",
+      "bp3dRepresentation": "FJ3059"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:9450",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3059, FJ3060, FJ3061, FJ3062). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9428",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Right posterior basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ3041, FJ3043, FJ3044, FJ3045, FJ3046, FJ3047, FJ3048, FJ3057, FJ3058"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9428",
+      "bp3dRepresentation": "FJ3041"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:9451",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3041, FJ3043, FJ3044, FJ3045, FJ3046, FJ3047, FJ3048, FJ3057, FJ3058). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9437",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left apical segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2936, FJ2947, FJ2958, FJ2961, FJ2962, FJ2963, FJ2964"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9437",
+      "bp3dRepresentation": "FJ2936"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2936, FJ2947, FJ2958, FJ2961, FJ2962, FJ2963, FJ2964). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9438",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left posterior segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2926, FJ2927, FJ2928, FJ2929, FJ2939, FJ2940, FJ2941, FJ2942, FJ2943, FJ2965"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9438",
+      "bp3dRepresentation": "FJ2926"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:8663",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2926, FJ2927, FJ2928, FJ2929, FJ2939, FJ2940, FJ2941, FJ2942, FJ2943, FJ2965). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9450",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left lateral basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2951, FJ2952, FJ2953, FJ2954"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9450",
+      "bp3dRepresentation": "FJ2951"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:9425",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2951, FJ2952, FJ2953, FJ2954). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9451",
+    "schemaVersion": 1,
+    "kind": "vein",
+    "names": {
+      "en": {
+        "value": "Left posterior basal segmental vein",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2945, FJ2946, FJ2948, FJ2949"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9451",
+      "bp3dRepresentation": "FJ2945"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:9428",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2945, FJ2946, FJ2948, FJ2949). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:9615",
+    "schemaVersion": 1,
+    "kind": "cartilage",
+    "names": {
+      "en": {
+        "value": "Cricoid cartilage",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "öğe FJ2440, FJ2769"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "9615",
+      "bp3dRepresentation": "FJ2440"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "neck"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "not_applicable",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-24",
+      "updatedAt": "2026-09-24",
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2440, FJ2769). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: belirlenemedi (not_applicable olarak bırakıldı; kontrol edilmeli). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan basic). Cinsiyet atanmadı (varsayılan both)."
+    }
+  }
+]
