@@ -15,7 +15,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:13321"
   },
   {
     "id": "hedef:upper_limb.skeletal.scapula",
@@ -33,7 +34,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:13394"
   },
   {
     "id": "hedef:upper_limb.skeletal.humerus",
@@ -51,7 +53,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:13303"
   },
   {
     "id": "hedef:upper_limb.skeletal.radius",
@@ -69,7 +72,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23463"
   },
   {
     "id": "hedef:upper_limb.skeletal.ulna",
@@ -87,7 +91,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23466"
   },
   {
     "id": "hedef:upper_limb.skeletal.scaphoid",
@@ -105,7 +110,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23709"
   },
   {
     "id": "hedef:upper_limb.skeletal.lunate",
@@ -123,7 +129,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23712"
   },
   {
     "id": "hedef:upper_limb.skeletal.triquetrum",
@@ -141,7 +148,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23715"
   },
   {
     "id": "hedef:upper_limb.skeletal.pisiform",
@@ -159,7 +167,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23718"
   },
   {
     "id": "hedef:upper_limb.skeletal.trapezium",
@@ -177,7 +186,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23721"
   },
   {
     "id": "hedef:upper_limb.skeletal.trapezoid",
@@ -195,7 +205,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23724"
   },
   {
     "id": "hedef:upper_limb.skeletal.capitate",
@@ -213,7 +224,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23727"
   },
   {
     "id": "hedef:upper_limb.skeletal.hamate",
@@ -231,7 +243,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23730"
   },
   {
     "id": "hedef:upper_limb.skeletal.metacarpal_1",
@@ -282,7 +295,8 @@
         "sourceId": "src:fipat-ta2",
         "note": "Terim listesi TA2 ile madde madde karşılaştırılmadı (doğrulanmadı)."
       }
-    ]
+    ],
+    "structureId": "fma:23901"
   },
   {
     "id": "hedef:upper_limb.skeletal.metacarpal_4",

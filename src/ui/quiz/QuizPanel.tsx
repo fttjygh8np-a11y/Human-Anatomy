@@ -4,7 +4,7 @@
  * Shortfalls and exclusions from the generator are always shown — never a silent cap.
  */
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
-import { SYSTEM_IDS, type DetailLevel, type SourceRef, type SystemId } from '../../core/schema.ts'
+import { SYSTEM_IDS, type DetailLevel, type SceneState, type SourceRef, type SystemId } from '../../core/schema.ts'
 import { DETAIL_LEVEL_LABEL } from '../../i18n/labels.ts'
 import { generateQuiz } from '../../learning/generator.ts'
 import { applyQuestionScene, planAnswerReveal } from '../../learning/prepareScene.ts'
@@ -75,9 +75,20 @@ function Runner({ session, onExit }: { session: QuizSession; onExit: () => void 
   const qid = view.phase === 'question' ? q?.id : undefined
   useEffect(() => {
     if (!qid || !q) return
-    const { plan } = applyQuestionScene(store, q, index, effects)
+    const { plan, result } = applyQuestionScene(store, q, index, effects)
     if (plan.blocked.length > 0) {
       session.markUnavailable(`${plan.blocked.length} yapı gösterilemedi`)
+    } else if (q.highlight) {
+      const target = q.highlight
+      // Show only the structure to be named: deep structures are otherwise hidden behind others.
+      store.getState().isolate([target])
+      // Frame it once its model has loaded (the first focus may run before the load finishes).
+      void result.done.then(() => {
+        if (session.view().question?.id === q.id) {
+          engine?.setHighlight([target], 'quiz_target')
+          engine?.focusStructures([target])
+        }
+      })
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- run once per question id
   }, [qid])
@@ -217,7 +228,7 @@ function Runner({ session, onExit }: { session: QuizSession; onExit: () => void 
       {view.phase === 'feedback' && view.feedback && (
         <div aria-live="assertive">
           <p className={`quiz-feedback ${view.feedback.correct ? 'correct' : 'wrong'}`}>
-            <strong>{view.feedback.correct ? 'Doğru.' : 'Yanlış.'}</strong> {view.feedback.feedback}
+            {view.feedback.feedback}
           </p>
           <p>{q.explanation}</p>
           <Sources refs={q.sources} />
@@ -236,7 +247,7 @@ function Runner({ session, onExit }: { session: QuizSession; onExit: () => void 
 }
 
 export function QuizPanel({ onActiveChange }: { onActiveChange?: (suppressLabels: boolean) => void }) {
-  const { index, user, settings } = useServices()
+  const { index, user, settings, store } = useServices()
   const [mode, setMode] = useState<Exclude<QuizMode, 'section'>>('name')
   const [count, setCount] = useState(10)
   const [system, setSystem] = useState<SystemId | ''>('')
@@ -261,6 +272,15 @@ export function QuizPanel({ onActiveChange }: { onActiveChange?: (suppressLabels
     }
   }, [session, onActiveChange])
 
+  // Scene before the quiz, restored when it ends (the quiz isolates/reveals structures).
+  const before = useRef<SceneState | null>(null)
+  const exit = () => {
+    if (before.current) store.getState().loadScene(before.current, 'Sınav öncesi görünüm')
+    before.current = null
+    setSession(null)
+    setReport(null)
+  }
+
   const start = async () => {
     const progress = user ? await user.listProgress() : []
     const config = {
@@ -277,19 +297,14 @@ export function QuizPanel({ onActiveChange }: { onActiveChange?: (suppressLabels
     setReport(r)
     if (r.questions.length === 0) return
     const s = createQuizSession(r.questions, config)
+    before.current = store.getState().scene
     s.start()
     setSession(s)
   }
 
   if (session) {
     return (
-      <Runner
-        session={session}
-        onExit={() => {
-          setSession(null)
-          setReport(null)
-        }}
-      />
+      <Runner session={session} onExit={exit} />
     )
   }
 

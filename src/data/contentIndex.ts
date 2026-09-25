@@ -10,9 +10,14 @@ export function createContentIndex(bundle: ContentBundle): ContentIndex {
   const sources = new Map(bundle.sources.map((s) => [s.id, s]))
   const assets = new Map(bundle.assets.map((a) => [a.id, a]))
 
+  // Hierarchical parents: part-of parents plus the generic concept of a sided instance
+  // ("Right humerus" sits under "Humerus"), so selecting/hiding the generic covers both sides.
+  const parentsOf = (s: Structure): StructureId[] =>
+    s.genericId && !s.parentIds.includes(s.genericId) ? [...s.parentIds, s.genericId] : s.parentIds
+
   const children = new Map<StructureId, Structure[]>()
   for (const s of bundle.structures) {
-    for (const p of s.parentIds) {
+    for (const p of parentsOf(s)) {
       if (!structures.has(p)) continue
       const list = children.get(p)
       if (list) list.push(s)
@@ -40,14 +45,16 @@ export function createContentIndex(bundle: ContentBundle): ContentIndex {
     // Breadth-first over (possibly multiple) parents, nearest first, cycle-safe.
     const out: StructureId[] = []
     const seen = new Set<StructureId>([id])
-    let frontier = structures.get(id)?.parentIds ?? []
+    const self = structures.get(id)
+    let frontier = self ? parentsOf(self) : []
     while (frontier.length > 0) {
       const next: StructureId[] = []
       for (const p of frontier) {
         if (seen.has(p) || !structures.has(p)) continue
         seen.add(p)
         out.push(p)
-        next.push(...(structures.get(p)?.parentIds ?? []))
+        const ps = structures.get(p)
+        if (ps) next.push(...parentsOf(ps))
       }
       frontier = next
     }
@@ -110,7 +117,7 @@ export function createContentIndex(bundle: ContentBundle): ContentIndex {
     systemRoots: (system: SystemId) =>
       bundle.structures
         .filter((s) => s.systems[0] === system)
-        .filter((s) => !s.parentIds.some((p) => structures.get(p)?.systems[0] === system))
+        .filter((s) => !parentsOf(s).some((p) => structures.get(p)?.systems[0] === system))
         .sort(byName),
     structuresInRegion: (regionId) => {
       const set = regionDescendants(regionId)
@@ -126,7 +133,8 @@ export function createContentIndex(bundle: ContentBundle): ContentIndex {
     displayName: (id, lang = 'tr') => {
       const s = structures.get(id)
       if (!s) return id
-      return s.names[lang]?.value ?? s.names.tr?.value ?? s.names.en.value
+      // Turkish anatomy teaching uses Latin terms, so a missing Turkish name falls back to Latin.
+      return s.names[lang]?.value ?? s.names.tr?.value ?? s.names.la?.value ?? s.names.en.value
     },
     reviewsFor: (targetId) => bundle.reviews.filter((r) => r.target.id === targetId),
 

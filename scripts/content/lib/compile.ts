@@ -171,6 +171,8 @@ export function compileContent(input: CompileInput): CompileResult {
   const sorted = [...input.files].sort((a, b) => (a.path < b.path ? -1 : a.path > b.path ? 1 : 0))
   for (const f of sorted) {
     const col = classifyContentPath(f.path)
+    // terminology/: inputs of `npm run content:terms` (e.g. Turkish name candidates), not content.
+    if (!col && f.path.startsWith('terminology/')) continue
     if (!col) {
       issues.push(warning('unknown_file', 'Bu konumdaki dosya hiçbir içerik türüne ait değil; derlemeye alınmadı.', { file: prefix + f.path }))
       continue
@@ -221,9 +223,14 @@ export function compileContent(input: CompileInput): CompileResult {
   content.scope = parseAll('scope', 'scope', scopeTargetSchema)
 
   // Structures: inventory drafts + authored overlays -------------------------
-  const collectRaw = (col: Collection) => {
+  /**
+   * Overlays for one id may come from several files (e.g. generated terminology + an audit
+   * note); they are merged in path order. Repeating an id inside one file is an error.
+   */
+  const collectRaw = (col: Collection, mergeAcrossFiles = false) => {
     const map = new Map<string, { raw: Record<string, unknown>; file: string }>()
-    for (const f of groups.get(col) ?? []) {
+    const files = [...(groups.get(col) ?? [])].sort((a, b) => (label(a) < label(b) ? -1 : label(a) > label(b) ? 1 : 0))
+    for (const f of files) {
       recordsOf(f, label(f), issues).forEach((raw, i) => {
         const id = rawId(raw)
         if (!isPlainObject(raw) || id === undefined) {
@@ -231,8 +238,12 @@ export function compileContent(input: CompileInput): CompileResult {
           return
         }
         const prev = map.get(id)
-        if (prev) {
+        if (prev && (!mergeAcrossFiles || prev.file.split(' + ').includes(label(f)))) {
           issues.push(error('duplicate_id', `"${id}" kimliği birden fazla kez tanımlanmış (ilk tanım: ${prev.file}).`, { file: label(f), recordId: id }))
+          return
+        }
+        if (prev) {
+          map.set(id, { raw: mergeOverlay(prev.raw, raw) as Record<string, unknown>, file: `${prev.file} + ${label(f)}` })
           return
         }
         map.set(id, { raw, file: label(f) })
@@ -241,7 +252,7 @@ export function compileContent(input: CompileInput): CompileResult {
     return map
   }
   const base = collectRaw('inventory')
-  const overlays = collectRaw('structures')
+  const overlays = collectRaw('structures', true)
   const ids = [...new Set([...base.keys(), ...overlays.keys()])].sort()
   for (const id of ids) {
     const b = base.get(id)

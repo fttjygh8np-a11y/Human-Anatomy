@@ -298,7 +298,8 @@ describe('search filters', () => {
 
   it('filters to structures with a 3D model', () => {
     const withModel = ids(svc.search('humerus', { withModelOnly: true }))
-    expect(withModel.sort()).toEqual(['ax:humerus_l', 'ax:humerus_r'])
+    // The generic concept is shown through its sided instances' models.
+    expect(withModel.sort()).toEqual(['ax:humerus', 'ax:humerus_l', 'ax:humerus_r'])
     expect(svc.search('sternum', { withModelOnly: true })).toEqual([])
   })
 })

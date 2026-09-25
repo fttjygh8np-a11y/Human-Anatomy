@@ -1,0 +1,19 @@
+{
+  "id": "src:tdk-gts",
+  "type": "website",
+  "citation": "Türk Dil Kurumu. Güncel Türkçe Sözlük. https://sozluk.gov.tr/",
+  "shortLabel": "TDK Güncel Türkçe Sözlük",
+  "url": "https://sozluk.gov.tr/",
+  "accessed": "2026-09-25",
+  "license": {
+    "id": "all-rights-reserved-cite-only",
+    "allowsUse": true,
+    "allowsModification": false,
+    "allowsRedistribution": false,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "notes": "Kullanım koşulları bu oturumda okunmadı. Uygulamada yalnızca tekil madde başlıkları (Türkçe terimler) atıfla kullanılır; tanımlar yalnızca doğrulama kanıtı olarak kaynak notunda alıntılanır, sözlük içeriği toplu olarak dağıtılmaz."
+  },
+  "usedFor": ["names:tr"],
+  "notes": "Genel dil sözlüğüdür, anatomik terminoloji standardı değildir. Türkçe adlar yalnızca 'anatomi' veya 'tıp' etiketli bir anlamı olan maddelerden alınır ve 'doğrulanmadı' olarak işaretlenir; bir anatomi uzmanının Türkçe anatomi terminolojisine (ör. Türk Anatomi ve Klinik Anatomi Derneği yayınları) göre onaylaması gerekir. Sorgular https://sozluk.gov.tr/gts?ara=<terim> uç noktasıyla yapıldı."
+}

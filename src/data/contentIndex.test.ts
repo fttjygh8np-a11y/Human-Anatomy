@@ -34,6 +34,7 @@ const asset = assetSchema.parse({
   nodes: [
     { node: 'n1', structureId: 'ax:leaf1', triangles: 1, bbox: [0, 0, 0, 1, 1, 1], centroid: [0.5, 0.5, 0.5] },
     { node: 'n2', structureId: 'ax:leaf2', triangles: 1, bbox: [0, 0, 0, 1, 1, 1], centroid: [0.5, 0.5, 0.5] },
+    { node: 'n3', structureId: 'ax:right', triangles: 1, bbox: [0, 0, 0, 1, 1, 1], centroid: [0.5, 0.5, 0.5] },
   ],
   provenance: [{ date: now, step: 'test', tool: 'vitest' }],
 })
@@ -49,8 +50,10 @@ const bundle: ContentBundle = {
     s('ax:root', 'Root'),
     s('ax:mid', 'Mid', ['ax:root']),
     s('ax:leaf1', 'Leaf one', ['ax:mid'], { regions: ['arm'], names: { en: { value: 'Leaf one', status: 'unverified' }, tr: { value: 'Yaprak bir', status: 'unverified' } } }),
-    s('ax:leaf2', 'Leaf two', ['ax:mid']),
+    s('ax:leaf2', 'Leaf two', ['ax:mid'], { names: { en: { value: 'Leaf two', status: 'unverified' }, la: { value: 'folium secundum', status: 'unverified' } } }),
     s('ax:nomodel', 'No model', ['ax:root']),
+    s('ax:generic', 'Generic'),
+    s('ax:right', 'Right generic', [], { laterality: 'right', genericId: 'ax:generic' }),
   ],
   relations: [],
   sources: [],
@@ -83,10 +86,19 @@ describe('contentIndex', () => {
   it('includes sub-regions and falls back to English names', () => {
     expect(idx.structuresInRegion('upper_limb').map((x) => x.id)).toEqual(['ax:leaf1'])
     expect(idx.displayName('ax:leaf1')).toBe('Yaprak bir')
-    expect(idx.displayName('ax:leaf2')).toBe('Leaf two')
+    expect(idx.displayName('ax:leaf2')).toBe('folium secundum')
+    expect(idx.displayName('ax:leaf2', 'en')).toBe('Leaf two')
+    expect(idx.displayName('ax:mid')).toBe('Mid')
   })
 
   it('lists system roots', () => {
-    expect(idx.systemRoots('skeletal').map((x) => x.id)).toEqual(['ax:root'])
+    expect(idx.systemRoots('skeletal').map((x) => x.id)).toEqual(['ax:generic', 'ax:root'])
+  })
+
+  it('treats a generic concept as the parent of its sided instances', () => {
+    expect(idx.childrenOf('ax:generic').map((x) => x.id)).toEqual(['ax:right'])
+    expect(idx.ancestorsOf('ax:right')).toEqual(['ax:generic'])
+    expect(idx.hasModel('ax:generic')).toBe(true)
+    expect(idx.nodesFor('ax:generic').map((n) => n.node)).toEqual(['n3'])
   })
 })

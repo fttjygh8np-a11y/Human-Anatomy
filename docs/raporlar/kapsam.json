@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-25T00:01:21.369Z",
-  "contentVersion": "b6e75b9be55ba588",
+  "generatedAt": "2026-09-25T00:17:53.394Z",
+  "contentVersion": "55cb971577405f0b",
   "totals": {
     "total": 32,
     "done": {
-      "inventory": 0,
-      "model": 0,
+      "inventory": 14,
+      "model": 14,
       "labels": 0,
       "content": 0,
-      "license": 0,
+      "license": 14,
       "review": 0,
       "complete": 0
     },
-    "labelsPresent": 0
+    "labelsPresent": 4
   },
   "bySystem": [
     {
@@ -21,15 +21,15 @@
       "counts": {
         "total": 32,
         "done": {
-          "inventory": 0,
-          "model": 0,
+          "inventory": 14,
+          "model": 14,
           "labels": 0,
           "content": 0,
-          "license": 0,
+          "license": 14,
           "review": 0,
           "complete": 0
         },
-        "labelsPresent": 0
+        "labelsPresent": 4
       }
     }
   ],
@@ -40,15 +40,15 @@
       "counts": {
         "total": 32,
         "done": {
-          "inventory": 0,
-          "model": 0,
+          "inventory": 14,
+          "model": 14,
           "labels": 0,
           "content": 0,
-          "license": 0,
+          "license": 14,
           "review": 0,
           "complete": 0
         },
-        "labelsPresent": 0
+        "labelsPresent": 4
       }
     }
   ],
@@ -59,15 +59,15 @@
       "counts": {
         "total": 18,
         "done": {
-          "inventory": 0,
-          "model": 0,
+          "inventory": 14,
+          "model": 14,
           "labels": 0,
           "content": 0,
-          "license": 0,
+          "license": 14,
           "review": 0,
           "complete": 0
         },
-        "labelsPresent": 0
+        "labelsPresent": 4
       }
     },
     {
@@ -95,22 +95,22 @@
       "counts": {
         "total": 32,
         "done": {
-          "inventory": 0,
-          "model": 0,
+          "inventory": 14,
+          "model": 14,
           "labels": 0,
           "content": 0,
-          "license": 0,
+          "license": 14,
           "review": 0,
           "complete": 0
         },
-        "labelsPresent": 0
+        "labelsPresent": 4
       }
     }
   ],
   "targets": [
     {
       "targetId": "hedef:upper_limb.skeletal.clavicle",
-      "structureId": null,
+      "structureId": "fma:13321",
       "name": "Clavicula",
       "nameEn": "Clavicle",
       "system": "skeletal",
@@ -120,39 +120,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
-        "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.scapula",
-      "structureId": null,
+      "structureId": "fma:13394",
       "name": "Scapula",
       "nameEn": "Scapula",
       "system": "skeletal",
@@ -162,39 +165,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
-        "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.humerus",
-      "structureId": null,
+      "structureId": "fma:13303",
       "name": "Humerus",
       "nameEn": "Humerus",
       "system": "skeletal",
@@ -204,39 +210,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
-        "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.radius",
-      "structureId": null,
+      "structureId": "fma:23463",
       "name": "Radius",
       "nameEn": "Radius",
       "system": "skeletal",
@@ -246,39 +255,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.ulna",
-      "structureId": null,
+      "structureId": "fma:23466",
       "name": "Ulna",
       "nameEn": "Ulna",
       "system": "skeletal",
@@ -288,39 +300,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
-        "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "tr": "unverified",
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.scaphoid",
-      "structureId": null,
+      "structureId": "fma:23709",
       "name": "Os scaphoideum",
       "nameEn": "Scaphoid",
       "system": "skeletal",
@@ -330,39 +345,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.lunate",
-      "structureId": null,
+      "structureId": "fma:23712",
       "name": "Os lunatum",
       "nameEn": "Lunate",
       "system": "skeletal",
@@ -372,39 +390,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.triquetrum",
-      "structureId": null,
+      "structureId": "fma:23715",
       "name": "Os triquetrum",
       "nameEn": "Triquetrum",
       "system": "skeletal",
@@ -414,39 +435,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.pisiform",
-      "structureId": null,
+      "structureId": "fma:23718",
       "name": "Os pisiforme",
       "nameEn": "Pisiform",
       "system": "skeletal",
@@ -456,39 +480,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.trapezium",
-      "structureId": null,
+      "structureId": "fma:23721",
       "name": "Os trapezium",
       "nameEn": "Trapezium",
       "system": "skeletal",
@@ -498,39 +525,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.trapezoid",
-      "structureId": null,
+      "structureId": "fma:23724",
       "name": "Os trapezoideum",
       "nameEn": "Trapezoid",
       "system": "skeletal",
@@ -540,39 +570,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.capitate",
-      "structureId": null,
+      "structureId": "fma:23727",
       "name": "Os capitatum",
       "nameEn": "Capitate",
       "system": "skeletal",
@@ -582,39 +615,42 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
     },
     {
       "targetId": "hedef:upper_limb.skeletal.hamate",
-      "structureId": null,
+      "structureId": "fma:23730",
       "name": "Os hamatum",
       "nameEn": "Hamate",
       "system": "skeletal",
@@ -624,32 +660,35 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
@@ -740,7 +779,7 @@
     },
     {
       "targetId": "hedef:upper_limb.skeletal.metacarpal_3",
-      "structureId": null,
+      "structureId": "fma:23901",
       "name": "Third metacarpal",
       "nameEn": "Third metacarpal",
       "system": "skeletal",
@@ -750,32 +789,35 @@
       "topRegion": "upper_limb",
       "level": "basic",
       "laterality": "paired_generic",
-      "inventory": false,
-      "model": "none",
-      "modelSides": null,
+      "inventory": true,
+      "model": "complete",
+      "modelSides": {
+        "right": true,
+        "left": true
+      },
       "names": {
         "tr": "missing",
-        "la": "missing",
-        "en": "missing"
+        "la": "unverified",
+        "en": "unverified"
       },
       "contentMissing": [
         "summary",
         "description",
         "location"
       ],
-      "license": "no_model",
+      "license": "verified",
       "review": {
-        "text": "none",
-        "labels": "none",
-        "geometry": "none",
-        "relations": "none"
+        "text": "draft",
+        "labels": "draft",
+        "geometry": "draft",
+        "relations": "draft"
       },
       "done": {
-        "inventory": false,
-        "model": false,
+        "inventory": true,
+        "model": true,
         "labels": false,
         "content": false,
-        "license": false,
+        "license": true,
         "review": false,
         "complete": false
       }
@@ -1454,9 +1496,9 @@
     }
   ],
   "untargetedStructures": {
-    "total": 1595,
+    "total": 1567,
     "bySystem": {
-      "skeletal": 263,
+      "skeletal": 235,
       "digestive": 118,
       "cardiovascular": 580,
       "respiratory": 79,
@@ -1486,6 +1528,6 @@
   },
   "automated": {
     "errors": 0,
-    "warnings": 5
+    "warnings": 4
   }
 }

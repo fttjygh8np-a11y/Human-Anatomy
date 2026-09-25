@@ -278,6 +278,13 @@ export function checkIntegrity(c: CompiledContent): Issue[] {
     }
     for (const [name, ids] of byName) {
       if (ids.length < 2) continue
+      // Right/left instances and their generic concept share the side-less term (TA2 has no
+      // sided terms); only other collisions are reported.
+      const conceptOf = (id: string) => {
+        const st = structures.get(id)
+        return st && (st.laterality === 'right' || st.laterality === 'left') ? (st.genericId ?? [id, st.counterpartId ?? id].sort()[0]!) : id
+      }
+      if (new Set(ids.map(conceptOf)).size === 1) continue
       const shown = ids.slice(0, 10).join(', ') + (ids.length > 10 ? ` … (+${ids.length - 10})` : '')
       push('warning', 'duplicate_name', `${LANG_LABEL[lang]} "${name}" adı ${ids.length} yapıda kullanılıyor: ${shown}.`, 'structure', ids[0]!)
     }

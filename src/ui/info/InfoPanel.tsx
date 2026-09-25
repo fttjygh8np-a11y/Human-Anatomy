@@ -130,8 +130,11 @@ function RelationGroups({ s }: { s: Structure }) {
   const groups = RELATION_GROUPS.map((g) => ({ ...g, views: index.relationsOf(s.id, g.types) })).filter(
     (g) => g.views.length > 0,
   )
-  const children = index.childrenOf(s.id)
-  if (groups.length === 0 && children.length === 0) {
+  const kids = index.childrenOf(s.id)
+  // Sided instances of a generic concept are not its parts.
+  const instances = kids.filter((c) => c.genericId === s.id)
+  const children = kids.filter((c) => c.genericId !== s.id)
+  if (groups.length === 0 && kids.length === 0) {
     return <p className="muted">Bu yapı için kaynaklı ilişki kaydı henüz yok.</p>
   }
 
@@ -144,6 +147,25 @@ function RelationGroups({ s }: { s: Structure }) {
 
   return (
     <div className="relation-groups">
+      {instances.length > 0 && (
+        <section>
+          <h4>
+            Sağ ve sol örnekleri{' '}
+            <button type="button" className="link-btn" aria-pressed={active === 'instances'} onClick={() => toggle('instances', instances.map((c) => c.id))}>
+              3B'de vurgula
+            </button>
+          </h4>
+          <ul>
+            {instances.map((c) => (
+              <li key={c.id}>
+                <button type="button" className="link-btn" onClick={() => open(c.id)}>
+                  {index.displayName(c.id, settings.nameLanguage)}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       {children.length > 0 && (
         <section>
           <h4>

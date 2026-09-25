@@ -34,6 +34,10 @@ describe('content/**', async () => {
       for (const e of [t.names.en, t.names.la].filter((x) => x !== undefined)) expect(e.sources.length).toBeGreaterThan(0)
     }
     expect(content.reviews).toEqual([])
-    for (const s of content.sources) expect(s.license.verifiedAt).toBeUndefined()
+    // A license may only be marked verified with the page read, the date and a quoted excerpt.
+    for (const s of content.sources) {
+      const v = s.license.verifiedAt
+      if (v) expect(v.quote?.length ?? 0).toBeGreaterThan(40)
+    }
   })
 })

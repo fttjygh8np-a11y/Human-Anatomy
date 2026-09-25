@@ -20,6 +20,7 @@
     "models:fetch": "node scripts/models/fetch-bodyparts3d.ts",
     "models:build": "node scripts/models/build-models.ts",
     "content:inventory": "node scripts/content/build-inventory.ts",
+    "content:terms": "node scripts/content/terminology.ts",
     "content:build": "node scripts/content/build-content.ts",
     "content:validate": "node scripts/content/validate-content.ts",
     "report:coverage": "node scripts/reports/coverage-report.ts",
