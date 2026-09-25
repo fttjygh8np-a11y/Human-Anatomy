@@ -19,16 +19,18 @@ const BASE_STYLE = [
   'top:0',
   'white-space:nowrap',
   'pointer-events:none',
-  'font:500 12px/1.3 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif',
-  'padding:2px 6px',
-  'border-radius:4px',
+  'font:500 12px/1.3 "Inter Variable",Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif',
+  'padding:3px 9px',
+  'border-radius:999px',
+  'border:1px solid var(--viewer-label-border,rgba(255,255,255,.12))',
+  'box-shadow:0 4px 12px rgba(0,0,0,.25)',
   'color:var(--viewer-label-fg,#fff)',
   'background:var(--viewer-label-bg,rgba(24,28,33,.78))',
   'will-change:transform',
 ].join(';')
 
 const KIND_STYLE: Record<LabelKind, string> = {
-  selected: 'font-weight:700;outline:2px solid var(--viewer-label-selected,#ffb300);outline-offset:0',
+  selected: 'font-weight:700;outline:2px solid var(--viewer-label-selected,#2dd4bf);outline-offset:0',
   emphasis: 'font-weight:600;outline:1px dashed var(--viewer-label-emphasis,#74c0fc);outline-offset:0',
   context: 'opacity:.92',
 }

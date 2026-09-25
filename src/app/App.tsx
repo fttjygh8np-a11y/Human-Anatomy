@@ -2,7 +2,7 @@
  * Application shell: loads the content bundle, opens local user data, builds the search
  * index and wires the 3D viewer, trees, info card, quiz and settings together.
  */
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { ModelAsset } from '../core/schema.ts'
 import { createContentIndex } from '../data/contentIndex.ts'
 import { ContentLoadError, loadContentBundle } from '../data/loader.ts'
@@ -10,6 +10,7 @@ import type { ContentIndex } from '../data/types.ts'
 import { createSearchService } from '../search/searchIndex.ts'
 import { useSceneStore } from '../state/hooks.ts'
 import { sceneStore } from '../state/sceneStore.ts'
+import { Icon, LogoMark, type IconName } from '../ui/icons.tsx'
 import { InfoPanel } from '../ui/info/InfoPanel.tsx'
 import { SearchBox } from '../ui/search/SearchBox.tsx'
 import { ServicesContext, type Services } from '../ui/services.tsx'
@@ -27,6 +28,17 @@ import { exposeEngine } from './testHook.ts'
 type Load = { status: 'loading' } | { status: 'error'; message: string; retryable: boolean } | { status: 'ready'; index: ContentIndex }
 type SideTab = 'explore' | 'lessons' | 'quiz' | 'settings'
 type NavTab = 'systems' | 'regions'
+
+const MODES: readonly (readonly [SideTab, string, IconName])[] = [
+  ['explore', 'Keşfet', 'compass'],
+  ['lessons', 'Dersler', 'book'],
+  ['quiz', 'Sınav', 'quiz'],
+  ['settings', 'Ayarlar', 'settings'],
+]
+
+/** Narrow screens: side panels become bottom sheets and start folded. */
+const NARROW_QUERY = '(max-width: 900px)'
+const isNarrow = () => typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia(NARROW_QUERY).matches
 
 const BASE = import.meta.env.BASE_URL
 const assetUrl = (a: ModelAsset) => `${BASE}${a.file.replace(/^\//, '')}`
@@ -90,15 +102,31 @@ function Shell({ index }: { index: ContentIndex }) {
   }, [settings.theme, settings.fontScale])
 
   const reducedMotion = settings.reducedMotion === 'system' ? systemReduced : settings.reducedMotion === 'on'
+  useEffect(() => {
+    document.documentElement.dataset.reducedMotion = reducedMotion ? 'on' : 'off'
+  }, [reducedMotion])
 
   // Base models of the switched-on systems.
   // Body model: BodyParts3D (male, whole body) or HRA female reproductive organs. The HRA models
   // belong to another donor and are not registered to the BodyParts3D body, so they form a
   // separate view instead of being mixed into the male body.
   const [bodyModel, setBodyModel] = useState<'male' | 'female'>('male')
-  // Phones/tablets: side panels can be folded away so the 3D area keeps its space.
-  const [navOpen, setNavOpen] = useState(true)
-  const [infoOpen, setInfoOpen] = useState(true)
+  // Side panels can be folded away so the 3D area keeps its space. On phones they are bottom
+  // sheets: they start folded and only one is open at a time.
+  const [navOpen, setNavOpenRaw] = useState(() => !isNarrow())
+  const [infoOpen, setInfoOpenRaw] = useState(() => !isNarrow())
+  const setNavOpen = useCallback((open: boolean) => {
+    setNavOpenRaw(open)
+    if (open && isNarrow()) setInfoOpenRaw(false)
+  }, [])
+  const setInfoOpen = useCallback((open: boolean) => {
+    setInfoOpenRaw(open)
+    if (open && isNarrow()) setNavOpenRaw(false)
+  }, [])
+  const chooseSide = (tab: SideTab) => {
+    setSide(tab)
+    setInfoOpen(true)
+  }
   const hasFemaleModel = useMemo(() => index.bundle.assets.some((a) => !a.registeredToBody), [index])
   const assets = useMemo(
     () =>
@@ -108,8 +136,11 @@ function Shell({ index }: { index: ContentIndex }) {
     [index, scene, bodyModel],
   )
   // After switching body models, frame the new content once its first model has loaded.
+  // (On start the engine frames the whole body by itself while the models arrive.)
+  const initialBodyModel = useRef(bodyModel)
   useEffect(() => {
-    if (!engine) return
+    if (!engine || bodyModel === initialBodyModel.current) return
+    initialBodyModel.current = bodyModel
     let done = false
     const off = engine.on((e) => {
       if (done || e.type !== 'asset-loaded') return
@@ -127,12 +158,13 @@ function Shell({ index }: { index: ContentIndex }) {
       sceneStore.subscribe((st, prev) => {
         const id = st.scene.selected.at(-1)
         if (!id || id === prev.scene.selected.at(-1)) return
+        setInfoOpen(true)
         const nodeAssets = index.assetsFor(id).map((a) => index.getAsset(a))
         if (nodeAssets.length === 0) return
         if (nodeAssets.every((a) => a && !a.registeredToBody)) setBodyModel('female')
         else if (nodeAssets.every((a) => a && a.registeredToBody)) setBodyModel('male')
       }),
-    [index],
+    [index, setInfoOpen],
   )
 
   const services: Services = useMemo(
@@ -146,50 +178,68 @@ function Shell({ index }: { index: ContentIndex }) {
       <a className="skip-link" href="#main-info">
         Bilgi paneline geç
       </a>
-      <div className="app">
+      <div className="app" data-nav={navOpen ? 'open' : 'closed'} data-info={infoOpen ? 'open' : 'closed'}>
         <header className="app-header">
-          <h1>Anatomi 3B</h1>
-          <div className="mobile-only panel-toggles">
-            <button type="button" aria-expanded={navOpen} aria-controls="main-nav" onClick={() => setNavOpen((x) => !x)}>
-              Yapı ağacı
-            </button>
-            <button type="button" aria-expanded={infoOpen} aria-controls="main-info" onClick={() => setInfoOpen((x) => !x)}>
-              Bilgi paneli
+          <div className="brand">
+            <LogoMark />
+            <h1>Anatomi 3B</h1>
+          </div>
+          <div className="panel-toggles">
+            <button
+              type="button"
+              className="icon-toggle"
+              aria-expanded={navOpen}
+              aria-controls="main-nav"
+              aria-label="Yapı ağacı"
+              title="Yapı ağacı"
+              onClick={() => setNavOpen(!navOpen)}
+            >
+              <Icon name="tree" />
             </button>
           </div>
           <SearchBox />
           {hasFemaleModel && (
-            <label className="model-switch">
-              Model{' '}
+            <label className="model-switch" title="Tüm vücut: BodyParts3D (DBCLS) · Kadın üreme organları: HRA (HuBMAP), ayrı donör">
+              <span className="visually-hidden">Model</span>
               <select value={bodyModel} onChange={(e) => setBodyModel(e.target.value as 'male' | 'female')}>
-                <option value="male">Tüm vücut (erkek, BodyParts3D)</option>
-                <option value="female">Kadın üreme organları (HRA)</option>
+                <option value="male">Tüm vücut (erkek)</option>
+                <option value="female">Kadın üreme organları</option>
               </select>
             </label>
           )}
-          <nav className="tabs" aria-label="Kip">
-            {(
-              [
-                ['explore', 'Keşfet'],
-                ['lessons', 'Dersler'],
-                ['quiz', 'Sınav'],
-                ['settings', 'Ayarlar'],
-              ] as const
-            ).map(([id, label]) => (
-              <button key={id} type="button" aria-pressed={side === id} onClick={() => setSide(id)}>
-                {label}
+          <nav className="mode-tabs" aria-label="Kip">
+            {MODES.map(([id, label, icon]) => (
+              <button key={id} type="button" aria-pressed={side === id} onClick={() => chooseSide(id)}>
+                <Icon name={icon} />
+                <span>{label}</span>
               </button>
             ))}
           </nav>
+          <button
+            type="button"
+            className="icon-toggle"
+            aria-expanded={infoOpen}
+            aria-controls="main-info"
+            aria-label="Bilgi paneli"
+            title="Bilgi paneli"
+            onClick={() => setInfoOpen(!infoOpen)}
+          >
+            <Icon name="info" />
+          </button>
         </header>
 
         <aside className="app-nav" id="main-nav" data-collapsed={!navOpen} aria-label="Yapı ağacı">
-          <div className="tabs" role="tablist" aria-label="Ağaç türü">
+          <div className="panel-head">
+            <div className="tabs" role="tablist" aria-label="Ağaç türü">
             <button type="button" role="tab" aria-selected={nav === 'systems'} onClick={() => setNav('systems')}>
               Sistemler
             </button>
             <button type="button" role="tab" aria-selected={nav === 'regions'} onClick={() => setNav('regions')}>
               Bölgeler
+            </button>
+            </div>
+            <button type="button" className="panel-close" aria-label="Yapı ağacını kapat" onClick={() => setNavOpen(false)}>
+              <Icon name="close" size={16} />
             </button>
           </div>
           {nav === 'systems' ? <SystemTree /> : <RegionTree />}
@@ -197,7 +247,6 @@ function Shell({ index }: { index: ContentIndex }) {
         </aside>
 
         <main className="app-viewer">
-          <SceneToolbar />
           {settings.textMode ? (
             <p className="muted" style={{ padding: 16 }}>
               Metin modu açık: yapıları ağaçtan ve aramadan inceleyebilirsiniz. 3B görünüm Ayarlar'dan açılabilir.
@@ -226,9 +275,13 @@ function Shell({ index }: { index: ContentIndex }) {
               </Deferred>
             </div>
           )}
+          <SceneToolbar />
         </main>
 
         <aside className="app-info" id="main-info" data-collapsed={!infoOpen} aria-label="Ayrıntılar" tabIndex={-1}>
+          <button type="button" className="panel-close" aria-label="Bilgi panelini kapat" onClick={() => setInfoOpen(false)}>
+            <Icon name="close" size={16} />
+          </button>
           {side === 'explore' && <InfoPanel />}
           {side === 'lessons' && (
             <Deferred what="Ders paneli">
@@ -279,18 +332,22 @@ export function App() {
 
   if (load.status === 'loading') {
     return (
-      <p role="status" style={{ padding: 16 }}>
-        Anatomi içeriği yükleniyor…
-      </p>
+      <div className="splash">
+        <LogoMark size={56} />
+        <p role="status">Anatomi içeriği yükleniyor…</p>
+        <div className="splash-bar" aria-hidden="true" />
+      </div>
     )
   }
   if (load.status === 'error') {
     return (
-      <div role="alert" style={{ padding: 16, whiteSpace: 'pre-line' }}>
-        <p>{load.message}</p>
+      <div className="splash" role="alert">
+        <LogoMark size={56} />
+        <p className="splash-error">{load.message}</p>
         {load.retryable && (
           <button
             type="button"
+            className="primary"
             onClick={() => {
               setLoad({ status: 'loading' })
               setAttempt((n) => n + 1)

@@ -123,4 +123,6 @@ Derleme çıktısı (`dist/`) herhangi bir statik barındırma hizmetinde yayım
   değerlendirme gerekir.
 - Wikidata verileri CC0'dır. TA2 ve TDK adları tekil terim olarak atıfla kullanılır; bu
   kaynakların lisans koşulları doğrulanmadı (bkz. [docs/kaynakca.md](docs/kaynakca.md)).
+- Yazı tipi: Inter (`@fontsource-variable/inter`), **SIL Open Font License 1.1**; uygulamayla
+  birlikte yerel olarak sunulur.
 - Uygulama kaynak kodunun lisansı henüz belirlenmedi.

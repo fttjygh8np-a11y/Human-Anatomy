@@ -13,8 +13,8 @@ export const DEFAULT_BASE_COLOR = '#d8cfc4'
 /** Flat colour of the clipping cap. Uniform on purpose: it is a surface clip, not volume data. */
 export const CAP_COLOR = '#b9b2a8'
 
-export const SELECTION_COLOR = '#ffb300'
-export const HOVER_COLOR = '#ffffff'
+export const SELECTION_COLOR = '#2dd4bf'
+export const HOVER_COLOR = '#9fc3ff'
 
 export const HIGHLIGHT_COLORS: Record<HighlightStyle, string> = {
   relation: '#339af0',
@@ -71,10 +71,10 @@ export function computeNodeStyle(input: NodeStyleInput): NodeStyle {
       emissiveIntensity = 0.55
     } else if (input.selected) {
       emissive = SELECTION_COLOR
-      emissiveIntensity = 0.45
+      emissiveIntensity = 0.62
     } else if (input.hovered) {
       emissive = HOVER_COLOR
-      emissiveIntensity = 0.12
+      emissiveIntensity = 0.16
     }
   }
   return {

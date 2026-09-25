@@ -11,6 +11,7 @@
  * Coordinates are the app frame `anat-gltf-v1` (+X subject's left, +Y superior, +Z anterior).
  */
 import {
+  ACESFilmicToneMapping,
   AlwaysStencilFunc,
   BackSide,
   Box3,
@@ -32,6 +33,7 @@ import {
   PerspectiveCamera,
   Plane,
   PlaneGeometry,
+  PMREMGenerator,
   PropertyBinding,
   Quaternion,
   Raycaster,
@@ -47,6 +49,7 @@ import {
 import { GLTFLoader, type GLTF } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js'
 import { MeshBVH, acceleratedRaycast } from 'three-mesh-bvh'
 
 import type { AssetNode, CameraPreset, CameraState, ClipState, ModelAsset, SceneState, StructureId, Vec3 } from '../core/schema.ts'
@@ -254,16 +257,25 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
   camera.lookAt(target)
   scene.add(camera)
 
-  // Lighting: soft hemisphere + a headlight that follows the camera, so every view is lit.
-  const hemi = new HemisphereLight(0xffffff, 0x6d6760, 1.15)
+  // Lighting ("studio"): soft hemisphere fill, a key light and a rim light that follow the
+  // camera so every view is lit and silhouettes stay readable against the dark background.
+  // A pre-filtered room environment (see setupEnvironment) adds soft reflections.
+  const hemi = new HemisphereLight(0xf2f6ff, 0x3a3530, 0.75)
   hemi.layers.enable(LAYER_TRANSPARENT)
   scene.add(hemi)
-  const headlight = new DirectionalLight(0xffffff, 2.1)
+  const headlight = new DirectionalLight(0xfff6ec, 1.9)
   headlight.layers.enable(LAYER_TRANSPARENT)
-  headlight.position.set(0.35, 0.6, 1)
+  headlight.position.set(0.45, 0.7, 1)
   camera.add(headlight)
   camera.add(headlight.target)
   headlight.target.position.set(0, 0, -1)
+  const rimLight = new DirectionalLight(0xbfdcff, 1.35)
+  rimLight.layers.enable(LAYER_TRANSPARENT)
+  rimLight.position.set(-0.6, 0.5, -3)
+  camera.add(rimLight)
+  camera.add(rimLight.target)
+  rimLight.target.position.set(0, 0, -1)
+  let envTexture: Texture | null = null
 
   // Clipping + stencil cap resources.
   const clipPlane = new Plane(new Vector3(1, 0, 0), 0)
@@ -348,6 +360,9 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
   let settleTimer: ReturnType<typeof setTimeout> | null = null
   let tween: Tween | null = null
   let cameraInitialized = false
+  // Until the user or a caller moves the camera, every newly loaded model reframes the whole
+  // content (so the first view shows the full body, not just the first model that arrived).
+  let autoFrame = true
   let firstFrameEmitted = false
   let lastOrientation: ScreenOrientation | null = null
   let benchmarkActive = false
@@ -625,7 +640,7 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
       const baseHex = (system && systemColors.get(system)) || DEFAULT_BASE_COLOR
       const material = new MeshStandardMaterial({
         color: new Color(jitterColor(baseHex, key)),
-        roughness: 0.62,
+        roughness: 0.55,
         metalness: 0,
       })
       material.name = f.node.node
@@ -756,8 +771,9 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
     onCameraChanged()
   }
 
-  function moveCamera(to: OrbitPose, opts?: { animate?: boolean; fov?: number }): void {
+  function moveCamera(to: OrbitPose, opts?: { animate?: boolean; fov?: number; auto?: boolean }): void {
     cameraInitialized = true
+    if (!opts?.auto) autoFrame = false
     const fov = opts?.fov ?? camera.fov
     const animate = (opts?.animate ?? true) && !reducedMotion && phase === 'mounted' && !benchmarkActive
     if (!animate) {
@@ -814,14 +830,14 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
     moveCamera({ target: center, position: [center[0] + dir[0] * dist, center[1] + dir[1] * dist, center[2] + dir[2] * dist] }, { animate })
   }
 
-  function resetCamera(opts?: { animate?: boolean }): void {
+  function resetCamera(opts?: { animate?: boolean; auto?: boolean }): void {
     const box = currentContentBox()
     const bbox = box ? box3ToBbox(box) : null
     const center: Vec3 = bbox ? bboxCenter(bbox) : [0, 0, 0]
     const radius = bbox ? Math.max(bboxRadius(bbox), 0.005) : 1
     const dist = fitDistance(radius, camera.fov, camera.aspect || 1)
     const place = presetCameraPlacement('anterior', center, dist)
-    moveCamera({ target: center, position: place.position }, { animate: opts?.animate, fov: DEFAULT_FOV })
+    moveCamera({ target: center, position: place.position }, { animate: opts?.animate, fov: DEFAULT_FOV, auto: opts?.auto })
   }
 
   function setCameraPreset(preset: CameraPreset, opts?: { animate?: boolean }): void {
@@ -975,6 +991,7 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
     e.preventDefault()
     tween = null
     cameraInitialized = true
+    autoFrame = false
     switch (action.type) {
       case 'rotate':
         if (action.azimuth) controls.rotateLeft(action.azimuth)
@@ -1009,6 +1026,7 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
   }
   const onContextRestored = () => {
     contextLost = false
+    if (renderer) setupEnvironment(renderer)
     // Three.js re-initialises its GL state; force every material to be re-applied.
     for (const e of allEntries) e.appliedKey = ''
     refresh({ visibility: false, force: true })
@@ -1019,6 +1037,7 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
   const onControlsStart = () => {
     tween = null
     cameraInitialized = true
+    autoFrame = false
   }
   const onControlsChange = () => onCameraChanged()
 
@@ -1058,6 +1077,8 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
       r.localClippingEnabled = true
       r.shadowMap.enabled = false
       r.setClearColor(0x000000, 0)
+      r.toneMapping = ACESFilmicToneMapping
+      r.toneMappingExposure = 1.05
       return r
     } catch (err) {
       return `Grafik bağlamı başlatılamadı: ${err instanceof Error ? err.message : String(err)}`
@@ -1080,6 +1101,28 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
     canvas = c
     renderer = r
     rendererAntialias = r.getContextAttributes()?.antialias ?? false
+    setupEnvironment(r)
+  }
+
+  /** Soft studio reflections from a pre-filtered procedural room (no external files; skipped on low quality). */
+  function setupEnvironment(r: WebGLRenderer): void {
+    envTexture?.dispose()
+    envTexture = null
+    scene.environment = null
+    // Low quality (weak GPUs): lights only; the image-based reflections cost fill rate.
+    if (quality === 'low') return
+    try {
+      const pmrem = new PMREMGenerator(r)
+      const room = new RoomEnvironment()
+      envTexture = pmrem.fromScene(room, 0.04).texture
+      room.dispose()
+      pmrem.dispose()
+      scene.environment = envTexture
+      scene.environmentIntensity = 0.45
+    } catch {
+      // Reflections are decorative; the lights alone still light every view.
+      envTexture = null
+    }
   }
 
   function detachCanvas(dispose: boolean): void {
@@ -1094,6 +1137,9 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
     c.removeEventListener('pointermove', onPointerMove)
     c.removeEventListener('pointerleave', onPointerLeave)
     if (dispose) {
+      envTexture?.dispose()
+      envTexture = null
+      scene.environment = null
       r.dispose()
       r.forceContextLoss()
       c.remove()
@@ -1443,7 +1489,7 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
       syncStoreLoaded(asset.id, true)
       refresh({ visibility: true })
       scheduleBvh(loaded.geometries)
-      if (!cameraInitialized) resetCamera({ animate: false })
+      if (!cameraInitialized || autoFrame) resetCamera({ animate: false, auto: true })
       requestRender()
       emit({ type: 'asset-loaded', assetId: asset.id, ms: performance.now() - t0 })
     } catch (err) {
@@ -1677,10 +1723,14 @@ export function createViewerEngine(deps: EngineDeps): ViewerEngineWithDebug {
     },
 
     setQuality(level: QualityLevel): void {
+      const envChanged = (quality === 'low') !== (level === 'low')
       quality = level
       if (!renderer) return
       if (QUALITY_SETTINGS[level].antialias !== rendererAntialias) replaceRenderer(QUALITY_SETTINGS[level].antialias)
-      else resize()
+      else {
+        if (envChanged) setupEnvironment(renderer)
+        resize()
+      }
     },
 
     setReducedMotion(reduced: boolean): void {

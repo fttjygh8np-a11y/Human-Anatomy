@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T11:19:55.278Z",
-  "commit": "4b86b64",
+  "generatedAt": "2026-09-25T16:20:50.412Z",
+  "commit": "9f56390",
   "url": "http://localhost:4184/",
   "benchmarkDurationMs": 5000,
   "environment": {
@@ -21,41 +21,41 @@
     "network": "yerel sunucu (vite preview, gzip), ağ kısıtlaması yok"
   },
   "timings": {
-    "firstByteMs": 7.199999999953434,
-    "domContentLoadedMs": 109,
-    "loadEventMs": 109.09999999997672,
-    "firstUsableViewMs": 478.69999999995343,
-    "firstFrameMs": 983.9000000000233,
-    "defaultModelsLoadedMs": 1097.4000000000233,
-    "systemSwitchMs": 1777.7999999998137
+    "firstByteMs": 4.600000000093132,
+    "domContentLoadedMs": 105.69999999995343,
+    "loadEventMs": 105.80000000004657,
+    "firstUsableViewMs": 473.69999999995343,
+    "firstFrameMs": 5043.699999999953,
+    "defaultModelsLoadedMs": 2441,
+    "systemSwitchMs": 2056.399999999907
   },
   "defaultSystem": {
     "id": "skeletal",
     "assets": 7,
     "stats": {
       "fps": 0,
-      "frameMs": 1.400000000023283,
-      "drawCalls": 47,
-      "triangles": 149156,
-      "geometries": 47,
-      "textures": 1,
+      "frameMs": 238.4000000001397,
+      "drawCalls": 268,
+      "triangles": 589416,
+      "geometries": 267,
+      "textures": 2,
       "loadedAssets": 7,
-      "jsHeapBytes": 67427520
+      "jsHeapBytes": 48110333
     },
     "heap": {
-      "usedBytes": 36292748,
-      "totalBytes": 58257408
+      "usedBytes": 28558640,
+      "totalBytes": 59043840
     },
     "benchmark": {
-      "durationMs": 5049.8,
-      "frames": 46,
-      "fps": 8.911244009663749,
-      "frameMsP50": 116.60000000000036,
-      "frameMsP95": 179.97999999999934,
-      "frameMsMax": 250.10000000000036,
-      "drawCalls": 47,
-      "triangles": 149156,
-      "jsHeapBytes": 64731146
+      "durationMs": 5383.199999999999,
+      "frames": 12,
+      "fps": 2.043394263635013,
+      "frameMsP50": 599.8999999999996,
+      "frameMsP95": 616.6999999999998,
+      "frameMsMax": 633.3999999999996,
+      "drawCalls": 268,
+      "triangles": 589416,
+      "jsHeapBytes": 53493116
     }
   },
   "switchSystem": {
@@ -63,259 +63,259 @@
     "assets": 9,
     "stats": {
       "fps": 0,
-      "frameMs": 5.5,
-      "drawCalls": 147,
-      "triangles": 672188,
-      "geometries": 184,
-      "textures": 1,
+      "frameMs": 52,
+      "drawCalls": 667,
+      "triangles": 1744570,
+      "geometries": 666,
+      "textures": 2,
       "loadedAssets": 16,
-      "jsHeapBytes": 94020950
+      "jsHeapBytes": 103686056
     },
     "heap": {
-      "usedBytes": 28731828,
-      "totalBytes": 98627584
+      "usedBytes": 45190544,
+      "totalBytes": 101249024
     },
     "benchmark": {
-      "durationMs": 5133.0999999999985,
-      "frames": 14,
-      "fps": 2.5325826498607085,
-      "frameMsP50": 466.7000000000007,
-      "frameMsP95": 516.5999999999992,
-      "frameMsMax": 516.6000000000004,
-      "drawCalls": 147,
-      "triangles": 672188,
-      "jsHeapBytes": 73847020
+      "durationMs": 6233.1,
+      "frames": 6,
+      "fps": 0.8021690651521715,
+      "frameMsP50": 1699.9000000000015,
+      "frameMsP95": 1796.6600000000005,
+      "frameMsMax": 1816.7000000000007,
+      "drawCalls": 667,
+      "triangles": 1744570,
+      "jsHeapBytes": 90504468
     }
   },
   "stabilityCycles": [
     {
-      "geometries": 184,
-      "heapUsedBytes": 36391588
+      "geometries": 666,
+      "heapUsedBytes": 36491264
     },
     {
-      "geometries": 184,
-      "heapUsedBytes": 47535588
+      "geometries": 666,
+      "heapUsedBytes": 34594520
     },
     {
-      "geometries": 184,
-      "heapUsedBytes": 35738524
+      "geometries": 666,
+      "heapUsedBytes": 66101668
     }
   ],
   "assetLoads": [
     {
       "assetId": "asset:bp3d.skeletal.abdomen",
-      "ms": 62.59999999997672,
-      "at": 792.1999999999534
+      "ms": 75,
+      "at": 2288.1999999999534
     },
     {
       "assetId": "asset:bp3d.skeletal.back",
-      "ms": 257,
-      "at": 987.7999999999302
+      "ms": 91.20000000018626,
+      "at": 2305.4000000001397
     },
     {
       "assetId": "asset:bp3d.skeletal.head",
-      "ms": 289.9000000000233,
-      "at": 1021
+      "ms": 144,
+      "at": 2358.600000000093
     },
     {
       "assetId": "asset:bp3d.skeletal.lower_limb",
-      "ms": 312.9000000000233,
-      "at": 1044.0999999999767
+      "ms": 169.69999999995343,
+      "at": 2384.3000000000466
     },
     {
       "assetId": "asset:bp3d.skeletal.neck",
-      "ms": 321.69999999995343,
-      "at": 1053.1999999999534
-    },
-    {
-      "assetId": "asset:bp3d.skeletal.upper_limb",
-      "ms": 342.4000000000233,
-      "at": 1074.2999999999302
+      "ms": 180.89999999990687,
+      "at": 2395.6999999999534
     },
     {
       "assetId": "asset:bp3d.skeletal.thorax",
-      "ms": 365.5999999999767,
-      "at": 1097.4000000000233
+      "ms": 206.5,
+      "at": 2421.600000000093
+    },
+    {
+      "assetId": "asset:bp3d.skeletal.upper_limb",
+      "ms": 225.69999999995343,
+      "at": 2441
     },
     {
       "assetId": "asset:bp3d.muscular.abdomen",
-      "ms": 47,
-      "at": 7558.599999999977
-    },
-    {
-      "assetId": "asset:bp3d.muscular.back",
-      "ms": 67.70000000018626,
-      "at": 7585.79999999993
-    },
-    {
-      "assetId": "asset:bp3d.muscular.head",
-      "ms": 88.5,
-      "at": 7606.900000000023
+      "ms": 56.39999999990687,
+      "at": 12422
     },
     {
       "assetId": "asset:bp3d.muscular.lower_limb",
-      "ms": 220.29999999981374,
-      "at": 7739.099999999977
+      "ms": 80.19999999995343,
+      "at": 12447.5
+    },
+    {
+      "assetId": "asset:bp3d.muscular.back",
+      "ms": 103.19999999995343,
+      "at": 12469.800000000047
     },
     {
       "assetId": "asset:bp3d.muscular.neck",
-      "ms": 242.5999999998603,
-      "at": 7761.499999999884
+      "ms": 128.19999999995343,
+      "at": 12496.5
+    },
+    {
+      "assetId": "asset:bp3d.muscular.head",
+      "ms": 153.5,
+      "at": 12520.5
     },
     {
       "assetId": "asset:bp3d.muscular.other",
-      "ms": 286.19999999995343,
-      "at": 7805.29999999993
+      "ms": 182.80000000004657,
+      "at": 12551.40000000014
     },
     {
       "assetId": "asset:bp3d.muscular.pelvis_perineum",
-      "ms": 297.80000000004657,
-      "at": 7817.20000000007
+      "ms": 248.9000000001397,
+      "at": 12618
     },
     {
       "assetId": "asset:bp3d.muscular.thorax",
-      "ms": 388.10000000009313,
-      "at": 7907.900000000023
+      "ms": 273.39999999990687,
+      "at": 12642.699999999953
     },
     {
       "assetId": "asset:bp3d.muscular.upper_limb",
-      "ms": 422.5,
-      "at": 7942.499999999884
+      "ms": 301.4000000001397,
+      "at": 12671
+    },
+    {
+      "assetId": "asset:bp3d.muscular.pelvis_perineum",
+      "ms": 36.200000000186265,
+      "at": 21793.90000000014
     },
     {
       "assetId": "asset:bp3d.muscular.abdomen",
-      "ms": 32.299999999813735,
-      "at": 15521.999999999884
-    },
-    {
-      "assetId": "asset:bp3d.muscular.pelvis_perineum",
-      "ms": 94.30000000004657,
-      "at": 15585.599999999977
-    },
-    {
-      "assetId": "asset:bp3d.muscular.back",
-      "ms": 119.80000000004657,
-      "at": 15610.099999999977
-    },
-    {
-      "assetId": "asset:bp3d.muscular.thorax",
-      "ms": 139.70000000018626,
-      "at": 15631.29999999993
-    },
-    {
-      "assetId": "asset:bp3d.muscular.upper_limb",
-      "ms": 161.79999999981374,
-      "at": 15653.499999999884
+      "ms": 80.60000000009313,
+      "at": 21835.300000000047
     },
     {
       "assetId": "asset:bp3d.muscular.head",
-      "ms": 182.4000000001397,
-      "at": 15672.900000000023
+      "ms": 97.3000000002794,
+      "at": 21854.000000000233
+    },
+    {
+      "assetId": "asset:bp3d.muscular.back",
+      "ms": 118.20000000018626,
+      "at": 21873.500000000233
+    },
+    {
+      "assetId": "asset:bp3d.muscular.thorax",
+      "ms": 132.79999999981374,
+      "at": 21890.699999999953
     },
     {
       "assetId": "asset:bp3d.muscular.lower_limb",
-      "ms": 205.69999999995343,
-      "at": 15696.400000000023
+      "ms": 155.70000000018626,
+      "at": 21912.800000000047
     },
     {
       "assetId": "asset:bp3d.muscular.neck",
-      "ms": 271.4000000001397,
-      "at": 15762.400000000023
+      "ms": 175,
+      "at": 21932.300000000047
     },
     {
       "assetId": "asset:bp3d.muscular.other",
-      "ms": 296.60000000009313,
-      "at": 15787.79999999993
+      "ms": 204.89999999990687,
+      "at": 21962.40000000014
+    },
+    {
+      "assetId": "asset:bp3d.muscular.upper_limb",
+      "ms": 236.3000000002794,
+      "at": 21994.40000000014
     },
     {
       "assetId": "asset:bp3d.muscular.abdomen",
-      "ms": 31.9000000001397,
-      "at": 16715.20000000007
+      "ms": 35.5,
+      "at": 25605.90000000014
+    },
+    {
+      "assetId": "asset:bp3d.muscular.head",
+      "ms": 50.40000000037253,
+      "at": 25625.000000000233
     },
     {
       "assetId": "asset:bp3d.muscular.back",
-      "ms": 99.89999999990687,
-      "at": 16783.900000000023
-    },
-    {
-      "assetId": "asset:bp3d.muscular.head",
-      "ms": 118.4000000001397,
-      "at": 16802.900000000023
+      "ms": 71.79999999981374,
+      "at": 25645.40000000014
     },
     {
       "assetId": "asset:bp3d.muscular.lower_limb",
-      "ms": 138.69999999995343,
-      "at": 16823.599999999977
+      "ms": 148.5,
+      "at": 25723.699999999953
     },
     {
       "assetId": "asset:bp3d.muscular.neck",
-      "ms": 157.69999999995343,
-      "at": 16842.79999999993
+      "ms": 169.60000000009313,
+      "at": 25745.199999999953
     },
     {
       "assetId": "asset:bp3d.muscular.other",
-      "ms": 178.30000000004657,
-      "at": 16863.599999999977
+      "ms": 194.29999999981374,
+      "at": 25770.300000000047
     },
     {
       "assetId": "asset:bp3d.muscular.pelvis_perineum",
-      "ms": 186.4000000001397,
-      "at": 16871.900000000023
+      "ms": 206.1999999997206,
+      "at": 25782.699999999953
     },
     {
       "assetId": "asset:bp3d.muscular.thorax",
-      "ms": 212.30000000004657,
-      "at": 16898.099999999977
+      "ms": 227.20000000018626,
+      "at": 25803.90000000014
     },
     {
       "assetId": "asset:bp3d.muscular.upper_limb",
-      "ms": 244.80000000004657,
-      "at": 16930.900000000023
+      "ms": 248.10000000009313,
+      "at": 25825.199999999953
     },
     {
       "assetId": "asset:bp3d.muscular.pelvis_perineum",
-      "ms": 37.5,
-      "at": 17281.999999999884
-    },
-    {
-      "assetId": "asset:bp3d.muscular.head",
-      "ms": 54.699999999953434,
-      "at": 17297.900000000023
+      "ms": 40.40000000037253,
+      "at": 29462.000000000233
     },
     {
       "assetId": "asset:bp3d.muscular.abdomen",
-      "ms": 70.5,
-      "at": 17312.900000000023
+      "ms": 69.89999999990687,
+      "at": 29488.800000000047
+    },
+    {
+      "assetId": "asset:bp3d.muscular.head",
+      "ms": 89.8000000002794,
+      "at": 29509.500000000233
     },
     {
       "assetId": "asset:bp3d.muscular.back",
-      "ms": 87.10000000009313,
-      "at": 17330.099999999977
-    },
-    {
-      "assetId": "asset:bp3d.muscular.lower_limb",
-      "ms": 105.60000000009313,
-      "at": 17349.099999999977
-    },
-    {
-      "assetId": "asset:bp3d.muscular.neck",
-      "ms": 123.10000000009313,
-      "at": 17366.79999999993
-    },
-    {
-      "assetId": "asset:bp3d.muscular.other",
-      "ms": 142.30000000004657,
-      "at": 17386.20000000007
+      "ms": 124.6999999997206,
+      "at": 29544.09999999986
     },
     {
       "assetId": "asset:bp3d.muscular.thorax",
-      "ms": 161.19999999995343,
-      "at": 17405.999999999884
+      "ms": 139.8000000002794,
+      "at": 29561.500000000233
     },
     {
       "assetId": "asset:bp3d.muscular.upper_limb",
-      "ms": 177.5,
-      "at": 17422.70000000007
+      "ms": 156.6999999997206,
+      "at": 29578.59999999986
+    },
+    {
+      "assetId": "asset:bp3d.muscular.lower_limb",
+      "ms": 177.79999999981374,
+      "at": 29597.800000000047
+    },
+    {
+      "assetId": "asset:bp3d.muscular.neck",
+      "ms": 195.59999999962747,
+      "at": 29616.59999999986
+    },
+    {
+      "assetId": "asset:bp3d.muscular.other",
+      "ms": 218.29999999981374,
+      "at": 29639.59999999986
     }
   ],
   "resources": [
@@ -324,16 +324,16 @@
       "transferBytes": 1241,
       "encodedBytes": 941,
       "decodedBytes": 941,
-      "durationMs": 109.09999999997672,
+      "durationMs": 105.80000000004657,
       "kind": "belge"
     },
     {
-      "name": "/assets/index-BHMMFjz-.js",
+      "name": "/assets/index-CMZmfpKF.js",
       "kind": "js",
-      "transferBytes": 24463,
-      "encodedBytes": 24163,
-      "decodedBytes": 69563,
-      "durationMs": 37
+      "transferBytes": 29211,
+      "encodedBytes": 28911,
+      "decodedBytes": 86863,
+      "durationMs": 27.600000000093132
     },
     {
       "name": "/assets/rolldown-runtime-CbXtAM7H.js",
@@ -341,23 +341,15 @@
       "transferBytes": 889,
       "encodedBytes": 589,
       "decodedBytes": 589,
-      "durationMs": 14.900000000023283
+      "durationMs": 13.100000000093132
     },
     {
-      "name": "/assets/index-kzHKDUlZ.css",
+      "name": "/assets/index-A3EyKwPK.css",
       "kind": "css",
-      "transferBytes": 2350,
-      "encodedBytes": 2050,
-      "decodedBytes": 6355,
-      "durationMs": 26.400000000023283
-    },
-    {
-      "name": "/assets/vendor-Cg9C1mOW.js",
-      "kind": "js",
-      "transferBytes": 34222,
-      "encodedBytes": 33922,
-      "decodedBytes": 118625,
-      "durationMs": 37.40000000002328
+      "transferBytes": 6489,
+      "encodedBytes": 6189,
+      "decodedBytes": 24374,
+      "durationMs": 20.800000000046566
     },
     {
       "name": "/assets/react-Dy-GIXkn.js",
@@ -365,31 +357,39 @@
       "transferBytes": 67860,
       "encodedBytes": 67560,
       "decodedBytes": 218876,
-      "durationMs": 37.40000000002328
+      "durationMs": 31.800000000046566
     },
     {
-      "name": "/assets/ViewerCanvas-D32GK4GY.js",
+      "name": "/assets/vendor-Cg9C1mOW.js",
       "kind": "js",
-      "transferBytes": 16785,
-      "encodedBytes": 16485,
-      "decodedBytes": 42477,
-      "durationMs": 13.400000000023283
+      "transferBytes": 34222,
+      "encodedBytes": 33922,
+      "decodedBytes": 118625,
+      "durationMs": 31.100000000093132
     },
     {
-      "name": "/assets/three-DEG8szKu.js",
+      "name": "/assets/ViewerCanvas-CoesqZQ8.js",
       "kind": "js",
-      "transferBytes": 184844,
-      "encodedBytes": 184544,
-      "decodedBytes": 725836,
-      "durationMs": 56.40000000002328
+      "transferBytes": 17156,
+      "encodedBytes": 16856,
+      "decodedBytes": 43307,
+      "durationMs": 10.599999999860302
+    },
+    {
+      "name": "/assets/three-R_ZW0Q4u.js",
+      "kind": "js",
+      "transferBytes": 185768,
+      "encodedBytes": 185468,
+      "decodedBytes": 729633,
+      "durationMs": 67.5
     },
     {
       "name": "/data/manifest.json",
       "kind": "veri",
-      "transferBytes": 871,
-      "encodedBytes": 571,
+      "transferBytes": 870,
+      "encodedBytes": 570,
       "decodedBytes": 1030,
-      "durationMs": 34.59999999997672
+      "durationMs": 11.600000000093132
     },
     {
       "name": "/data/taxonomy.json",
@@ -397,15 +397,7 @@
       "transferBytes": 2015,
       "encodedBytes": 1715,
       "decodedBytes": 4936,
-      "durationMs": 35.199999999953434
-    },
-    {
-      "name": "/data/structures.json",
-      "kind": "veri",
-      "transferBytes": 177258,
-      "encodedBytes": 176958,
-      "decodedBytes": 3470092,
-      "durationMs": 99.69999999995343
+      "durationMs": 21.300000000046566
     },
     {
       "name": "/data/relations.json",
@@ -413,23 +405,23 @@
       "transferBytes": 12215,
       "encodedBytes": 11915,
       "decodedBytes": 167754,
-      "durationMs": 36.5
+      "durationMs": 45.299999999813735
+    },
+    {
+      "name": "/data/structures.json",
+      "kind": "veri",
+      "transferBytes": 182981,
+      "encodedBytes": 182681,
+      "decodedBytes": 3529474,
+      "durationMs": 85.5999999998603
     },
     {
       "name": "/data/sources.json",
       "kind": "veri",
-      "transferBytes": 3680,
-      "encodedBytes": 3380,
-      "decodedBytes": 9290,
-      "durationMs": 34.29999999993015
-    },
-    {
-      "name": "/data/assets.json",
-      "kind": "veri",
-      "transferBytes": 221365,
-      "encodedBytes": 221065,
-      "decodedBytes": 1788955,
-      "durationMs": 102.09999999997672
+      "transferBytes": 4289,
+      "encodedBytes": 3989,
+      "decodedBytes": 11314,
+      "durationMs": 26.199999999953434
     },
     {
       "name": "/data/lessons.json",
@@ -437,7 +429,15 @@
       "transferBytes": 2909,
       "encodedBytes": 2609,
       "decodedBytes": 9363,
-      "durationMs": 50.09999999997672
+      "durationMs": 44.5
+    },
+    {
+      "name": "/data/assets.json",
+      "kind": "veri",
+      "transferBytes": 177087,
+      "encodedBytes": 176787,
+      "decodedBytes": 991489,
+      "durationMs": 68
     },
     {
       "name": "/data/questions.json",
@@ -445,7 +445,7 @@
       "transferBytes": 302,
       "encodedBytes": 2,
       "decodedBytes": 2,
-      "durationMs": 48.5
+      "durationMs": 44.9000000001397
     },
     {
       "name": "/data/reviews.json",
@@ -453,7 +453,7 @@
       "transferBytes": 302,
       "encodedBytes": 2,
       "decodedBytes": 2,
-      "durationMs": 52.40000000002328
+      "durationMs": 63.300000000046566
     },
     {
       "name": "/data/scope.json",
@@ -461,7 +461,23 @@
       "transferBytes": 3870,
       "encodedBytes": 3570,
       "decodedBytes": 44484,
-      "durationMs": 62.699999999953434
+      "durationMs": 74.29999999981374
+    },
+    {
+      "name": "/assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
+      "kind": "diğer",
+      "transferBytes": 48556,
+      "encodedBytes": 48256,
+      "decodedBytes": 48256,
+      "durationMs": 50.60000000009313
+    },
+    {
+      "name": "/assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2",
+      "kind": "diğer",
+      "transferBytes": 85368,
+      "encodedBytes": 85068,
+      "decodedBytes": 85068,
+      "durationMs": 43.699999999953434
     },
     {
       "name": "/models/bp3d/skeletal.abdomen.glb",
@@ -469,7 +485,7 @@
       "transferBytes": 176872,
       "encodedBytes": 176572,
       "decodedBytes": 176572,
-      "durationMs": 18.29999999993015
+      "durationMs": 6.099999999860302
     },
     {
       "name": "/models/bp3d/skeletal.back.glb",
@@ -477,7 +493,7 @@
       "transferBytes": 19248,
       "encodedBytes": 18948,
       "decodedBytes": 18948,
-      "durationMs": 15
+      "durationMs": 26.699999999953434
     },
     {
       "name": "/models/bp3d/skeletal.head.glb",
@@ -485,7 +501,7 @@
       "transferBytes": 1191988,
       "encodedBytes": 1191688,
       "decodedBytes": 1191688,
-      "durationMs": 42.09999999997672
+      "durationMs": 38.39999999990687
     },
     {
       "name": "/models/bp3d/skeletal.lower_limb.glb",
@@ -493,7 +509,7 @@
       "transferBytes": 381408,
       "encodedBytes": 381108,
       "decodedBytes": 381108,
-      "durationMs": 22
+      "durationMs": 31.399999999906868
     },
     {
       "name": "/models/bp3d/skeletal.neck.glb",
@@ -501,7 +517,7 @@
       "transferBytes": 133236,
       "encodedBytes": 132936,
       "decodedBytes": 132936,
-      "durationMs": 16.099999999976717
+      "durationMs": 27.5999999998603
     },
     {
       "name": "/models/bp3d/skeletal.thorax.glb",
@@ -509,7 +525,7 @@
       "transferBytes": 789344,
       "encodedBytes": 789044,
       "decodedBytes": 789044,
-      "durationMs": 38.800000000046566
+      "durationMs": 34.9000000001397
     },
     {
       "name": "/models/bp3d/skeletal.upper_limb.glb",
@@ -517,23 +533,23 @@
       "transferBytes": 352680,
       "encodedBytes": 352380,
       "decodedBytes": 352380,
-      "durationMs": 38
+      "durationMs": 31.399999999906868
     },
     {
       "name": "/data/assets.json",
       "kind": "veri",
       "transferBytes": 300,
-      "encodedBytes": 221065,
-      "decodedBytes": 1788955,
-      "durationMs": 11.800000000046566
+      "encodedBytes": 176787,
+      "decodedBytes": 991489,
+      "durationMs": 18
     },
     {
       "name": "/data/assets.json",
       "kind": "veri",
       "transferBytes": 300,
-      "encodedBytes": 221065,
-      "decodedBytes": 1788955,
-      "durationMs": 7.800000000046566
+      "encodedBytes": 176787,
+      "decodedBytes": 991489,
+      "durationMs": 7.199999999953434
     },
     {
       "name": "/models/bp3d/muscular.abdomen.glb",
@@ -541,7 +557,7 @@
       "transferBytes": 657096,
       "encodedBytes": 656796,
       "decodedBytes": 656796,
-      "durationMs": 24.199999999953434
+      "durationMs": 34.89999999990687
     },
     {
       "name": "/models/bp3d/muscular.back.glb",
@@ -549,7 +565,7 @@
       "transferBytes": 731548,
       "encodedBytes": 731248,
       "decodedBytes": 731248,
-      "durationMs": 46.5
+      "durationMs": 41.699999999953434
     },
     {
       "name": "/models/bp3d/muscular.head.glb",
@@ -557,7 +573,7 @@
       "transferBytes": 608356,
       "encodedBytes": 608056,
       "decodedBytes": 608056,
-      "durationMs": 43.89999999990687
+      "durationMs": 44.5
     },
     {
       "name": "/models/bp3d/muscular.lower_limb.glb",
@@ -565,7 +581,7 @@
       "transferBytes": 768652,
       "encodedBytes": 768352,
       "decodedBytes": 768352,
-      "durationMs": 50.89999999990687
+      "durationMs": 53.300000000046566
     },
     {
       "name": "/models/bp3d/muscular.neck.glb",
@@ -573,7 +589,7 @@
       "transferBytes": 772376,
       "encodedBytes": 772076,
       "decodedBytes": 772076,
-      "durationMs": 50.89999999990687
+      "durationMs": 50.5999999998603
     },
     {
       "name": "/models/bp3d/muscular.other.glb",
@@ -581,7 +597,7 @@
       "transferBytes": 779320,
       "encodedBytes": 779020,
       "decodedBytes": 779020,
-      "durationMs": 51
+      "durationMs": 50.60000000009313
     },
     {
       "name": "/models/bp3d/muscular.pelvis_perineum.glb",
@@ -589,7 +605,7 @@
       "transferBytes": 89336,
       "encodedBytes": 89036,
       "decodedBytes": 89036,
-      "durationMs": 34
+      "durationMs": 48.39999999990687
     },
     {
       "name": "/models/bp3d/muscular.thorax.glb",
@@ -597,7 +613,7 @@
       "transferBytes": 695760,
       "encodedBytes": 695460,
       "decodedBytes": 695460,
-      "durationMs": 53.5
+      "durationMs": 54.299999999813735
     },
     {
       "name": "/models/bp3d/muscular.upper_limb.glb",
@@ -605,7 +621,7 @@
       "transferBytes": 660456,
       "encodedBytes": 660156,
       "decodedBytes": 660156,
-      "durationMs": 67.19999999995343
+      "durationMs": 65.5
     },
     {
       "name": "/models/bp3d/muscular.abdomen.glb",
@@ -613,7 +629,7 @@
       "transferBytes": 300,
       "encodedBytes": 656796,
       "decodedBytes": 656796,
-      "durationMs": 15.199999999953434
+      "durationMs": 41.700000000186265
     },
     {
       "name": "/models/bp3d/muscular.back.glb",
@@ -621,7 +637,7 @@
       "transferBytes": 300,
       "encodedBytes": 731248,
       "decodedBytes": 731248,
-      "durationMs": 23
+      "durationMs": 42.799999999813735
     },
     {
       "name": "/models/bp3d/muscular.head.glb",
@@ -629,7 +645,7 @@
       "transferBytes": 300,
       "encodedBytes": 608056,
       "decodedBytes": 608056,
-      "durationMs": 31.299999999813735
+      "durationMs": 41.10000000009313
     },
     {
       "name": "/models/bp3d/muscular.lower_limb.glb",
@@ -637,159 +653,15 @@
       "transferBytes": 300,
       "encodedBytes": 768352,
       "decodedBytes": 768352,
-      "durationMs": 33.800000000046566
-    },
-    {
-      "name": "/models/bp3d/muscular.neck.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 772076,
-      "decodedBytes": 772076,
-      "durationMs": 36.39999999990687
-    },
-    {
-      "name": "/models/bp3d/muscular.other.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 779020,
-      "decodedBytes": 779020,
-      "durationMs": 38.9000000001397
-    },
-    {
-      "name": "/models/bp3d/muscular.pelvis_perineum.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 89036,
-      "decodedBytes": 89036,
-      "durationMs": 18.800000000046566
-    },
-    {
-      "name": "/models/bp3d/muscular.thorax.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 695460,
-      "decodedBytes": 695460,
-      "durationMs": 25.299999999813735
-    },
-    {
-      "name": "/models/bp3d/muscular.upper_limb.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 660156,
-      "decodedBytes": 660156,
-      "durationMs": 27.5999999998603
-    },
-    {
-      "name": "/models/bp3d/muscular.abdomen.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 656796,
-      "decodedBytes": 656796,
-      "durationMs": 12.899999999906868
-    },
-    {
-      "name": "/models/bp3d/muscular.back.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 731248,
-      "decodedBytes": 731248,
-      "durationMs": 42.300000000046566
-    },
-    {
-      "name": "/models/bp3d/muscular.head.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 608056,
-      "decodedBytes": 608056,
-      "durationMs": 41
-    },
-    {
-      "name": "/models/bp3d/muscular.lower_limb.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 768352,
-      "decodedBytes": 768352,
-      "durationMs": 42.10000000009313
-    },
-    {
-      "name": "/models/bp3d/muscular.neck.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 772076,
-      "decodedBytes": 772076,
-      "durationMs": 42.199999999953434
-    },
-    {
-      "name": "/models/bp3d/muscular.other.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 779020,
-      "decodedBytes": 779020,
-      "durationMs": 42.200000000186265
-    },
-    {
-      "name": "/models/bp3d/muscular.pelvis_perineum.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 89036,
-      "decodedBytes": 89036,
-      "durationMs": 37.299999999813735
-    },
-    {
-      "name": "/models/bp3d/muscular.thorax.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 695460,
-      "decodedBytes": 695460,
       "durationMs": 41.89999999990687
     },
     {
-      "name": "/models/bp3d/muscular.upper_limb.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 660156,
-      "decodedBytes": 660156,
-      "durationMs": 42
-    },
-    {
-      "name": "/models/bp3d/muscular.abdomen.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 656796,
-      "decodedBytes": 656796,
-      "durationMs": 23.399999999906868
-    },
-    {
-      "name": "/models/bp3d/muscular.back.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 731248,
-      "decodedBytes": 731248,
-      "durationMs": 23.5
-    },
-    {
-      "name": "/models/bp3d/muscular.head.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 608056,
-      "decodedBytes": 608056,
-      "durationMs": 22.5
-    },
-    {
-      "name": "/models/bp3d/muscular.lower_limb.glb",
-      "kind": "model",
-      "transferBytes": 300,
-      "encodedBytes": 768352,
-      "decodedBytes": 768352,
-      "durationMs": 23.300000000046566
-    },
-    {
       "name": "/models/bp3d/muscular.neck.glb",
       "kind": "model",
       "transferBytes": 300,
       "encodedBytes": 772076,
       "decodedBytes": 772076,
-      "durationMs": 23.0999999998603
+      "durationMs": 42.89999999990687
     },
     {
       "name": "/models/bp3d/muscular.other.glb",
@@ -797,7 +669,7 @@
       "transferBytes": 300,
       "encodedBytes": 779020,
       "decodedBytes": 779020,
-      "durationMs": 23
+      "durationMs": 43.10000000009313
     },
     {
       "name": "/models/bp3d/muscular.pelvis_perineum.glb",
@@ -805,7 +677,7 @@
       "transferBytes": 300,
       "encodedBytes": 89036,
       "decodedBytes": 89036,
-      "durationMs": 19.199999999953434
+      "durationMs": 30.5
     },
     {
       "name": "/models/bp3d/muscular.thorax.glb",
@@ -813,7 +685,7 @@
       "transferBytes": 300,
       "encodedBytes": 695460,
       "decodedBytes": 695460,
-      "durationMs": 22.0999999998603
+      "durationMs": 40.90000000037253
     },
     {
       "name": "/models/bp3d/muscular.upper_limb.glb",
@@ -821,7 +693,151 @@
       "transferBytes": 300,
       "encodedBytes": 660156,
       "decodedBytes": 660156,
-      "durationMs": 21.699999999953434
+      "durationMs": 42.799999999813735
+    },
+    {
+      "name": "/models/bp3d/muscular.abdomen.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 656796,
+      "decodedBytes": 656796,
+      "durationMs": 15.100000000093132
+    },
+    {
+      "name": "/models/bp3d/muscular.back.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 731248,
+      "decodedBytes": 731248,
+      "durationMs": 12.5
+    },
+    {
+      "name": "/models/bp3d/muscular.head.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 608056,
+      "decodedBytes": 608056,
+      "durationMs": 11.5
+    },
+    {
+      "name": "/models/bp3d/muscular.lower_limb.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 768352,
+      "decodedBytes": 768352,
+      "durationMs": 13.700000000186265
+    },
+    {
+      "name": "/models/bp3d/muscular.neck.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 772076,
+      "decodedBytes": 772076,
+      "durationMs": 16.600000000093132
+    },
+    {
+      "name": "/models/bp3d/muscular.other.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 779020,
+      "decodedBytes": 779020,
+      "durationMs": 18.5
+    },
+    {
+      "name": "/models/bp3d/muscular.pelvis_perineum.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 89036,
+      "decodedBytes": 89036,
+      "durationMs": 20.5
+    },
+    {
+      "name": "/models/bp3d/muscular.thorax.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 695460,
+      "decodedBytes": 695460,
+      "durationMs": 22.799999999813735
+    },
+    {
+      "name": "/models/bp3d/muscular.upper_limb.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 660156,
+      "decodedBytes": 660156,
+      "durationMs": 25
+    },
+    {
+      "name": "/models/bp3d/muscular.abdomen.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 656796,
+      "decodedBytes": 656796,
+      "durationMs": 41.39999999990687
+    },
+    {
+      "name": "/models/bp3d/muscular.back.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 731248,
+      "decodedBytes": 731248,
+      "durationMs": 42.700000000186265
+    },
+    {
+      "name": "/models/bp3d/muscular.head.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 608056,
+      "decodedBytes": 608056,
+      "durationMs": 41.5
+    },
+    {
+      "name": "/models/bp3d/muscular.lower_limb.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 768352,
+      "decodedBytes": 768352,
+      "durationMs": 42.799999999813735
+    },
+    {
+      "name": "/models/bp3d/muscular.neck.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 772076,
+      "decodedBytes": 772076,
+      "durationMs": 42.60000000009313
+    },
+    {
+      "name": "/models/bp3d/muscular.other.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 779020,
+      "decodedBytes": 779020,
+      "durationMs": 42.60000000009313
+    },
+    {
+      "name": "/models/bp3d/muscular.pelvis_perineum.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 89036,
+      "decodedBytes": 89036,
+      "durationMs": 35
+    },
+    {
+      "name": "/models/bp3d/muscular.thorax.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 695460,
+      "decodedBytes": 695460,
+      "durationMs": 41.10000000009313
+    },
+    {
+      "name": "/models/bp3d/muscular.upper_limb.glb",
+      "kind": "model",
+      "transferBytes": 300,
+      "encodedBytes": 660156,
+      "decodedBytes": 660156,
+      "durationMs": 41.200000000186265
     }
   ],
   "pageErrors": []
