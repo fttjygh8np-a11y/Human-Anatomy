@@ -11,18 +11,17 @@ import { createSearchService } from '../search/searchIndex.ts'
 import { useSceneStore } from '../state/hooks.ts'
 import { sceneStore } from '../state/sceneStore.ts'
 import { InfoPanel } from '../ui/info/InfoPanel.tsx'
-import { QuizPanel } from '../ui/quiz/QuizPanel.tsx'
 import { SearchBox } from '../ui/search/SearchBox.tsx'
 import { ServicesContext, type Services } from '../ui/services.tsx'
-import { SettingsPanel } from '../ui/settings/SettingsPanel.tsx'
 import { isSystemOn } from '../ui/systems.ts'
 import { SceneToolbar } from '../ui/toolbar/SceneToolbar.tsx'
 import { RegionTree, SystemTree } from '../ui/tree/StructureTree.tsx'
-import { ViewerCanvas } from '../ui/viewer/ViewerCanvas.tsx'
 import '../ui/styles.css'
 import { openUserDb, type LocalUserDataStore } from '../user/userDb.ts'
 import { DEFAULT_SETTINGS, type UserSettings } from '../user/types.ts'
 import type { ViewerEngine } from '../viewer/types.ts'
+import { Deferred, preloadViewer, QuizPanel, SettingsPanel, ViewerCanvas } from './lazy.tsx'
+import { exposeEngine } from './testHook.ts'
 
 type Load = { status: 'loading' } | { status: 'error'; message: string; retryable: boolean } | { status: 'ready'; index: ContentIndex }
 type SideTab = 'explore' | 'quiz' | 'settings'
@@ -53,6 +52,10 @@ function Shell({ index }: { index: ContentIndex }) {
   const scene = useSceneStore((s) => s.scene)
   const systemReduced = usePrefersReducedMotion()
   const search = useMemo(() => createSearchService(index), [index])
+  const onEngine = useCallback((e: ViewerEngine | null) => {
+    setEngine(e)
+    exposeEngine(e, sceneStore)
+  }, [])
 
   useEffect(() => {
     let alive = true
@@ -148,27 +151,37 @@ function Shell({ index }: { index: ContentIndex }) {
                   3B modeller henüz derlenmedi (npm run models:fetch ve models:build). Ağaç, bilgi kartı ve arama kullanılabilir.
                 </p>
               )}
-              <ViewerCanvas
-                index={index}
-                store={sceneStore}
-                assetUrl={assetUrl}
-                labelFor={(id) => index.displayName(id, settings.nameLanguage)}
-                assets={assets}
-                suppressNames={suppressNames}
-                selectOnPick={!quizMode}
-                reducedMotion={reducedMotion}
-                quality={settings.quality === 'auto' ? undefined : settings.quality}
-                onEngine={setEngine}
-                style={{ position: 'absolute', inset: 0 }}
-              />
+              <Deferred what="3B görüntüleyici">
+                <ViewerCanvas
+                  index={index}
+                  store={sceneStore}
+                  assetUrl={assetUrl}
+                  labelFor={(id) => index.displayName(id, settings.nameLanguage)}
+                  assets={assets}
+                  suppressNames={suppressNames}
+                  selectOnPick={!quizMode}
+                  reducedMotion={reducedMotion}
+                  quality={settings.quality === 'auto' ? undefined : settings.quality}
+                  onEngine={onEngine}
+                  style={{ position: 'absolute', inset: 0 }}
+                />
+              </Deferred>
             </div>
           )}
         </main>
 
         <aside className="app-info" id="main-info" aria-label="Ayrıntılar" tabIndex={-1}>
           {side === 'explore' && <InfoPanel />}
-          {side === 'quiz' && <QuizPanel onActiveChange={setSuppressNames} />}
-          {side === 'settings' && <SettingsPanel />}
+          {side === 'quiz' && (
+            <Deferred what="Sınav paneli">
+              <QuizPanel onActiveChange={setSuppressNames} />
+            </Deferred>
+          )}
+          {side === 'settings' && (
+            <Deferred what="Ayarlar paneli">
+              <SettingsPanel />
+            </Deferred>
+          )}
           {user && !user.persistent && (
             <p className="small muted">Yerel depolama kullanılamıyor; notlar ve ilerleme bu oturum kapanınca silinir.</p>
           )}
@@ -184,6 +197,8 @@ export function App() {
 
   useEffect(() => {
     let alive = true
+    // Download the 3D viewer chunk in parallel with the content bundle.
+    preloadViewer().catch(() => {})
     loadContentBundle(BASE)
       .then((bundle) => alive && setLoad({ status: 'ready', index: createContentIndex(bundle) }))
       .catch((e: unknown) => {

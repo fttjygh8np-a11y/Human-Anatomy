@@ -430,3 +430,9 @@ fieldset {
     animation: none !important;
   }
 }
+
+/* Lazily loaded parts (src/app/lazy.tsx) */
+.deferred {
+  margin: 0;
+  padding: 16px;
+}
