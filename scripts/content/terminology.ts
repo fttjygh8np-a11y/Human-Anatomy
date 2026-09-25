@@ -8,8 +8,8 @@
  *
  * Behind an HTTPS proxy run with NODE_USE_ENV_PROXY=1 (Node >= 22.21).
  */
-import { createHash } from 'node:crypto'
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
+import { cached, get, sparql, type Cached } from './lib/net.ts'
 import { join } from 'node:path'
 import vm from 'node:vm'
 import {
@@ -20,42 +20,9 @@ import {
   type Ta2Term,
   type TdkEvidence,
 } from './lib/terminology.ts'
-import { CONTENT_DIR, REPO_ROOT, prettyJson } from './lib/io.ts'
+import { CONTENT_DIR, prettyJson } from './lib/io.ts'
 
-const CACHE = join(REPO_ROOT, 'vendor', 'terminology')
 const TA2_VIEWER = 'https://ta2viewer.openanatomy.org/'
-const UA = 'anatomi-3b/0.1 (egitim projesi; https://github.com/fttjygh8np-a11y/human-anatomy)'
-const refresh = process.argv.includes('--refresh')
-const today = new Date().toISOString().slice(0, 10)
-
-interface Cached<T> {
-  url: string
-  retrievedAt: string
-  sha256: string
-  data: T
-}
-
-async function cached<T>(name: string, url: string, load: () => Promise<{ raw: string; data: T }>): Promise<Cached<T>> {
-  const file = join(CACHE, name)
-  if (!refresh) {
-    try {
-      return JSON.parse(await readFile(file, 'utf8')) as Cached<T>
-    } catch {
-      // not cached yet
-    }
-  }
-  const { raw, data } = await load()
-  const entry: Cached<T> = { url, retrievedAt: today, sha256: createHash('sha256').update(raw).digest('hex'), data }
-  await mkdir(CACHE, { recursive: true })
-  await writeFile(file, JSON.stringify(entry))
-  return entry
-}
-
-async function get(url: string, accept = '*/*'): Promise<string> {
-  const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: accept } })
-  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`)
-  return res.text()
-}
 
 /** TA2 term list embedded in the OpenAnatomy TA2 Viewer bundle (a JSON.parse('…') string literal). */
 async function loadTa2(): Promise<Cached<Ta2Term[]>> {
@@ -75,11 +42,6 @@ async function loadTa2(): Promise<Cached<Ta2Term[]>> {
     const data = (JSON.parse(text) as Ta2Term[]).map((t) => ({ id: t.id, term: t.term, synonyms: t.synonyms, parent: t.parent }))
     return { raw: js, data }
   })
-}
-
-async function sparql<T>(query: string): Promise<T[]> {
-  const text = await get(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(query)}`, 'application/sparql-results+json')
-  return (JSON.parse(text) as { results: { bindings: T[] } }).results.bindings
 }
 
 /** FMA id -> TA2 ids, and TA2 id -> FMA ids, from Wikidata. */

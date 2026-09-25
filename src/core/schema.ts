@@ -452,7 +452,7 @@ export const relationSchema = z.object({
   sources: z.array(sourceRefSchema).min(1),
   verification: fieldVerificationSchema,
   review: reviewStatusSchema.default('draft'),
-  provenance: z.enum(['import:fma', 'import:bodyparts3d', 'author:ai-draft', 'author:human']),
+  provenance: z.enum(['import:fma', 'import:bodyparts3d', 'import:wikidata', 'author:ai-draft', 'author:human']),
 })
 export type Relation = z.infer<typeof relationSchema>
 

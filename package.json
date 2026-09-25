@@ -21,6 +21,7 @@
     "models:build": "node scripts/models/build-models.ts",
     "content:inventory": "node scripts/content/build-inventory.ts",
     "content:terms": "node scripts/content/terminology.ts",
+    "content:relations": "node scripts/content/relations.ts",
     "content:build": "node scripts/content/build-content.ts",
     "content:validate": "node scripts/content/validate-content.ts",
     "report:coverage": "node scripts/reports/coverage-report.ts",

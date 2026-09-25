@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `d991c194c42b84a5` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `3d24c7c18c7b1335` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
