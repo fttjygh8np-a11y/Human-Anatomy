@@ -11,6 +11,7 @@ import { createSearchService } from '../search/searchIndex.ts'
 import { useSceneStore } from '../state/hooks.ts'
 import { sceneStore } from '../state/sceneStore.ts'
 import { InfoPanel } from '../ui/info/InfoPanel.tsx'
+import { LessonPanel } from '../ui/lessons/LessonPanel.tsx'
 import { QuizPanel } from '../ui/quiz/QuizPanel.tsx'
 import { SearchBox } from '../ui/search/SearchBox.tsx'
 import { ServicesContext, type Services } from '../ui/services.tsx'
@@ -25,7 +26,7 @@ import { DEFAULT_SETTINGS, type UserSettings } from '../user/types.ts'
 import type { ViewerEngine } from '../viewer/types.ts'
 
 type Load = { status: 'loading' } | { status: 'error'; message: string; retryable: boolean } | { status: 'ready'; index: ContentIndex }
-type SideTab = 'explore' | 'quiz' | 'settings'
+type SideTab = 'explore' | 'lessons' | 'quiz' | 'settings'
 type NavTab = 'systems' | 'regions'
 
 const BASE = import.meta.env.BASE_URL
@@ -112,6 +113,7 @@ function Shell({ index }: { index: ContentIndex }) {
             {(
               [
                 ['explore', 'Keşfet'],
+                ['lessons', 'Dersler'],
                 ['quiz', 'Sınav'],
                 ['settings', 'Ayarlar'],
               ] as const
@@ -167,6 +169,7 @@ function Shell({ index }: { index: ContentIndex }) {
 
         <aside className="app-info" id="main-info" aria-label="Ayrıntılar" tabIndex={-1}>
           {side === 'explore' && <InfoPanel />}
+          {side === 'lessons' && <LessonPanel />}
           {side === 'quiz' && <QuizPanel onActiveChange={setSuppressNames} />}
           {side === 'settings' && <SettingsPanel />}
           {user && !user.persistent && (

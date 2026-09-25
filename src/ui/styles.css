@@ -406,6 +406,23 @@ fieldset {
   color: var(--muted);
 }
 
+/* Lessons */
+.lesson-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.lesson-list > li {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+.lesson-list h3 {
+  margin: 0 0 4px;
+  font-size: 1em;
+}
+
 /* Quiz */
 .quiz-options {
   list-style: none;
