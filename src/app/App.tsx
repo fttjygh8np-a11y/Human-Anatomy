@@ -119,7 +119,7 @@ function Shell({ index }: { index: ContentIndex }) {
                 ['settings', 'Ayarlar'],
               ] as const
             ).map(([id, label]) => (
-              <button key={id} type="button" aria-selected={side === id} aria-pressed={side === id} onClick={() => setSide(id)}>
+              <button key={id} type="button" aria-pressed={side === id} onClick={() => setSide(id)}>
                 {label}
               </button>
             ))}

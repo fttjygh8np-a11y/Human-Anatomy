@@ -90,41 +90,43 @@ function ContentFields({ s: own }: { s: Structure }) {
     return <p className="muted">Bu yapı için kaynaklı açıklama henüz eklenmedi.</p>
   }
   return (
-    <dl className="content-fields">
+    <>
       {s !== own && (
         <p className="muted small">Genel kavramın ({index.displayName(s.id, settings.nameLanguage)}) açıklaması; sağ ve sol için ortaktır.</p>
       )}
-      {present.map((f) => {
-        const field = s.content[f]
-        if (field?.status !== 'present') return null
-        return (
-          <div key={f}>
-            <dt>
-              {CONTENT_FIELD_LABEL[f]}{' '}
-              <span className={`badge ${field.verification === 'expert_approved' ? 'ok' : 'warn'}`}>
-                {FIELD_STATE_LABEL[field.verification]}
-              </span>
-            </dt>
-            <dd>
-              {Array.isArray(field.value) ? (
-                <ul>
-                  {field.value.map((v, i) => (
-                    <li key={i}>{v}</li>
-                  ))}
-                </ul>
-              ) : (
-                <p>{field.value}</p>
-              )}
-              {field.variantNote && <p className="note">Varyasyon: {field.variantNote}</p>}
-              <SourceList refs={field.sources} />
-            </dd>
-          </div>
-        )
-      })}
+      <dl className="content-fields">
+        {present.map((f) => {
+          const field = s.content[f]
+          if (field?.status !== 'present') return null
+          return (
+            <div key={f}>
+              <dt>
+                {CONTENT_FIELD_LABEL[f]}{' '}
+                <span className={`badge ${field.verification === 'expert_approved' ? 'ok' : 'warn'}`}>
+                  {FIELD_STATE_LABEL[field.verification]}
+                </span>
+              </dt>
+              <dd>
+                {Array.isArray(field.value) ? (
+                  <ul>
+                    {field.value.map((v, i) => (
+                      <li key={i}>{v}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{field.value}</p>
+                )}
+                {field.variantNote && <p className="note">Varyasyon: {field.variantNote}</p>}
+                <SourceList refs={field.sources} />
+              </dd>
+            </div>
+          )
+        })}
+      </dl>
       {missing.length > 0 && (
         <p className="muted small">Henüz eklenmedi: {missing.map((f) => CONTENT_FIELD_LABEL[f]).join(', ')}</p>
       )}
-    </dl>
+    </>
   )
 }
 

@@ -68,7 +68,7 @@ export function SceneToolbar() {
         </button>
       </div>
 
-      <div className="tool-group" aria-label="Görünüm yönü">
+      <div className="tool-group" role="group" aria-label="Görünüm yönü">
         {CAMERA_PRESETS.map((p) => (
           <button key={p} type="button" disabled={!engine} onClick={() => engine?.setCameraPreset(p)}>
             {CAMERA_PRESET_LABEL[p]}
