@@ -18,6 +18,7 @@ import {
 } from '../../i18n/labels.ts'
 import { HIDDEN_REASON_LABEL, resolveVisibility } from '../../state/visibility.ts'
 import { useScene, useServices } from '../services.tsx'
+import { Compare, ErrorReportForm, Notes } from './PersonalTools.tsx'
 
 export const CONTENT_FIELD_LABEL: Record<StructureContentField, string> = {
   summary: 'Kısa açıklama',
@@ -294,7 +295,7 @@ export function InfoPanel() {
   return (
     <section className="info-panel" aria-labelledby="info-title" aria-live="polite">
       <h2 id="info-title">{title}</h2>
-      {selected.length > 1 && <p className="muted small">{selected.length} yapı seçili; sonuncusu gösteriliyor.</p>}
+      {selected.length > 1 && <p className="muted small">{selected.length} yapı seçili; sonuncusu gösteriliyor, karşılaştırma aşağıda.</p>}
       <div className="names">
         <NameLine lang="TR" entry={s.names.tr} />
         <NameLine lang="LA" entry={s.names.la} />
@@ -362,6 +363,9 @@ export function InfoPanel() {
           </ul>
         </details>
       )}
+      {selected.length > 1 && <Compare ids={selected} />}
+      <Notes key={`n-${s.id}`} id={s.id} />
+      <ErrorReportForm key={`r-${s.id}`} id={s.id} />
     </section>
   )
 }

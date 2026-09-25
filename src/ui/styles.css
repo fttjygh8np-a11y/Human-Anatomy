@@ -219,7 +219,54 @@ fieldset {
   color: var(--accent-text);
   border-color: var(--accent);
 }
+/* Panel toggles exist only on narrow screens. */
+.mobile-only {
+  display: none;
+}
+.saved-views {
+  margin-top: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.saved-views .row {
+  display: flex;
+  gap: 4px;
+  margin: 6px 0;
+}
+.saved-views input,
+.info-panel textarea {
+  flex: 1;
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+}
+.table-scroll {
+  overflow-x: auto;
+}
+table.compare {
+  border-collapse: collapse;
+  font-size: 0.87em;
+}
+table.compare th,
+table.compare td {
+  border: 1px solid var(--border);
+  padding: 2px 6px;
+  text-align: start;
+}
 @media (max-width: 900px) {
+  .mobile-only {
+    display: flex;
+    gap: 4px;
+  }
+  .app-nav[data-collapsed='true'],
+  .app-info[data-collapsed='true'] {
+    display: none;
+  }
+  .app-header {
+    flex-wrap: wrap;
+  }
   .app {
     grid-template-columns: 1fr;
     grid-template-rows: auto minmax(45vh, 1fr) auto auto;

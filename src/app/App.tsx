@@ -14,6 +14,7 @@ import { InfoPanel } from '../ui/info/InfoPanel.tsx'
 import { SearchBox } from '../ui/search/SearchBox.tsx'
 import { ServicesContext, type Services } from '../ui/services.tsx'
 import { isSystemOn } from '../ui/systems.ts'
+import { SavedViews } from '../ui/views/SavedViews.tsx'
 import { SceneToolbar } from '../ui/toolbar/SceneToolbar.tsx'
 import { RegionTree, SystemTree } from '../ui/tree/StructureTree.tsx'
 import '../ui/styles.css'
@@ -95,6 +96,9 @@ function Shell({ index }: { index: ContentIndex }) {
   // belong to another donor and are not registered to the BodyParts3D body, so they form a
   // separate view instead of being mixed into the male body.
   const [bodyModel, setBodyModel] = useState<'male' | 'female'>('male')
+  // Phones/tablets: side panels can be folded away so the 3D area keeps its space.
+  const [navOpen, setNavOpen] = useState(true)
+  const [infoOpen, setInfoOpen] = useState(true)
   const hasFemaleModel = useMemo(() => index.bundle.assets.some((a) => !a.registeredToBody), [index])
   const assets = useMemo(
     () =>
@@ -145,6 +149,14 @@ function Shell({ index }: { index: ContentIndex }) {
       <div className="app">
         <header className="app-header">
           <h1>Anatomi 3B</h1>
+          <div className="mobile-only panel-toggles">
+            <button type="button" aria-expanded={navOpen} aria-controls="main-nav" onClick={() => setNavOpen((x) => !x)}>
+              Yapı ağacı
+            </button>
+            <button type="button" aria-expanded={infoOpen} aria-controls="main-info" onClick={() => setInfoOpen((x) => !x)}>
+              Bilgi paneli
+            </button>
+          </div>
           <SearchBox />
           {hasFemaleModel && (
             <label className="model-switch">
@@ -171,7 +183,7 @@ function Shell({ index }: { index: ContentIndex }) {
           </nav>
         </header>
 
-        <aside className="app-nav" aria-label="Yapı ağacı">
+        <aside className="app-nav" id="main-nav" data-collapsed={!navOpen} aria-label="Yapı ağacı">
           <div className="tabs" role="tablist" aria-label="Ağaç türü">
             <button type="button" role="tab" aria-selected={nav === 'systems'} onClick={() => setNav('systems')}>
               Sistemler
@@ -181,6 +193,7 @@ function Shell({ index }: { index: ContentIndex }) {
             </button>
           </div>
           {nav === 'systems' ? <SystemTree /> : <RegionTree />}
+          <SavedViews />
         </aside>
 
         <main className="app-viewer">
@@ -215,7 +228,7 @@ function Shell({ index }: { index: ContentIndex }) {
           )}
         </main>
 
-        <aside className="app-info" id="main-info" aria-label="Ayrıntılar" tabIndex={-1}>
+        <aside className="app-info" id="main-info" data-collapsed={!infoOpen} aria-label="Ayrıntılar" tabIndex={-1}>
           {side === 'explore' && <InfoPanel />}
           {side === 'lessons' && (
             <Deferred what="Ders paneli">

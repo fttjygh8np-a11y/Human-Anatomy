@@ -51,6 +51,15 @@ export function SceneToolbar() {
 
   const lastPast = past.at(-1)
   const lastFuture = future.at(-1)
+  // Outermost system (lowest layerOrder) that is loaded and still has visible, undissected roots.
+  const dissected = new Set(scene.dissected)
+  const outerLayer = [...index.bundle.systems]
+    .sort((a, b) => a.layerOrder - b.layerOrder)
+    .find((sys) => {
+      const roots = index.systemRoots(sys.id)
+      return roots.some((r) => !dissected.has(r.id) && index.isLoaded(r.id, scene)) && scene.systemVisibility[sys.id] !== false
+    })
+
   const undoLabel = lastPast ? `Geri al: ${lastPast.label}` : 'Geri alınacak işlem yok'
   const redoLabel = lastFuture ? `Yinele: ${lastFuture.label}` : 'Yinelenecek işlem yok'
 
@@ -78,6 +87,18 @@ export function SceneToolbar() {
           Başlangıç
         </button>
       </div>
+
+      {outerLayer && (
+        <div className="tool-group">
+          <button
+            type="button"
+            title="Deriden derine: en dıştaki görünür sistemi sanal diseksiyonla kaldırır (geri alınabilir)"
+            onClick={() => api.dissect(index.systemRoots(outerLayer.id).map((r) => r.id))}
+          >
+            Dış katmanı kaldır: {outerLayer.name.tr}
+          </button>
+        </div>
+      )}
 
       {(scene.isolated.length > 0 || scene.dissected.length > 0) && (
         <div className="tool-group">
@@ -155,6 +176,19 @@ export function SceneToolbar() {
             onChange={(e) => api.setLabels({ enabled: e.target.checked })}
           />{' '}
           Etiketler
+        </label>
+        <label>
+          <span className="visually-hidden">Etiket yoğunluğu</span>
+          <select
+            aria-label="Etiket yoğunluğu"
+            value={scene.labels.density}
+            disabled={!scene.labels.enabled}
+            onChange={(e) => api.setLabels({ density: e.target.value as typeof scene.labels.density })}
+          >
+            <option value="low">Az etiket</option>
+            <option value="medium">Orta</option>
+            <option value="high">Çok etiket</option>
+          </select>
         </label>
       </div>
 

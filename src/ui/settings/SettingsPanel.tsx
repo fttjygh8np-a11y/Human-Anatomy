@@ -5,6 +5,7 @@
 import { useRef, useState } from 'react'
 import type { UserSettings } from '../../user/types.ts'
 import { useServices } from '../services.tsx'
+import { ProgressSection } from './ProgressSection.tsx'
 
 export function SettingsPanel() {
   const { settings, updateSettings, user } = useServices()
@@ -121,6 +122,8 @@ export function SettingsPanel() {
           Yalnızca uzman onaylı içerikten soru üret
         </label>
       </fieldset>
+
+      <ProgressSection />
 
       <fieldset>
         <legend>Verilerim</legend>
