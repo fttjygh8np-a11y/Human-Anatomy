@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T06:29:09.449Z",
-  "contentVersion": "cb05330e0eca1c6e",
+  "generatedAt": "2026-09-25T11:34:12.636Z",
+  "contentVersion": "9e05b5d33fe9a281",
   "totals": {
     "total": 119,
     "done": {
@@ -5054,7 +5054,7 @@
     }
   ],
   "untargetedStructures": {
-    "total": 1927,
+    "total": 1964,
     "bySystem": {
       "digestive": 138,
       "skeletal": 79,
@@ -5062,8 +5062,8 @@
       "muscular": 570,
       "respiratory": 119,
       "endocrine": 4,
+      "reproductive": 50,
       "urinary": 8,
-      "reproductive": 13,
       "sensory": 28,
       "articular": 22,
       "nervous": 155,
@@ -5072,12 +5072,12 @@
     }
   },
   "assets": {
-    "total": 70,
-    "anatomical": 70,
+    "total": 72,
+    "anatomical": 72,
     "schematic": 0,
-    "nodes": 3779,
+    "nodes": 3812,
     "orphanNodes": 0,
-    "structuresWithModel": 1595
+    "structuresWithModel": 1627
   },
   "reviews": {
     "total": 0,

@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `cb05330e0eca1c6e` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `9e05b5d33fe9a281` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -187,11 +187,11 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 
 ## Kapsam hedefi olmayan yapılar
 
-1927 yapı kaydı henüz bir kapsam hedefine bağlı değil (digestive: 138, skeletal: 79, cardiovascular: 784, muscular: 570, respiratory: 119, endocrine: 4, urinary: 8, reproductive: 13, sensory: 28, articular: 22, nervous: 155, integumentary: 3, lymphatic: 4). Bunlar tamamlanma oranına katılmaz.
+1964 yapı kaydı henüz bir kapsam hedefine bağlı değil (digestive: 138, skeletal: 79, cardiovascular: 784, muscular: 570, respiratory: 119, endocrine: 4, reproductive: 50, urinary: 8, sensory: 28, articular: 22, nervous: 155, integumentary: 3, lymphatic: 4). Bunlar tamamlanma oranına katılmaz.
 
 ## 3B model varlıkları
 
-70 varlık (70 anatomik, 0 şematik), 3779 düğüm; modeli olan yapı: 1595; envanterde karşılığı olmayan düğüm: 0.
+72 varlık (72 anatomik, 0 şematik), 3812 düğüm; modeli olan yapı: 1627; envanterde karşılığı olmayan düğüm: 0.
 
 ## İnsan incelemesi ve otomatik kontroller (ayrı ayrı)
 
