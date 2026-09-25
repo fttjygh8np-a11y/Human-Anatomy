@@ -119,8 +119,11 @@ dışa/içe aktarma ve silme mevcut. Hesap ve cihazlar arası eşitleme yok (ger
 ### §11 Performans ve hata durumları: 🟡
 - ✅ Gerektiğinde yükleme, kod bölme, sıkıştırma, önbellek, kaynak temizleme, kalite ayarı, model
   yükleme hatası ve grafik bağlamı kaybı mesajları, yeniden deneme.
-- 🟡 Ölçüm yalnızca GPU'suz kapsayıcıda yapıldı: ilk görünüm 479 ms, ilk 3B kare 984 ms,
-  yazılımsal işlemede 8,9 FPS.
+- 🟡 Ölçüm yalnızca GPU'suz kapsayıcıda yapıldı (yazılımsal WebGL): ilk kullanılabilir görünüm
+  474 ms, ilk 3B kare 5.044 ms, iskelet görünümünde 2,0 FPS. Açılışta artık iskeletin tamamı
+  gösterildiği için ekrandaki üçgen sayısı önceki ölçüme göre yaklaşık 4 kat arttı (149 bin → 589
+  bin). Ortam yansımasının ön hesaplaması da yazılımsal işlemede ilk kareyi geciktiriyor. Bu
+  sayılar gerçek bir ekran kartını temsil etmez.
 - ❌ **Gerçek cihazda 30 FPS hedefi ölçülmedi.**
   - **Gereken:** Referans cihazda (ör. orta sınıf dizüstü ve bir mobil cihaz) `npm run perf`
     veya `?perf` ile ölçüm.

@@ -20,7 +20,7 @@ Tarayıcı: loader ─▶ ContentIndex ─▶ SearchIndex / sceneStore ─▶ Vi
 |---|---|
 | Derleme | Vite (rolldown). `three`, `react` ve diğer bağımlılıklar ayrı parçalara bölünür. 3B görüntüleyici, sınav, ders ve ayarlar panelleri gerektiğinde yüklenir (`src/app/lazy.tsx`). |
 | Arayüz | React 19, TypeScript |
-| 3B | three.js, GLB (meshopt sıkıştırma) |
+| 3B | three.js, GLB (meshopt sıkıştırma). Stüdyo ışığı (anahtar, dolgu, kenar ışığı), ACES ton eşleme ve düşük kalite dışında önceden süzülmüş oda ortamı yansıması. |
 | Durum | zustand (vanilla store, React bağımsız) |
 | Şema | zod (içerik derleme hattı ve çalışma zamanı aynı şemayı kullanır) |
 | Arama | minisearch (Türkçe karakter katlama ile) |
@@ -38,7 +38,7 @@ Tarayıcı: loader ─▶ ContentIndex ─▶ SearchIndex / sceneStore ─▶ Vi
 | `viewer/` | `engine.ts`: three.js sahnesi, model yükleme, seçim ışını, kesit düzlemi, kamera. `labels.ts`, `labelOverlay.ts`: etiket yerleşimi ve yoğunluğu. `keyboard.ts`: klavye kısayolları. |
 | `learning/` | Soru üretici, puanlama, sınav oturumu, rehberli ders adımları (`guidedTour.ts`), soruya uygun sahne hazırlığı. |
 | `user/` | IndexedDB şeması (`userDb.ts`), aralıklı tekrar (`srs.ts`), ayarlar. |
-| `ui/` | React bileşenleri: ağaç, arama, bilgi kartı, araç çubuğu, sınav, dersler, ayarlar, kayıtlı görünümler. |
+| `ui/` | React bileşenleri: ağaç, arama, bilgi kartı, sahne dock'u (`toolbar/`, `Popover.tsx`), sınav, dersler, ayarlar, kayıtlı görünümler. Tasarım sistemi `styles.css` içindedir: renk, yarıçap, gölge ve hareket tokenları; varsayılan koyu tema, açık tema; paneller yarı saydam "cam" yüzeylerdir; telefonda alt sekme çubuğu ve alttan açılan paneller kullanılır. İkonlar `icons.tsx` içinde satır içi SVG'dir. |
 | `app/` | Uygulama kabuğu, sekmeler, gecikmeli yüklenen paneller, test kancası (`?perf` veya geliştirme modu). |
 | `i18n/` | Türkçe arayüz etiketleri. |
 

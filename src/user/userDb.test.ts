@@ -339,7 +339,7 @@ describe.each(factories)('UserDataStore (%s)', (label, make) => {
       expect(humerus?.srs?.repetitions).toBe(1)
       expect(await store.getProgress('ax:tibia')).toMatchObject({ viewCount: 1 })
       expect((await store.listViews())[0]?.name).toBe('Yerel görünüm')
-      expect((await store.getSettings()).theme).toBe('system')
+      expect((await store.getSettings()).theme).toBe(DEFAULT_SETTINGS.theme)
 
       // Idempotent: importing the same file again changes nothing.
       expect((await store.importAll(backup, 'merge')).imported).toBe(0)

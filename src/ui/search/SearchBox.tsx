@@ -2,9 +2,10 @@
  * Search combobox (WAI-ARIA combobox + listbox). Choosing a hit selects the structure,
  * makes it visible again if it was hidden/dissected/isolated away, and focuses the camera.
  */
-import { useId, useMemo, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import type { SearchHit } from '../../search/types.ts'
 import { LATERALITY_LABEL } from '../../i18n/labels.ts'
+import { Icon } from '../icons.tsx'
 import { useServices } from '../services.tsx'
 
 export function SearchBox() {
@@ -13,6 +14,22 @@ export function SearchBox() {
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(0)
   const listId = useId()
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  // Ctrl/Cmd+K or "/" (outside text fields) focuses the search box.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement | null
+      const typing = !!t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)
+      const combo = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k'
+      if (!combo && !(e.key === '/' && !typing)) return
+      e.preventDefault()
+      inputRef.current?.focus()
+      inputRef.current?.select()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
 
   const hits: SearchHit[] = useMemo(() => {
     const q = query.trim()
@@ -49,10 +66,12 @@ export function SearchBox() {
   const showList = open && query.trim().length > 0
   return (
     <div className="search-box">
+      <Icon name="search" className="search-icon" />
       <label htmlFor={`${listId}-input`} className="visually-hidden">
         Yapı ara
       </label>
       <input
+        ref={inputRef}
         id={`${listId}-input`}
         type="search"
         role="combobox"
@@ -72,6 +91,9 @@ export function SearchBox() {
         onBlur={() => setTimeout(() => setOpen(false), 150)}
         onKeyDown={onKeyDown}
       />
+      <kbd className="search-kbd" aria-hidden="true">
+        Ctrl K
+      </kbd>
       {showList && (
         <ul id={listId} role="listbox" className="search-results" aria-label="Arama sonuçları">
           {hits.length === 0 && (

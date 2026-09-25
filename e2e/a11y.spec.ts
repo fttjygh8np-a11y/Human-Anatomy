@@ -20,12 +20,23 @@ async function scan(page: Page, testInfo: TestInfo, view: string): Promise<void>
   expect(blocking, `${view}: ciddi/kritik erişilebilirlik ihlali`).toEqual([])
 }
 
+/** Opens the app with the given theme chosen in Ayarlar (the default theme is dark). */
+async function openThemed(page: Page, scheme: 'light' | 'dark'): Promise<void> {
+  await openApp(page)
+  await modeButton(page, 'Ayarlar').click()
+  await page.getByRole('region', { name: 'Ayarlar' }).getByRole('combobox', { name: /Tema/ }).selectOption(scheme)
+  await expect(page.locator('html')).toHaveAttribute('data-theme', scheme)
+  await modeButton(page, 'Keşfet').click()
+}
+
 for (const scheme of ['light', 'dark'] as const) {
   test.describe(`${scheme === 'light' ? 'açık' : 'koyu'} tema`, () => {
     test.use({ colorScheme: scheme })
 
     test('Keşfet görünümü', async ({ page }, testInfo) => {
-      await openApp(page)
+      // Four full-page axe scans with the 3D scene loaded; slow on 2-core CI runners.
+      test.setTimeout(180_000)
+      await openThemed(page, scheme)
       await scan(page, testInfo, `kesfet-bos-${scheme}`)
 
       // Info card of a structure with its own sourced text, then a sided instance that shows
@@ -47,7 +58,7 @@ for (const scheme of ['light', 'dark'] as const) {
     })
 
     test('Sınav görünümü', async ({ page }, testInfo) => {
-      await openApp(page)
+      await openThemed(page, scheme)
       await modeButton(page, 'Sınav').click()
       await expect(page.getByRole('heading', { level: 2, name: 'Sınav ve tekrar' })).toBeVisible()
       await scan(page, testInfo, `sinav-ayarlar-${scheme}`)
@@ -64,7 +75,7 @@ for (const scheme of ['light', 'dark'] as const) {
     })
 
     test('Ayarlar görünümü', async ({ page }, testInfo) => {
-      await openApp(page)
+      await openThemed(page, scheme)
       await modeButton(page, 'Ayarlar').click()
       await expect(page.getByRole('heading', { level: 2, name: 'Ayarlar' })).toBeVisible()
       await scan(page, testInfo, `ayarlar-${scheme}`)

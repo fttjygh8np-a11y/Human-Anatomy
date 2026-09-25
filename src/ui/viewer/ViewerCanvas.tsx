@@ -81,12 +81,13 @@ const visuallyHidden: CSSProperties = {
 }
 
 const panel: CSSProperties = {
-  font: '13px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
+  font: '13px/1.45 "Inter Variable", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
   color: 'var(--viewer-panel-fg, #1d2125)',
   background: 'var(--viewer-panel-bg, rgba(255,255,255,.92))',
   border: '1px solid var(--viewer-panel-border, rgba(0,0,0,.15))',
-  borderRadius: 6,
-  padding: '6px 10px',
+  borderRadius: 12,
+  padding: '8px 12px',
+  boxShadow: '0 10px 30px rgba(0,0,0,.25)',
   maxWidth: 'min(90%, 36rem)',
 }
 
@@ -96,11 +97,12 @@ function labelOfAsset(index: ContentIndex, assets: readonly ModelAsset[] | undef
 
 const markerBase: CSSProperties = {
   position: 'absolute',
-  font: '600 12px/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
+  font: '600 11px/1 "Inter Variable", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
+  letterSpacing: '0.04em',
   color: 'var(--viewer-marker-fg, #1d2125)',
   background: 'var(--viewer-marker-bg, rgba(255,255,255,.75))',
-  borderRadius: 4,
-  padding: '3px 6px',
+  borderRadius: 999,
+  padding: '4px 8px',
   pointerEvents: 'none',
 }
 

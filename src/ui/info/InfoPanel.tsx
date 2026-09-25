@@ -3,6 +3,7 @@
  * status, sourced content fields (missing content is shown as missing, never invented),
  * relation groups that can be highlighted in 3D, scene actions and cited sources.
  */
+import { Icon } from '../icons.tsx'
 import { useEffect, useState } from 'react'
 import type { NameEntry, SourceRef, Structure, StructureContentField } from '../../core/schema.ts'
 import { STRUCTURE_CONTENT_FIELDS } from '../../core/schema.ts'
@@ -284,7 +285,8 @@ export function InfoPanel() {
 
   if (!s) {
     return (
-      <section className="info-panel" aria-label="Yapı bilgisi">
+      <section className="info-panel info-empty" aria-label="Yapı bilgisi">
+        <Icon name="compass" size={40} />
         <p className="muted">Bilgi görmek için modelde, ağaçta veya aramada bir yapı seçin.</p>
       </section>
     )

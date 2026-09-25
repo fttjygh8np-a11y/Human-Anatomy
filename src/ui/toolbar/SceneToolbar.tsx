@@ -5,6 +5,8 @@
 import { useEffect } from 'react'
 import { CAMERA_PRESETS } from '../../core/schema.ts'
 import { CAMERA_PRESET_LABEL } from '../../i18n/labels.ts'
+import { Icon } from '../icons.tsx'
+import { Popover } from '../Popover.tsx'
 import { useScene, useServices } from '../services.tsx'
 
 const PLANE_LABEL = { sagittal: 'Sagittal', coronal: 'Koronal', axial: 'Aksiyel (transvers)' } as const
@@ -63,56 +65,23 @@ export function SceneToolbar() {
   const undoLabel = lastPast ? `Geri al: ${lastPast.label}` : 'Geri alınacak işlem yok'
   const redoLabel = lastFuture ? `Yinele: ${lastFuture.label}` : 'Yinelenecek işlem yok'
 
+  const hasContext = scene.isolated.length > 0 || scene.dissected.length > 0
+
   return (
     <div className="scene-toolbar" role="toolbar" aria-label="Sahne araçları">
-      <div className="tool-group">
-        <button type="button" disabled={!past.length} title={undoLabel} aria-label={undoLabel} onClick={() => api.undo()}>
-          ↶
-        </button>
-        <button type="button" disabled={!future.length} title={redoLabel} aria-label={redoLabel} onClick={() => api.redo()}>
-          ↷
-        </button>
-        <button type="button" onClick={() => api.resetScene()}>
-          Sıfırla
-        </button>
-      </div>
-
-      <div className="tool-group" role="group" aria-label="Görünüm yönü">
-        {CAMERA_PRESETS.map((p) => (
-          <button key={p} type="button" disabled={!engine} onClick={() => engine?.setCameraPreset(p)}>
-            {CAMERA_PRESET_LABEL[p]}
-          </button>
-        ))}
-        <button type="button" disabled={!engine} onClick={() => engine?.resetCamera()}>
-          Başlangıç
-        </button>
-      </div>
-
-      {outerLayer && (
-        <div className="tool-group">
-          <button
-            type="button"
-            title="Deriden derine: en dıştaki görünür sistemi sanal diseksiyonla kaldırır (geri alınabilir)"
-            onClick={() => api.dissect(index.systemRoots(outerLayer.id).map((r) => r.id))}
-          >
-            Dış katmanı kaldır: {outerLayer.name.tr}
-          </button>
-        </div>
-      )}
-
-      {(scene.isolated.length > 0 || scene.dissected.length > 0) && (
-        <div className="tool-group">
+      {hasContext && (
+        <div className="dock-context">
           {scene.isolated.length > 0 && (
-            <button type="button" onClick={() => api.clearIsolation()}>
-              İzolasyonu kaldır
+            <button type="button" className="chip" onClick={() => api.clearIsolation()}>
+              <Icon name="unlock" size={16} /> İzolasyonu kaldır
             </button>
           )}
           {scene.dissected.length > 0 && (
             <>
-              <button type="button" onClick={() => api.restoreDissected(scene.dissected.slice(-1))}>
-                Son kaldırılanı geri koy
+              <button type="button" className="chip" onClick={() => api.restoreDissected(scene.dissected.slice(-1))}>
+                <Icon name="restore" size={16} /> Son kaldırılanı geri koy
               </button>
-              <button type="button" onClick={() => api.restoreDissected()}>
+              <button type="button" className="chip" onClick={() => api.restoreDissected()}>
                 Tümünü geri koy ({scene.dissected.length})
               </button>
             </>
@@ -120,76 +89,136 @@ export function SceneToolbar() {
         </div>
       )}
 
-      <fieldset className="tool-group">
-        <legend>Kesit</legend>
-        <label>
-          <input type="checkbox" checked={scene.clip.enabled} onChange={(e) => api.setClip({ enabled: e.target.checked })} /> Açık
-        </label>
-        <select
-          aria-label="Kesit düzlemi"
-          value={scene.clip.plane}
-          onChange={(e) => api.setClip({ plane: e.target.value as keyof typeof PLANE_LABEL })}
-        >
-          {(Object.keys(PLANE_LABEL) as (keyof typeof PLANE_LABEL)[]).map((p) => (
-            <option key={p} value={p}>
-              {PLANE_LABEL[p]}
-            </option>
-          ))}
-        </select>
-        <label>
-          Konum
-          <input
-            type="range"
-            min={lo}
-            max={hi}
-            step={(hi - lo) / 400}
-            value={scene.clip.offset}
-            disabled={!scene.clip.enabled}
-            onChange={(e) => api.setClip({ offset: Number(e.target.value) })}
-          />
-        </label>
-        <button
-          type="button"
-          disabled={!scene.clip.enabled}
-          onClick={() => api.setClip({ keep: scene.clip.keep === 'positive' ? 'negative' : 'positive' })}
-        >
-          Tarafı çevir
-        </button>
-      </fieldset>
+      <div className="dock">
+        <div className="tool-group">
+          <button type="button" className="dock-btn" disabled={!past.length} title={undoLabel} aria-label={undoLabel} onClick={() => api.undo()}>
+            <Icon name="undo" />
+            <span className="dock-label" aria-hidden="true">
+              Geri al
+            </span>
+          </button>
+          <button type="button" className="dock-btn" disabled={!future.length} title={redoLabel} aria-label={redoLabel} onClick={() => api.redo()}>
+            <Icon name="redo" />
+            <span className="dock-label" aria-hidden="true">
+              Yinele
+            </span>
+          </button>
+          <button type="button" className="dock-btn" title="Görünürlük, izolasyon, diseksiyon ve kesiti sıfırla" onClick={() => api.resetScene()}>
+            <Icon name="reset" />
+            <span className="dock-label">Sıfırla</span>
+          </button>
+        </div>
 
-      <div className="tool-group">
-        <label>
-          Ayrıştır
-          <input
-            type="range"
-            min={0}
-            max={1}
-            step={0.05}
-            value={scene.explode}
-            onChange={(e) => api.setExplode(Number(e.target.value))}
-          />
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={scene.labels.enabled}
-            onChange={(e) => api.setLabels({ enabled: e.target.checked })}
-          />{' '}
-          Etiketler
-        </label>
-        <label>
-          <span className="visually-hidden">Etiket yoğunluğu</span>
-          <select
-            aria-label="Etiket yoğunluğu"
-            value={scene.labels.density}
-            disabled={!scene.labels.enabled}
-            onChange={(e) => api.setLabels({ density: e.target.value as typeof scene.labels.density })}
-          >
-            <option value="low">Az etiket</option>
-            <option value="medium">Orta</option>
-            <option value="high">Çok etiket</option>
-          </select>
-        </label>
+        <span className="dock-sep" aria-hidden="true" />
+
+        <div className="tool-group">
+          <Popover icon="camera" label="Görünüm" title="Görünüm yönü">
+            <div className="preset-grid">
+              {CAMERA_PRESETS.map((p) => (
+                <button key={p} type="button" disabled={!engine} onClick={() => engine?.setCameraPreset(p)}>
+                  {CAMERA_PRESET_LABEL[p]}
+                </button>
+              ))}
+            </div>
+            <button type="button" className="wide" disabled={!engine} onClick={() => engine?.resetCamera()}>
+              <Icon name="home" size={16} /> Başlangıç
+            </button>
+          </Popover>
+
+          {outerLayer && (
+            <button
+              type="button"
+              className="dock-btn"
+              title={`Deriden derine: en dıştaki görünür sistemi (${outerLayer.name.tr}) sanal diseksiyonla kaldırır (geri alınabilir)`}
+              aria-label={`Dış katmanı kaldır: ${outerLayer.name.tr}`}
+              onClick={() => api.dissect(index.systemRoots(outerLayer.id).map((r) => r.id))}
+            >
+              <Icon name="peel" />
+              <span className="dock-label" aria-hidden="true">
+                Katman kaldır
+              </span>
+            </button>
+          )}
+
+          <Popover icon="slice" label="Kesit" title="Kesit" active={scene.clip.enabled}>
+            <label className="switch-row">
+              <input type="checkbox" role="switch" checked={scene.clip.enabled} onChange={(e) => api.setClip({ enabled: e.target.checked })} /> Kesit
+              açık
+            </label>
+            <label className="field">
+              <span>Düzlem</span>
+              <select
+                aria-label="Kesit düzlemi"
+                value={scene.clip.plane}
+                onChange={(e) => api.setClip({ plane: e.target.value as keyof typeof PLANE_LABEL })}
+              >
+                {(Object.keys(PLANE_LABEL) as (keyof typeof PLANE_LABEL)[]).map((p) => (
+                  <option key={p} value={p}>
+                    {PLANE_LABEL[p]}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="field">
+              <span>Konum</span>
+              <input
+                type="range"
+                min={lo}
+                max={hi}
+                step={(hi - lo) / 400}
+                value={scene.clip.offset}
+                disabled={!scene.clip.enabled}
+                onChange={(e) => api.setClip({ offset: Number(e.target.value) })}
+              />
+            </label>
+            <button
+              type="button"
+              className="wide"
+              disabled={!scene.clip.enabled}
+              onClick={() => api.setClip({ keep: scene.clip.keep === 'positive' ? 'negative' : 'positive' })}
+            >
+              <Icon name="flip" size={16} /> Tarafı çevir
+            </button>
+          </Popover>
+
+          <Popover icon="tag" label="Etiket" title="Etiketler ve ayrıştırma" active={scene.explode > 0}>
+            <label className="switch-row">
+              <input
+                type="checkbox"
+                role="switch"
+                checked={scene.labels.enabled}
+                onChange={(e) => api.setLabels({ enabled: e.target.checked })}
+              />{' '}
+              Etiketler
+            </label>
+            <label className="field">
+              <span>Yoğunluk</span>
+              <select
+                aria-label="Etiket yoğunluğu"
+                value={scene.labels.density}
+                disabled={!scene.labels.enabled}
+                onChange={(e) => api.setLabels({ density: e.target.value as typeof scene.labels.density })}
+              >
+                <option value="low">Az etiket</option>
+                <option value="medium">Orta</option>
+                <option value="high">Çok etiket</option>
+              </select>
+            </label>
+            <label className="field">
+              <span>
+                <Icon name="explode" size={16} /> Ayrıştır
+              </span>
+              <input
+                type="range"
+                min={0}
+                max={1}
+                step={0.05}
+                value={scene.explode}
+                onChange={(e) => api.setExplode(Number(e.target.value))}
+              />
+            </label>
+          </Popover>
+        </div>
       </div>
 
       <p className="visually-hidden" aria-live="polite">

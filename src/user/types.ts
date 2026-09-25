@@ -27,7 +27,7 @@ export interface UserSettings {
 }
 
 export const DEFAULT_SETTINGS: UserSettings = {
-  theme: 'system',
+  theme: 'dark',
   reducedMotion: 'system',
   fontScale: 1,
   quality: 'auto',
