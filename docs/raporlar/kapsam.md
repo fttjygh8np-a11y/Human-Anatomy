@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `ee77b0fc583b2723` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `38b2532bf7f1d20f` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -17,7 +17,7 @@ Kapsam matrisindeki toplam hedef yapı: **32**. Tamamlanmış: **0/32 (%0)**.
 | Model lisansı doğrulanmış | 32/32 (%100) |
 | Uzman incelemesi | 0/32 (%0) |
 | Tamamlanmış | 0/32 (%0) |
-| _Adlar üç dilde mevcut (doğrulanmamış dahil)_ | 4/32 (%13) |
+| _Adlar üç dilde mevcut (doğrulanmamış dahil)_ | 14/32 (%44) |
 
 Boyutların tanımı:
 
@@ -63,21 +63,21 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Clavicula (Clavicle) | İskelet sistemi | Omuz kuşağı | Temel | `fma:13321` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Scapula | İskelet sistemi | Omuz kuşağı | Temel | `fma:13394` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Humerus | İskelet sistemi | Kol | Temel | `fma:13303` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Radius | İskelet sistemi | Önkol | Temel | `fma:23463` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Radius | İskelet sistemi | Önkol | Temel | `fma:23463` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Ulna | İskelet sistemi | Önkol | Temel | `fma:23466` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os scaphoideum (Scaphoid) | İskelet sistemi | El bileği | Temel | `fma:23709` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os lunatum (Lunate) | İskelet sistemi | El bileği | Temel | `fma:23712` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os triquetrum (Triquetrum) | İskelet sistemi | El bileği | Temel | `fma:23715` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os pisiforme (Pisiform) | İskelet sistemi | El bileği | Temel | `fma:23718` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os trapezium (Trapezium) | İskelet sistemi | El bileği | Temel | `fma:23721` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os trapezoideum (Trapezoid) | İskelet sistemi | El bileği | Temel | `fma:23724` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os capitatum (Capitate) | İskelet sistemi | El bileği | Temel | `fma:23727` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os hamatum (Hamate) | İskelet sistemi | El bileği | Temel | `fma:23730` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| First metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23899` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Second metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23900` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Third metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23901` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23902` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fifth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23903` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os scaphoideum (Scaphoid) | İskelet sistemi | El bileği | Temel | `fma:23709` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os lunatum (Lunate) | İskelet sistemi | El bileği | Temel | `fma:23712` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os triquetrum (Triquetrum) | İskelet sistemi | El bileği | Temel | `fma:23715` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os pisiforme (Pisiform) | İskelet sistemi | El bileği | Temel | `fma:23718` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os trapezium (Trapezium) | İskelet sistemi | El bileği | Temel | `fma:23721` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os trapezoideum (Trapezoid) | İskelet sistemi | El bileği | Temel | `fma:23724` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os capitatum (Capitate) | İskelet sistemi | El bileği | Temel | `fma:23727` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os hamatum (Hamate) | İskelet sistemi | El bileği | Temel | `fma:23730` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| First metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23899` | var (sağ ✓, sol ✓) | ? | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Second metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23900` | var (sağ ✓, sol ✓) | ? | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Third metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23901` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fourth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23902` | var (sağ ✓, sol ✓) | ? | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23903` | var (sağ ✓, sol ✓) | ? | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23918` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23945` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23919` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |

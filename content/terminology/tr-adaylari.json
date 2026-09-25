@@ -1,76 +1,861 @@
 {
   "aciklama": "Türkçe ad adayları. Anahtar TA2 İngilizce terimidir (tam eşleşme). Her aday 'npm run content:terms' ile TDK Güncel Türkçe Sözlük'te aranır; yalnızca anatomi/tıp etiketli bir anlamı olan ilk aday kullanılır. Adaylar derleyici önerisidir ve TDK'da bulunmadıkça hiçbir kayda yazılmaz.",
   "adaylar": {
-    "clavicle": ["köprücük kemiği", "köprücükkemiği"],
-    "scapula": ["kürek kemiği", "kürekkemiği"],
-    "humerus": ["kol kemiği"],
-    "ulna": ["dirsek kemiği"],
-    "radius": ["önkol dış kemiği", "döner kemik"],
-    "femur": ["uyluk kemiği"],
-    "tibia": ["kaval kemiği", "incik kemiği"],
-    "fibula": ["kamış kemiği", "baldır kemiği"],
-    "patella": ["diz kapağı", "dizkapağı", "diz kapağı kemiği"],
-    "sternum": ["göğüs kemiği", "iman tahtası"],
-    "sacrum": ["sağrı kemiği", "sağrı"],
-    "coccyx": ["kuyruk sokumu kemiği", "kuyruksokumu"],
-    "hip bone": ["kalça kemiği"],
-    "ilium": ["bağırsak kemiği"],
-    "ischium": ["oturga kemiği"],
-    "pubis": ["çatı kemiği"],
-    "frontal bone": ["alın kemiği"],
-    "parietal bone": ["çeper kemiği", "yan kafa kemiği"],
-    "occipital bone": ["art kafa kemiği", "ense kemiği"],
-    "temporal bone": ["şakak kemiği"],
-    "sphenoidal bone": ["kama kemiği"],
-    "ethmoidal bone": ["kalbur kemiği"],
-    "mandible": ["alt çene kemiği", "alt çene"],
-    "maxilla": ["üst çene kemiği", "üst çene"],
-    "zygomatic bone": ["elmacık kemiği"],
-    "nasal bone": ["burun kemiği"],
-    "lacrimal bone": ["gözyaşı kemiği"],
-    "palatine bone": ["damak kemiği"],
-    "hyoid bone": ["dil kemiği"],
-    "talus": ["aşık kemiği", "aşık"],
-    "calcaneus": ["topuk kemiği"],
-    "rib": ["kaburga kemiği", "kaburga"],
-    "vertebra": ["omur"],
-    "heart": ["kalp", "yürek"],
-    "lung": ["akciğer"],
-    "liver": ["karaciğer"],
-    "kidney": ["böbrek"],
-    "spleen": ["dalak"],
-    "stomach": ["mide"],
-    "pancreas": ["pankreas"],
-    "urinary bladder": ["sidik torbası", "idrar torbası", "sidik kesesi"],
-    "gallbladder": ["safra kesesi", "öd kesesi"],
-    "oesophagus": ["yemek borusu"],
-    "trachea": ["soluk borusu", "nefes borusu"],
-    "larynx": ["gırtlak"],
-    "pharynx": ["yutak"],
-    "tongue": ["dil"],
-    "brain": ["beyin"],
-    "cerebellum": ["beyincik"],
-    "spinal cord": ["omurilik"],
-    "thyroid gland": ["kalkan bezi", "tiroit"],
-    "aorta": ["aort", "aort damarı"],
-    "duodenum": ["onikiparmak bağırsağı"],
-    "small intestine": ["ince bağırsak"],
-    "large intestine": ["kalın bağırsak"],
-    "caecum": ["kör bağırsak"],
-    "vermiform appendix": ["apandis", "körbağırsak eki"],
-    "rectum": ["düz bağırsak", "rektum"],
-    "diaphragm": ["diyafram", "göğüs perdesi"],
-    "ureter": ["sidik borusu", "üreter"],
-    "urethra": ["üretra", "idrar yolu"],
-    "testis": ["er bezi", "testis"],
-    "prostate": ["prostat", "prostat bezi"],
-    "eyeball": ["göz küresi", "göz yuvarı"],
-    "tooth": ["diş"],
-    "skin": ["deri", "cilt"],
-    "hand": ["el"],
-    "foot": ["ayak"],
-    "thymus": ["timüs", "timüs bezi"],
-    "adrenal gland": ["böbreküstü bezi"],
-    "pituitary gland": ["hipofiz", "hipofiz bezi"]
+    "adrenal gland": [
+      "böbreküstü bezi"
+    ],
+    "anal canal": [
+      "anüs kanalı",
+      "makat"
+    ],
+    "ankle joint": [
+      "ayak bileği eklemi"
+    ],
+    "anus": [
+      "anüs",
+      "makat"
+    ],
+    "aorta": [
+      "aort",
+      "aort damarı",
+      "ana atardamar"
+    ],
+    "aortic valve": [
+      "aort kapağı"
+    ],
+    "arachnoid mater": [
+      "örümcek ağı zarı",
+      "araknoit"
+    ],
+    "ascending colon": [
+      "çıkan kolon"
+    ],
+    "atlas": [
+      "atlas omuru",
+      "atlas"
+    ],
+    "auditory tube": [
+      "östaki borusu",
+      "kulak borusu"
+    ],
+    "auricle": [
+      "kulak kepçesi"
+    ],
+    "axis": [
+      "aksis omuru",
+      "eksen omuru"
+    ],
+    "biceps brachii": [
+      "iki başlı kol kası",
+      "iki başlı kas",
+      "pazı"
+    ],
+    "biceps femoris": [
+      "iki başlı uyluk kası"
+    ],
+    "brachial plexus": [
+      "kol ağı"
+    ],
+    "brain": [
+      "beyin"
+    ],
+    "brainstem": [
+      "beyin sapı"
+    ],
+    "breast": [
+      "meme"
+    ],
+    "bronchus": [
+      "bronş"
+    ],
+    "buccinator": [
+      "yanak kası",
+      "borazancı kası"
+    ],
+    "caecum": [
+      "kör bağırsak"
+    ],
+    "calcaneal tendon": [
+      "aşil tendonu",
+      "aşil kirişi",
+      "topuk kirişi"
+    ],
+    "calcaneus": [
+      "topuk kemiği"
+    ],
+    "capitate bone": [
+      "başlı kemik"
+    ],
+    "carpal bones": [
+      "bilek kemikleri",
+      "el bileği kemikleri"
+    ],
+    "cerebellum": [
+      "beyincik"
+    ],
+    "cerebrospinal fluid": [
+      "beyin omurilik sıvısı"
+    ],
+    "cerebrum": [
+      "beyin",
+      "uç beyin"
+    ],
+    "cervical vertebrae": [
+      "boyun omurları"
+    ],
+    "choroid": [
+      "damar tabaka",
+      "koroit"
+    ],
+    "clavicle": [
+      "köprücük kemiği",
+      "köprücükkemiği"
+    ],
+    "coccyx": [
+      "kuyruk sokumu kemiği",
+      "kuyruksokumu"
+    ],
+    "cochlea": [
+      "salyangoz",
+      "koklea"
+    ],
+    "colon": [
+      "kolon",
+      "kalın bağırsak"
+    ],
+    "common bile duct": [
+      "ortak safra kanalı",
+      "safra kanalı"
+    ],
+    "common carotid artery": [
+      "şah damarı",
+      "ortak şah damarı"
+    ],
+    "cornea": [
+      "saydam tabaka",
+      "kornea"
+    ],
+    "coronary artery": [
+      "koroner arter",
+      "taç damar"
+    ],
+    "corpus callosum": [
+      "nasırlı cisim",
+      "korpus kallozum"
+    ],
+    "cranium": [
+      "kafatası"
+    ],
+    "cuboid bone": [
+      "küp kemiği",
+      "küpsü kemik"
+    ],
+    "deltoid": [
+      "deltoit kas",
+      "deltoid kas",
+      "omuz kası"
+    ],
+    "descending colon": [
+      "inen kolon"
+    ],
+    "diaphragm": [
+      "diyafram",
+      "göğüs perdesi"
+    ],
+    "ductus deferens": [
+      "meni kanalı",
+      "sperma kanalı"
+    ],
+    "duodenum": [
+      "onikiparmak bağırsağı"
+    ],
+    "dura mater": [
+      "sert zar",
+      "dura mater"
+    ],
+    "ear": [
+      "kulak"
+    ],
+    "elbow joint": [
+      "dirsek eklemi"
+    ],
+    "epididymis": [
+      "er bezi üstü",
+      "epididim"
+    ],
+    "epiglottis": [
+      "gırtlak kapağı",
+      "epiglot"
+    ],
+    "ethmoidal bone": [
+      "kalbur kemiği"
+    ],
+    "external acoustic meatus": [
+      "dış kulak yolu"
+    ],
+    "external oblique": [
+      "dış eğik karın kası"
+    ],
+    "eye": [
+      "göz"
+    ],
+    "eyeball": [
+      "göz küresi",
+      "göz yuvarı"
+    ],
+    "eyelid": [
+      "göz kapağı"
+    ],
+    "facial nerve": [
+      "yüz siniri"
+    ],
+    "false ribs": [
+      "yalancı kaburgalar"
+    ],
+    "femoral artery": [
+      "uyluk atardamarı"
+    ],
+    "femur": [
+      "uyluk kemiği"
+    ],
+    "fibula": [
+      "kamış kemiği",
+      "baldır kemiği"
+    ],
+    "floating ribs": [
+      "yüzen kaburgalar"
+    ],
+    "foot": [
+      "ayak"
+    ],
+    "frontal bone": [
+      "alın kemiği"
+    ],
+    "gallbladder": [
+      "safra kesesi",
+      "öd kesesi"
+    ],
+    "gastrocnemius": [
+      "ikiz baldır kası",
+      "baldır kası"
+    ],
+    "gluteus maximus": [
+      "büyük kalça kası",
+      "büyük sağrı kası"
+    ],
+    "greater omentum": [
+      "büyük karın zarı"
+    ],
+    "hair": [
+      "kıl",
+      "saç"
+    ],
+    "hamate bone": [
+      "çengel kemiği",
+      "kancalı kemik"
+    ],
+    "hand": [
+      "el"
+    ],
+    "hard palate": [
+      "sert damak"
+    ],
+    "heart": [
+      "kalp",
+      "yürek"
+    ],
+    "hip bone": [
+      "kalça kemiği"
+    ],
+    "hip joint": [
+      "kalça eklemi"
+    ],
+    "humerus": [
+      "kol kemiği"
+    ],
+    "hyoid bone": [
+      "dil kemiği"
+    ],
+    "hypothalamus": [
+      "hipotalamus"
+    ],
+    "ileum": [
+      "kıvrım bağırsak",
+      "ileum"
+    ],
+    "ilium": [
+      "bağırsak kemiği"
+    ],
+    "incus": [
+      "örs",
+      "örs kemiği"
+    ],
+    "inferior nasal concha": [
+      "alt burun kemiği"
+    ],
+    "inferior vena cava": [
+      "alt ana toplardamar"
+    ],
+    "internal jugular vein": [
+      "iç şah toplardamarı"
+    ],
+    "intervertebral disc": [
+      "omurlar arası disk",
+      "disk"
+    ],
+    "iris": [
+      "iris"
+    ],
+    "ischium": [
+      "oturga kemiği"
+    ],
+    "jejunum": [
+      "boş bağırsak"
+    ],
+    "kidney": [
+      "böbrek"
+    ],
+    "knee joint": [
+      "diz eklemi"
+    ],
+    "lacrimal bone": [
+      "gözyaşı kemiği"
+    ],
+    "lacrimal gland": [
+      "gözyaşı bezi"
+    ],
+    "large intestine": [
+      "kalın bağırsak"
+    ],
+    "larynx": [
+      "gırtlak"
+    ],
+    "latissimus dorsi": [
+      "geniş sırt kası"
+    ],
+    "left atrium": [
+      "sol kulakçık"
+    ],
+    "left lung": [
+      "sol akciğer"
+    ],
+    "left ventricle": [
+      "sol karıncık"
+    ],
+    "lens": [
+      "göz merceği",
+      "mercek"
+    ],
+    "liver": [
+      "karaciğer"
+    ],
+    "lumbar vertebrae": [
+      "bel omurları"
+    ],
+    "lunate bone": [
+      "ay kemiği",
+      "aysı kemik"
+    ],
+    "lung": [
+      "akciğer"
+    ],
+    "lymph node": [
+      "lenf düğümü",
+      "lenf bezi"
+    ],
+    "main bronchus": [
+      "ana bronş"
+    ],
+    "malleus": [
+      "çekiç",
+      "çekiç kemiği"
+    ],
+    "mammary gland": [
+      "meme bezi",
+      "süt bezi"
+    ],
+    "mandible": [
+      "alt çene kemiği",
+      "alt çene"
+    ],
+    "manubrium of sternum": [
+      "göğüs kemiği sapı"
+    ],
+    "masseter": [
+      "çiğneme kası",
+      "çene kası"
+    ],
+    "maxilla": [
+      "üst çene kemiği",
+      "üst çene"
+    ],
+    "medulla oblongata": [
+      "omurilik soğanı",
+      "soğancık"
+    ],
+    "meninges": [
+      "beyin zarları"
+    ],
+    "meniscus": [
+      "menisküs"
+    ],
+    "metacarpal bones": [
+      "el tarağı kemikleri",
+      "tarak kemikleri"
+    ],
+    "metatarsal bones": [
+      "ayak tarağı kemikleri"
+    ],
+    "midbrain": [
+      "orta beyin"
+    ],
+    "mitral valve": [
+      "mitral kapak",
+      "iki kanatlı kapak"
+    ],
+    "mouth": [
+      "ağız"
+    ],
+    "nail": [
+      "tırnak"
+    ],
+    "nasal bone": [
+      "burun kemiği"
+    ],
+    "nasal cavity": [
+      "burun boşluğu"
+    ],
+    "navicular bone": [
+      "kayık kemiği",
+      "kayıksı kemik"
+    ],
+    "nose": [
+      "burun"
+    ],
+    "occipital bone": [
+      "art kafa kemiği",
+      "ense kemiği"
+    ],
+    "oesophagus": [
+      "yemek borusu"
+    ],
+    "optic nerve": [
+      "görme siniri"
+    ],
+    "oral cavity": [
+      "ağız boşluğu"
+    ],
+    "orbicularis oculi": [
+      "göz çevresi kası"
+    ],
+    "orbicularis oris": [
+      "ağız çevresi kası"
+    ],
+    "ovary": [
+      "yumurtalık"
+    ],
+    "palate": [
+      "damak"
+    ],
+    "palatine bone": [
+      "damak kemiği"
+    ],
+    "palatine tonsil": [
+      "bademcik"
+    ],
+    "pancreas": [
+      "pankreas"
+    ],
+    "parathyroid gland": [
+      "kalkan bezi yanı bezi",
+      "paratiroit"
+    ],
+    "parietal bone": [
+      "çeper kemiği",
+      "yan kafa kemiği"
+    ],
+    "parotid gland": [
+      "kulak altı bezi",
+      "parotis bezi"
+    ],
+    "patella": [
+      "diz kapağı",
+      "dizkapağı",
+      "diz kapağı kemiği"
+    ],
+    "pectoralis major": [
+      "büyük göğüs kası",
+      "göğüs kası"
+    ],
+    "pectoralis minor": [
+      "küçük göğüs kası"
+    ],
+    "pelvis": [
+      "leğen",
+      "pelvis"
+    ],
+    "penis": [
+      "penis",
+      "erkeklik organı"
+    ],
+    "pericardium": [
+      "kalp zarı",
+      "perikard"
+    ],
+    "peritoneum": [
+      "karın zarı",
+      "periton"
+    ],
+    "phalanges of foot": [
+      "ayak parmak kemikleri"
+    ],
+    "phalanges of hand": [
+      "el parmak kemikleri",
+      "parmak kemikleri"
+    ],
+    "pharynx": [
+      "yutak"
+    ],
+    "pia mater": [
+      "ince zar",
+      "pia mater"
+    ],
+    "pineal gland": [
+      "epifiz",
+      "kozalaksı bez"
+    ],
+    "pisiform bone": [
+      "bezelye kemiği",
+      "nohut kemiği"
+    ],
+    "pituitary gland": [
+      "hipofiz",
+      "hipofiz bezi"
+    ],
+    "placenta": [
+      "plasenta",
+      "son"
+    ],
+    "pleura": [
+      "akciğer zarı",
+      "plevra"
+    ],
+    "pons": [
+      "köprü",
+      "pons"
+    ],
+    "portal vein": [
+      "kapı toplardamarı",
+      "portal ven"
+    ],
+    "prostate": [
+      "prostat",
+      "prostat bezi"
+    ],
+    "pubis": [
+      "çatı kemiği"
+    ],
+    "pulmonary trunk": [
+      "akciğer atardamarı"
+    ],
+    "pupil": [
+      "göz bebeği"
+    ],
+    "pylorus": [
+      "mide kapısı",
+      "pilor"
+    ],
+    "quadriceps femoris": [
+      "dört başlı uyluk kası",
+      "dört başlı kas"
+    ],
+    "radius": [
+      "önkol dış kemiği",
+      "döner kemik"
+    ],
+    "rectum": [
+      "düz bağırsak",
+      "rektum"
+    ],
+    "rectus abdominis": [
+      "düz karın kası"
+    ],
+    "renal pelvis": [
+      "böbrek havuzu",
+      "böbrek havuzcuğu"
+    ],
+    "retina": [
+      "ağ tabaka",
+      "retina"
+    ],
+    "rib": [
+      "kaburga kemiği",
+      "kaburga"
+    ],
+    "right atrium": [
+      "sağ kulakçık"
+    ],
+    "right lung": [
+      "sağ akciğer"
+    ],
+    "right ventricle": [
+      "sağ karıncık"
+    ],
+    "sacrum": [
+      "sağrı kemiği",
+      "sağrı"
+    ],
+    "sartorius": [
+      "terzi kası"
+    ],
+    "scaphoid bone": [
+      "kayık kemiği",
+      "kayıksı kemik"
+    ],
+    "scapula": [
+      "kürek kemiği",
+      "kürekkemiği"
+    ],
+    "sciatic nerve": [
+      "siyatik siniri",
+      "siyatik"
+    ],
+    "sclera": [
+      "sklera",
+      "göz akı"
+    ],
+    "scrotum": [
+      "erbezi torbası",
+      "skrotum",
+      "taşak torbası"
+    ],
+    "semicircular canals": [
+      "yarım daire kanalları"
+    ],
+    "seminal gland": [
+      "meni kesesi",
+      "meni bezi"
+    ],
+    "shoulder joint": [
+      "omuz eklemi"
+    ],
+    "sigmoid colon": [
+      "sigmoit kolon"
+    ],
+    "skin": [
+      "deri",
+      "cilt"
+    ],
+    "skull": [
+      "kafatası"
+    ],
+    "small intestine": [
+      "ince bağırsak"
+    ],
+    "soft palate": [
+      "yumuşak damak"
+    ],
+    "soleus": [
+      "pisi balığı kası"
+    ],
+    "sphenoidal bone": [
+      "kama kemiği"
+    ],
+    "spinal cord": [
+      "omurilik"
+    ],
+    "spleen": [
+      "dalak"
+    ],
+    "stapes": [
+      "üzengi",
+      "üzengi kemiği"
+    ],
+    "sternocleidomastoid": [
+      "göğüs köprücük meme kası",
+      "boyun kası"
+    ],
+    "sternum": [
+      "göğüs kemiği",
+      "iman tahtası"
+    ],
+    "stomach": [
+      "mide"
+    ],
+    "subclavian artery": [
+      "köprücük altı atardamarı"
+    ],
+    "sublingual gland": [
+      "dil altı bezi"
+    ],
+    "submandibular gland": [
+      "çene altı bezi"
+    ],
+    "superior vena cava": [
+      "üst ana toplardamar"
+    ],
+    "suprarenal gland": [
+      "böbreküstü bezi"
+    ],
+    "sympathetic trunk": [
+      "sempatik zincir"
+    ],
+    "talus": [
+      "aşık kemiği",
+      "aşık"
+    ],
+    "tarsal bones": [
+      "ayak bileği kemikleri"
+    ],
+    "temporal bone": [
+      "şakak kemiği"
+    ],
+    "temporalis": [
+      "şakak kası"
+    ],
+    "temporomandibular joint": [
+      "çene eklemi"
+    ],
+    "testis": [
+      "er bezi",
+      "testis",
+      "husye"
+    ],
+    "thalamus": [
+      "talamus"
+    ],
+    "thoracic cage": [
+      "göğüs kafesi"
+    ],
+    "thoracic duct": [
+      "göğüs kanalı"
+    ],
+    "thoracic vertebrae": [
+      "göğüs omurları",
+      "sırt omurları"
+    ],
+    "thymus": [
+      "timüs",
+      "timüs bezi"
+    ],
+    "thyroid cartilage": [
+      "kalkan kıkırdağı",
+      "Adem elması"
+    ],
+    "thyroid gland": [
+      "kalkan bezi",
+      "tiroit"
+    ],
+    "tibia": [
+      "kaval kemiği",
+      "incik kemiği"
+    ],
+    "tongue": [
+      "dil"
+    ],
+    "tonsil": [
+      "bademcik"
+    ],
+    "tooth": [
+      "diş"
+    ],
+    "trachea": [
+      "soluk borusu",
+      "nefes borusu"
+    ],
+    "transverse colon": [
+      "enine kolon"
+    ],
+    "trapezium bone": [
+      "trapez kemiği"
+    ],
+    "trapezius": [
+      "trapez kası",
+      "kukuletalı kas"
+    ],
+    "triceps brachii": [
+      "üç başlı kol kası",
+      "üç başlı kas"
+    ],
+    "tricuspid valve": [
+      "üç kanatlı kapak",
+      "triküspit kapak"
+    ],
+    "trigeminal nerve": [
+      "üçüz sinir",
+      "trigeminal sinir"
+    ],
+    "true ribs": [
+      "gerçek kaburgalar"
+    ],
+    "tympanic membrane": [
+      "kulak zarı"
+    ],
+    "ulna": [
+      "dirsek kemiği"
+    ],
+    "ureter": [
+      "sidik borusu",
+      "üreter"
+    ],
+    "urethra": [
+      "üretra",
+      "idrar yolu",
+      "sidik yolu"
+    ],
+    "urinary bladder": [
+      "sidik torbası",
+      "idrar torbası",
+      "sidik kesesi"
+    ],
+    "uterine tube": [
+      "yumurta kanalı",
+      "fallop borusu",
+      "döl borusu"
+    ],
+    "uterus": [
+      "rahim",
+      "dölyatağı"
+    ],
+    "uvula": [
+      "küçük dil"
+    ],
+    "vagina": [
+      "vajina",
+      "dölyolu"
+    ],
+    "vagus nerve": [
+      "vagus siniri",
+      "gezgin sinir"
+    ],
+    "vermiform appendix": [
+      "apandis",
+      "körbağırsak eki"
+    ],
+    "vertebra": [
+      "omur"
+    ],
+    "vertebral column": [
+      "omurga",
+      "belkemiği"
+    ],
+    "vocal fold": [
+      "ses teli",
+      "ses kıvrımı"
+    ],
+    "vomer": [
+      "sapan kemiği",
+      "saban kemiği"
+    ],
+    "wrist joint": [
+      "bilek eklemi",
+      "el bileği eklemi"
+    ],
+    "xiphoid process": [
+      "kılıç çıkıntısı"
+    ],
+    "zygomatic bone": [
+      "elmacık kemiği"
+    ]
   }
 }

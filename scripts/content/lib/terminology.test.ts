@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildOverlay, indexTa2, matchTa2, type StructureLike, type Ta2Term } from './terminology.ts'
+import { buildOverlay, indexTa2, matchTa2, usableTrLabel, wikidataTrName, type StructureLike, type Ta2Term } from './terminology.ts'
 
 // Placeholder terms shaped like the TA2 list (ids and wording are test data, not citations).
 const terms: Ta2Term[] = [
@@ -57,3 +57,20 @@ describe('buildOverlay', () => {
     expect(o.synonyms).toEqual([{ value: 'musculus probationis', lang: 'la', kind: 'synonym', sources: [{ sourceId: 'src:fipat-ta2', locator: 'TA2 ID 2' }] }])
   })
 })
+
+describe('Wikidata Turkish labels', () => {
+  it('rejects untranslated English copies and literal machine translations', () => {
+    expect(usableTrLabel('Right superior gluteal vein', 'Right superior gluteal vein')).toBe(false)
+    expect(usableTrLabel('Deneme arterinin kendisi', 'Test artery proper')).toBe(false)
+    expect(usableTrLabel('Humerus', 'Humerus')).toBe(true)
+    expect(usableTrLabel('Koltuk altı atardamarı', 'Axillary artery')).toBe(true)
+  })
+
+  it('adds the side to a generic label and cites the Wikidata item', () => {
+    const s = st('fma:9', 'Right test', 'right', 'bone')
+    const n = wikidataTrName(s, { item: 'Q1', label: 'Deneme kemiği', composed: true }) as { value: string; sources: { sourceId: string; locator: string }[] }
+    expect(n.value).toBe('Sağ deneme kemiği')
+    expect(n.sources[0]).toMatchObject({ sourceId: 'src:wikidata', locator: 'Q1 (Türkçe etiket)' })
+  })
+})
+

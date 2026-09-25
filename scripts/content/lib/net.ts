@@ -40,10 +40,21 @@ export async function cached<T>(name: string, url: string, load: () => Promise<{
   return entry
 }
 
-export async function get(url: string, accept = '*/*'): Promise<string> {
-  const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: accept } })
-  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`)
-  return res.text()
+/** GET with retries on 429/5xx and network errors (exponential backoff). */
+export async function get(url: string, accept = '*/*', attempts = 4): Promise<string> {
+  let lastError: unknown
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: accept } })
+      if (res.ok) return await res.text()
+      lastError = new Error(`${url.slice(0, 120)}…: HTTP ${res.status}`)
+      if (res.status !== 429 && res.status < 500) break
+    } catch (e) {
+      lastError = e
+    }
+    await new Promise((r) => setTimeout(r, 2000 * 2 ** i))
+  }
+  throw lastError
 }
 
 export async function sparql<T>(query: string): Promise<T[]> {
