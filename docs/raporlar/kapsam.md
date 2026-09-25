@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `3d24c7c18c7b1335` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `5cb697df0b62967f` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -60,38 +60,38 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 
 | Hedef | Sistem | Bölge | Düzey | Envanter | Model | TR | LA | EN | Eksik içerik | Lisans | İnceleme |
 |---|---|---|---|---|---|:-:|:-:|:-:|---|---|---|
-| Clavicula (Clavicle) | İskelet sistemi | Omuz kuşağı | Temel | `fma:13321` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Scapula | İskelet sistemi | Omuz kuşağı | Temel | `fma:13394` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Humerus | İskelet sistemi | Kol | Temel | `fma:13303` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Radius | İskelet sistemi | Önkol | Temel | `fma:23463` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Ulna | İskelet sistemi | Önkol | Temel | `fma:23466` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os scaphoideum (Scaphoid) | İskelet sistemi | El bileği | Temel | `fma:23709` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os lunatum (Lunate) | İskelet sistemi | El bileği | Temel | `fma:23712` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os triquetrum (Triquetrum) | İskelet sistemi | El bileği | Temel | `fma:23715` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os pisiforme (Pisiform) | İskelet sistemi | El bileği | Temel | `fma:23718` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os trapezium (Trapezium) | İskelet sistemi | El bileği | Temel | `fma:23721` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os trapezoideum (Trapezoid) | İskelet sistemi | El bileği | Temel | `fma:23724` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os capitatum (Capitate) | İskelet sistemi | El bileği | Temel | `fma:23727` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Os hamatum (Hamate) | İskelet sistemi | El bileği | Temel | `fma:23730` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| First metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23899` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Second metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23900` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Third metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23901` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fourth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23902` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Fifth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23903` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23918` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23945` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23919` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23933` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23946` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23920` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23934` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23947` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23921` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23935` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23948` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Proximal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23922` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Middle phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23936` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Distal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23949` | var (sağ ✓, sol ✓) | — | — | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Clavicula (Clavicle) | İskelet sistemi | Omuz kuşağı | Temel | `fma:13321` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Scapula | İskelet sistemi | Omuz kuşağı | Temel | `fma:13394` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Humerus | İskelet sistemi | Kol | Temel | `fma:13303` | var (sağ ✓, sol ✓) | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Radius | İskelet sistemi | Önkol | Temel | `fma:23463` | var (sağ ✓, sol ✓) | — | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Ulna | İskelet sistemi | Önkol | Temel | `fma:23466` | var (sağ ✓, sol ✓) | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os scaphoideum (Scaphoid) | İskelet sistemi | El bileği | Temel | `fma:23709` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os lunatum (Lunate) | İskelet sistemi | El bileği | Temel | `fma:23712` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os triquetrum (Triquetrum) | İskelet sistemi | El bileği | Temel | `fma:23715` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os pisiforme (Pisiform) | İskelet sistemi | El bileği | Temel | `fma:23718` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os trapezium (Trapezium) | İskelet sistemi | El bileği | Temel | `fma:23721` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os trapezoideum (Trapezoid) | İskelet sistemi | El bileği | Temel | `fma:23724` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os capitatum (Capitate) | İskelet sistemi | El bileği | Temel | `fma:23727` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Os hamatum (Hamate) | İskelet sistemi | El bileği | Temel | `fma:23730` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| First metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23899` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Second metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23900` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Third metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23901` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fourth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23902` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Fifth metacarpal | İskelet sistemi | El tarağı | Temel | `fma:23903` | var (sağ ✓, sol ✓) | — | — | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23918` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of thumb | İskelet sistemi | El parmakları | Orta | `fma:23945` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23919` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23933` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of index finger | İskelet sistemi | El parmakları | Orta | `fma:23946` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23920` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23934` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of middle finger | İskelet sistemi | El parmakları | Orta | `fma:23947` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23921` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23935` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of ring finger | İskelet sistemi | El parmakları | Orta | `fma:23948` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Proximal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23922` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Middle phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23936` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Distal phalanx of little finger | İskelet sistemi | El parmakları | Orta | `fma:23949` | var (sağ ✓, sol ✓) | — | — | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 
 ## Kapsam hedefi olmayan yapılar
 

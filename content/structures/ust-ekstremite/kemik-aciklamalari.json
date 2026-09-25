@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "fma:13303",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Kolun (omuz ile dirsek arası) tek kemiğidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Humerus"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Proksimalde caput humeri, collum anatomicum, tuberculum majus ve minus, aralarında sulcus intertubercularis ve collum chirurgicum; gövdede tuberositas deltoidea; distalde epicondylus medialis ve lateralis, trochlea, capitulum ile fossa coronoidea, radialis ve olecrani bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Humerus"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Başı skapulanın cavitas glenoidalis'i ile omuz eklemini yapar. Distalde trochlea ulna ile, capitulum radius ile eklemleşerek dirsek eklemini oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Humerus"
+          }
+        ]
+      },
+      "clinicalNotes": {
+        "status": "present",
+        "value": [
+          "Collum chirurgicum, kol kırıklarının sık görüldüğü bölgedir."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Humerus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13321",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Omuz kuşağının ön kemiği; S biçimli, vücutta yatay konumda uzanan tek uzun kemiktir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Clavicle"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omzun ön yüzünde, deri altında; tüm uzunluğu boyunca elle hissedilebilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Üç bölümü vardır: medial (sternal) uç, gövde ve lateral (akromiyal) uç.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Clavicle"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Medial ucu sternumun manubriumu ile sternoklaviküler eklemi yapar; bu, üst ekstremite kuşağı ile aksiyel iskelet arasındaki tek kemik eklemdir. Lateral ucu skapulanın akromionu ile akromiyoklaviküler eklemi yapar. Kostoklaviküler bağ sternal ucu birinci kaburgaya bağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Clavicle"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Skapulayı yana doğru destekleyen bir payanda gibi çalışır, omuz eklemini gövdeden uzak tutarak kolun hareket serbestliğini artırır; üst ekstremiteye gelen kuvvetleri sternuma iletir ve altından geçen damar ve sinirleri korur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Clavicle"
+          }
+        ]
+      },
+      "clinicalNotes": {
+        "status": "present",
+        "value": [
+          "Vücutta en sık kırılan kemiktir; kırık genellikle gergin kol üzerine düşme veya omuza yandan darbe sonucu, orta ve lateral bölümler arasında olur."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Clavicle"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13394",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Omuz kuşağının arka kemiği; yassı ve üçgen biçimlidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Omzun arka yüzünde yer alır; ön ve arka yüzleri kaslarla sarılı olduğundan göğüs kafesinin kaburgalarıyla eklem yapmaz.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Üç kenarı (margo superior, medialis, lateralis), köşeleri (angulus superior ve inferior), cavitas glenoidalis, processus coracoideus, spina scapulae ve akromion ile fossa supraspinata, infraspinata ve subscapularis çukurlukları vardır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Cavitas glenoidalis humerus başı ile omuz eklemini (glenohumeral eklem), akromion klavikulanın lateral ucu ile akromiyoklaviküler eklemi yapar. Processus coracoideus güçlü bir bağla klavikulaya tutturulur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Üst ekstremiteyi gövdeye bağlar; çukurlukları ve çıkıntıları omuz ve kol hareketlerini yapan kaslara geniş tutunma yüzeyleri sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.1 The Pectoral Girdle — Scapula"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23463",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Önkolun lateral (başparmak tarafındaki) kemiğidir; ulna ile paralel uzanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Radius"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Proksimalde disk biçimli caput radii ve collum radii, altında tuberositas radii; gövdede margo interosseus; distalde incisura ulnaris ve processus styloideus bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Radius"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Başı humerusun capitulum'u ile dirsek eklemine katılır ve ulnanın incisura radialis'i ile proksimal radioulnar eklemi yapar. Distal ucu karpal kemiklerden skafoid ve lunat ile radiokarpal (el bileği) eklemini, incisura ulnaris ulna başı ile distal radioulnar eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Radius"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23466",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Önkolun medial (küçük parmak tarafındaki) kemiğidir; radius ile paralel uzanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Ulna"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Proksimalde incisura trochlearis, processus coronoideus, tuberositas ulnae, incisura radialis ve dirseğin kemik ucunu oluşturan olecranon; gövdede margo interosseus; distalde caput ulnae ve processus styloideus bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Ulna"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "İncisura trochlearis humerusun trochlea'sı ile dirsek eklemine katılır. İncisura radialis radius başı ile proksimal radioulnar eklemi, caput ulnae radiusun incisura ulnaris'i ile distal radioulnar eklemi yapar. Ulna distalde karpal kemiklerle doğrudan eklem yapmaz.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Ulna"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23709",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Proksimal karpal sıranın en lateral (başparmak tarafındaki) kemiğidir; adı “kayık biçimli” anlamına gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Lunat ve triquetrum ile birlikte radiokarpal ekleme katılır; radiusun distal ucuyla doğrudan eklemleşir. Fleksör retinakulum lateralde skafoide tutunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "clinicalNotes": {
+        "status": "present",
+        "value": [
+          "Karpal kemikler ve üstlerindeki fleksör retinakulum karpal tüneli oluşturur; tünel içindeki basınç artışı sinir sıkışmasına (karpal tünel sendromu) yol açabilir."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23712",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Proksimal karpal sırada skafoidin medialindeki kemiktir; adı “ay biçimli” anlamına gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Radiusun distal ucuyla doğrudan eklemleşerek radiokarpal ekleme katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23715",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Proksimal karpal sırada lunatın medialindeki kemiktir; adı “üç köşeli” anlamına gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Radiokarpal ekleme, radius ile ulnanın stiloid çıkıntısı arasında uzanan fibrokartilajinöz bir yastık aracılığıyla katılır; ön yüzüyle pisiform eklemleşir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23718",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Proksimal karpal sıranın en medial kemiğidir; küçük, yuvarlak ve “bezelye biçimli”dir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Triquetrumun ön yüzüyle eklemleşir; öne doğru çıkıntı yaparak elin medial tabanında hissedilen kemik kabarıklığı oluşturur. Fleksör retinakulum medialde pisiforma tutunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23721",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Distal karpal sıranın en lateral kemiğidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Fleksör retinakulum lateralde trapeziuma tutunur; distal karpal kemikler metakarpal kemiklerle eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23724",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Distal karpal sırada trapeziumun medialindeki kemiktir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Distal karpal sıradaki komşularıyla bağlarla birleşir ve metakarpal kemiklerle eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23727",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Distal karpal sırada trapezoidin medialindeki kemiktir; adı “baş biçimli” anlamına gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Distal karpal sıradaki komşularıyla bağlarla birleşir ve metakarpal kemiklerle eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23730",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Distal karpal sıranın en medial kemiğidir; ön yüzündeki belirgin kanca (hamulus ossis hamati) ile tanınır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "El bileğinde, elin tabanını oluşturan sekiz karpal kemikten biridir; karpal kemikler proksimal ve distal olmak üzere dörderli iki sıra oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Fleksör retinakulum medialde hamata tutunur; distal karpal kemikler metakarpal kemiklerle eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Carpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23899",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Birinci metakarpal kemik başparmağın tabanında yer alır ve diğerlerinden ayrıdır; bu serbestlik başparmak hareketliliği için önemlidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Avuç içinde, karpal kemiklerle parmak kemikleri arasında; metakarpal kemikler başparmaktan başlayarak 1–5 diye numaralanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ucu distal karpal kemiklerden biriyle karpometakarpal eklemi, genişlemiş distal ucu ilgili parmağın proksimal falanksı ile metakarpofalangeal eklemi yapar; distal uçlar parmak eklemlerini (boğumları) oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23900",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İkinci metakarpal kemik, diğer metakarpallerle birlikte avucu oluşturur; sıkıca sabitlenmiştir ve hareketsizdir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Avuç içinde, karpal kemiklerle parmak kemikleri arasında; metakarpal kemikler başparmaktan başlayarak 1–5 diye numaralanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ucu distal karpal kemiklerden biriyle karpometakarpal eklemi, genişlemiş distal ucu ilgili parmağın proksimal falanksı ile metakarpofalangeal eklemi yapar; distal uçlar parmak eklemlerini (boğumları) oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23901",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçüncü metakarpal kemik, diğer metakarpallerle birlikte avucu oluşturur; sıkıca sabitlenmiştir ve hareketsizdir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Avuç içinde, karpal kemiklerle parmak kemikleri arasında; metakarpal kemikler başparmaktan başlayarak 1–5 diye numaralanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ucu distal karpal kemiklerden biriyle karpometakarpal eklemi, genişlemiş distal ucu ilgili parmağın proksimal falanksı ile metakarpofalangeal eklemi yapar; distal uçlar parmak eklemlerini (boğumları) oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23902",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Dördüncü metakarpal kemik avucu oluşturan kemiklerdendir; sınırlı ön-arka hareketliliği vardır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Avuç içinde, karpal kemiklerle parmak kemikleri arasında; metakarpal kemikler başparmaktan başlayarak 1–5 diye numaralanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ucu distal karpal kemiklerden biriyle karpometakarpal eklemi, genişlemiş distal ucu ilgili parmağın proksimal falanksı ile metakarpofalangeal eklemi yapar; distal uçlar parmak eklemlerini (boğumları) oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23903",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Beşinci metakarpal kemik avucu oluşturan kemiklerdendir; metakarpaller arasında ön-arka hareketliliği en fazla olanıdır ve kavrama sırasında elin medial kenarının temasını güçlendirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Avuç içinde, karpal kemiklerle parmak kemikleri arasında; metakarpal kemikler başparmaktan başlayarak 1–5 diye numaralanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ucu distal karpal kemiklerden biriyle karpometakarpal eklemi, genişlemiş distal ucu ilgili parmağın proksimal falanksı ile metakarpofalangeal eklemi yapar; distal uçlar parmak eklemlerini (boğumları) oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23918",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Başparmağın proksimal falanksıdır; el parmaklarında toplam 14 falanks vardır. Başparmakta (1. parmak) yalnızca proksimal ve distal falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23919",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İşaret parmağının proksimal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23920",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Orta parmağın proksimal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23921",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Yüzük parmağının proksimal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23922",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Küçük parmağın proksimal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23933",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İşaret parmağının orta falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23934",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Orta parmağın orta falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23935",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Yüzük parmağının orta falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23936",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Küçük parmağın orta falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23945",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Başparmağın distal falanksıdır; el parmaklarında toplam 14 falanks vardır. Başparmakta (1. parmak) yalnızca proksimal ve distal falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23946",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İşaret parmağının distal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23947",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Orta parmağın distal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23948",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Yüzük parmağının distal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23949",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Küçük parmağın distal falanksıdır; el parmaklarında toplam 14 falanks vardır. 2.–5. parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Komşu falankslar arasındaki eklemler interfalangeal eklemlerdir; proksimal falankslar metakarpal kemiklerle metakarpofalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.2 Bones of the Upper Limb — Phalanx Bones; Metacarpal Bones"
+          }
+        ]
+      }
+    }
+  }
+]

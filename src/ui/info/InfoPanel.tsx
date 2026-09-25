@@ -78,7 +78,12 @@ function NameLine({ lang, entry }: { lang: string; entry: NameEntry | undefined 
   )
 }
 
-function ContentFields({ s }: { s: Structure }) {
+function ContentFields({ s: own }: { s: Structure }) {
+  const { index, settings } = useServices()
+  const hasContent = (x: Structure) => STRUCTURE_CONTENT_FIELDS.some((f) => x.content[f]?.status === 'present')
+  // A right/left instance without its own text shows the text of its generic concept.
+  const generic = !hasContent(own) && own.genericId ? index.getStructure(own.genericId) : undefined
+  const s = generic && hasContent(generic) ? generic : own
   const present = STRUCTURE_CONTENT_FIELDS.filter((f) => s.content[f]?.status === 'present')
   const missing = STRUCTURE_CONTENT_FIELDS.filter((f) => s.content[f]?.status === 'missing')
   if (present.length === 0) {
@@ -86,6 +91,9 @@ function ContentFields({ s }: { s: Structure }) {
   }
   return (
     <dl className="content-fields">
+      {s !== own && (
+        <p className="muted small">Genel kavramın ({index.displayName(s.id, settings.nameLanguage)}) açıklaması; sağ ve sol için ortaktır.</p>
+      )}
       {present.map((f) => {
         const field = s.content[f]
         if (field?.status !== 'present') return null
