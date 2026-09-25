@@ -1,0 +1,4268 @@
+[
+  {
+    "id": "ax:ta2-2464",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Kolun önyüzünde bulunan iki başlı kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kolun önyüzünde bulunan iki başlı kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Caput longum'u, articulatio humeri'nin capsula articularis'inin (omuz eklemi) içinde olarak tuberculum supraglenoidale'den, Caput breve'si, processus coracoideus'tan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Caput longum'u, articulatio humeri'nin capsula articularis'inin (omuz eklemi) içinde olarak tuberculum supraglenoidale'den, Caput breve'si, processus coracoideus'tan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "İki baş birleşip tek kas olarak aşağıya doğru inerek tuberositas radii'de sonlanır. Ancak bir kısım aponevrotik uzantılar (aponeurosis bicipitalis - Lacertus fibrosus), kolun fascia profunda'sında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: İki baş birleşip tek kas olarak aşağıya doğru inerek tuberositas radii'de sonlanır. Ancak bir kısım aponevrotik uzantılar (aponeurosis bicipitalis - Lacertus fibrosus), kolun fascia profunda'sında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ön kola fleksion ve supinasyon yaptırır. Ön kola en güçlü supinasyon yaptıran kastır. Caput longum'u zayıf da olsa kola fleksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Ön kola fleksion ve supinasyon yaptırır. Ön kola en güçlü supinasyon yaptıran kastır. Caput longum›u zayıf da olsa kola fleksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. musculocutaneus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. musculocutaneus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13342",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İki karınlı bir kastır. Başlangıc ve sonlanış: Venter inferior'u incisura scapulae ve lig. transversum scapulae'den başlar. M. sternocleidomastoideus'un arkasından geçip ana/ortak tendonda sonlanır. Venter superior'u ana/ortak tendondan başlayıp yukarıya doğru çıkıp m. sternohyoideus'un dış yanında corpus ossis hyoidei'nin alt kenarında sonlanır. Ana/ortak tendonu, fascia cervicalis profundus'un bir uzantısı ile clavicula ve costa I'e bağlanmıştır. Bu bağlantıdan dolayı kontraksiyon sırasında iki karın arasında bulunan açı korunmuş olur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İki karınlı bir kastır. Başlangıc ve sonlanış: Venter inferior'u incisura scapulae ve lig. transversum scapulae'den başlar. M. sternocleidomastoideus'un arkasından geçip ana/ortak tendonda sonlanır. Venter superior'u ana/ortak tendondan başlayıp yukarıya doğru çıkıp m. sternohyoideus'un dış yanında corpus ossis hyoidei'nin alt kenarında sonlanır. Ana/ortak tendonu, fascia cervicalis profundus'un bir uzantısı ile clavicula ve costa I'e bağlanmıştır. Bu bağlantıdan dolayı kontraksiyon sırasında iki karın arasında bulunan açı korunmuş olur."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Os hyoideum'u aşağıya çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İşlevi: Os hyoideum'u aşağıya çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Ansa cervicalis'in dalıdır (C1-2-3 spinal sinirin ön dalından gelir).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Siniri: Ansa cervicalis'in dalıdır (C1-2-3 spinal sinirin ön dalından gelir)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13343",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Manubrium sterni'nin ön yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Başlangıcı: Manubrium sterni'nin ön yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. sternohyoideus'un derininde yukarıya doğru ilerleyip cartilago thyroidea'da linea obliqua'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Sonlanışı: M. sternohyoideus'un derininde yukarıya doğru ilerleyip cartilago thyroidea'da linea obliqua'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Larynx'i aşağıya çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İşlevi: Larynx'i aşağıya çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Ansa cervicalis'in dalıdır. (C1-2-3 spinal sinirin ön dalından gelir.)",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Siniri: Ansa cervicalis'in dalıdır. (C1-2-3 spinal sinirin ön dalından gelir.)"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13344",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Cartilago thyroidea'da linea obliqua'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Başlangıcı: Cartilago thyroidea'da linea obliqua'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os hyoideum'da corpus ossis hyoidei ve cornu majus'ta sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Sonlanışı: Os hyoideum'da corpus ossis hyoidei ve cornu majus'ta sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Os hyoideum'u aşağıya çeker veya larynx'i yükseltir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İşlevi: Os hyoideum'u aşağıya çeker veya larynx'i yükseltir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. subcostalis ve ilk üç lumbal spinal sinirin ön dalları",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 89",
+            "quote": "Siniri: N. subcostalis ve ilk üç lumbal spinal sinirin ön dalları"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13387",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Bazen olmadığı gibi, bazen de m. scalenus medius'un lifleri ile karışabilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Bazen olmadığı gibi, bazen de m. scalenus medius'un lifleri ile karışabilir."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Vertebra cervicalis V, VI ve VII'nin processus transversus'larının tuberculum posterius'undan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Başlangıcı: Vertebra cervicalis V, VI ve VII'nin processus transversus'larının tuberculum posterius'undan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Costa II'nin üst yüzünde tuberositas musculi serrati anterioris'in arkasında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Sonlanışı: Costa II'nin üst yüzünde tuberositas musculi serrati anterioris'in arkasında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Alt ucu sabitken kasıldığında boyunu aynı tarafa eğerken, üst ucu sabit olarak kasıldığında costa II'yi yukarı kaldırarak inspirasyona yardımcı olur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Alt ucu sabitken kasıldığında boyunu aynı tarafa eğerken, üst ucu sabit olarak kasıldığında costa II›yi yukarı kaldırarak inspirasyona yardımcı olur."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C6-8 spinal sinirlerin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C6-8 spinal sinirlerin ön dallarından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13407",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Pars sternalis denilen iç parçası manubrium sterni'den, pars clavicularis denilen dış parçası ise clavicula'nın 1/3 iç kısmından başlar. İki parçanın arasında trigonum supraclaviculare minor oluşur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Başlangıcı: Pars sternalis denilen iç parçası manubrium sterni'den, pars clavicularis denilen dış parçası ise clavicula'nın 1/3 iç kısmından başlar. İki parçanın arasında trigonum supraclaviculare minor oluşur."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Her iki başı, boyunun ortasında birleşip processus mastoideus ve linea nuchaesuperior'un dış tarafında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Sonlanışı: Her iki başı, boyunun ortasında birleşip processus mastoideus ve linea nuchaesuperior'un dış tarafında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Tek taraflı kasıldığında başı aynı tarafa doğru eğip yüzü karşı tarafa döndürür. İkisi birden kasıldığında boynu öne çekerek fleksiyon yaptırır. Eğer baş sabit tutulursa zorlu inspirasyonda toraksı yukarı kaldırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Tek taraflı kasıldığında başı aynı tarafa doğru eğip yüzü karşı tarafa döndürür. İkisi birden kasıldığında boynu öne çekerek fleksiyon yaptırır. Eğer baş sabit tutulursa zorlu inspirasyonda toraksı yukarı kaldırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C3-8 spinal sinirlerin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C3-8 spinal sinirlerin ön dallarından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13413",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Fossa subcapularis'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Fossa subcapularis'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberculum minus'ta sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Tuberculum minus'ta sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola içe rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola içe rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. subcapularis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. subcapularis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:19082",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "II., III. ve IV. sakral vertebraların ön yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Başlangıcı: II., III. ve IV. sakral vertebraların ön yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Pelvis'i foramen ischiadicum majus'ta terk ederek trochanter major'ün üst tarafında sonlanır. M. piriformis, içinden geçtiği foramen ischiadicum majus'u, foramen suprapiriforme ve foramen infrapiriforme olarak ikiye ayırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Sonlanışı: Pelvis'i foramen ischiadicum majus'ta terk ederek trochanter major'ün üst tarafında sonlanır. M. piriformis, içinden geçtiği foramen ischiadicum majus'u, foramen suprapiriforme ve foramen infrapiriforme olarak ikiye ayırır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluk fleksiyonda iken dışa rotasyon; ekstansiyonda iken abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "İşlevi: Uyluk fleksiyonda iken dışa rotasyon; ekstansiyonda iken abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi piriformis).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi piriformis)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22299",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Derinde yer alan yelpaze şeklinde bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Derinde yer alan yelpaze şeklinde bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Membrana obturatoria'nın dış yüzünden ve çevresinden başlar. Sonlanışı. Geriye dışyan'a ve yukarıya doğru uzanarak articulatio coxae'nin arkasından geçip fossa trochanterica'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Membrana obturatoria'nın dış yüzünden ve çevresinden başlar. Sonlanışı. Geriye dışyan'a ve yukarıya doğru uzanarak articulatio coxae'nin arkasından geçip fossa trochanterica'da sonlanır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. obturatorius'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22314",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Kalçanın arka tarafında bulunan yüzeyel geniş bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Kalçanın arka tarafında bulunan yüzeyel geniş bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "İlium'da linea glutea posterior'un arkasındaki alandan, os sacrum ve os coccygis'in yan kenarlarından ve lig. sacrotuberale'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Başlangıcı: İlium'da linea glutea posterior'un arkasındaki alandan, os sacrum ve os coccygis'in yan kenarlarından ve lig. sacrotuberale'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Kasın büyük bir bölümü tractus ilotibialis'te, geriye kalan bölümü ise femur'un tuberositas glutea'sında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Sonlanışı: Kasın büyük bir bölümü tractus ilotibialis'te, geriye kalan bölümü ise femur'un tuberositas glutea'sında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa ekstansiyon ve dışa rotasyon yaptırır. Uyluğun en kuvvetli ekstensor kasıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "İşlevi: Uyluğa ekstansiyon ve dışa rotasyon yaptırır. Uyluğun en kuvvetli ekstensor kasıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. gluteus inferior'dur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Siniri: N. gluteus inferior'dur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22315",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "1/3 bölümü m. gluteus maximus tarafından örtülen yelpaze şeklinde kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "1/3 bölümü m. gluteus maximus tarafından örtülen yelpaze şeklinde kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Linea glutea anterior, linea glutea posterior ve crista iliaca arasında başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Başlangıcı: Linea glutea anterior, linea glutea posterior ve crista iliaca arasında başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Trochanter major'un dış yan yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Sonlanışı: Trochanter major'un dış yan yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. gluteus minimus ve m. tensor fascia lata ile birlikte uyluğa abduksiyon yaptırır. Uyluğun en kuvvetli abduktor kasıdır. Yürüme anında pelvis'i tesbit ederek, ayağın yere basmayan tarafına doğru pelvisin/vücudun bükülmesini engeller.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "İşlevi: M. gluteus minimus ve m. tensor fascia lata ile birlikte uyluğa abduksiyon yaptırır. Uyluğun en kuvvetli abduktor kasıdır. Yürüme anında pelvis'i tesbit ederek, ayağın yere basmayan tarafına doğru pelvisin/vücudun bükülmesini engeller."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. gluteus superior'dur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Siniri: N. gluteus superior'dur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22317",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. gluteus medius tarafından örtülmüş yelpaze şekilli bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "M. gluteus medius tarafından örtülmüş yelpaze şekilli bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Os ilium'un dışyan yüzünde linea glutea anterior ve linea glutea inferior arasından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Başlangıcı: Os ilium'un dışyan yüzünde linea glutea anterior ve linea glutea inferior arasından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Trochanter major'un ön kenarında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Sonlanışı: Trochanter major'un ön kenarında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. gluteus medius ve m. tensor fasciae latae ile beraber aynı işlevi görürler.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "İşlevi: M. gluteus medius ve m. tensor fasciae latae ile beraber aynı işlevi görürler."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. gluteus superior'dur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Siniri: N. gluteus superior'dur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22318",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Spina ischiadica'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Spina ischiadica'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Trochanter major'de sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Sonlanışı: Trochanter major'de sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. piriformis ile aynı işlevi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "İşlevi: M. piriformis ile aynı işlevi yapar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi obturatorii interni).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi obturatorii interni)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22320",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Tuber ischiadicum'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Tuber ischiadicum'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Trochanter major'de sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Sonlanışı: Trochanter major'de sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. piriformis ile aynı işlevi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "İşlevi: M. piriformis ile aynı işlevi yapar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi quadrati femoris).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi quadrati femoris)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22321",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Tuber ischiadicum'un dış yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Tuber ischiadicum'un dış yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Crista intertrochanterica'nın üst tarafında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Sonlanışı: Crista intertrochanterica'nın üst tarafında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa dışa rotasyon yaptırır. Uyluğun en kuvvetli dış rotatorudur",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "İşlevi: Uyluğa dışa rotasyon yaptırır. Uyluğun en kuvvetli dış rotatorudur"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi quadrati femoris).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Siniri: Plexus sacralis'ten gelen dallardır (Nn. musculi quadrati femoris)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22353",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Spina iliaca anterior superior'dan başlar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Spina iliaca anterior superior'dan başlar"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Uyluk ön yüzünü dıştan içe doğru çaprazlayarak geçip, m. gracilis ve m. semitendinosus'un tendonları ile birlikte pes anserinus'u (kaz ayağı) oluşturarak tibia'nın proksimalinin (tuberositas tibiae seviyesi) iç yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Sonlanışı: Uyluk ön yüzünü dıştan içe doğru çaprazlayarak geçip, m. gracilis ve m. semitendinosus'un tendonları ile birlikte pes anserinus'u (kaz ayağı) oluşturarak tibia'nın proksimalinin (tuberositas tibiae seviyesi) iç yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa fleksiyon, abduksiyon ve dışa rotasyon yaptırır. Bacağa ise fleksiyon ve içe rotasyon yaptırır. Terzi kası denmesinin sebebi, terzinin kucağında iş yaparken aldığı pozisyonu yaptıran kas olmasıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "İşlevi: Uyluğa fleksiyon, abduksiyon ve dışa rotasyon yaptırır. Bacağa ise fleksiyon ve içe rotasyon yaptırır. Terzi kası denmesinin sebebi, terzinin kucağında iş yaparken aldığı pozisyonu yaptıran kas olmasıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. femoralis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Siniri: N. femoralis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22356",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Uyluğun arka dışyan tarafında bulunan iki başlı bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Uyluğun arka dışyan tarafında bulunan iki başlı bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Caput longum'u, ortak bir tendon ile m.semitendinosus ile beraber tuberculum ischiadicum'dan, Caput breves'i, linea aspera'nın labium laterale'sinden ve septum intermusculare laterale'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Caput longum'u, ortak bir tendon ile m.semitendinosus ile beraber tuberculum ischiadicum'dan, Caput breves'i, linea aspera'nın labium laterale'sinden ve septum intermusculare laterale'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Caput fibulae ve condylus latelaralis tibiae'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Sonlanışı: Caput fibulae ve condylus latelaralis tibiae'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Bacağa fleksiyon ve dışa rotasyon yaptırır. Ayrıca uzun başı uyluğa ekstensiyon ve çok az da dışa rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Bacağa fleksiyon ve dışa rotasyon yaptırır. Ayrıca uzun başı uyluğa ekstensiyon ve çok az da dışa rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis (caput longum'un) ve n. fibularis communis (caput breves'in)'dir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. tibialis (caput longum'un) ve n. fibularis communis (caput breves'in)'dir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22357",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Uyluğun arka iç yanında bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Uyluğun arka iç yanında bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Tuber ischiadicum'dan başlar. Sonlanışı M. semimembranosus'un üzerinde uzanan tendonu pes anserinus'un yapısına katılarak tibia'nın proksimal parçasının (tuberositas tibiae seviyesi) içyan yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Tuber ischiadicum'dan başlar. Sonlanışı M. semimembranosus'un üzerinde uzanan tendonu pes anserinus'un yapısına katılarak tibia'nın proksimal parçasının (tuberositas tibiae seviyesi) içyan yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Bacağa fleksiyon ve içe rotasyon, uyluğa ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Bacağa fleksiyon ve içe rotasyon, uyluğa ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22423",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Crista iliaca ve spina iliaca anterior superior'un dış yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Başlangıcı: Crista iliaca ve spina iliaca anterior superior'un dış yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Uyluğun 1/3 üst parçası sonunda tractus iliotibialis'in yapısına katılarak sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Sonlanışı: Uyluğun 1/3 üst parçası sonunda tractus iliotibialis'in yapısına katılarak sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa fleksiyon ve bir miktarda içe rotasyon yaptırır. M. gluteus medius ve m. gluteus minimus ile birlikte uyluğa abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "İşlevi: Uyluğa fleksiyon ve bir miktarda içe rotasyon yaptırır. M. gluteus medius ve m. gluteus minimus ile birlikte uyluğa abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. gluteus superior'dur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 97",
+            "quote": "Siniri: N. gluteus superior'dur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22438",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Uyluğun arka iç yanında bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Uyluğun arka iç yanında bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Tuber ischiadicum'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Tuber ischiadicum'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Condylus medialis'in arka iç yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Sonlanışı: Condylus medialis'in arka iç yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Bacağa fleksiyon ve içe rotasyon; uyluğa ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Bacağa fleksiyon ve içe rotasyon; uyluğa ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22440",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Pecten osis pubis'ten başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Pecten osis pubis'ten başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Linea pectinea'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Sonlanışı: Linea pectinea'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa adduksiyon yaptırır. Fleksiyon'a da yardımcıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "İşlevi: Uyluğa adduksiyon yaptırır. Fleksiyon›a da yardımcıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. femoralis ve n. obturatorius'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Siniri: N. femoralis ve n. obturatorius'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22441",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Adduktor kasların en önde bulunanıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Adduktor kasların en önde bulunanıdır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Tuberculum pubicum'dan başlar. Sonlanışı. Linea aspera'nın labium mediale'sinde sonlamır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Tuberculum pubicum'dan başlar. Sonlanışı. Linea aspera'nın labium mediale'sinde sonlamır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa adduksiyon yaptırır ve dışa rotasyona yardımcıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "İşlevi: Uyluğa adduksiyon yaptırır ve dışa rotasyona yardımcıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. obturatorius'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22442",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. adductor longus ve m. pectineus'un arkasında bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "M. adductor longus ve m. pectineus'un arkasında bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Ramus inferior ossis pubis'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Başlangıcı: Ramus inferior ossis pubis'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Linea aspera'nın labium mediale'sinde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 98",
+            "quote": "Sonlanışı: Linea aspera'nın labium mediale'sinde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa adduksiyon yaptırır. Uyluğa dışa rotasyon'a yardımcıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Uyluğa adduksiyon yaptırır. Uyluğa dışa rotasyon'a yardımcıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. obturatorius'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22443",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ramus inferior ossis pubis, ramus ossis ischii ve tuber ischiadicum'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Ramus inferior ossis pubis, ramus ossis ischii ve tuber ischiadicum'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": ": Linea aspera'nın labium mediale'sine ve tuber adductorium'a tutunarak sonlanır. Aralarında hiatus tendineus oluşur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Sonlanışı: : Linea aspera'nın labium mediale'sine ve tuber adductorium'a tutunarak sonlanır. Aralarında hiatus tendineus oluşur."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa adduksiyon(en kuvvetli) ve dışa rotasyona yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Uyluğa adduksiyon(en kuvvetli) ve dışa rotasyona yardım eder."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. obturatorius ve N.fibularis'tir (tuberculum adductorium'da sonlanan en içteki lifler için).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. obturatorius ve N.fibularis'tir (tuberculum adductorium'da sonlanan en içteki lifler için)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22532",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Tibia'nın dışyan yüzünün üst yarımından ve membrana interossea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Tibia'nın dışyan yüzünün üst yarımından ve membrana interossea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os cuneiforme mediale ve os metatarsale I'in basis'inde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Sonlanışı: Os cuneiforme mediale ve os metatarsale I'in basis'inde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ayağa ekstansiyon (dorsifleksiyon) ve supinasyon yaptırır. Ayağın en kuvvetli ekstansoru olan kas, aynı zamanda ayak kubbesinin devamlılığında da önemlidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Ayağa ekstansiyon (dorsifleksiyon) ve supinasyon yaptırır. Ayağın en kuvvetli ekstansoru olan kas, aynı zamanda ayak kubbesinin devamlılığında da önemlidir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. fibularis profundus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. fibularis profundus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22533",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Fibula'nın ön yüzünün ortasından ve membrana inte-",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Fibula'nın ön yüzünün ortasından ve membrana inte-"
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx distalis'inin basis phalangis'inde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Sonlanışı: Başparmağın phalanx distalis'inin basis phalangis'inde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağı ekstansiyon ve ayağa dorsifleksiyon (ekstansiyon) yaptırır",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "İşlevi: Başparmağı ekstansiyon ve ayağa dorsifleksiyon (ekstansiyon) yaptırır"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. fibularis superficialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Siniri: N. fibularis superficialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22534",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Tibia'nın epicondylus lateralis'inden, fibula'nın ön yüzünden ve membrana interossea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Tibia'nın epicondylus lateralis'inden, fibula'nın ön yüzünden ve membrana interossea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "2.-5. parmakların orta ve distal falankslarında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Sonlanışı: 2.-5. parmakların orta ve distal falankslarında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmak hariç diğer parmaklara ve ayağa ekstansiyon (dorsal fleksiyon) yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Başparmak hariç diğer parmaklara ve ayağa ekstansiyon (dorsal fleksiyon) yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. fibularis profundus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. fibularis profundus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22543",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. gastrocnemius ile m. soleus arasında küçük ve dar karınlı, uzun ve ince tendon'lu bazende de bulunmayan bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "M. gastrocnemius ile m. soleus arasında küçük ve dar karınlı, uzun ve ince tendon'lu bazende de bulunmayan bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Linea aspera'nın labium laterale'sinin alt kısmından ve lig popliteum obliquum'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Başlangıcı: Linea aspera'nın labium laterale'sinin alt kısmından ve lig popliteum obliquum'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. gastrocnemius ve m. soleus arasında dıştan-içe doğru çapraz şekilde aşağıya uzanır. Tendo calcaneus'un içyan tarafında geçerek calcaneus'ta (tuber calcanei) sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Sonlanışı: M. gastrocnemius ve m. soleus arasında dıştan-içe doğru çapraz şekilde aşağıya uzanır. Tendo calcaneus'un içyan tarafında geçerek calcaneus'ta (tuber calcanei) sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ayağa plantar fleksiyon ve bacağa fleksiyon hareketlerinde m. gastrocnemius'a yardımcıdır. Çok ince tendonu olduğundan el tendonlarının tamirinde kullanılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "İşlevi: Ayağa plantar fleksiyon ve bacağa fleksiyon hareketlerinde m. gastrocnemius›a yardımcıdır. Çok ince tendonu olduğundan el tendonlarının tamirinde kullanılır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis'tir",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Siniri: N. tibialis'tir"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22590",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Femur'un condylus lateralis'inin dış yüzünden başlayan üçgen şeklinde yassı bir kas olup, fossa poplitea döşemesinin bir bölümünü de yapar. Bölgenin en derin kasıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Başlangıcı: Femur'un condylus lateralis'inin dış yüzünden başlayan üçgen şeklinde yassı bir kas olup, fossa poplitea döşemesinin bir bölümünü de yapar. Bölgenin en derin kasıdır."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tibia'nın arka yüzünün üst kısmında (m. soleus'un başlangıcının hemen üstünde) sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Sonlanışı: Tibia'nın arka yüzünün üst kısmında (m. soleus'un başlangıcının hemen üstünde) sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Diz ekleminin anahtar kasıdır. Diz eklemi ekstansiyonda iken, fleksiyona geçiş yapmak istenirse femur'a az bir dış rotasyon yaptırarak diz ekleminin kilidinin açılmasını sağlar (veya bu durumun tersi olarak tibia'ya içe rotasyon yaptırarak aynı işlevi görür). Bu hareket esnasında aynı zamanda meniscus lateralis'in de sıkışmasını önlemektedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "İşlevi: Diz ekleminin anahtar kasıdır. Diz eklemi ekstansiyonda iken, fleksiyona geçiş yapmak istenirse femur'a az bir dış rotasyon yaptırarak diz ekleminin kilidinin açılmasını sağlar (veya bu durumun tersi olarak tibia'ya içe rotasyon yaptırarak aynı işlevi görür). Bu hareket esnasında aynı zamanda meniscus lateralis'in de sıkışmasını önlemektedir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:22593",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. tibialis posterior'un dışyan tarafında bulunur. Başlangıçı: Fibula'nın arka yüzü ve membrana interossea'nın alt bölümünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "M. tibialis posterior'un dışyan tarafında bulunur. Başlangıçı: Fibula'nın arka yüzü ve membrana interossea'nın alt bölümünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx distalis'inin basis'inde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: Başparmağın phalanx distalis'inin basis'inde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağın phalanx distalis'ine fleksiyon yaptırır. Ayağın plantar fleksiyonuna yardımcıdır. Ayağın uzunlamasına oluşan kemerlerinden içyan taraftakinin korunmasında etkilidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "İşlevi: Başparmağın phalanx distalis›ine fleksiyon yaptırır. Ayağın plantar fleksiyonuna yardımcıdır. Ayağın uzunlamasına oluşan kemerlerinden içyan taraftakinin korunmasında etkilidir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32521",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçgen şeklinde olup, articulatio humeri'yi saran bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Üçgen şeklinde olup, articulatio humeri›yi saran bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Ön lifleri (pars clavicularis), clavicula'nın dış yan 1/3'ünden, Orta lifleri (pars acromialis), acromion'un dış yan kenarından, Arka lifleri (pars spinalis), spina scapula'nın alt kenarından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Başlangıcı: Ön lifleri (pars clavicularis), clavicula›nın dış yan 1/3›ünden, Orta lifleri (pars acromialis), acromion'un dış yan kenarından, Arka lifleri (pars spinalis), spina scapula'nın alt kenarından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberositas deltoidea'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Sonlanışı: Tuberositas deltoidea'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Bütün lifler birlikte kasılırsa kola abduksiyon yaptırırlar. Ön liflerin kasılması içe rotasyon ve fleksiyon, arka liflerin kasılması ise dışa rotasyon ve ekstansiyon yaptırır. Bu kasın altında bursa subdeltoidea adı verilen büyük bir bursa vardır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "İşlevi: Bütün lifler birlikte kasılırsa kola abduksiyon yaptırırlar. Ön liflerin kasılması içe rotasyon ve fleksiyon, arka liflerin kasılması ise dışa rotasyon ve ekstansiyon yaptırır. Bu kasın altında bursa subdeltoidea adı verilen büyük bir bursa vardır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N axillaris'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Siniri: N axillaris'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32525",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Axis'in processus spinosus'undan başlayıp os occipitale'de linea nuchea inferior'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Axis'in processus spinosus'undan başlayıp os occipitale'de linea nuchea inferior'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başa ekstansiyon ve aynı tarafa rotasyonunu sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Başa ekstansiyon ve aynı tarafa rotasyonunu sağlar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1 spinal sinirinin arka dalı gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C1 spinal sinirinin arka dalı gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32526",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Atlas'ın tuberculum posterior'undan başlayıp os occipitale'nin linea nuchea inferior'unda sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Atlas'ın tuberculum posterior'undan başlayıp os occipitale'nin linea nuchea inferior'unda sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başa ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Başa ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1 spinal sinirin arka dalı gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C1 spinal sinirin arka dalı gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32527",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Atlas'ın processus transversus'unun üst yüzünden başlayıp os occipitale'nin linea nuchea superior'u ile linea nuchea inferior'u arasında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Atlas'ın processus transversus'unun üst yüzünden başlayıp os occipitale'nin linea nuchea superior'u ile linea nuchea inferior'u arasında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başı arkaya çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Başı arkaya çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1 spinal sinirin arka dalından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C1 spinal sinirin arka dalından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32528",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Axis'in processus spinosus'undan başlayıp atlas'ınp rocessus tranversus'unda sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Axis'in processus spinosus'undan başlayıp atlas'ınp rocessus tranversus'unda sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başın aynı tarafa rotasyonunu sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Başın aynı tarafa rotasyonunu sağlar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1-2 spinal sinirin arka dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C1-2 spinal sinirin arka dallarından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32547",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Fossa infraspinata'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Fossa infraspinata'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberculum majus'un orta bölümünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Tuberculum majus'un orta bölümünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola dışa rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola dışa rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. suprascapularis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. suprascapularis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32548",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Fossa infraspinata'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Fossa infraspinata'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberculum majus'un orta bölümünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Tuberculum majus'un orta bölümünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola dışa rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola dışa rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. suprascapularis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. suprascapularis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32549",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Scapula'nın margo lateralis'inin 1/3 alt kısmından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Scapula'nın margo lateralis'inin 1/3 alt kısmından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Crista tuberculi minoris'de sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Crista tuberculi minoris'de sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola adduksiyon ve içe rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola adduksiyon ve içe rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. subscapularis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. subscapularis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32550",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Scpapula'nın margo lateralis'inin 2/3 üst parçasından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Scpapula'nın margo lateralis'inin 2/3 üst parçasından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberculum majus'un en alt kısmında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Tuberculum majus'un en alt kısmında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola dışa rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola dışa rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. axillaris'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. axillaris'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37373",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tenar tümseği oluşturan kaslardandır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar tümseği oluşturan kaslardandır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Os scaphoideum, os trapezium ve retinaculum flexorum'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Os scaphoideum, os trapezium ve retinaculum flexorum'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx proximalis'inin yan yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: Başparmağın phalanx proximalis'inin yan yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Başparmağa abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37378",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tenar tümseği oluşturan kaslardandır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar tümseği oluşturan kaslardandır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Caput superficiale, retinaculum flexorum ve os trapezium'dan, Caput profundum, os trapezoideum, os capitatum ve karpal ligamentlerden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Caput superficiale, retinaculum flexorum ve os trapezium'dan, Caput profundum, os trapezoideum, os capitatum ve karpal ligamentlerden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx proximalis'in basis phalangis'inin dışyan tarafına tutunarak sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: Başparmağın phalanx proximalis'in basis phalangis'inin dışyan tarafına tutunarak sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Karpometakarpal ve metakarpofalangeal eklemlerde başparmağa fleksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Karpometakarpal ve metakarpofalangeal eklemlerde başparmağa fleksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Caput superficiale, n. medianus, Caput profundum, n. ulnaris tarafından innerve edilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: Caput superficiale, n. medianus, Caput profundum, n. ulnaris tarafından innerve edilir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37379",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Tenar tümseği oluşturan kaslardandır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Tenar tümseği oluşturan kaslardandır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Retinaculum flexorum'un ön yüzünden ve os trapezium'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Retinaculum flexorum'un ön yüzünden ve os trapezium'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os metacarpale I 'in dış yan tarafı boyunca sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: Os metacarpale I 'in dış yan tarafı boyunca sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa oppozisyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Başparmağa oppozisyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37448",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ayağın içyan kenarında bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Ayağın içyan kenarında bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Tuber calcanei'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Başlangıcı: Tuber calcanei'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın proksimal falanksının içyan tarafında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: Başparmağın proksimal falanksının içyan tarafında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "İşlevi: Başparmağa abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. plantaris medialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Siniri: N. plantaris medialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37450",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Tuber calcanei'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Başlangıcı: Tuber calcanei'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Phalanx proximalis hizasında, arasından m. flexor digitorum longus'un tendonları geçeçek şekilde ikiye ayrılan tendonlar, önce birleşir sonra tekrar ikiye çatallanıp başparmak hariç diğer parmakların phalanx media'larında sonlanır. İşlevi. Başparmak hariç diğer parmaklara fleksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: Phalanx proximalis hizasında, arasından m. flexor digitorum longus'un tendonları geçeçek şekilde ikiye ayrılan tendonlar, önce birleşir sonra tekrar ikiye çatallanıp başparmak hariç diğer parmakların phalanx media'larında sonlanır. İşlevi. Başparmak hariç diğer parmaklara fleksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. plantaris medialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Siniri: N. plantaris medialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37452",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Calcaneus'un dış ve iç yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Başlangıcı: Calcaneus'un dış ve iç yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. flexor digitorum longus'un tendonunun dış kenarında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: M. flexor digitorum longus'un tendonunun dış kenarında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. flexor digitorum longus'un tendonunu arkaya doğru çekerek başparmak hariç diğer parmakların fleksiyonunda yardımcıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "İşlevi: M. flexor digitorum longus›un tendonunu arkaya doğru çekerek başparmak hariç diğer parmakların fleksiyonunda yardımcıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. plantaris lateralis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Siniri: N. plantaris lateralis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37664",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "M. biceps brachii'nin caput breves'i ile birlikte processus coracoideus'tan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: M. biceps brachii'nin caput breves'i ile birlikte processus coracoideus'tan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. brachialis ile m. triceps brachii arasında, humerus'un içyan yüzünün ortasında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: M. brachialis ile m. triceps brachii arasında, humerus'un içyan yüzünün ortasında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola fleksiyon ve zayıf da olsa adduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola fleksiyon ve zayıf da olsa adduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. musculocutaneus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. musculocutaneus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37667",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. biceps brachii'nin derininde bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "M. biceps brachii'nin derininde bulunur."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un ön yüzünün alt yarısından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Humerus'un ön yüzünün alt yarısından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberositas ulnae'da sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Tuberositas ulnae'da sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ön kola fleksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Ön kola fleksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. musculocutaneus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. musculocutaneus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37688",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Kolun arka tarafının 3 başlı tek kasıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Kolun arka tarafının 3 başlı tek kasıdır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Caput longum'u, scapula'nın tuberculum infraglenoidale, Caput lateralis'i, sulcus nervi radialis'in üst tarafı, Caput medialıs'i, sulcus nervi radialis'in alt tarafında olarak humerus gövdesinden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Başlangıcı: Caput longum'u, scapula'nın tuberculum infraglenoidale, Caput lateralis'i, sulcus nervi radialis'in üst tarafı, Caput medialıs'i, sulcus nervi radialis'in alt tarafında olarak humerus gövdesinden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Ulna'nın olecranon'unda sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Sonlanışı: Ulna'nın olecranon'unda sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ön kol'un en güçlü ekstansiyon yaptıran kasıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Ön kol'un en güçlü ekstansiyon yaptıran kasıdır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir. Humerus ile m. teres major ve m. teres minor arasında oluşan üçgen aralık, m. triceps brachii'nin caput longum'unun, m. teres major'un arkasından, m teres minor'un önünden geçmesiyle ikiye ayrılır. Bunlardan üst sınırını m. teres major'un, alt sınırını m.teres minor'un, dış sınırını humerus'un, iç sınırını m. triceps brachi-",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. radialis'tir. Humerus ile m. teres major ve m. teres minor arasında oluşan üçgen aralık, m. triceps brachii'nin caput longum'unun, m. teres major'un arkasından, m teres minor'un önünden geçmesiyle ikiye ayrılır. Bunlardan üst sınırını m. teres major'un, alt sınırını m.teres minor'un, dış sınırını humerus'un, iç sınırını m. triceps brachi-"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:37704",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. triceps brachii'nin devamı gibi olan ve dirseğin arka tarafının dışyan kısmında yer alan bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "M. triceps brachii'nin devamı gibi olan ve dirseğin arka tarafının dışyan kısmında yer alan bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un epicondylus lateralis'inden başlar. Sonlanışı Ulna'nın olecranon'unun dış yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: Humerus'un epicondylus lateralis'inden başlar. Sonlanışı Ulna'nın olecranon'unun dış yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Önkol'a ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: Önkol›a ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38453",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ulna gövdesinin 1/4 alt bölümünün ön yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Ulna gövdesinin 1/4 alt bölümünün ön yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Radius gövdesinin 1/4 alt bölümünün ön yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: Radius gövdesinin 1/4 alt bölümünün ön yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Önkola pronasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Önkola pronasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38459",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un epicondylus medialis'inden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: Humerus'un epicondylus medialis'inden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os metacarpale I ve os metacarpale II'nin basis metacarpalis'inde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Sonlanışı: Os metacarpale I ve os metacarpale II'nin basis metacarpalis'inde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ele fleksiyon ve abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: Ele fleksiyon ve abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38462",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un epicondylus medialis'inden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: Humerus'un epicondylus medialis'inden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Retinaculum flexorum'un önünden geçerek retinaculum flexorum'un distal yarısı ile aponeurosis palmaris'te sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Sonlanışı: Retinaculum flexorum'un önünden geçerek retinaculum flexorum'un distal yarısı ile aponeurosis palmaris'te sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Aponeurosis palmaris'i gererek elin fleksiyonuna yardımcıdır. M. palmaris longus %20 oranında bulunmayabilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: Aponeurosis palmaris'i gererek elin fleksiyonuna yardımcıdır. M. palmaris longus %20 oranında bulunmayabilir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N.medianus.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Siniri: N.medianus."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38469",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Yüzeysel kaslar içinde yer almasına rağmen yüzeyel ve derin grup arasında bir kastır. 2 başlıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Yüzeysel kaslar içinde yer almasına rağmen yüzeyel ve derin grup arasında bir kastır. 2 başlıdır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Caput humero-ulnare, humerus'un epicondylus medialis'inden, processus coranoideus'un iç yan kenarından, ligamentum collaterale ulnare'den başlar. Caput radiale, radius'un ön yüzünün üst tarafından başlar. Kasın iki başı arasından a. ulnaris ve n. medianus geçer.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: Caput humero-ulnare, humerus'un epicondylus medialis'inden, processus coranoideus'un iç yan kenarından, ligamentum collaterale ulnare'den başlar. Caput radiale, radius'un ön yüzünün üst tarafından başlar. Kasın iki başı arasından a. ulnaris ve n. medianus geçer."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Baş parmak hariç diğer 4 parmağa giden 4 tendona ayrılır. Bu dört tendon phalanx proximalis'lerin basis phalangisleri hizasında ikiye ayrılarak içinden m. flexor digitorum profundus'un tendonları geçecek olan bir geçit (hiatus tendineus) oluştururlar. Bu geçiti oluşturan tendonlar çaprazlaşarak (chiasma tendinum) 4 parmağa ait phalanx mediaların orta kısımlarının her iki yanına tutunarak sonlanırlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Sonlanışı: Baş parmak hariç diğer 4 parmağa giden 4 tendona ayrılır. Bu dört tendon phalanx proximalis'lerin basis phalangisleri hizasında ikiye ayrılarak içinden m. flexor digitorum profundus'un tendonları geçecek olan bir geçit (hiatus tendineus) oluştururlar. Bu geçiti oluşturan tendonlar çaprazlaşarak (chiasma tendinum) 4 parmağa ait phalanx mediaların orta kısımlarının her iki yanına tutunarak sonlanırlar."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "4 parmağın phalanx media'sına fleksiyon yaptırır, elin fleksiyonunda yardımcıdır. Caput humerale'si az da olsa ön kolun fleksiyonunda yardımcı olabilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: 4 parmağın phalanx media›sına fleksiyon yaptırır, elin fleksiyonunda yardımcıdır. Caput humerale'si az da olsa ön kolun fleksiyonunda yardımcı olabilir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur. b) Derin Grup:",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Siniri: N. medianus'tur. b) Derin Grup:"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38478",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ulna'nın 3/4 yukarı kısmından ve membrana interossea'nın ulna'ya yakın olan kısmından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Başlangıcı: Ulna'nın 3/4 yukarı kısmından ve membrana interossea'nın ulna'ya yakın olan kısmından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Baş parmak hariç diğer parmaklara giden 4 tendona ayrılır. Bu 4 tendon, hiatus tendineus'tan geçtikten sonra yüzeyelleşir ve phalanx distalis'lerin basis phalangis'lerinde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "Sonlanışı: Baş parmak hariç diğer parmaklara giden 4 tendona ayrılır. Bu 4 tendon, hiatus tendineus'tan geçtikten sonra yüzeyelleşir ve phalanx distalis'lerin basis phalangis'lerinde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Öncelikle 4 parmağın phalanx distalis'inin fleksiyonunu sağlar. Phalanx media, phalanx proximalis ve elin fleksiyonuna da yardımcıdır. M. flexor digitorum supericialis ve profundus'un tendonları, parmakların fleksiyonu sırasında kemiklerden uzaklaşmasını engelleyecek şekilde phalanx proximalis'ten itibaren vagina fibrosae di-",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 93",
+            "quote": "İşlevi: Öncelikle 4 parmağın phalanx distalis›inin fleksiyonunu sağlar. Phalanx media, phalanx proximalis ve elin fleksiyonuna da yardımcıdır. M. flexor digitorum supericialis ve profundus'un tendonları, parmakların fleksiyonu sırasında kemiklerden uzaklaşmasını engelleyecek şekilde phalanx proximalis'ten itibaren vagina fibrosae di-"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: İç yan bölümünün (burası küçük ve yüzük parmağına giden lifleri içerir) siniri n. ulnaris, Dış yan bölümünün (burası işaret ve orta parmağa giden lifleri içerir) siniri n. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: İç yan bölümünün (burası küçük ve yüzük parmağına giden lifleri içerir) siniri n. ulnaris, Dış yan bölümünün (burası işaret ve orta parmağa giden lifleri içerir) siniri n. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38481",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Radius gövdesinin ön yüzünün ortasından ve membrana interossea'nın radius'a yakın olan kısmından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Radius gövdesinin ön yüzünün ortasından ve membrana interossea'nın radius'a yakın olan kısmından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx diastalis'inde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: Başparmağın phalanx diastalis'inde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağın phalanx distalis'inin fleksiyonunu sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Başparmağın phalanx distalis›inin fleksiyonunu sağlar."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. medianus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. medianus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38485",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un crista supracondylaris lateralis'inden ve septum intermusculare brachii laterale'den başlar. Bu kas ile m. flexor carpi radialis arasında a. radialis bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Humerus'un crista supracondylaris lateralis'inden ve septum intermusculare brachii laterale'den başlar. Bu kas ile m. flexor carpi radialis arasında a. radialis bulunur."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Radius'un processus styloideus'unun hemen üstünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: Radius'un processus styloideus'unun hemen üstünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Önkola fleksiyon yaptırır. Önkol pronasyonda iken supinasyon yaptırarak normal pozisyona getirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Önkola fleksiyon yaptırır. Önkol pronasyonda iken supinasyon yaptırarak normal pozisyona getirir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38494",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un crista supracondylaris lateralis'inden ve septum intermusculare brachii laterale'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Humerus'un crista supracondylaris lateralis'inden ve septum intermusculare brachii laterale'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os metacarpale II'nin basis metacarpalis'inin arka yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: Os metacarpale II'nin basis metacarpalis'inin arka yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ele ekstansiyon ve abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Ele ekstansiyon ve abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38497",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un epicondylus lateralis'inden ve lig. collaterale radiale'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Humerus'un epicondylus lateralis'inden ve lig. collaterale radiale'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os metacarpale III'ün basis metacarpalis'inin dorsal yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: Os metacarpale III'ün basis metacarpalis'inin dorsal yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ele ekstansiyon ve çok az abduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Ele ekstansiyon ve çok az abduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38500",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un epicondylus lateralis'inden ve fascia antebrachii'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Humerus'un epicondylus lateralis'inden ve fascia antebrachii'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "4 tendona ayrılarak başparmak hariç diğer 4 parmağın aponeurosis tendineum'larında sonlanır. Aponeurosis tendineum'ların orta parçası phalanx media'nın basis phalangis'ine, iki yan parçası ise phalanx distalis'in basis phalangis'ine tutunurlar. Kas tendonları kendi aralarında connexus intertendineus denilen yan bağlarla birbirine bağlandıkları gibi, işaret parmağına giden tendonu, m. extensor indicis ile küçük parmağa giden tendonu da, m. extensor digiti minimi ile birleşirler.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: 4 tendona ayrılarak başparmak hariç diğer 4 parmağın aponeurosis tendineum'larında sonlanır. Aponeurosis tendineum'ların orta parçası phalanx media'nın basis phalangis'ine, iki yan parçası ise phalanx distalis'in basis phalangis'ine tutunurlar. Kas tendonları kendi aralarında connexus intertendineus denilen yan bağlarla birbirine bağlandıkları gibi, işaret parmağına giden tendonu, m. extensor indicis ile küçük parmağa giden tendonu da, m. extensor digiti minimi ile birleşirler."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmak hariç diğer parmaklara ve ele ekstansiyon yaptırır Connexus intertendineus'lardan dolayı parmakların tek başına hareket etmeleri zordur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Başparmak hariç diğer parmaklara ve ele ekstansiyon yaptırır Connexus intertendineus›lardan dolayı parmakların tek başına hareket etmeleri zordur."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38503",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humenus'un epicondylus lateralis'inden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Humenus'un epicondylus lateralis'inden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. extensor digitorum'un küçük parmağa giden tendonu ile birleşerek küçük parmağın aponeurosis tendineum'unda sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: M. extensor digitorum'un küçük parmağa giden tendonu ile birleşerek küçük parmağın aponeurosis tendineum'unda sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "M. extensor digitorum ile birlikte küçük parmağa ve ele ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: M. extensor digitorum ile birlikte küçük parmağa ve ele ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38506",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Caput humerale, humerus'un epicondylus lateralis'inden, Caput ulnare, ulna'nın arka kenarından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Caput humerale, humerus'un epicondylus lateralis'inden, Caput ulnare, ulna'nın arka kenarından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os metacarpale V'in basis metacarpalis'inin arka yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Sonlanışı: Os metacarpale V'in basis metacarpalis'inin arka yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ele ekstansiyon ve adduksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "İşlevi: Ele ekstansiyon ve adduksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir. b) Derin Grup:",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Siniri: N. radialis'tir. b) Derin Grup:"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38512",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Humerus'un epicondylus lateralis'inden, lig. collaterale radiale'den, lig. anulare radii'den ve ulnadaki crista musculi supinatoris'den başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 94",
+            "quote": "Başlangıcı: Humerus'un epicondylus lateralis'inden, lig. collaterale radiale'den, lig. anulare radii'den ve ulnadaki crista musculi supinatoris'den başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Arasından n. radialis'in ramus profundus'unun geçtiği iki tabaka şeklinde aşağı ve dışyan tarafa doğru uzanan lifler radius'u dolanarak tuberositas radii ortada kalacak şekilde radius'un ön kenarı, ön yüzü ve dış yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: Arasından n. radialis'in ramus profundus'unun geçtiği iki tabaka şeklinde aşağı ve dışyan tarafa doğru uzanan lifler radius'u dolanarak tuberositas radii ortada kalacak şekilde radius'un ön kenarı, ön yüzü ve dış yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Önkol'a supinasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Önkol›a supinasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38515",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ulna ve radius'un arka yüzünün ortasından, membrana interossea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Ulna ve radius'un arka yüzünün ortasından, membrana interossea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os metacarpale I 'nin basis metacarpalis'inin arka yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: Os metacarpale I 'nin basis metacarpalis'inin arka yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa abduksiyon ve ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Başparmağa abduksiyon ve ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38518",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Radius'un arka yüzünden ve membana inderossea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Radius'un arka yüzünden ve membana inderossea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Başparmağın phalanx proximalis'inde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: Başparmağın phalanx proximalis'inde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa ekstansiyon yaptırır",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Başparmağa ekstansiyon yaptırır"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38521",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ulna'nın arka yüzünden ve membrana interossea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Ulna'nın arka yüzünden ve membrana interossea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M: extensor carpi radialis longus ve m. ekstensor carpi radialis brevis'in tendonlarını çaprazlayarak başparmağın phalanx distalis'inin arka yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: M: extensor carpi radialis longus ve m. ekstensor carpi radialis brevis'in tendonlarını çaprazlayarak başparmağın phalanx distalis'inin arka yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başarmağın phalanx distalis'inin ekstansiyonunu sağlar",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: Başarmağın phalanx distalis›inin ekstansiyonunu sağlar"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:38524",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ulna'nın arka yüzünden ve membrana interossea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Başlangıcı: Ulna'nın arka yüzünden ve membrana interossea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "İşaret parmağının aponeurosis tendineum'unda, m. extansor digitorum'un bu parmağa gelen tendonu ile birlikte tutunarak sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Sonlanışı: İşaret parmağının aponeurosis tendineum'unda, m. extansor digitorum'un bu parmağa gelen tendonu ile birlikte tutunarak sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "İşaret parmağına ekstansiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "İşlevi: İşaret parmağına ekstansiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. radialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 95",
+            "quote": "Siniri: N. radialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:43882",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Ramus inferior ossis pubis'in dış yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Başlangıcı: Ramus inferior ossis pubis'in dış yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. sartorius ve m. semitendinosus'un kirişleriyle birleşip pes anserinus'u oluşturarak tibia'nın üst ucunun içyan bölümünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Sonlanışı: M. sartorius ve m. semitendinosus'un kirişleriyle birleşip pes anserinus'u oluşturarak tibia'nın üst ucunun içyan bölümünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Uyluğa adduksiyon, bacağa fleksiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "İşlevi: Uyluğa adduksiyon, bacağa fleksiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. obturatorius'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 99",
+            "quote": "Siniri: N. obturatorius'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46291",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İki karınlı kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İki karınlı kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Venter posterior'u processus mastoideus'ta bulunan incisura mastoidea'dan, venter anterior'u mandibula'daki fossa digastrica'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Başlangıcı: Venter posterior'u processus mastoideus'ta bulunan incisura mastoidea'dan, venter anterior'u mandibula'daki fossa digastrica'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Kasın her iki başı os hyoideum'a tutunan ortak bir tendon ile sonlanır. M. stylohyoideus'un tendonunu delen ortak tendon os hyoideum'a fibröz bir halka ile asılmıştır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Sonlanışı: Kasın her iki başı os hyoideum'a tutunan ortak bir tendon ile sonlanır. M. stylohyoideus'un tendonunu delen ortak tendon os hyoideum'a fibröz bir halka ile asılmıştır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Mandibula'yı aşağı çeker veya os hyoideum'u yukarı kaldırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Mandibula'yı aşağı çeker veya os hyoideum'u yukarı kaldırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Venter posterior'u n. facialis tarafından, venter anterior'u n. alveolaris inferior (n. mandibularis) tarafından innerve olur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: Venter posterior'u n. facialis tarafından, venter anterior'u n. alveolaris inferior (n. mandibularis) tarafından innerve olur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46308",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Os occipitale'nin pars basilaris'inin alt yüzü ile vertebra cervicalis III-IV'ün processus transversus'ları arasındadır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Os occipitale'nin pars basilaris'inin alt yüzü ile vertebra cervicalis III-IV'ün processus transversus'ları arasındadır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başı öne eğer.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "İşlevi: Başı öne eğer."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1-3 spinal sinirlerin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Siniri: C1-3 spinal sinirlerin ön dallarından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46312",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. longus capitis'in arkasındadır. Atlas'ın lateralinin ön yüzünden başlar. Os occipitale'nin condylus occipitalis'inin önünde pars basilaris'in alt yüzünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "M. longus capitis'in arkasındadır. Atlas'ın lateralinin ön yüzünden başlar. Os occipitale'nin condylus occipitalis'inin önünde pars basilaris'in alt yüzünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başı öne eğer.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "İşlevi: Başı öne eğer."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1-2 spinal sinirin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Siniri: C1-2 spinal sinirin ön dallarından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46316",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Atlas'ın processus transversus'unun üst yüzünden başlayıp os occipitale'de processus jugularis'in altında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 70",
+            "quote": "Atlas'ın processus transversus'unun üst yüzünden başlayıp os occipitale'de processus jugularis'in altında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başı aynı tarafa büker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Başı aynı tarafa büker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: C1-2 spinal sinirin ön dallarından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: C1-2 spinal sinirin ön dallarından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46320",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ağız döşemesini oluşturan kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Ağız döşemesini oluşturan kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Linea mylohyoidea'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Başlangıcı: Linea mylohyoidea'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Arka ve iç tarafa doğru uzanan kasın arka lifleri os hyoideum'un gövdesinde, ön lifleri ise raphe mylohyoidea'da sonlanır. Raphe mylohyoidea, çene ucundan (symphysis menti) os hyoideum'um corpus'una kadar uzanan orta hatta her iki m. mylohyoideus'un tutunduğu fibröz bir yapıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Sonlanışı: Arka ve iç tarafa doğru uzanan kasın arka lifleri os hyoideum'un gövdesinde, ön lifleri ise raphe mylohyoidea'da sonlanır. Raphe mylohyoidea, çene ucundan (symphysis menti) os hyoideum'um corpus'una kadar uzanan orta hatta her iki m. mylohyoideus'un tutunduğu fibröz bir yapıdır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Mandibula'ya tutunan ucu sabit ise ağız döşemesini ve os hyoideum'u yükseltip çiğneme yutma gibi hareketlerde yardımcıdır. Os hyoideum'a tutunan ucu sabit ise, çenenenin aşağıya çekilerek ağzın açılmasına yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İşlevi: Mandibula'ya tutunan ucu sabit ise ağız döşemesini ve os hyoideum'u yükseltip çiğneme yutma gibi hareketlerde yardımcıdır. Os hyoideum'a tutunan ucu sabit ise, çenenenin aşağıya çekilerek ağzın açılmasına yardım eder."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. alveolarisinferior'un bir dalı olan n. mylohyoideus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Siniri: N. alveolarisinferior'un bir dalı olan n. mylohyoideus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46325",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. mylohyoideus'un üstündedir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "M. mylohyoideus'un üstündedir."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Mandibula'nın corpus'unda spina mentalis'ten başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Başlangıcı: Mandibula'nın corpus'unda spina mentalis'ten başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os hyoideum'un corpus'unda sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Sonlanışı: Os hyoideum'un corpus'unda sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Os hyoideum'u kaldırır ve öne çeker veya mandibulayı aşağı doğru çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "İşlevi: Os hyoideum'u kaldırır ve öne çeker veya mandibulayı aşağı doğru çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: Ansa cervicalis'in dalıdır. C1-2-3 spinal sinirin ön dalından gelir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 72",
+            "quote": "Siniri: Ansa cervicalis'in dalıdır. C1-2-3 spinal sinirin ön dalından gelir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:51071",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "M. tibialis posterior'un içyanında bulunan bir kastır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "M. tibialis posterior'un içyanında bulunan bir kastır."
+          }
+        ]
+      },
+      "origin": {
+        "status": "present",
+        "value": "Tibia'nın arka yüzünden başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Başlangıcı: Tibia'nın arka yüzünden başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "M. flexor digitorum brevis'in tendonunu delerek, 2.-5. parmakların distal falankslarında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: M. flexor digitorum brevis'in tendonunu delerek, 2.-5. parmakların distal falankslarında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmak hariç diğer 4 parmağın phalanx distalis'lerine fleksiyon yaptırır ve ayağın plantar fleksiyona yardımcıdır. Ayağın uzunlamasına oluşan kemerlerinin her ikisinin de (içyan taraftaki ve dışyan taraftaki) korunmasında etkilidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "İşlevi: Başparmak hariç diğer 4 parmağın phalanx distalis›lerine fleksiyon yaptırır ve ayağın plantar fleksiyona yardımcıdır. Ayağın uzunlamasına oluşan kemerlerinin her ikisinin de (içyan taraftaki ve dışyan taraftaki) korunmasında etkilidir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibalis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Siniri: N. tibalis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:51099",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Tibia ile fibula'nın arka yüzleri ve membrana interossea'nın 2/3 lük üst kısmından başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Başlangıcı: Tibia ile fibula'nın arka yüzleri ve membrana interossea'nın 2/3 lük üst kısmından başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberositas ossis navicularis'te sonlanır. Tendonun bazı lifleri os cuboideum, ossa cuneiformia ve os metatarsale II, III, IV'in basis' ine tutunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Sonlanışı: Tuberositas ossis navicularis'te sonlanır. Tendonun bazı lifleri os cuboideum, ossa cuneiformia ve os metatarsale II, III, IV'in basis' ine tutunur."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Ayağa plantar fleksiyon ve inversiyon yaptırır. Ayağın uzunlamasına oluşan kemerlerinden içyan taraftakinin korunmasında etkilidir. Dolayısıyla düztabanlığı önleyen etkenlerdendir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "İşlevi: Ayağa plantar fleksiyon ve inversiyon yaptırır. Ayağın uzunlamasına oluşan kemerlerinden içyan taraftakinin korunmasında etkilidir. Dolayısıyla düztabanlığı önleyen etkenlerdendir."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. tibialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "Siniri: N. tibialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:51141",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "M. extensor digitorum brevis ile birlikte calcaneus'tan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Başlangıcı: M. extensor digitorum brevis ile birlikte calcaneus'tan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Baş parmağın phalanx proksimal falanksında sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Sonlanışı: Baş parmağın phalanx proksimal falanksında sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Başparmağa ekstensiyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "İşlevi: Başparmağa ekstensiyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. fibularis profundus'tur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 101",
+            "quote": "Siniri: N. fibularis profundus'tur."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9625",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Temporal kemikte processus styloideus'tan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Başlangıcı: Temporal kemikte processus styloideus'tan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Os hyoideum'un cornu majus'u ve corpus'unda sonlanır. Sonlanma yerinin yakınında tendonun içinden m. digastricus'un ortak tendonu geçer.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Sonlanışı: Os hyoideum'un cornu majus'u ve corpus'unda sonlanır. Sonlanma yerinin yakınında tendonun içinden m. digastricus'un ortak tendonu geçer."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Os hyoideum'u yukarı doğru çeker.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "İşlevi: Os hyoideum'u yukarı doğru çeker."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. facialis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 71",
+            "quote": "Siniri: N. facialis'tir."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9629",
+    "content": {
+      "origin": {
+        "status": "present",
+        "value": "Fossa supraspinata'dan başlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Başlangıcı: Fossa supraspinata'dan başlar."
+          }
+        ]
+      },
+      "insertion": {
+        "status": "present",
+        "value": "Tuberculum majus'un en üst bölümünde sonlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 91",
+            "quote": "Sonlanışı: Tuberculum majus'un en üst bölümünde sonlanır."
+          }
+        ]
+      },
+      "action": {
+        "status": "present",
+        "value": "Kola abduksiyon ve çok zayıf olarak dışa rotasyon yaptırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "İşlevi: Kola abduksiyon ve çok zayıf olarak dışa rotasyon yaptırır."
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Siniri: N. suprascapularis'tir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 92",
+            "quote": "Siniri: N. suprascapularis'tir."
+          }
+        ]
+      }
+    }
+  }
+]

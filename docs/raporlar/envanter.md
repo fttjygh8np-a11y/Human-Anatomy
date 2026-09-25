@@ -1,6 +1,6 @@
 # Yapı envanteri: sistem × bölge
 
-Oluşturma: 2026-09-25T18:14:32.957Z · içerik sürümü `9cb374bfdeed33e1` · `npm run report:inventory`
+Oluşturma: 2026-09-25T18:22:00.182Z · içerik sürümü `b71d393b30255e74` · `npm run report:inventory`
 
 > Bu tablo, içerikteki **her yapı kaydını** (BodyParts3D envanteri, HRA kadın üreme yapıları ve
 > genel/taraf belirtmeyen kavramlar) sayar. "Uzman onaylı" sütunu yalnızca adı belirtilmiş bir
@@ -12,7 +12,7 @@ Oluşturma: 2026-09-25T18:14:32.957Z · içerik sürümü `9cb374bfdeed33e1` · 
 
 | Yapı kaydı | 3B model (anatomik) | Latince ad | Türkçe ad | Kaynaklı açıklama | En az 1 ilişki | Uzman onaylı |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2326 | 2246 (%97) | 1700 (%73) | 434 (%19) | 119 (%5) | 893 (%38) | 0 (%0) |
+| 2344 | 2246 (%96) | 1718 (%73) | 434 (%19) | 197 (%8) | 938 (%40) | 0 (%0) |
 
 ## Sistemlere göre
 
@@ -20,7 +20,7 @@ Oluşturma: 2026-09-25T18:14:32.957Z · içerik sürümü `9cb374bfdeed33e1` · 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | İskelet sistemi | 375 | 366 (%98) | 296 (%79) | 165 (%44) | 119 (%32) | 208 (%55) | 0 (%0) |
 | Eklem sistemi | 22 | 22 (%100) | 22 (%100) | 3 (%14) | 0 (%0) | 2 (%9) | 0 (%0) |
-| Kas sistemi | 574 | 570 (%99) | 519 (%90) | 54 (%9) | 0 (%0) | 100 (%17) | 0 (%0) |
+| Kas sistemi | 592 | 570 (%96) | 537 (%91) | 54 (%9) | 78 (%13) | 145 (%24) | 0 (%0) |
 | Dolaşım sistemi | 808 | 784 (%97) | 543 (%67) | 84 (%10) | 0 (%0) | 301 (%37) | 0 (%0) |
 | Lenfatik sistem | 5 | 4 (%80) | 5 (%100) | 2 (%40) | 0 (%0) | 3 (%60) | 0 (%0) |
 | Sinir sistemi | 171 | 155 (%91) | 152 (%89) | 48 (%28) | 0 (%0) | 79 (%46) | 0 (%0) |
@@ -38,7 +38,7 @@ Oluşturma: 2026-09-25T18:14:32.957Z · içerik sürümü `9cb374bfdeed33e1` · 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | İskelet sistemi | 68 / 63 / 15 | 13 / 13 / 7 | 1 / 1 / 0 | 87 / 85 / 27 | 10 / 10 / 5 | — | 92 / 92 / 30 | 101 / 100 / 33 | 3 / 2 / 2 | — |
 | Eklem sistemi | — | 7 / 7 / 0 | — | — | — | — | 3 / 3 / 0 | 6 / 6 / 0 | — | 6 / 6 / 0 |
-| Kas sistemi | 81 / 81 / 0 | 67 / 67 / 0 | 61 / 61 / 0 | 27 / 25 / 0 | 15 / 15 / 0 | 8 / 8 / 0 | 98 / 98 / 0 | 105 / 105 / 0 | 2 / 0 / 0 | 110 / 110 / 0 |
+| Kas sistemi | 93 / 81 / 3 | 67 / 67 / 9 | 64 / 61 / 0 | 27 / 25 / 0 | 15 / 15 / 1 | 8 / 8 / 0 | 101 / 98 / 22 | 105 / 105 / 20 | 2 / 0 / 0 | 110 / 110 / 23 |
 | Dolaşım sistemi | 50 / 49 / 0 | 8 / 8 / 0 | — | 201 / 184 / 0 | 68 / 68 / 0 | 25 / 25 / 0 | 113 / 112 / 0 | 94 / 92 / 0 | 25 / 23 / 0 | 224 / 223 / 0 |
 | Lenfatik sistem | — | — | — | 4 / 3 / 0 | 1 / 1 / 0 | — | — | — | — | — |
 | Sinir sistemi | 125 / 109 / 0 | — | 1 / 1 / 0 | — | 1 / 1 / 0 | — | — | — | — | 44 / 44 / 0 |
@@ -69,7 +69,7 @@ türetildiği için **modeli bulunmayan yapı türleri envanterde hiç yer almaz
 | Kıkırdak | 29 |
 | Eklem diski / menisküs | 0 |
 | Bursa / kılıf | 0 |
-| Kas | 575 |
+| Kas | 593 |
 | Kas grubu | 0 |
 | Tendon | 7 |
 | Aponevroz | 0 |

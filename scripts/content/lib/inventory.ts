@@ -254,6 +254,11 @@ export interface InventoryOptions {
    * already filtered by the caller to standard terms (TA2 match). See addWholes.
    */
   wholes?: readonly PartOfWhole[]
+  /**
+   * Whole muscles assembled from their heads/parts ("long head of right biceps brachii" →
+   * "right biceps brachii"): resolves the muscle name to a TA2 term. See addMuscleWholes.
+   */
+  muscleTerms?: { resolve: (muscleNameEn: string) => { ta2Id: number; fmaId?: string } | null }
 }
 
 export interface PartOfWhole {
@@ -371,6 +376,7 @@ export function buildInventory(elements: readonly Bp3dElement[], opts: Inventory
 
   addGenericConcepts(records, groups, opts)
   addWholes(records, elements, opts)
+  addMuscleWholes(records, opts)
   // After wholes, so right/left wholes ("right frontal lobe" / "left frontal lobe") are paired too.
   linkCounterparts(records, issues)
   keepStableDates(records, opts.existing ?? [])
@@ -567,6 +573,97 @@ function addWholes(records: StructureInput[], elements: readonly Bp3dElement[], 
     }
     const parent = smallestContaining(members, r.id)
     if (parent) r.parentIds = [parent.id]
+  }
+}
+
+/**
+ * Whole muscles: BodyParts3D models many muscles only as heads or parts ("long head of right
+ * biceps brachii", "clavicular part of deltoid"), while students learn the muscle as a whole. For
+ * every muscle name that resolves to a TA2 muscle term, a generic whole ("biceps brachii") and
+ * right/left wholes are added, and the heads/parts become their part-of children. Ids: the FMA id
+ * from the TA2→FMA crosswalk (Wikidata) for the generic concept when known; otherwise, and for the
+ * sided wholes (no FMA id available), `ax:` ids derived from that FMA or TA2 id.
+ */
+const MUSCLE_PART = /^(?:.+?) (?:head|part|belly|portion) of (right |left )?(.+)$/i
+
+function addMuscleWholes(records: StructureInput[], opts: InventoryOptions): void {
+  if (!opts.muscleTerms) return
+  const byId = new Map(records.map((r) => [r.id, r]))
+  const byName = new Map(records.map((r) => [r.names.en.value.toLowerCase(), r]))
+  const groups = new Map<string, { side: 'right' | 'left' | 'generic'; parts: StructureInput[] }[]>()
+  for (const r of records) {
+    if (!r.systems.includes('muscular') || (r.parentIds ?? []).length > 0) continue
+    const m = MUSCLE_PART.exec(r.names.en.value)
+    if (!m) continue
+    const base = m[2]!.toLowerCase().trim()
+    const side = m[1] ? (m[1].trim().toLowerCase() as 'right' | 'left') : 'generic'
+    const list = groups.get(base) ?? []
+    let g = list.find((x) => x.side === side)
+    if (!g) {
+      g = { side, parts: [] }
+      list.push(g)
+    }
+    g.parts.push(r)
+    groups.set(base, list)
+  }
+  for (const [base, sides] of groups) {
+    // An existing record of the muscle itself ("right pectoralis major") needs no assembly.
+    if (byName.has(base) || byName.has(`right ${base}`)) continue
+    const term = opts.muscleTerms.resolve(base)
+    if (!term) continue
+    const genericId = term.fmaId ? `fma:${term.fmaId}` : `ax:ta2-${term.ta2Id}`
+    if (byId.has(genericId)) continue
+    const stem = term.fmaId ? `ax:fma-${term.fmaId}` : `ax:ta2-${term.ta2Id}`
+    const name = (side: 'right' | 'left' | 'generic') => (side === 'generic' ? base : `${side} ${base}`)
+    const make = (side: 'right' | 'left' | 'generic', parts: StructureInput[]): StructureInput => {
+      const regions = [...new Set(parts.flatMap((p) => p.regions ?? []))].sort()
+      const n = name(side)
+      return {
+        id: side === 'generic' ? genericId : `${stem}-${side}`,
+        schemaVersion: 1,
+        kind: 'muscle',
+        names: {
+          en: {
+            value: n.charAt(0).toUpperCase() + n.slice(1),
+            status: 'unverified',
+            sources: [{ sourceId: BP3D_SOURCE_ID, locator: `baş/parça adlarından: ${parts.map((p) => p.id).join(', ')}` }],
+          },
+        },
+        externalIds: term.fmaId && side === 'generic' ? { fma: term.fmaId } : {},
+        systems: ['muscular'],
+        regions,
+        regionBasis: regions.length > 0 ? 'derived_from_geometry' : 'unassigned',
+        laterality: side === 'generic' ? 'paired_generic' : side,
+        detailLevel: opts.levelHints?.get(genericId) ?? UNASSIGNED_LEVEL,
+        review: { text: 'draft', labels: 'draft', geometry: 'draft', relations: 'draft' },
+        provenance: {
+          createdBy: 'import:bodyparts3d',
+          createdAt: opts.today,
+          updatedAt: opts.today,
+          notes: [
+            `Bütün kas; BodyParts3D bu kası yalnızca baş/parçalarıyla modeller (${parts.map((p) => p.names.en.value).join('; ')}).`,
+            `Kas adı TA2 ${term.ta2Id} terimiyle eşleşti.`,
+            term.fmaId && side === 'generic' ? `FMA kimliği TA2 → FMA eşlemesinden (Wikidata, content/terminology/ta2-fma.json).` : 'Kendi FMA kimliği bilinmediği için ax: kimliği kullanıldı.',
+            'Kendi modeli yoktur; baş/parçalarının modelleriyle gösterilir.',
+          ].join(' '),
+        },
+      }
+    }
+    const allParts = sides.flatMap((x) => x.parts)
+    const generic = make('generic', allParts)
+    records.push(generic)
+    byId.set(generic.id, generic)
+    for (const g of sides) {
+      if (g.side === 'generic') {
+        for (const p of g.parts) p.parentIds = [generic.id]
+        continue
+      }
+      const whole = make(g.side, g.parts)
+      whole.genericId = generic.id
+      records.push(whole)
+      byId.set(whole.id, whole)
+      for (const p of g.parts) p.parentIds = [whole.id]
+    }
   }
 }
 

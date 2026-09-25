@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-09-25T18:15:19.640Z",
-  "contentVersion": "9cb374bfdeed33e1",
-  "targets": 350,
+  "generatedAt": "2026-09-25T18:21:58.937Z",
+  "contentVersion": "b71d393b30255e74",
+  "targets": 515,
   "gates": [
     {
       "no": 1,
       "name": "Kapsam",
       "target": "Dönem 1–2 hedeflerinin tamamı kapsam matrisinde ve envanterde",
-      "measured": "350 hedef yapı (kitaplarda geçen, bölgesi atanmış); bölgesi olmayanlar: docs/raporlar/iuc-kapsam-disi.md",
+      "measured": "515 hedef yapı (kitaplarda geçen, bölgesi atanmış); bölgesi olmayanlar: docs/raporlar/iuc-kapsam-disi.md",
       "status": "partial"
     },
     {
       "no": 2,
       "name": "3B model",
       "target": "≥ %90 anatomik model",
-      "measured": "347/350 (%99)",
+      "measured": "512/515 (%99)",
       "status": "ok"
     },
     {
       "no": 3,
       "name": "Adlar",
       "target": "LA %100; TR kitapta varsa kitaptan; ekranda yalnız İngilizce ad yok",
-      "measured": "LA 341/350 (%97) · TR 156/350 (%45) (kitaptan alıntılı 51) · yalnız İngilizce 1",
+      "measured": "LA 506/515 (%98) · TR 176/515 (%34) (kitaptan alıntılı 51) · yalnız İngilizce 1",
       "status": "partial"
     },
     {
       "no": 4,
       "name": "Bilgi kartı",
       "target": "Zorunlu alanlar %100, kitaptan alıntılı",
-      "measured": "119/350 (%34) tamam · kitaptan alıntılı alanı olan 0",
+      "measured": "119/515 (%23) tamam · kitaptan alıntılı alanı olan 55",
       "status": "partial"
     },
     {
       "no": 5,
       "name": "İlişkiler",
       "target": "Kitapta geçen sinir/arter/ven ilişkileri kayıtlı",
-      "measured": "En az bir ilişkisi olan hedef: 174/350 (%50)",
+      "measured": "En az bir ilişkisi olan hedef: 265/515 (%51)",
       "status": "partial"
     },
     {
       "no": 6,
       "name": "Öğrenme",
       "target": "Her kitap bölümüne ders; her hedef ≥ 2 soruda; bölge başına kesit sorusu",
-      "measured": "Ders 3 · yazılı soru 0 · kesit sorusu 0 · ≥2 yazılı soruda geçen hedef 0/350 (%0)",
+      "measured": "Ders 3 · yazılı soru 0 · kesit sorusu 0 · ≥2 yazılı soruda geçen hedef 0/515 (%0)",
       "status": "partial"
     },
     {

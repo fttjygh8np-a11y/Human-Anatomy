@@ -29,6 +29,22 @@ import { lateralityFromEnglishName } from '../../src/core/frame.ts'
  * thorax" or "systemic arterial tree" have no TA2 term). Without the TA2 snapshot
  * (npm run content:terms) no wholes are added.
  */
+/** Muscle name → TA2 muscle term (+ FMA id from content/terminology/ta2-fma.json when known). */
+async function loadMuscleTerms() {
+  const ta2Text = await readFile(join(REPO_ROOT, 'vendor', 'terminology', 'ta2.json'), 'utf8').catch(() => null)
+  if (!ta2Text) return undefined
+  const idx = indexTa2((JSON.parse(ta2Text) as { data: Ta2Term[] }).data)
+  const crosswalk = (JSON.parse(await readFile(join(CONTENT_DIR, 'terminology', 'ta2-fma.json'), 'utf8').catch(() => '{"map":{}}')) as { map: Record<string, string[]> }).map
+  return {
+    resolve: (name: string) => {
+      const hit = matchTa2({ id: 'x', names: { en: { value: name } }, laterality: 'unpaired', kind: 'muscle', externalIds: {} }, idx, new Map())
+      if (!hit || !hit.term.term.la?.startsWith('musculus ')) return null
+      const fma = crosswalk[String(hit.term.id)] ?? []
+      return { ta2Id: hit.term.id, ...(fma.length === 1 ? { fmaId: fma[0] } : {}) }
+    },
+  }
+}
+
 async function loadWholes(dir: string): Promise<PartOfWhole[]> {
   const read = (f: string) =>
     readFile(join(dir, f), 'utf8')
@@ -106,7 +122,8 @@ async function main(): Promise<number> {
 
   const today = new Date().toISOString().slice(0, 10)
   const wholes = await loadWholes(dirname(elementsPath))
-  const opts = { today, existing, knownRegions: regionIds, levelHints, conceptNames, wholes }
+  const muscleTerms = await loadMuscleTerms()
+  const opts = { today, existing, knownRegions: regionIds, levelHints, conceptNames, wholes, muscleTerms }
   let { records, issues } = buildInventory(parsed.elements, opts)
 
   // Link scope targets without a structure to the generic concept of the same English name.
@@ -160,6 +177,7 @@ async function main(): Promise<number> {
   const paired = records.filter((r) => r.counterpartId).length
   console.log(`Yapı envanteri güncellendi: ${records.length} taslak kayıt (${parsed.elements.length} BodyParts3D öğesinden) → ${repoRelative(inventoryDir)}/`)
   console.log(`  Genel (taraf belirtmeyen) kavram: ${records.filter((r) => r.laterality === 'paired_generic').length}. Yeni bağlanan kapsam hedefi: ${newLinks}.`)
+  console.log(`  Baş/parçalarından kurulan bütün kas: ${records.filter((r) => r.provenance.notes?.startsWith('Bütün kas')).length}.`)
   console.log(`  Bütün yapı (parça-bütün listesinden, TA2 ile eşleşen): ${records.filter((r) => r.provenance.notes?.startsWith('Bütün yapı')).length} (aday ${wholes.length}); parça-bütün üst yapısı atanan kayıt: ${records.filter((r) => (r.parentIds ?? []).length > 0).length}.`)
   console.log(`  Sistemler: ${[...groups].map(([s, l]) => `${s} ${l.length}`).join(', ') || '—'}`)
   console.log(`  Sağ/sol kayıt: ${sided}, karşı tarafı eşleşen: ${paired}. Bölgesi atanmamış: ${records.filter((r) => (r.regions ?? []).length === 0).length}.`)

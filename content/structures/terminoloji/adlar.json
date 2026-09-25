@@ -1,5 +1,252 @@
 [
   {
+    "id": "ax:fma-22356-left",
+    "names": {
+      "la": {
+        "value": "musculus biceps femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2638",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2638, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2638"
+    }
+  },
+  {
+    "id": "ax:fma-22356-right",
+    "names": {
+      "la": {
+        "value": "musculus biceps femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2638",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2638, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2638"
+    }
+  },
+  {
+    "id": "ax:fma-22541-left",
+    "names": {
+      "la": {
+        "value": "musculus gastrocnemius",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2657",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2657, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2657"
+    }
+  },
+  {
+    "id": "ax:fma-22541-right",
+    "names": {
+      "la": {
+        "value": "musculus gastrocnemius",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2657",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2657, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2657"
+    }
+  },
+  {
+    "id": "ax:fma-32521-left",
+    "names": {
+      "la": {
+        "value": "musculus deltoideus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2452",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2452, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2452"
+    }
+  },
+  {
+    "id": "ax:fma-32521-right",
+    "names": {
+      "la": {
+        "value": "musculus deltoideus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2452",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2452, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2452"
+    }
+  },
+  {
+    "id": "ax:fma-37688-left",
+    "names": {
+      "la": {
+        "value": "musculus triceps brachii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2471",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2471, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2471"
+    }
+  },
+  {
+    "id": "ax:fma-37688-right",
+    "names": {
+      "la": {
+        "value": "musculus triceps brachii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2471",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2471, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2471"
+    }
+  },
+  {
+    "id": "ax:fma-9626-left",
+    "names": {
+      "la": {
+        "value": "musculus trapezius",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2226",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2226, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2226"
+    }
+  },
+  {
+    "id": "ax:fma-9626-right",
+    "names": {
+      "la": {
+        "value": "musculus trapezius",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2226",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2226, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2226"
+    }
+  },
+  {
+    "id": "ax:ta2-2464",
+    "names": {
+      "la": {
+        "value": "musculus biceps brachii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2464",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2464, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2464"
+    }
+  },
+  {
+    "id": "ax:ta2-2464-left",
+    "names": {
+      "la": {
+        "value": "musculus biceps brachii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2464",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2464, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2464"
+    }
+  },
+  {
+    "id": "ax:ta2-2464-right",
+    "names": {
+      "la": {
+        "value": "musculus biceps brachii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2464",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2464, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2464"
+    }
+  },
+  {
     "id": "fma:10014",
     "names": {
       "la": {
@@ -8905,6 +9152,25 @@
     }
   },
   {
+    "id": "fma:22356",
+    "names": {
+      "la": {
+        "value": "musculus biceps femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2638",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2638, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2638"
+    }
+  },
+  {
     "id": "fma:22357",
     "names": {
       "la": {
@@ -10065,6 +10331,25 @@
     },
     "externalIds": {
       "ta2": "2653"
+    }
+  },
+  {
+    "id": "fma:22541",
+    "names": {
+      "la": {
+        "value": "musculus gastrocnemius",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2657",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2657, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2657"
     }
   },
   {
@@ -18213,6 +18498,25 @@
     }
   },
   {
+    "id": "fma:32521",
+    "names": {
+      "la": {
+        "value": "musculus deltoideus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2452",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2452, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2452"
+    }
+  },
+  {
     "id": "fma:32525",
     "names": {
       "la": {
@@ -21909,6 +22213,25 @@
     },
     "externalIds": {
       "ta2": "2465"
+    }
+  },
+  {
+    "id": "fma:37688",
+    "names": {
+      "la": {
+        "value": "musculus triceps brachii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2471",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2471, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2471"
     }
   },
   {
@@ -48664,6 +48987,25 @@
     },
     "externalIds": {
       "ta2": "2164"
+    }
+  },
+  {
+    "id": "fma:9626",
+    "names": {
+      "la": {
+        "value": "musculus trapezius",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2226",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2226, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2226"
     }
   },
   {

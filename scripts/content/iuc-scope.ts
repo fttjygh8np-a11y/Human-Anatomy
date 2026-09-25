@@ -21,10 +21,27 @@ import { loadContent, pathsFromArgs } from './lib/pipeline.ts'
 const OUT = 'scope/iuc-donem12.json'
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
+/** Abbreviations the books use for the leading Latin noun ("M. biceps brachii", "N. axillaris"). */
+const ABBREVIATIONS: [RegExp, string][] = [
+  [/^musculus /, 'm. '],
+  [/^musculi /, 'mm. '],
+  [/^nervus /, 'n. '],
+  [/^nervi /, 'nn. '],
+  [/^arteria /, 'a. '],
+  [/^arteriae /, 'aa. '],
+  [/^vena /, 'v. '],
+  [/^venae /, 'vv. '],
+  [/^ligamentum /, 'lig. '],
+  [/^ligamenta /, 'ligg. '],
+  [/^ramus /, 'r. '],
+  [/^rami /, 'rr. '],
+]
+
 /** Latin forms of a structure worth searching for (short words such as "cor" match too much). */
 function latinForms(s: Structure): string[] {
-  const forms = [s.names.la?.value, ...(s.synonyms ?? []).filter((x) => x.lang === 'la').map((x) => x.value)]
-  return [...new Set(forms.filter((x): x is string => !!x && x.replace(/\s/g, '').length >= 5 && !/[[\]]/.test(x)))]
+  const forms = [s.names.la?.value, ...(s.synonyms ?? []).filter((x) => x.lang === 'la').map((x) => x.value)].filter((x): x is string => !!x)
+  const withAbbreviations = forms.flatMap((f) => [f, ...ABBREVIATIONS.filter(([re]) => re.test(f)).map(([re, abbr]) => f.replace(re, abbr))])
+  return [...new Set(withAbbreviations.filter((x) => x.replace(/\s/g, '').length >= 5 && !/[[\]]/.test(x)))]
 }
 
 async function main(): Promise<number> {

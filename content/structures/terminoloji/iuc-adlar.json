@@ -167,22 +167,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Kemikleri",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 7",
-            "quote": "kemikleri (os coxae)",
-            "note": "Kitapta \"kemikleri (os coxae)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:16586",
@@ -199,22 +184,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Sağ kemikleri",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 7",
-            "quote": "kemikleri (os coxae)",
-            "note": "Kitapta \"kemikleri (os coxae)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:16587",
@@ -231,22 +201,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Sol kemikleri",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 7",
-            "quote": "kemikleri (os coxae)",
-            "note": "Kitapta \"kemikleri (os coxae)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:23130",
@@ -331,22 +286,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Sağ major'lar",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 40",
-            "quote": "major'lar (os femoris)",
-            "note": "Kitapta \"major'lar (os femoris)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:24475",
@@ -363,22 +303,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Sol major'lar",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 40",
-            "quote": "major'lar (os femoris)",
-            "note": "Kitapta \"major'lar (os femoris)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:24476",
@@ -718,22 +643,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Kafa bütünü",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 26",
-            "quote": "CRANIUM (KAFA BÜTÜNÜ)",
-            "note": "Kitapta \"CRANIUM (KAFA BÜTÜNÜ)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:50454",
@@ -767,22 +677,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Kısmı beyin",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-noroanatomi",
-            "locator": "s. 1",
-            "quote": "kısmı beyin (encephalon)",
-            "note": "Kitapta \"kısmı beyin (encephalon)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:51061",
@@ -850,22 +745,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Petrosa'nın",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 32",
-            "quote": "petrosa'nın (os temporale)",
-            "note": "Kitapta \"petrosa'nın (os temporale)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:52738",
@@ -882,22 +762,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Sağ petrosa'nın",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 32",
-            "quote": "petrosa'nın (os temporale)",
-            "note": "Kitapta \"petrosa'nın (os temporale)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:52739",
@@ -914,22 +779,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Sol petrosa'nın",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 32",
-            "quote": "petrosa'nın (os temporale)",
-            "note": "Kitapta \"petrosa'nın (os temporale)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:52741",
@@ -1677,22 +1527,7 @@
           }
         ]
       }
-    },
-    "synonyms": [
-      {
-        "value": "Major'lar",
-        "lang": "tr",
-        "kind": "synonym",
-        "sources": [
-          {
-            "sourceId": "src:iuc-lokomotor",
-            "locator": "s. 40",
-            "quote": "major'lar (os femoris)",
-            "note": "Kitapta \"major'lar (os femoris)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
-          }
-        ]
-      }
-    ]
+    }
   },
   {
     "id": "fma:9613",
