@@ -70,6 +70,9 @@
     "laterality": "left",
     "counterpartId": "fma:8620",
     "genericId": "fma:13278",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -317,7 +320,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -328,7 +331,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ3131). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ3131). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -496,6 +499,96 @@
     }
   },
   {
+    "id": "fma:26661",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA26661)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "26661"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:26662",
+    "parentIds": [
+      "fma:7393"
+    ],
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 11 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3212 (\"arbor tracheobronchialis\") terimiyle eşleşiyor. Ayrıntı düzeyi: kapsam hedefinden alındı."
+    }
+  },
+  {
+    "id": "fma:26662",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left bronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA26662)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "26662"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:26661",
+    "parentIds": [
+      "fma:7393"
+    ],
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 10 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3212 (\"arbor tracheobronchialis\") terimiyle eşleşiyor. Ayrıntı düzeyi: kapsam hedefinden alındı."
+    }
+  },
+  {
     "id": "fma:55099",
     "schemaVersion": 1,
     "kind": "cartilage",
@@ -523,7 +616,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "midline",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -534,7 +627,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2808). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2808). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -564,7 +657,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -575,7 +668,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-25",
       "updatedAt": "2026-09-25",
-      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55114, fma:55113 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:55114, fma:55113 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: kapsam hedefinden alındı."
     }
   },
   {
@@ -608,7 +701,7 @@
     "laterality": "right",
     "counterpartId": "fma:55114",
     "genericId": "fma:55109",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -619,7 +712,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2792). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2792). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: genel kavramın kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -652,7 +745,7 @@
     "laterality": "left",
     "counterpartId": "fma:55113",
     "genericId": "fma:55109",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -663,7 +756,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2775). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2775). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: genel kavramın kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -694,7 +787,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "midline",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -705,7 +798,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2770). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2770). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -737,6 +830,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:8702",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -781,6 +877,9 @@
     "laterality": "right",
     "counterpartId": "fma:68223",
     "genericId": "fma:68234",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -825,6 +924,9 @@
     "laterality": "right",
     "counterpartId": "fma:68222",
     "genericId": "fma:68235",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -869,6 +971,9 @@
     "laterality": "right",
     "counterpartId": "fma:68225",
     "genericId": "fma:68236",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -911,6 +1016,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -953,6 +1061,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -997,6 +1108,9 @@
     "laterality": "right",
     "counterpartId": "fma:68228",
     "genericId": "fma:68237",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1041,6 +1155,9 @@
     "laterality": "right",
     "counterpartId": "fma:68230",
     "genericId": "fma:68320",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1126,6 +1243,9 @@
     "laterality": "right",
     "counterpartId": "fma:68232",
     "genericId": "fma:68322",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1170,6 +1290,9 @@
     "laterality": "right",
     "counterpartId": "fma:68233",
     "genericId": "fma:68229",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1214,6 +1337,9 @@
     "laterality": "left",
     "counterpartId": "fma:68212",
     "genericId": "fma:68235",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1258,6 +1384,9 @@
     "laterality": "left",
     "counterpartId": "fma:68211",
     "genericId": "fma:68234",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1302,6 +1431,9 @@
     "laterality": "left",
     "counterpartId": "fma:68213",
     "genericId": "fma:68236",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1344,6 +1476,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1386,6 +1521,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1430,6 +1568,9 @@
     "laterality": "left",
     "counterpartId": "fma:68216",
     "genericId": "fma:68237",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1515,6 +1656,9 @@
     "laterality": "left",
     "counterpartId": "fma:68218",
     "genericId": "fma:68320",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1559,6 +1703,9 @@
     "laterality": "left",
     "counterpartId": "fma:68321",
     "genericId": "fma:68219",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1603,6 +1750,9 @@
     "laterality": "left",
     "counterpartId": "fma:68220",
     "genericId": "fma:68322",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1647,6 +1797,9 @@
     "laterality": "left",
     "counterpartId": "fma:68221",
     "genericId": "fma:68229",
+    "parentIds": [
+      "fma:26662"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1896,6 +2049,9 @@
     "laterality": "right",
     "counterpartId": "fma:68231",
     "genericId": "fma:68219",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -1979,6 +2135,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
+    "parentIds": [
+      "fma:26661"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2063,6 +2222,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68661",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2147,6 +2309,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68664",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2231,6 +2396,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68669",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2315,6 +2483,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68672",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2357,6 +2528,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2441,6 +2615,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68682",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2483,6 +2660,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2525,6 +2705,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2567,6 +2750,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2609,6 +2795,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2693,6 +2882,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68704",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2777,6 +2969,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68708",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2861,6 +3056,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68711",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -2986,6 +3184,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68722",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3029,6 +3230,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68721",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3071,6 +3275,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3155,6 +3362,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68734",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3239,6 +3449,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68737",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3323,6 +3536,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68740",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3407,6 +3623,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68879",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3532,6 +3751,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68920",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3575,6 +3797,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:8683",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3618,6 +3843,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:8693",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3660,6 +3888,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3702,6 +3933,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3744,6 +3978,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3786,6 +4023,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7309"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3798,6 +4038,265 @@
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
       "notes": "BodyParts3D içe aktarımı (öğe: FJ3032, FJ3033). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmamasından türetildi (unpaired). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+    }
+  },
+  {
+    "id": "fma:7309",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Right lung",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA7309)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7309"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:7310",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 47 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3283 (\"pulmo dexter\") terimiyle eşleşiyor. Ayrıntı düzeyi: kapsam hedefinden alındı."
+    }
+  },
+  {
+    "id": "fma:7310",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Left lung",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA7310)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7310"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:7309",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 28 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3299 (\"pulmo sinister\") terimiyle eşleşiyor. Ayrıntı düzeyi: kapsam hedefinden alındı."
+    }
+  },
+  {
+    "id": "fma:7333",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper lobe of right lung",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA7333)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7333"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "counterpartId": "fma:7370",
+    "parentIds": [
+      "fma:7309"
+    ],
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 18 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3284 (\"lobus superior pulmonis dextri\") terimiyle eşleşiyor. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:7337",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Lower lobe of right lung",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA7337)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7337"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "right",
+    "parentIds": [
+      "fma:7309"
+    ],
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 19 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3293 (\"lobus inferior pulmonis dextri\") terimiyle eşleşiyor. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:7370",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Upper lobe of left lung",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA7370)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7370"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "left",
+    "counterpartId": "fma:7333",
+    "parentIds": [
+      "fma:7310"
+    ],
+    "detailLevel": "advanced",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 15 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3300 (\"lobus superior pulmonis sinistri\") terimiyle eşleşiyor. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+    }
+  },
+  {
+    "id": "fma:7393",
+    "schemaVersion": 1,
+    "kind": "other",
+    "names": {
+      "en": {
+        "value": "Tracheobronchial tree",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:bodyparts3d",
+            "locator": "partof_parts_list_e.txt (FMA7393)"
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "fma": "7393"
+    },
+    "systems": [
+      "respiratory"
+    ],
+    "regions": [
+      "thorax"
+    ],
+    "regionBasis": "derived_from_geometry",
+    "laterality": "unpaired",
+    "detailLevel": "basic",
+    "review": {
+      "text": "draft",
+      "labels": "draft",
+      "geometry": "draft",
+      "relations": "draft"
+    },
+    "provenance": {
+      "createdBy": "import:bodyparts3d",
+      "createdAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "notes": "Bütün yapı; BodyParts3D parça-bütün (part-of) listesinde 22 model parçasından oluşur (partof_element_parts.txt). Kendi modeli yoktur; parçalarının modelleriyle gösterilir. Kabul gerekçesi: adı TA2 3212 (\"arbor tracheobronchialis\") terimiyle eşleşiyor. Ayrıntı düzeyi: kapsam hedefinden alındı."
     }
   },
   {
@@ -3828,7 +4327,10 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "midline",
-    "detailLevel": "advanced",
+    "parentIds": [
+      "fma:7393"
+    ],
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3839,7 +4341,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2541). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2541). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3871,7 +4373,10 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "genericId": "fma:7405",
-    "detailLevel": "advanced",
+    "parentIds": [
+      "fma:26662"
+    ],
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3882,7 +4387,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2450). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2450). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: belirlenemedi (other). Taraf: öğe verisinden alındı. Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: genel kavramın kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   },
   {
@@ -3912,7 +4417,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "paired_generic",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -3923,7 +4428,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-25",
       "updatedAt": "2026-09-25",
-      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:7396 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez)."
+      "notes": "Genel (taraf belirtmeyen) kavram; BodyParts3D is-a listesinde fma:7396 kayıtlarının üst kavramı. Kendi modeli yoktur; sağ/sol örneklerin modelleriyle gösterilir. İngilizce ad BodyParts3D ilişki listesinden alındı; TA2 ile karşılaştırılmadı. Ayrıntı düzeyi: kapsam hedefinden alındı."
     }
   },
   {
@@ -3956,6 +4461,9 @@
     "laterality": "right",
     "counterpartId": "fma:13279",
     "genericId": "fma:13278",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -3999,6 +4507,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "genericId": "fma:8707",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4042,6 +4553,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "genericId": "fma:13280",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4084,6 +4598,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4126,6 +4643,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4170,6 +4690,9 @@
     "laterality": "right",
     "counterpartId": "fma:8667",
     "genericId": "fma:13442",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4214,6 +4737,9 @@
     "laterality": "right",
     "counterpartId": "fma:9438",
     "genericId": "fma:13443",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4258,6 +4784,9 @@
     "laterality": "left",
     "counterpartId": "fma:8662",
     "genericId": "fma:13442",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4300,6 +4829,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4342,6 +4874,9 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "unpaired",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4385,6 +4920,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:13445",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4429,6 +4967,9 @@
     "laterality": "right",
     "counterpartId": "fma:8678",
     "genericId": "fma:13290",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4473,6 +5014,9 @@
     "laterality": "left",
     "counterpartId": "fma:8673",
     "genericId": "fma:13290",
+    "parentIds": [
+      "fma:7310"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4516,6 +5060,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:68919",
+    "parentIds": [
+      "fma:7333"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4723,6 +5270,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "right",
     "genericId": "fma:13289",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4767,6 +5317,9 @@
     "laterality": "right",
     "counterpartId": "fma:9450",
     "genericId": "fma:13291",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4811,6 +5364,9 @@
     "laterality": "right",
     "counterpartId": "fma:9451",
     "genericId": "fma:13292",
+    "parentIds": [
+      "fma:7337"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4854,6 +5410,9 @@
     "regionBasis": "derived_from_geometry",
     "laterality": "left",
     "genericId": "fma:13444",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4898,6 +5457,9 @@
     "laterality": "left",
     "counterpartId": "fma:8663",
     "genericId": "fma:13443",
+    "parentIds": [
+      "fma:7370"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4942,6 +5504,9 @@
     "laterality": "left",
     "counterpartId": "fma:9425",
     "genericId": "fma:13291",
+    "parentIds": [
+      "fma:7310"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -4986,6 +5551,9 @@
     "laterality": "left",
     "counterpartId": "fma:9428",
     "genericId": "fma:13292",
+    "parentIds": [
+      "fma:7310"
+    ],
     "detailLevel": "advanced",
     "review": {
       "text": "draft",
@@ -5028,7 +5596,7 @@
     ],
     "regionBasis": "derived_from_geometry",
     "laterality": "midline",
-    "detailLevel": "advanced",
+    "detailLevel": "basic",
     "review": {
       "text": "draft",
       "labels": "draft",
@@ -5039,7 +5607,7 @@
       "createdBy": "import:bodyparts3d",
       "createdAt": "2026-09-24",
       "updatedAt": "2026-09-25",
-      "notes": "BodyParts3D içe aktarımı (öğe: FJ2440, FJ2769). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: atanmadı (varsayılan advanced; temel/orta düzey sınavlara girmez). Cinsiyet atanmadı (varsayılan both)."
+      "notes": "BodyParts3D içe aktarımı (öğe: FJ2440, FJ2769). İngilizce ad BodyParts3D verisinden alındı; TA2 ile karşılaştırılmadı. Tür: İngilizce ad kalıbından otomatik türetildi. Taraf: adda taraf yok; model merkezinin orta hatta olmasından türetildi (midline). Bölge: model parçasından (chunk) türetildi. Ayrıntı düzeyi: kapsam hedefinden alındı. Cinsiyet atanmadı (varsayılan both)."
     }
   }
 ]

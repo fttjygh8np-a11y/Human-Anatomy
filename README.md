@@ -75,9 +75,12 @@ verir, metin modu ve arama çalışmaya devam eder.
 | `npm run content:terms` | TA2 (Latince) ve TDK/Wikidata (Türkçe) ad adaylarını çeker |
 | `npm run content:relations` | Wikidata'dan anatomik ilişkileri çeker |
 | `npm run content:iuc` | İÜC açık anatomi ders kitaplarını (CC BY 4.0) indirir, sayfa metinlerini çıkarır |
+| `npm run content:iuc-terms` | Kitaplardan elle kabul edilmiş Türkçe–Latince terim çiftlerini yapılara uygular |
+| `npm run content:iuc-scope` | Kitaplarda adı geçen yapılardan Dönem 1–2 kapsam hedeflerini üretir |
 | `npm run content:quotecheck` | Kitaptan alınan her alıntının belirtilen sayfada geçtiğini denetler |
 | `npm run report:coverage` | Kapsam raporu → `docs/raporlar/kapsam.md` |
 | `npm run report:inventory` | Sistem × bölge envanter raporu → `docs/raporlar/envanter.md` |
+| `npm run report:release` | v1.0 sürüm kapıları → `docs/raporlar/surum-kapilari.md` |
 
 ## Testler
 

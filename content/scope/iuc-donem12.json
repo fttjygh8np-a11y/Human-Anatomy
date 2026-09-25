@@ -1,0 +1,4955 @@
+[
+  {
+    "id": "hedef:iuc.fma-10419",
+    "structureId": "fma:10419",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pancreatic duct",
+      "la": "ductus pancreaticus",
+      "tr": "Wirsung kanalı"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 41",
+        "quote": "ductus pancreaticus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-10446",
+    "structureId": "fma:10446",
+    "system": "skeletal",
+    "region": "back",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Intervertebral disk",
+      "la": "discus intervertebralis",
+      "tr": "Disk"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 36",
+        "quote": "discus intervertebralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-10636",
+    "structureId": "fma:10636",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Costocervical trunk",
+      "la": "truncus costocervicalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 12",
+        "quote": "Truncus costocervicalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-10662",
+    "structureId": "fma:10662",
+    "system": "cardiovascular",
+    "region": "neck",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Inferior thyroid artery",
+      "la": "arteria thyreoidea inferior"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 25",
+        "quote": "arteria thyroidea inferior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-10951",
+    "structureId": "fma:10951",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Inferior vena cava",
+      "la": "vena cava inferior",
+      "tr": "Vena cava inferior"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 15",
+        "quote": "vena cava inferior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13109",
+    "structureId": "fma:13109",
+    "system": "muscular",
+    "region": "thorax",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Pectoralis minor",
+      "la": "musculus pectoralis minor"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 22",
+        "quote": "Musculus pectoralis minor"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13295",
+    "structureId": "fma:13295",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Diaphragm",
+      "la": "diaphragma",
+      "tr": "Diyafram"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 44",
+        "quote": "diaphragma"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13324",
+    "structureId": "fma:13324",
+    "system": "cardiovascular",
+    "region": "upper_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Cephalic vein",
+      "la": "vena cephalica"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 17",
+        "quote": "vena cephalica"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13329",
+    "structureId": "fma:13329",
+    "system": "cardiovascular",
+    "region": "upper_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Axillary vein",
+      "la": "vena axillaris",
+      "tr": "Koltuk altı toplardamarı"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 17",
+        "quote": "vena axillaris"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13362",
+    "structureId": "fma:13362",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right lobe of liver",
+      "la": "lobus dexter hepatis"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 49",
+        "quote": "lobus hepatis dexter"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13363",
+    "structureId": "fma:13363",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left lobe of liver",
+      "la": "lobus sinister hepatis"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 48",
+        "quote": "lobus hepatis sinister"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13365",
+    "structureId": "fma:13365",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Caudate lobe of liver",
+      "la": "lobus caudatus"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 48",
+        "quote": "Lobus caudatus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13478",
+    "structureId": "fma:13478",
+    "system": "skeletal",
+    "region": "abdomen",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Vertebral column",
+      "la": "columna vertebralis"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 12",
+        "quote": "columna vertebralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-13889",
+    "structureId": "fma:13889",
+    "system": "endocrine",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pituitary gland",
+      "la": "hypophysis",
+      "tr": "Hipofiz"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 69",
+        "quote": "Hypophysis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14331",
+    "structureId": "fma:14331",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Splenic vein",
+      "la": "vena splenica",
+      "tr": "Splenik ven"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 26",
+        "quote": "vena splenica"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14332",
+    "structureId": "fma:14332",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Superior mesenteric vein",
+      "la": "vena mesenterica superior"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 26",
+        "quote": "vena mesenterica superior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14337",
+    "structureId": "fma:14337",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Hepatic vein",
+      "la": "venae hepaticae",
+      "tr": "Karaciğer damarı"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 49",
+        "quote": "venae hepaticae"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14539",
+    "structureId": "fma:14539",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Cystic duct",
+      "la": "ductus cysticus",
+      "tr": "Sistik kanal"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 49",
+        "quote": "ductus cysticus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14542",
+    "structureId": "fma:14542",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Appendix",
+      "la": "appendix vermiformis",
+      "tr": "Apandis"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 43",
+        "quote": "appendix vermiformis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14544",
+    "structureId": "fma:14544",
+    "system": "digestive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Rectum",
+      "la": "rectum",
+      "tr": "Rektum"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 39",
+        "quote": "rectum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14545",
+    "structureId": "fma:14545",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Ascending colon",
+      "la": "colon ascendens"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 43",
+        "quote": "colon ascendens"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14546",
+    "structureId": "fma:14546",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Transverse colon",
+      "la": "colon transversum"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 40",
+        "quote": "colon transversum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14547",
+    "structureId": "fma:14547",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Descending colon",
+      "la": "colon descendens"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 43",
+        "quote": "colon descendens"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14668",
+    "structureId": "fma:14668",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Common hepatic duct",
+      "la": "ductus hepaticus communis",
+      "tr": "Ortak hepatik kanal"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 49",
+        "quote": "ductus hepaticus communis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14669",
+    "structureId": "fma:14669",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right hepatic duct",
+      "la": "ductus hepaticus dexter"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 48",
+        "quote": "ductus hepaticus dexter"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14670",
+    "structureId": "fma:14670",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left hepatic duct",
+      "la": "ductus hepaticus sinister"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 49",
+        "quote": "ductus hepaticus sinister"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14749",
+    "structureId": "fma:14749",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Superior mesenteric artery",
+      "la": "arteria mesenterica superior"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 23",
+        "quote": "arteria mesenterica superior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14750",
+    "structureId": "fma:14750",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Inferior mesenteric artery",
+      "la": "arteria mesenterica inferior"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 23",
+        "quote": "arteria mesenterica inferior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14764",
+    "structureId": "fma:14764",
+    "system": "cardiovascular",
+    "region": "pelvis_perineum",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Common iliac artery",
+      "la": "arteria iliaca communis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 23",
+        "quote": "Arteria iliaca communis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14772",
+    "structureId": "fma:14772",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Hepatic artery proper",
+      "la": "arteria hepatica propria"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 48",
+        "quote": "arteria hepatica propria"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14773",
+    "structureId": "fma:14773",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Splenic artery",
+      "la": "arteria splenica",
+      "tr": "Splenik arter"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 26",
+        "quote": "arteria splenica"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-14812",
+    "structureId": "fma:14812",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Celiac trunk",
+      "la": "truncus coeliacus"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 14",
+        "quote": "Truncus coeliacus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-15900",
+    "structureId": "fma:15900",
+    "system": "urinary",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Urinary bladder",
+      "la": "vesica urinaria",
+      "tr": "Sidik torbası"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 39",
+        "quote": "vesica urinaria"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-17561",
+    "structureId": "fma:17561",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ_part",
+    "level": "basic",
+    "name": {
+      "en": "Fundus of uterus",
+      "la": "fundus uteri"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "fundus uteri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-18060",
+    "structureId": "fma:18060",
+    "system": "muscular",
+    "region": "abdomen",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Psoas major",
+      "la": "psoas major"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 83",
+        "quote": "psoas major"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-18247",
+    "structureId": "fma:18247",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Glans penis",
+      "la": "glans penis",
+      "tr": "Penis başı"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 24",
+        "quote": "glans penis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-18255",
+    "structureId": "fma:18255",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Epididymis",
+      "la": "epididymis",
+      "tr": "Epididimis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 60",
+        "quote": "epididymis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-18805",
+    "structureId": "fma:18805",
+    "system": "cardiovascular",
+    "region": "pelvis_perineum",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "External iliac artery",
+      "la": "arteria iliaca externa"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 15",
+        "quote": "ARTERIA ILIACA EXTERNA"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-18808",
+    "structureId": "fma:18808",
+    "system": "cardiovascular",
+    "region": "pelvis_perineum",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Internal iliac artery",
+      "la": "arteria iliaca interna"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 19",
+        "quote": "arteria iliaca interna"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19119",
+    "structureId": "fma:19119",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Right uterosacral ligament",
+      "la": "ligamentum uterosacrale"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "Ligamentum uterosacrale"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19120",
+    "structureId": "fma:19120",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Left uterosacral ligament",
+      "la": "ligamentum uterosacrale"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "Ligamentum uterosacrale"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19386",
+    "structureId": "fma:19386",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Seminal vesicle",
+      "la": "glandula seminalis",
+      "tr": "Seminal keseler"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 62",
+        "quote": "glandula vesiculosa"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19617",
+    "structureId": "fma:19617",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Corpus spongiosum of penis",
+      "la": "corpus spongiosum penis"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "corpus spongiosum penis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19618",
+    "structureId": "fma:19618",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Corpus cavernosum of penis",
+      "la": "corpus cavernosum penis",
+      "tr": "Korpus kavernozum penis"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "corpus cavernosum penis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19667",
+    "structureId": "fma:19667",
+    "system": "urinary",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Urethra",
+      "la": "urethra",
+      "tr": "Üretra"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 39",
+        "quote": "urethra"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19809",
+    "structureId": "fma:19809",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "peritoneal_structure",
+    "level": "basic",
+    "name": {
+      "en": "Right mesosalpinx",
+      "la": "mesosalpinx"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "mesosalpinx"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19810",
+    "structureId": "fma:19810",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "peritoneal_structure",
+    "level": "basic",
+    "name": {
+      "en": "Left mesosalpinx",
+      "la": "mesosalpinx"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "mesosalpinx"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19817",
+    "structureId": "fma:19817",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "peritoneal_structure",
+    "level": "basic",
+    "name": {
+      "en": "Right mesovarium",
+      "la": "mesovarium"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 64",
+        "quote": "mesovarium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19818",
+    "structureId": "fma:19818",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "peritoneal_structure",
+    "level": "basic",
+    "name": {
+      "en": "Left mesovarium",
+      "la": "mesovarium"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 64",
+        "quote": "mesovarium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19823",
+    "structureId": "fma:19823",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Suspensory ligament of right ovary",
+      "la": "ligamentum suspensorium ovarii"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 64",
+        "quote": "ligamentum suspensorium ovarii"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-19824",
+    "structureId": "fma:19824",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Suspensory ligament of left ovary",
+      "la": "ligamentum suspensorium ovarii"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 64",
+        "quote": "ligamentum suspensorium ovarii"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-20289",
+    "structureId": "fma:20289",
+    "system": "sensory",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Lacrimal sac",
+      "la": "saccus lacrimalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 24",
+        "quote": "saccus lacrimalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-21185",
+    "structureId": "fma:21185",
+    "system": "cardiovascular",
+    "region": "lower_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Femoral vein",
+      "la": "vena femoralis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 18",
+        "quote": "Vena femoralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-21376",
+    "structureId": "fma:21376",
+    "system": "cardiovascular",
+    "region": "lower_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Great saphenous vein",
+      "la": "vena saphena magna"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 24",
+        "quote": "vena saphena magna"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22298",
+    "structureId": "fma:22298",
+    "system": "muscular",
+    "region": "abdomen",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Obturator internus",
+      "la": "obturator internus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 97",
+        "quote": "obturator internus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22423",
+    "structureId": "fma:22423",
+    "system": "muscular",
+    "region": "lower_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Tensor fasciae latae",
+      "la": "tensor fasciae latae"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 97",
+        "quote": "tensor fasciae latae"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22441",
+    "structureId": "fma:22441",
+    "system": "muscular",
+    "region": "lower_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Adductor longus",
+      "la": "adductor longus",
+      "tr": "Addüktör longus kası"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 98",
+        "quote": "adductor longus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22442",
+    "structureId": "fma:22442",
+    "system": "muscular",
+    "region": "lower_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Adductor brevis",
+      "la": "adductor brevis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 98",
+        "quote": "adductor brevis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22443",
+    "structureId": "fma:22443",
+    "system": "muscular",
+    "region": "lower_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Adductor magnus",
+      "la": "adductor magnus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 99",
+        "quote": "adductor magnus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22654",
+    "structureId": "fma:22654",
+    "system": "cardiovascular",
+    "region": "upper_limb",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Axillary artery",
+      "la": "arteria axillaris",
+      "tr": "Koltuk altı atardamarı"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 12",
+        "quote": "arteria axillaris"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22677",
+    "structureId": "fma:22677",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Subscapular artery",
+      "la": "arteria subscapularis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 13",
+        "quote": "Arteria subscapularis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22689",
+    "structureId": "fma:22689",
+    "system": "cardiovascular",
+    "region": "upper_limb",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Brachial artery",
+      "la": "arteria brachialis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 13",
+        "quote": "arteria brachialis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22695",
+    "structureId": "fma:22695",
+    "system": "cardiovascular",
+    "region": "upper_limb",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Deep brachial artery",
+      "la": "arteria profunda brachii"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 6",
+        "quote": "arteria profunda brachii"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-22908",
+    "structureId": "fma:22908",
+    "system": "cardiovascular",
+    "region": "upper_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Basilic vein",
+      "la": "vena basilica"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 17",
+        "quote": "vena basilica"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-23218",
+    "structureId": "fma:23218",
+    "system": "muscular",
+    "region": "thorax",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Right pectoral girdle",
+      "la": "cingulum pectorale",
+      "tr": "Sağ göğüs kuşağı"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 5",
+        "quote": "Cingulum pectorale"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-23219",
+    "structureId": "fma:23219",
+    "system": "muscular",
+    "region": "thorax",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Left pectoral girdle",
+      "la": "cingulum pectorale",
+      "tr": "Sol göğüs kuşağı"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 5",
+        "quote": "Cingulum pectorale"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-23706",
+    "structureId": "fma:23706",
+    "system": "articular",
+    "region": "upper_limb",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Interosseous membrane of forearm",
+      "la": "membrana interossea antebrachii"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 52",
+        "quote": "Membrana interossea antebrachii"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-26661",
+    "structureId": "fma:26661",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right bronchial tree",
+      "la": "arbor tracheobronchialis",
+      "tr": "Sağ bronş ağacı"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 32",
+        "quote": "arbor bronchialis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-26662",
+    "structureId": "fma:26662",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left bronchial tree",
+      "la": "arbor tracheobronchialis",
+      "tr": "Sol bronş ağacı"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 32",
+        "quote": "arbor bronchialis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-32519",
+    "structureId": "fma:32519",
+    "system": "muscular",
+    "region": "upper_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Levator scapulae",
+      "la": "levator scapulae"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 72",
+        "quote": "levator scapulae"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-35187",
+    "structureId": "fma:35187",
+    "system": "articular",
+    "region": "lower_limb",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Interosseous membrane of leg",
+      "la": "membrana interossea cruris",
+      "tr": "Membrana interossea cruris"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 57",
+        "quote": "membrana interossea cruris"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3734",
+    "structureId": "fma:3734",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Aorta",
+      "la": "aorta",
+      "tr": "Aort"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 83",
+        "quote": "aorta"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3736",
+    "structureId": "fma:3736",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Ascending aorta",
+      "la": "aorta ascendens",
+      "tr": "Yükselen aorta"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 6",
+        "quote": "aorta ascendens"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-37448",
+    "structureId": "fma:37448",
+    "system": "muscular",
+    "region": "lower_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Abductor hallucis",
+      "la": "abductor hallucis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 101",
+        "quote": "abductor hallucis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3768",
+    "structureId": "fma:3768",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Arch of aorta",
+      "la": "arcus aortae"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 8",
+        "quote": "arcus aortae"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3784",
+    "structureId": "fma:3784",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Descending aorta",
+      "la": "aorta descendens"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 10",
+        "quote": "aorta descendens"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3789",
+    "structureId": "fma:3789",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Abdominal aorta",
+      "la": "aorta abdominalis",
+      "tr": "Abdominal aort"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 11",
+        "quote": "Aorta abdominalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-38453",
+    "structureId": "fma:38453",
+    "system": "muscular",
+    "region": "upper_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Pronator quadratus",
+      "la": "pronator quadratus",
+      "tr": "Pronator quadratus kası"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 94",
+        "quote": "pronator quadratus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-38512",
+    "structureId": "fma:38512",
+    "system": "muscular",
+    "region": "upper_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Supinator",
+      "la": "supinator"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 68",
+        "quote": "supinator"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-38524",
+    "structureId": "fma:38524",
+    "system": "muscular",
+    "region": "upper_limb",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Extensor indicis",
+      "la": "extensor indicis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 94",
+        "quote": "extensor indicis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3932",
+    "structureId": "fma:3932",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Brachiocephalic artery",
+      "la": "truncus brachiocephalicus",
+      "tr": "Brakiyosefalik"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 10",
+        "quote": "Truncus brachiocephalicus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3939",
+    "structureId": "fma:3939",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Common carotid artery",
+      "la": "carotis communis ",
+      "tr": "Şah damarı"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 10",
+        "quote": "Arteria carotis communis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3947",
+    "structureId": "fma:3947",
+    "system": "cardiovascular",
+    "region": "neck",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Internal carotid artery",
+      "la": "carotis interna",
+      "tr": "İnternal karotid arter"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 14",
+        "quote": "carotis interna"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3951",
+    "structureId": "fma:3951",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Subclavian artery",
+      "la": "arteria subclavia",
+      "tr": "Subklaviyan arter"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 11",
+        "quote": "arteria subclavia"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3956",
+    "structureId": "fma:3956",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Vertebral artery",
+      "la": "arteria vertebralis",
+      "tr": "Vertebral arter"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria Vertebralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3960",
+    "structureId": "fma:3960",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Internal thoracic artery",
+      "la": "arteria thoracica interna"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 22",
+        "quote": "Arteria thoracica interna"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-3990",
+    "structureId": "fma:3990",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Thyrocervical trunk",
+      "la": "truncus thyreocervicalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 12",
+        "quote": "Truncus thyrocervicalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-44327",
+    "structureId": "fma:44327",
+    "system": "cardiovascular",
+    "region": "lower_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Popliteal vein",
+      "la": "vena poplitea"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 19",
+        "quote": "vena poplitea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-44333",
+    "structureId": "fma:44333",
+    "system": "cardiovascular",
+    "region": "lower_limb",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Small saphenous vein",
+      "la": "vena saphena parva"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 24",
+        "quote": "vena saphena parva"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-45738",
+    "structureId": "fma:45738",
+    "system": "muscular",
+    "region": "neck",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Platysma",
+      "la": "platysma"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 22",
+        "quote": "Platysma"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-46565",
+    "structureId": "fma:46565",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Skull",
+      "la": "cranium",
+      "tr": "Kafatası"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 12",
+        "quote": "cranium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-46583",
+    "structureId": "fma:46583",
+    "system": "muscular",
+    "region": "neck",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Oblique arytenoid",
+      "la": "musculus arytenoideus obliquus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 31",
+        "quote": "Musculus arytenoideus obliquus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-46588",
+    "structureId": "fma:46588",
+    "system": "muscular",
+    "region": "neck",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Thyro-arytenoid",
+      "la": "musculus thyreoarytenoideus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 31",
+        "quote": "Musculus thyroarytenoideus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-46727",
+    "structureId": "fma:46727",
+    "system": "digestive",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Levator veli palatini",
+      "la": "levator veli palatini"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 37",
+        "quote": "levator veli palatini"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-46730",
+    "structureId": "fma:46730",
+    "system": "digestive",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Tensor veli palatini",
+      "la": "tensor veli palatini"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 15",
+        "quote": "tensor veli palatini"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-4706",
+    "structureId": "fma:4706",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Coronary sinus",
+      "la": "sinus coronarius"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 6",
+        "quote": "Sinus coronarius"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-4720",
+    "structureId": "fma:4720",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Superior vena cava",
+      "la": "vena cava superior",
+      "tr": "Superior vena kava"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 15",
+        "quote": "vena cava superior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-4724",
+    "structureId": "fma:4724",
+    "system": "cardiovascular",
+    "region": "neck",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Internal jugular vein",
+      "la": "vena jugularis interna",
+      "tr": "İnternal juguler ven"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 16",
+        "quote": "vena jugularis interna"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-4838",
+    "structureId": "fma:4838",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Azygos vein",
+      "la": "vena azyga"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 17",
+        "quote": "Vena azygos"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-49041",
+    "structureId": "fma:49041",
+    "system": "muscular",
+    "region": "head",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Levator palpebrae superioris",
+      "la": "levator palpebrae superioris"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 22",
+        "quote": "levator palpebrae superioris"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-4944",
+    "structureId": "fma:4944",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Hemiazygos vein",
+      "la": "vena hemiazyga"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 17",
+        "quote": "vena hemiazygos"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-49868",
+    "structureId": "fma:49868",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Ophthalmic artery",
+      "la": "arteria ophthalmica"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 29",
+        "quote": "arteria ophthalmica"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50028",
+    "structureId": "fma:50028",
+    "system": "cardiovascular",
+    "region": "head",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Anterior cerebral artery",
+      "la": "arteria anterior cerebri",
+      "tr": "Anterior serebral arter"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria cerebri anterior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50082",
+    "structureId": "fma:50082",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Right middle cerebral artery",
+      "la": "arteria media cerebri"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria cerebri media"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50454",
+    "structureId": "fma:50454",
+    "system": "cardiovascular",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Cerebral arterial circle",
+      "la": "circulus arteriosus cerebri",
+      "tr": "Willis poligonu"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "circulus arteriosus cerebri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50518",
+    "structureId": "fma:50518",
+    "system": "cardiovascular",
+    "region": "head",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Posterior inferior cerebellar artery",
+      "la": "arteria inferior posterior cerebelli",
+      "tr": "Posterior inferior serebellar arter"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria inferior posterior cerebelli"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50531",
+    "structureId": "fma:50531",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Anterior spinal artery",
+      "la": "arteria spinalis anterior",
+      "tr": "Anterior spinal arter"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 40",
+        "quote": "Arteria spinalis anterior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50542",
+    "structureId": "fma:50542",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Basilar artery",
+      "la": "arteria basilaris",
+      "tr": "Baziler arter"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria basilaris"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50584",
+    "structureId": "fma:50584",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Right posterior cerebral artery",
+      "la": "arteria posterior cerebri"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria cerebri posterior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50585",
+    "structureId": "fma:50585",
+    "system": "cardiovascular",
+    "region": "head",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Left posterior cerebral artery",
+      "la": "arteria posterior cerebri"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 39",
+        "quote": "Arteria cerebri posterior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50735",
+    "structureId": "fma:50735",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "vein",
+    "level": "basic",
+    "name": {
+      "en": "Hepatic portal vein",
+      "la": "vena portae hepatis",
+      "tr": "Portal ven"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 47",
+        "quote": "vena portae hepatis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50737",
+    "structureId": "fma:50737",
+    "system": "cardiovascular",
+    "region": "abdomen",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Celiac artery",
+      "la": "truncus coeliacus",
+      "tr": "Çölyak arter"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 14",
+        "quote": "Truncus coeliacus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50801",
+    "structureId": "fma:50801",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Brain",
+      "la": "encephalon",
+      "tr": "Beyin"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 104",
+        "quote": "encephalon"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-50863",
+    "structureId": "fma:50863",
+    "system": "nervous",
+    "region": "head",
+    "kind": "nerve",
+    "level": "basic",
+    "name": {
+      "en": "Optic nerve",
+      "la": "nervus opticus",
+      "tr": "Nervus opticus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 2",
+        "quote": "Nervus opticus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-53082",
+    "structureId": "fma:53082",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Right orbit",
+      "la": "orbita",
+      "tr": "Sağ göz çukuru"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 14",
+        "quote": "orbita"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-53083",
+    "structureId": "fma:53083",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Left orbit",
+      "la": "orbita",
+      "tr": "Sol göz çukuru"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 14",
+        "quote": "orbita"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-53672",
+    "structureId": "fma:53672",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Neurocranium",
+      "la": "neurocranium",
+      "tr": "Beyin tası"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 12",
+        "quote": "Neurocranium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-53673",
+    "structureId": "fma:53673",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Viscerocranium",
+      "la": "viscerocranium"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 12",
+        "quote": "Viscerocranium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-54319",
+    "structureId": "fma:54319",
+    "system": "integumentary",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pubic hair",
+      "la": "pubes",
+      "tr": "Kasık kılı"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "pubes"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-54640",
+    "structureId": "fma:54640",
+    "system": "digestive",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Tongue",
+      "la": "lingua",
+      "tr": "Dil"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 36",
+        "quote": "lingua"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55021",
+    "structureId": "fma:55021",
+    "system": "digestive",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Soft palate",
+      "la": "palatum molle",
+      "tr": "Yumuşak damak"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 37",
+        "quote": "palatum molle"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55077",
+    "structureId": "fma:55077",
+    "system": "digestive",
+    "region": "neck",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pharyngeal raphe",
+      "la": "raphe pharyngis"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 13",
+        "quote": "raphe pharyngis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55093",
+    "structureId": "fma:55093",
+    "system": "digestive",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Submandibular gland",
+      "la": "glandula submandibularis",
+      "tr": "Çene altı tükrük bezi"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 37",
+        "quote": "Glandula submandibularis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55099",
+    "structureId": "fma:55099",
+    "system": "respiratory",
+    "region": "neck",
+    "kind": "cartilage",
+    "level": "basic",
+    "name": {
+      "en": "Thyroid cartilage",
+      "la": "cartilago thyreoidea"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 72",
+        "quote": "cartilago thyroidea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55109",
+    "structureId": "fma:55109",
+    "system": "respiratory",
+    "region": "neck",
+    "kind": "cartilage",
+    "level": "basic",
+    "name": {
+      "en": "Arytenoid cartilage",
+      "la": "cartilago arytenoidea",
+      "tr": "Aritenoid"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 30",
+        "quote": "Cartilago arytenoidea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55130",
+    "structureId": "fma:55130",
+    "system": "respiratory",
+    "region": "neck",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Epiglottis",
+      "la": "epiglottis",
+      "tr": "Epiglottis"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 30",
+        "quote": "epiglottis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55132",
+    "structureId": "fma:55132",
+    "system": "muscular",
+    "region": "neck",
+    "kind": "muscle",
+    "level": "basic",
+    "name": {
+      "en": "Thyrohyoid membrane",
+      "la": "membrana thyreohyoidea"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 11",
+        "quote": "membrana thyrohyoidea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55138",
+    "structureId": "fma:55138",
+    "system": "articular",
+    "region": "neck",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Median thyrohyoid ligament",
+      "la": "ligamentum thyreohyoideum medianum"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 30",
+        "quote": "ligamentum thyrohyoideum medianum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-55139",
+    "structureId": "fma:55139",
+    "system": "articular",
+    "region": "neck",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Lateral thyrohyoid ligament",
+      "la": "ligamentum thyreohyoideum laterale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 30",
+        "quote": "ligamentum thyrohyoideum laterale"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-57789",
+    "structureId": "fma:57789",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Right round ligament of uterus",
+      "la": "ligamentum teres uteri"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "Ligamentum teres uteri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-57790",
+    "structureId": "fma:57790",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Left round ligament of uterus",
+      "la": "ligamentum teres uteri"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "Ligamentum teres uteri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-58238",
+    "structureId": "fma:58238",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Cornea",
+      "la": "cornea",
+      "tr": "Saydam tabaka"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 50",
+        "quote": "cornea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-58269",
+    "structureId": "fma:58269",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Sclera",
+      "la": "sclera",
+      "tr": "Göz akı"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 63",
+        "quote": "Sclera"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-58298",
+    "structureId": "fma:58298",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Choroid",
+      "la": "chorioidea",
+      "tr": "Damar tabaka"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 12",
+        "quote": "choroidea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-58604",
+    "structureId": "fma:58604",
+    "system": "sensory",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Optic part of retina",
+      "la": "pars optica retinae"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 65",
+        "quote": "Pars optica retinae"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-58827",
+    "structureId": "fma:58827",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Vitreous body",
+      "la": "corpus vitreum",
+      "tr": "Vitreus sıvı"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 64",
+        "quote": "corpus vitreum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-59101",
+    "structureId": "fma:59101",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Lacrimal gland",
+      "la": "glandula lacrimalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 50",
+        "quote": "glandula lacrimalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-59368",
+    "structureId": "fma:59368",
+    "system": "sensory",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right lacrimal apparatus",
+      "la": "apparatus lacrimalis"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 66",
+        "quote": "apparatus lacrimalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-59369",
+    "structureId": "fma:59369",
+    "system": "sensory",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left lacrimal apparatus",
+      "la": "apparatus lacrimalis"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 66",
+        "quote": "apparatus lacrimalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61819",
+    "structureId": "fma:61819",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left cerebral hemisphere",
+      "la": "hemisphaerium cerebri"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 7",
+        "quote": "hemispherium cerebri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61857",
+    "structureId": "fma:61857",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Superior frontal gyrus",
+      "la": "gyrus frontalis superior"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "gyrus frontalis superior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61859",
+    "structureId": "fma:61859",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Middle frontal gyrus",
+      "la": "gyrus frontalis medius"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 9",
+        "quote": "Gyrus frontalis medius"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61860",
+    "structureId": "fma:61860",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Inferior frontal gyrus",
+      "la": "gyrus frontalis inferior",
+      "tr": "İnferior frontal girus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "Gyrus frontalis inferior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61894",
+    "structureId": "fma:61894",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Precentral gyrus",
+      "la": "gyrus precentralis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "gyrus precentralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61896",
+    "structureId": "fma:61896",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Postcentral gyrus",
+      "la": "gyrus postcentralis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "gyrus postcentralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61897",
+    "structureId": "fma:61897",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Supramarginal gyrus",
+      "la": "gyrus supramarginalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "gyrus supramarginalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61898",
+    "structureId": "fma:61898",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Angular gyrus",
+      "la": "gyrus angularis",
+      "tr": "Angular girus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "gyrus angularis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61899",
+    "structureId": "fma:61899",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Superior parietal lobule",
+      "la": "lobulus parietalis superior"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 9",
+        "quote": "Lobulus parietalis superior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61918",
+    "structureId": "fma:61918",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Parahippocampal gyrus",
+      "la": "gyrus parahippocampalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "gyrus parahippocampalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61950",
+    "structureId": "fma:61950",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Internal capsule",
+      "la": "capsula interna"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 10",
+        "quote": "Capsula interna"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61992",
+    "structureId": "fma:61992",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Forebrain",
+      "la": "cerebrum",
+      "tr": "Beyin"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 13",
+        "quote": "cerebrum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-61993",
+    "structureId": "fma:61993",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Midbrain",
+      "la": "mesencephalon",
+      "tr": "Orta beyin"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 1",
+        "quote": "Mesencephalon"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62000",
+    "structureId": "fma:62000",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Telencephalon",
+      "la": "telencephalon"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 1",
+        "quote": "Telencephalon"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62001",
+    "structureId": "fma:62001",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Diencephalon",
+      "la": "diencephalon"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 69",
+        "quote": "diencephalon"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62004",
+    "structureId": "fma:62004",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Medulla oblongata",
+      "la": "medulla oblongata",
+      "tr": "Omurilik soğanı"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 13",
+        "quote": "medulla oblongata"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62007",
+    "structureId": "fma:62007",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Thalamus",
+      "la": "thalamus",
+      "tr": "Talamus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 2",
+        "quote": "thalamus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62008",
+    "structureId": "fma:62008",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Hypothalamus",
+      "la": "hypothalamus",
+      "tr": "Hipotalamus"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 2",
+        "quote": "hypothalamus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62009",
+    "structureId": "fma:62009",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Epithalamus",
+      "la": "epithalamus"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 13",
+        "quote": "epithalamus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62032",
+    "structureId": "fma:62032",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Habenula",
+      "la": "habenula"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 16",
+        "quote": "Habenula"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62033",
+    "structureId": "fma:62033",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pineal body",
+      "la": "glandula pinealis",
+      "tr": "Kozalaksı bez"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 69",
+        "quote": "Glandula Pinealis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62327",
+    "structureId": "fma:62327",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Tuber cinereum",
+      "la": "tuber cinereum"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 69",
+        "quote": "tuber cinereum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62394",
+    "structureId": "fma:62394",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Peduncle of midbrain",
+      "la": "pedunculus cerebri"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 22",
+        "quote": "pedunculus cerebri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62403",
+    "structureId": "fma:62403",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Superior colliculus",
+      "la": "colliculus superior",
+      "tr": "Üst tepe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 14",
+        "quote": "colliculus superior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62404",
+    "structureId": "fma:62404",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Inferior colliculus",
+      "la": "colliculus inferior"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 15",
+        "quote": "colliculus inferior"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62434",
+    "structureId": "fma:62434",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Cingulate gyrus",
+      "la": "gyrus cinguli",
+      "tr": "Singulat korteks"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "Gyrus cinguli"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-62493",
+    "structureId": "fma:62493",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Hippocampus",
+      "la": "hippocampus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 10",
+        "quote": "Hippocampus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-67292",
+    "structureId": "fma:67292",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right cerebral hemisphere",
+      "la": "hemisphaerium cerebri"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 7",
+        "quote": "hemispherium cerebri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-67325",
+    "structureId": "fma:67325",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Occipital lobe",
+      "la": "lobus occipitalis",
+      "tr": "Oksipital lob"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "Lobus occipitalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-67329",
+    "structureId": "fma:67329",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Insula",
+      "la": "insula",
+      "tr": "İnsular lob"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "Lobus insularis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-67944",
+    "structureId": "fma:67944",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Cerebellum",
+      "la": "cerebellum",
+      "tr": "Beyincik"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 33",
+        "quote": "cerebellum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-70248",
+    "structureId": "fma:70248",
+    "system": "cardiovascular",
+    "region": "lower_limb",
+    "kind": "artery",
+    "level": "basic",
+    "name": {
+      "en": "Femoral artery",
+      "la": "arteria femoralis",
+      "tr": "Femoral sinir"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 15",
+        "quote": "ARTERIA FEMORALIS"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7096",
+    "structureId": "fma:7096",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right atrium",
+      "la": "atrium dextrum"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 5",
+        "quote": "atrium dextrum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7097",
+    "structureId": "fma:7097",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left atrium",
+      "la": "atrium sinistrum"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 5",
+        "quote": "atrium sinistrum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7098",
+    "structureId": "fma:7098",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right ventricle",
+      "la": "ventriculus dexter"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 5",
+        "quote": "ventriculus dexter"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7101",
+    "structureId": "fma:7101",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left ventricle",
+      "la": "ventriculus sinister"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 5",
+        "quote": "ventriculus sinister"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-71193",
+    "structureId": "fma:71193",
+    "system": "lymphatic",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Lobe of thymus",
+      "la": "lobus thymi"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 25",
+        "quote": "lobus thymi"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7131",
+    "structureId": "fma:7131",
+    "system": "digestive",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Esophagus",
+      "la": "oesophagus",
+      "tr": "Yemek borusu"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 83",
+        "quote": "oesophagus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7148",
+    "structureId": "fma:7148",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Stomach",
+      "la": "gaster",
+      "tr": "Mide"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 33",
+        "quote": "gaster"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7196",
+    "structureId": "fma:7196",
+    "system": "lymphatic",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Spleen",
+      "la": "splen",
+      "tr": "Dalak"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 25",
+        "quote": "Splen"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7197",
+    "structureId": "fma:7197",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Liver",
+      "la": "hepar",
+      "tr": "Karaciğer"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 33",
+        "quote": "hepar"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7198",
+    "structureId": "fma:7198",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pancreas",
+      "la": "pancreas",
+      "tr": "Pankreas"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 36",
+        "quote": "pancreas"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7200",
+    "structureId": "fma:7200",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Small intestine",
+      "la": "intestinum tenue",
+      "tr": "İnce bağırsak"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 36",
+        "quote": "intestinum tenue"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7201",
+    "structureId": "fma:7201",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Large intestine",
+      "la": "intestinum crassum",
+      "tr": "Kalın bağırsak"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 36",
+        "quote": "intestinum crassum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7202",
+    "structureId": "fma:7202",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Gallbladder",
+      "la": "vesica biliaris",
+      "tr": "Safra kesesi"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 36",
+        "quote": "vesica biliaris"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7203",
+    "structureId": "fma:7203",
+    "system": "urinary",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Kidney",
+      "la": "ren",
+      "tr": "Böbrek"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 54",
+        "quote": "Nephros"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7206",
+    "structureId": "fma:7206",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Duodenum",
+      "la": "duodenum",
+      "tr": "On iki parmak barsağı"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 41",
+        "quote": "duodenum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7207",
+    "structureId": "fma:7207",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Jejunum",
+      "la": "jejunum"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 41",
+        "quote": "jejunum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7208",
+    "structureId": "fma:7208",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Ileum",
+      "la": "ileum"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 41",
+        "quote": "ileum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7210",
+    "structureId": "fma:7210",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Testis",
+      "la": "testis",
+      "tr": "Er bezi"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 24",
+        "quote": "testis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72308",
+    "structureId": "fma:72308",
+    "system": "articular",
+    "region": "neck",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Stylohyoid ligament",
+      "la": "ligamentum stylohyoideum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 25",
+        "quote": "ligamentum stylohyoideum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7234",
+    "structureId": "fma:7234",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Tricuspid valve",
+      "la": "valva atrioventricularis dextra"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 6",
+        "quote": "valva tricuspidalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7235",
+    "structureId": "fma:7235",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Mitral valve",
+      "la": "valva atrioventricularis sinistra"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 6",
+        "quote": "valva mitralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7236",
+    "structureId": "fma:7236",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Aortic valve",
+      "la": "valva aortae"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 6",
+        "quote": "valva aortae"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7246",
+    "structureId": "fma:7246",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pulmonary valve",
+      "la": "valva trunci pulmonalis"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 6",
+        "quote": "valva trunci pulmonalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72969",
+    "structureId": "fma:72969",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right frontal lobe",
+      "la": "lobus frontalis"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 32",
+        "quote": "lobus frontalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72970",
+    "structureId": "fma:72970",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left frontal lobe",
+      "la": "lobus frontalis"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 32",
+        "quote": "lobus frontalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72971",
+    "structureId": "fma:72971",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right temporal lobe",
+      "la": "lobus temporalis"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 33",
+        "quote": "lobus temporalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72972",
+    "structureId": "fma:72972",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left temporal lobe",
+      "la": "lobus temporalis"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 33",
+        "quote": "lobus temporalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72973",
+    "structureId": "fma:72973",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right parietal lobe",
+      "la": "lobus parietalis"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 7",
+        "quote": "lobus parietalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72974",
+    "structureId": "fma:72974",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left parietal lobe",
+      "la": "lobus parietalis"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 7",
+        "quote": "lobus parietalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72980",
+    "structureId": "fma:72980",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right limbic lobe",
+      "la": "lobus limbicus"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "Lobus limbicus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-72981",
+    "structureId": "fma:72981",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left limbic lobe",
+      "la": "lobus limbicus"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "Lobus limbicus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7309",
+    "structureId": "fma:7309",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Right lung",
+      "la": "pulmo dexter"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 32",
+        "quote": "pulmo dexter"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7310",
+    "structureId": "fma:7310",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Left lung",
+      "la": "pulmo sinister"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 32",
+        "quote": "pulmo sinister"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7393",
+    "structureId": "fma:7393",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Tracheobronchial tree",
+      "la": "arbor tracheobronchialis",
+      "tr": "Bronş ağacı"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 32",
+        "quote": "arbor bronchialis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7394",
+    "structureId": "fma:7394",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Trachea",
+      "la": "trachea",
+      "tr": "Soluk borusu"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 21",
+        "quote": "Trachea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7405",
+    "structureId": "fma:7405",
+    "system": "respiratory",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Main bronchus",
+      "la": "bronchus principalis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 10",
+        "quote": "bronchus principalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-7485",
+    "structureId": "fma:7485",
+    "system": "skeletal",
+    "region": "thorax",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Sternum",
+      "la": "sternum",
+      "tr": "Göğüs kemiği"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 1",
+        "quote": "sternum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-77064",
+    "structureId": "fma:77064",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "ligament",
+    "level": "basic",
+    "name": {
+      "en": "Cardinal ligament",
+      "la": "ligamentum cardinale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "Ligamentum transversum cervicis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-78448",
+    "structureId": "fma:78448",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Lateral ventricle",
+      "la": "ventriculus lateralis"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 8",
+        "quote": "ventriculus lateralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-78454",
+    "structureId": "fma:78454",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Third ventricle",
+      "la": "ventriculus tertius",
+      "tr": "Üçüncü ventrikül"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 69",
+        "quote": "ventriculus tertius"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-78467",
+    "structureId": "fma:78467",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Cerebral aqueduct",
+      "la": "aquaeductus mesencephali"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 22",
+        "quote": "aqueductus mesencephali"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-78469",
+    "structureId": "fma:78469",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Fourth ventricle",
+      "la": "ventriculus quartus",
+      "tr": "Dördüncü ventrikül"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 22",
+        "quote": "ventriculus quartus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-78497",
+    "structureId": "fma:78497",
+    "system": "nervous",
+    "region": "back",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Central canal of spinal cord",
+      "la": "canalis centralis"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 22",
+        "quote": "canalis centralis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-79876",
+    "structureId": "fma:79876",
+    "system": "nervous",
+    "region": "head",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Brainstem",
+      "la": "truncus encephali",
+      "tr": "Beyin sapı"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-noroanatomi",
+        "locator": "s. 20",
+        "quote": "TRUNCUS ENCEPHALI"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-8612",
+    "structureId": "fma:8612",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Pulmonary trunk",
+      "la": "truncus pulmonalis"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 1",
+        "quote": "truncus pulmonalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-87217",
+    "structureId": "fma:87217",
+    "system": "cardiovascular",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Descending thoracic aorta",
+      "la": "aorta thoracica"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 4",
+        "quote": "aorta thoracica"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-9584",
+    "structureId": "fma:9584",
+    "system": "digestive",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Peritoneum",
+      "la": "peritoneum",
+      "tr": "Karın zarı"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 48",
+        "quote": "Peritoneum"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-9600",
+    "structureId": "fma:9600",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Prostate",
+      "la": "prostata",
+      "tr": "Prostat"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 60",
+        "quote": "prostata"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-9604",
+    "structureId": "fma:9604",
+    "system": "endocrine",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Adrenal gland",
+      "la": "glandula suprarenalis",
+      "tr": "Böbrek üstü bezleri"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 70",
+        "quote": "Glandula suprarenalis"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-9607",
+    "structureId": "fma:9607",
+    "system": "lymphatic",
+    "region": "thorax",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Thymus",
+      "la": "thymus",
+      "tr": "Timüs"
+    },
+    "laterality": "unpaired",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 10",
+        "quote": "thymus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-9615",
+    "structureId": "fma:9615",
+    "system": "respiratory",
+    "region": "neck",
+    "kind": "cartilage",
+    "level": "basic",
+    "name": {
+      "en": "Cricoid cartilage",
+      "la": "cartilago cricoidea"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 72",
+        "quote": "cartilago cricoidea"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.fma-9704",
+    "structureId": "fma:9704",
+    "system": "urinary",
+    "region": "abdomen",
+    "kind": "other",
+    "level": "basic",
+    "name": {
+      "en": "Ureter",
+      "la": "ureter",
+      "tr": "Sidik borusu"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 39",
+        "quote": "ureter"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0000995",
+    "structureId": "uberon:0000995",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ",
+    "level": "basic",
+    "name": {
+      "en": "uterus",
+      "la": "uterus",
+      "tr": "Rahim"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 24",
+        "quote": "Uterus"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0000996",
+    "structureId": "uberon:0000996",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ",
+    "level": "basic",
+    "name": {
+      "en": "vagina",
+      "la": "vagina",
+      "tr": "Vajina"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-lokomotor",
+        "locator": "s. 50",
+        "quote": "Vagina"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0001302",
+    "structureId": "uberon:0001302",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ",
+    "level": "basic",
+    "name": {
+      "en": "right uterine tube",
+      "la": "tuba uterina",
+      "tr": "Sağ fallop borusu"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 50",
+        "quote": "tuba uterina"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0001303",
+    "structureId": "uberon:0001303",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ",
+    "level": "basic",
+    "name": {
+      "en": "left uterine tube",
+      "la": "tuba uterina",
+      "tr": "Sol fallop borusu"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 50",
+        "quote": "tuba uterina"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0002118",
+    "structureId": "uberon:0002118",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ",
+    "level": "basic",
+    "name": {
+      "en": "Right ovary",
+      "la": "ovarium",
+      "tr": "Sağ yumurtalık"
+    },
+    "laterality": "right",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "ovarium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0002119",
+    "structureId": "uberon:0002119",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ",
+    "level": "basic",
+    "name": {
+      "en": "Left ovary",
+      "la": "ovarium",
+      "tr": "Sol yumurtalık"
+    },
+    "laterality": "left",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 63",
+        "quote": "ovarium"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0009853",
+    "structureId": "uberon:0009853",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "organ_part",
+    "level": "basic",
+    "name": {
+      "en": "body of uterus",
+      "la": "corpus uteri"
+    },
+    "laterality": "midline",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 65",
+        "quote": "corpus uteri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  },
+  {
+    "id": "hedef:iuc.uberon-0012332",
+    "structureId": "uberon:0012332",
+    "system": "reproductive",
+    "region": "pelvis_perineum",
+    "kind": "peritoneal_structure",
+    "level": "basic",
+    "name": {
+      "en": "broad ligament of uterus",
+      "la": "ligamentum latum uteri"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:iuc-ic-organlar",
+        "locator": "s. 64",
+        "quote": "ligamentum latum uteri"
+      }
+    ],
+    "notes": "Dönem 1–2 çekirdek: yapının Latince adı İÜC ders kitabında geçiyor (otomatik tarama; uzman kapsam onayı yok)."
+  }
+]

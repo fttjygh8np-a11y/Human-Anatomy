@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-09-25T18:15:19.640Z",
+  "contentVersion": "9cb374bfdeed33e1",
+  "targets": 350,
+  "gates": [
+    {
+      "no": 1,
+      "name": "Kapsam",
+      "target": "Dönem 1–2 hedeflerinin tamamı kapsam matrisinde ve envanterde",
+      "measured": "350 hedef yapı (kitaplarda geçen, bölgesi atanmış); bölgesi olmayanlar: docs/raporlar/iuc-kapsam-disi.md",
+      "status": "partial"
+    },
+    {
+      "no": 2,
+      "name": "3B model",
+      "target": "≥ %90 anatomik model",
+      "measured": "347/350 (%99)",
+      "status": "ok"
+    },
+    {
+      "no": 3,
+      "name": "Adlar",
+      "target": "LA %100; TR kitapta varsa kitaptan; ekranda yalnız İngilizce ad yok",
+      "measured": "LA 341/350 (%97) · TR 156/350 (%45) (kitaptan alıntılı 51) · yalnız İngilizce 1",
+      "status": "partial"
+    },
+    {
+      "no": 4,
+      "name": "Bilgi kartı",
+      "target": "Zorunlu alanlar %100, kitaptan alıntılı",
+      "measured": "119/350 (%34) tamam · kitaptan alıntılı alanı olan 0",
+      "status": "partial"
+    },
+    {
+      "no": 5,
+      "name": "İlişkiler",
+      "target": "Kitapta geçen sinir/arter/ven ilişkileri kayıtlı",
+      "measured": "En az bir ilişkisi olan hedef: 174/350 (%50)",
+      "status": "partial"
+    },
+    {
+      "no": 6,
+      "name": "Öğrenme",
+      "target": "Her kitap bölümüne ders; her hedef ≥ 2 soruda; bölge başına kesit sorusu",
+      "measured": "Ders 3 · yazılı soru 0 · kesit sorusu 0 · ≥2 yazılı soruda geçen hedef 0/350 (%0)",
+      "status": "partial"
+    },
+    {
+      "no": 7,
+      "name": "Teknik",
+      "target": "Üç tarayıcıda e2e/axe yeşil; gerçek cihazda ≥ 30 FPS; PWA",
+      "measured": "CI: yalnız Chromium. Gerçek cihaz FPS ölçülmedi. PWA yok (docs/raporlar/performans.md).",
+      "status": "partial"
+    },
+    {
+      "no": 8,
+      "name": "Yasal",
+      "target": "Kullanılan kaynakların lisansı birincil kaynaktan doğrulanmış; uygulamada atıf ve uyarı",
+      "measured": "Lisansı doğrulanmamış kullanılan kaynak: TA2 (FIPAT), TDK Güncel Türkçe Sözlük",
+      "status": "partial"
+    },
+    {
+      "no": 9,
+      "name": "Uzman",
+      "target": "Onay yoksa açıkça gösterilir; inceleme ekranı hazır",
+      "measured": "Uzman onaylı inceleme kaydı: 0. Uygulama \"uzman onayından geçmemiştir\" uyarısını gösteriyor.",
+      "status": "open"
+    }
+  ]
+}

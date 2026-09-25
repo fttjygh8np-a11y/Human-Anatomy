@@ -57,6 +57,7 @@ async function main(): Promise<number> {
     ...content.relations.map((r) => [`ilişki ${r.id}`, r] as [string, unknown]),
     ...content.lessons.map((l) => [l.id, l] as [string, unknown]),
     ...content.questions.map((q) => [q.id, q] as [string, unknown]),
+    ...content.scope.map((t) => [t.id, t] as [string, unknown]),
   ]
   let checked = 0
   let unchecked = 0

@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "fma:10419",
+    "names": {
+      "tr": {
+        "value": "Wirsung kanalı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 46",
+            "quote": "ductus pancreaticus (Wirsung kanalı)",
+            "note": "Kitapta \"ductus pancreaticus (Wirsung kanalı)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13303",
+    "names": {
+      "tr": {
+        "value": "Kol kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 6",
+            "quote": "Humerus (Kol kemiği)",
+            "note": "Kitapta \"Humerus (Kol kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13321",
+    "names": {
+      "tr": {
+        "value": "Köprücük kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Clavicula (Köprücük kemiği)",
+            "note": "Kitapta \"Clavicula (Köprücük kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13322",
+    "names": {
+      "tr": {
+        "value": "Sağ köprücük kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Clavicula (Köprücük kemiği)",
+            "note": "Kitapta \"Clavicula (Köprücük kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13323",
+    "names": {
+      "tr": {
+        "value": "Sol köprücük kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Clavicula (Köprücük kemiği)",
+            "note": "Kitapta \"Clavicula (Köprücük kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13394",
+    "names": {
+      "tr": {
+        "value": "Kürek kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Scapula (Kürek kemiği)",
+            "note": "Kitapta \"Scapula (Kürek kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13395",
+    "names": {
+      "tr": {
+        "value": "Sağ kürek kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Scapula (Kürek kemiği)",
+            "note": "Kitapta \"Scapula (Kürek kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:13396",
+    "names": {
+      "tr": {
+        "value": "Sol kürek kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Scapula (Kürek kemiği)",
+            "note": "Kitapta \"Scapula (Kürek kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:16202",
+    "names": {
+      "tr": {
+        "value": "Kuyruk sokumu kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 38",
+            "quote": "Os sacrum (kuyruk sokumu kemiği)",
+            "note": "Kitapta \"Os sacrum (kuyruk sokumu kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:16585",
+    "names": {
+      "tr": {
+        "value": "Kalça kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 7",
+            "quote": "Os coxae (kalça kemiği)",
+            "note": "Kitapta \"Os coxae (kalça kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Kemikleri",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 7",
+            "quote": "kemikleri (os coxae)",
+            "note": "Kitapta \"kemikleri (os coxae)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:16586",
+    "names": {
+      "tr": {
+        "value": "Sağ kalça kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 7",
+            "quote": "Os coxae (kalça kemiği)",
+            "note": "Kitapta \"Os coxae (kalça kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Sağ kemikleri",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 7",
+            "quote": "kemikleri (os coxae)",
+            "note": "Kitapta \"kemikleri (os coxae)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:16587",
+    "names": {
+      "tr": {
+        "value": "Sol kalça kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 7",
+            "quote": "Os coxae (kalça kemiği)",
+            "note": "Kitapta \"Os coxae (kalça kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Sol kemikleri",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 7",
+            "quote": "kemikleri (os coxae)",
+            "note": "Kitapta \"kemikleri (os coxae)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:23130",
+    "names": {
+      "tr": {
+        "value": "Sağ kol kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 6",
+            "quote": "Humerus (Kol kemiği)",
+            "note": "Kitapta \"Humerus (Kol kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23131",
+    "names": {
+      "tr": {
+        "value": "Sol kol kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 6",
+            "quote": "Humerus (Kol kemiği)",
+            "note": "Kitapta \"Humerus (Kol kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23218",
+    "names": {
+      "tr": {
+        "value": "Sağ göğüs kuşağı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Cingulum pectorale (göğüs kuşağı)",
+            "note": "Kitapta \"Cingulum pectorale (göğüs kuşağı)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:23219",
+    "names": {
+      "tr": {
+        "value": "Sol göğüs kuşağı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 5",
+            "quote": "Cingulum pectorale (göğüs kuşağı)",
+            "note": "Kitapta \"Cingulum pectorale (göğüs kuşağı)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24474",
+    "names": {
+      "tr": {
+        "value": "Sağ uyluk kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Femur (uyluk kemiği)",
+            "note": "Kitapta \"Femur (uyluk kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Yapının Latince adı \"os femoris\" kitaptaki \"femur\" terimiyle eşanlamlı kabul edildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Sağ major'lar",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 40",
+            "quote": "major'lar (os femoris)",
+            "note": "Kitapta \"major'lar (os femoris)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:24475",
+    "names": {
+      "tr": {
+        "value": "Sol uyluk kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Femur (uyluk kemiği)",
+            "note": "Kitapta \"Femur (uyluk kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Yapının Latince adı \"os femoris\" kitaptaki \"femur\" terimiyle eşanlamlı kabul edildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Sol major'lar",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 40",
+            "quote": "major'lar (os femoris)",
+            "note": "Kitapta \"major'lar (os femoris)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:24476",
+    "names": {
+      "tr": {
+        "value": "Kaval kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Tibia (kaval kemiği)",
+            "note": "Kitapta \"Tibia (kaval kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24477",
+    "names": {
+      "tr": {
+        "value": "Sağ kaval kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Tibia (kaval kemiği)",
+            "note": "Kitapta \"Tibia (kaval kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24478",
+    "names": {
+      "tr": {
+        "value": "Sol kaval kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Tibia (kaval kemiği)",
+            "note": "Kitapta \"Tibia (kaval kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24479",
+    "names": {
+      "tr": {
+        "value": "Kamış kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Fibula (Kamış kemiği)",
+            "note": "Kitapta \"Fibula (Kamış kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24480",
+    "names": {
+      "tr": {
+        "value": "Sağ kamış kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Fibula (Kamış kemiği)",
+            "note": "Kitapta \"Fibula (Kamış kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24481",
+    "names": {
+      "tr": {
+        "value": "Sol kamış kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Fibula (Kamış kemiği)",
+            "note": "Kitapta \"Fibula (Kamış kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24482",
+    "names": {
+      "tr": {
+        "value": "Sağ aşık kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 9",
+            "quote": "talus (aşık kemiği)",
+            "note": "Kitapta \"talus (aşık kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Yapının Latince adı \"os tali\" kitaptaki \"talus\" terimiyle eşanlamlı kabul edildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24483",
+    "names": {
+      "tr": {
+        "value": "Sol aşık kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 9",
+            "quote": "talus (aşık kemiği)",
+            "note": "Kitapta \"talus (aşık kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Yapının Latince adı \"os tali\" kitaptaki \"talus\" terimiyle eşanlamlı kabul edildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24485",
+    "names": {
+      "tr": {
+        "value": "Diz kapağı kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Patella (diz kapağı kemiği)",
+            "note": "Kitapta \"Patella (diz kapağı kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24486",
+    "names": {
+      "tr": {
+        "value": "Sağ diz kapağı kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Patella (diz kapağı kemiği)",
+            "note": "Kitapta \"Patella (diz kapağı kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24487",
+    "names": {
+      "tr": {
+        "value": "Sol diz kapağı kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Patella (diz kapağı kemiği)",
+            "note": "Kitapta \"Patella (diz kapağı kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24496",
+    "names": {
+      "tr": {
+        "value": "Topuk kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 9",
+            "quote": "calcaneus (topuk kemiği)",
+            "note": "Kitapta \"calcaneus (topuk kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24497",
+    "names": {
+      "tr": {
+        "value": "Sağ topuk kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 9",
+            "quote": "calcaneus (topuk kemiği)",
+            "note": "Kitapta \"calcaneus (topuk kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24498",
+    "names": {
+      "tr": {
+        "value": "Sol topuk kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 9",
+            "quote": "calcaneus (topuk kemiği)",
+            "note": "Kitapta \"calcaneus (topuk kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:258847",
+    "names": {
+      "tr": {
+        "value": "Sağ aşil tendonu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "tendo calcaneus'u (Aşil tendonu)",
+            "note": "Kitapta \"tendo calcaneus'u (Aşil tendonu)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:264844",
+    "names": {
+      "tr": {
+        "value": "Sol aşil tendonu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "tendo calcaneus'u (Aşil tendonu)",
+            "note": "Kitapta \"tendo calcaneus'u (Aşil tendonu)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:26661",
+    "names": {
+      "tr": {
+        "value": "Sağ bronş ağacı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 32",
+            "quote": "arbor bronchialis (bronş ağacı)",
+            "note": "Kitapta \"arbor bronchialis (bronş ağacı)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:26662",
+    "names": {
+      "tr": {
+        "value": "Sol bronş ağacı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 32",
+            "quote": "arbor bronchialis (bronş ağacı)",
+            "note": "Kitapta \"arbor bronchialis (bronş ağacı)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:3736",
+    "names": {
+      "tr": {
+        "value": "Yükselen aorta",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 8",
+            "quote": "aorta ascendens'in (yükselen aorta)",
+            "note": "Kitapta \"aorta ascendens'in (yükselen aorta)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:46565",
+    "names": {
+      "tr": {
+        "value": "Kafatası",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 12",
+            "quote": "cranium'u (kafatası)",
+            "note": "Kitapta \"cranium'u (kafatası)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Kafa bütünü",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 26",
+            "quote": "CRANIUM (KAFA BÜTÜNÜ)",
+            "note": "Kitapta \"CRANIUM (KAFA BÜTÜNÜ)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:50454",
+    "names": {
+      "tr": {
+        "value": "Willis poligonu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 39",
+            "quote": "Circulus Arteriosus Cerebri (Willis Poligonu)",
+            "note": "Kitapta \"Circulus Arteriosus Cerebri (Willis Poligonu)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:50801",
+    "names": {
+      "tr": {
+        "value": "Beyin",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 1",
+            "quote": "kısmı beyin (encephalon)",
+            "note": "Kitapta \"kısmı beyin (encephalon)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Kısmı beyin",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 1",
+            "quote": "kısmı beyin (encephalon)",
+            "note": "Kitapta \"kısmı beyin (encephalon)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:51061",
+    "names": {
+      "tr": {
+        "value": "Aşil tendonu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 100",
+            "quote": "tendo calcaneus'u (Aşil tendonu)",
+            "note": "Kitapta \"tendo calcaneus'u (Aşil tendonu)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52734",
+    "names": {
+      "tr": {
+        "value": "Alın kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 17",
+            "quote": "Os Frontale (Alın Kemiği)",
+            "note": "Kitapta \"Os Frontale (Alın Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52735",
+    "names": {
+      "tr": {
+        "value": "Ard kafa kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 12",
+            "quote": "OS OCCIPITALE (Ard kafa kemiği)",
+            "note": "Kitapta \"OS OCCIPITALE (Ard kafa kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52737",
+    "names": {
+      "tr": {
+        "value": "Şakak kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 15",
+            "quote": "Os Temporale (Şakak Kemiği)",
+            "note": "Kitapta \"Os Temporale (Şakak Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Petrosa'nın",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 32",
+            "quote": "petrosa'nın (os temporale)",
+            "note": "Kitapta \"petrosa'nın (os temporale)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:52738",
+    "names": {
+      "tr": {
+        "value": "Sağ şakak kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 15",
+            "quote": "Os Temporale (Şakak Kemiği)",
+            "note": "Kitapta \"Os Temporale (Şakak Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Sağ petrosa'nın",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 32",
+            "quote": "petrosa'nın (os temporale)",
+            "note": "Kitapta \"petrosa'nın (os temporale)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:52739",
+    "names": {
+      "tr": {
+        "value": "Sol şakak kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 15",
+            "quote": "Os Temporale (Şakak Kemiği)",
+            "note": "Kitapta \"Os Temporale (Şakak Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Sol petrosa'nın",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 32",
+            "quote": "petrosa'nın (os temporale)",
+            "note": "Kitapta \"petrosa'nın (os temporale)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:52741",
+    "names": {
+      "tr": {
+        "value": "Gözyaşı kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 24",
+            "quote": "Os Lacrimale (Gözyaşı Kemiği)",
+            "note": "Kitapta \"Os Lacrimale (Gözyaşı Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52745",
+    "names": {
+      "tr": {
+        "value": "Burun kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 24",
+            "quote": "Os Nasale (Burun Kemiği)",
+            "note": "Kitapta \"Os Nasale (Burun Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52746",
+    "names": {
+      "tr": {
+        "value": "Damak kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 23",
+            "quote": "Os Palatinum (Damak Kemiği)",
+            "note": "Kitapta \"Os Palatinum (Damak Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52747",
+    "names": {
+      "tr": {
+        "value": "Elmacık kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 21",
+            "quote": "Os Zygomaticum (Elmacık Kemiği)",
+            "note": "Kitapta \"Os Zygomaticum (Elmacık Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52748",
+    "names": {
+      "tr": {
+        "value": "Alt çene kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 21",
+            "quote": "Mandibula (Alt Çene Kemiği)",
+            "note": "Kitapta \"Mandibula (Alt Çene Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52749",
+    "names": {
+      "tr": {
+        "value": "Dil kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 25",
+            "quote": "Os Hyoideum (Dil Kemiği)",
+            "note": "Kitapta \"Os Hyoideum (Dil Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52788",
+    "names": {
+      "tr": {
+        "value": "Sağ çeper kemik",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 19",
+            "quote": "Os Parietale (Çeper Kemik)",
+            "note": "Kitapta \"Os Parietale (Çeper Kemik)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52789",
+    "names": {
+      "tr": {
+        "value": "Sol çeper kemik",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 19",
+            "quote": "Os Parietale (Çeper Kemik)",
+            "note": "Kitapta \"Os Parietale (Çeper Kemik)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52892",
+    "names": {
+      "tr": {
+        "value": "Sağ elmacık kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 21",
+            "quote": "Os Zygomaticum (Elmacık Kemiği)",
+            "note": "Kitapta \"Os Zygomaticum (Elmacık Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:52893",
+    "names": {
+      "tr": {
+        "value": "Sol elmacık kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 21",
+            "quote": "Os Zygomaticum (Elmacık Kemiği)",
+            "note": "Kitapta \"Os Zygomaticum (Elmacık Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53082",
+    "names": {
+      "tr": {
+        "value": "Sağ göz çukuru",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 28",
+            "quote": "Orbita (Göz çukuru)",
+            "note": "Kitapta \"Orbita (Göz çukuru)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53083",
+    "names": {
+      "tr": {
+        "value": "Sol göz çukuru",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 28",
+            "quote": "Orbita (Göz çukuru)",
+            "note": "Kitapta \"Orbita (Göz çukuru)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53645",
+    "names": {
+      "tr": {
+        "value": "Sağ gözyaşı kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 24",
+            "quote": "Os Lacrimale (Gözyaşı Kemiği)",
+            "note": "Kitapta \"Os Lacrimale (Gözyaşı Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53646",
+    "names": {
+      "tr": {
+        "value": "Sol gözyaşı kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 24",
+            "quote": "Os Lacrimale (Gözyaşı Kemiği)",
+            "note": "Kitapta \"Os Lacrimale (Gözyaşı Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53647",
+    "names": {
+      "tr": {
+        "value": "Sağ burun kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 24",
+            "quote": "Os Nasale (Burun Kemiği)",
+            "note": "Kitapta \"Os Nasale (Burun Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53648",
+    "names": {
+      "tr": {
+        "value": "Sol burun kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 24",
+            "quote": "Os Nasale (Burun Kemiği)",
+            "note": "Kitapta \"Os Nasale (Burun Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53649",
+    "names": {
+      "tr": {
+        "value": "Sağ üst çene kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 19",
+            "quote": "Maxilla (Üst Çene Kemiği)",
+            "note": "Kitapta \"Maxilla (Üst Çene Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53650",
+    "names": {
+      "tr": {
+        "value": "Sol üst çene kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 19",
+            "quote": "Maxilla (Üst Çene Kemiği)",
+            "note": "Kitapta \"Maxilla (Üst Çene Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53655",
+    "names": {
+      "tr": {
+        "value": "Sağ damak kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 23",
+            "quote": "Os Palatinum (Damak Kemiği)",
+            "note": "Kitapta \"Os Palatinum (Damak Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53656",
+    "names": {
+      "tr": {
+        "value": "Sol damak kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 23",
+            "quote": "Os Palatinum (Damak Kemiği)",
+            "note": "Kitapta \"Os Palatinum (Damak Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:53672",
+    "names": {
+      "tr": {
+        "value": "Beyin tası",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 27",
+            "quote": "neurocranium (beyin tası)",
+            "note": "Kitapta \"neurocranium (beyin tası)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:55021",
+    "names": {
+      "tr": {
+        "value": "Yumuşak damak",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "yumuşak damak (palatum molle)",
+            "note": "Kitapta \"yumuşak damak (palatum molle)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:55093",
+    "names": {
+      "tr": {
+        "value": "Çene altı tükrük bezi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "Glandula submandibularis (çene altı tükrük bezi)",
+            "note": "Kitapta \"Glandula submandibularis (çene altı tükrük bezi)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:59791",
+    "names": {
+      "tr": {
+        "value": "Dil altı tükrük bezi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "glandula sublingualis (dil altı tükrük bezi)",
+            "note": "Kitapta \"glandula sublingualis (dil altı tükrük bezi)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:59802",
+    "names": {
+      "tr": {
+        "value": "Sağ çene altı tükrük bezi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "Glandula submandibularis (çene altı tükrük bezi)",
+            "note": "Kitapta \"Glandula submandibularis (çene altı tükrük bezi)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:59803",
+    "names": {
+      "tr": {
+        "value": "Sol çene altı tükrük bezi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "Glandula submandibularis (çene altı tükrük bezi)",
+            "note": "Kitapta \"Glandula submandibularis (çene altı tükrük bezi)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:59804",
+    "names": {
+      "tr": {
+        "value": "Sağ dil altı tükrük bezi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "glandula sublingualis (dil altı tükrük bezi)",
+            "note": "Kitapta \"glandula sublingualis (dil altı tükrük bezi)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:59805",
+    "names": {
+      "tr": {
+        "value": "Sol dil altı tükrük bezi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 37",
+            "quote": "glandula sublingualis (dil altı tükrük bezi)",
+            "note": "Kitapta \"glandula sublingualis (dil altı tükrük bezi)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:62004",
+    "names": {
+      "tr": {
+        "value": "Omurilik soğanı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 21",
+            "quote": "Bulbus (Omurilik soğanı)",
+            "note": "Kitapta \"Bulbus (Omurilik soğanı)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:67943",
+    "names": {
+      "tr": {
+        "value": "Köprü",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 21",
+            "quote": "Pons (Köprü)",
+            "note": "Kitapta \"Pons (Köprü)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7131",
+    "names": {
+      "tr": {
+        "value": "Yemek borusu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 36",
+            "quote": "oesophagus (yemek borusu)",
+            "note": "Kitapta \"oesophagus (yemek borusu)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7163",
+    "names": {
+      "tr": {
+        "value": "Deri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 57",
+            "quote": "Deri (Cutis)",
+            "note": "Kitapta \"Deri (Cutis)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7197",
+    "names": {
+      "tr": {
+        "value": "Karaciğer",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 33",
+            "quote": "hepar (karaciğer)",
+            "note": "Kitapta \"hepar (karaciğer)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7200",
+    "names": {
+      "tr": {
+        "value": "İnce bağırsak",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 36",
+            "quote": "intestinum tenue (ince bağırsak)",
+            "note": "Kitapta \"intestinum tenue (ince bağırsak)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7201",
+    "names": {
+      "tr": {
+        "value": "Kalın bağırsak",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 36",
+            "quote": "intestinum crassum (kalın bağırsak)",
+            "note": "Kitapta \"intestinum crassum (kalın bağırsak)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7202",
+    "names": {
+      "tr": {
+        "value": "Safra kesesi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 48",
+            "quote": "vesica biliaris (safra kesesi)",
+            "note": "Kitapta \"vesica biliaris (safra kesesi)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7206",
+    "names": {
+      "tr": {
+        "value": "On iki parmak barsağı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 41",
+            "quote": "Duodenum (On İki Parmak Barsağı)",
+            "note": "Kitapta \"Duodenum (On İki Parmak Barsağı)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7393",
+    "names": {
+      "tr": {
+        "value": "Bronş ağacı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 32",
+            "quote": "arbor bronchialis (bronş ağacı)",
+            "note": "Kitapta \"arbor bronchialis (bronş ağacı)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7394",
+    "names": {
+      "tr": {
+        "value": "Soluk borusu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 32",
+            "quote": "Trachea (Soluk Borusu)",
+            "note": "Kitapta \"Trachea (Soluk Borusu)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:7485",
+    "names": {
+      "tr": {
+        "value": "Göğüs kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 12",
+            "quote": "sternum'u (göğüs kemiği)",
+            "note": "Kitapta \"sternum'u (göğüs kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:78454",
+    "names": {
+      "tr": {
+        "value": "Üçüncü ventrikül",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 37",
+            "quote": "ventriculus tertius (üçüncü ventrikül)",
+            "note": "Kitapta \"ventriculus tertius (üçüncü ventrikül)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:78469",
+    "names": {
+      "tr": {
+        "value": "Dördüncü ventrikül",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 37",
+            "quote": "ventriculus quartus (dördüncü ventrikül)",
+            "note": "Kitapta \"ventriculus quartus (dördüncü ventrikül)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:79876",
+    "names": {
+      "tr": {
+        "value": "Beyin sapı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-noroanatomi",
+            "locator": "s. 21",
+            "quote": "Truncus Encephali (Beyin Sapı)",
+            "note": "Kitapta \"Truncus Encephali (Beyin Sapı)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9611",
+    "names": {
+      "tr": {
+        "value": "Uyluk kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 8",
+            "quote": "Femur (uyluk kemiği)",
+            "note": "Kitapta \"Femur (uyluk kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Yapının Latince adı \"os femoris\" kitaptaki \"femur\" terimiyle eşanlamlı kabul edildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "Major'lar",
+        "lang": "tr",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 40",
+            "quote": "major'lar (os femoris)",
+            "note": "Kitapta \"major'lar (os femoris)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fma:9613",
+    "names": {
+      "tr": {
+        "value": "Çeper kemik",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 19",
+            "quote": "Os Parietale (Çeper Kemik)",
+            "note": "Kitapta \"Os Parietale (Çeper Kemik)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9708",
+    "names": {
+      "tr": {
+        "value": "Aşık kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 9",
+            "quote": "talus (aşık kemiği)",
+            "note": "Kitapta \"talus (aşık kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Yapının Latince adı \"os tali\" kitaptaki \"talus\" terimiyle eşanlamlı kabul edildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9711",
+    "names": {
+      "tr": {
+        "value": "Üst çene kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-lokomotor",
+            "locator": "s. 19",
+            "quote": "Maxilla (Üst Çene Kemiği)",
+            "note": "Kitapta \"Maxilla (Üst Çene Kemiği)\" olarak geçer; Latince terim TA2 ile eşleştirildi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0002118",
+    "names": {
+      "tr": {
+        "value": "Sağ yumurtalık",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Ovarium (Yumurtalık)",
+            "note": "Kitapta \"Ovarium (Yumurtalık)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "uberon:0002119",
+    "names": {
+      "tr": {
+        "value": "Sol yumurtalık",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:iuc-ic-organlar",
+            "locator": "s. 64",
+            "quote": "Ovarium (Yumurtalık)",
+            "note": "Kitapta \"Ovarium (Yumurtalık)\" olarak geçer; Latince terim TA2 ile eşleştirildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    }
+  }
+]

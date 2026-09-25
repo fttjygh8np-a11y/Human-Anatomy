@@ -48,6 +48,22 @@
     }
   },
   {
+    "id": "fma:10081",
+    "names": {
+      "la": {
+        "value": "vertebra thoracica XII",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1059",
+            "note": "Kurallı türetme (TA2'de bu yapı için ayrı terim yok): TA2 \"vertebra thoracica\" terimine omur numarası (Roma rakamı) eklendi; TA2 aynı biçimi kullanır (ör. \"vertebra cervicalis VI\"). https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "fma:10419",
     "names": {
       "la": {
@@ -1905,6 +1921,70 @@
     }
   },
   {
+    "id": "fma:13362",
+    "names": {
+      "la": {
+        "value": "lobus dexter hepatis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3049",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3049, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "lobus hepatis dexter",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3049"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3049"
+    }
+  },
+  {
+    "id": "fma:13363",
+    "names": {
+      "la": {
+        "value": "lobus sinister hepatis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3050",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3050, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "lobus hepatis sinister",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3050"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3050"
+    }
+  },
+  {
     "id": "fma:13365",
     "names": {
       "la": {
@@ -1921,6 +2001,44 @@
     },
     "externalIds": {
       "ta2": "3053"
+    }
+  },
+  {
+    "id": "fma:13373",
+    "names": {
+      "la": {
+        "value": "musculus pectoralis major",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2301",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2301, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2301"
+    }
+  },
+  {
+    "id": "fma:13374",
+    "names": {
+      "la": {
+        "value": "musculus pectoralis major",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2301",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2301, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2301"
     }
   },
   {
@@ -2793,6 +2911,25 @@
     },
     "externalIds": {
       "ta2": "2460"
+    }
+  },
+  {
+    "id": "fma:13478",
+    "names": {
+      "la": {
+        "value": "columna vertebralis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1001",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 1001, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "1001"
     }
   },
   {
@@ -3985,6 +4122,92 @@
     },
     "externalIds": {
       "ta2": "4228"
+    }
+  },
+  {
+    "id": "fma:14778",
+    "names": {
+      "la": {
+        "value": "arteria hepatica dextra",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4229",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4229, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "ramus dexter arteriae hepaticae propriae",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4229"
+          }
+        ]
+      },
+      {
+        "value": "right branch of proper hepatic artery",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4229"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4229"
+    }
+  },
+  {
+    "id": "fma:14779",
+    "names": {
+      "la": {
+        "value": "arteria hepatica sinistra",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4234",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4234, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "ramus sinister arteriae hepaticae propriae",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4234"
+          }
+        ]
+      },
+      {
+        "value": "left branch of proper hepatic artery",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4234"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4234"
     }
   },
   {
@@ -5326,6 +5549,25 @@
     },
     "externalIds": {
       "ta2": "3749"
+    }
+  },
+  {
+    "id": "fma:16580",
+    "names": {
+      "la": {
+        "value": "pelvis ossea",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1282",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 1282, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "1282"
     }
   },
   {
@@ -7159,6 +7401,44 @@
     },
     "externalIds": {
       "ta2": "4675"
+    }
+  },
+  {
+    "id": "fma:20796",
+    "names": {
+      "la": {
+        "value": "arteria profunda femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4685",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4685, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4685"
+    }
+  },
+  {
+    "id": "fma:20797",
+    "names": {
+      "la": {
+        "value": "arteria profunda femoris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4685",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4685, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4685"
     }
   },
   {
@@ -10521,6 +10801,44 @@
     }
   },
   {
+    "id": "fma:22672",
+    "names": {
+      "la": {
+        "value": "arteria thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4619",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4619, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4619"
+    }
+  },
+  {
+    "id": "fma:22673",
+    "names": {
+      "la": {
+        "value": "arteria thoracoacromialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4619",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4619, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4619"
+    }
+  },
+  {
     "id": "fma:22674",
     "names": {
       "la": {
@@ -13792,6 +14110,114 @@
     },
     "externalIds": {
       "ta2": "4629"
+    }
+  },
+  {
+    "id": "fma:23218",
+    "names": {
+      "la": {
+        "value": "cingulum pectorale",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 361, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "cingulum membrorum superiorum",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361"
+          }
+        ]
+      },
+      {
+        "value": "upper limb girdle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361"
+          }
+        ]
+      },
+      {
+        "value": "shoulder girdle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "361"
+    }
+  },
+  {
+    "id": "fma:23219",
+    "names": {
+      "la": {
+        "value": "cingulum pectorale",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 361, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "cingulum membrorum superiorum",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361"
+          }
+        ]
+      },
+      {
+        "value": "upper limb girdle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361"
+          }
+        ]
+      },
+      {
+        "value": "shoulder girdle",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 361"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "361"
     }
   },
   {
@@ -17620,6 +18046,92 @@
     }
   },
   {
+    "id": "fma:26661",
+    "names": {
+      "la": {
+        "value": "arbor tracheobronchialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3212, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arbor bronchialis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212"
+          }
+        ]
+      },
+      {
+        "value": "bronchial tree",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3212"
+    }
+  },
+  {
+    "id": "fma:26662",
+    "names": {
+      "la": {
+        "value": "arbor tracheobronchialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3212, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arbor bronchialis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212"
+          }
+        ]
+      },
+      {
+        "value": "bronchial tree",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3212"
+    }
+  },
+  {
     "id": "fma:268667",
     "names": {
       "la": {
@@ -19800,6 +20312,36 @@
     ],
     "externalIds": {
       "ta2": "1867"
+    }
+  },
+  {
+    "id": "fma:3734",
+    "names": {
+      "la": {
+        "value": "aorta",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4175",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4175, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Aort",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"aort\" (madde_id 9722)",
+            "note": "TDK tanımı: \"► ana atardamar\". TA2 4175 (aorta) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4175"
     }
   },
   {
@@ -24372,6 +24914,49 @@
     },
     "externalIds": {
       "ta2": "2485"
+    }
+  },
+  {
+    "id": "fma:3862",
+    "names": {
+      "la": {
+        "value": "arteria interventricularis anterior",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4143",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4143, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "ramus interventricularis anterior arteriae coronariae sinistrae",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4143"
+          }
+        ]
+      },
+      {
+        "value": "anterior interventricular branch of left coronary artery",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4143"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4143"
     }
   },
   {
@@ -29081,6 +29666,49 @@
     }
   },
   {
+    "id": "fma:46565",
+    "names": {
+      "la": {
+        "value": "cranium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 406",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 406, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Kafatası",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"kafatası\" (madde_id 37316)",
+            "note": "TDK tanımı: \"İnsanda ve omurgalılarda içinde beyin bulunan, başın kemik bölümü\". TA2 406 (cranium) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "skull",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 406"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "406"
+    }
+  },
+  {
     "id": "fma:46576",
     "names": {
       "la": {
@@ -32373,6 +33001,87 @@
     }
   },
   {
+    "id": "fma:50039",
+    "names": {
+      "la": {
+        "value": "arteria coronaria dextra",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4131",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4131, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4131"
+    }
+  },
+  {
+    "id": "fma:50040",
+    "names": {
+      "la": {
+        "value": "arteria coronaria sinistra",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4142",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4142, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4142"
+    }
+  },
+  {
+    "id": "fma:50082",
+    "names": {
+      "la": {
+        "value": "arteria media cerebri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4509",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4509, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteria cerebri media",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4509"
+          }
+        ]
+      },
+      {
+        "value": "arteria cerebralis media",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4509"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4509"
+    }
+  },
+  {
     "id": "fma:50084",
     "names": {
       "la": {
@@ -32828,6 +33537,25 @@
     }
   },
   {
+    "id": "fma:50454",
+    "names": {
+      "la": {
+        "value": "circulus arteriosus cerebri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4516",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4516, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4516"
+    }
+  },
+  {
     "id": "fma:50518",
     "names": {
       "la": {
@@ -33120,6 +33848,92 @@
     }
   },
   {
+    "id": "fma:50561",
+    "names": {
+      "la": {
+        "value": "rami pontis arteriae basilaris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4559",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4559, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteriae pontis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4559"
+          }
+        ]
+      },
+      {
+        "value": "pontine arteries",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4559"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4559"
+    }
+  },
+  {
+    "id": "fma:50562",
+    "names": {
+      "la": {
+        "value": "rami pontis arteriae basilaris",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4559",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4559, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteriae pontis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4559"
+          }
+        ]
+      },
+      {
+        "value": "pontine arteries",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4559"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4559"
+    }
+  },
+  {
     "id": "fma:50573",
     "names": {
       "la": {
@@ -33246,6 +34060,92 @@
     ],
     "externalIds": {
       "ta2": "4563"
+    }
+  },
+  {
+    "id": "fma:50584",
+    "names": {
+      "la": {
+        "value": "arteria posterior cerebri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4565",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4565, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteria cerebri posterior",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4565"
+          }
+        ]
+      },
+      {
+        "value": "arteria cerebralis posterior",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4565"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4565"
+    }
+  },
+  {
+    "id": "fma:50585",
+    "names": {
+      "la": {
+        "value": "arteria posterior cerebri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4565",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4565, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arteria cerebri posterior",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4565"
+          }
+        ]
+      },
+      {
+        "value": "arteria cerebralis posterior",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4565"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4565"
     }
   },
   {
@@ -33477,6 +34377,36 @@
     },
     "externalIds": {
       "ta2": "4211"
+    }
+  },
+  {
+    "id": "fma:50801",
+    "names": {
+      "la": {
+        "value": "encephalon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5415",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5415, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Beyin",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"beyin\" (madde_id 10364)",
+            "note": "TDK tanımı: \"Kafatasının içinde beyin zarları ile örtülü, iki yarım küre biçiminde sinir kütlesinden oluşan, duyum ve bilinç merkezlerinin bulunduğu organ; ensefal, dimağ\". TA2 5415 (encephalon) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5415"
     }
   },
   {
@@ -35814,6 +36744,70 @@
     }
   },
   {
+    "id": "fma:53082",
+    "names": {
+      "la": {
+        "value": "orbita",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 469",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 469, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bony orbit",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 469"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "469"
+    }
+  },
+  {
+    "id": "fma:53083",
+    "names": {
+      "la": {
+        "value": "orbita",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 469",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 469, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "bony orbit",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 469"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "469"
+    }
+  },
+  {
     "id": "fma:53549",
     "names": {
       "la": {
@@ -36092,6 +37086,44 @@
     }
   },
   {
+    "id": "fma:53672",
+    "names": {
+      "la": {
+        "value": "neurocranium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 354",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 354, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "354"
+    }
+  },
+  {
+    "id": "fma:53673",
+    "names": {
+      "la": {
+        "value": "viscerocranium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 355",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 355, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "355"
+    }
+  },
+  {
     "id": "fma:54319",
     "names": {
       "la": {
@@ -36311,6 +37343,49 @@
     ],
     "externalIds": {
       "ta2": "3151"
+    }
+  },
+  {
+    "id": "fma:55021",
+    "names": {
+      "la": {
+        "value": "palatum molle",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2780",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2780, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Yumuşak damak",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"yumuşak damak\" (madde_id 51753)",
+            "note": "TDK tanımı: \"Damağın boğaza yakın bölümü\". TA2 2780 (palatum molle) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "velum palatinum",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2780"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2780"
     }
   },
   {
@@ -37924,6 +38999,44 @@
     }
   },
   {
+    "id": "fma:59368",
+    "names": {
+      "la": {
+        "value": "apparatus lacrimalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6845",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6845, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6845"
+    }
+  },
+  {
+    "id": "fma:59369",
+    "names": {
+      "la": {
+        "value": "apparatus lacrimalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 6845",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 6845, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "6845"
+    }
+  },
+  {
     "id": "fma:59402",
     "names": {
       "la": {
@@ -38188,6 +39301,38 @@
     },
     "externalIds": {
       "ta2": "2807"
+    }
+  },
+  {
+    "id": "fma:61819",
+    "names": {
+      "la": {
+        "value": "hemisphaerium cerebri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5418",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5418, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "hemispherium cerebri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5418"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5418"
     }
   },
   {
@@ -38689,6 +39834,60 @@
     }
   },
   {
+    "id": "fma:61992",
+    "names": {
+      "la": {
+        "value": "cerebrum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5416",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5416, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Beyin",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"beyin\" (madde_id 10364)",
+            "note": "TDK tanımı: \"Kafatasının içinde beyin zarları ile örtülü, iki yarım küre biçiminde sinir kütlesinden oluşan, duyum ve bilinç merkezlerinin bulunduğu organ; ensefal, dimağ\". TA2 5416 (cerebrum) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "prosencephalon",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5416"
+          }
+        ]
+      },
+      {
+        "value": "forebrain",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5416"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5416"
+    }
+  },
+  {
     "id": "fma:61993",
     "names": {
       "la": {
@@ -38716,6 +39915,44 @@
     },
     "externalIds": {
       "ta2": "5874"
+    }
+  },
+  {
+    "id": "fma:62000",
+    "names": {
+      "la": {
+        "value": "telencephalon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5430",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5430, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5430"
+    }
+  },
+  {
+    "id": "fma:62001",
+    "names": {
+      "la": {
+        "value": "diencephalon",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5661",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5661, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5661"
     }
   },
   {
@@ -38876,6 +40113,25 @@
     },
     "externalIds": {
       "ta2": "5714"
+    }
+  },
+  {
+    "id": "fma:62009",
+    "names": {
+      "la": {
+        "value": "epithalamus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5675",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5675, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5675"
     }
   },
   {
@@ -39617,6 +40873,38 @@
           }
         ]
       }
+    }
+  },
+  {
+    "id": "fma:67292",
+    "names": {
+      "la": {
+        "value": "hemisphaerium cerebri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5418",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5418, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "hemispherium cerebri",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5418"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5418"
     }
   },
   {
@@ -41175,6 +42463,36 @@
     }
   },
   {
+    "id": "fma:7088",
+    "names": {
+      "la": {
+        "value": "cor",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3932",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3932, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Kalp",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"kalp\" (madde_id 37818)",
+            "note": "TDK tanımı: \"Göğüs orta boşluğunda, iki akciğer arasında, vücudun her yanından gelen kirli kanı akciğerlere ve oradan gelen temiz kanı da vücuda dağıtan organ; yürek\". TA2 3932 (cor) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3932"
+    }
+  },
+  {
     "id": "fma:70917",
     "names": {
       "la": {
@@ -41229,6 +42547,82 @@
     },
     "externalIds": {
       "ta2": "5071"
+    }
+  },
+  {
+    "id": "fma:7096",
+    "names": {
+      "la": {
+        "value": "atrium dextrum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4022",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4022, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4022"
+    }
+  },
+  {
+    "id": "fma:7097",
+    "names": {
+      "la": {
+        "value": "atrium sinistrum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4054",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4054, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4054"
+    }
+  },
+  {
+    "id": "fma:7098",
+    "names": {
+      "la": {
+        "value": "ventriculus dexter",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4038",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4038, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4038"
+    }
+  },
+  {
+    "id": "fma:7101",
+    "names": {
+      "la": {
+        "value": "ventriculus sinister",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4062",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4062, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "4062"
     }
   },
   {
@@ -41802,6 +43196,36 @@
     }
   },
   {
+    "id": "fma:7197",
+    "names": {
+      "la": {
+        "value": "hepar",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3023",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3023, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Karaciğer",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"karaciğer\" (madde_id 36199)",
+            "note": "TDK tanımı: \"Karın boşluğunun sağ üst bölgesinde bulunan, öd salgılayan, şeker depolayan, iri, açık kahverengi organ\". TA2 3023 (hepar) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3023"
+    }
+  },
+  {
     "id": "fma:7198",
     "names": {
       "la": {
@@ -41829,6 +43253,92 @@
     },
     "externalIds": {
       "ta2": "3114"
+    }
+  },
+  {
+    "id": "fma:7200",
+    "names": {
+      "la": {
+        "value": "intestinum tenue",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2933",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2933, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "İnce bağırsak",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"ince bağırsak\" (madde_id 33882)",
+            "note": "TDK tanımı: \"Sindirim borusunun mideden kalın bağırsağa kadar olan yiyeceklerin sindirilmesi görevini yapan bölümü\". TA2 2933 (intestinum tenue) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "small bowel",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2933"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2933"
+    }
+  },
+  {
+    "id": "fma:7201",
+    "names": {
+      "la": {
+        "value": "intestinum crassum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2963",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2963, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Kalın bağırsak",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"kalın bağırsak\" (madde_id 37686)",
+            "note": "TDK tanımı: \"Sindirim borusunun ince bağırsaktan anüse kadar ortalama 1,5 metre uzunluğundaki bölümü\". TA2 2963 (intestinum crassum) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "large bowel",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2963"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "2963"
     }
   },
   {
@@ -42034,6 +43544,44 @@
     }
   },
   {
+    "id": "fma:7207",
+    "names": {
+      "la": {
+        "value": "jejunum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2958",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2958, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2958"
+    }
+  },
+  {
+    "id": "fma:7208",
+    "names": {
+      "la": {
+        "value": "ileum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 2959",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 2959, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "2959"
+    }
+  },
+  {
     "id": "fma:7210",
     "names": {
       "la": {
@@ -42217,6 +43765,111 @@
     },
     "externalIds": {
       "ta2": "1567"
+    }
+  },
+  {
+    "id": "fma:7234",
+    "names": {
+      "la": {
+        "value": "valva atrioventricularis dextra",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3982",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3982, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "valva tricuspidalis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3982"
+          }
+        ]
+      },
+      {
+        "value": "tricuspid valve",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3982"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3982"
+    }
+  },
+  {
+    "id": "fma:7235",
+    "names": {
+      "la": {
+        "value": "valva atrioventricularis sinistra",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3987",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3987, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "valva mitralis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3987"
+          }
+        ]
+      },
+      {
+        "value": "mitral valve",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3987"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3987"
+    }
+  },
+  {
+    "id": "fma:7236",
+    "names": {
+      "la": {
+        "value": "valva aortae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3993",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3993, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3993"
     }
   },
   {
@@ -42465,6 +44118,38 @@
     ],
     "externalIds": {
       "ta2": "3990"
+    }
+  },
+  {
+    "id": "fma:7246",
+    "names": {
+      "la": {
+        "value": "valva trunci pulmonalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4008",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 4008, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "valve of pulmonary trunk",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 4008"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "4008"
     }
   },
   {
@@ -43896,6 +45581,120 @@
     }
   },
   {
+    "id": "fma:72969",
+    "names": {
+      "la": {
+        "value": "lobus frontalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5445",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5445, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5445"
+    }
+  },
+  {
+    "id": "fma:72970",
+    "names": {
+      "la": {
+        "value": "lobus frontalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5445",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5445, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5445"
+    }
+  },
+  {
+    "id": "fma:72971",
+    "names": {
+      "la": {
+        "value": "lobus temporalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5488",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5488, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5488"
+    }
+  },
+  {
+    "id": "fma:72972",
+    "names": {
+      "la": {
+        "value": "lobus temporalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5488",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5488, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5488"
+    }
+  },
+  {
+    "id": "fma:72973",
+    "names": {
+      "la": {
+        "value": "lobus parietalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5467",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5467, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5467"
+    }
+  },
+  {
+    "id": "fma:72974",
+    "names": {
+      "la": {
+        "value": "lobus parietalis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5467",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5467, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5467"
+    }
+  },
+  {
     "id": "fma:72975",
     "names": {
       "la": {
@@ -44064,6 +45863,146 @@
     }
   },
   {
+    "id": "fma:72980",
+    "names": {
+      "la": {
+        "value": "lobus limbicus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5507",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5507, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5507"
+    }
+  },
+  {
+    "id": "fma:72981",
+    "names": {
+      "la": {
+        "value": "lobus limbicus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5507",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5507, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5507"
+    }
+  },
+  {
+    "id": "fma:7309",
+    "names": {
+      "la": {
+        "value": "pulmo dexter",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3283",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3283, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3283"
+    }
+  },
+  {
+    "id": "fma:7310",
+    "names": {
+      "la": {
+        "value": "pulmo sinister",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3299",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3299, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3299"
+    }
+  },
+  {
+    "id": "fma:7333",
+    "names": {
+      "la": {
+        "value": "lobus superior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3284",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3284, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "upper lobe of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3284"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3284"
+    }
+  },
+  {
+    "id": "fma:7337",
+    "names": {
+      "la": {
+        "value": "lobus inferior pulmonis dextri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3293",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3293, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "lower lobe of right lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3293"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3293"
+    }
+  },
+  {
     "id": "fma:73422",
     "names": {
       "la": {
@@ -44162,6 +46101,81 @@
     }
   },
   {
+    "id": "fma:7370",
+    "names": {
+      "la": {
+        "value": "lobus superior pulmonis sinistri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3300",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3300, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "upper lobe of left lung",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3300"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3300"
+    }
+  },
+  {
+    "id": "fma:7393",
+    "names": {
+      "la": {
+        "value": "arbor tracheobronchialis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3212, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "arbor bronchialis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212"
+          }
+        ]
+      },
+      {
+        "value": "bronchial tree",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3212"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3212"
+    }
+  },
+  {
     "id": "fma:7394",
     "names": {
       "la": {
@@ -44251,6 +46265,101 @@
     ],
     "externalIds": {
       "ta2": "3227"
+    }
+  },
+  {
+    "id": "fma:7480",
+    "names": {
+      "la": {
+        "value": "skeleton thoracis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1096",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 1096, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Göğüs kafesi",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"göğüs kafesi\" (madde_id 25758)",
+            "note": "TDK tanımı: \"Vücutta omurganın, kaburgaların ve göğüs kemiğiyle bunları saran kasların oluşturduğu kalp ve akciğerleri koruyan boşluk\". TA2 1096 (skeleton thoracis) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "cavea thoracis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1096"
+          }
+        ]
+      },
+      {
+        "value": "thoracic cage",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1096"
+          }
+        ]
+      },
+      {
+        "value": "rib cage",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1096"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "1096"
+    }
+  },
+  {
+    "id": "fma:7485",
+    "names": {
+      "la": {
+        "value": "sternum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 1129",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 1129, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Göğüs kemiği",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"göğüs kemiği\" (madde_id 25759)",
+            "note": "TDK tanımı: \"Göğsün ön tarafında, üzerine kaburga kıkırdakları ile köprücük kemiklerinin eklendiği yassı kemik; can tahtası, iman tahtası\". TA2 1129 (sternum) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "1129"
     }
   },
   {
@@ -45240,6 +47349,38 @@
     ],
     "externalIds": {
       "ta2": "1107"
+    }
+  },
+  {
+    "id": "fma:79876",
+    "names": {
+      "la": {
+        "value": "truncus encephali",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5856",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5856, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "truncus encephalicus",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5856"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "5856"
     }
   },
   {
@@ -46239,6 +48380,55 @@
     }
   },
   {
+    "id": "fma:9496",
+    "names": {
+      "la": {
+        "value": "skeleton fibrosum cordis",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3974",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3974, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3974"
+    }
+  },
+  {
+    "id": "fma:9584",
+    "names": {
+      "la": {
+        "value": "peritoneum",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3729",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3729, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Karın zarı",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"karın zarı\" (madde_id 36597)",
+            "note": "TDK tanımı: \"Karın boşluğunun içini, bu boşluğun içinde bulunan bağırsakları, öbür organları kaplayan ve tutan zar; periton\". TA2 3729 (peritoneum) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3729"
+    }
+  },
+  {
     "id": "fma:9600",
     "names": {
       "la": {
@@ -46322,6 +48512,36 @@
     ],
     "externalIds": {
       "ta2": "3874"
+    }
+  },
+  {
+    "id": "fma:9607",
+    "names": {
+      "la": {
+        "value": "thymus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 5152",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 5152, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Timüs",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"timüs\" (madde_id 63589)",
+            "note": "TDK tanımı: \"Göğüs kemiği arkasında bulunan iç salgı bezi; özden\". TA2 5152 (thymus) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "5152"
     }
   },
   {

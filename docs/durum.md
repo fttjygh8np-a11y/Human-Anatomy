@@ -15,15 +15,17 @@ Durum işaretleri: ✅ tamamlandı · 🟡 kısmen / doğrulama bekliyor · ❌ 
 
 | Ölçüt | Değer |
 |---|---|
-| Yapı kaydı (envanter) | 2251 (BodyParts3D 2214, HRA 37) |
-| Anatomik 3B modeli olan | 2246 |
-| Latince adı olan (TA2, doğrulanmadı) | 1374 (%61) |
-| Türkçe adı olan (TDK/Wikidata/elle, doğrulanmadı) | 402 (%18) |
-| Kaynaklı açıklaması olan | 119 (%5; yalnızca iskelet sistemi) |
-| En az bir ilişkisi olan | 452 (%20); 600 Wikidata ilişkisi |
-| Kapsam matrisi hedefi | 119; tamamlanmış **0/119** |
+| Yapı kaydı (envanter) | 2326 (BodyParts3D 2289, HRA 37); 75'i parça–bütün listesinden eklenen bütün yapı (kalp, karaciğer, beyin, kafatası…) |
+| Latince adı olan (TA2, doğrulanmadı) | 1700 (%73); 133'ü kurallı türetilmiş |
+| Türkçe adı olan (doğrulanmadı) | 434 (%19); 95'i Cerrahpaşa ders kitabından, sayfa ve alıntıyla |
+| Ekranda yalnız İngilizce adı görünen | 588 (Dönem 1–2 hedeflerinde 1) |
+| Kaynaklı açıklaması olan | 119 (yalnızca iskelet sistemi) |
+| Kapsam matrisi hedefi | 350 (231'i Cerrahpaşa Dönem 1–2 kitaplarından); tamamlanmış **0** |
+| Kitaptan birebir alıntı (otomatik denetimli) | 337 alıntı, hepsi sayfasında doğrulandı |
 | Uzman onaylı yapı | **0** |
-| Birim testi / E2E testi | 402/402, 16/16 geçti |
+| Birim testi / E2E testi | 414/414, 16/16 geçti |
+
+v1.0 sürüm kapılarının güncel ölçümü: [raporlar/surum-kapilari.md](raporlar/surum-kapilari.md) (`npm run report:release`).
 
 Ayrıntılar: [raporlar/envanter.md](raporlar/envanter.md), [raporlar/kapsam.md](raporlar/kapsam.md),
 [raporlar/test.md](raporlar/test.md), [raporlar/performans.md](raporlar/performans.md).

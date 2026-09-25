@@ -123,3 +123,75 @@ export function quoteOccurs(pages: BookPage[], printed: number[], quote: string)
   }
   return true
 }
+
+// ---------------------------------------------------------------------------------------------
+// Term pairs: the books write terms as "Latin (Türkçe)" or "Türkçe (Latin)", e.g.
+// "Clavicula (Köprücük kemiği)". A pair is kept when one side is a TA2 Latin term (longest
+// matching word suffix) and the other looks like a short Turkish noun phrase. Candidates are then
+// curated by hand (content/terminology/iuc-dislama.json lists rejected pairs with a reason).
+// ---------------------------------------------------------------------------------------------
+
+export interface TermPair {
+  /** Latin term as a TA2 key (lower case). */
+  latin: string
+  /** Turkish term as written in the book (trimmed). */
+  tr: string
+  sourceId: string
+  printed: number
+  /** Exact text of the pair on the page, e.g. "Clavicula (Köprücük kemiği)". */
+  quote: string
+}
+
+const TR_LETTERS = /[çğıöşüÇĞİÖŞÜ]/
+const WORD = "[A-Za-zÇĞİÖŞÜçğıöşüâîû'’\\-]+"
+
+/** Plausible Turkish name: 1–5 words, letters only, not itself a Latin (TA2) term. */
+export function looksTurkishName(s: string, latinTerms: ReadonlySet<string>): boolean {
+  const t = s.trim()
+  if (!t || /\d/.test(t) || t.length > 60) return false
+  const words = t.split(/\s+/)
+  if (words.length > 5 || !words.every((w) => new RegExp(`^${WORD}$`).test(w))) return false
+  if (latinTerms.has(t.toLocaleLowerCase('tr').replace(/i̇/g, 'i'))) return false
+  // Turkish letters or a typical Turkish noun ending (possessive/plural) on the last word.
+  return TR_LETTERS.test(t) || /(ı|i|u|ü|lar|ler|ları|leri)$/i.test(words.at(-1)!)
+}
+
+/** Lower-case key for Latin terms (Turkish dotted/dotless i folded). */
+export const latinKey = (s: string) => s.toLocaleLowerCase('en').replace(/i̇/g, 'i').replace(/\s+/g, ' ').trim()
+
+export function extractTermPairs(sourceId: string, pages: BookPage[], latinTerms: ReadonlySet<string>): TermPair[] {
+  const out: TermPair[] = []
+  const re = new RegExp(`((?:${WORD} ){0,6}${WORD})\\s*\\(([^()\\n]{2,60})\\)`, 'g')
+  for (const p of pages) {
+    if (p.printed === null) continue
+    const text = normalizeForQuote(p.text)
+    for (const m of text.matchAll(re)) {
+      const before = m[1]!.split(' ')
+      const inside = m[2]!.trim()
+      // Latin (Türkçe): longest word suffix of `before` that is a TA2 term.
+      for (let k = Math.min(6, before.length); k >= 1; k--) {
+        const latinWords = before.slice(-k).join(' ').replace(/['’](\p{L})+$/u, '')
+        if (latinTerms.has(latinKey(latinWords)) && looksTurkishName(inside, latinTerms)) {
+          out.push({ latin: latinKey(latinWords), tr: inside, sourceId, printed: p.printed, quote: `${before.slice(-k).join(' ')} (${m[2]})` })
+          break
+        }
+      }
+      // Türkçe (Latin): the parenthesis holds a TA2 term; take the shortest Turkish-looking suffix before it.
+      if (latinTerms.has(latinKey(inside))) {
+        for (let k = 1; k <= Math.min(5, before.length); k++) {
+          const tr = before.slice(-k).join(' ')
+          if (!looksTurkishName(tr, latinTerms)) continue
+          // Prefer the longest suffix that is still a Turkish-looking phrase (e.g. "Kalça kemiği").
+          let best = tr
+          for (let j = k + 1; j <= Math.min(5, before.length); j++) {
+            const longer = before.slice(-j).join(' ')
+            if (looksTurkishName(longer, latinTerms) && /^\p{Lu}/u.test(longer)) best = longer
+          }
+          out.push({ latin: latinKey(inside), tr: best, sourceId, printed: p.printed, quote: `${best} (${m[2]})` })
+          break
+        }
+      }
+    }
+  }
+  return out
+}
