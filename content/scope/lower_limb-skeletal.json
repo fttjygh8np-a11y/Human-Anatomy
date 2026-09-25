@@ -1,0 +1,592 @@
+[
+  {
+    "id": "hedef:lower_limb.skeletal.hip_bone",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Hip bone",
+      "la": "Os coxae"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.3 The Pelvic Girdle and Pelvis — Hip Bone"
+      }
+    ],
+    "structureId": "fma:16585",
+    "notes": "Envanterde ilium, ischium ve pubis için ayrı kayıt yok; kalça kemiğinin bölgeleri olarak bu kaydın açıklamasında anlatıldı."
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.femur",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Femur",
+      "la": "Os femoris"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Femur"
+      }
+    ],
+    "structureId": "fma:9611"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.patella",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Patella",
+      "la": "Patella"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Patella"
+      }
+    ],
+    "structureId": "fma:24485"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.tibia",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Tibia",
+      "la": "Tibia"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tibia"
+      }
+    ],
+    "structureId": "fma:24476"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.fibula",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fibula",
+      "la": "Fibula"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Fibula"
+      }
+    ],
+    "structureId": "fma:24479"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.talus",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Talus",
+      "la": "Os tali"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:9708"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.calcaneus",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Calcaneus",
+      "la": "Calcaneus"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:24496"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.navicular",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Navicular bone of foot"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:24499"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.cuboid",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Cuboid bone",
+      "la": "Os cuboideum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:24527"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.medial_cuneiform",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Medial cuneiform bone",
+      "la": "Os cuneiforme mediale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:24518"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.intermediate_cuneiform",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Intermediate cuneiform bone",
+      "la": "Os cuneiforme intermedium"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:24519"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.lateral_cuneiform",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Lateral cuneiform bone",
+      "la": "Os cuneiforme laterale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+      }
+    ],
+    "structureId": "fma:24520"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.metatarsal_1",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "First metatarsal bone",
+      "la": "Os primum metatarsi"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+      }
+    ],
+    "structureId": "fma:24502"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.metatarsal_2",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Second metatarsal bone"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+      }
+    ],
+    "structureId": "fma:24503"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.metatarsal_3",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Third metatarsal bone"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+      }
+    ],
+    "structureId": "fma:24504"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.metatarsal_4",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fourth metatarsal bone"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+      }
+    ],
+    "structureId": "fma:24505"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.metatarsal_5",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Fifth metatarsal bone",
+      "la": "Os quintum metatarsi"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+      }
+    ],
+    "structureId": "fma:24506"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_proximal_big_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of big toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:43252"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_distal_big_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of big toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32627"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_proximal_second_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of second toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32618"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_middle_second_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of second toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32623"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_distal_second_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of second toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32628"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_proximal_third_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of third toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32619"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_middle_third_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of third toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32624"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_distal_third_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of third toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32629"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_proximal_fourth_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of fourth toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32620"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_middle_fourth_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of fourth toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32625"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_distal_fourth_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of fourth toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32630"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_proximal_little_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Proximal phalanx of little toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32621"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_middle_little_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Middle phalanx of little toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:230984"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.phalanx_distal_little_toe",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Distal phalanx of little toe"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "8.4 Bones of the Lower Limb — Phalanges"
+      }
+    ],
+    "structureId": "fma:32631"
+  },
+  {
+    "id": "hedef:lower_limb.skeletal.sesamoid_foot",
+    "system": "skeletal",
+    "region": "lower_limb",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Sesamoid bone of foot"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "6.2 Bone Classification — Sesamoid Bones"
+      }
+    ],
+    "structureId": "fma:45096"
+  }
+]

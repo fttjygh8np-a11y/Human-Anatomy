@@ -1,0 +1,274 @@
+[
+  {
+    "id": "hedef:head.skeletal.frontal",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Frontal bone",
+      "la": "Os frontale"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Bones of the Brain Case; Frontal Bone"
+      }
+    ],
+    "structureId": "fma:52734",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:head.skeletal.parietal",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Parietal bone",
+      "la": "Os parietale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Bones of the Brain Case; Parietal Bone"
+      }
+    ],
+    "structureId": "fma:9613"
+  },
+  {
+    "id": "hedef:head.skeletal.temporal",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Temporal bone",
+      "la": "Os temporale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Bones of the Brain Case; Temporal Bone"
+      }
+    ],
+    "structureId": "fma:52737"
+  },
+  {
+    "id": "hedef:head.skeletal.occipital",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Occipital bone",
+      "la": "Os occipitale"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Bones of the Brain Case; Occipital Bone"
+      }
+    ],
+    "structureId": "fma:52735",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:head.skeletal.sphenoid",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Sphenoid bone",
+      "la": "Os sphenoideum"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Bones of the Brain Case; Sphenoid Bone"
+      }
+    ],
+    "structureId": "fma:52736",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:head.skeletal.ethmoid",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Ethmoid",
+      "la": "Os ethmoideum"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Bones of the Brain Case; Ethmoid Bone"
+      }
+    ],
+    "structureId": "fma:52740",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:head.skeletal.maxilla",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Maxilla",
+      "la": "Maxilla"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Maxillary Bone"
+      }
+    ],
+    "structureId": "fma:9711"
+  },
+  {
+    "id": "hedef:head.skeletal.palatine",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Palatine bone",
+      "la": "Os palatinum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Palatine Bone"
+      }
+    ],
+    "structureId": "fma:52746"
+  },
+  {
+    "id": "hedef:head.skeletal.zygomatic",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Zygomatic bone",
+      "la": "Os zygomaticum"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Zygomatic Bone"
+      }
+    ],
+    "structureId": "fma:52747"
+  },
+  {
+    "id": "hedef:head.skeletal.nasal",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Nasal bone",
+      "la": "Os nasale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Nasal Bone"
+      }
+    ],
+    "structureId": "fma:52745"
+  },
+  {
+    "id": "hedef:head.skeletal.lacrimal",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Lacrimal bone",
+      "la": "Os lacrimale"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Lacrimal Bone"
+      }
+    ],
+    "structureId": "fma:52741"
+  },
+  {
+    "id": "hedef:head.skeletal.inferior_nasal_concha",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Inferior nasal concha",
+      "la": "Concha nasalis inferior"
+    },
+    "laterality": "paired_generic",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Inferior Nasal Conchae"
+      }
+    ],
+    "structureId": "fma:54736"
+  },
+  {
+    "id": "hedef:head.skeletal.vomer",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Vomer",
+      "la": "Vomer"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Vomer Bone"
+      }
+    ],
+    "structureId": "fma:9710",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:head.skeletal.mandible",
+    "system": "skeletal",
+    "region": "head",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Mandible",
+      "la": "Mandibula"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Facial Bones of the Skull; Mandible"
+      }
+    ],
+    "structureId": "fma:52748",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  }
+]
