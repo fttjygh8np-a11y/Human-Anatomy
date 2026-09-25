@@ -1,0 +1,2229 @@
+[
+  {
+    "id": "fma:16585",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Pelvik kuşağı (cingulum pelvicum) tek başına oluşturan çift kemiktir; alt ekstremiteyi sakrum aracılığıyla eksen iskeletine bağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Hip Bone"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Her kalça kemiği ergenliğin sonlarında kaynaşan üç ayrı kemikten gelişir; bu kemiklerin adları (ilium, ischium, pubis) erişkin kemiğin üç bölgesi için kullanılmaya devam eder. İlium kemiğin en büyük, yelpaze biçimli üst kısmıdır ve bel çizgisi boyunca elle hissedilen üst kenarı crista iliaca'dır. Arka-alt bölümdeki ischium'un tuber ischiadicum'u otururken vücut ağırlığını taşır; önde pubis karşı taraftaki pubisle simfiz pubis'te birleşir. Üç bölgenin birleştiği yan yüzde kalça ekleminin çukuru olan acetabulum bulunur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Hip Bone; Ilium; Ischium; Pubis; Pelvis"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Kalça bölgesinde, sakrumun iki yanında; pelvisin yan ve ön duvarlarını oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Hip Bone"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "İlium: crista iliaca, spina iliaca anterior superior ve inferior, spina iliaca posterior superior ve inferior, facies auricularis, fossa iliaca, linea arcuata, incisura ischiadica major. İschium: tuber ischiadicum, ramus ossis ischii, spina ischiadica, incisura ischiadica minor. Pubis: corpus, tuberculum pubicum, ramus superior (üst kenarında pecten ossis pubis) ve ramus inferior; ramus inferior ramus ossis ischii ile ramus ischiopubicus'u oluşturur. Ayrıca acetabulum ve ischium ile pubis arasındaki foramen obturatum.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Ilium; Ischium; Pubis; Pelvis"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Arkada facies auricularis ile sakrumla sakroiliak eklemi, önde pubis gövdesiyle karşı taraftaki kalça kemiğiyle simfiz pubis'i, yan yüzdeki acetabulum ile femur başıyla kalça eklemini yapar. Sakroiliak eklem ön ve arka sakroiliak bağlarla desteklenir; sakrumdan gelen sakrospinöz bağ spina ischiadica'ya, sakrotüberöz bağ tuber ischiadicum'a tutunur ve bu bağlar incisura ischiadica major ve minor ile birlikte foramen ischiadicum majus ve minus'u sınırlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Hip Bone; Pelvis"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Alt ekstremiteyi gövdeye bağlar; iki kalça kemiği, sakrum ve koksiksle birlikte oluşturduğu pelvis üst gövdenin ağırlığını oturma sırasında taşır, ayakta dururken alt ekstremitelere aktarır, gövde ve alt ekstremite kaslarına tutunma yeri sağlar ve pelvis organlarını korur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Pelvis"
+          }
+        ]
+      },
+      "variations": {
+        "status": "present",
+        "value": [
+          "Kadın ve erkek kalça kemiği arasındaki belirgin farklar nedeniyle cinsiyet tayininin en doğru yapılabildiği kemiktir: kadında pelvis daha geniş, incisura ischiadica major daha geniş ve sığ, tuber ischiadicum'lar birbirinden daha uzak, angulus subpubicus daha büyüktür (kadında 80°'den büyük, erkekte 70°'den küçük)."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.3 The Pelvic Girdle and Pelvis — Comparison of the Female and Male Pelvis"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:230984",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Küçük ayak parmağının (beşinci parmak) orta falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Küçük ayak parmağının ortasında, proksimal ve distal falankslar arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ve distal falankslarla interfalangeal eklemler yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24476",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Bacağın medial tarafındaki, ağırlık taşıyan büyük kemiktir (kaval kemiği).",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tibia"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Femurdan sonra vücudun en uzun ikinci kemiğidir ve bacağın başlıca ağırlık taşıyan kemiğidir. İç yüzü ve ön kenarı doğrudan deri altında olduğundan bacağın iç tarafında tüm uzunluğu boyunca elle hissedilebilir. Lateral taraftaki fibula ile birlikte bacağın iskeletini oluşturur ve gövdeleri bacağın interosseöz zarıyla birbirine bağlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tibia"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacakta (diz ile ayak bileği arasında), medial tarafta yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tibia"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Proksimalde condylus medialis ve lateralis ile aralarındaki eminentia intercondylaris, önde tuberositas tibiae; üçgen kesitli gövdede margo anterior, lateralde margo interosseus, arkada linea musculi solei; distalde malleolus medialis ve lateral yüzde incisura fibularis. Epikondili yoktur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tibia"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Kondilleri femur kondilleriyle diz eklemini yapar; eminentia intercondylaris dizin iki destek bağının alt tutunma yeridir. Distal ucu ve malleolus medialis talus ile ayak bileği eklemine katılır; incisura fibularis fibulanın alt ucuyla distal tibiofibular eklemi, lateral kondilin alt yüzü fibula başıyla proksimal tibiofibular eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tibia; Fibula"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Vücut ağırlığını dizden ayağa aktarır; linea musculi solei ve kenarları bacak kaslarına, margo interosseus interosseöz zara tutunma yeri sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tibia"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24479",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Bacağın lateral tarafındaki ince, ağırlık taşımayan kemiktir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Fibula"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ağırlık taşımaz; başlıca kaslara tutunma yeri sağlar ve bu nedenle büyük ölçüde kaslarla çevrilidir. Yalnızca üst ve alt uçları elle hissedilebilir; alt ucu ayak bileğinin dış yanında kolayca ele gelen malleolus lateralis'i oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Fibula"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Bacakta, lateral tarafta, tibianın yanında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Fibula"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Proksimalde topuz biçimli caput fibulae, ince gövdenin medial yüzünde margo interosseus, distal uçta malleolus lateralis.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Fibula"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Başı tibianın lateral kondilinin alt yüzüyle proksimal tibiofibular eklemi, alt ucu tibianın incisura fibularis'i ile distal tibiofibular eklemi yapar. Malleolus lateralis'in iç yüzü talus ile ayak bileği eklemine katılır; gövdesi interosseöz zarla tibiaya bağlanır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Fibula"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Bacak kaslarına tutunma yeri sağlar ve malleolus lateralis ile ayak bileği ekleminin dış kısmına katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Fibula; Tarsal Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24485",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Diz kapağı; vücudun en büyük sesamoid kemiğidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Patella"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Sesamoid kemikler, bir kas tendonunun eklem üzerinden geçtiği yerde tendonun içine yerleşmiş kemiklerdir. Patella, uyluğun ön yüzündeki büyük quadriceps femoris kasının dizin önünden geçerek tibiaya uzanan tendonu içinde bulunur. Her insanda ortak olarak bulunan tek sesamoid kemiktir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Patella"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Sesamoid Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Dizin ön yüzünde, femurun alt ucunun önünde, quadriceps femoris tendonunun içinde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Patella"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Yalnızca femurun facies patellaris'i ile eklem yapar; tibia ile eklem yapmaz. İçinde bulunduğu tendonun son tutunma yeri tibianın tuberositas tibiae'sidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Patella; Tibia"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Tendonun femura sürtünerek zarar görmesini önler ve tendonu diz ekleminden uzaklaştırarak quadriceps femoris'in diz üzerindeki kaldıraç gücünü artırır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Patella"
+          }
+        ]
+      },
+      "clinicalNotes": {
+        "status": "present",
+        "value": [
+          "Koşucu dizi (patellofemoral sendrom) koşucularda en sık görülen aşırı kullanım yaralanmasıdır; patellanın femur üzerinde fazla laterale kayarak anormal izlemesiyle ilişkilidir ve diz önünde, patellanın derininde künt ağrı olarak hissedilir. Kadınlarda Q açısının daha büyük olması bu duruma yatkınlığı artırır."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Runner’s Knee"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24496",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Topuk kemiği; ayağın en büyük kemiğidir ve topuğu oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Arka-alt konumdaki bu tarsal kemik yere basarak talustan gelen vücut ağırlığını taşır. İç yüzünden çıkan belirgin kemik çıkıntı (sustentaculum tali) talusun iç tarafını destekler. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın arka-alt kısmında, talusun altında, topuk bölgesinde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "İç yüzden çıkan sustentaculum tali.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Üstte talusla, önde küboid kemikle eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Topuğu oluşturur; ağırlığı yere iletir ve uzunlamasına ayak kemerlerinin arka destek noktasını oluşturur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24499",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Talusun önünde, ayağın iç tarafında yer alan tarsal kemiktir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Tarsal kemiklerin ara (orta) grubunu tek başına oluşturur. Ayağın iç tarafında vücut ağırlığı talustan naviküler kemiğe, oradan üç kuneiform kemiğe ve birinci–üçüncü metatarsallara aktarılır. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Interactive Link Questions; Critical Thinking Questions"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın arka yarısında, iç tarafta, talus ile kuneiform kemikler arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Critical Thinking Questions"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Arkada talusla, önde medial, intermediate ve lateral kuneiform kemiklerle, yanda küboid kemikle eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Talustan gelen ağırlığı ayağın iç tarafında kuneiform kemiklere iletir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24502",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Birinci metatarsal kemik; ayak başparmağının (hallux) tabanında yer alır ve diğer metatarsallardan daha kısa ve kalındır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Metatarsallar ayağın ön yarısını oluşturan beş uzun kemiktir ve ayağın iç tarafından başlayarak 1–5 diye numaralanır. Proksimal ucu olan taban (basis) tarsal kemiklerle, genişlemiş distal ucu olan baş (caput) ilgili parmağın proksimal falanksıyla eklem yapar; metatarsal başları yere basarak ayağın ön basma yüzeyini oluşturur. Diğer metatarsallardan daha kısa ve kalındır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın ön yarısında (ayak tarağı), iç kenarda; medial kuneiform kemik ile ayak başparmağının proksimal falanksı arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Tabanı medial kuneiform kemikle, başı ayak başparmağının proksimal falanksıyla metatarsofalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Uzunlamasına ayak kemerlerinin ön bölümünü oluşturur; başı yere basarak vücut ağırlığını önde yere iletir. Ayağın iç tarafında kuneiform kemiklerden gelen ağırlık birinci–üçüncü metatarsallar aracılığıyla yere aktarılır. Tabanı, kuneiform kemiklerle birlikte enine ayak kemerinin oluşumuna katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot; Critical Thinking Questions"
+          }
+        ]
+      },
+      "clinicalNotes": {
+        "status": "present",
+        "value": [
+          "Ayak başparmağının ikinci parmağa doğru sapması birinci metatarsalın distal ucunun içe doğru çıkıntı yapmasına ve birinci metatarsofalangeal eklemin iç yanında şişliğe (bunyon) yol açar; burnu dar, sivri ayakkabıların uzun süreli basıncı buna neden olabilir."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges; Interactive Link Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24503",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İkinci metatarsal kemik; metatarsalların en uzunudur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Metatarsallar ayağın ön yarısını oluşturan beş uzun kemiktir ve ayağın iç tarafından başlayarak 1–5 diye numaralanır. Proksimal ucu olan taban (basis) tarsal kemiklerle, genişlemiş distal ucu olan baş (caput) ilgili parmağın proksimal falanksıyla eklem yapar; metatarsal başları yere basarak ayağın ön basma yüzeyini oluşturur. Metatarsalların en uzunudur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın ön yarısında (ayak tarağı), tarsal kemikler ile ayak parmakları arasında; iç taraftan sayıldığında ikinci sıradadır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Tabanı medial ve intermediate kuneiform kemiklerle, başı ikinci ayak parmağının proksimal falanksıyla metatarsofalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Uzunlamasına ayak kemerlerinin ön bölümünü oluşturur; başı yere basarak vücut ağırlığını önde yere iletir. Ayağın iç tarafında kuneiform kemiklerden gelen ağırlık birinci–üçüncü metatarsallar aracılığıyla yere aktarılır. Tabanı, kuneiform kemiklerle birlikte enine ayak kemerinin oluşumuna katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot; Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24504",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçüncü metatarsal kemik; ayağın ön yarısını oluşturan beş uzun kemikten biridir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Metatarsallar ayağın ön yarısını oluşturan beş uzun kemiktir ve ayağın iç tarafından başlayarak 1–5 diye numaralanır. Proksimal ucu olan taban (basis) tarsal kemiklerle, genişlemiş distal ucu olan baş (caput) ilgili parmağın proksimal falanksıyla eklem yapar; metatarsal başları yere basarak ayağın ön basma yüzeyini oluşturur. Uzun kemik sınıfındadır ve kaldıraç görevi görür.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın ön yarısında (ayak tarağı), tarsal kemikler ile ayak parmakları arasında; iç taraftan sayıldığında üçüncü sıradadır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Tabanı lateral kuneiform kemikle, başı üçüncü ayak parmağının proksimal falanksıyla metatarsofalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Uzunlamasına ayak kemerlerinin ön bölümünü oluşturur; başı yere basarak vücut ağırlığını önde yere iletir. Ayağın iç tarafında kuneiform kemiklerden gelen ağırlık birinci–üçüncü metatarsallar aracılığıyla yere aktarılır. Tabanı, kuneiform kemiklerle birlikte enine ayak kemerinin oluşumuna katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot; Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24505",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Dördüncü metatarsal kemik; ayağın ön yarısını oluşturan beş uzun kemikten biridir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Metatarsallar ayağın ön yarısını oluşturan beş uzun kemiktir ve ayağın iç tarafından başlayarak 1–5 diye numaralanır. Proksimal ucu olan taban (basis) tarsal kemiklerle, genişlemiş distal ucu olan baş (caput) ilgili parmağın proksimal falanksıyla eklem yapar; metatarsal başları yere basarak ayağın ön basma yüzeyini oluşturur. Uzun kemik sınıfındadır ve kaldıraç görevi görür.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın ön yarısında (ayak tarağı), tarsal kemikler ile ayak parmakları arasında; iç taraftan sayıldığında dördüncü sıradadır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Tabanı küboid kemikle, başı dördüncü ayak parmağının proksimal falanksıyla metatarsofalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Uzunlamasına ayak kemerlerinin ön bölümünü oluşturur; başı yere basarak vücut ağırlığını önde yere iletir. Ayağın dış tarafında ağırlık kalkaneus ve küboid üzerinden dördüncü ve beşinci metatarsallara iletilir. Tabanı, kuneiform kemiklerle birlikte enine ayak kemerinin oluşumuna katılır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot; Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24506",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Beşinci metatarsal kemik; ayağın dış kenarında yer alır ve tabanındaki geniş dış çıkıntıyla tanınır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Metatarsallar ayağın ön yarısını oluşturan beş uzun kemiktir ve ayağın iç tarafından başlayarak 1–5 diye numaralanır. Proksimal ucu olan taban (basis) tarsal kemiklerle, genişlemiş distal ucu olan baş (caput) ilgili parmağın proksimal falanksıyla eklem yapar; metatarsal başları yere basarak ayağın ön basma yüzeyini oluşturur. Tabanındaki geniş dış çıkıntı kaslara tutunma yeri sağlar ve ayağın dış kenarının ortasında kemik bir kabarıklık olarak hissedilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın ön yarısında (ayak tarağı), dış kenarda; küboid kemik ile küçük ayak parmağının proksimal falanksı arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Tabanı küboid kemikle, başı küçük ayak parmağının proksimal falanksıyla metatarsofalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Uzunlamasına ayak kemerlerinin ön bölümünü oluşturur; başı yere basarak vücut ağırlığını önde yere iletir. Ayağın dış tarafında ağırlık kalkaneus ve küboid üzerinden dördüncü ve beşinci metatarsallara iletilir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot; Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24518",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üç kuneiform tarsal kemiğin en iç tarafta olanıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Kuneiform (“kama biçimli”) kemiklerin üst yüzü geniş, alt yüzü dardır; bu biçim ayağın enine (medial-lateral) eğriliğini ve enine ayak kemerini oluşturur. Tarsal kemiklerin distal grubundandır ve ayağın iç tarafında naviküler kemikten gelen ağırlığı metatarsallara iletir. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Interactive Link Questions; Critical Thinking Questions"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın iç tarafında, naviküler kemiğin önünde ve birinci metatarsalın arkasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Arkada naviküler kemikle, lateralde intermediate kuneiformla, önde birinci ve ikinci metatarsallarla eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Birinci–dördüncü metatarsal tabanlarıyla birlikte enine ayak kemerini oluşturur; bu kemer vücut ağırlığını ayak içinde yandan yana dağıtarak ayağın engebeli zemine uyumuna yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones; Arches of the Foot"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24519",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üç kuneiform tarsal kemiğin ortadakidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Kuneiform (“kama biçimli”) kemiklerin üst yüzü geniş, alt yüzü dardır; bu biçim ayağın enine (medial-lateral) eğriliğini ve enine ayak kemerini oluşturur. Tarsal kemiklerin distal grubundandır ve ayağın iç tarafında naviküler kemikten gelen ağırlığı metatarsallara iletir. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Interactive Link Questions; Critical Thinking Questions"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın orta kısmında, naviküler kemiğin önünde, medial ve lateral kuneiform kemikler arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Arkada naviküler kemikle, medialde medial kuneiformla, lateralde lateral kuneiformla, önde ikinci metatarsalla eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Birinci–dördüncü metatarsal tabanlarıyla birlikte enine ayak kemerini oluşturur; bu kemer vücut ağırlığını ayak içinde yandan yana dağıtarak ayağın engebeli zemine uyumuna yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones; Arches of the Foot"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24520",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üç kuneiform tarsal kemiğin en dış tarafta olanıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Kuneiform (“kama biçimli”) kemiklerin üst yüzü geniş, alt yüzü dardır; bu biçim ayağın enine (medial-lateral) eğriliğini ve enine ayak kemerini oluşturur. Tarsal kemiklerin distal grubundandır ve ayağın iç tarafında naviküler kemikten gelen ağırlığı metatarsallara iletir. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Interactive Link Questions; Critical Thinking Questions"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın orta kısmında, naviküler kemiğin önünde, intermediate kuneiform ile küboid kemik arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Arkada naviküler kemikle, medialde intermediate kuneiformla, lateralde küboid kemikle, önde üçüncü metatarsalla eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Birinci–dördüncü metatarsal tabanlarıyla birlikte enine ayak kemerini oluşturur; bu kemer vücut ağırlığını ayak içinde yandan yana dağıtarak ayağın engebeli zemine uyumuna yardım eder.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones; Arches of the Foot"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:24527",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Kalkaneusun önünde, ayağın dış tarafında yer alan tarsal kemiktir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Alt yüzünde bir kas tendonunun geçtiği derin bir oluk bulunur. Tarsal kemiklerin distal grubundandır; ayağın dış tarafında vücut ağırlığı talustan kalkaneus ve küboid aracılığıyla dördüncü ve beşinci metatarsallara iletilir. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Interactive Link Questions; Critical Thinking Questions"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın dış (lateral) tarafında, kalkaneus ile dördüncü–beşinci metatarsallar arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Alt yüzünde bir kas tendonunun geçtiği derin oluk.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Arkada kalkaneusla, iç yanında lateral kuneiform ve naviküler kemikle, önde dördüncü ve beşinci metatarsallarla eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Ayağın dış tarafında ağırlığı kalkaneustan dördüncü ve beşinci metatarsallara iletir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32618",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İkinci ayak parmağının proksimal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "İkinci ayak parmağının tabanında, ikinci metatarsal başının hemen önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde ikinci metatarsalın başıyla metatarsofalangeal eklemi, distalde orta falanksla interfalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32619",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçüncü ayak parmağının proksimal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Üçüncü ayak parmağının tabanında, üçüncü metatarsal başının hemen önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde üçüncü metatarsalın başıyla metatarsofalangeal eklemi, distalde orta falanksla interfalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32620",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Dördüncü ayak parmağının proksimal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Dördüncü ayak parmağının tabanında, dördüncü metatarsal başının hemen önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde dördüncü metatarsalın başıyla metatarsofalangeal eklemi, distalde orta falanksla interfalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32621",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Küçük ayak parmağının (beşinci parmak) proksimal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Küçük ayak parmağının tabanında, beşinci metatarsal başının hemen önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde beşinci metatarsalın başıyla metatarsofalangeal eklemi, distalde orta falanksla interfalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32623",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İkinci ayak parmağının orta falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "İkinci ayak parmağının ortasında, proksimal ve distal falankslar arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ve distal falankslarla interfalangeal eklemler yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32624",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçüncü ayak parmağının orta falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Üçüncü ayak parmağının ortasında, proksimal ve distal falankslar arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ve distal falankslarla interfalangeal eklemler yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32625",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Dördüncü ayak parmağının orta falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Dördüncü ayak parmağının ortasında, proksimal ve distal falankslar arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimal ve distal falankslarla interfalangeal eklemler yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32627",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ayak başparmağının (hallux) distal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. Başparmakta yalnızca proksimal ve distal falanks vardır. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak başparmağının uç kısmında, proksimal falanksın önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde proksimal falanksla interfalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32628",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "İkinci ayak parmağının distal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "İkinci ayak parmağının uç kısmında, orta falanksın önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde orta falanksla interfalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32629",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Üçüncü ayak parmağının distal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Üçüncü ayak parmağının uç kısmında, orta falanksın önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde orta falanksla interfalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32630",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Dördüncü ayak parmağının distal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Dördüncü ayak parmağının uç kısmında, orta falanksın önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde orta falanksla interfalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:32631",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Küçük ayak parmağının (beşinci parmak) distal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. İkinci–beşinci parmakların her birinde proksimal, orta ve distal olmak üzere üç falanks bulunur. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Küçük ayak parmağının uç kısmında, orta falanksın önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde orta falanksla interfalangeal eklem yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:43252",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ayak başparmağının (hallux) proksimal falanksıdır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Ayak parmaklarında, el parmaklarındakine benzer biçimde dizilmiş toplam 14 falanks bulunur; parmaklar başparmaktan (hallux) başlayarak 1–5 diye numaralanır. Başparmakta yalnızca proksimal ve distal falanks vardır. Falankslar uzun kemik sınıfındadır; küçük kemikler olarak yalnızca bir ikincil kemikleşme merkezi ve dolayısıyla tek bir epifiz plağı geliştirir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayak başparmağının tabanında, birinci metatarsal başının hemen önünde yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Proksimalde birinci metatarsalın başıyla metatarsofalangeal eklemi, distalde distal falanksla interfalangeal eklemi yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Metatarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Phalanges"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:45096",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ayakta kas tendonlarının içine gömülü, susam tanesi biçimli küçük ve yuvarlak kemiklerdir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Sesamoid Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Sesamoid kemikler eklem çevresinde yüksek basınç oluşan yerlerde tendonların içinde gelişir ve tendonları sıkışma kuvvetlerine karşı korur. Sayıları ve yerleri kişiden kişiye değişir; çoğunlukla ayak, el ve dizle ilişkili tendonlarda bulunur. Her insanda ortak olarak bulunan tek sesamoid kemik patelladır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Sesamoid Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayakta, eklemlerin üzerinden geçen kas tendonlarının içinde yer alır; kesin yerleri kişiden kişiye değişir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Sesamoid Bones"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "İçinde bulundukları tendonları eklem üzerindeki sıkışma kuvvetlerine karşı korur.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Sesamoid Bones"
+          }
+        ]
+      },
+      "variations": {
+        "status": "present",
+        "value": [
+          "Ayaktaki sesamoid kemiklerin sayısı ve yeri kişiden kişiye değişir."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Sesamoid Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9611",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Uyluğun tek kemiğidir; vücudun en uzun ve en güçlü kemiğidir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Uzunluğu kişinin toplam boyunun yaklaşık dörtte biri kadardır ve gövdesi hafifçe öne doğru kavislidir. Kalçalar dizlerden daha geniş olduğundan femur uylukta dikey değil çapraz uzanır; bu sapmanın ölçüsü olan Q açısı normalde 10–15° olup kadınlarda genellikle daha büyüktür. Trochanter major uyluğun üst-yan yüzünde deri altında hissedilir ve kalça eklemi üzerinden etki eden kaslara kaldıraç avantajı sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur; Runner’s Knee"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Uylukta, kalça eklemi ile diz eklemi arasında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb"
+          }
+        ]
+      },
+      "parts": {
+        "status": "present",
+        "value": "Proksimalde caput femoris ve üzerinde fovea capitis, collum femoris, trochanter major ve minor, önde linea intertrochanterica, arkada crista intertrochanterica; gövdenin arkasında tuberositas glutea ve linea aspera; distalde condylus medialis ve lateralis, epicondylus medialis ve lateralis, tuberculum adductorium, arkada fossa intercondylaris ve önde facies patellaris.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Başı kalça kemiğinin acetabulum'u ile kalça eklemini, kondilleri tibianın kondilleriyle diz eklemini yapar; facies patellaris patella ile eklemleşir. Fovea capitis ile acetabulum arasında uzanan ligamentum capitis femoris eklemi pek desteklemeyen zayıf bir bağdır, ancak femur başını besleyen önemli bir arteri taşır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Uzun kemik olarak kaldıraç görevi görür; trochanterler, linea aspera ve epikondiller kalça, uyluk ve diz kaslarına ve bağlarına tutunma yeri sağlar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Long Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur"
+          }
+        ]
+      },
+      "clinicalNotes": {
+        "status": "present",
+        "value": [
+          "Collum femoris kırıkların sık görüldüğü bir bölgedir.",
+          "Çocuk radyografilerinde epifiz plakları kemikten daha az yoğun olduğu için koyu görünür ve kırıkla karıştırılabilir; femurun farklı epifiz plaklarının belirli yaşlarda kapanması yaş tahmininde yol gösterir."
+        ],
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Femur"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.5 Development of the Appendicular Skeleton — Ossification of Appendicular Bones"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fma:9708",
+    "content": {
+      "summary": {
+        "status": "present",
+        "value": "Ayağın arka yarısını oluşturan yedi tarsal kemiğin en üstte olanıdır; bacak kemikleriyle ayak bileği eklemini yapar.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "description": {
+        "status": "present",
+        "value": "Üst yüzü kabaca kare biçimlidir. Vücut ağırlığı tibiadan talusa, oradan yere basan kalkaneusa geçer; talus uzunlamasına ayak kemerlerinin tepesinde yer alarak ağırlığı kemerlerin ön ve arka uçlarına dağıtır. Tarsal kemikler kısa kemik sınıfındadır; destek ve denge sağlarken sınırlı harekete izin verir.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Arches of the Foot"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "6.2 Bone Classification — Short Bones"
+          }
+        ]
+      },
+      "location": {
+        "status": "present",
+        "value": "Ayağın arka yarısında, tarsal kemiklerin en üstünde; tibia ve fibulanın alt uçlarının altında yer alır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          }
+        ]
+      },
+      "relationsText": {
+        "status": "present",
+        "value": "Üst-iç yüzü malleolus medialis ile, üst yüzü tibianın alt ucuyla, yan yüzü malleolus lateralis ile eklem yaparak ayak bileği eklemini oluşturur. Altta kalkaneusla, önde naviküler kemikle eklemleşir; kalkaneusun sustentaculum tali'si talusun iç tarafını destekler.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Key Terms"
+          }
+        ]
+      },
+      "function": {
+        "status": "present",
+        "value": "Vücut ağırlığını bacaktan alır ve arkada kalkaneusa, önde naviküler, kuneiform ve küboid kemikler aracılığıyla metatarsallara dağıtır.",
+        "verification": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Tarsal Bones"
+          },
+          {
+            "sourceId": "src:openstax-ap2e",
+            "locator": "8.4 Bones of the Lower Limb — Critical Thinking Questions"
+          }
+        ]
+      }
+    }
+  }
+]

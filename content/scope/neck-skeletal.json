@@ -1,0 +1,159 @@
+[
+  {
+    "id": "hedef:neck.skeletal.hyoid",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Hyoid bone",
+      "la": "Os hyoideum"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.2 The Skull — Hyoid Bone"
+      }
+    ],
+    "structureId": "fma:52749",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı. OpenStax 7.1 dil kemiğini kafatasıyla ilişkili ek kemikler arasında sayar, 7.2 ise boynun üst kısmında konumlandırır; bölge olarak boyun seçildi."
+  },
+  {
+    "id": "hedef:neck.skeletal.atlas",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Atlas",
+      "la": "Atlas"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12519",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:neck.skeletal.axis",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Axis",
+      "la": "Axis"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12520",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:neck.skeletal.cervical_3",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Third cervical vertebra"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12521",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:neck.skeletal.cervical_4",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Fourth cervical vertebra"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12522",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:neck.skeletal.cervical_5",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Fifth cervical vertebra"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12523",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:neck.skeletal.cervical_6",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "intermediate",
+    "name": {
+      "en": "Sixth cervical vertebra",
+      "la": "Vertebra cervicalis VI"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12524",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  },
+  {
+    "id": "hedef:neck.skeletal.cervical_7",
+    "system": "skeletal",
+    "region": "neck",
+    "kind": "bone",
+    "level": "basic",
+    "name": {
+      "en": "Seventh cervical vertebra",
+      "la": "Vertebra prominens"
+    },
+    "laterality": "not_applicable",
+    "basis": [
+      {
+        "sourceId": "src:openstax-ap2e",
+        "locator": "7.3 The Vertebral Column — Regions of the Vertebral Column; Cervical Vertebrae"
+      }
+    ],
+    "structureId": "fma:12525",
+    "notes": "Tek (orta hat) kemik; envanter kaydında taraf 'not_applicable' olduğundan hedefte de öyle bırakıldı."
+  }
+]
