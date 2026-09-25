@@ -5,8 +5,11 @@
  * The books introduce a structure with a heading line such as "- Humerus (Kol kemiği):",
  * "Os Frontale (Alın Kemiği)" or "Mesencephalon (Orta Beyin)" followed by prose. A heading whose
  * Latin side is a TA2 term (abbreviations "M./N./A./V./Lig." expanded) is matched to structures;
- * from the prose, the first sentence becomes the summary and the next sentences (up to ~700
- * characters) the description, each verbatim with page and quote (content:quotecheck).
+ * Title-case headings that are a TA2 term on their own ("Colon Ascendens", "Pancreas") count too.
+ * From the prose, the first sentence that names the structure and says where it lies ("… yer alır",
+ * "… bulunur") becomes the location, the first other sentence naming it the summary, and the next
+ * sentences (up to ~700 characters) the description, each verbatim with page and quote
+ * (content:quotecheck).
  *
  * Only empty fields are filled, and fields written by other İÜC generators (e.g. muscles) are
  * kept. Output (generated): content/structures/iuc/kartlar.json. All text stays "unverified".
@@ -23,6 +26,12 @@ const OUT = join('structures', 'iuc', 'kartlar.json')
 /** Note on every source written here, so re-runs can tell their own fields from others. */
 const MARK = 'Kitaptaki başlıklı bölümden birebir (content:iuc-cards).'
 const HEADING = /^[-•]?\s*([A-Za-zÇĞİÖŞÜçğıöşü][A-Za-zÇĞİÖŞÜçğıöşü .'’/]{2,60}?)\s*\(([^()]{2,60})\)\s*:?\s*$/
+/** A title-case heading line without parenthesis ("Colon Ascendens", "Pancreas", "Komşulukları"). */
+const TITLE_HEADING = /^\p{Lu}\p{Ll}+(?:\s+\p{Lu}\p{Ll}+){0,4}$/u
+/** Sentences that say where a structure lies. */
+const LOCATION_VERBS = 'yer alır|yer almaktadır|bulunur|bulunmaktadır|yerleşmiştir|yerleşir|yerleşimlidir|uzanır|uzanmaktadır|oturur'
+const LOCATION = new RegExp(`\\b(${LOCATION_VERBS})\\b`)
+const LOCATION_END = new RegExp(`(${LOCATION_VERBS})\\.$`)
 const REF_LINE = /^\s*\d+(\s*,\s*\d+)*\s*,?\s*$/
 const RUNNING_HEADERS = new Set(['Lokomotor Sistem Anatomisi', 'İç Organlar Anatomisi', 'Nöroanatomi Ders Notları'])
 /** Lists, notes and numbered fragments are not prose. */
@@ -40,6 +49,24 @@ function stems(s: Structure): string[] {
 const mentions = (sentence: string, s: Structure) => {
   const low = sentence.toLocaleLowerCase('tr')
   return stems(s).some((st) => low.includes(st))
+}
+/** Sentences that open with a sub-heading ("İç Görünümü: …") or end in a list number are fragments. */
+const usable = (sentence: string) => !/^[^.]{0,30}:/.test(sentence) && !/\d\.$/.test(sentence) && /^\p{Lu}/u.test(sentence) && sentence.length >= 40
+/** Case endings that show the first word is not the subject ("Sfenoid kemikte …", "Sağ ventrikül'ün …"). */
+const OBLIQUE = /(['’]\p{L}+|[dt][ae]|n[dt][ae]|[nı]?[ıiuü]n)$/u
+/**
+ * A location sentence either opens with the structure's own name ("Cerebellum beynin altında …
+ * yerleşmiştir") or, near the start of its section, leaves the subject out and ends in the
+ * location verb ("Sağ ventrikül'ün arka-dışyanında yer alır.").
+ */
+function isLocation(sentence: string, s: Structure, index: number): boolean {
+  if (!usable(sentence) || HEADING_BLEED.test(sentence) || !LOCATION.test(sentence)) return false
+  const words = sentence.split(/\s+/).map((w) => w.toLocaleLowerCase('tr'))
+  // "Tuba uterina'nın … 4 parçası bulunur": a name in the genitive is not the subject.
+  const nameLength = (s.names.la?.value ?? s.names.en.value).split(/\s+/).length
+  const nameIsSubject = !words.slice(0, nameLength).some((w) => /['’]/.test(w))
+  if (stems(s).includes(words[0]!.slice(0, 5)) && nameIsSubject) return true
+  return index < 3 && sentence.length <= 160 && LOCATION_END.test(sentence) && words.slice(0, 2).some((w) => OBLIQUE.test(w))
 }
 const EXPAND: [RegExp, string][] = [
   [/^m\. /, 'musculus '],
@@ -108,9 +135,10 @@ async function main(): Promise<number> {
   }
   const blocks: Block[] = []
   lines.forEach((l, i) => {
-    const m = HEADING.exec(l.text.trim())
-    if (!m) return
-    const [left, right] = [expand(m[1]!), expand(m[2]!)]
+    const t = l.text.trim()
+    const m = HEADING.exec(t)
+    if (!m && !(t.length <= 50 && TITLE_HEADING.test(t))) return
+    const [left, right] = m ? [expand(m[1]!), expand(m[2]!)] : [expand(t), '']
     const latin = ta2ByLatin.has(left) ? left : ta2ByLatin.has(right) ? right : null
     if (latin) blocks.push({ latin, start: i + 1, end: lines.length })
     else blocks.push({ latin: '', start: i + 1, end: lines.length }) // other headings still end the previous block
@@ -122,9 +150,11 @@ async function main(): Promise<number> {
   const review = JSON.parse(await readFile(join(CONTENT_DIR, 'terminology', 'iuc-kart-dislama.json'), 'utf8').catch(() => '{}')) as {
     yapilar?: Record<string, string>
     yalnizOzet?: Record<string, string>
+    konumYok?: Record<string, string>
   }
   const excluded = review.yapilar ?? {}
   const summaryOnly = review.yalnizOzet ?? {}
+  const noLocation = review.konumYok ?? {}
   const overlays = new Map<string, Record<string, unknown>>()
   for (const b of blocks) {
     if (!b.latin) continue
@@ -138,9 +168,8 @@ async function main(): Promise<number> {
     // Keep sentences that occur verbatim on a single page (so every quote can be checked).
     const bookPages = pagesBySource.get(same[0]!.sourceId)!
     const candidatePages = [...new Set(same.map((l) => l.page))]
-    const located = sentences
-      .map((sentence) => ({ sentence, page: candidatePages.find((p) => quoteOccurs(bookPages, [p], sentence)) }))
-      .filter((x): x is { sentence: string; page: number } => x.page !== undefined)
+    const items = sentences.map((sentence) => ({ sentence, page: candidatePages.find((p) => quoteOccurs(bookPages, [p], sentence)) }))
+    const located = items.filter((x): x is { sentence: string; page: number } => x.page !== undefined)
     if (located.length === 0) continue
     const src = (parts: { sentence: string; page: number }[]) => {
       const from = Math.min(...parts.map((p) => p.page))
@@ -152,16 +181,23 @@ async function main(): Promise<number> {
       if (t.id in excluded) continue
       // The summary is the first sentence that names the structure; the description follows it
       // until the text runs into the next heading (a run of capitalised words).
-      const at = prose.findIndex((x) => mentions(x.sentence, t))
-      if (at < 0) continue
-      const summary = prose[at]!
+      // The location is the first sentence that names the structure and says where it lies; it is
+      // not repeated as summary or description.
+      const where = t.id in noLocation ? undefined : prose.find((x, i) => isLocation(x.sentence, t, i))
+      const summary = prose.find((x) => x !== where && usable(x.sentence) && mentions(x.sentence, t))
+      if (!summary && !where) continue
+      // The description is the run of sentences right after the summary: it stops at the first
+      // sentence that cannot be quoted, is a list or fragment, or runs into the next heading, so no
+      // sentence is left out from the middle (which would break references such as "Burası …").
       const rest: { sentence: string; page: number }[] = []
-      for (const x of prose.slice(at + 1)) {
-        if (HEADING_BLEED.test(x.sentence) || rest.map((r) => r.sentence).join(' ').length + x.sentence.length > 700) break
-        rest.push(x)
+      for (const x of summary ? items.slice(items.findIndex((i) => i.sentence === summary.sentence) + 1) : []) {
+        if (x.sentence === where?.sentence) continue
+        if (x.page === undefined || LISTLIKE.test(x.sentence) || !usable(x.sentence) || HEADING_BLEED.test(x.sentence)) break
+        if (rest.map((r) => r.sentence).join(' ').length + x.sentence.length > 700) break
+        rest.push({ sentence: x.sentence, page: x.page })
       }
       // A field counts as written unless it came from this generator (re-runs regenerate it).
-      const has = (f: 'summary' | 'description') => {
+      const has = (f: 'summary' | 'description' | 'location') => {
         const cur = t.content[f]
         return cur?.status === 'present' && !cur.sources.some((r) => r.note === MARK)
       }
@@ -173,7 +209,8 @@ async function main(): Promise<number> {
         verification: 'unverified',
         sources: [{ ...src(parts), note: MARK }],
       })
-      if (!has('summary')) fields.summary = entry([summary])
+      if (summary && !has('summary')) fields.summary = entry([summary])
+      if (where && !has('location')) fields.location = entry([where])
       if (!has('description') && rest.length > 0 && !(t.id in summaryOnly)) fields.description = entry(rest)
       if (Object.keys(fields).length > 0) overlays.set(t.id, { id: t.id, content: fields })
     }

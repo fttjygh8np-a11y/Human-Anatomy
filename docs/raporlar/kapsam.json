@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T18:40:48.484Z",
-  "contentVersion": "9002589e5c7e2636",
+  "generatedAt": "2026-09-25T18:59:08.621Z",
+  "contentVersion": "941962cf35a47160",
   "totals": {
     "total": 520,
     "done": {
       "inventory": 520,
       "model": 517,
       "labels": 0,
-      "content": 119,
+      "content": 124,
       "license": 518,
       "review": 0,
       "complete": 0
@@ -75,7 +75,7 @@
           "inventory": 125,
           "model": 125,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 125,
           "review": 0,
           "complete": 0
@@ -126,7 +126,7 @@
           "inventory": 12,
           "model": 11,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 12,
           "review": 0,
           "complete": 0
@@ -143,7 +143,7 @@
           "inventory": 35,
           "model": 35,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 35,
           "review": 0,
           "complete": 0
@@ -177,7 +177,7 @@
           "inventory": 27,
           "model": 25,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 25,
           "review": 0,
           "complete": 0
@@ -194,7 +194,7 @@
           "inventory": 2,
           "model": 2,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 2,
           "review": 0,
           "complete": 0
@@ -247,7 +247,7 @@
           "inventory": 107,
           "model": 107,
           "labels": 0,
-          "content": 14,
+          "content": 15,
           "license": 107,
           "review": 0,
           "complete": 0
@@ -298,7 +298,7 @@
           "inventory": 91,
           "model": 90,
           "labels": 0,
-          "content": 15,
+          "content": 17,
           "license": 91,
           "review": 0,
           "complete": 0
@@ -315,7 +315,7 @@
           "inventory": 57,
           "model": 57,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 57,
           "review": 0,
           "complete": 0
@@ -332,7 +332,7 @@
           "inventory": 42,
           "model": 40,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 40,
           "review": 0,
           "complete": 0
@@ -385,7 +385,7 @@
           "inventory": 470,
           "model": 467,
           "labels": 0,
-          "content": 69,
+          "content": 74,
           "license": 468,
           "review": 0,
           "complete": 0
@@ -472,7 +472,7 @@
           "inventory": 26,
           "model": 26,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 26,
           "review": 0,
           "complete": 0
@@ -489,7 +489,7 @@
           "inventory": 55,
           "model": 55,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 55,
           "review": 0,
           "complete": 0
@@ -557,7 +557,7 @@
           "inventory": 8,
           "model": 7,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 8,
           "review": 0,
           "complete": 0
@@ -676,7 +676,7 @@
           "inventory": 1,
           "model": 1,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 1,
           "review": 0,
           "complete": 0
@@ -744,7 +744,7 @@
           "inventory": 27,
           "model": 25,
           "labels": 0,
-          "content": 0,
+          "content": 1,
           "license": 25,
           "review": 0,
           "complete": 0
@@ -4009,9 +4009,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4023,7 +4021,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4308,8 +4306,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -4350,8 +4346,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -4392,8 +4386,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -4434,8 +4426,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -4476,7 +4466,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
         "description",
         "location"
       ],
@@ -5544,7 +5533,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
         "description",
         "location"
       ],
@@ -9969,7 +9957,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
         "description",
         "location"
       ],
@@ -11190,8 +11177,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -11280,8 +11265,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -11325,8 +11308,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -13950,6 +13931,7 @@
         "en": "unverified"
       },
       "contentMissing": [
+        "description",
         "location"
       ],
       "license": "verified",
@@ -14503,8 +14485,7 @@
       },
       "contentMissing": [
         "summary",
-        "description",
-        "location"
+        "description"
       ],
       "license": "verified",
       "review": {
@@ -14985,8 +14966,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -15075,8 +15054,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -16033,8 +16010,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -16901,8 +16876,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -16984,11 +16957,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "summary",
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -17000,7 +16969,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -17371,8 +17340,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -17452,9 +17419,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -17466,7 +17431,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -17493,6 +17458,7 @@
         "en": "unverified"
       },
       "contentMissing": [
+        "description",
         "location"
       ],
       "license": "verified",
@@ -17578,6 +17544,7 @@
         "en": "unverified"
       },
       "contentMissing": [
+        "description",
         "location"
       ],
       "license": "verified",
@@ -18421,9 +18388,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -18435,7 +18400,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -18809,8 +18774,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -18980,7 +18943,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
         "description",
         "location"
       ],
@@ -19064,8 +19026,6 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "summary",
-        "description",
         "location"
       ],
       "license": "verified",
@@ -19194,8 +19154,7 @@
       },
       "contentMissing": [
         "summary",
-        "description",
-        "location"
+        "description"
       ],
       "license": "verified",
       "review": {
@@ -19582,9 +19541,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -19596,7 +19553,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false

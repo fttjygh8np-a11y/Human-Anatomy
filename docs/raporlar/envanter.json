@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-25T18:40:49.215Z",
+  "generatedAt": "2026-09-25T18:59:09.379Z",
   "totals": {
     "total": 2359,
     "model": 2246,
     "la": 1733,
     "tr": 434,
-    "content": 251,
+    "content": 274,
     "relations": 964,
     "approved": 0
   },
@@ -24,7 +24,7 @@
       "model": 366,
       "la": 296,
       "tr": 165,
-      "content": 121,
+      "content": 124,
       "relations": 208,
       "approved": 0
     },
@@ -33,7 +33,7 @@
       "model": 138,
       "la": 51,
       "tr": 37,
-      "content": 7,
+      "content": 16,
       "relations": 84,
       "approved": 0
     },
@@ -42,7 +42,7 @@
       "model": 784,
       "la": 543,
       "tr": 84,
-      "content": 1,
+      "content": 8,
       "relations": 301,
       "approved": 0
     },
@@ -69,7 +69,7 @@
       "model": 45,
       "la": 39,
       "tr": 18,
-      "content": 5,
+      "content": 6,
       "relations": 22,
       "approved": 0
     },
@@ -105,7 +105,7 @@
       "model": 155,
       "la": 152,
       "tr": 48,
-      "content": 4,
+      "content": 6,
       "relations": 79,
       "approved": 0
     },
@@ -123,7 +123,7 @@
       "model": 4,
       "la": 5,
       "tr": 2,
-      "content": 0,
+      "content": 1,
       "relations": 3,
       "approved": 0
     }
@@ -290,7 +290,7 @@
         "model": 63,
         "la": 59,
         "tr": 53,
-        "content": 17,
+        "content": 20,
         "relations": 56,
         "approved": 0
       }
@@ -301,7 +301,7 @@
         "model": 64,
         "la": 30,
         "tr": 14,
-        "content": 4,
+        "content": 10,
         "relations": 63,
         "approved": 0
       },
@@ -310,7 +310,7 @@
         "model": 16,
         "la": 5,
         "tr": 3,
-        "content": 0,
+        "content": 1,
         "relations": 13,
         "approved": 0
       },
@@ -319,7 +319,7 @@
         "model": 1,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 1,
         "approved": 0
       },
@@ -328,7 +328,7 @@
         "model": 55,
         "la": 12,
         "tr": 17,
-        "content": 1,
+        "content": 2,
         "relations": 5,
         "approved": 0
       },
@@ -375,7 +375,7 @@
         "model": 184,
         "la": 150,
         "tr": 29,
-        "content": 0,
+        "content": 6,
         "relations": 120,
         "approved": 0
       },
@@ -384,7 +384,7 @@
         "model": 23,
         "la": 21,
         "tr": 8,
-        "content": 1,
+        "content": 2,
         "relations": 15,
         "approved": 0
       },
@@ -489,7 +489,7 @@
         "model": 45,
         "la": 39,
         "tr": 18,
-        "content": 5,
+        "content": 6,
         "relations": 22,
         "approved": 0
       }
@@ -578,7 +578,7 @@
         "model": 109,
         "la": 109,
         "tr": 39,
-        "content": 4,
+        "content": 6,
         "relations": 72,
         "approved": 0
       },
@@ -645,7 +645,7 @@
         "model": 3,
         "la": 4,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 2,
         "approved": 0
       },

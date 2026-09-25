@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `9002589e5c7e2636` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `941962cf35a47160` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -13,7 +13,7 @@ Kapsam matrisindeki toplam hedef yapı: **520**. Tamamlanmış: **0/520 (%0)**.
 | Envanter kaydı | 520/520 (%100) |
 | 3B anatomik model | 517/520 (%99) |
 | TR/LA/EN adlar | 0/520 (%0) |
-| Bilgi kartı içeriği | 119/520 (%23) |
+| Bilgi kartı içeriği | 124/520 (%24) |
 | Model lisansı doğrulanmış | 518/520 (%100) |
 | Uzman incelemesi | 0/520 (%0) |
 | Tamamlanmış | 0/520 (%0) |
@@ -36,14 +36,14 @@ Boyutların tanımı:
 | İskelet sistemi | 132 | 132/132 (%100) | 132/132 (%100) | 0/132 (%0) | 119/132 (%90) | 132/132 (%100) | 0/132 (%0) | 0/132 (%0) |
 | Eklem sistemi | 6 | 6/6 (%100) | 6/6 (%100) | 0/6 (%0) | 0/6 (%0) | 6/6 (%100) | 0/6 (%0) | 0/6 (%0) |
 | Kas sistemi | 118 | 118/118 (%100) | 118/118 (%100) | 0/118 (%0) | 0/118 (%0) | 118/118 (%100) | 0/118 (%0) | 0/118 (%0) |
-| Dolaşım sistemi | 125 | 125/125 (%100) | 125/125 (%100) | 0/125 (%0) | 0/125 (%0) | 125/125 (%100) | 0/125 (%0) | 0/125 (%0) |
+| Dolaşım sistemi | 125 | 125/125 (%100) | 125/125 (%100) | 0/125 (%0) | 1/125 (%1) | 125/125 (%100) | 0/125 (%0) | 0/125 (%0) |
 | Lenfatik sistem | 3 | 3/3 (%100) | 3/3 (%100) | 0/3 (%0) | 0/3 (%0) | 3/3 (%100) | 0/3 (%0) | 0/3 (%0) |
 | Sinir sistemi | 51 | 51/51 (%100) | 51/51 (%100) | 0/51 (%0) | 0/51 (%0) | 51/51 (%100) | 0/51 (%0) | 0/51 (%0) |
-| Solunum sistemi | 12 | 12/12 (%100) | 11/12 (%92) | 0/12 (%0) | 0/12 (%0) | 12/12 (%100) | 0/12 (%0) | 0/12 (%0) |
-| Sindirim sistemi | 35 | 35/35 (%100) | 35/35 (%100) | 0/35 (%0) | 0/35 (%0) | 35/35 (%100) | 0/35 (%0) | 0/35 (%0) |
+| Solunum sistemi | 12 | 12/12 (%100) | 11/12 (%92) | 0/12 (%0) | 1/12 (%8) | 12/12 (%100) | 0/12 (%0) | 0/12 (%0) |
+| Sindirim sistemi | 35 | 35/35 (%100) | 35/35 (%100) | 0/35 (%0) | 1/35 (%3) | 35/35 (%100) | 0/35 (%0) | 0/35 (%0) |
 | Üriner sistem | 4 | 4/4 (%100) | 4/4 (%100) | 0/4 (%0) | 0/4 (%0) | 4/4 (%100) | 0/4 (%0) | 0/4 (%0) |
-| Üreme sistemi | 27 | 27/27 (%100) | 25/27 (%93) | 0/27 (%0) | 0/27 (%0) | 25/27 (%93) | 0/27 (%0) | 0/27 (%0) |
-| Endokrin bezler | 2 | 2/2 (%100) | 2/2 (%100) | 0/2 (%0) | 0/2 (%0) | 2/2 (%100) | 0/2 (%0) | 0/2 (%0) |
+| Üreme sistemi | 27 | 27/27 (%100) | 25/27 (%93) | 0/27 (%0) | 1/27 (%4) | 25/27 (%93) | 0/27 (%0) | 0/27 (%0) |
+| Endokrin bezler | 2 | 2/2 (%100) | 2/2 (%100) | 0/2 (%0) | 1/2 (%50) | 2/2 (%100) | 0/2 (%0) | 0/2 (%0) |
 | Duyu organları | 4 | 4/4 (%100) | 4/4 (%100) | 0/4 (%0) | 0/4 (%0) | 4/4 (%100) | 0/4 (%0) | 0/4 (%0) |
 | Deri ve deri ekleri | 1 | 1/1 (%100) | 1/1 (%100) | 0/1 (%0) | 0/1 (%0) | 1/1 (%100) | 0/1 (%0) | 0/1 (%0) |
 
@@ -51,12 +51,12 @@ Boyutların tanımı:
 
 | Bölge | Hedef | Envanter kaydı | 3B anatomik model | TR/LA/EN adlar | Bilgi kartı içeriği | Model lisansı doğrulanmış | Uzman incelemesi | Tamamlanmış |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Baş | 107 | 107/107 (%100) | 107/107 (%100) | 0/107 (%0) | 14/107 (%13) | 107/107 (%100) | 0/107 (%0) | 0/107 (%0) |
+| Baş | 107 | 107/107 (%100) | 107/107 (%100) | 0/107 (%0) | 15/107 (%14) | 107/107 (%100) | 0/107 (%0) | 0/107 (%0) |
 | Boyun | 39 | 39/39 (%100) | 39/39 (%100) | 0/39 (%0) | 8/39 (%21) | 39/39 (%100) | 0/39 (%0) | 0/39 (%0) |
 | Sırt | 38 | 38/38 (%100) | 38/38 (%100) | 0/38 (%0) | 18/38 (%47) | 38/38 (%100) | 0/38 (%0) | 0/38 (%0) |
-| Toraks | 91 | 91/91 (%100) | 90/91 (%99) | 0/91 (%0) | 15/91 (%16) | 91/91 (%100) | 0/91 (%0) | 0/91 (%0) |
-| Karın | 57 | 57/57 (%100) | 57/57 (%100) | 0/57 (%0) | 0/57 (%0) | 57/57 (%100) | 0/57 (%0) | 0/57 (%0) |
-| Pelvis ve perine | 42 | 42/42 (%100) | 40/42 (%95) | 0/42 (%0) | 0/42 (%0) | 40/42 (%95) | 0/42 (%0) | 0/42 (%0) |
+| Toraks | 91 | 91/91 (%100) | 90/91 (%99) | 0/91 (%0) | 17/91 (%19) | 91/91 (%100) | 0/91 (%0) | 0/91 (%0) |
+| Karın | 57 | 57/57 (%100) | 57/57 (%100) | 0/57 (%0) | 1/57 (%2) | 57/57 (%100) | 0/57 (%0) | 0/57 (%0) |
+| Pelvis ve perine | 42 | 42/42 (%100) | 40/42 (%95) | 0/42 (%0) | 1/42 (%2) | 40/42 (%95) | 0/42 (%0) | 0/42 (%0) |
 | Üst ekstremite | 69 | 69/69 (%100) | 69/69 (%100) | 0/69 (%0) | 32/69 (%46) | 69/69 (%100) | 0/69 (%0) | 0/69 (%0) |
 | Alt ekstremite | 77 | 77/77 (%100) | 77/77 (%100) | 0/77 (%0) | 32/77 (%42) | 77/77 (%100) | 0/77 (%0) | 0/77 (%0) |
 
@@ -64,7 +64,7 @@ Boyutların tanımı:
 
 | Düzey | Hedef | Envanter kaydı | 3B anatomik model | TR/LA/EN adlar | Bilgi kartı içeriği | Model lisansı doğrulanmış | Uzman incelemesi | Tamamlanmış |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Temel | 470 | 470/470 (%100) | 467/470 (%99) | 0/470 (%0) | 69/470 (%15) | 468/470 (%100) | 0/470 (%0) | 0/470 (%0) |
+| Temel | 470 | 470/470 (%100) | 467/470 (%99) | 0/470 (%0) | 74/470 (%16) | 468/470 (%100) | 0/470 (%0) | 0/470 (%0) |
 | Orta | 50 | 50/50 (%100) | 50/50 (%100) | 0/50 (%0) | 50/50 (%100) | 50/50 (%100) | 0/50 (%0) | 0/50 (%0) |
 
 ## Sistem × bölge matrisi (tamamlanan / hedef)
@@ -160,18 +160,18 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | musculus subclavius (Subclavius) | Kas sistemi | Toraks | Temel | `fma:13410` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | musculus subscapularis (Subscapularis) | Kas sistemi | Üst ekstremite | Temel | `fma:13413` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | columna vertebralis (Vertebral column) | İskelet sistemi | Karın | Temel | `fma:13478` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Hipofiz (Pituitary gland) | Endokrin bezler | Baş | Temel | `fma:13889` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Hipofiz (Pituitary gland) | Endokrin bezler | Baş | Temel | `fma:13889` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Splenik ven (Splenic vein) | Dolaşım sistemi | Karın | Temel | `fma:14331` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | vena mesenterica superior (Superior mesenteric vein) | Dolaşım sistemi | Karın | Temel | `fma:14332` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | vena iliaca communis (Common iliac vein) | Dolaşım sistemi | Pelvis ve perine | Temel | `fma:14333` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Karaciğer damarı (Hepatic vein) | Sindirim sistemi | Karın | Temel | `fma:14337` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | vena hepatica intermedia (Middle hepatic vein) | Dolaşım sistemi | Karın | Temel | `fma:14340` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Sistik kanal (Cystic duct) | Sindirim sistemi | Karın | Temel | `fma:14539` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Apandis (Appendix) | Sindirim sistemi | Karın | Temel | `fma:14542` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Rektum (Rectum) | Sindirim sistemi | Pelvis ve perine | Temel | `fma:14544` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| colon ascendens (Ascending colon) | Sindirim sistemi | Karın | Temel | `fma:14545` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| colon transversum (Transverse colon) | Sindirim sistemi | Karın | Temel | `fma:14546` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| colon descendens (Descending colon) | Sindirim sistemi | Karın | Temel | `fma:14547` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Apandis (Appendix) | Sindirim sistemi | Karın | Temel | `fma:14542` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Rektum (Rectum) | Sindirim sistemi | Pelvis ve perine | Temel | `fma:14544` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| colon ascendens (Ascending colon) | Sindirim sistemi | Karın | Temel | `fma:14545` | var | — | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| colon transversum (Transverse colon) | Sindirim sistemi | Karın | Temel | `fma:14546` | var | — | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| colon descendens (Descending colon) | Sindirim sistemi | Karın | Temel | `fma:14547` | var | — | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Ortak hepatik kanal (Common hepatic duct) | Sindirim sistemi | Karın | Temel | `fma:14668` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | ductus hepaticus dexter (Right hepatic duct) | Sindirim sistemi | Karın | Temel | `fma:14669` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | ductus hepaticus sinister (Left hepatic duct) | Sindirim sistemi | Karın | Temel | `fma:14670` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -196,7 +196,7 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | fundus uteri (Fundus of uterus) | Üreme sistemi | Pelvis ve perine | Temel | `fma:17561` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | psoas major (Psoas major) | Kas sistemi | Karın | Temel | `fma:18060` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location, origin, insertion, action | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Penis başı (Glans penis) | Üreme sistemi | Pelvis ve perine | Temel | `fma:18247` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Epididimis (Epididymis) | Üreme sistemi | Pelvis ve perine | Temel | `fma:18255` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Epididimis (Epididymis) | Üreme sistemi | Pelvis ve perine | Temel | `fma:18255` | var (sağ ✓, sol ✓) | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | arteria iliaca externa (External iliac artery) | Dolaşım sistemi | Pelvis ve perine | Temel | `fma:18805` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | arteria iliaca interna (Internal iliac artery) | Dolaşım sistemi | Pelvis ve perine | Temel | `fma:18808` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | vena iliaca externa (External iliac vein) | Dolaşım sistemi | Pelvis ve perine | Temel | `fma:18883` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -296,7 +296,7 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | musculus teres major (Teres major) | Kas sistemi | Üst ekstremite | Temel | `fma:32549` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | musculus teres minor (Teres minor) | Kas sistemi | Üst ekstremite | Temel | `fma:32550` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Membrana interossea cruris (Interosseous membrane of leg) | Eklem sistemi | Alt ekstremite | Temel | `fma:35187` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Aort (Aorta) | Dolaşım sistemi | Karın | Temel | `fma:3734` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Aort (Aorta) | Dolaşım sistemi | Karın | Temel | `fma:3734` | var | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Yükselen aorta (Ascending aorta) | Dolaşım sistemi | Toraks | Temel | `fma:3736` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | abductor brevis pollicis (Abductor pollicis brevis) | Kas sistemi | Üst ekstremite | Temel | `fma:37373` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | flexor brevis pollicis (Flexor pollicis brevis) | Kas sistemi | Üst ekstremite | Temel | `fma:37378` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -324,10 +324,10 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | extensor longus pollicis (Extensor pollicis longus) | Kas sistemi | Üst ekstremite | Temel | `fma:38521` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | extensor indicis (Extensor indicis) | Kas sistemi | Üst ekstremite | Temel | `fma:38524` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Brakiyosefalik (Brachiocephalic artery) | Dolaşım sistemi | Toraks | Temel | `fma:3932` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Şah damarı (Common carotid artery) | Dolaşım sistemi | Toraks | Temel | `fma:3939` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Şah damarı (Common carotid artery) | Dolaşım sistemi | Toraks | Temel | `fma:3939` | var (sağ ✓, sol ✓) | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | İnternal karotid arter (Internal carotid artery) | Dolaşım sistemi | Boyun | Temel | `fma:3947` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Subklaviyan arter (Subclavian artery) | Dolaşım sistemi | Toraks | Temel | `fma:3951` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Vertebral arter (Vertebral artery) | Dolaşım sistemi | Toraks | Temel | `fma:3956` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Subklaviyan arter (Subclavian artery) | Dolaşım sistemi | Toraks | Temel | `fma:3951` | var (sağ ✓, sol ✓) | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Vertebral arter (Vertebral artery) | Dolaşım sistemi | Toraks | Temel | `fma:3956` | var (sağ ✓, sol ✓) | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | arteria thoracica interna (Internal thoracic artery) | Dolaşım sistemi | Toraks | Temel | `fma:3960` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | truncus thyreocervicalis (Thyrocervical trunk) | Dolaşım sistemi | Toraks | Temel | `fma:3990` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Gracilis kası (Gracilis) | Kas sistemi | Alt ekstremite | Temel | `fma:43882` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -386,7 +386,7 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Çölyak arter (Celiac artery) | Dolaşım sistemi | Karın | Temel | `fma:50737` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Beyin (Brain) | Sinir sistemi | Baş | Temel | `fma:50801` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Nervus opticus (Optic nerve) | Sinir sistemi | Baş | Temel | `fma:50863` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Troklear sinir (Trochlear nerve) | Sinir sistemi | Baş | Temel | `fma:50865` | var (sağ ✓, sol ✓) | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Troklear sinir (Trochlear nerve) | Sinir sistemi | Baş | Temel | `fma:50865` | var (sağ ✓, sol ✓) | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | extensor brevis hallucis (Extensor hallucis brevis) | Kas sistemi | Alt ekstremite | Temel | `fma:51141` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | nervus lacrimalis (Lacrimal nerve) | Sinir sistemi | Baş | Temel | `fma:52628` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | nervus frontalis (Frontal nerve) | Sinir sistemi | Baş | Temel | `fma:52638` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -399,7 +399,7 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Dil (Tongue) | Sindirim sistemi | Baş | Temel | `fma:54640` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Yumuşak damak (Soft palate) | Sindirim sistemi | Baş | Temel | `fma:55021` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | raphe pharyngis (Pharyngeal raphe) | Sindirim sistemi | Boyun | Temel | `fma:55077` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Çene altı tükrük bezi (Submandibular gland) | Sindirim sistemi | Baş | Temel | `fma:55093` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Çene altı tükrük bezi (Submandibular gland) | Sindirim sistemi | Baş | Temel | `fma:55093` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | cartilago thyreoidea (Thyroid cartilage) | Solunum sistemi | Boyun | Temel | `fma:55099` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Aritenoid (Arytenoid cartilage) | Solunum sistemi | Boyun | Temel | `fma:55109` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Epiglottis | Solunum sistemi | Boyun | Temel | `fma:55130` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -410,9 +410,9 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | ligamentum teres uteri (Left round ligament of uterus) | Üreme sistemi | Pelvis ve perine | Temel | `fma:57790` | yok | — | ? | ? | summary, description, location | — | Taslak / Taslak / Taslak / Taslak |
 | Saydam tabaka (Cornea) | İskelet sistemi | Baş | Temel | `fma:58238` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Göz akı (Sclera) | İskelet sistemi | Baş | Temel | `fma:58269` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Damar tabaka (Choroid) | İskelet sistemi | Baş | Temel | `fma:58298` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Damar tabaka (Choroid) | İskelet sistemi | Baş | Temel | `fma:58298` | var (sağ ✓, sol ✓) | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | pars optica retinae (Optic part of retina) | Duyu organları | Baş | Temel | `fma:58604` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Vitreus sıvı (Vitreous body) | İskelet sistemi | Baş | Temel | `fma:58827` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Vitreus sıvı (Vitreous body) | İskelet sistemi | Baş | Temel | `fma:58827` | var (sağ ✓, sol ✓) | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | glandula lacrimalis (Lacrimal gland) | İskelet sistemi | Baş | Temel | `fma:59101` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | apparatus lacrimalis (Right lacrimal apparatus) | Duyu organları | Baş | Temel | `fma:59368` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | apparatus lacrimalis (Left lacrimal apparatus) | Duyu organları | Baş | Temel | `fma:59369` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -434,7 +434,7 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Omurilik soğanı (Medulla oblongata) | Sinir sistemi | Baş | Temel | `fma:62004` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Talamus (Thalamus) | Sinir sistemi | Baş | Temel | `fma:62007` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Hipotalamus (Hypothalamus) | Sinir sistemi | Baş | Temel | `fma:62008` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| epithalamus (Epithalamus) | Sinir sistemi | Baş | Temel | `fma:62009` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| epithalamus (Epithalamus) | Sinir sistemi | Baş | Temel | `fma:62009` | var | — | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | habenula (Habenula) | Sinir sistemi | Baş | Temel | `fma:62032` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Kozalaksı bez (Pineal body) | Sinir sistemi | Baş | Temel | `fma:62033` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | tuber cinereum (Tuber cinereum) | Sinir sistemi | Baş | Temel | `fma:62327` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -454,9 +454,9 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Femoral sinir (Femoral artery) | Dolaşım sistemi | Alt ekstremite | Temel | `fma:70248` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | venae intercostales anteriores (Set of anterior intercostal veins) | Dolaşım sistemi | Toraks | Temel | `fma:70839` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | atrium dextrum (Right atrium) | Dolaşım sistemi | Toraks | Temel | `fma:7096` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| atrium sinistrum (Left atrium) | Dolaşım sistemi | Toraks | Temel | `fma:7097` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| atrium sinistrum (Left atrium) | Dolaşım sistemi | Toraks | Temel | `fma:7097` | var | — | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | ventriculus dexter (Right ventricle) | Dolaşım sistemi | Toraks | Temel | `fma:7098` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| ventriculus sinister (Left ventricle) | Dolaşım sistemi | Toraks | Temel | `fma:7101` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| ventriculus sinister (Left ventricle) | Dolaşım sistemi | Toraks | Temel | `fma:7101` | var | — | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | lobus thymi (Lobe of thymus) | Lenfatik sistem | Toraks | Temel | `fma:71193` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | vena thoracica lateralis (Lateral thoracic vein) | Dolaşım sistemi | Toraks | Temel | `fma:71210` | var (sağ ✓, sol ✓) | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | musculi interspinales lumborum (Set of interspinales lumborum) | Kas sistemi | Sırt | Temel | `fma:71307` | var | — | ? | ? | summary, description, location, origin, insertion, action | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -465,12 +465,12 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | Mide (Stomach) | Sindirim sistemi | Karın | Temel | `fma:7148` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Dalak (Spleen) | Lenfatik sistem | Karın | Temel | `fma:7196` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Karaciğer (Liver) | Sindirim sistemi | Karın | Temel | `fma:7197` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Pankreas (Pancreas) | Sindirim sistemi | Karın | Temel | `fma:7198` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Pankreas (Pancreas) | Sindirim sistemi | Karın | Temel | `fma:7198` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | İnce bağırsak (Small intestine) | Sindirim sistemi | Karın | Temel | `fma:7200` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Kalın bağırsak (Large intestine) | Sindirim sistemi | Karın | Temel | `fma:7201` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Safra kesesi (Gallbladder) | Sindirim sistemi | Karın | Temel | `fma:7202` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Kalın bağırsak (Large intestine) | Sindirim sistemi | Karın | Temel | `fma:7201` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Safra kesesi (Gallbladder) | Sindirim sistemi | Karın | Temel | `fma:7202` | var | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Böbrek (Kidney) | Üriner sistem | Karın | Temel | `fma:7203` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| On iki parmak barsağı (Duodenum) | Sindirim sistemi | Karın | Temel | `fma:7206` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| On iki parmak barsağı (Duodenum) | Sindirim sistemi | Karın | Temel | `fma:7206` | var | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | jejunum (Jejunum) | Sindirim sistemi | Karın | Temel | `fma:7207` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | ileum (Ileum) | Sindirim sistemi | Karın | Temel | `fma:7208` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Er bezi (Testis) | Üreme sistemi | Pelvis ve perine | Temel | `fma:7210` | var (sağ ✓, sol ✓) | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
@@ -490,7 +490,7 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 | pulmo dexter (Right lung) | Solunum sistemi | Toraks | Temel | `fma:7309` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | pulmo sinister (Left lung) | Solunum sistemi | Toraks | Temel | `fma:7310` | var | — | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Bronş ağacı (Tracheobronchial tree) | Solunum sistemi | Toraks | Temel | `fma:7393` | var | ? | ? | ? | summary, description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Soluk borusu (Trachea) | Solunum sistemi | Toraks | Temel | `fma:7394` | var | ? | ? | ? | location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Soluk borusu (Trachea) | Solunum sistemi | Toraks | Temel | `fma:7394` | var | ? | ? | ? | — | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 
 … ve 120 hedef daha (tam liste: kapsam.json).
 
