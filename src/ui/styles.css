@@ -22,6 +22,7 @@
     --muted: #9aa5b5;
     --border: #2c3440;
     --accent: #4c8dff;
+    --accent-text: #0f1318;
     --ok: #3fb950;
     --warn: #d29922;
     --danger: #f85149;
@@ -37,6 +38,7 @@
   --muted: #9aa5b5;
   --border: #2c3440;
   --accent: #4c8dff;
+  --accent-text: #0f1318;
   --ok: #3fb950;
   --warn: #d29922;
   --danger: #f85149;
@@ -76,6 +78,13 @@ button {
   padding: 4px 10px;
   cursor: pointer;
   min-height: 32px;
+}
+/* Native select colours follow the theme (the UA dark default is below 4.5:1 contrast). */
+select {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 4px;
 }
 button:disabled {
   opacity: 0.5;
@@ -132,7 +141,8 @@ fieldset {
   border: none;
   background: none;
   padding: 0;
-  min-height: 0;
+  /* WCAG 2.2 target size: at least 24px, also when stacked in lists. */
+  min-height: 24px;
   color: var(--accent);
   text-decoration: underline;
 }
@@ -203,7 +213,8 @@ fieldset {
   gap: 4px;
   margin-bottom: 8px;
 }
-.tabs [aria-selected='true'] {
+.tabs [aria-selected='true'],
+.tabs [aria-pressed='true'] {
   background: var(--accent);
   color: var(--accent-text);
   border-color: var(--accent);
@@ -446,4 +457,10 @@ fieldset {
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* Lazily loaded parts (src/app/lazy.tsx) */
+.deferred {
+  margin: 0;
+  padding: 16px;
 }
