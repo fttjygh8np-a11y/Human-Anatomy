@@ -25,6 +25,8 @@ for (const scheme of ['light', 'dark'] as const) {
     test.use({ colorScheme: scheme })
 
     test('Keşfet görünümü', async ({ page }, testInfo) => {
+      // Four full-page axe scans with the 3D scene loaded; slow on 2-core CI runners.
+      test.setTimeout(180_000)
       await openApp(page)
       await scan(page, testInfo, `kesfet-bos-${scheme}`)
 

@@ -44,6 +44,7 @@ jobs:
           restore-keys: bp3d-4.0-
       - run: npm run models:fetch
       - run: npm run models:build
+      - run: npm run models:hra
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v4
