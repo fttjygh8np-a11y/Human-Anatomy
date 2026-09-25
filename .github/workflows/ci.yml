@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main, main-stxrmb]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Lint, tip denetimi, birim testleri, içerik doğrulama, derleme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx eslint .
+      - run: npx tsc -b
+      - run: npx vitest run
+      - run: npm run content:validate
+      - run: npm run build
+
+  e2e:
+    name: Uçtan uca ve erişilebilirlik testleri (gerçek modellerle)
+    runs-on: ubuntu-latest
+    needs: check
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: BodyParts3D önbelleği
+        uses: actions/cache@v4
+        with:
+          path: vendor/bodyparts3d
+          key: bp3d-4.0-${{ hashFiles('scripts/models/**') }}
+          restore-keys: bp3d-4.0-
+      - run: npm run models:fetch
+      - run: npm run models:build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report/

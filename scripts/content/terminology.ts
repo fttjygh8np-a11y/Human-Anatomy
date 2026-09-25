@@ -155,7 +155,11 @@ async function readJsonArrays(dir: string): Promise<Record<string, unknown>[]> {
 type Structure = Parameters<typeof matchTa2>[0] & { regions: string[]; systems: string[]; counterpartId?: string; genericId?: string }
 
 async function main() {
-  const inventory = (await readJsonArrays(join(CONTENT_DIR, 'structures', '_inventory'))) as unknown as Structure[]
+  // BodyParts3D inventory plus full records from other model sources (HRA female organs).
+  const inventory = [
+    ...(await readJsonArrays(join(CONTENT_DIR, 'structures', '_inventory'))),
+    ...(await readJsonArrays(join(CONTENT_DIR, 'structures', 'kadin'))),
+  ] as unknown as Structure[]
   const candidates = (JSON.parse(await readFile(join(CONTENT_DIR, 'terminology', 'tr-adaylari.json'), 'utf8')) as { adaylar: Record<string, string[]> }).adaylar
 
   const ta2 = await loadTa2()

@@ -20,13 +20,14 @@
     "perf": "node scripts/perf/measure.ts",
     "models:fetch": "node scripts/models/fetch-bodyparts3d.ts",
     "models:build": "node scripts/models/build-models.ts",
+    "models:hra": "node scripts/models/hra/build-hra.ts",
     "content:inventory": "node scripts/content/build-inventory.ts",
     "content:terms": "node scripts/content/terminology.ts",
     "content:relations": "node scripts/content/relations.ts",
     "content:build": "node scripts/content/build-content.ts",
     "content:validate": "node scripts/content/validate-content.ts",
     "report:coverage": "node scripts/reports/coverage-report.ts",
-    "setup": "npm run models:fetch && npm run models:build && npm run content:inventory && npm run content:build"
+    "setup": "npm run models:fetch && npm run models:build && npm run models:hra && npm run content:build"
   },
   "dependencies": {
     "idb": "8.0.3",

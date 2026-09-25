@@ -91,9 +91,44 @@ function Shell({ index }: { index: ContentIndex }) {
   const reducedMotion = settings.reducedMotion === 'system' ? systemReduced : settings.reducedMotion === 'on'
 
   // Base models of the switched-on systems.
+  // Body model: BodyParts3D (male, whole body) or HRA female reproductive organs. The HRA models
+  // belong to another donor and are not registered to the BodyParts3D body, so they form a
+  // separate view instead of being mixed into the male body.
+  const [bodyModel, setBodyModel] = useState<'male' | 'female'>('male')
+  const hasFemaleModel = useMemo(() => index.bundle.assets.some((a) => !a.registeredToBody), [index])
   const assets = useMemo(
-    () => index.bundle.assets.filter((a) => a.lod === 'base' && a.systems.some((s) => isSystemOn(scene, s))),
-    [index, scene],
+    () =>
+      bodyModel === 'female'
+        ? index.bundle.assets.filter((a) => !a.registeredToBody)
+        : index.bundle.assets.filter((a) => a.registeredToBody && a.lod === 'base' && a.systems.some((s) => isSystemOn(scene, s))),
+    [index, scene, bodyModel],
+  )
+  // After switching body models, frame the new content once its first model has loaded.
+  useEffect(() => {
+    if (!engine) return
+    let done = false
+    const off = engine.on((e) => {
+      if (done || e.type !== 'asset-loaded') return
+      done = true
+      const id = sceneStore.getState().scene.selected.at(-1)
+      if (id && index.hasModel(id)) engine.focusStructures([id])
+      else engine.resetCamera()
+    })
+    return off
+  }, [engine, bodyModel, index])
+
+  // Selecting a structure that only exists in the other body model switches the view.
+  useEffect(
+    () =>
+      sceneStore.subscribe((st, prev) => {
+        const id = st.scene.selected.at(-1)
+        if (!id || id === prev.scene.selected.at(-1)) return
+        const nodeAssets = index.assetsFor(id).map((a) => index.getAsset(a))
+        if (nodeAssets.length === 0) return
+        if (nodeAssets.every((a) => a && !a.registeredToBody)) setBodyModel('female')
+        else if (nodeAssets.every((a) => a && a.registeredToBody)) setBodyModel('male')
+      }),
+    [index],
   )
 
   const services: Services = useMemo(
@@ -111,6 +146,15 @@ function Shell({ index }: { index: ContentIndex }) {
         <header className="app-header">
           <h1>Anatomi 3B</h1>
           <SearchBox />
+          {hasFemaleModel && (
+            <label className="model-switch">
+              Model{' '}
+              <select value={bodyModel} onChange={(e) => setBodyModel(e.target.value as 'male' | 'female')}>
+                <option value="male">Tüm vücut (erkek, BodyParts3D)</option>
+                <option value="female">Kadın üreme organları (HRA)</option>
+              </select>
+            </label>
+          )}
           <nav className="tabs" aria-label="Kip">
             {(
               [

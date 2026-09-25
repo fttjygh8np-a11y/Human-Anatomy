@@ -23,7 +23,7 @@ import { loadContent, pathsFromArgs } from './lib/pipeline.ts'
 async function main(): Promise<number> {
   const strict = hasFlag('--strict')
   const paths = pathsFromArgs()
-  const { content, issues, inputs, assetsText } = await loadContent(paths)
+  const { content, issues, inputs, assetsText, assetsMerged } = await loadContent(paths)
   const outFor = (key: DataKey) => join(paths.publicDir, DATA_FILES[key])
   const outLabel = repoRelative(join(paths.publicDir, 'data'))
 
@@ -53,7 +53,7 @@ async function main(): Promise<number> {
   for (const [key, text] of Object.entries(texts) as [DataKey, string][]) {
     if (key === 'manifest') continue
     // assets.json is owned by the model pipeline: never rewrite it in place.
-    if (key === 'assets' && assetsText !== null && resolve(paths.assetsPath) === resolve(outFor('assets'))) continue
+    if (key === 'assets' && assetsText !== null && !assetsMerged && resolve(paths.assetsPath) === resolve(outFor('assets'))) continue
     await writeText(outFor(key), text)
   }
   await writeText(outFor('manifest'), texts.manifest)

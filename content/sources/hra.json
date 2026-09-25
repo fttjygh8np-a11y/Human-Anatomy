@@ -1,0 +1,27 @@
+{
+  "id": "src:hra",
+  "type": "model_library",
+  "citation": "Human Reference Atlas (HRA) 3D Reference Object Library. HuBMAP. https://humanatlas.io/3d-reference-library",
+  "shortLabel": "HRA 3B Referans Kütüphanesi",
+  "url": "https://humanatlas.io/3d-reference-library",
+  "version": "uterus-female v1.2, ovary-female-left/right v1.3, fallopian-tube-female-left/right v1.2, united-female v1.10",
+  "accessed": "2026-09-25",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Human Reference Atlas 3D Reference Object Library (HuBMAP), CC BY 4.0, https://humanatlas.io/3d-reference-library",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "verifiedAt": {
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/v1.2/metadata.json",
+      "date": "2026-09-25",
+      "quote": "\"license\": \"https://creativecommons.org/licenses/by/4.0/\" — her veri kümesinin metadata.json dosyasında aynı lisans alanı bulunur; indirme adımı farklı lisans bildiren veri kümesini reddeder."
+    },
+    "notes": "Türetilmiş GLB'ler (düğüm seçimi, birleştirme, sadeleştirme, sıkıştırma) CC BY 4.0 ile, yukarıdaki atıfla dağıtılır."
+  },
+  "usedFor": ["geometry", "names:en (doğrulanmamış)", "fma/uberon-mapping"],
+  "notes": "Yalnızca kadın üreme organları için kullanılır (BodyParts3D yalnızca erkek modeli içerir). Modeller Visible Human kadın bağışçısına aittir ve BodyParts3D erkek gövdesine hizalı değildir; uygulamada ayrı bir görünüm olarak gösterilir. Eksen ve taraf, veri üzerinde denetlendi (sol yumurtalık +X'te); ayrıntılar docs/model-katalogu.md ve vendor/hra/build-report.json."
+}

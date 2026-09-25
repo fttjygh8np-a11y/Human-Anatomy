@@ -282,3 +282,23 @@ dışında seçilmiştir ve geometrileri kutu/küredir — **BodyParts3D verisi 
   bunun yarısı).
 - Korunan yapı listesi ve LOD bütçeleri ölçülmemiş başlangıç değerleridir.
 - Tüm geometri kayıtları `draft` durumundadır; uzman incelemesi yapılmamıştır.
+
+## HRA — kadın üreme organları
+
+BodyParts3D yalnızca erkek modeli içerdiğinden kadın üreme organları **Human Reference Atlas (HRA,
+HuBMAP) 3B Referans Nesne Kütüphanesi**nden alınır (`npm run models:hra`, `scripts/models/hra/`).
+
+| Özellik | Değer |
+| --- | --- |
+| Veri kümeleri | uterus-female v1.2, ovary-female-left/right v1.3, fallopian-tube-female-left/right v1.2, united-female v1.10 (yalnızca vajina ve bağlar; HTTP aralık istekleriyle ~3,7 MB) |
+| Lisans | CC BY 4.0 — her veri kümesinin `metadata.json` dosyasındaki `license` alanı (2026-09-25'te okundu; `content/sources/hra.json`). Farklı lisans bildiren veri kümesi indirilmez. |
+| Koordinat | glTF 2.0 (+Y üst, +Z ön, +X sol, metre) = uygulama çerçevesi `anat-gltf-v1`; dönüşüm yok. Veri üzerinde denetlendi: sol yumurtalık +X'te, yumurtalıklar serviksin üstünde, uterovezikal cep uterosakral bağların önünde. |
+| Çıktı | `public/models/hra/reproductive.pelvis_perineum.glb` (19 düğüm, ~60 bin üçgen) ve `…ligaments.glb` (14 düğüm, ~40 bin üçgen); varlık listesi `public/data/assets-hra.json`, içerik derlemesinde `assets.json` ile kimliğe göre birleştirilir. |
+| Yapı kayıtları | `content/structures/kadin/ureme.json` (37 kayıt; kimlikler HRA crosswalk.csv'deki FMA/UBERON kimlikleri; adlar doğrulanmadı). |
+| Sınırlar | Modeller farklı bir bağışçıya (Visible Human kadın) aittir ve BodyParts3D erkek gövdesine **hizalı değildir** (`registeredToBody: false`); uygulamada üst çubuktaki "Model" seçimiyle ayrı görünüm olarak açılır. |
+
+Derlemeye alınmayan düğümler (uydurma yapılmadı; `vendor/hra/build-report.json`):
+
+- `VH_F_cervicovaginal_junction`, `VH_F_cornua`: crosswalk ontoloji kimliği vermiyor.
+- `VH_F_abdominal_ostium_of_uterine_tube`: etiket (FMA:77049) ile ağın konumu uyuşmuyor; uzman incelemesi gerekli.
+- `VH_F_right/left_round_ligament_of_uterus`: ad ile geometrinin tarafı ters; yapı kayıtları var ama 3B modeli gösterilmez.

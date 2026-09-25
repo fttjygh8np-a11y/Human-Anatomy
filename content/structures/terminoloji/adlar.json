@@ -5116,6 +5116,25 @@
     }
   },
   {
+    "id": "fma:17561",
+    "names": {
+      "la": {
+        "value": "fundus uteri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3501",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3501, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3501"
+    }
+  },
+  {
     "id": "fma:18060",
     "names": {
       "la": {
@@ -5276,6 +5295,120 @@
     },
     "externalIds": {
       "ta2": "3603"
+    }
+  },
+  {
+    "id": "fma:18489",
+    "names": {
+      "la": {
+        "value": "infundibulum tubae uterinae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3488",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3488, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3488"
+    }
+  },
+  {
+    "id": "fma:18490",
+    "names": {
+      "la": {
+        "value": "infundibulum tubae uterinae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3488",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3488, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3488"
+    }
+  },
+  {
+    "id": "fma:18491",
+    "names": {
+      "la": {
+        "value": "ampulla tubae uterinae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3491",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3491, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3491"
+    }
+  },
+  {
+    "id": "fma:18492",
+    "names": {
+      "la": {
+        "value": "ampulla tubae uterinae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3491",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3491, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3491"
+    }
+  },
+  {
+    "id": "fma:18493",
+    "names": {
+      "la": {
+        "value": "isthmus tubae uterinae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3492",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3492, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3492"
+    }
+  },
+  {
+    "id": "fma:18494",
+    "names": {
+      "la": {
+        "value": "isthmus tubae uterinae",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3492",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3492, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3492"
     }
   },
   {
@@ -5761,6 +5894,114 @@
     }
   },
   {
+    "id": "fma:19119",
+    "names": {
+      "la": {
+        "value": "ligamentum uterosacrale",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3840, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "ligamentum rectouterinum",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840"
+          }
+        ]
+      },
+      {
+        "value": "rectouterine ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840"
+          }
+        ]
+      },
+      {
+        "value": "recto-uterine ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3840"
+    }
+  },
+  {
+    "id": "fma:19120",
+    "names": {
+      "la": {
+        "value": "ligamentum uterosacrale",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3840, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "ligamentum rectouterinum",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840"
+          }
+        ]
+      },
+      {
+        "value": "rectouterine ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840"
+          }
+        ]
+      },
+      {
+        "value": "recto-uterine ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3840"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3840"
+    }
+  },
+  {
     "id": "fma:19386",
     "names": {
       "la": {
@@ -6075,6 +6316,146 @@
     },
     "externalIds": {
       "ta2": "4354"
+    }
+  },
+  {
+    "id": "fma:19809",
+    "names": {
+      "la": {
+        "value": "mesosalpinx",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3802",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3802, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3802"
+    }
+  },
+  {
+    "id": "fma:19810",
+    "names": {
+      "la": {
+        "value": "mesosalpinx",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3802",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3802, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3802"
+    }
+  },
+  {
+    "id": "fma:19817",
+    "names": {
+      "la": {
+        "value": "mesovarium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3803",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3803, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3803"
+    }
+  },
+  {
+    "id": "fma:19818",
+    "names": {
+      "la": {
+        "value": "mesovarium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3803",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3803, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3803"
+    }
+  },
+  {
+    "id": "fma:19823",
+    "names": {
+      "la": {
+        "value": "ligamentum suspensorium ovarii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3805",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3805, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "infundibulopelvic ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3805"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3805"
+    }
+  },
+  {
+    "id": "fma:19824",
+    "names": {
+      "la": {
+        "value": "ligamentum suspensorium ovarii",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3805",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3805, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "infundibulopelvic ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3805"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3805"
     }
   },
   {
@@ -33084,6 +33465,44 @@
     }
   },
   {
+    "id": "fma:57789",
+    "names": {
+      "la": {
+        "value": "ligamentum teres uteri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3835",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3835, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3835"
+    }
+  },
+  {
+    "id": "fma:57790",
+    "names": {
+      "la": {
+        "value": "ligamentum teres uteri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3835",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3835, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3835"
+    }
+  },
+  {
     "id": "fma:58078",
     "names": {
       "la": {
@@ -39389,6 +39808,60 @@
     }
   },
   {
+    "id": "fma:77064",
+    "names": {
+      "la": {
+        "value": "ligamentum cardinale",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3839",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3839, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "ligamentum transversum cervicis",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3839"
+          }
+        ]
+      },
+      {
+        "value": "transverse cervical ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3839"
+          }
+        ]
+      },
+      {
+        "value": "lateral cervical ligament",
+        "lang": "en",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3839"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3839"
+    }
+  },
+  {
     "id": "fma:77144",
     "names": {
       "la": {
@@ -40933,6 +41406,250 @@
     },
     "externalIds": {
       "ta2": "2315"
+    }
+  },
+  {
+    "id": "uberon:0000995",
+    "names": {
+      "la": {
+        "value": "uterus",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3500",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3500, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Rahim",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"rahim\" (madde_id 78959)",
+            "note": "TDK tanımı: \"► döl yatağı\". TA2 3500 (uterus) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3500"
+    }
+  },
+  {
+    "id": "uberon:0000996",
+    "names": {
+      "la": {
+        "value": "vagina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3523",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3523, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Vajina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"vajina\" (madde_id 66683)",
+            "note": "TDK tanımı: \"► döl yolu\". TA2 3523 (vagina) karşılığı olarak seçildi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3523"
+    }
+  },
+  {
+    "id": "uberon:0001302",
+    "names": {
+      "la": {
+        "value": "tuba uterina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3486",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3486, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Sağ fallop borusu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"fallop borusu\" (madde_id 81955)",
+            "note": "TDK tanımı: \"► fallop tüpü\". TA2 3486 (tuba uterina) karşılığı olarak seçildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "salpinx",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3486"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3486"
+    }
+  },
+  {
+    "id": "uberon:0001303",
+    "names": {
+      "la": {
+        "value": "tuba uterina",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3486",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3486, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Sol fallop borusu",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"fallop borusu\" (madde_id 81955)",
+            "note": "TDK tanımı: \"► fallop tüpü\". TA2 3486 (tuba uterina) karşılığı olarak seçildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "synonyms": [
+      {
+        "value": "salpinx",
+        "lang": "la",
+        "kind": "synonym",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3486"
+          }
+        ]
+      }
+    ],
+    "externalIds": {
+      "ta2": "3486"
+    }
+  },
+  {
+    "id": "uberon:0002118",
+    "names": {
+      "la": {
+        "value": "ovarium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3470",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3470, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Sağ yumurtalık",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"yumurtalık\" (madde_id 44406)",
+            "note": "TDK tanımı: \"Canlılarda dişi üreme hücrelerini veren organ; mebiz\". TA2 3470 (ovarium) karşılığı olarak seçildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3470"
+    }
+  },
+  {
+    "id": "uberon:0002119",
+    "names": {
+      "la": {
+        "value": "ovarium",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3470",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3470, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu. TA2 terimi taraf belirtmez; taraf ayrı alanda tutulur."
+          }
+        ]
+      },
+      "tr": {
+        "value": "Sol yumurtalık",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:tdk-gts",
+            "locator": "madde \"yumurtalık\" (madde_id 44406)",
+            "note": "TDK tanımı: \"Canlılarda dişi üreme hücrelerini veren organ; mebiz\". TA2 3470 (ovarium) karşılığı olarak seçildi. Taraf sözcüğü eklendi."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3470"
+    }
+  },
+  {
+    "id": "uberon:0009853",
+    "names": {
+      "la": {
+        "value": "corpus uteri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3502",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3502, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3502"
+    }
+  },
+  {
+    "id": "uberon:0012332",
+    "names": {
+      "la": {
+        "value": "ligamentum latum uteri",
+        "status": "unverified",
+        "sources": [
+          {
+            "sourceId": "src:fipat-ta2",
+            "locator": "TA2 ID 3800",
+            "note": "https://ta2viewer.openanatomy.org/ üzerinden 2026-09-25 tarihinde okundu. TA2 3800, İngilizce adın TA2 terimiyle birebir eşleşmesiyle bulundu."
+          }
+        ]
+      }
+    },
+    "externalIds": {
+      "ta2": "3800"
     }
   }
 ]

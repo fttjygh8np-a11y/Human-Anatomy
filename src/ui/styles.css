@@ -235,6 +235,14 @@ fieldset {
   }
 }
 
+/* Model switch */
+.model-switch {
+  white-space: nowrap;
+}
+.model-switch select {
+  max-width: 16rem;
+}
+
 /* Search */
 .search-box {
   position: relative;
