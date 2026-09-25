@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T06:28:41.770Z",
-  "contentVersion": "e525dab14c844d0a",
+  "generatedAt": "2026-09-25T06:29:09.449Z",
+  "contentVersion": "cb05330e0eca1c6e",
   "totals": {
     "total": 119,
     "done": {
       "inventory": 119,
       "model": 119,
       "labels": 0,
-      "content": 87,
+      "content": 119,
       "license": 119,
       "review": 0,
       "complete": 0
@@ -24,7 +24,7 @@
           "inventory": 119,
           "model": 119,
           "labels": 0,
-          "content": 87,
+          "content": 119,
           "license": 119,
           "review": 0,
           "complete": 0
@@ -111,7 +111,7 @@
           "inventory": 32,
           "model": 32,
           "labels": 0,
-          "content": 0,
+          "content": 32,
           "license": 32,
           "review": 0,
           "complete": 0
@@ -147,7 +147,7 @@
           "inventory": 69,
           "model": 69,
           "labels": 0,
-          "content": 51,
+          "content": 69,
           "license": 69,
           "review": 0,
           "complete": 0
@@ -164,7 +164,7 @@
           "inventory": 50,
           "model": 50,
           "labels": 0,
-          "content": 36,
+          "content": 50,
           "license": 50,
           "review": 0,
           "complete": 0
@@ -268,7 +268,7 @@
           "inventory": 32,
           "model": 32,
           "labels": 0,
-          "content": 0,
+          "content": 32,
           "license": 32,
           "review": 0,
           "complete": 0
@@ -3763,9 +3763,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -3777,7 +3775,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -3806,9 +3804,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -3820,7 +3816,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -3849,9 +3845,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -3863,7 +3857,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -3892,9 +3886,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -3906,7 +3898,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -3935,9 +3927,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -3949,7 +3939,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -3978,9 +3968,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -3992,7 +3980,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4021,9 +4009,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4035,7 +4021,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4064,9 +4050,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4078,7 +4062,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4107,9 +4091,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4121,7 +4103,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4150,9 +4132,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4164,7 +4144,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4193,9 +4173,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4207,7 +4185,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4236,9 +4214,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4250,7 +4226,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4279,9 +4255,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4293,7 +4267,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4322,9 +4296,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4336,7 +4308,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4365,9 +4337,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4379,7 +4349,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4408,9 +4378,7 @@
         "la": "unverified",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4422,7 +4390,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4451,9 +4419,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4465,7 +4431,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4494,9 +4460,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4508,7 +4472,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4537,10 +4501,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4552,7 +4513,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4581,10 +4542,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4596,7 +4554,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4625,10 +4583,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4640,7 +4595,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4669,10 +4624,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4684,7 +4636,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4713,10 +4665,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4728,7 +4677,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4757,10 +4706,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4772,7 +4718,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4801,10 +4747,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4816,7 +4759,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4845,10 +4788,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4860,7 +4800,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4889,10 +4829,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4904,7 +4841,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4933,10 +4870,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4948,7 +4882,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -4977,10 +4911,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -4992,7 +4923,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -5021,10 +4952,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -5036,7 +4964,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -5065,10 +4993,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -5080,7 +5005,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
@@ -5109,10 +5034,7 @@
         "la": "missing",
         "en": "unverified"
       },
-      "contentMissing": [
-        "description",
-        "location"
-      ],
+      "contentMissing": [],
       "license": "verified",
       "review": {
         "text": "draft",
@@ -5124,7 +5046,7 @@
         "inventory": true,
         "model": true,
         "labels": false,
-        "content": false,
+        "content": true,
         "license": true,
         "review": false,
         "complete": false
