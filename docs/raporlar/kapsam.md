@@ -1,6 +1,6 @@
 # Kapsam raporu
 
-> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `5cb697df0b62967f` · 2026-09-25.
+> Otomatik üretildi: `npm run report:coverage` · içerik sürümü `ee77b0fc583b2723` · 2026-09-25.
 > Bu rapor içerik kayıtlarının sayımıdır; anatomi uzmanı incelemesinin yerine geçmez. Uzman onayları yalnızca
 > `content/reviews/` altındaki, incelemeci adı ve rolü içeren kayıtlardan sayılır.
 
@@ -62,9 +62,9 @@ Ad sütunları: ✓ doğrulandı · ? doğrulanmadı · — yok. İnceleme: meti
 |---|---|---|---|---|---|:-:|:-:|:-:|---|---|---|
 | Clavicula (Clavicle) | İskelet sistemi | Omuz kuşağı | Temel | `fma:13321` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Scapula | İskelet sistemi | Omuz kuşağı | Temel | `fma:13394` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Humerus | İskelet sistemi | Kol | Temel | `fma:13303` | var (sağ ✓, sol ✓) | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Radius | İskelet sistemi | Önkol | Temel | `fma:23463` | var (sağ ✓, sol ✓) | — | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
-| Ulna | İskelet sistemi | Önkol | Temel | `fma:23466` | var (sağ ✓, sol ✓) | ? | ? | ? | description, location | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Humerus | İskelet sistemi | Kol | Temel | `fma:13303` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Radius | İskelet sistemi | Önkol | Temel | `fma:23463` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
+| Ulna | İskelet sistemi | Önkol | Temel | `fma:23466` | var (sağ ✓, sol ✓) | ? | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os scaphoideum (Scaphoid) | İskelet sistemi | El bileği | Temel | `fma:23709` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os lunatum (Lunate) | İskelet sistemi | El bileği | Temel | `fma:23712` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |
 | Os triquetrum (Triquetrum) | İskelet sistemi | El bileği | Temel | `fma:23715` | var (sağ ✓, sol ✓) | — | ? | ? | description | doğrulanmış | Taslak / Taslak / Taslak / Taslak |

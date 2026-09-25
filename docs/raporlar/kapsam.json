@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T00:34:31.600Z",
-  "contentVersion": "5cb697df0b62967f",
+  "generatedAt": "2026-09-25T00:35:00.642Z",
+  "contentVersion": "ee77b0fc583b2723",
   "totals": {
     "total": 32,
     "done": {
@@ -218,8 +218,7 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "description",
-        "location"
+        "description"
       ],
       "license": "verified",
       "review": {
@@ -262,8 +261,7 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "description",
-        "location"
+        "description"
       ],
       "license": "verified",
       "review": {
@@ -306,8 +304,7 @@
         "en": "unverified"
       },
       "contentMissing": [
-        "description",
-        "location"
+        "description"
       ],
       "license": "verified",
       "review": {
