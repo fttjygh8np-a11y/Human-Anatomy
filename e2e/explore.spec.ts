@@ -37,7 +37,8 @@ test('"kol kemiği" araması: bilgi kartında kaynaklı TR/LA/EN adlar', async (
     // Every name cites at least one source.
     await expect(line.locator('cite').first()).toHaveText(/\S/)
   }
-  await expect(lines.nth(0).locator('cite')).toContainText(['TDK'])
+  // Turkish name from the İÜC (Cerrahpaşa) Dönem 1–2 textbook, with page.
+  await expect(lines.nth(0).locator('cite')).toContainText(['Lokomotor Sistem Anatomisi'])
   await expect(lines.nth(1).locator('cite')).toContainText(['TA2'])
 })
 

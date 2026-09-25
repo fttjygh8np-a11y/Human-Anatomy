@@ -1,0 +1,686 @@
+{
+  "aciklama": "İÜC ders kitaplarından alınan, elle incelenip kabul edilen Latince–Türkçe terim çiftleri. Her kabul, kitapta ilgili çiftin geçtiği bir alıntıya dayanmak zorundadır (npm run content:iuc-terms bunu denetler). 'tr' görüntülenecek biçimdir (cümle düzeni); 'yapiLatince' kitaptaki Latince terim yapının Latince adından farklıysa eşlemede kullanılır. Adlar uzman incelemesine kadar 'doğrulanmadı' durumundadır.",
+  "inceleme": "2026-09-25 tarihinde otomatik aday listesi (iuc-terimler.json) tek tek okunarak hazırlandı; parantez içi çeviri olmayan çiftler (ör. 'tuberculum minus (içyanda)') alınmadı.",
+  "kabul": [
+    {
+      "latin": "aorta ascendens",
+      "tr": "Yükselen aorta"
+    },
+    {
+      "latin": "apertura thoracis inferior",
+      "tr": "Thoraks çıkışı"
+    },
+    {
+      "latin": "apertura thoracis superior",
+      "tr": "Thoraks girişi"
+    },
+    {
+      "latin": "apex cordis",
+      "tr": "Kalbin tepesi"
+    },
+    {
+      "latin": "apex orbitae",
+      "tr": "Orbita tepesi"
+    },
+    {
+      "latin": "arbor bronchialis",
+      "tr": "Bronş ağacı"
+    },
+    {
+      "latin": "arcus vertebrae",
+      "tr": "Omur kemeri"
+    },
+    {
+      "latin": "arcus zygomaticus",
+      "tr": "Şakak kemeri"
+    },
+    {
+      "latin": "articulatio coxae",
+      "tr": "Kalça eklemi"
+    },
+    {
+      "latin": "articulatio temporomandibularis",
+      "tr": "Çene eklemi"
+    },
+    {
+      "latin": "articulationes pedis",
+      "tr": "Ayak eklemleri"
+    },
+    {
+      "latin": "auris externa",
+      "tr": "Dış kulak"
+    },
+    {
+      "latin": "auris interna",
+      "tr": "İç kulak"
+    },
+    {
+      "latin": "basis cordis",
+      "tr": "Kalbin tabanı"
+    },
+    {
+      "latin": "basis cranii",
+      "tr": "Kafatabanı"
+    },
+    {
+      "latin": "bulbus",
+      "tr": "Omurilik soğanı"
+    },
+    {
+      "latin": "bulbus oculi",
+      "tr": "Göz küresi"
+    },
+    {
+      "latin": "canalis adductorius",
+      "tr": "Hunter kanalı"
+    },
+    {
+      "latin": "cartilago costalis",
+      "tr": "Kıkırdak kaburga"
+    },
+    {
+      "latin": "cavitas laryngis",
+      "tr": "Larynx boşluğu"
+    },
+    {
+      "latin": "cavitas oris",
+      "tr": "Ağız boşluğu"
+    },
+    {
+      "latin": "cavitas thoracis",
+      "tr": "Göğüs boşluğu"
+    },
+    {
+      "latin": "cervix dentis",
+      "tr": "Diş boynu"
+    },
+    {
+      "latin": "cilia",
+      "tr": "Kirpikler"
+    },
+    {
+      "latin": "cingulum pectorale",
+      "tr": "Göğüs kuşağı"
+    },
+    {
+      "latin": "circulus arteriosus cerebri",
+      "tr": "Willis poligonu"
+    },
+    {
+      "latin": "clavicula",
+      "tr": "Köprücük kemiği"
+    },
+    {
+      "latin": "columnae anales",
+      "tr": "Morgagni kolonları"
+    },
+    {
+      "latin": "corpus adiposum buccae",
+      "tr": "Bichat yağ yastığı"
+    },
+    {
+      "latin": "corpus vertebrae",
+      "tr": "Omur cismi"
+    },
+    {
+      "latin": "costae",
+      "tr": "Kaburgalar"
+    },
+    {
+      "latin": "costae fluctuantes",
+      "tr": "Yüzen kaburgalar"
+    },
+    {
+      "latin": "cranium",
+      "tr": "Kafatası"
+    },
+    {
+      "latin": "cutis",
+      "tr": "Deri"
+    },
+    {
+      "latin": "dentes",
+      "tr": "Dişler"
+    },
+    {
+      "latin": "dentes decidui",
+      "tr": "Süt dişleri"
+    },
+    {
+      "latin": "diverticulum ilei",
+      "tr": "Meckel divertikülü"
+    },
+    {
+      "latin": "ductus pancreaticus",
+      "tr": "Wirsung kanalı"
+    },
+    {
+      "latin": "ductus pancreaticus accessorius",
+      "tr": "Santorini kanalı"
+    },
+    {
+      "latin": "ductus sublingualis major",
+      "tr": "Bartholin kanalı"
+    },
+    {
+      "latin": "duodenum",
+      "tr": "On iki parmak barsağı"
+    },
+    {
+      "latin": "enamelum",
+      "tr": "Diş minesi"
+    },
+    {
+      "latin": "encephalon",
+      "tr": "Beyin"
+    },
+    {
+      "latin": "excavatio rectouterina",
+      "tr": "Douglas çıkmazı"
+    },
+    {
+      "latin": "fasciculus longitudinalis posterior",
+      "tr": "Schultz demeti"
+    },
+    {
+      "latin": "femur",
+      "tr": "Uyluk kemiği",
+      "yapiLatince": "os femoris"
+    },
+    {
+      "latin": "fibula",
+      "tr": "Kamış kemiği"
+    },
+    {
+      "latin": "foramen interventriculare",
+      "tr": "Monro deliği"
+    },
+    {
+      "latin": "fossa infratemporalis",
+      "tr": "Şakak altı çukuru"
+    },
+    {
+      "latin": "fossa temporalis",
+      "tr": "Şakak çukuru"
+    },
+    {
+      "latin": "ganglion trigeminale",
+      "tr": "Gasser ganglionu"
+    },
+    {
+      "latin": "gingiva",
+      "tr": "Diş eti"
+    },
+    {
+      "latin": "glandula bulbourethralis",
+      "tr": "Cowper bezi"
+    },
+    {
+      "latin": "glandula parotidea",
+      "tr": "Parotis bezi"
+    },
+    {
+      "latin": "glandula pituitaria",
+      "tr": "Hipofiz bezi"
+    },
+    {
+      "latin": "glandula sublingualis",
+      "tr": "Dil altı tükrük bezi"
+    },
+    {
+      "latin": "glandula submandibularis",
+      "tr": "Çene altı tükrük bezi"
+    },
+    {
+      "latin": "glandula thyroidea",
+      "tr": "Tiroid bezi"
+    },
+    {
+      "latin": "glandula vestibularis major",
+      "tr": "Bartholin bezi"
+    },
+    {
+      "latin": "glandulae parathyroideae",
+      "tr": "Paratiroid bezler"
+    },
+    {
+      "latin": "glandulae salivariae",
+      "tr": "Tükrük bezleri"
+    },
+    {
+      "latin": "gyri temporales transversi",
+      "tr": "Heschl girusları"
+    },
+    {
+      "latin": "hepar",
+      "tr": "Karaciğer"
+    },
+    {
+      "latin": "humerus",
+      "tr": "Kol kemiği"
+    },
+    {
+      "latin": "incus",
+      "tr": "Örs"
+    },
+    {
+      "latin": "malleus",
+      "tr": "Çekiç"
+    },
+    {
+      "latin": "stapes",
+      "tr": "Üzengi"
+    },
+    {
+      "latin": "intestinum crassum",
+      "tr": "Kalın bağırsak"
+    },
+    {
+      "latin": "intestinum tenue",
+      "tr": "İnce bağırsak"
+    },
+    {
+      "latin": "labia oris",
+      "tr": "Dudaklar"
+    },
+    {
+      "latin": "larynx",
+      "tr": "Gırtlak"
+    },
+    {
+      "latin": "mandibula",
+      "tr": "Alt çene kemiği"
+    },
+    {
+      "latin": "maxilla",
+      "tr": "Üst çene kemiği"
+    },
+    {
+      "latin": "meatus acusticus externus",
+      "tr": "Dış kulak yolu"
+    },
+    {
+      "latin": "meatus acusticus internus",
+      "tr": "İç kulak yolu"
+    },
+    {
+      "latin": "medulla spinalis",
+      "tr": "Omurilik"
+    },
+    {
+      "latin": "musculi abdominis",
+      "tr": "Karın kasları"
+    },
+    {
+      "latin": "musculi faciei",
+      "tr": "Mimik kasları"
+    },
+    {
+      "latin": "musculi masticatorii",
+      "tr": "Çiğneme kasları"
+    },
+    {
+      "latin": "musculi thoracis",
+      "tr": "Göğüs kasları"
+    },
+    {
+      "latin": "nervi craniales",
+      "tr": "Kranial sinirler"
+    },
+    {
+      "latin": "nervi spinales",
+      "tr": "Spinal sinirler"
+    },
+    {
+      "latin": "neurocranium",
+      "tr": "Beyin tası"
+    },
+    {
+      "latin": "nodi axillares",
+      "tr": "Aksiller lenf düğümleri"
+    },
+    {
+      "latin": "nodi interpectorales",
+      "tr": "Rotter lenf düğümü"
+    },
+    {
+      "latin": "nodi lymphoidei abdominis",
+      "tr": "Abdominal lenf düğümleri"
+    },
+    {
+      "latin": "nodi lymphoidei capitis",
+      "tr": "Başın lenf düğümleri"
+    },
+    {
+      "latin": "nodi lymphoidei colli",
+      "tr": "Boyun lenf düğümleri"
+    },
+    {
+      "latin": "nodi lymphoidei membri inferioris",
+      "tr": "Alt ekstremite lenf düğümleri"
+    },
+    {
+      "latin": "nodi lymphoidei membri superioris",
+      "tr": "Üst ekstremite lenf düğümleri"
+    },
+    {
+      "latin": "nodi lymphoidei pelvis",
+      "tr": "Pelvis lenf düğümleri"
+    },
+    {
+      "latin": "nodi lymphoidei thoracis",
+      "tr": "Toraks lenf düğümleri"
+    },
+    {
+      "latin": "nodi poplitei",
+      "tr": "Popliteal lenf düğümleri"
+    },
+    {
+      "latin": "oesophagus",
+      "tr": "Yemek borusu"
+    },
+    {
+      "latin": "orbita",
+      "tr": "Göz çukuru"
+    },
+    {
+      "latin": "os coxae",
+      "tr": "Kalça kemiği"
+    },
+    {
+      "latin": "os frontale",
+      "tr": "Alın kemiği"
+    },
+    {
+      "latin": "os hyoideum",
+      "tr": "Dil kemiği"
+    },
+    {
+      "latin": "os lacrimale",
+      "tr": "Gözyaşı kemiği"
+    },
+    {
+      "latin": "os nasale",
+      "tr": "Burun kemiği"
+    },
+    {
+      "latin": "os naviculare",
+      "tr": "Sandalsı kemik"
+    },
+    {
+      "latin": "os occipitale",
+      "tr": "Ard kafa kemiği"
+    },
+    {
+      "latin": "os palatinum",
+      "tr": "Damak kemiği"
+    },
+    {
+      "latin": "os parietale",
+      "tr": "Çeper kemik"
+    },
+    {
+      "latin": "os sacrum",
+      "tr": "Kuyruk sokumu kemiği"
+    },
+    {
+      "latin": "os temporale",
+      "tr": "Şakak kemiği"
+    },
+    {
+      "latin": "os zygomaticum",
+      "tr": "Elmacık kemiği"
+    },
+    {
+      "latin": "ossa carpi",
+      "tr": "El bileği kemikleri"
+    },
+    {
+      "latin": "ossa cranii",
+      "tr": "Kafa kemikleri"
+    },
+    {
+      "latin": "ossa membri inferioris",
+      "tr": "Alt ekstremite kemikleri"
+    },
+    {
+      "latin": "ossa membri inferioris liberi",
+      "tr": "Alt ekstremite serbest kemikleri"
+    },
+    {
+      "latin": "ossa membri superioris",
+      "tr": "Üst ekstremite kemikleri"
+    },
+    {
+      "latin": "ossa membri superioris liberi",
+      "tr": "Üst ekstremitenin serbest kemikleri"
+    },
+    {
+      "latin": "ossa metatarsi",
+      "tr": "Ayak tarak kemikleri"
+    },
+    {
+      "latin": "ossa tarsi",
+      "tr": "Ayak bileği kemikleri"
+    },
+    {
+      "latin": "ossa thoracis",
+      "tr": "Göğüs kafesi kemikleri"
+    },
+    {
+      "latin": "ossicula auditus",
+      "tr": "Kulak kemikçikleri"
+    },
+    {
+      "latin": "ovarium",
+      "tr": "Yumurtalık"
+    },
+    {
+      "latin": "palatum durum",
+      "tr": "Sert damak"
+    },
+    {
+      "latin": "palatum molle",
+      "tr": "Yumuşak damak"
+    },
+    {
+      "latin": "palpebrae",
+      "tr": "Göz kapakları"
+    },
+    {
+      "latin": "patella",
+      "tr": "Diz kapağı kemiği"
+    },
+    {
+      "latin": "pelvis major",
+      "tr": "Yalancı pelvis"
+    },
+    {
+      "latin": "pelvis minor",
+      "tr": "Gerçek pelvis"
+    },
+    {
+      "latin": "pes anserinus",
+      "tr": "Kaz ayağı"
+    },
+    {
+      "latin": "plexus myentericus",
+      "tr": "Auerbach pleksusu"
+    },
+    {
+      "latin": "plexus submucosus",
+      "tr": "Meissner pleksusu"
+    },
+    {
+      "latin": "plicae transversae recti",
+      "tr": "Houston kapakları"
+    },
+    {
+      "latin": "pons",
+      "tr": "Köprü"
+    },
+    {
+      "latin": "pulmones",
+      "tr": "Akciğerler"
+    },
+    {
+      "latin": "pupilla",
+      "tr": "Göz bebeği"
+    },
+    {
+      "latin": "radix dentis",
+      "tr": "Diş kökü"
+    },
+    {
+      "latin": "rami subendocardiales",
+      "tr": "Purkinje lifleri"
+    },
+    {
+      "latin": "rete testis",
+      "tr": "Haller ağı"
+    },
+    {
+      "latin": "scapula",
+      "tr": "Kürek kemiği"
+    },
+    {
+      "latin": "sinus obliquus pericardii",
+      "tr": "Haller çıkmazı"
+    },
+    {
+      "latin": "sinus transversus pericardii",
+      "tr": "Thiele kanalı"
+    },
+    {
+      "latin": "skeleton axiale",
+      "tr": "Gövde iskeleti"
+    },
+    {
+      "latin": "spatium suprasternale",
+      "tr": "Burns aralığı"
+    },
+    {
+      "latin": "sternum",
+      "tr": "Göğüs kemiği"
+    },
+    {
+      "latin": "sulcus centralis",
+      "tr": "Rolando oluğu"
+    },
+    {
+      "latin": "sulcus lateralis",
+      "tr": "Sylvius oluğu"
+    },
+    {
+      "latin": "supercilium",
+      "tr": "Kaş"
+    },
+    {
+      "latin": "systema cardiovasculare",
+      "tr": "Kalp-damar sistemi"
+    },
+    {
+      "latin": "talus",
+      "tr": "Aşık kemiği",
+      "yapiLatince": "os tali"
+    },
+    {
+      "latin": "tendo calcaneus",
+      "tr": "Aşil tendonu"
+    },
+    {
+      "latin": "tibia",
+      "tr": "Kaval kemiği"
+    },
+    {
+      "latin": "trabecula septomarginalis",
+      "tr": "Moderatör band"
+    },
+    {
+      "latin": "trachea",
+      "tr": "Soluk borusu"
+    },
+    {
+      "latin": "tractus spinocerebellaris posterior",
+      "tr": "Flechsig demeti"
+    },
+    {
+      "latin": "trigonum cystohepaticum",
+      "tr": "Calot üçgeni"
+    },
+    {
+      "latin": "trigonum femorale",
+      "tr": "Scarpa üçgeni"
+    },
+    {
+      "latin": "trigonum vesicae",
+      "tr": "Lieutaud üçgeni"
+    },
+    {
+      "latin": "truncus encephali",
+      "tr": "Beyin sapı"
+    },
+    {
+      "latin": "unguis",
+      "tr": "Tırnak"
+    },
+    {
+      "latin": "uvula palatina",
+      "tr": "Küçük dil"
+    },
+    {
+      "latin": "vagina bulbi",
+      "tr": "Tenon kapsülü"
+    },
+    {
+      "latin": "vagina musculi recti abdominis",
+      "tr": "Rektus kılıfı"
+    },
+    {
+      "latin": "vena anastomotica superior",
+      "tr": "Trolard veni"
+    },
+    {
+      "latin": "vena magna cerebri",
+      "tr": "Galen veni"
+    },
+    {
+      "latin": "ventriculus quartus",
+      "tr": "Dördüncü ventrikül"
+    },
+    {
+      "latin": "ventriculus tertius",
+      "tr": "Üçüncü ventrikül"
+    },
+    {
+      "latin": "vesica biliaris",
+      "tr": "Safra kesesi"
+    },
+    {
+      "latin": "ampulla hepatopancreatica",
+      "tr": "Ampulla Vateri"
+    },
+    {
+      "latin": "angulus sterni",
+      "tr": "Louis Ludovici açısı"
+    },
+    {
+      "latin": "calcaneus",
+      "tr": "Topuk kemiği"
+    },
+    {
+      "latin": "ossa metacarpi",
+      "tr": "El tarak kemikleri",
+      "not": "Kitapta 'el tarak kamikleri' yazım hatasıyla geçer; düzeltilerek kullanıldı.",
+      "kitaptaki": "el tarak kamikleri"
+    },
+    {
+      "latin": "bronchus segmentalis",
+      "tr": "Tersiyer bronş"
+    },
+    {
+      "latin": "skeleton appendiculare",
+      "tr": "Ekstremitelerin iskeleti"
+    }
+  ]
+}

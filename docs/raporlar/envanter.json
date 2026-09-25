@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-09-25T11:43:31.416Z",
+  "generatedAt": "2026-09-25T18:59:09.379Z",
   "totals": {
-    "total": 2251,
+    "total": 2359,
     "model": 2246,
-    "la": 1374,
-    "tr": 402,
-    "content": 119,
-    "relations": 452,
+    "la": 1733,
+    "tr": 434,
+    "content": 274,
+    "relations": 964,
     "approved": 0
   },
   "bySystem": {
+    "muscular": {
+      "total": 607,
+      "model": 570,
+      "la": 552,
+      "tr": 54,
+      "content": 111,
+      "relations": 171,
+      "approved": 0
+    },
     "skeletal": {
-      "total": 366,
+      "total": 375,
       "model": 366,
-      "la": 154,
-      "tr": 159,
-      "content": 119,
-      "relations": 101,
+      "la": 296,
+      "tr": 165,
+      "content": 124,
+      "relations": 208,
       "approved": 0
     },
     "digestive": {
-      "total": 138,
+      "total": 149,
       "model": 138,
-      "la": 38,
-      "tr": 26,
-      "content": 0,
-      "relations": 12,
+      "la": 51,
+      "tr": 37,
+      "content": 16,
+      "relations": 84,
       "approved": 0
     },
     "cardiovascular": {
-      "total": 784,
+      "total": 808,
       "model": 784,
-      "la": 451,
-      "tr": 80,
-      "content": 0,
-      "relations": 207,
-      "approved": 0
-    },
-    "muscular": {
-      "total": 570,
-      "model": 570,
-      "la": 494,
-      "tr": 52,
-      "content": 0,
-      "relations": 82,
+      "la": 543,
+      "tr": 84,
+      "content": 8,
+      "relations": 301,
       "approved": 0
     },
     "respiratory": {
-      "total": 119,
+      "total": 127,
       "model": 119,
-      "la": 19,
-      "tr": 6,
-      "content": 0,
-      "relations": 12,
+      "la": 41,
+      "tr": 9,
+      "content": 1,
+      "relations": 87,
       "approved": 0
     },
     "endocrine": {
@@ -60,7 +60,7 @@
       "model": 4,
       "la": 4,
       "tr": 4,
-      "content": 0,
+      "content": 1,
       "relations": 1,
       "approved": 0
     },
@@ -69,7 +69,7 @@
       "model": 45,
       "la": 39,
       "tr": 18,
-      "content": 0,
+      "content": 6,
       "relations": 22,
       "approved": 0
     },
@@ -83,12 +83,12 @@
       "approved": 0
     },
     "sensory": {
-      "total": 28,
+      "total": 30,
       "model": 28,
-      "la": 13,
+      "la": 18,
       "tr": 0,
       "content": 0,
-      "relations": 0,
+      "relations": 6,
       "approved": 0
     },
     "articular": {
@@ -101,12 +101,12 @@
       "approved": 0
     },
     "nervous": {
-      "total": 155,
+      "total": 171,
       "model": 155,
-      "la": 126,
-      "tr": 43,
-      "content": 0,
-      "relations": 12,
+      "la": 152,
+      "tr": 48,
+      "content": 6,
+      "relations": 79,
       "approved": 0
     },
     "integumentary": {
@@ -119,24 +119,116 @@
       "approved": 0
     },
     "lymphatic": {
-      "total": 4,
+      "total": 5,
       "model": 4,
-      "la": 4,
-      "tr": 1,
-      "content": 0,
-      "relations": 1,
+      "la": 5,
+      "tr": 2,
+      "content": 1,
+      "relations": 3,
       "approved": 0
     }
   },
   "matrix": {
+    "muscular": {
+      "head": {
+        "total": 108,
+        "model": 81,
+        "la": 108,
+        "tr": 0,
+        "content": 7,
+        "relations": 60,
+        "approved": 0
+      },
+      "upper_limb": {
+        "total": 101,
+        "model": 98,
+        "la": 92,
+        "tr": 6,
+        "content": 25,
+        "relations": 35,
+        "approved": 0
+      },
+      "back": {
+        "total": 64,
+        "model": 61,
+        "la": 59,
+        "tr": 0,
+        "content": 15,
+        "relations": 9,
+        "approved": 0
+      },
+      "thorax": {
+        "total": 27,
+        "model": 25,
+        "la": 19,
+        "tr": 0,
+        "content": 6,
+        "relations": 15,
+        "approved": 0
+      },
+      "abdomen": {
+        "total": 15,
+        "model": 15,
+        "la": 12,
+        "tr": 0,
+        "content": 2,
+        "relations": 2,
+        "approved": 0
+      },
+      "neck": {
+        "total": 67,
+        "model": 67,
+        "la": 64,
+        "tr": 27,
+        "content": 12,
+        "relations": 13,
+        "approved": 0
+      },
+      "pelvis_perineum": {
+        "total": 8,
+        "model": 8,
+        "la": 8,
+        "tr": 1,
+        "content": 1,
+        "relations": 1,
+        "approved": 0
+      },
+      "lower_limb": {
+        "total": 105,
+        "model": 105,
+        "la": 84,
+        "tr": 6,
+        "content": 20,
+        "relations": 15,
+        "approved": 0
+      },
+      "unassigned": {
+        "total": 110,
+        "model": 110,
+        "la": 104,
+        "tr": 12,
+        "content": 23,
+        "relations": 21,
+        "approved": 0
+      },
+      "multiple": {
+        "total": 2,
+        "model": 0,
+        "la": 2,
+        "tr": 2,
+        "content": 0,
+        "relations": 0,
+        "approved": 0
+      }
+    },
     "skeletal": {
       "thorax": {
-        "total": 85,
+        "total": 87,
         "model": 85,
-        "la": 12,
-        "tr": 3,
+        "la": 55,
+        "tr": 5,
         "content": 27,
-        "relations": 24,
+        "relations": 77,
         "approved": 0
       },
       "back": {
@@ -145,81 +237,81 @@
         "la": 1,
         "tr": 1,
         "content": 0,
-        "relations": 0,
+        "relations": 1,
         "approved": 0
       },
       "neck": {
         "total": 13,
         "model": 13,
-        "la": 4,
+        "la": 7,
         "tr": 2,
         "content": 7,
-        "relations": 7,
+        "relations": 13,
         "approved": 0
       },
       "abdomen": {
         "total": 10,
         "model": 10,
-        "la": 0,
+        "la": 5,
         "tr": 0,
         "content": 5,
-        "relations": 5,
+        "relations": 10,
         "approved": 0
       },
       "upper_limb": {
         "total": 92,
         "model": 92,
-        "la": 38,
+        "la": 80,
         "tr": 50,
         "content": 30,
-        "relations": 27,
+        "relations": 29,
         "approved": 0
       },
       "multiple": {
-        "total": 2,
+        "total": 3,
         "model": 2,
-        "la": 2,
+        "la": 3,
         "tr": 2,
         "content": 2,
         "relations": 2,
         "approved": 0
       },
       "lower_limb": {
-        "total": 100,
+        "total": 101,
         "model": 100,
-        "la": 43,
+        "la": 86,
         "tr": 52,
         "content": 33,
-        "relations": 18,
+        "relations": 20,
         "approved": 0
       },
       "head": {
-        "total": 63,
+        "total": 68,
         "model": 63,
-        "la": 54,
-        "tr": 49,
-        "content": 15,
-        "relations": 18,
+        "la": 59,
+        "tr": 53,
+        "content": 20,
+        "relations": 56,
         "approved": 0
       }
     },
     "digestive": {
       "abdomen": {
-        "total": 64,
+        "total": 73,
         "model": 64,
-        "la": 20,
-        "tr": 11,
-        "content": 0,
-        "relations": 9,
+        "la": 30,
+        "tr": 14,
+        "content": 10,
+        "relations": 63,
         "approved": 0
       },
       "unassigned": {
         "total": 16,
         "model": 16,
-        "la": 4,
-        "tr": 0,
-        "content": 0,
-        "relations": 0,
+        "la": 5,
+        "tr": 3,
+        "content": 1,
+        "relations": 13,
         "approved": 0
       },
       "pelvis_perineum": {
@@ -227,17 +319,17 @@
         "model": 1,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 1,
         "approved": 0
       },
       "head": {
-        "total": 55,
+        "total": 56,
         "model": 55,
-        "la": 11,
-        "tr": 13,
-        "content": 0,
-        "relations": 0,
+        "la": 12,
+        "tr": 17,
+        "content": 2,
+        "relations": 5,
         "approved": 0
       },
       "neck": {
@@ -254,36 +346,45 @@
         "model": 1,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 1,
+        "approved": 0
+      },
+      "multiple": {
+        "total": 1,
+        "model": 0,
+        "la": 1,
+        "tr": 1,
+        "content": 1,
+        "relations": 0,
         "approved": 0
       }
     },
     "cardiovascular": {
       "unassigned": {
-        "total": 223,
+        "total": 224,
         "model": 223,
-        "la": 142,
+        "la": 164,
         "tr": 19,
         "content": 0,
-        "relations": 66,
+        "relations": 78,
         "approved": 0
       },
       "thorax": {
-        "total": 184,
+        "total": 201,
         "model": 184,
-        "la": 127,
-        "tr": 27,
-        "content": 0,
-        "relations": 46,
+        "la": 150,
+        "tr": 29,
+        "content": 6,
+        "relations": 120,
         "approved": 0
       },
       "multiple": {
-        "total": 23,
+        "total": 25,
         "model": 23,
-        "la": 18,
-        "tr": 6,
-        "content": 0,
+        "la": 21,
+        "tr": 8,
+        "content": 2,
         "relations": 15,
         "approved": 0
       },
@@ -299,19 +400,19 @@
       "abdomen": {
         "total": 68,
         "model": 68,
-        "la": 31,
+        "la": 34,
         "tr": 6,
         "content": 0,
         "relations": 24,
         "approved": 0
       },
       "upper_limb": {
-        "total": 112,
+        "total": 113,
         "model": 112,
-        "la": 35,
+        "la": 50,
         "tr": 8,
         "content": 0,
-        "relations": 14,
+        "relations": 15,
         "approved": 0
       },
       "pelvis_perineum": {
@@ -324,115 +425,32 @@
         "approved": 0
       },
       "lower_limb": {
-        "total": 92,
+        "total": 94,
         "model": 92,
-        "la": 61,
+        "la": 86,
         "tr": 3,
         "content": 0,
-        "relations": 28,
+        "relations": 30,
         "approved": 0
       },
       "head": {
-        "total": 49,
+        "total": 50,
         "model": 49,
-        "la": 7,
+        "la": 8,
         "tr": 4,
         "content": 0,
-        "relations": 3,
-        "approved": 0
-      }
-    },
-    "muscular": {
-      "thorax": {
-        "total": 25,
-        "model": 25,
-        "la": 17,
-        "tr": 0,
-        "content": 0,
-        "relations": 3,
-        "approved": 0
-      },
-      "abdomen": {
-        "total": 15,
-        "model": 15,
-        "la": 12,
-        "tr": 0,
-        "content": 0,
-        "relations": 2,
-        "approved": 0
-      },
-      "neck": {
-        "total": 67,
-        "model": 67,
-        "la": 55,
-        "tr": 27,
-        "content": 0,
-        "relations": 13,
-        "approved": 0
-      },
-      "upper_limb": {
-        "total": 98,
-        "model": 98,
-        "la": 83,
-        "tr": 6,
-        "content": 0,
-        "relations": 20,
-        "approved": 0
-      },
-      "back": {
-        "total": 61,
-        "model": 61,
-        "la": 56,
-        "tr": 0,
-        "content": 0,
-        "relations": 0,
-        "approved": 0
-      },
-      "pelvis_perineum": {
-        "total": 8,
-        "model": 8,
-        "la": 8,
-        "tr": 1,
-        "content": 0,
-        "relations": 1,
-        "approved": 0
-      },
-      "lower_limb": {
-        "total": 105,
-        "model": 105,
-        "la": 78,
-        "tr": 6,
-        "content": 0,
-        "relations": 15,
-        "approved": 0
-      },
-      "unassigned": {
-        "total": 110,
-        "model": 110,
-        "la": 104,
-        "tr": 12,
-        "content": 0,
-        "relations": 21,
-        "approved": 0
-      },
-      "head": {
-        "total": 81,
-        "model": 81,
-        "la": 81,
-        "tr": 0,
-        "content": 0,
-        "relations": 7,
+        "relations": 8,
         "approved": 0
       }
     },
     "respiratory": {
       "thorax": {
-        "total": 113,
+        "total": 121,
         "model": 113,
-        "la": 13,
-        "tr": 2,
-        "content": 0,
-        "relations": 9,
+        "la": 35,
+        "tr": 5,
+        "content": 1,
+        "relations": 84,
         "approved": 0
       },
       "neck": {
@@ -451,7 +469,7 @@
         "model": 1,
         "la": 1,
         "tr": 1,
-        "content": 0,
+        "content": 1,
         "relations": 0,
         "approved": 0
       },
@@ -471,7 +489,7 @@
         "model": 45,
         "la": 39,
         "tr": 18,
-        "content": 0,
+        "content": 6,
         "relations": 22,
         "approved": 0
       }
@@ -498,18 +516,18 @@
     },
     "sensory": {
       "head": {
-        "total": 21,
+        "total": 23,
         "model": 21,
-        "la": 13,
+        "la": 15,
         "tr": 0,
         "content": 0,
-        "relations": 0,
+        "relations": 6,
         "approved": 0
       },
       "unassigned": {
         "total": 7,
         "model": 7,
-        "la": 0,
+        "la": 3,
         "tr": 0,
         "content": 0,
         "relations": 0,
@@ -556,18 +574,18 @@
     },
     "nervous": {
       "head": {
-        "total": 109,
+        "total": 125,
         "model": 109,
-        "la": 90,
-        "tr": 34,
-        "content": 0,
-        "relations": 5,
+        "la": 109,
+        "tr": 39,
+        "content": 6,
+        "relations": 72,
         "approved": 0
       },
       "unassigned": {
         "total": 44,
         "model": 44,
-        "la": 35,
+        "la": 42,
         "tr": 9,
         "content": 0,
         "relations": 7,
@@ -623,12 +641,12 @@
     },
     "lymphatic": {
       "thorax": {
-        "total": 3,
+        "total": 4,
         "model": 3,
-        "la": 3,
-        "tr": 0,
-        "content": 0,
-        "relations": 0,
+        "la": 4,
+        "tr": 1,
+        "content": 1,
+        "relations": 2,
         "approved": 0
       },
       "abdomen": {

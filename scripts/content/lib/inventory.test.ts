@@ -168,3 +168,37 @@ describe('laterality from model position', () => {
   })
 })
 
+
+describe('part-of wholes', () => {
+  const parts = parseElements([
+    el({ elementId: 'FJW1', fmaId: '910001', nameEn: 'test right chamber wall', system: 'cardiovascular' }),
+    el({ elementId: 'FJW2', fmaId: '910002', nameEn: 'test right chamber valve', system: 'cardiovascular' }),
+    el({ elementId: 'FJW3', fmaId: '910003', nameEn: 'test left chamber wall', system: 'cardiovascular' }),
+    el({ elementId: 'FJW4', fmaId: '910004', nameEn: 'test neck bone', system: 'skeletal' }),
+    el({ elementId: 'FJW5', fmaId: '910005', nameEn: 'test neck bone two', system: 'skeletal' }),
+  ]).elements
+  const whole = (fmaId: string, name: string, elementIds: string[]) => ({ fmaId, name, elementIds, basis: 'test' })
+  const wholes = [
+    whole('920001', 'test heart', ['FJW1', 'FJW2', 'FJW3']),
+    whole('920002', 'test right chamber', ['FJW1', 'FJW2']),
+    whole('920003', 'neck', ['FJW4', 'FJW5']),
+    whole('920004', 'test single', ['FJW3']),
+  ]
+
+  it('adds wholes made of several parts and nests parts under the smallest whole', () => {
+    const { records } = buildInventory(parts, { today: TODAY, wholes })
+    const byId = new Map(records.map((r) => [r.id, r]))
+    expect(byId.get('fma:920001')).toMatchObject({ systems: ['cardiovascular'], laterality: 'unpaired' })
+    expect(byId.get('fma:920002')?.parentIds).toEqual(['fma:920001'])
+    expect(byId.get('fma:910001')?.parentIds).toEqual(['fma:920002'])
+    expect(byId.get('fma:910003')?.parentIds).toEqual(['fma:920001'])
+    for (const r of records) expect(structureSchema.safeParse(r).success).toBe(true)
+  })
+
+  it('leaves out body regions and single-part wholes', () => {
+    const { records } = buildInventory(parts, { today: TODAY, wholes })
+    expect(records.some((r) => r.id === 'fma:920003')).toBe(false)
+    expect(records.some((r) => r.id === 'fma:920004')).toBe(false)
+    expect(records.find((r) => r.id === 'fma:910004')?.parentIds).toBeUndefined()
+  })
+})

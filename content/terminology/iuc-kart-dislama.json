@@ -1,0 +1,32 @@
+{
+  "aciklama": "content:iuc-cards için elle inceleme sonucu: otomatik seçilen cümle yapıyı tanımlamıyorsa yapı burada dışlanır (yapilar), yalnız açıklaması atlanır (yalnizOzet) ya da yalnız konum cümlesi atlanır (konumYok). Gerekçe zorunludur.",
+  "yapilar": {
+    "fma:15900": "Seçilen ilk cümle yalnız apex vesicae'yi anlatıyor; mesanenin tanımı değil.",
+    "fma:22684": "Cümleler a. axillaris'in bağlanmasıyla ilgili; a. circumflexa posterior humeri'yi tanımlamıyor.",
+    "fma:3789": "Seçilen cümle vena porta ile drene olan organlar hakkında; aorta abdominalis'i tanımlamıyor.",
+    "fma:3947": "Özet cümlesi a. carotis communis'in seyrini anlatıyor; a. carotis interna'nın tanımı değil.",
+    "fma:46565": "Cümleler bıngıldaklar (fonticuli cranii) hakkında; kafatasının tanımı değil.",
+    "fma:50028": "Cümleler a. subclavia hakkında; a. cerebri anterior'u tanımlamıyor.",
+    "fma:50544": "Cümleler a. epigastrica superior ve truncus thyrocervicalis hakkında; a. inferior anterior cerebelli'yi tanımlamıyor.",
+    "fma:62004": "Cümle alt motor nöronu tanımlıyor; medulla oblongata'nın tanımı değil.",
+    "fma:62007": "Özet cümlesi adhesio interthalamica hakkında; thalamus'un tanımı değil.",
+    "fma:67325": "Cümleler görme alanları (17., 19. alan) hakkında; oksipital lobu tanımlamıyor.",
+    "fma:7096": "Özet cümlesi auricula dextra'yı anlatıyor; sağ atrium'un tanımı değil.",
+    "fma:7098": "Cümleler sağ ventrikülün iç görünümündeki conus arteriosus'u anlatıyor ve önceki cümleye bağlı (\"İkisi arasındaki\").",
+    "fma:72969": "Cümleler frontal göz merkezi ve Broca alanı hakkında; frontal lobu tanımlamıyor.",
+    "fma:72970": "Cümleler frontal göz merkezi ve Broca alanı hakkında; frontal lobu tanımlamıyor.",
+    "fma:72971": "Cümleler primer işitme alanı hakkında; temporal lobu tanımlamıyor.",
+    "fma:72972": "Cümleler primer işitme alanı hakkında; temporal lobu tanımlamıyor.",
+    "fma:72973": "Cümleler kortikal alanlar (tad merkezi) hakkında; parietal lobu tanımlamıyor.",
+    "fma:72974": "Cümleler kortikal alanlar (tad merkezi) hakkında; parietal lobu tanımlamıyor.",
+    "fma:79876": "Seçilen metin madde listesi (a-/b-/c-); özet olarak okunamıyor."
+  },
+  "yalnizOzet": {
+    "fma:78467": "Açıklama bir sonraki başlığa (Ventriculus Quartus) taşıyor; yalnız özet cümlesi yapıyı anlatıyor.",
+    "fma:14547": "Açıklama bir sonraki başlığa (Damarları ve Sinirleri) taşıyor."
+  },
+  "konumYok": {
+    "fma:78469": "Seçilen konum cümlesi fossa rhomboidea'nın köşelerini anlatıyor; dördüncü ventrikülün konumu değil.",
+    "fma:7206": "Seçilen cümle pankreas başının duodenum kavsindeki yerini anlatıyor; duodenum'un konumu değil."
+  }
+}

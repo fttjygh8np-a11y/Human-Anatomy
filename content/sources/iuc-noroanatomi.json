@@ -1,0 +1,42 @@
+{
+  "id": "src:iuc-noroanatomi",
+  "type": "open_textbook",
+  "citation": "Ertem AD, Özkuş K, Adıgüzel Şahin Z, ed. Nöroanatomi Ders Notları. İstanbul: İÜC Yayınevi; 2024. DOI: 10.5152/7900",
+  "shortLabel": "Nöroanatomi Ders Notları (İÜC)",
+  "url": "https://www.iuc-universitypress.org/index.php?route=product/download&download_id=70",
+  "doi": "10.5152/7900",
+  "isbn": "978-605-7880-47-5",
+  "year": 2024,
+  "accessed": "2026-09-25",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.tr",
+    "attribution": "Ertem AD, Özkuş K, Adıgüzel Şahin Z, ed. Nöroanatomi Ders Notları. İÜC Yayınevi, 2024 (CC BY 4.0)",
+    "allowsUse": true,
+    "allowsModification": true,
+    "allowsRedistribution": true,
+    "shareAlike": false,
+    "nonCommercial": false,
+    "verifiedAt": {
+      "url": "https://www.iuc-universitypress.org/index.php?route=product/download&download_id=70",
+      "date": "2026-09-25",
+      "quote": "©️2024. Telif hakkı yazarlara aittir. Bu kitaptaki bölümler açık erişimli olup Creative Commons Atıf 4.0 Uluslararası Lisansı altında dağıtılmaktadır. Bu lisans kullanıcılara, bölümleri herhangi bir amaç için indirme, çoğaltma ve yayımlanan bölümler üzerinde çalışma imkânı sunar."
+    },
+    "notes": "Lisans cümlesi kitabın künye sayfasından (PDF s. 4) okundu; ayrıca her bölümün ilk sayfasında 'CC BY 4.0: Telif hakkı yazarlardadır.' ibaresi bulunur. Alıntı ve uyarlamalarda kitap ve bölüm künyesi ile sayfa numarası verilir; metinde yapılan kısaltma/uyarlama belirtilir."
+  },
+  "usedFor": [
+    "names:tr",
+    "names:la",
+    "content:summary",
+    "content:description",
+    "content:location",
+    "content:parts",
+    "content:relationsText",
+    "content:function",
+    "relations",
+    "lessons",
+    "questions",
+    "scope-basis"
+  ],
+  "notes": "İstanbul Üniversitesi-Cerrahpaşa, Cerrahpaşa Tıp Fakültesi Anatomi Ana Bilim Dalı öğretim üyelerince Dönem 1–2 anatomi dersleri için yazılmıştır ('Cumhuriyetin 100. Yılına 100 Kitap Projesi'). Uygulamanın Dönem 1–2 kapsamı bu kitaba dayanır. PDF ve sayfa metinleri `npm run content:iuc` ile vendor/iuc/ altına indirilir (sha256 denetimli). Konum biçimi: 'Bölüm x.y, s. N' (N: kitabın basılı sayfa numarası). Kitap içeriği uzman onayı yerine geçmez; uygulamadaki alıntılar uzman incelemesinden geçmemiştir."
+}

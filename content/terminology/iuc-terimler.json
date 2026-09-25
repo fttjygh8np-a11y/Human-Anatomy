@@ -1,0 +1,4972 @@
+{
+  "note": "Otomatik üretilir (npm run content:iuc-terms); elle düzenlemeyin. Ret için iuc-dislama.json.",
+  "candidates": [
+    {
+      "latin": "ala cristae galli",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kanatçık",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ala major",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çift",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 13"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ala minor",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çift",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 13"
+          ]
+        },
+        {
+          "tr": "kısmı os sphenoidale",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 28"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ampulla hepatopancreatica",
+      "accepted": "Ampulla Vateri",
+      "forms": [
+        {
+          "tr": "Ampulla Vateri",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 47",
+            "İç Organlar s. 49"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "angulus costae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "açılanma",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "angulus pontocerebellaris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "açı",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 27"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "angulus sphenoidalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "köşeden",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 19"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "angulus sterni",
+      "accepted": "Louis Ludovici açısı",
+      "forms": [
+        {
+          "tr": "Louis Ludovici açısı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 44"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "anterior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "motor karakterli",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        },
+        {
+          "tr": "ön dal",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        },
+        {
+          "tr": "fissura mediana anterior'da ilerler",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 40"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "aorta",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "ön dallar hariç",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 17"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "aorta ascendens",
+      "accepted": "Yükselen aorta",
+      "forms": [
+        {
+          "tr": "yükselen aorta",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "apertura thoracis inferior",
+      "accepted": "Thoraks çıkışı",
+      "forms": [
+        {
+          "tr": "thoraks çıkışı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 44"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "apertura thoracis superior",
+      "accepted": "Thoraks girişi",
+      "forms": [
+        {
+          "tr": "thoraks girişi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 44"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "apex cordis",
+      "accepted": "Kalbin tepesi",
+      "forms": [
+        {
+          "tr": "Kalbin tepesi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "apex linguae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "uç",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "apex orbitae",
+      "accepted": "Orbita tepesi",
+      "forms": [
+        {
+          "tr": "Orbita tepesi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "apex ossis sacri",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "tepesi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "aqueductus cerebri",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Notları ile arkada aqueductus mesencephali",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "arachnoidea",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Pacchioni cisimcikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 19"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "arbor bronchialis",
+      "accepted": "Bronş ağacı",
+      "forms": [
+        {
+          "tr": "bronş ağacı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "arcus aortae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "üst mediastendedir",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 10"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "arcus vertebrae",
+      "accepted": "Omur kemeri",
+      "forms": [
+        {
+          "tr": "omur kemeri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 36"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "arcus zygomaticus",
+      "accepted": "Şakak kemeri",
+      "forms": [
+        {
+          "tr": "şakak kemeri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "area preoptica",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "lamina terminalis'in arkasında olarak",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 17"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "articulatio coxae",
+      "accepted": "Kalça eklemi",
+      "forms": [
+        {
+          "tr": "kalça eklemi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 56"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "articulatio incudostapedialis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "eklemleşir",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "articulatio temporomandibularis",
+      "accepted": "Çene eklemi",
+      "forms": [
+        {
+          "tr": "çene eklemi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 15"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "articulationes pedis",
+      "accepted": "Ayak eklemleri",
+      "forms": [
+        {
+          "tr": "ayak eklemleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 58"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "atlas",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "omuru",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "auris externa",
+      "accepted": "Dış kulak",
+      "forms": [
+        {
+          "tr": "dış kulak",
+          "count": 2,
+          "pages": [
+            "Nöroanatomi s. 67",
+            "Nöroanatomi s. 67"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "auris interna",
+      "accepted": "İç kulak",
+      "forms": [
+        {
+          "tr": "iç kulak",
+          "count": 2,
+          "pages": [
+            "Nöroanatomi s. 67",
+            "Nöroanatomi s. 69"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "basalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Rosenthal veni",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 24"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "basis cordis",
+      "accepted": "Kalbin tabanı",
+      "forms": [
+        {
+          "tr": "Kalbin tabanı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "basis cranii",
+      "accepted": "Kafatabanı",
+      "forms": [
+        {
+          "tr": "kafatabanı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 13"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "basis ossis sacri",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Os sacrum'unbir tabanı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "basis patellae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Tabanı yukarıda",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "brachium colliculi inferioris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "işitme refleks yolu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 22"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "brachium colliculi superioris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "görme refleks yolu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 22"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "bronchus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Bronşlar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "bronchus principalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "bronşa",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "bronchus segmentalis",
+      "accepted": "Tersiyer bronş",
+      "forms": [
+        {
+          "tr": "tersiyer bronş",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "bulbus",
+      "accepted": "Omurilik soğanı",
+      "forms": [
+        {
+          "tr": "Omurilik soğanı",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "bulbus oculi",
+      "accepted": "Göz küresi",
+      "forms": [
+        {
+          "tr": "göz küresi",
+          "count": 3,
+          "pages": [
+            "Nöroanatomi s. 63",
+            "Nöroanatomi s. 63",
+            "Nöroanatomi s. 63"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "bursa iliopectinea",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "aralarında bursa subtendinea iliaca",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 97"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "calcaneus",
+      "accepted": "Topuk kemiği",
+      "forms": [
+        {
+          "tr": "topuk kemiği",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 9",
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "calcar avis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sulcus calcarinus'un oluşturduğu kabartı",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "canalis adductorius",
+      "accepted": "Hunter kanalı",
+      "forms": [
+        {
+          "tr": "Hunter kanalı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 15"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "canalis condylaris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kanalın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 13"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "canalis infraorbitalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sonrasında kanal",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 20"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "canalis nasolacrimalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Bu çukurluk daha sonra kanala",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "canalis palatinus major",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kanalın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "capsula articularis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "omuz eklemi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 92"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "capsula prostatica",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "gerçek kapsül",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 62"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cartilagines tracheales",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Trachea'nın yapısındaki kıkırdaklar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cartilago costalis",
+      "accepted": "Kıkırdak kaburga",
+      "forms": [
+        {
+          "tr": "kısımları",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        },
+        {
+          "tr": "kıkırdak kaburga",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cavitas cranii",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Kafatası boşluğunu",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cavitas laryngis",
+      "accepted": "Larynx boşluğu",
+      "forms": [
+        {
+          "tr": "Larynx Boşluğu",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 31"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cavitas nasalis ossea",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Burun boşluğunun kemik yapısı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cavitas oris",
+      "accepted": "Ağız boşluğu",
+      "forms": [
+        {
+          "tr": "ağız",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 36"
+          ]
+        },
+        {
+          "tr": "Ağız Boşluğu",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 36"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cavitas pulparis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Corona dentis'in içinde cavitas dentis",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cavitas thoracis",
+      "accepted": "Göğüs boşluğu",
+      "forms": [
+        {
+          "tr": "göğüs boşluğu",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 44"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "centrum tendineum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yapının",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 83"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cervix dentis",
+      "accepted": "Diş boynu",
+      "forms": [
+        {
+          "tr": "diş boynu",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "chiasma tendinum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Bu geçiti oluşturan tendonlar çaprazlaşarak",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 93"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cilia",
+      "accepted": "Kirpikler",
+      "forms": [
+        {
+          "tr": "kirpikler",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 65"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cingulum pectorale",
+      "accepted": "Göğüs kuşağı",
+      "forms": [
+        {
+          "tr": "göğüs kuşağı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "circulus arteriosus cerebri",
+      "accepted": "Willis poligonu",
+      "forms": [
+        {
+          "tr": "Willis Poligonu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 39"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cisterna cerebellomedullaris posterior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "ventrikülü cisterna magna'ya",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "clavicula",
+      "accepted": "Köprücük kemiği",
+      "forms": [
+        {
+          "tr": "Köprücük kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "columnae anales",
+      "accepted": "Morgagni kolonları",
+      "forms": [
+        {
+          "tr": "Morgagni kolonları",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 45"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "conus medullaris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "erişkinde medulla spinalis alt ucunun",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cor",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kanı pompalayan kalp'den",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "corpus adiposum buccae",
+      "accepted": "Bichat yağ yastığı",
+      "forms": [
+        {
+          "tr": "Bichat yağ yastığı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "corpus costae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kaburga cismi-gövdesi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "corpus geniculatum laterale",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Görme yollarının bir bölümüdür",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 17"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "corpus linguae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "gövde",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "corpus vertebrae",
+      "accepted": "Omur cismi",
+      "forms": [
+        {
+          "tr": "omur cismi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 36"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cortex cerebri",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "motor-premotor alanlar",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 23"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costa cervicalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "şekilde boyun",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costa lumbalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "bölgesinde",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costa prima",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Kosta-I",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costa secunda",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Kosta II",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costae",
+      "accepted": "Kaburgalar",
+      "forms": [
+        {
+          "tr": "kaburgalar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        },
+        {
+          "tr": "kaburga başı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 37"
+          ]
+        },
+        {
+          "tr": "I-XII",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costae fluctuantes",
+      "accepted": "Yüzen kaburgalar",
+      "forms": [
+        {
+          "tr": "XI-XII",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 37"
+          ]
+        },
+        {
+          "tr": "yüzen kaburgalar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costae i-vii",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "İlk yedi çift kaburga",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "costae viii-xii",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Son beş çift kaburgaya",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cranialis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "encephali",
+          "count": 3,
+          "pages": [
+            "Nöroanatomi s. 3",
+            "Nöroanatomi s. 3",
+            "Nöroanatomi s. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cranium",
+      "accepted": "Kafatası",
+      "forms": [
+        {
+          "tr": "KAFA BÜTÜNÜ",
+          "count": 6,
+          "pages": [
+            "Lokomotor s. 26",
+            "Lokomotor s. 27",
+            "Lokomotor s. 27",
+            "Lokomotor s. 29",
+            "Lokomotor s. 31",
+            "Lokomotor s. 33"
+          ]
+        },
+        {
+          "tr": "kafatası",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 12",
+            "Lokomotor s. 27"
+          ]
+        },
+        {
+          "tr": "bütünü",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        },
+        {
+          "tr": "bütününün",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "crista capitis costae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çıkıntı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "crista frontalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "alır",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "crista terminalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "dış yüzdesulcus terminalis",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "cutis",
+      "accepted": "Deri",
+      "forms": [
+        {
+          "tr": "Deri",
+          "count": 2,
+          "pages": [
+            "Nöroanatomi s. 57",
+            "Nöroanatomi s. 57"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "decussatio lemniscorum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Lifler çapraz yapar",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "dentes",
+      "accepted": "Dişler",
+      "forms": [
+        {
+          "tr": "dişler",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 36",
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "dentes decidui",
+      "accepted": "Süt dişleri",
+      "forms": [
+        {
+          "tr": "Süt dişleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "dentes permanentes",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "dişler",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "discus intervertebralis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arasındaki disk",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 36"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "diverticulum ilei",
+      "accepted": "Meckel divertikülü",
+      "forms": [
+        {
+          "tr": "Meckel Divertikülü",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "dorsalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arka uç",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        },
+        {
+          "tr": "Schütz demeti",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 18"
+          ]
+        },
+        {
+          "tr": "Scühtz demeti",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ductus biliaris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "birleştikten sonra ductus choledochus",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 49"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ductus nasolacrimalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kanalı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 24"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ductus pancreaticus",
+      "accepted": "Wirsung kanalı",
+      "forms": [
+        {
+          "tr": "Wirsung kanalı",
+          "count": 3,
+          "pages": [
+            "İç Organlar s. 46",
+            "İç Organlar s. 47",
+            "İç Organlar s. 49"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ductus pancreaticus accessorius",
+      "accepted": "Santorini kanalı",
+      "forms": [
+        {
+          "tr": "Santorini kanalı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 47"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ductus sublingualis major",
+      "accepted": "Bartholin kanalı",
+      "forms": [
+        {
+          "tr": "Bartholin kanalı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 46"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "duodenum",
+      "accepted": "On iki parmak barsağı",
+      "forms": [
+        {
+          "tr": "On İki Parmak Barsağı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 41"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "enamelum",
+      "accepted": "Diş minesi",
+      "forms": [
+        {
+          "tr": "diş minesi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "encephalon",
+      "accepted": "Beyin",
+      "forms": [
+        {
+          "tr": "kısmı beyin",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "endosteum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "döşeyenstratum periosteale",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "excavatio rectouterina",
+      "accepted": "Douglas çıkmazı",
+      "forms": [
+        {
+          "tr": "Douglas çıkmazı",
+          "count": 4,
+          "pages": [
+            "İç Organlar s. 44",
+            "İç Organlar s. 52",
+            "İç Organlar s. 65",
+            "İç Organlar s. 66"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fasciculus longitudinalis posterior",
+      "accepted": "Schultz demeti",
+      "forms": [
+        {
+          "tr": "Schultz demeti",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 23"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fasciculus subthalamicus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "şekilde",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 16"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "femur",
+      "accepted": "Uyluk kemiği",
+      "forms": [
+        {
+          "tr": "uyluk kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fibula",
+      "accepted": "Kamış kemiği",
+      "forms": [
+        {
+          "tr": "Kamış kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fibularis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "peronei",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 9",
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "flexura duodeni superior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "başlar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 41"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fonticulus posterior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "lambda noktasının olduğu yer",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 28"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramen ethmoidale anterius",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "ön ucunda",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramen ethmoidale posterius",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "diğeri arka ucunda",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramen interventriculare",
+      "accepted": "Monro deliği",
+      "forms": [
+        {
+          "tr": "Monro deliği",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramen transversarium",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "geçtiği delik",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramina cribrosa",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "delikler",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramina sacralia anteriora",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çift delik",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foramina sacralia posteriora",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çift delik",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fossa infratemporalis",
+      "accepted": "Şakak altı çukuru",
+      "forms": [
+        {
+          "tr": "şakak altı çukuru",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fossa rhomboidea",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "tabanının",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 25"
+          ]
+        },
+        {
+          "tr": "Ventrikülün tabanı",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fossa temporalis",
+      "accepted": "Şakak çukuru",
+      "forms": [
+        {
+          "tr": "şakak çukuru",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "fovea costalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yüzü",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 37",
+            "Lokomotor s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "foveolae granulares",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "alanları",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ganglion nodosum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "inferius'taki",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 62"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ganglion petrosum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "inferius'daki",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 62"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ganglion spinale",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "duysal karakterli",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ganglion trigeminale",
+      "accepted": "Gasser ganglionu",
+      "forms": [
+        {
+          "tr": "Gasser ganglionu",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 16"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "gingiva",
+      "accepted": "Diş eti",
+      "forms": [
+        {
+          "tr": "diş eti",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 37",
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula bulbourethralis",
+      "accepted": "Cowper bezi",
+      "forms": [
+        {
+          "tr": "Cowper bezi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 62"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula mammaria",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "bezleri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 58"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula parotidea",
+      "accepted": "Parotis bezi",
+      "forms": [
+        {
+          "tr": "parotis bezi",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 37",
+            "İç Organlar s. 46"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula pituitaria",
+      "accepted": "Hipofiz bezi",
+      "forms": [
+        {
+          "tr": "Hipofiz bezi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 68"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula sebacea",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "bezleri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 58"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula sublingualis",
+      "accepted": "Dil altı tükrük bezi",
+      "forms": [
+        {
+          "tr": "dil altı tükrük bezi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula submandibularis",
+      "accepted": "Çene altı tükrük bezi",
+      "forms": [
+        {
+          "tr": "çene altı tükrük bezi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula thyroidea",
+      "accepted": "Tiroid bezi",
+      "forms": [
+        {
+          "tr": "Tiroid bezi",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 68",
+            "İç Organlar s. 69"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandula vestibularis major",
+      "accepted": "Bartholin bezi",
+      "forms": [
+        {
+          "tr": "Bartholin bezi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 64"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandulae buccales",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yanaklarda bulunan bezler",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandulae labiales",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "dudakta bulunan bezler",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandulae palatinae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sert damakta yer alan bezler",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandulae parathyroideae",
+      "accepted": "Paratiroid bezler",
+      "forms": [
+        {
+          "tr": "Paratiroid Bezler",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 70"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glandulae salivariae",
+      "accepted": "Tükrük bezleri",
+      "forms": [
+        {
+          "tr": "tükrük bezleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 36"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "glottis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "larynx'in ses aparatı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 31"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "granulationes arachnoideae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arachnoid villi",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 3"
+          ]
+        },
+        {
+          "tr": "arachnoi villi",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "gyri temporales transversi",
+      "accepted": "Heschl girusları",
+      "forms": [
+        {
+          "tr": "Heschl girusları",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "haema",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "İçinde kan",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "hallux",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Başparmakta",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 10"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "hepar",
+      "accepted": "Karaciğer",
+      "forms": [
+        {
+          "tr": "karaciğer",
+          "count": 3,
+          "pages": [
+            "İç Organlar s. 33",
+            "İç Organlar s. 36",
+            "İç Organlar s. 47"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "hiatus aorticus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arkasından",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 13"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "hiatus maxillaris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "açıklık",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 20"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "humerus",
+      "accepted": "Kol kemiği",
+      "forms": [
+        {
+          "tr": "Kol kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "impressiones digitatae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çukurcuklar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "incisura intertragica",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çentik",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 67"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "incisura nasalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sağ-sol maxilla",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "incus",
+      "accepted": "Örs",
+      "forms": [
+        {
+          "tr": "örs",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "inferior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sekonder bronş",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        },
+        {
+          "tr": "thalamus ile lobus temporalis arasında",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 14"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "intestinum crassum",
+      "accepted": "Kalın bağırsak",
+      "forms": [
+        {
+          "tr": "kalın bağırsak",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 36"
+          ]
+        },
+        {
+          "tr": "Kalın Bağırsaklar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "intestinum tenue",
+      "accepted": "İnce bağırsak",
+      "forms": [
+        {
+          "tr": "ince bağırsak",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 36"
+          ]
+        },
+        {
+          "tr": "İnce Bağırsaklar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 41"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "juga cerebralia",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kabartılar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "labia oris",
+      "accepted": "Dudaklar",
+      "forms": [
+        {
+          "tr": "Dudaklar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "larynx",
+      "accepted": "Gırtlak",
+      "forms": [
+        {
+          "tr": "Gırtlak",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 30"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lateralis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Dışyan duvar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        },
+        {
+          "tr": "sadece duysal lifleri taşır",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        },
+        {
+          "tr": "Luschka delikleri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lineae transversae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çıkıntı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lobuli thymi",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "lobüllere",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lobus frontalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "bölümleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lobus temporalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "bölümleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 33"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lobus thymi",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Timusun lobları",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lympha",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "İçinde lenf",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "lymphonodus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "malleus",
+      "accepted": "Çekiç",
+      "forms": [
+        {
+          "tr": "çekiç",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "mandibula",
+      "accepted": "Alt çene kemiği",
+      "forms": [
+        {
+          "tr": "Alt Çene Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "margo gingivalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "serbest diş eti",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "maxilla",
+      "accepted": "Üst çene kemiği",
+      "forms": [
+        {
+          "tr": "Üst Çene Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 19"
+          ]
+        },
+        {
+          "tr": "mandibula'yı hariç tutacak olursak",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 19"
+          ]
+        },
+        {
+          "tr": "aynı addaki oluk",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 23"
+          ]
+        },
+        {
+          "tr": "Üst kısmını facies infratemporalis'in",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        },
+        {
+          "tr": "kısmını tuber maxillae",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        },
+        {
+          "tr": "kısmı processus palatinus",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        },
+        {
+          "tr": "kenarı ile processus palatinus'un",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "meatus acusticus externus",
+      "accepted": "Dış kulak yolu",
+      "forms": [
+        {
+          "tr": "Dış Kulak Yolu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 67"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "meatus acusticus internus",
+      "accepted": "İç kulak yolu",
+      "forms": [
+        {
+          "tr": "iç kulak yolu",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 33"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "medialis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "büyük duyusal çapraz",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 27"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "medulla spinalis",
+      "accepted": "Omurilik",
+      "forms": [
+        {
+          "tr": "bölümü ise omurilik",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "meninges",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Merkezi Sinir Sistemi Örtüleri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 2"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "mesenterium",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Periton Oluşumları Mezenter",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 50"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "musculi abdominis",
+      "accepted": "Karın kasları",
+      "forms": [
+        {
+          "tr": "KARIN KASLARI",
+          "count": 5,
+          "pages": [
+            "Lokomotor s. 85",
+            "Lokomotor s. 86",
+            "Lokomotor s. 86",
+            "Lokomotor s. 87",
+            "Lokomotor s. 89"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "musculi faciei",
+      "accepted": "Mimik kasları",
+      "forms": [
+        {
+          "tr": "mimik kasları",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 68",
+            "Lokomotor s. 68"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "musculi masticatorii",
+      "accepted": "Çiğneme kasları",
+      "forms": [
+        {
+          "tr": "çiğneme kasları",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 68",
+            "Lokomotor s. 70"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "musculi thoracis",
+      "accepted": "Göğüs kasları",
+      "forms": [
+        {
+          "tr": "GÖĞÜS KASLARI",
+          "count": 4,
+          "pages": [
+            "Lokomotor s. 80",
+            "Lokomotor s. 81",
+            "Lokomotor s. 81",
+            "Lokomotor s. 83"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nasopharynx",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Yutağın üst bölümüne",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nervi craniales",
+      "accepted": "Kranial sinirler",
+      "forms": [
+        {
+          "tr": "Kranial Sinirler",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nervi spinales",
+      "accepted": "Spinal sinirler",
+      "forms": [
+        {
+          "tr": "Spinal Sinirler",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nervus vestibulocochlearis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "CN VIII",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 48"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "neurocranium",
+      "accepted": "Beyin tası",
+      "forms": [
+        {
+          "tr": "beyin tası",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 27"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi axillares",
+      "accepted": "Aksiller lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Aksiller Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 22"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi interpectorales",
+      "accepted": "Rotter lenf düğümü",
+      "forms": [
+        {
+          "tr": "Rotter lenf düğümü",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 23"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei abdominis",
+      "accepted": "Abdominal lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Abdominal Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 23"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei capitis",
+      "accepted": "Başın lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Başın Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei colli",
+      "accepted": "Boyun lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Boyun Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei membri inferioris",
+      "accepted": "Alt ekstremite lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Alt Ekstremite Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 24"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei membri superioris",
+      "accepted": "Üst ekstremite lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Üst Ekstremite Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei pelvis",
+      "accepted": "Pelvis lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Pelvis Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 23"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi lymphoidei thoracis",
+      "accepted": "Toraks lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Toraks Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 22"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "nodi poplitei",
+      "accepted": "Popliteal lenf düğümleri",
+      "forms": [
+        {
+          "tr": "Popliteal Lenf Düğümleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 24"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "oesophagus",
+      "accepted": "Yemek borusu",
+      "forms": [
+        {
+          "tr": "yemek borusu",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 36"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "operculum parietale",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kısmında",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 62"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "orbita",
+      "accepted": "Göz çukuru",
+      "forms": [
+        {
+          "tr": "Göz çukuru",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 28"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os coxae",
+      "accepted": "Kalça kemiği",
+      "forms": [
+        {
+          "tr": "kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 7"
+          ]
+        },
+        {
+          "tr": "kalça kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 7"
+          ]
+        },
+        {
+          "tr": "ilii",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 39"
+          ]
+        },
+        {
+          "tr": "superior'lar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 40"
+          ]
+        },
+        {
+          "tr": "iliaca'nın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 40"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os ethmoidale",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "labyrinthus ethmoidalis-iç yan duvarı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        },
+        {
+          "tr": "galli",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os femoris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "major'lar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 40"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os frontale",
+      "accepted": "Alın kemiği",
+      "forms": [
+        {
+          "tr": "Alın Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 17"
+          ]
+        },
+        {
+          "tr": "ön-dış yanlarda pars orbitalis",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os hyoideum",
+      "accepted": "Dil kemiği",
+      "forms": [
+        {
+          "tr": "Dil Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os lacrimale",
+      "accepted": "Gözyaşı kemiği",
+      "forms": [
+        {
+          "tr": "Gözyaşı Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 24"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os nasale",
+      "accepted": "Burun kemiği",
+      "forms": [
+        {
+          "tr": "Burun Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 24"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os naviculare",
+      "accepted": "Sandalsı kemik",
+      "forms": [
+        {
+          "tr": "sandalsı kemik",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 9",
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os occipitale",
+      "accepted": "Ard kafa kemiği",
+      "forms": [
+        {
+          "tr": "Ard kafa kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        },
+        {
+          "tr": "diğeri arkada foramen magnum'un",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        },
+        {
+          "tr": "yüzü ve pars basilaris'in",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        },
+        {
+          "tr": "sınır protuberantia occipitalis interna'dan",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 33"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os palatinum",
+      "accepted": "Damak kemiği",
+      "forms": [
+        {
+          "tr": "Damak Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 23"
+          ]
+        },
+        {
+          "tr": "kısmı lamina horizontalis",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os parietale",
+      "accepted": "Çeper kemik",
+      "forms": [
+        {
+          "tr": "Çeper Kemik",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 19"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os sacrum",
+      "accepted": "Kuyruk sokumu kemiği",
+      "forms": [
+        {
+          "tr": "kuyruk sokumu kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        },
+        {
+          "tr": "sacri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 39"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os sphenoidale",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kenarı ve dorsum sellae'den",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 32",
+            "Lokomotor s. 33"
+          ]
+        },
+        {
+          "tr": "corpus-ön yüz",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        },
+        {
+          "tr": "Processus pterygoideus'un lamina lateralis'i",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        },
+        {
+          "tr": "arka-dış yanlarda ala minor'un",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os temporale",
+      "accepted": "Şakak kemiği",
+      "forms": [
+        {
+          "tr": "petrosa'nın",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 32",
+            "Lokomotor s. 32"
+          ]
+        },
+        {
+          "tr": "yüzü",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 33",
+            "Lokomotor s. 33"
+          ]
+        },
+        {
+          "tr": "Şakak Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 15"
+          ]
+        },
+        {
+          "tr": "olmayıp processus styloideus",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        },
+        {
+          "tr": "kenarı ve processus mastoideus'lardan",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        },
+        {
+          "tr": "Arka sınırını pars petrosa'nın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        },
+        {
+          "tr": "Ön sınır pars petrosa'nın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 33"
+          ]
+        },
+        {
+          "tr": "Pars petrosa'nın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 33"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "os zygomaticum",
+      "accepted": "Elmacık kemiği",
+      "forms": [
+        {
+          "tr": "Elmacık Kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 21"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa carpi",
+      "accepted": "El bileği kemikleri",
+      "forms": [
+        {
+          "tr": "el bileği kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa cranii",
+      "accepted": "Kafa kemikleri",
+      "forms": [
+        {
+          "tr": "Kafa Kemikleri",
+          "count": 9,
+          "pages": [
+            "Lokomotor s. 12",
+            "Lokomotor s. 12",
+            "Lokomotor s. 13",
+            "Lokomotor s. 15",
+            "Lokomotor s. 17",
+            "Lokomotor s. 19",
+            "Lokomotor s. 21",
+            "Lokomotor s. 23",
+            "Lokomotor s. 25"
+          ]
+        },
+        {
+          "tr": "KAFA KEMIKLERI",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 11"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa membri inferioris",
+      "accepted": "Alt ekstremite kemikleri",
+      "forms": [
+        {
+          "tr": "B- Alt Ekstremite Kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 7"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa membri inferioris liberi",
+      "accepted": "Alt ekstremite serbest kemikleri",
+      "forms": [
+        {
+          "tr": "Alt ekstremite serbest kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa membri superioris",
+      "accepted": "Üst ekstremite kemikleri",
+      "forms": [
+        {
+          "tr": "A- Üst Ekstremite Kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa membri superioris liberi",
+      "accepted": "Üst ekstremitenin serbest kemikleri",
+      "forms": [
+        {
+          "tr": "Üst ekstremitenin serbest kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa metacarpi",
+      "accepted": "El tarak kemikleri",
+      "forms": [
+        {
+          "tr": "el tarak kamikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa metatarsi",
+      "accepted": "Ayak tarak kemikleri",
+      "forms": [
+        {
+          "tr": "ayak tarak kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa tarsi",
+      "accepted": "Ayak bileği kemikleri",
+      "forms": [
+        {
+          "tr": "ayak bileği kemikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossa thoracis",
+      "accepted": "Göğüs kafesi kemikleri",
+      "forms": [
+        {
+          "tr": "Göğüs Kafesi Kemikleri",
+          "count": 4,
+          "pages": [
+            "Lokomotor s. 42",
+            "Lokomotor s. 42",
+            "Lokomotor s. 43",
+            "Lokomotor s. 45"
+          ]
+        },
+        {
+          "tr": "GÖĞÜS KAFESI KEMIKLERI",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 41"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ossicula auditus",
+      "accepted": "Kulak kemikçikleri",
+      "forms": [
+        {
+          "tr": "Kulak Kemikçikleri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 25"
+          ]
+        },
+        {
+          "tr": "Cavitas Tympani'De Bulunan İşitme Kemikçikleri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 68"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ostium aortae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çapında bir delik",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 7"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ostium atrioventriculare sinistrum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çaplı delik",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ovarium",
+      "accepted": "Yumurtalık",
+      "forms": [
+        {
+          "tr": "Yumurtalık",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 64"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "palatum durum",
+      "accepted": "Sert damak",
+      "forms": [
+        {
+          "tr": "damağın",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 31"
+          ]
+        },
+        {
+          "tr": "yukarıda sert damak",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "palatum molle",
+      "accepted": "Yumuşak damak",
+      "forms": [
+        {
+          "tr": "yumuşak damak",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 37",
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "palpebrae",
+      "accepted": "Göz kapakları",
+      "forms": [
+        {
+          "tr": "kapakları",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 65"
+          ]
+        },
+        {
+          "tr": "Göz Kapakları",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 66"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pancreas",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "cauda kısmı hariç",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 50"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "papilla ilealis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "oluşmuş valva ileocecalis",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "papillae linguales",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Dildeki papillalar",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 61"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "patella",
+      "accepted": "Diz kapağı kemiği",
+      "forms": [
+        {
+          "tr": "diz kapağı kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pelvis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "leğen",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 7"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pelvis major",
+      "accepted": "Yalancı pelvis",
+      "forms": [
+        {
+          "tr": "yalancı pelvis",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 39"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pelvis minor",
+      "accepted": "Gerçek pelvis",
+      "forms": [
+        {
+          "tr": "gerçek pelvis",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 39"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pes anserinus",
+      "accepted": "Kaz ayağı",
+      "forms": [
+        {
+          "tr": "kaz ayağı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 98"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pili",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Kıl",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 58"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus caroticus internus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sempatik sinir sistemi",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus myentericus",
+      "accepted": "Auerbach pleksusu",
+      "forms": [
+        {
+          "tr": "Auerbach pleksusu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 74"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus pterygoideus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "venöz damar ağı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 30"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus submucosus",
+      "accepted": "Meissner pleksusu",
+      "forms": [
+        {
+          "tr": "Meissner pleksusu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 74"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus venosus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "ağ",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus venosus uterinus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kadın",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plexus venosus vaginalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kadın",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plica umbilicalis lateralis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "vasa epigastrica inferiores'leri örter",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 51"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plica umbilicalis mediana",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "chorda urachus'u örter",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 51"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plica vestibularis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yalancı ses telleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 31"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plicae palatinae transversae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çıkıntılarına rugae palatinae",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "plicae transversae recti",
+      "accepted": "Houston kapakları",
+      "forms": [
+        {
+          "tr": "Houston kapakları",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 44"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pons",
+      "accepted": "Köprü",
+      "forms": [
+        {
+          "tr": "Köprü",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 21"
+          ]
+        },
+        {
+          "tr": "Pons Varolii",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "porus gustatorius",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "porlarına",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 61"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "posterior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "duysal karakterli",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 105"
+          ]
+        },
+        {
+          "tr": "Gowers Ve Flechsig Demetleri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 32"
+          ]
+        },
+        {
+          "tr": "circulus arteriosus cerebri'ye katılır",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 39"
+          ]
+        },
+        {
+          "tr": "sulcus posterolateralis'lerde ilerlerler",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 40"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "processus medialis tuberis calcanei",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "daha büyük",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "processus orbitalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kısım ise os palatinum",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "processus palatinus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kısmı maxilla",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "processus pterygoideus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çift",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 13"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "profundus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arcus palmaris profundus'u tamamlar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 13"
+          ]
+        },
+        {
+          "tr": "Vidius siniri",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 51"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "promontorium",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "ossis sacri",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 38"
+          ]
+        },
+        {
+          "tr": "cochlea'nın geniş bazal kıvrımı",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 68"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pulmones",
+      "accepted": "Akciğerler",
+      "forms": [
+        {
+          "tr": "Akciğerler",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pupilla",
+      "accepted": "Göz bebeği",
+      "forms": [
+        {
+          "tr": "göz bebeği",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 64"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "pyramis renalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "malpighi piramitleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 55"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "radiatio thalami anterior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "thalamus ile lobus frontalis arasında",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 14"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "radiatio thalami posterior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "thalamus ile lobus occipitalis arasında",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 14"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "radix dentis",
+      "accepted": "Diş kökü",
+      "forms": [
+        {
+          "tr": "diş kökü",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "radix linguae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kök",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 38"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "radix pulmonis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yapı demetinin",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 33"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "rami subendocardiales",
+      "accepted": "Purkinje lifleri",
+      "forms": [
+        {
+          "tr": "Purkinje lifleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "rete testis",
+      "accepted": "Haller ağı",
+      "forms": [
+        {
+          "tr": "Haller ağı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 61"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "retina",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Tunica nervosa bulbi",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 63"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "scapula",
+      "accepted": "Kürek kemiği",
+      "forms": [
+        {
+          "tr": "Kürek kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sella turcica",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "şeklinde",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sinus aortae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Valsalva sinüsleri",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sinus obliquus pericardii",
+      "accepted": "Haller çıkmazı",
+      "forms": [
+        {
+          "tr": "Haller çıkmazı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 10"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sinus sagittalis superior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "dura mater ven sinusu",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sinus transversus pericardii",
+      "accepted": "Thiele kanalı",
+      "forms": [
+        {
+          "tr": "Thiele kanalı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 10"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sinus venarum cavarum",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arka-düz alan",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "skeleton appendiculare",
+      "accepted": "Ekstremitelerin iskeleti",
+      "forms": [
+        {
+          "tr": "Ekstremite Kemikleri",
+          "count": 4,
+          "pages": [
+            "Lokomotor s. 5",
+            "Lokomotor s. 5",
+            "Lokomotor s. 7",
+            "Lokomotor s. 9"
+          ]
+        },
+        {
+          "tr": "ekstremitelerin iskeleti",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 2"
+          ]
+        },
+        {
+          "tr": "EKSTREMITE KEMIKLERI",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "skeleton axiale",
+      "accepted": "Gövde iskeleti",
+      "forms": [
+        {
+          "tr": "gövde iskeleti",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "spatium intercostale",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "boşluklar",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 42"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "spatium suprasternale",
+      "accepted": "Burns aralığı",
+      "forms": [
+        {
+          "tr": "Burns aralığı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 16"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "spina iliaca anterior inferior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "SIAI",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 56"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "squama occipitalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "foramen magnum'un arka-üst bölümünde",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "stapes",
+      "accepted": "Üzengi",
+      "forms": [
+        {
+          "tr": "üzengi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 25"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sternum",
+      "accepted": "Göğüs kemiği",
+      "forms": [
+        {
+          "tr": "göğüs kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 12"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "stria terminalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "beyaz cevher şeridi",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 14"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sulcus arteriae vertebralis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "I'in geçtiği bir oluk",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sulcus centralis",
+      "accepted": "Rolando oluğu",
+      "forms": [
+        {
+          "tr": "Rolando oluğu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 7"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sulcus coronarius",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "arka kısımda",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 5"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sulcus infraorbitalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "doğru uzanan oluk",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 29"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sulcus lateralis",
+      "accepted": "Sylvius oluğu",
+      "forms": [
+        {
+          "tr": "Sylvius oluğu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 7"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "sulcus sinus sagittalis superioris",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "üstte vertikal bir oluk",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 18"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "supercilium",
+      "accepted": "Kaş",
+      "forms": [
+        {
+          "tr": "Gözün Yardımcı Organları Kaşlar",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 65"
+          ]
+        },
+        {
+          "tr": "Kaş",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 66"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "superior",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "venöz",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 19"
+          ]
+        },
+        {
+          "tr": "thalamus ile lobus parietalis arasında",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 14"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "symphysis menti",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "çene ucundan",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 72"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "synchondrosis manubriosternalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Bu nedenle bu birleşim seviyesi",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 44"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "systema cardiovasculare",
+      "accepted": "Kalp-damar sistemi",
+      "forms": [
+        {
+          "tr": "Kalp-damar sistemi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 1"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "talus",
+      "accepted": "Aşık kemiği",
+      "forms": [
+        {
+          "tr": "aşık kemiği",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 9",
+            "Lokomotor s. 9"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tegmen tympani",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Üst duvarı paries tegmentalis",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 68"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tendo",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kiriş",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 67"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tendo calcaneus",
+      "accepted": "Aşil tendonu",
+      "forms": [
+        {
+          "tr": "Aşil tendonu",
+          "count": 2,
+          "pages": [
+            "Lokomotor s. 100",
+            "Lokomotor s. 100"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tibia",
+      "accepted": "Kaval kemiği",
+      "forms": [
+        {
+          "tr": "kaval kemiği",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "trabecula septomarginalis",
+      "accepted": "Moderatör band",
+      "forms": [
+        {
+          "tr": "moderatör band",
+          "count": 2,
+          "pages": [
+            "İç Organlar s. 6",
+            "İç Organlar s. 8"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "trachea",
+      "accepted": "Soluk borusu",
+      "forms": [
+        {
+          "tr": "Soluk Borusu",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 32"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tractus rubrospinalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Monakov'un yolu",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 34"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tractus spinocerebellaris posterior",
+      "accepted": "Flechsig demeti",
+      "forms": [
+        {
+          "tr": "Flechsig Demeti",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 33"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "trigonum cystohepaticum",
+      "accepted": "Calot üçgeni",
+      "forms": [
+        {
+          "tr": "Calot üçgeni",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 50"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "trigonum femorale",
+      "accepted": "Scarpa üçgeni",
+      "forms": [
+        {
+          "tr": "Scarpa üçgeni",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 15"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "trigonum vesicae",
+      "accepted": "Lieutaud üçgeni",
+      "forms": [
+        {
+          "tr": "Lieutaud üçgeni",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 57"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "truncus encephali",
+      "accepted": "Beyin sapı",
+      "forms": [
+        {
+          "tr": "Beyin Sapı",
+          "count": 2,
+          "pages": [
+            "Nöroanatomi s. 21",
+            "Nöroanatomi s. 25"
+          ]
+        },
+        {
+          "tr": "BEYIN SAPI",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 20"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tuber calcanei",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "geçerek calcaneus'ta",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 100"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tuberculum majus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "dışyanda",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tuberculum minus",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "içyanda",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tuberositas masseterica",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "pürtüklü alana",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 22"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "tuberositas pterygoidea",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "pürtüklü alana",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 22"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "unguis",
+      "accepted": "Tırnak",
+      "forms": [
+        {
+          "tr": "tırnak",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 58"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "uvula palatina",
+      "accepted": "Küçük dil",
+      "forms": [
+        {
+          "tr": "küçük dil",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vagina bulbi",
+      "accepted": "Tenon kapsülü",
+      "forms": [
+        {
+          "tr": "Tenon kapsülü",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 64"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vagina musculi recti abdominis",
+      "accepted": "Rektus kılıfı",
+      "forms": [
+        {
+          "tr": "kılıfı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 87"
+          ]
+        },
+        {
+          "tr": "Rektus kılıfı",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 88"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "valva aortae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Bu deliği örten kapak",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 7"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "valva tricuspidalis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "oluşan bir kapak",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 6"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "valvula venosa",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "kapakçıklar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 4"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vas capillare",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "Kapiller damarlar",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 3"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vena anastomotica superior",
+      "accepted": "Trolard veni",
+      "forms": [
+        {
+          "tr": "Trolard veni",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 39"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vena magna cerebri",
+      "accepted": "Galen veni",
+      "forms": [
+        {
+          "tr": "Galen veni",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 40"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vena mediana cubiti",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "dalı",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 17"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ventralis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "ön uç",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ventriculus lateralis",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "sol ve sağ lateral ventriküller",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ventriculus quartus",
+      "accepted": "Dördüncü ventrikül",
+      "forms": [
+        {
+          "tr": "dördüncü ventrikül",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "ventriculus tertius",
+      "accepted": "Üçüncü ventrikül",
+      "forms": [
+        {
+          "tr": "üçüncü ventrikül",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 37"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vertebra",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "cartilage thyroidea'nın laminasının üst kenarı",
+          "count": 1,
+          "pages": [
+            "Nöroanatomi s. 53"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vertebrae thoracicae",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yüzey processus transversus'larda",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 43"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vesica biliaris",
+      "accepted": "Safra kesesi",
+      "forms": [
+        {
+          "tr": "safra kesesi",
+          "count": 1,
+          "pages": [
+            "İç Organlar s. 48"
+          ]
+        }
+      ]
+    },
+    {
+      "latin": "vomer",
+      "accepted": null,
+      "forms": [
+        {
+          "tr": "yüzü ile ala vomeris",
+          "count": 1,
+          "pages": [
+            "Lokomotor s. 32"
+          ]
+        }
+      ]
+    }
+  ]
+}

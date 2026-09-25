@@ -83,6 +83,8 @@ export interface ContentIndex extends VisibilityGraph {
   assetsFor(id: StructureId): string[]
   /** Display name in the requested language with graceful fallback (tr -> la -> en). */
   displayName(id: StructureId, lang?: 'tr' | 'la' | 'en'): string
+  /** Language of the name displayName shows (e.g. 'en' when no Turkish or Latin name exists yet). */
+  nameLanguage(id: StructureId, lang?: 'tr' | 'la' | 'en'): 'tr' | 'la' | 'en'
   /** Review records for a target. */
   reviewsFor(targetId: string): ReviewRecord[]
 }

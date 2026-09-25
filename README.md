@@ -52,7 +52,8 @@ npm run dev        # http://localhost:5173
 2. `models:build`: OBJ parçalarından sistem başına sıkıştırılmış GLB dosyalarını
    `public/models/bp3d/` altına üretir (yaklaşık 44 MB).
 3. `models:hra`: HRA kadın üreme organları GLB'lerini indirip dönüştürür.
-4. `content:build`: `content/` klasörünü doğrular ve `public/data/*.json` paketini yazar.
+4. `content:iuc`: Dönem 1–2 kaynağı olan üç İÜC ders kitabını indirir (yaklaşık 4 MB, sha256 denetimli).
+5. `content:build`: `content/` klasörünü doğrular ve `public/data/*.json` paketini yazar.
 
 Modeller indirilmeden de uygulama açılır; bu durumda 3B görünüm "Model yüklenemedi" duyurusu
 verir, metin modu ve arama çalışmaya devam eder.
@@ -73,8 +74,15 @@ verir, metin modu ve arama çalışmaya devam eder.
 | `npm run content:inventory` | BodyParts3D öğe listesinden yapı envanteri taslaklarını üretir |
 | `npm run content:terms` | TA2 (Latince) ve TDK/Wikidata (Türkçe) ad adaylarını çeker |
 | `npm run content:relations` | Wikidata'dan anatomik ilişkileri çeker |
+| `npm run content:iuc` | İÜC açık anatomi ders kitaplarını (CC BY 4.0) indirir, sayfa metinlerini çıkarır |
+| `npm run content:iuc-terms` | Kitaplardan elle kabul edilmiş Türkçe–Latince terim çiftlerini yapılara uygular |
+| `npm run content:iuc-scope` | Kitaplarda adı geçen yapılardan Dönem 1–2 kapsam hedeflerini üretir |
+| `npm run content:iuc-muscles` | Kitaptaki kas bloklarından başlangıç, yapışma, işlev, sinir ve konum alanlarını yazar |
+| `npm run content:iuc-cards` | Kitaptaki başlıklı bölümlerden organ, damar, sinir ve kemik kartları için konum, özet ve açıklama yazar |
+| `npm run content:quotecheck` | Kitaptan alınan her alıntının belirtilen sayfada geçtiğini denetler |
 | `npm run report:coverage` | Kapsam raporu → `docs/raporlar/kapsam.md` |
 | `npm run report:inventory` | Sistem × bölge envanter raporu → `docs/raporlar/envanter.md` |
+| `npm run report:release` | v1.0 sürüm kapıları → `docs/raporlar/surum-kapilari.md` |
 
 ## Testler
 

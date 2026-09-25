@@ -17,9 +17,58 @@ import { readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
 import { structureSchema, type DetailLevel } from '../../src/core/schema.ts'
 import { formatIssueReport, formatZodError, safeParseTr, summarize } from './lib/issues.ts'
-import { ELEMENTS_FILE, buildInventory, groupBySystem, parseElements } from './lib/inventory.ts'
+import { ELEMENTS_FILE, buildInventory, groupBySystem, parseElements, type PartOfWhole } from './lib/inventory.ts'
 import { CONTENT_DIR, REPO_ROOT, argValue, prettyJson, readJsonTree, readOptionalJson, repoRelative, writeText } from './lib/io.ts'
 import { isPlainObject } from './lib/merge.ts'
+import { indexTa2, matchTa2, type Ta2Term } from './lib/terminology.ts'
+import { lateralityFromEnglishName } from '../../src/core/frame.ts'
+
+/**
+ * Part-of wholes (heart, right lung, sternum, …) from the BodyParts3D part-of lists, limited to
+ * names that match exactly one TA2 term (standard anatomical wholes; groupings such as "content of
+ * thorax" or "systemic arterial tree" have no TA2 term). Without the TA2 snapshot
+ * (npm run content:terms) no wholes are added.
+ */
+/** Muscle name → TA2 muscle term (+ FMA id from content/terminology/ta2-fma.json when known). */
+async function loadMuscleTerms() {
+  const ta2Text = await readFile(join(REPO_ROOT, 'vendor', 'terminology', 'ta2.json'), 'utf8').catch(() => null)
+  if (!ta2Text) return undefined
+  const idx = indexTa2((JSON.parse(ta2Text) as { data: Ta2Term[] }).data)
+  const crosswalk = (JSON.parse(await readFile(join(CONTENT_DIR, 'terminology', 'ta2-fma.json'), 'utf8').catch(() => '{"map":{}}')) as { map: Record<string, string[]> }).map
+  return {
+    resolve: (name: string) => {
+      const hit = matchTa2({ id: 'x', names: { en: { value: name } }, laterality: 'unpaired', kind: 'muscle', externalIds: {} }, idx, new Map())
+      // TA2 often gives the bare name as the Latin term and "musculus x" as a synonym ("pronator teres").
+      if (!hit || ![hit.term.term.la, ...(hit.term.synonyms?.la ?? [])].some((la) => la?.startsWith('musculus '))) return null
+      const fma = crosswalk[String(hit.term.id)] ?? []
+      return { ta2Id: hit.term.id, ...(fma.length === 1 ? { fmaId: fma[0] } : {}) }
+    },
+  }
+}
+
+async function loadWholes(dir: string): Promise<PartOfWhole[]> {
+  const read = (f: string) =>
+    readFile(join(dir, f), 'utf8')
+      .then((t) => t.split(/\r?\n/).slice(1).filter(Boolean).map((l) => l.split('\t')))
+      .catch(() => [] as string[][])
+  const names = await read('partof_parts_list_e.txt')
+  const parts = await read('partof_element_parts.txt')
+  const ta2Text = await readFile(join(REPO_ROOT, 'vendor', 'terminology', 'ta2.json'), 'utf8').catch(() => null)
+  if (!ta2Text || names.length === 0) return []
+  const idx = indexTa2((JSON.parse(ta2Text) as { data: Ta2Term[] }).data)
+  const elementsOf = new Map<string, string[]>()
+  for (const [c, , fj] of parts) if (c && fj) elementsOf.set(c, [...(elementsOf.get(c) ?? []), fj.trim()])
+  const out: PartOfWhole[] = []
+  for (const [c, , name] of names) {
+    const m = /^FMA(\d+)$/.exec(c?.trim() ?? '')
+    if (!m || !name?.trim() || /\b(system|content|compartment)\b|body proper|human body/.test(name)) continue
+    const like = { id: `fma:${m[1]}`, names: { en: { value: name.trim() } }, laterality: lateralityFromEnglishName(name) ?? 'unpaired', kind: 'other', externalIds: {} }
+    const hit = matchTa2(like, idx, new Map())
+    if (!hit) continue
+    out.push({ fmaId: m[1]!, name: name.trim(), elementIds: elementsOf.get(c!.trim()) ?? [], basis: `adı TA2 ${hit.term.id} ("${hit.term.term.la}") terimiyle eşleşiyor` })
+  }
+  return out
+}
 
 async function main(): Promise<number> {
   const elementsPath = resolve(argValue('--elements') ?? join(REPO_ROOT, ELEMENTS_FILE))
@@ -73,7 +122,9 @@ async function main(): Promise<number> {
   }
 
   const today = new Date().toISOString().slice(0, 10)
-  const opts = { today, existing, knownRegions: regionIds, levelHints, conceptNames }
+  const wholes = await loadWholes(dirname(elementsPath))
+  const muscleTerms = await loadMuscleTerms()
+  const opts = { today, existing, knownRegions: regionIds, levelHints, conceptNames, wholes, muscleTerms }
   let { records, issues } = buildInventory(parsed.elements, opts)
 
   // Link scope targets without a structure to the generic concept of the same English name.
@@ -127,6 +178,8 @@ async function main(): Promise<number> {
   const paired = records.filter((r) => r.counterpartId).length
   console.log(`Yapı envanteri güncellendi: ${records.length} taslak kayıt (${parsed.elements.length} BodyParts3D öğesinden) → ${repoRelative(inventoryDir)}/`)
   console.log(`  Genel (taraf belirtmeyen) kavram: ${records.filter((r) => r.laterality === 'paired_generic').length}. Yeni bağlanan kapsam hedefi: ${newLinks}.`)
+  console.log(`  Baş/parçalarından kurulan bütün kas: ${records.filter((r) => r.provenance.notes?.startsWith('Bütün kas')).length}.`)
+  console.log(`  Bütün yapı (parça-bütün listesinden, TA2 ile eşleşen): ${records.filter((r) => r.provenance.notes?.startsWith('Bütün yapı')).length} (aday ${wholes.length}); parça-bütün üst yapısı atanan kayıt: ${records.filter((r) => (r.parentIds ?? []).length > 0).length}.`)
   console.log(`  Sistemler: ${[...groups].map(([s, l]) => `${s} ${l.length}`).join(', ') || '—'}`)
   console.log(`  Sağ/sol kayıt: ${sided}, karşı tarafı eşleşen: ${paired}. Bölgesi atanmamış: ${records.filter((r) => (r.regions ?? []).length === 0).length}.`)
   if (removed > 0) console.log(`  ${removed} eski envanter dosyası kaldırıldı.`)

@@ -49,6 +49,37 @@ SHA-256 özetinden türetilir; aynı girdi her zaman aynı sürümü verir. `fil
 dosyasının `sha256:` özetini içerir. Tekrarlanabilir derleme için `SOURCE_DATE_EPOCH` ortam
 değişkeni `generatedAt` alanını sabitler.
 
+### Dönem 1–2 kaynak hattı (İÜC ders kitapları)
+
+Cerrahpaşa Tıp Fakültesi Anatomi AD'nin açık lisanslı (CC BY 4.0) üç ders kitabı, kapsamın ve
+Türkçe terimlerin birincil kaynağıdır.
+
+| Komut | Görev |
+|---|---|
+| `npm run content:iuc` | PDF'leri indirir (sha256 denetimli) ve basılı sayfa numaralı sayfa metinlerini `vendor/iuc/` altına yazar. |
+| `npm run content:iuc-terms` | Kitaplardaki "Latince (Türkçe)" çiftlerini çıkarır. Aday listesi `content/terminology/iuc-terimler.json` dosyasına gider. Yalnızca `content/terminology/iuc-kabul.json` dosyasında elle kabul edilen çiftler Türkçe ad olur ve `content/structures/terminoloji/iuc-adlar.json` dosyasına yazılır. Kitapta alıntısı bulunmayan bir kabul komutu durdurur. |
+| `npm run content:iuc-scope` | Latince adı kitaplarda geçen yapıları Dönem 1–2 kapsam hedefi yapar: `content/scope/iuc-donem12.json`, düzey "temel". Bölgesi olmayanlar `docs/raporlar/iuc-kapsam-disi.md` dosyasında listelenir. |
+| `npm run content:iuc-muscles` | "M. x:" (ya da tek başına "M. x") bloklarındaki Başlangıcı / Sonlanışı / İşlevi / Siniri satırlarını birebir alıntıyla kas kartlarına yazar; kasın üstündeki grup başlıkları ("Kol Kasları › Ön bölge kasları") konum alanı olur: `content/structures/iuc/kaslar.json`. |
+| `npm run content:iuc-cards` | "Latince (Türkçe)" ya da tek başına Latince ("Colon Ascendens") başlıklı bölümlerden, yapının nerede olduğunu söyleyen ilk cümleyi ("… yer alır", "… bulunur") konum, yapının adını anan ilk diğer cümleyi özet, hemen ardından gelen cümleleri açıklama yapar: `content/structures/iuc/kartlar.json`. Yalnız boş alanları doldurur. Elle incelemede uygunsuz bulunan yapılar gerekçesiyle `content/terminology/iuc-kart-dislama.json` dosyasına eklenir (`yapilar`: tümden dışla, `yalnizOzet`: açıklamayı atla, `konumYok`: konum cümlesini atla). |
+| `npm run content:quotecheck` | `quote` taşıyan her kaynak referansının belirtilen sayfada birebir geçtiğini denetler. İÜC kaynağında `quote` zorunludur. |
+| `npm run report:release` | v1.0 sürüm kapılarını ölçer: `docs/raporlar/surum-kapilari.md`. |
+
+**İÜC kaynağından içerik eklerken dört kural geçerli:**
+1. `sources` içinde `locator: "s. N"` (basılı sayfa) ve `quote` (sayfadaki birebir metin) verilir. Atlanan kısım "…" ile gösterilir.
+2. Alan değeri kısaltılmış veya uyarlanmışsa `note` alanında belirtilir. CC BY 4.0 buna izin verir; değişikliğin belirtilmesi gerekir.
+3. `content:quotecheck` geçmeden PR birleştirilmez (CI'da çalışır).
+4. Alıntının geçmesi, değerin doğru yapıya bağlandığını kanıtlamaz. Durum uzman incelemesine kadar "doğrulanmadı" kalır.
+
+**Envanterdeki bütün yapılar:** `npm run content:inventory` artık BodyParts3D parça–bütün (part-of)
+listesindeki "bütün" kavramları da ekler (kalp, sağ atriyum, mitral kapak, karaciğer, akciğerler,
+beyin, kafatası, sternum…). Bir bütün kavramın eklenmesi için üç koşul gerekir:
+- adı tek bir TA2 terimiyle eşleşmeli;
+- en az iki kayıtlı parçadan oluşmalı;
+- parçalarının en az %75'i aynı sistemde olmalı.
+
+"Boyun" ve "el" gibi bölge adları sisteme bağlanmaz. Her parça, onu kapsayan en küçük bütüne
+bağlanır; yapı ağacı bu sayede anatomik hiyerarşi kazanır.
+
 ## 2. Kimlikler
 
 Kimlikler kalıcıdır; bir kez yayımlanan kimlik yeniden kullanılmaz veya başka bir yapıya verilmez.

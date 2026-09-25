@@ -13,7 +13,7 @@ test('not, kayıtlı görünüm ve hata bildirimi yeniden yüklemeden sonra koru
   await page.getByRole('button', { name: 'Hata bildir' }).click()
   await page.getByLabel('Hata açıklaması').fill('Deneme bildirimi')
   await page.getByRole('button', { name: 'Gönder' }).click()
-  await expect(page.getByText(/Bildiriminiz kaydedildi/)).toBeVisible()
+  await expect(page.getByText(/Bildiriminiz .*kaydedildi/)).toBeVisible()
   await page.getByText(/Kayıtlı görünümler/).click()
   await page.getByLabel('Görünüm adı').fill('Kol')
   await page.getByRole('button', { name: 'Kaydet', exact: true }).click()

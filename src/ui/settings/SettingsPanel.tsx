@@ -5,6 +5,7 @@
 import { useRef, useState } from 'react'
 import type { UserSettings } from '../../user/types.ts'
 import { useServices } from '../services.tsx'
+import { AboutSection } from './AboutSection.tsx'
 import { ProgressSection } from './ProgressSection.tsx'
 
 export function SettingsPanel() {
@@ -160,6 +161,8 @@ export function SettingsPanel() {
           {status}
         </p>
       </fieldset>
+
+      <AboutSection />
     </section>
   )
 }

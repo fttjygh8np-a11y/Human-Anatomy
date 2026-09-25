@@ -288,15 +288,24 @@ export function InfoPanel() {
       <section className="info-panel info-empty" aria-label="Yapı bilgisi">
         <Icon name="compass" size={40} />
         <p className="muted">Bilgi görmek için modelde, ağaçta veya aramada bir yapı seçin.</p>
+        <p className="small muted">
+          Eğitim amaçlıdır; içerik henüz uzman incelemesinden geçmemiştir. Kaynaklar ve lisanslar: Ayarlar › Hakkında ve kaynaklar.
+        </p>
       </section>
     )
   }
 
   const reviews = index.reviewsFor(s.id)
   const title = index.displayName(s.id, settings.nameLanguage)
+  const titleLang = index.nameLanguage(s.id, settings.nameLanguage)
   return (
     <section className="info-panel" aria-labelledby="info-title" aria-live="polite">
-      <h2 id="info-title">{title}</h2>
+      <h2 id="info-title" lang={titleLang === 'tr' ? undefined : titleLang}>
+        {title}
+      </h2>
+      {titleLang === 'en' && (
+        <p className="small muted">Bu yapının Türkçe ve Latince adı henüz eklenmedi; İngilizce kaynak adı gösteriliyor.</p>
+      )}
       {selected.length > 1 && <p className="muted small">{selected.length} yapı seçili; sonuncusu gösteriliyor, karşılaştırma aşağıda.</p>}
       <div className="names">
         <NameLine lang="TR" entry={s.names.tr} />

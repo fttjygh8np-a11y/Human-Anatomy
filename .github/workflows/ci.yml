@@ -23,6 +23,13 @@ jobs:
       - run: npx tsc -b
       - run: npx vitest run
       - run: npm run content:validate
+      - name: İÜC ders kitapları önbelleği
+        uses: actions/cache@v4
+        with:
+          path: vendor/iuc
+          key: iuc-${{ hashFiles('scripts/content/lib/iuc.ts') }}
+      - run: npm run content:iuc
+      - run: npm run content:quotecheck
       - run: npm run build
 
   e2e:
